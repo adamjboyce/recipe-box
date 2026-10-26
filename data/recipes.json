@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T19:04:48+00:00",
+ "generated": "2026-10-26T19:11:43+00:00",
  "recipes": [
   {
    "id": "teds-72-hour-pizza-dough",
@@ -369,6 +369,65 @@
    ]
   },
   {
+   "id": "black-bean-paste",
+   "title": "Black Bean Paste",
+   "category": "Sauces & Condiments",
+   "cuisine": "Mexican",
+   "tags": [],
+   "yield": "about 720 g (about 3 cups)",
+   "developed": "2026-09-03",
+   "groups": [
+    {
+     "ingredients": [
+      "28 g oil (about 2 Tbsp)",
+      "28 g unsalted butter (about 2 Tbsp)",
+      "150 g yellow onion, diced (about 1 medium)",
+      "20 g garlic, minced (about 4 cloves)",
+      "60 g poblano, diced (about 1/2)",
+      "480 g black beans, drained (about two 15 oz cans)",
+      "10 g kosher salt (about 2 1/2 tsp Diamond Crystal)",
+      "2 g black pepper, freshly ground (about 1 tsp)",
+      "1 g cayenne or 2 g Aleppo pepper (about 1/2 tsp cayenne or 1 tsp Aleppo)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Heat the oil and butter in a skillet over medium.",
+    "Cook the onion, garlic and poblano, stirring often, until very soft, 8 to 10 minutes.",
+    "Add the beans, salt, pepper and cayenne or Aleppo and cook 3 minutes.",
+    "Blend smooth to a stiff, spreadable paste, adding a splash of water only if the blender stalls.",
+    "Taste and adjust the salt."
+   ],
+   "notes": "Keeps 5 days refrigerated. Good as a dip or spread on tortas and tostadas. Store-bought: canned refried black beans.",
+   "rating": 0,
+   "traits": [
+    "make-ahead",
+    "quick"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "Canned black beans at about 230 mg sodium per 100 g drained; all 10 g of salt counted.",
+    "per_serving": {
+     "calories": 85,
+     "carbs_g": 9,
+     "cholesterol_mg": 5,
+     "fat_g": 5,
+     "fiber_g": 3,
+     "protein_g": 3,
+     "sat_fat_g": 1.5,
+     "sodium_mg": 420,
+     "sugar_g": 0.7
+    },
+    "serving": "about 60 g (1 of 12)",
+    "servings": 12
+   }
+  },
+  {
    "id": "carnitas-oven",
    "title": "Braised Carnitas",
    "category": "Mains",
@@ -562,19 +621,6 @@
     },
     {
      "ingredients": [
-      "28 g oil (about 2 Tbsp)",
-      "28 g unsalted butter (about 2 Tbsp)",
-      "150 g onion, diced (about 1 medium)",
-      "20 g garlic (about 4 cloves)",
-      "60 g poblano, diced (about 1/2)",
-      "480 g black beans, drained (about two 15 oz cans)",
-      "8 g salt and 2 g black pepper, to taste (about 1 1/4 tsp salt, 1 tsp pepper)",
-      "1 g cayenne or 2 g Aleppo pepper, to taste (about 1/2 tsp cayenne or 1 tsp Aleppo)"
-     ],
-     "name": "Black bean paste"
-    },
-    {
-     "ingredients": [
       "2270 g frozen tater tots (about one 5 lb bag)",
       "20 g salt, tossed with the hot tots (about 1 Tbsp plus 1/4 tsp)"
      ],
@@ -588,6 +634,7 @@
     },
     {
      "ingredients": [
+      "720 g [black bean paste](black-bean-paste), homemade or canned refried black beans (about 3 cups)",
       "2640 g Mission Extra Grande 13-inch flour tortillas (about 24)",
       "250 g deli white American cheese (about 12 slices)",
       "340 g shredded cheese (about 12 oz)",
@@ -609,8 +656,6 @@
     "Beat the eggs with the salt and pepper just to uniform yellow and pour over.",
     "Bake at 325°F 30 to 35 minutes, checking at 25 and rotating once, until the center is just set with a slight wobble.",
     "Cut the egg slab into quarters on the pan to speed cooling.",
-    "For the bean paste, cook the onion, garlic and poblano in the oil and butter until very soft.",
-    "Add the beans, salt, pepper and cayenne or Aleppo, then blend smooth to a stiff, spreadable paste.",
     "Fry the tots darker than you would eat them, salt them hot and cool on a rack.",
     "Heat the rice pouches, spread thin on a sheet pan to cool fast and refrigerate.",
     "Cool every component completely.",
@@ -645,7 +690,13 @@
     },
     "serving": "1 burrito, about 420 g (1 of 24)",
     "servings": 24
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Black bean paste moved to its own recipe."
+    }
+   ]
   },
   {
    "id": "salsa-verde-broiled",
@@ -1481,7 +1532,8 @@
     "Add the spices, anardana and amchur, then the chickpeas.",
     "Crush in kasuri methi at the end.",
     "Finish with a ghee tadka of ginger julienne and green chili.",
-    "Salt boldly."
+    "Salt boldly.",
+    "Serve with [spiced basmati rice](spiced-basmati-rice) or plain basmati."
    ],
    "notes": "",
    "rating": 0,
@@ -4832,7 +4884,7 @@
     "Stir in the garam masala and the kasuri methi crushed between your palms.",
     "Stir in the butter over low heat until emulsified.",
     "Add the 45 g salt and the MSG, tasting a whole bean as you go.",
-    "Finish with lemon juice and cilantro. Serve over basmati rice."
+    "Finish with lemon juice and cilantro. Serve over [spiced basmati rice](spiced-basmati-rice) or plain basmati."
    ],
    "notes": "Freeze without rice or cilantro for up to 3 months; the garam masala, methi, butter and salt can go in before freezing. Add a fresh squeeze of lemon when reheating. Keeps 3 to 4 days in the fridge.",
    "rating": 0,
@@ -5804,6 +5856,69 @@
     },
     "serving": "9 oz pour (1 of 12)",
     "servings": 12
+   }
+  },
+  {
+   "id": "spiced-basmati-rice",
+   "title": "Spiced Basmati Rice",
+   "category": "Sides & Breads",
+   "cuisine": "Indian",
+   "tags": [],
+   "yield": "serves 6",
+   "developed": "2026-10-26",
+   "groups": [
+    {
+     "ingredients": [
+      "400 g extra long basmati rice (about 2 1/4 cups)",
+      "30 g ghee (about 2 Tbsp)",
+      "4 g cumin seeds (about 1 1/2 tsp)",
+      "3 g coriander seeds, lightly crushed (about 1 1/2 tsp)",
+      "2 g green cardamom pods, cracked (about 6)",
+      "0.5 g whole cloves (about 4)",
+      "3 g cinnamon stick (about 1 small)",
+      "0.5 g bay leaves (about 2)",
+      "150 g yellow onion, thinly sliced (about 1 medium)",
+      "800 g low-sodium chicken stock (about 3 1/3 cups)",
+      "10 g kosher salt (about 2 1/2 tsp Diamond Crystal)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Rinse the rice in several changes of cold water until it runs nearly clear.",
+    "Soak 20 minutes, then drain well.",
+    "Heat the ghee in a heavy pot with a tight lid over medium.",
+    "Add the cumin, coriander, cardamom, cloves, cinnamon and bay; stir until the cumin darkens and smells toasty, about 1 minute.",
+    "Add the onion and cook, stirring, until golden brown, 8 to 10 minutes.",
+    "Add the drained rice and stir gently 2 minutes to coat every grain.",
+    "Add the stock and salt and bring to a boil. The liquid should taste well seasoned.",
+    "Cover, turn the heat to its lowest setting and cook 12 minutes.",
+    "Rest off the heat, still covered, 10 minutes.",
+    "Pull out the cinnamon stick and bay leaves and fluff gently with a fork."
+   ],
+   "notes": "Use vegetable stock for a vegetarian version.",
+   "rating": 0,
+   "traits": [
+    "quick"
+   ],
+   "diet": [
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "Low-sodium chicken stock at about 140 mg sodium per 100 g; all 10 g of salt counted.",
+    "per_serving": {
+     "calories": 310,
+     "carbs_g": 55,
+     "cholesterol_mg": 13,
+     "fat_g": 5,
+     "fiber_g": 1.2,
+     "protein_g": 6,
+     "sat_fat_g": 3,
+     "sodium_mg": 840,
+     "sugar_g": 1
+    },
+    "serving": "about 1 1/4 cups (1 of 6)",
+    "servings": 6
    }
   },
   {
