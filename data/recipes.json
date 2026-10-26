@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T18:29:35+00:00",
+ "generated": "2026-10-26T18:49:41+00:00",
  "recipes": [
   {
    "id": "teds-72-hour-pizza-dough",
@@ -292,89 +292,8 @@
    }
   },
   {
-   "id": "barbacoa-crockpot",
-   "title": "Barbacoa (Crockpot)",
-   "category": "Mains",
-   "cuisine": "Mexican",
-   "tags": [
-    "camping",
-    "make-ahead",
-    "freezer"
-   ],
-   "yield": "about 700 g shredded meat",
-   "developed": "2026-10-15",
-   "groups": [
-    {
-     "ingredients": [
-      "28 g dried guajillo chiles, toasted, stemmed and seeded (about 4)",
-      "45 g dried ancho chiles, toasted, stemmed and seeded (about 4)",
-      "6 g dried morita chiles, toasted and stemmed (about 2)",
-      "20 g chipotles in adobo plus 30 g adobo sauce (about 2 chipotles)"
-     ],
-     "name": "Chiles"
-    },
-    {
-     "ingredients": [
-      "1130 g beef chuck roast, cut into large chunks (about 2.5 lb)",
-      "200 g white onion, quartered (about 1)",
-      "30 g garlic, peeled, left whole (about 6 cloves)",
-      "240 g beef broth",
-      "45 g apple cider vinegar",
-      "8 g ground cumin",
-      "6 g dried Mexican oregano",
-      "1 g bay leaves (about 3)",
-      "18 g salt"
-     ],
-     "name": "Braise"
-    }
-   ],
-   "steps": [
-    "Toast the guajillo, ancho and morita in a dry pan over medium, 20 to 30 seconds a side, with the vent running.",
-    "Soak the toasted chiles in hot water 20 minutes.",
-    "Blend the soaked chiles with the chipotles, adobo, onion, garlic, broth, vinegar, cumin, oregano and salt until smooth.",
-    "Sear the chuck hard in a skillet.",
-    "Deglaze the skillet into the crockpot.",
-    "Add the beef, sauce and bay leaves to the crockpot.",
-    "Cook on low 8 hours.",
-    "Lift the meat out with a slotted spoon.",
-    "Skim the fat from the liquid and pull the bay leaves.",
-    "Reduce the liquid hard in a wide saucepan, 15 minutes or more, until it coats a spoon and a finger track across the back holds.",
-    "Taste the reduced sauce for salt.",
-    "Shred the meat and toss with enough sauce to coat; reserve any extra sauce."
-   ],
-   "notes": "Reduce the liquid well before tossing; a thin sauce leaves the meat wet. Freezes well for up to 3 months; reheat covered until hot through.",
-   "rating": 4,
-   "traits": [
-    "camping",
-    "make-ahead",
-    "freezer",
-    "slow-cooker",
-    "long-cook"
-   ],
-   "diet": [
-    "dairy-free",
-    "gluten-free"
-   ],
-   "nutrition": {
-    "assumptions": "1134 g raw chuck; about half the rendered fat (35 g) is skimmed off. All 18 g salt stays in the meat and reduced sauce.",
-    "per_serving": {
-     "calories": 520,
-     "carbs_g": 15,
-     "cholesterol_mg": 160,
-     "fat_g": 30,
-     "fiber_g": 4.8,
-     "protein_g": 48,
-     "sat_fat_g": 11.5,
-     "sodium_mg": 1800,
-     "sugar_g": 5
-    },
-    "serving": "150 g shredded meat with sauce (1 of 5, from about 700 g)",
-    "servings": 5
-   }
-  },
-  {
    "id": "beer-battered-walleye-and-chips",
-   "title": "Beer-Battered Walleye and Chips",
+   "title": "Beer-Battered Walleye",
    "category": "Mains",
    "cuisine": "British",
    "tags": [
@@ -404,27 +323,18 @@
       "105 g malt vinegar, to serve (about 7 Tbsp)"
      ],
      "name": "Fish"
-    },
-    {
-     "ingredients": [
-      "1588 g frozen thick-cut chips (about two 28 oz bags)",
-      "16 g fine salt, for the chips right out of the air fryer (about 2 3/4 tsp)"
-     ],
-     "name": "Chips"
     }
    ],
    "steps": [
     "Whisk the dry mix ingredients together.",
     "Heat the oil in a deep pot of at least 8 quarts to 190°C, lid on while it climbs and between batches.",
-    "Air fry the chips at 400°F in batches, 15 to 18 minutes, shaking halfway.",
-    "Salt the chips the second they come out and hold on a rack in a 200°F oven.",
     "Whisk the lager and vodka into the dry mix just to combine, lumps and all. Rest 10 minutes.",
     "Pat the fish dry and salt both sides.",
     "Dredge in flour, shake off, dip in batter and let the excess run.",
     "Lower away from yourself into the 190°C oil.",
     "Fry 3 to 4 minutes, three or four pieces at a time, until the batter is hard and deep gold. Fry the thin tail pieces together.",
     "Drain on a rack and salt immediately.",
-    "Serve with malt vinegar and [tartar sauce](tartar-sauce), homemade or jarred."
+    "Serve with malt vinegar, [tartar sauce](tartar-sauce), homemade or jarred, and fries."
    ],
    "notes": "The dry mix keeps for days in an airtight container. Cool the oil fully before storing.",
    "rating": 0,
@@ -436,21 +346,27 @@
     "dairy-free"
    ],
    "nutrition": {
-    "assumptions": "All the batter is counted, with oil absorbed at 12% of the battered fish weight and the beer and vodka ethanol counted in full; chips are air fried with no added oil. All 36 g of finishing salt and the malt vinegar are counted; tartar sauce is left out.",
+    "assumptions": "All the batter is counted, with oil absorbed at 12% of the battered fish weight and the beer and vodka ethanol counted in full. The 20 g finishing salt and the malt vinegar are counted; fries and tartar sauce are left out.",
     "per_serving": {
-     "calories": 1120,
-     "carbs_g": 97,
+     "calories": 800,
+     "carbs_g": 45,
      "cholesterol_mg": 165,
-     "fat_g": 53,
-     "fiber_g": 6,
-     "protein_g": 47,
-     "sat_fat_g": 5.5,
-     "sodium_mg": 3730,
-     "sugar_g": 0.9
+     "fat_g": 43,
+     "fiber_g": 1,
+     "protein_g": 42,
+     "sat_fat_g": 3.5,
+     "sodium_mg": 2150,
+     "sugar_g": 0.5
     },
-    "serving": "3 pieces of fish (about 190 g raw) with about 225 g chips (1 of 7)",
+    "serving": "3 pieces of fish (about 190 g raw), battered and fried (1 of 7)",
     "servings": 7
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Fish only now. Fries are just a serve-with."
+    }
+   ]
   },
   {
    "id": "dill-escabeche-pickle-soup",
@@ -564,6 +480,80 @@
     },
     "serving": "about 2.5 cups, 650 g (1 of 12)",
     "servings": 12
+   }
+  },
+  {
+   "id": "carnitas-oven",
+   "title": "Braised Carnitas",
+   "category": "Mains",
+   "cuisine": "Mexican",
+   "tags": [
+    "camping",
+    "make-ahead",
+    "freezer"
+   ],
+   "yield": "about 1084 g shredded meat",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "1500 g bone-in pork shoulder butt, cut into 5 cm chunks around the bone (about 3.3 lb)",
+      "180 g orange, juiced, peels reserved (about 1)",
+      "150 g white onion, quartered (about 1 medium)",
+      "30 g garlic, smashed and peeled (about 6 cloves)",
+      "8 g ground cumin",
+      "6 g dried Mexican oregano",
+      "0.5 g bay leaves (about 2)",
+      "16 g salt",
+      "About 750 g water, to come halfway up the meat"
+     ],
+     "name": "Braise"
+    },
+    {
+     "ingredients": [
+      "2 Tbsp lard (about 30 g)"
+     ],
+     "name": "To crisp"
+    }
+   ],
+   "steps": [
+    "Put everything in an enameled dutch oven with the orange peels and the bone.",
+    "Add water to come halfway up the meat.",
+    "Cover and cook at 165°C for 3 hours.",
+    "Uncover, raise to 190°C and cook about 30 minutes until the liquid renders down and the edges catch.",
+    "Pull the bone.",
+    "Shred coarsely, keeping some fat with the meat.",
+    "Skim and save any fat that separates.",
+    "Heat a griddle over medium-high and add the lard.",
+    "Spread the meat in a thin layer and leave it 2 to 3 minutes before turning."
+   ],
+   "notes": "The braise needs no added fat; the shoulder renders its own. Freezes well for up to 3 months; thaw before crisping.",
+   "rating": 0,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "long-cook"
+   ],
+   "diet": [
+    "dairy-free",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "Bone about 15% of the 3.3 lb shoulder; about half the fat renders and half of that is skimmed off. The 30 g of griddle lard is counted against the whole 1084 g batch.",
+    "per_serving": {
+     "calories": 420,
+     "carbs_g": 6,
+     "cholesterol_mg": 135,
+     "fat_g": 29,
+     "fiber_g": 1,
+     "protein_g": 31,
+     "sat_fat_g": 10.5,
+     "sodium_mg": 1010,
+     "sugar_g": 2
+    },
+    "serving": "150 g cooked meat (1 of 7)",
+    "servings": 7
    }
   },
   {
@@ -959,7 +949,7 @@
   },
   {
    "id": "camp-cheesesteaks-chuck-eye",
-   "title": "Camp Cheesesteaks (Shaved Chuck Eye with Queso)",
+   "title": "Camp Cheesesteaks",
    "category": "Mains",
    "cuisine": "American",
    "tags": [
@@ -1219,80 +1209,6 @@
     },
     "serving": "3.5 cups popped, about 37 g (1 of 4)",
     "servings": 4
-   }
-  },
-  {
-   "id": "carnitas-oven",
-   "title": "Carnitas (Oven, Dutch Oven)",
-   "category": "Mains",
-   "cuisine": "Mexican",
-   "tags": [
-    "camping",
-    "make-ahead",
-    "freezer"
-   ],
-   "yield": "about 1084 g shredded meat",
-   "developed": "2026-10-15",
-   "groups": [
-    {
-     "ingredients": [
-      "1500 g bone-in pork shoulder butt, cut into 5 cm chunks around the bone (about 3.3 lb)",
-      "180 g orange, juiced, peels reserved (about 1)",
-      "150 g white onion, quartered (about 1 medium)",
-      "30 g garlic, smashed and peeled (about 6 cloves)",
-      "8 g ground cumin",
-      "6 g dried Mexican oregano",
-      "0.5 g bay leaves (about 2)",
-      "16 g salt",
-      "About 750 g water, to come halfway up the meat"
-     ],
-     "name": "Braise"
-    },
-    {
-     "ingredients": [
-      "2 Tbsp lard (about 30 g)"
-     ],
-     "name": "To crisp"
-    }
-   ],
-   "steps": [
-    "Put everything in an enameled dutch oven with the orange peels and the bone.",
-    "Add water to come halfway up the meat.",
-    "Cover and cook at 165°C for 3 hours.",
-    "Uncover, raise to 190°C and cook about 30 minutes until the liquid renders down and the edges catch.",
-    "Pull the bone.",
-    "Shred coarsely, keeping some fat with the meat.",
-    "Skim and save any fat that separates.",
-    "Heat a griddle over medium-high and add the lard.",
-    "Spread the meat in a thin layer and leave it 2 to 3 minutes before turning."
-   ],
-   "notes": "The braise needs no added fat; the shoulder renders its own. Freezes well for up to 3 months; thaw before crisping.",
-   "rating": 0,
-   "traits": [
-    "camping",
-    "make-ahead",
-    "freezer",
-    "long-cook"
-   ],
-   "diet": [
-    "dairy-free",
-    "gluten-free"
-   ],
-   "nutrition": {
-    "assumptions": "Bone about 15% of the 3.3 lb shoulder; about half the fat renders and half of that is skimmed off. The 30 g of griddle lard is counted against the whole 1084 g batch.",
-    "per_serving": {
-     "calories": 420,
-     "carbs_g": 6,
-     "cholesterol_mg": 135,
-     "fat_g": 29,
-     "fiber_g": 1,
-     "protein_g": 31,
-     "sat_fat_g": 10.5,
-     "sodium_mg": 1010,
-     "sugar_g": 2
-    },
-    "serving": "150 g cooked meat (1 of 7)",
-    "servings": 7
    }
   },
   {
@@ -3330,25 +3246,11 @@
    "groups": [
     {
      "ingredients": [
-      "5 g cumin seed, toasted and ground",
-      "4 g sweet paprika",
-      "3 g coriander seed, toasted and ground",
-      "2.5 g black peppercorns, ground fresh",
-      "2 g Aleppo pepper flakes",
-      "1.5 g allspice berries, ground",
-      "1 g dried oregano, crumbled",
-      "0.5 g ground cinnamon",
-      "0.5 g ground sumac"
-     ],
-     "name": "Spice blend (20 g, for 2 lb meat)"
-    },
-    {
-     "ingredients": [
       "454 g ground beef, 73/27 (about 1 lb)",
       "454 g ground lamb, 80/20 (about 1 lb)",
       "150 g yellow onion, grated and wrung to about 80 g pulp (about 1 medium)",
       "15 to 20 g garlic, grated (about 3 to 4 cloves)",
-      "20 g spice blend (above)",
+      "20 g [kofta spice blend](kofta-spice-blend-weighed)",
       "15 g kosher salt",
       "2 to 3 g MSG"
      ],
@@ -3367,9 +3269,6 @@
     }
    ],
    "steps": [
-    "Toast the cumin and coriander seed in a dry pan over medium heat for 60 to 90 seconds until fragrant.",
-    "Cool the toasted seeds completely.",
-    "Grind the cumin, coriander, peppercorns and allspice; mix with the paprika, Aleppo, oregano, cinnamon and sumac. Do not toast the paprika, Aleppo or sumac.",
     "Grate the onion on the fine side of a box grater and wring the pulp hard in a towel.",
     "Combine the beef, lamb, onion pulp, garlic, 20 g spice blend, salt and MSG.",
     "Knead by hand 3 to 5 minutes until the mix is tacky and pulls at your fingers.",
@@ -3383,7 +3282,7 @@
     "Warm the pita on the grate 30 seconds a side.",
     "Build each wrap with one log, grilled vegetables, yogurt sauce, pickled onions and a squeeze of charred lemon."
    ],
-   "notes": "Raw logs freeze well for up to 3 months; thaw in the refrigerator before grilling. Spice blend keeps for months airtight. To make 4 lb, double everything including salt and spice.",
+   "notes": "Raw logs freeze well for up to 3 months; thaw in the refrigerator before grilling. To make 4 lb, double everything including salt and spice.",
    "rating": 0,
    "traits": [
     "camping",
@@ -3407,7 +3306,13 @@
     },
     "serving": "1 wrap: one 2 oz log in one pocketless pita (1 of 16)",
     "servings": 16
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Spice blend now links to its own recipe."
+    }
+   ]
   },
   {
    "id": "kofta-spice-blend-weighed",
@@ -3647,12 +3552,6 @@
       "20 g flat-leaf parsley, chopped (about 1/3 bunch)"
      ],
      "name": "Finish"
-    },
-    {
-     "ingredients": [
-      "900 g long-grain white or jasmine rice"
-     ],
-     "name": "To serve"
     }
    ],
    "steps": [
@@ -3671,8 +3570,7 @@
     "Simmer uncovered, stirring often, until thick and creamy, about 30 minutes.",
     "Stir in the 20 g salt and the MSG, wait a couple of minutes, then taste a whole bean and add more salt in 5 g hits as needed.",
     "Stir in the hot sauce.",
-    "Cook the rice according to package directions.",
-    "Serve the beans over rice topped with green onion and parsley."
+    "Serve over white rice, topped with the green onion and parsley."
    ],
    "notes": "Freeze without rice, green onion or parsley for up to 3 months; add them fresh when reheating. Thickens a lot when cold; thin with water when reheating and stir often to prevent scorching.",
    "rating": 0,
@@ -3687,21 +3585,27 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "About 7.2 kg of beans at 360 g per serving, with the 900 g dry rice split evenly; 15% of the soaking salt is counted, the ham hock yields about 250 g meat and only the 20 g starting finishing salt is included.",
+    "assumptions": "About 7.2 kg of beans at 360 g per serving; 15% of the soaking salt is counted, the ham hock yields about 250 g meat and only the 20 g starting finishing salt is included.",
     "per_serving": {
-     "calories": 550,
-     "carbs_g": 79,
+     "calories": 390,
+     "carbs_g": 43,
      "cholesterol_mg": 35,
      "fat_g": 14,
-     "fiber_g": 11,
-     "protein_g": 26,
+     "fiber_g": 10.5,
+     "protein_g": 23,
      "sat_fat_g": 5,
      "sodium_mg": 1100,
      "sugar_g": 3.3
     },
-    "serving": "1.5 cups beans (about 360 g) over about 135 g cooked rice (1 of 20)",
+    "serving": "1.5 cups beans (about 360 g), rice not included (1 of 20)",
     "servings": 20
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Plain rice directions dropped; serve over any white rice."
+    }
+   ]
   },
   {
    "id": "low-country-seafood-boil",
@@ -4024,6 +3928,63 @@
    }
   },
   {
+   "id": "mojo-verde",
+   "title": "Mojo Verde",
+   "category": "Sauces & Condiments",
+   "cuisine": "Canarian",
+   "tags": [],
+   "yield": "about 500 g (about 2 cups)",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "60 g cilantro, leaves and tender stems (about 1 bunch)",
+      "160 g green bell pepper, seeded (about 1)",
+      "20 g garlic (about 4 cloves)",
+      "5 g cumin seed, toasted",
+      "12 g kosher salt",
+      "60 g white wine vinegar",
+      "180 g olive oil"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Blend everything but the oil until smooth.",
+    "With the blender running, pour in the oil.",
+    "Taste and keep salting until it tastes sharp and loud."
+   ],
+   "notes": "Keeps a week refrigerated. Take it out about an hour before serving so the oil loosens. Good on potatoes, grilled fish, chicken and eggs.",
+   "rating": 0,
+   "traits": [
+    "make-ahead",
+    "quick"
+   ],
+   "diet": [
+    "vegetarian",
+    "vegan",
+    "pescatarian",
+    "gluten-free",
+    "dairy-free"
+   ],
+   "nutrition": {
+    "assumptions": "All 12 g of salt counted.",
+    "per_serving": {
+     "calories": 100,
+     "carbs_g": 1,
+     "cholesterol_mg": 0,
+     "fat_g": 11,
+     "fiber_g": 0.3,
+     "protein_g": 0.2,
+     "sat_fat_g": 1.5,
+     "sodium_mg": 285,
+     "sugar_g": 0.5
+    },
+    "serving": "2 Tbsp (about 30 g)",
+    "servings": 16
+   }
+  },
+  {
    "id": "mudslide-slushie-base",
    "title": "Mudslide Slushie Base",
    "category": "Drinks",
@@ -4334,30 +4295,20 @@
     },
     {
      "ingredients": [
-      "60 g cilantro, leaves and tender stems (about 1 bunch)",
-      "160 g green bell pepper, seeded (about 1)",
-      "20 g garlic (about 4 cloves)",
-      "5 g cumin seed, toasted",
-      "12 g kosher salt",
-      "60 g white wine vinegar",
-      "180 g olive oil"
+      "210 g [mojo verde](mojo-verde) (about 1 cup)"
      ],
-     "name": "Mojo verde"
+     "name": "To serve"
     }
    ],
    "steps": [
-    "Mojo: blend everything but the oil until smooth.",
-    "With the blender running, pour in the oil.",
-    "Taste and keep salting until it tastes sharp and loud.",
-    "Set the mojo aside, or refrigerate if making ahead.",
-    "Potatoes: put them in a wide pot in a single layer.",
+    "Put the potatoes in a wide pot in a single layer.",
     "Add the salt and just enough water to barely cover.",
     "Boil hard, uncovered, 20 to 25 minutes, until a knife slides in and the water has nearly gone.",
     "Pour off whatever water is left.",
     "Return the pot to low heat and shake it every 30 seconds, 3 to 5 minutes, until the potatoes are dry, the skins wrinkle and a white salt bloom forms.",
-    "Serve in the pot, scattered with chopped cilantro, with the mojo alongside."
+    "Serve in the pot, scattered with chopped cilantro, with the mojo verde alongside."
    ],
-   "notes": "Mojo keeps a week refrigerated. Take it out about an hour before serving so the oil loosens.",
+   "notes": "",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -4384,7 +4335,13 @@
     },
     "serving": "about 215 g potatoes plus 2 Tbsp mojo (1 of 7)",
     "servings": 7
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Mojo verde moved to its own recipe."
+    }
+   ]
   },
   {
    "id": "piccalilli",
@@ -4901,12 +4858,6 @@
       "30 g cilantro, chopped"
      ],
      "name": "Finish"
-    },
-    {
-     "ingredients": [
-      "900 g extra long basmati rice"
-     ],
-     "name": "To serve"
     }
    ],
    "steps": [
@@ -4929,8 +4880,7 @@
     "Stir in the garam masala and the kasuri methi crushed between your palms.",
     "Stir in the butter over low heat until emulsified.",
     "Add the 45 g salt and the MSG, tasting a whole bean as you go.",
-    "Rinse the rice well, soak 20 minutes, drain and cook according to package directions.",
-    "Finish with lemon juice and cilantro and serve over rice."
+    "Finish with lemon juice and cilantro. Serve over basmati rice."
    ],
    "notes": "Freeze without rice or cilantro for up to 3 months; the garam masala, methi, butter and salt can go in before freezing. Add a fresh squeeze of lemon when reheating. Keeps 3 to 4 days in the fridge.",
    "rating": 0,
@@ -4946,21 +4896,27 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "About 7.5 qt (7.1 L) of rajma at 360 g a serving, with the 900 g dry rice split across all servings; kidney and pinto taken 50/50; 15% of the soaking salt counted, all 55 g of cooking salt and the MSG counted; unsalted butter.",
+    "assumptions": "About 7.5 qt (7.1 L) of rajma at 360 g a serving; kidney and pinto taken 50/50; 15% of the soaking salt counted, all 55 g of cooking salt and the MSG counted; unsalted butter.",
     "per_serving": {
-     "calories": 490,
-     "carbs_g": 85,
+     "calories": 330,
+     "carbs_g": 50,
      "cholesterol_mg": 20,
-     "fat_g": 9,
-     "fiber_g": 16,
-     "protein_g": 19,
+     "fat_g": 8.5,
+     "fiber_g": 15.5,
+     "protein_g": 15.5,
      "sat_fat_g": 5,
      "sodium_mg": 1310,
      "sugar_g": 5
     },
-    "serving": "1.5 cups rajma (about 360 g) over about 135 g cooked basmati (1 of 20)",
+    "serving": "1.5 cups rajma (about 360 g), rice not included (1 of 20)",
     "servings": 20
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Plain rice directions dropped; serve over basmati."
+    }
+   ]
   },
   {
    "id": "ras-el-hanout-caraway",
@@ -5764,6 +5720,87 @@
    }
   },
   {
+   "id": "barbacoa-crockpot",
+   "title": "Slow-Cooked Barbacoa",
+   "category": "Mains",
+   "cuisine": "Mexican",
+   "tags": [
+    "camping",
+    "make-ahead",
+    "freezer"
+   ],
+   "yield": "about 700 g shredded meat",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "28 g dried guajillo chiles, toasted, stemmed and seeded (about 4)",
+      "45 g dried ancho chiles, toasted, stemmed and seeded (about 4)",
+      "6 g dried morita chiles, toasted and stemmed (about 2)",
+      "20 g chipotles in adobo plus 30 g adobo sauce (about 2 chipotles)"
+     ],
+     "name": "Chiles"
+    },
+    {
+     "ingredients": [
+      "1130 g beef chuck roast, cut into large chunks (about 2.5 lb)",
+      "200 g white onion, quartered (about 1)",
+      "30 g garlic, peeled, left whole (about 6 cloves)",
+      "240 g beef broth",
+      "45 g apple cider vinegar",
+      "8 g ground cumin",
+      "6 g dried Mexican oregano",
+      "1 g bay leaves (about 3)",
+      "18 g salt"
+     ],
+     "name": "Braise"
+    }
+   ],
+   "steps": [
+    "Toast the guajillo, ancho and morita in a dry pan over medium, 20 to 30 seconds a side, with the vent running.",
+    "Soak the toasted chiles in hot water 20 minutes.",
+    "Blend the soaked chiles with the chipotles, adobo, onion, garlic, broth, vinegar, cumin, oregano and salt until smooth.",
+    "Sear the chuck hard in a skillet.",
+    "Deglaze the skillet into the crockpot.",
+    "Add the beef, sauce and bay leaves to the crockpot.",
+    "Cook on low 8 hours.",
+    "Lift the meat out with a slotted spoon.",
+    "Skim the fat from the liquid and pull the bay leaves.",
+    "Reduce the liquid hard in a wide saucepan, 15 minutes or more, until it coats a spoon and a finger track across the back holds.",
+    "Taste the reduced sauce for salt.",
+    "Shred the meat and toss with enough sauce to coat; reserve any extra sauce."
+   ],
+   "notes": "Reduce the liquid well before tossing; a thin sauce leaves the meat wet. Freezes well for up to 3 months; reheat covered until hot through.",
+   "rating": 4,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "slow-cooker",
+    "long-cook"
+   ],
+   "diet": [
+    "dairy-free",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "1134 g raw chuck; about half the rendered fat (35 g) is skimmed off. All 18 g salt stays in the meat and reduced sauce.",
+    "per_serving": {
+     "calories": 520,
+     "carbs_g": 15,
+     "cholesterol_mg": 160,
+     "fat_g": 30,
+     "fiber_g": 4.8,
+     "protein_g": 48,
+     "sat_fat_g": 11.5,
+     "sodium_mg": 1800,
+     "sugar_g": 5
+    },
+    "serving": "150 g shredded meat with sauce (1 of 5, from about 700 g)",
+    "servings": 5
+   }
+  },
+  {
    "id": "slushi-margarita",
    "title": "SlushiMax Margarita (Spiked Slush Max)",
    "category": "Drinks",
@@ -5887,14 +5924,14 @@
   },
   {
    "id": "split-buttermilk-pancakes-ham-cheddar",
-   "title": "Split Buttermilk Pancakes (Sweet and Ham-Cheddar) with Griddle Eggs",
+   "title": "Split Buttermilk Pancakes (Sweet and Ham-Cheddar)",
    "category": "Breakfast",
    "cuisine": "American",
    "tags": [
     "camping",
     "make-ahead"
    ],
-   "yield": "about 18 pancakes plus eggs, serves 8",
+   "yield": "about 18 pancakes, serves 8",
    "developed": "2026-10-15",
    "groups": [
     {
@@ -5937,9 +5974,7 @@
     },
     {
      "ingredients": [
-      "740 g breakfast sausage (about 1 lb 10 oz)",
-      "600 g eggs, blended 10 to 15 seconds (about 12 large)",
-      "1/2 stick butter, for the eggs (about 60 g)"
+      "30 g butter, for the griddle (about 2 Tbsp)"
      ],
      "name": "Griddle"
     },
@@ -5959,16 +5994,13 @@
    "steps": [
     "Whisk each dry blend in its own bowl.",
     "Whisk the buttermilk, egg and cooled melted butter for each wet batch.",
-    "Cook the sausage on the griddle first.",
     "Pour one wet mix into each dry mix and stir until just hydrated, leaving lumps.",
     "Rest the batter 15 minutes.",
-    "Add butter to the griddle if the sausage fat looks thin.",
+    "Heat the griddle to medium and butter it.",
     "For ham pancakes, crisp the ham dice on the griddle and nudge into loose rounds.",
     "Pour savory batter over each ham round; scatter cheddar on the wet top.",
     "For sweet pancakes, pour on the griddle and scatter chocolate chips or blueberries on the wet top.",
-    "Flip once and cook through.",
-    "After the pancakes are off, turn the griddle to low.",
-    "Melt the 60 g butter, add the eggs and push slowly with a spatula until just set and still glossy."
+    "Flip once and cook through."
    ],
    "notes": "The wet mix keeps a couple of days refrigerated; whisk hard before using since the butter sets into flecks.",
    "rating": 0,
@@ -5978,21 +6010,27 @@
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "Sausage counted raw with about 30% of its fat left on the griddle; unsalted butter in the batter and eggs; all station items counted at the amounts listed, split evenly across 8.",
+    "assumptions": "Unsalted butter in the batter and on the griddle; all station items counted at the amounts listed, split evenly across 8.",
     "per_serving": {
-     "calories": 1090,
-     "carbs_g": 85,
-     "cholesterol_mg": 510,
-     "fat_g": 64,
+     "calories": 745,
+     "carbs_g": 84,
+     "cholesterol_mg": 155,
+     "fat_g": 36,
      "fiber_g": 3,
-     "protein_g": 46,
-     "sat_fat_g": 32.5,
-     "sodium_mg": 2670,
+     "protein_g": 24,
+     "sat_fat_g": 22.5,
+     "sodium_mg": 1870,
      "sugar_g": 44
     },
-    "serving": "about 2 pancakes plus sausage and scrambled eggs (1 of 8)",
+    "serving": "about 2 pancakes with toppings (1 of 8)",
     "servings": 8
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Sausage and scrambled eggs dropped; pancakes only."
+    }
+   ]
   },
   {
    "id": "taco-seasoning",
