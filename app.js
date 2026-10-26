@@ -4,7 +4,7 @@ const TRAIT_LABEL=Object.fromEntries(TRAITS);
 const CATS=["Mains","Soups & Stews","Sides & Breads","Baking & Dough","Breakfast","Sauces & Condiments","Spice Blends","Desserts","Drinks"];
 const CFG=window.RB_CONFIG||{};
 const SB=CFG.supabaseUrl&&CFG.supabaseKey?{url:CFG.supabaseUrl.replace(/\/$/,""),key:CFG.supabaseKey}:null;
-const state={recipes:new Map(),loaded:false,q:"",cat:"",show:"all",sort:"best",openId:null,checked:{},scale:{},photoSel:{},friends:new Map(),friendsLoaded:false};
+const state={recipes:new Map(),loaded:false,q:"",cat:"",show:"all",sort:"best",openId:null,checked:{},scale:{},photoSel:{},friends:new Map(),friendsLoaded:false,src:"ark",fr:new Map(),frLoaded:false};
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function toast(msg){const t=$("#toast");t.textContent=msg;t.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>t.hidden=true,2400)}
@@ -13,14 +13,14 @@ function load(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}
 Object.assign(state,load("rb.view",{}));
 if(!Array.isArray(state.traits))state.traits=[];
 state.checked=load("rb.checked",{});state.scale=load("rb.scale",{});
-function saveView(){store("rb.view",{q:state.q,cat:state.cat,show:state.show,sort:state.sort,traits:state.traits,diets:state.diets,open:state.open})}
+function saveView(){store("rb.view",{src:state.src,q:state.q,cat:state.cat,show:state.show,sort:state.sort,traits:state.traits,diets:state.diets,open:state.open})}
 function renderTraits(){}
 
 /* ---------- friends (Supabase REST) ---------- */
 async function sb(path,opts={}){
   const r=await fetch(`${SB.url}/rest/v1/${path}`,{...opts,headers:{apikey:SB.key,...(SB.key.startsWith("sb_")?{}:{Authorization:`Bearer ${SB.key}`}),"Content-Type":"application/json",...(opts.headers||{})}});
   if(!r.ok)throw new Error(r.status+" "+(await r.text()).slice(0,200));
-  return r.status===204?null:r.json();
+  const t=await r.text();return t?JSON.parse(t):null;
 }
 async function loadFriends(){
   if(!SB)return;
@@ -33,7 +33,7 @@ async function loadFriends(){
 function sbHeaders(extra){return {apikey:SB.key,...(SB.key.startsWith("sb_")?{}:{Authorization:`Bearer ${SB.key}`}),...(extra||{})}}
 const photoUrl=p=>`${SB.url}/storage/v1/object/public/photos/${p.split("/").map(encodeURIComponent).join("/")}`;
 function allPhotos(r){
-  const own=(r.photos||[]).map(p=>({src:"photos/"+p,by:"Adam"}));
+  const own=r.friend?(r.friendPhoto&&SB?[{src:photoUrl(r.friendPhoto),by:r.by}]:[]):(r.photos||[]).map(p=>({src:"photos/"+p,by:"Adam"}));
   const fr=SB?(state.friends.get(r.id)||[]).filter(n=>n.photo_path).map(n=>({src:photoUrl(n.photo_path),by:n.name})):[];
   return [...own,...fr];
 }
@@ -87,7 +87,8 @@ function filterMatch(r){
 const SHOW_LABEL=Object.fromEntries(SHOW_OPTS);
 function activeCount(){return state.traits.length+state.diets.length+(state.show&&state.show!=="all"?1:0)}
 function renderFilters(){
-  const all=[...state.recipes.values()];
+  const all=srcList();const fr=state.src==="friends";
+  document.querySelectorAll("[data-src]").forEach(b=>{b.setAttribute("aria-pressed",String(b.dataset.src===state.src));b.onclick=()=>setSrc(b.dataset.src)});
   const count=fn=>all.filter(fn).length;
   // type dropdown
   const sel=$("#catSel");
@@ -98,7 +99,7 @@ function renderFilters(){
     sel.onchange=()=>{state.cat=sel.value;applyFilters()};
   }
   // filters button
-  const n=activeCount(),btn=$("#fBtn");
+  const n=fr?0:activeCount(),btn=$("#fBtn");btn.hidden=fr;if(fr)state.panel=false;
   btn.innerHTML=`Filters${n?` <span class="badge">${n}</span>`:""}`;
   btn.setAttribute("aria-expanded",String(state.panel));
   btn.onclick=()=>{state.panel=!state.panel;renderFilters()};
@@ -106,7 +107,7 @@ function renderFilters(){
   const act=$("#activeF");
   const chips=[...(state.show&&state.show!=="all"?[["show",state.show,SHOW_LABEL[state.show]]]:[]),
     ...state.traits.map(t=>["traits",t,TRAIT_LABEL[t]]),...state.diets.map(d=>["diets",d,DIET_LABEL[d]])].filter(c=>c[2]);
-  act.hidden=state.panel||!chips.length;
+  act.hidden=fr||state.panel||!chips.length;
   act.innerHTML=chips.map(([g,k,l])=>`<span class="achip">${esc(l)}<button type="button" data-g="${g}" data-k="${esc(k)}" aria-label="Remove ${esc(l)}">×</button></span>`).join("")+(chips.length>1?`<button type="button" class="more" data-clear>Clear all</button>`:"");
   act.querySelectorAll("[data-g]").forEach(b=>b.onclick=()=>{const g=b.dataset.g,k=b.dataset.k;if(g==="show")state.show="all";else state[g]=state[g].filter(x=>x!==k);applyFilters()});
   // panel
@@ -133,8 +134,10 @@ function haystack(r){return unlink([r.title,r.cuisine,r.category,(r.tags||[]).jo
 function score(r){const f=friendAvg(r.id);return r.rating||(f?f.avg:0)}
 function filtered(){
   const q=state.q.trim().toLowerCase();
-  const rs=[...state.recipes.values()].filter(r=>{
+  const fr=state.src==="friends";
+  const rs=srcList().filter(r=>{
     if(state.cat&&r.category!==state.cat)return false;
+    if(fr)return !q||searchMatch(r);
     if(state.show==="rated"&&!(score(r)>=4))return false;
     if(state.show==="photos"&&!allPhotos(r).length)return false;
     if(state.traits.length&&!state.traits.every(t=>(r.traits||[]).includes(t)))return false;
@@ -149,18 +152,20 @@ function filtered(){
 }
 function stars(n){n=Math.round(n||0);return n?"★".repeat(n)+"☆".repeat(5-n):""}
 function renderList(){
-  const all=[...state.recipes.values()];
-  $("#count").textContent=state.loaded?`${all.length} recipes`:"";
+  const all=srcList(),fr=state.src==="friends";
+  $("#count").textContent=state.loaded?`${all.length} recipe${all.length===1?"":"s"}`:"";
   const el=$("#list");if(!state.loaded)return;
+  if(fr&&!state.frLoaded){el.innerHTML=`<div class="empty">Loading friends' recipes…</div>`;return}
   const rs=filtered();
-  if(!rs.length){el.innerHTML=`<div class="empty">Nothing matches. Clear the search or pick another category.</div>`;return}
+  const share=fr&&SB?`<a class="btn primary share-cta" href="#share">+ Share a recipe</a>`:"";
+  if(!rs.length){el.innerHTML=share+`<div class="empty">${fr&&!all.length?"No friends' recipes yet. Be the first to share one.":"Nothing matches. Clear the search or pick another category."}</div>`;return}
   const grouped=state.sort==="best"&&!state.cat;
   const order=grouped?[...rs].sort((a,b)=>CATS.indexOf(a.category)-CATS.indexOf(b.category)):rs;
-  let html="",cur=null;
+  let html=share,cur=null;
   for(const r of order){
     if(grouped&&r.category!==cur){cur=r.category;html+=`<div class="group-label">${esc(cur)}</div>`}
     const f=(state.friends.get(r.id)||[]).length;
-    const meta=[r.cuisine,r.yield,f?`${f} note${f>1?"s":""}`:""].filter(Boolean).join(" · ");
+    const meta=[r.friend?"from "+r.by:r.cuisine,r.yield,f?`${f} note${f>1?"s":""}`:""].filter(Boolean).join(" · ");
     const ph0=allPhotos(r)[0];
     html+=`<button class="item${ph0?" has-photo":""}" type="button" data-id="${esc(r.id)}" aria-current="${r.id===state.openId}">
       ${ph0?`<img class="thumb" src="${esc(ph0.src)}" alt="" loading="lazy">`:""}<span class="t">${esc(r.title)}</span><span class="m">${esc(meta)}</span>
@@ -212,6 +217,7 @@ function fmtDate(d){if(!d)return"";const dt=new Date(d.length===10?d+"T12:00:00"
 
 /* ---------- card ---------- */
 function openRecipe(id){
+  if(id){const s=id.startsWith("f-")?"friends":"ark";if(s!==state.src){state.src=s;state.cat="";saveView();renderFilters()}}
   state.openId=id;
   try{history.replaceState(null,"","#"+(id||"box"))}catch(e){}
   showView("box");
@@ -225,14 +231,14 @@ function photoBlock(r){
     ${ps.length>1?`<div class="strip">${ps.map((p,i)=>`<button type="button" data-ph="${i}" aria-current="${i===sel}" aria-label="Photo ${i+1} by ${esc(p.by)}"><img src="${esc(p.src)}" alt="" loading="lazy"></button>`).join("")}</div>`:""}</div>`;
 }
 function renderCard(){
-  const el=$("#card");const r=state.recipes.get(state.openId);
-  if(!r){el.innerHTML=`<div class="empty">${state.loaded?"Pick a recipe from the box.":"Opening the box…"}</div>`;return}
+  const el=$("#card");const r=getR(state.openId);
+  if(!r){el.innerHTML=`<div class="empty">${!state.loaded||(state.src==="friends"&&!state.frLoaded)?"Opening the box…":state.src==="friends"?"Pick one of your friends' recipes.":"Pick a recipe from the box."}</div>`;return}
   const chk=state.checked[r.id]||{};const anyChk=Object.values(chk).some(Boolean);const k=getScale(r.id);const presets=[.5,1,1.5,2,3];
   const fa=friendAvg(r.id);const notes=state.friends.get(r.id)||[];
   const me=load("rb.name","");
   el.innerHTML=`
   <div>
-    <button class="btn back" type="button" id="backBtn">← Box</button>
+    <button class="btn back" type="button" id="backBtn">← ${r.friend?"Friends' recipes":"Box"}</button>
     <div class="eyebrow"><span>${esc(r.category)}</span>${r.cuisine?`<span>${esc(r.cuisine)}</span>`:""}</div>
     <h2>${esc(r.title)}</h2>
     ${(r.changes||[]).length?`<div class="changed">Updated ${esc(fmtDate(r.changes.at(-1).date))}: ${esc(r.changes.at(-1).note)}</div>`:""}
@@ -241,7 +247,7 @@ function renderCard(){
   </div>
   ${photoBlock(r)}
   <div class="verdict">
-    <div class="pair"><span class="who">Adam</span><span class="big">${r.rating?stars(r.rating):"<span class='sub'>Not rated yet</span>"}</span></div>
+    ${r.friend?`<div class="pair"><span class="who">Shared by</span><span class="big by">${esc(r.by)}</span><span class="sub">${esc(fmtDate(r.developed))}</span></div>`:`<div class="pair"><span class="who">Adam</span><span class="big">${r.rating?stars(r.rating):"<span class='sub'>Not rated yet</span>"}</span></div>`}
     ${SB?`<div class="pair"><span class="who">Friends</span><span class="big friends">${fa?stars(fa.avg):"<span class='sub'>No ratings yet</span>"}</span>${fa?`<span class="sub">${fa.avg.toFixed(1)} from ${fa.n}</span>`:""}</div>`:""}
   </div>
   <div class="body">
@@ -262,7 +268,7 @@ function renderCard(){
   ${r.notes?`<section><h3 class="sec-h">Notes</h3><div class="notes">${linkify(esc(r.notes))}</div></section>`:""}
   ${nutritionBlock(r)}
   ${SB?`<section class="friends-sec">
-    <h3 class="sec-h">Made it? <small>leave a rating or a note for Adam and everyone else</small></h3>
+    <h3 class="sec-h">Made it? <small>leave a rating or a note for ${esc(r.friend?r.by:"Adam")} and everyone else</small></h3>
     <form class="friend-form" id="ff">
       <div class="row"><input id="ffName" maxlength="40" placeholder="Your name" aria-label="Your name" value="${esc(me)}" required>
         <div class="stars" role="group" aria-label="Your rating">${[1,2,3,4,5].map(i=>`<button class="star" type="button" data-fs="${i}" aria-label="${i} star${i>1?"s":""}">★</button>`).join("")}</div></div>
@@ -330,21 +336,108 @@ function recipeText(r,k=1){
 }
 async function copyText(t,msg){try{await navigator.clipboard.writeText(t);toast(msg)}catch(e){const ta=document.createElement("textarea");ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");toast(msg)}catch(_){toast("Select and copy")}setTimeout(()=>ta.remove(),3000)}}
 
+/* ---------- friends' recipes ---------- */
+function srcList(){return [...(state.src==="friends"?state.fr:state.recipes).values()]}
+function getR(id){return id?state.recipes.get(id)||state.fr.get(id):undefined}
+function setSrc(src){if(src===state.src)return;state.src=src;state.cat="";state.openId=null;$("#app").classList.remove("show-card");try{history.replaceState(null,"","#box")}catch(e){}saveView();renderFilters();renderList();renderCard()}
+const cleanLine=l=>l.replace(/^\s*(?:[-*•·]|\d+[.)])\s+/,"").trim();
+function toGroups(text){const gs=[{name:"",ingredients:[]}];for(const raw of String(text||"").split(/\r?\n/)){const l=cleanLine(raw);if(!l)continue;if(/:$/.test(l)&&l.length<60){gs.push({name:l.slice(0,-1).trim(),ingredients:[]});continue}gs.at(-1).ingredients.push(l)}return gs.filter(g=>g.ingredients.length)}
+function toSteps(text){return String(text||"").split(/\r?\n/).map(cleanLine).filter(Boolean)}
+function toRecipe(x){return {id:"f-"+x.id,sid:x.id,friend:true,by:x.name,title:x.title,category:CATS.includes(x.category)?x.category:"Mains",yield:x.yield||"",developed:(x.created_at||"").slice(0,10),groups:toGroups(x.ingredients),steps:toSteps(x.steps),notes:x.notes||"",friendPhoto:x.photo_path||null}}
+async function loadSubmissions(){
+  if(!SB){state.frLoaded=true;return}
+  try{const rows=await sb("recipe_submissions?select=id,created_at,name,title,category,yield,ingredients,steps,notes,photo_path&status=eq.approved&order=created_at.desc&limit=1000");
+    state.fr=new Map(rows.map(x=>{const r=toRecipe(x);return [r.id,r]}))}
+  catch(e){console.warn("friends' recipes unavailable",e)}
+  state.frLoaded=true;renderFilters();renderList();renderCard();
+  const h=location.hash.slice(1);if(h.startsWith("f-")&&state.fr.has(h)&&h!==state.openId)openRecipe(h);
+  if(!$("#home").hidden)renderHome();
+}
+function renderHomeFriends(){
+  const sec=$("#frSec");if(!sec)return;sec.hidden=!SB;
+  const rs=[...state.fr.values()].slice(0,6);
+  $("#frRow").innerHTML=rs.length?rs.map(r=>`<a class="mini" href="#${esc(r.id)}"><span class="mc">${esc(r.category)}</span><span class="mt">${esc(r.title)}</span><span class="mm">from ${esc(r.by)}</span></a>`).join(""):`<p class="muted">Nothing here yet. Got a recipe people ask you for? Share it.</p>`;
+  $("#frAll").hidden=!rs.length;
+}
+function catOptions(sel){return CATS.map(c=>`<option${c===sel?" selected":""}>${esc(c)}</option>`).join("")}
+function renderShare(){
+  const f=$("#shareForm");if(f.dataset.wired){if(!$("#shareDone").hidden)$("#shareAgain").click();return}f.dataset.wired=1;
+  $("#sCat").innerHTML=catOptions("Mains");$("#sName").value=load("rb.name","");
+  let file=null;const fin=$("#sPhoto"),prev=$("#sPrev");
+  $("#sPhotoBtn").onclick=()=>fin.click();
+  fin.onchange=()=>{file=fin.files[0]||null;if(prev.src)URL.revokeObjectURL(prev.src);if(file){prev.src=URL.createObjectURL(file);prev.hidden=false;$("#sPhotoBtn").textContent="Change photo"}else prev.hidden=true};
+  $("#shareAgain").onclick=()=>{f.reset();$("#sName").value=load("rb.name","");file=null;prev.hidden=true;$("#sPhotoBtn").textContent="Add a photo";$("#sMsg").textContent="";f.hidden=false;$("#shareDone").hidden=true;window.scrollTo(0,0)};
+  f.onsubmit=async e=>{
+    e.preventDefault();const msg=$("#sMsg");if(!SB){msg.textContent="Sharing isn't set up yet.";return}
+    const v=id=>$(id).value.trim();
+    const row={name:v("#sName"),title:v("#sTitle"),category:$("#sCat").value,yield:v("#sYield")||null,ingredients:v("#sIng"),steps:v("#sSteps"),notes:v("#sNotes")||null,photo_path:null};
+    if(!row.name||!row.title||!row.ingredients||!row.steps){msg.textContent="Fill in your name, the recipe name, ingredients and steps.";return}
+    store("rb.name",row.name);f.querySelector("[type=submit]").disabled=true;
+    try{
+      if(file){msg.textContent="Uploading photo…";try{row.photo_path=await uploadFriendPhoto("submissions",file)}catch(err){console.warn(err);msg.textContent="The photo didn't upload, so it was left off. Sending the recipe…"}}
+      msg.textContent="Sending…";
+      await sb("recipe_submissions",{method:"POST",headers:{Prefer:"return=minimal"},body:JSON.stringify(row)});
+      f.hidden=true;$("#shareDone").hidden=false;window.scrollTo(0,0);
+    }catch(err){console.warn(err);msg.textContent="Couldn't send that. Check your connection and try again."}
+    finally{f.querySelector("[type=submit]").disabled=false}
+  };
+}
+/* admin queue: passcode checked by the database, never stored in this code */
+async function rpc(fn,args){return sb("rpc/"+fn,{method:"POST",body:JSON.stringify(args)})}
+function renderAdmin(){
+  const pass=load("rb.admin","");$("#aLogin").hidden=!!pass;$("#aOut").hidden=!pass;
+  $("#aLogin").onsubmit=e=>{e.preventDefault();store("rb.admin",$("#aPass").value);renderAdmin()};
+  $("#aOut").onclick=()=>{try{localStorage.removeItem("rb.admin")}catch(e){}$("#queue").innerHTML="";renderAdmin()};
+  if(pass)loadQueue(pass);
+}
+async function loadQueue(pass){
+  const q=$("#queue");q.innerHTML=`<p class="muted">Loading…</p>`;
+  let rows;try{rows=await rpc("rb_admin_list",{pass})}catch(e){
+    if(/42501|not allowed/.test(e.message)){try{localStorage.removeItem("rb.admin")}catch(_){}$("#aMsg").textContent="That passcode didn't work.";q.innerHTML="";renderAdmin();return}
+    q.innerHTML=`<p class="muted">Couldn't load the queue. ${esc(e.message)}</p>`;return}
+  rows=rows.filter(x=>x.status!=="rejected");
+  const pend=rows.filter(x=>x.status==="pending"),live=rows.filter(x=>x.status==="approved");
+  const item=x=>`<details class="qitem"${x.status==="pending"?" open":""} data-sid="${esc(x.id)}">
+    <summary><b>${esc(x.title)}</b> <span class="muted">from ${esc(x.name)} · ${esc(fmtDate(x.created_at))}</span></summary>
+    ${x.photo_path?`<img class="q-photo" src="${esc(photoUrl(x.photo_path))}" alt="">`:""}
+    <label>Recipe name<input data-f="title" value="${esc(x.title)}" maxlength="120"></label>
+    <div class="two"><label>Type<select data-f="category">${catOptions(x.category)}</select></label><label>Makes<input data-f="yield" value="${esc(x.yield||"")}" maxlength="120"></label></div>
+    <label>Ingredients<textarea data-f="ingredients" rows="8">${esc(x.ingredients)}</textarea></label>
+    <label>Steps<textarea data-f="steps" rows="8">${esc(x.steps)}</textarea></label>
+    <label>Notes<textarea data-f="notes" rows="3">${esc(x.notes||"")}</textarea></label>
+    <div class="row">${x.status==="pending"?`<button class="btn primary" data-act="approved">Approve and post</button>`:`<button class="btn primary" data-act="approved">Save changes</button><a class="btn" href="#f-${esc(x.id)}">View</a><button class="btn" data-act="pending">Take down</button>`}<span class="spacer"></span><button class="btn danger" data-act="rejected">Toss</button><span class="muted" data-msg></span></div>
+  </details>`;
+  q.innerHTML=`<h2>Waiting for you (${pend.length})</h2>${pend.length?pend.map(item).join(""):`<p class="muted">Nothing waiting.</p>`}<h2>Posted (${live.length})</h2>${live.map(item).join("")||`<p class="muted">None yet.</p>`}`;
+  q.querySelectorAll("[data-act]").forEach(b=>b.onclick=async()=>{
+    const d=b.closest(".qitem"),act=b.dataset.act,m=d.querySelector("[data-msg]");
+    if(act==="rejected"&&!confirm("Toss this recipe? It won't be posted."))return;
+    const fields={};d.querySelectorAll("[data-f]").forEach(i=>fields[i.dataset.f]=i.value.trim());
+    if(act==="approved"&&(!fields.title||!fields.ingredients||!fields.steps)){m.textContent="Needs a name, ingredients and steps.";return}
+    m.textContent="Saving…";
+    try{await rpc("rb_admin_save",{pass,sid:d.dataset.sid,fields,new_status:act});toast({approved:"Posted",pending:"Taken down",rejected:"Tossed"}[act]);loadQueue(pass);loadSubmissions()}
+    catch(e){m.textContent="Didn't save: "+e.message.slice(0,120)}
+  });
+}
+
 /* ---------- boot ---------- */
 $("#q").value=state.q||"";$("#sort").value=["best","az","new"].includes(state.sort)?state.sort:"best";state.sort=$("#sort").value;
 if(!["all","rated","photos"].includes(state.show))state.show="all";
 $("#q").oninput=e=>{state.q=e.target.value;saveView();renderList();if(state.panel)renderFilters()};
 $("#sort").onchange=e=>{state.sort=e.target.value;saveView();renderList()};
-function showView(v){const home=v==="home";$("#home").hidden=!home;$("#app").hidden=home;document.title=home?"Ark's Vibes & Vittles":"Recipes · Ark's Vibes & Vittles";if(home){renderHome();window.scrollTo(0,0)}}
+function showView(v){const home=v==="home";$("#home").hidden=!home;$("#app").hidden=v!=="box";$("#share").hidden=v!=="share";$("#admin").hidden=v!=="admin";
+  document.title={home:"Ark's Vibes & Vittles",share:"Share a recipe · Ark's Vibes & Vittles",admin:"Recipe queue · Ark's Vibes & Vittles"}[v]||"Recipes · Ark's Vibes & Vittles";
+  if(home)renderHome();if(v==="share")renderShare();if(v==="admin")renderAdmin();if(v!=="box")window.scrollTo(0,0)}
 function route(){
   const h=location.hash.slice(1);
   if(!h){state.openId=null;showView("home");return}
+  if(h==="share"||h==="admin"){showView(h);return}
+  if(h==="friends"){state.src="friends";state.cat="";saveView();renderFilters();state.openId=null;history.replaceState(null,"","#box");showView("box");$("#app").classList.remove("show-card");renderList();renderCard();return}
   showView("box");
   if(h==="box"){state.openId=null;$("#app").classList.remove("show-card");renderList();renderCard();return}
-  if(state.recipes.has(h)&&h!==state.openId)openRecipe(h);
+  if(getR(h)&&h!==state.openId)openRecipe(h);
 }
 window.addEventListener("hashchange",route);
-function goBox(patch){Object.assign(state,{cat:"",traits:[],diets:[],show:"all",q:""},patch||{});$("#q").value=state.q;saveView();renderFilters();location.hash="box";if(location.hash==="#box")route()}
+function goBox(patch){Object.assign(state,{src:"ark",cat:"",traits:[],diets:[],show:"all",q:""},patch||{});$("#q").value=state.q;saveView();renderFilters();location.hash="box";if(location.hash==="#box")route()}
 const PICKS=[["traits","camping","Camping-friendly"],["traits","quick","Quick"],["traits","make-ahead","Make-ahead"],["traits","crowd","Feeds a crowd"],["traits","slow-cooker","Slow cooker"],["diets","vegetarian","Vegetarian"],["diets","gluten-free","Gluten-free"],["traits","freezer","Freezer-friendly"]];
 function renderHome(){
   if(!state.loaded)return;
@@ -356,9 +449,10 @@ function renderHome(){
   $("#picks").innerHTML=PICKS.map(([g,k,l])=>{const n=all.filter(r=>(r[g==="traits"?"traits":"diet"]||[]).includes(k)).length;return n?`<button type="button" class="pick" data-g="${g}" data-k="${k}">${esc(l)}<span>${n}</span></button>`:""}).join("");
   const newest=[...all].sort((a,b)=>(b.developed||"").localeCompare(a.developed||"")).slice(0,6);
   $("#newest").innerHTML=newest.map(r=>`<a class="mini" href="#${esc(r.id)}"><span class="mc">${esc(r.category)}</span><span class="mt">${esc(r.title)}</span><span class="mm">${esc(r.yield||"")}</span></a>`).join("");
+  renderHomeFriends();
   const notes=[...state.friends.values()].flat().sort((a,b)=>b.created_at.localeCompare(a.created_at)).slice(0,6);
   $("#friendSec").hidden=!notes.length;
-  $("#feed").innerHTML=notes.map(n=>{const r=state.recipes.get(n.recipe_id);if(!r)return"";return `<a class="fnote" href="#${esc(r.id)}">${n.photo_path?`<img src="${esc(photoUrl(n.photo_path))}" alt="" loading="lazy">`:""}<span class="fn">${esc(n.name)} on <b>${esc(r.title)}</b></span>${n.rating?`<span class="st">${stars(n.rating)}</span>`:""}${n.note?`<span class="fx">${esc(n.note.length>140?n.note.slice(0,140)+"…":n.note)}</span>`:""}</a>`}).join("");
+  $("#feed").innerHTML=notes.map(n=>{const r=getR(n.recipe_id);if(!r)return"";return `<a class="fnote" href="#${esc(r.id)}">${n.photo_path?`<img src="${esc(photoUrl(n.photo_path))}" alt="" loading="lazy">`:""}<span class="fn">${esc(n.name)} on <b>${esc(r.title)}</b></span>${n.rating?`<span class="st">${stars(n.rating)}</span>`:""}${n.note?`<span class="fx">${esc(n.note.length>140?n.note.slice(0,140)+"…":n.note)}</span>`:""}</a>`}).join("");
   document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>goBox({cat:b.dataset.cat}));
   document.querySelectorAll(".pick").forEach(b=>b.onclick=()=>goBox({[b.dataset.g]:[b.dataset.k]}));
 }
@@ -368,4 +462,4 @@ fetch("data/recipes.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{
   state.loaded=true;
   state.traits=state.traits.filter(t=>TRAIT_LABEL[t]);renderCats();renderTraits();renderList();renderCard();route();
 }).catch(()=>{$("#list").innerHTML=`<div class="empty">Couldn't load the recipes. Reload the page.</div>`});
-loadFriends();
+loadFriends();loadSubmissions();

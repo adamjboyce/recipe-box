@@ -267,3 +267,32 @@ html{height:100%}
 .rlink{color:var(--accent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
 
 .reset-chk{font:600 12px var(--body);letter-spacing:0;text-transform:none;color:var(--accent);background:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px;cursor:pointer}.reset-chk:hover{border-color:var(--accent)}
+
+/* ---------- friends' recipes, share form, admin queue ---------- */
+.src-tabs{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:9px;padding:3px;background:var(--sunk)}
+.src-tabs button{border:0;background:none;border-radius:6px;padding:6px 8px;font-weight:600;font-size:13.5px;color:var(--muted);min-width:0}
+.src-tabs button[aria-pressed="true"]{background:var(--surface);color:var(--fg);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+.share-cta{display:block;text-align:center;text-decoration:none;margin:12px 12px 4px}
+.big.by{font:700 18px var(--display)}
+.sec-more{margin:0;font-size:14px;color:var(--muted)}
+.sec-more a{color:var(--accent)}
+.share{max-width:760px;margin:0 auto;padding-block:clamp(20px,5vw,48px) 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px;align-content:start}
+.share>.back{justify-self:start;text-decoration:none;color:var(--fg)}
+.share h1{margin:0;font:800 clamp(32px,6vw,48px)/1 var(--display);letter-spacing:-.02em}
+.share h2{margin:14px 0 0;font:700 20px var(--display)}
+.share-form,.qitem{display:grid;gap:14px}
+.share label,.qitem label{display:grid;gap:6px;font-weight:600;font-size:14px;min-width:0}
+.share label small,.qitem label small{font-weight:400;color:var(--muted)}
+.share input:not([type=file]),.share select,.share textarea{width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--fg);font:16px var(--body)}
+.share textarea{resize:vertical;line-height:1.5}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.share-done{display:grid;gap:12px;padding:20px;border-radius:12px;background:var(--sunk)}
+.share-done h2{margin:0}
+.qitem{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--surface)}
+.qitem:not([open]){gap:0}
+.qitem summary{cursor:pointer;display:flex;gap:8px;flex-wrap:wrap;align-items:baseline}
+.q-photo{max-width:240px;border-radius:8px}
+.qitem .spacer{flex:1}
+#aOut{justify-self:start}
+.share a.btn{text-decoration:none;color:inherit}.share a.btn.primary{color:var(--accent-ink)}
+.share>.btn.back{display:inline-block}
