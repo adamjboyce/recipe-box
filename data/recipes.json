@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T18:49:41+00:00",
+ "generated": "2026-10-26T19:04:48+00:00",
  "recipes": [
   {
    "id": "teds-72-hour-pizza-dough",
@@ -334,7 +334,7 @@
     "Lower away from yourself into the 190°C oil.",
     "Fry 3 to 4 minutes, three or four pieces at a time, until the batter is hard and deep gold. Fry the thin tail pieces together.",
     "Drain on a rack and salt immediately.",
-    "Serve with malt vinegar, [tartar sauce](tartar-sauce), homemade or jarred, and fries."
+    "Serve with malt vinegar, [tartar sauce](tartar-sauce), homemade or jarred, and [chips](triple-cooked-chips)."
    ],
    "notes": "The dry mix keeps for days in an airtight container. Cool the oil fully before storing.",
    "rating": 0,
@@ -367,120 +367,6 @@
      "note": "Fish only now. Fries are just a serve-with."
     }
    ]
-  },
-  {
-   "id": "dill-escabeche-pickle-soup",
-   "title": "Big-Batch Dill and Escabeche Pickle Soup with Mushrooms",
-   "category": "Soups & Stews",
-   "cuisine": "Polish",
-   "tags": [
-    "large-batch",
-    "freezer",
-    "make-ahead"
-   ],
-   "yield": "fills an 8 qt pot, about 12 servings",
-   "developed": "2026-09-24",
-   "groups": [
-    {
-     "ingredients": [
-      "20 g dried porcini",
-      "500 g hot water"
-     ],
-     "name": "Porcini"
-    },
-    {
-     "ingredients": [
-      "75 g unsalted butter (about 2/3 stick)",
-      "700 g smoked kielbasa, sliced into half-moons (optional)",
-      "450 g cremini mushrooms, sliced (about two 8 oz packages)",
-      "400 g yellow onion, diced (about 2 large)",
-      "300 g fresh carrots, diced (about 5 medium)",
-      "200 g fresh celery, diced (about 4 ribs)",
-      "30 g garlic, minced (about 6 cloves)",
-      "3 g dried Mexican oregano",
-      "3 g ground cumin",
-      "1500 g Yukon Gold potatoes, 2 cm dice (about 7 medium)",
-      "2340 g chicken stock (about 2 1/2 32 oz cartons)",
-      "500 g chicken stock, reserve",
-      "1 g bay leaves (about 4)",
-      "0.5 g whole allspice berries (about 6)",
-      "60 g fresh dill, stems tied with twine, fronds chopped (about 2 bunches)"
-     ],
-     "name": "Base"
-    },
-    {
-     "ingredients": [
-      "250 g dill pickles (cucumber), coarsely grated",
-      "100 g dill-pickled cauliflower, chopped to 1 cm",
-      "75 g dill-pickled green beans, cut to 1 cm",
-      "75 g dill-pickled fennel, chopped to 1 cm",
-      "150 g escabeche carrots, chopped",
-      "75 g escabeche jalapenos, chopped",
-      "75 g escabeche radish, chopped",
-      "255 g dill pickle brine",
-      "130 g escabeche brine"
-     ],
-     "name": "Pickles and brine"
-    },
-    {
-     "ingredients": [
-      "5 g black pepper, ground",
-      "5 g MSG",
-      "3 g Diamond Crystal kosher salt, to taste"
-     ],
-     "name": "Seasoning"
-    },
-    {
-     "ingredients": [
-      "480 g full-fat sour cream",
-      "30 g all-purpose flour",
-      "75 g prepared horseradish, not creamy style (optional)"
-     ],
-     "name": "To finish"
-    }
-   ],
-   "steps": [
-    "Cover the porcini with the hot water and soak until soft, about 20 minutes.",
-    "Lift out the porcini and chop them. Strain the soaking liquid through a paper towel, leaving any grit behind.",
-    "Melt 60 g of the butter in an 8 qt stockpot over medium-high heat. Brown the kielbasa, then remove with a slotted spoon.",
-    "Brown the cremini in two batches in the remaining fat, adding the rest of the butter for the second batch. Set aside with the kielbasa.",
-    "Lower the heat to medium. Add the onion, carrots and celery and cook until softened, about 10 minutes.",
-    "Add the garlic, oregano (crushed between your palms) and cumin. Stir until fragrant.",
-    "Add the potatoes, stock, chopped porcini and strained soaking liquid, bay leaves, allspice and tied dill stems.",
-    "Bring to a boil, then simmer until the potatoes are fork-tender, about 20 minutes.",
-    "Stir in all the pickled vegetables, both brines, the kielbasa and cremini and the pepper.",
-    "Add as much of the reserve stock as fits while leaving about 1 inch of headspace. Simmer 10 minutes.",
-    "Remove the bay leaves, allspice and dill stems.",
-    "Stir in the MSG and taste. Add more brine for sourness and the salt only if needed.",
-    "Whisk the sour cream, flour and horseradish.",
-    "Whisk in 2 ladles of hot broth, then stir the mixture back into the pot.",
-    "Heat gently without boiling until slightly thickened, about 5 minutes.",
-    "Stir in the chopped dill fronds and serve."
-   ],
-   "notes": "Freezes well without the sour cream finish for up to 3 months; reheat and temper in about 40 g sour cream, 2.5 g flour and 6 g horseradish per serving, then finish with fresh dill. For one quart: 65 g sour cream, 4 g flour, 10 g horseradish, 8 g dill fronds. Serve with buttered, toasted rye.",
-   "rating": 0,
-   "traits": [
-    "make-ahead",
-    "freezer",
-    "crowd"
-   ],
-   "diet": [],
-   "nutrition": {
-    "assumptions": "Includes the optional kielbasa and horseradish, all 2840 g of regular chicken stock (about 210 mg sodium per 100 g), and the full sour cream finish. Pickles and brines carry most of the sodium.",
-    "per_serving": {
-     "calories": 490,
-     "carbs_g": 42,
-     "cholesterol_mg": 80,
-     "fat_g": 30,
-     "fiber_g": 6,
-     "protein_g": 17,
-     "sat_fat_g": 13,
-     "sodium_mg": 2350,
-     "sugar_g": 9
-    },
-    "serving": "about 2.5 cups, 650 g (1 of 12)",
-    "servings": 12
-   }
   },
   {
    "id": "carnitas-oven",
@@ -617,6 +503,148 @@
     },
     "serving": "about 200 g (1 of 7)",
     "servings": 7
+   }
+  },
+  {
+   "id": "make-ahead-breakfast-burritos-bacon-sausage-mushroom",
+   "title": "Breakfast Burritos (Bacon, Sausage, Mushroom)",
+   "category": "Breakfast",
+   "cuisine": "Tex-Mex",
+   "tags": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "large-batch"
+   ],
+   "yield": "24 burritos (8 bacon, 8 sausage, 8 mushroom)",
+   "developed": "2026-09-03",
+   "groups": [
+    {
+     "ingredients": [
+      "454 g bacon, cut into lardons (about 1 lb)"
+     ],
+     "name": "Bacon"
+    },
+    {
+     "ingredients": [
+      "454 g breakfast sausage roll (about one 1 lb roll)"
+     ],
+     "name": "Sausage"
+    },
+    {
+     "ingredients": [
+      "680 g sliced mushrooms (about 1 1/2 lb)",
+      "42 g butter (about 3 Tbsp)",
+      "4.5 g salt (about 3/4 tsp)",
+      "15 g cilantro, chopped, stems included (about 3/4 cup)"
+     ],
+     "name": "Mushrooms"
+    },
+    {
+     "ingredients": [
+      "640 g bell peppers, diced (about 4)",
+      "120 g poblano, diced (about 1)",
+      "300 g yellow onions, diced; just under 2 lb vegetables total (about 2 medium)",
+      "42 g oil (about 3 Tbsp)",
+      "25 g [taco seasoning](taco-seasoning), homemade or one 1 oz packet (about 3 Tbsp)"
+     ],
+     "name": "Burrito vegetables"
+    },
+    {
+     "ingredients": [
+      "1500 g eggs (about 30 large)",
+      "9 g salt (about 1 1/2 tsp)",
+      "6 g black pepper, freshly ground (about 2 1/2 tsp)",
+      "227 g cream cheese, cut into small cubes (about one 8 oz block)",
+      "800 g roasted burrito vegetables, all from above (about 4 cups)"
+     ],
+     "name": "Sheet pan eggs"
+    },
+    {
+     "ingredients": [
+      "28 g oil (about 2 Tbsp)",
+      "28 g unsalted butter (about 2 Tbsp)",
+      "150 g onion, diced (about 1 medium)",
+      "20 g garlic (about 4 cloves)",
+      "60 g poblano, diced (about 1/2)",
+      "480 g black beans, drained (about two 15 oz cans)",
+      "8 g salt and 2 g black pepper, to taste (about 1 1/4 tsp salt, 1 tsp pepper)",
+      "1 g cayenne or 2 g Aleppo pepper, to taste (about 1/2 tsp cayenne or 1 tsp Aleppo)"
+     ],
+     "name": "Black bean paste"
+    },
+    {
+     "ingredients": [
+      "2270 g frozen tater tots (about one 5 lb bag)",
+      "20 g salt, tossed with the hot tots (about 1 Tbsp plus 1/4 tsp)"
+     ],
+     "name": "Tots"
+    },
+    {
+     "ingredients": [
+      "1440 g cilantro lime rice (about 6 90-second pouches)"
+     ],
+     "name": "Rice"
+    },
+    {
+     "ingredients": [
+      "2640 g Mission Extra Grande 13-inch flour tortillas (about 24)",
+      "250 g deli white American cheese (about 12 slices)",
+      "340 g shredded cheese (about 12 oz)",
+      "Per burrito: 30 g bean paste, 60 to 75 g tots, 60 g rice, 100 g egg mixture and 21 g American or 28 g shredded cheese (about 2 Tbsp paste, 7 to 9 tots, 1/3 cup rice, scant 1/2 cup egg, 1 slice or 1/4 cup cheese)",
+      "Per burrito, one of: 20 g bacon, 40 g sausage or 44 g mushrooms (about 3 Tbsp bacon, 1/4 cup sausage or 1/4 cup mushrooms)"
+     ],
+     "name": "Assembly"
+    }
+   ],
+   "steps": [
+    "Cover the bacon lardons with water in a pan, boil the water off, then let them render and crisp in their own fat; drain.",
+    "Crumble and brown the sausage, ideally in the bacon pan; cool on a sheet pan.",
+    "Dry-sear the mushrooms in batches in stainless until their water is gone and they brown.",
+    "Off the heat, toss the mushrooms with the butter, salt and cilantro.",
+    "Toss the diced peppers, poblano and onions with the oil and taco seasoning until every piece is glossy.",
+    "Roast the vegetables at 400°F on uncrowded sheet pans until dry and caramelized.",
+    "Line a half sheet pan with parchment and spread the roasted vegetables over it.",
+    "Dot the cream cheese cubes over the vegetables.",
+    "Beat the eggs with the salt and pepper just to uniform yellow and pour over.",
+    "Bake at 325°F 30 to 35 minutes, checking at 25 and rotating once, until the center is just set with a slight wobble.",
+    "Cut the egg slab into quarters on the pan to speed cooling.",
+    "For the bean paste, cook the onion, garlic and poblano in the oil and butter until very soft.",
+    "Add the beans, salt, pepper and cayenne or Aleppo, then blend smooth to a stiff, spreadable paste.",
+    "Fry the tots darker than you would eat them, salt them hot and cool on a rack.",
+    "Heat the rice pouches, spread thin on a sheet pan to cool fast and refrigerate.",
+    "Cool every component completely.",
+    "Warm tortillas in stacks of 8 wrapped in foil at 350°F for 10 to 12 minutes; warm only one stack at a time.",
+    "Smear bean paste over a 6 by 4 inch patch about 3 to 4 inches from the near edge.",
+    "Layer tots, rice, egg mixture and the meat or mushroom on the beans in a 6-inch line.",
+    "Top with the cheese.",
+    "Fold in the sides and roll tight.",
+    "Wrap each in a 12 by 10.75 inch foil sheet."
+   ],
+   "notes": "The bacon and sausage run short at 8 burritos each; cook extra. Frozen burritos hold 1 to 3 months; overwrap the foil with a freezer bag and reheat from frozen in foil at 350°F about 40 minutes.",
+   "rating": 0,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "crowd"
+   ],
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Averaged across the bacon, sausage and mushroom fillings; 1 lb bacon cooks down to about 150 g. Only the tots actually used (about 1.6 kg of the 5 lb bag, with their share of the 20 g salt) are counted, with 6% fry oil.",
+    "per_serving": {
+     "calories": 980,
+     "carbs_g": 98,
+     "cholesterol_mg": 295,
+     "fat_g": 51,
+     "fiber_g": 7,
+     "protein_g": 34,
+     "sat_fat_g": 19,
+     "sodium_mg": 2630,
+     "sugar_g": 5
+    },
+    "serving": "1 burrito, about 420 g (1 of 24)",
+    "servings": 24
    }
   },
   {
@@ -2087,6 +2115,120 @@
    }
   },
   {
+   "id": "dill-escabeche-pickle-soup",
+   "title": "Dill and Escabeche Pickle Soup with Mushrooms",
+   "category": "Soups & Stews",
+   "cuisine": "Polish",
+   "tags": [
+    "large-batch",
+    "freezer",
+    "make-ahead"
+   ],
+   "yield": "fills an 8 qt pot, about 12 servings",
+   "developed": "2026-09-24",
+   "groups": [
+    {
+     "ingredients": [
+      "20 g dried porcini",
+      "500 g hot water"
+     ],
+     "name": "Porcini"
+    },
+    {
+     "ingredients": [
+      "75 g unsalted butter (about 2/3 stick)",
+      "700 g smoked kielbasa, sliced into half-moons (optional)",
+      "450 g cremini mushrooms, sliced (about two 8 oz packages)",
+      "400 g yellow onion, diced (about 2 large)",
+      "300 g fresh carrots, diced (about 5 medium)",
+      "200 g fresh celery, diced (about 4 ribs)",
+      "30 g garlic, minced (about 6 cloves)",
+      "3 g dried Mexican oregano",
+      "3 g ground cumin",
+      "1500 g Yukon Gold potatoes, 2 cm dice (about 7 medium)",
+      "2340 g chicken stock (about 2 1/2 32 oz cartons)",
+      "500 g chicken stock, reserve",
+      "1 g bay leaves (about 4)",
+      "0.5 g whole allspice berries (about 6)",
+      "60 g fresh dill, stems tied with twine, fronds chopped (about 2 bunches)"
+     ],
+     "name": "Base"
+    },
+    {
+     "ingredients": [
+      "250 g dill pickles (cucumber), coarsely grated",
+      "100 g dill-pickled cauliflower, chopped to 1 cm",
+      "75 g dill-pickled green beans, cut to 1 cm",
+      "75 g dill-pickled fennel, chopped to 1 cm",
+      "150 g escabeche carrots, chopped",
+      "75 g escabeche jalapenos, chopped",
+      "75 g escabeche radish, chopped",
+      "255 g dill pickle brine",
+      "130 g escabeche brine"
+     ],
+     "name": "Pickles and brine"
+    },
+    {
+     "ingredients": [
+      "5 g black pepper, ground",
+      "5 g MSG",
+      "3 g Diamond Crystal kosher salt, to taste"
+     ],
+     "name": "Seasoning"
+    },
+    {
+     "ingredients": [
+      "480 g full-fat sour cream",
+      "30 g all-purpose flour",
+      "75 g prepared horseradish, not creamy style (optional)"
+     ],
+     "name": "To finish"
+    }
+   ],
+   "steps": [
+    "Cover the porcini with the hot water and soak until soft, about 20 minutes.",
+    "Lift out the porcini and chop them. Strain the soaking liquid through a paper towel, leaving any grit behind.",
+    "Melt 60 g of the butter in an 8 qt stockpot over medium-high heat. Brown the kielbasa, then remove with a slotted spoon.",
+    "Brown the cremini in two batches in the remaining fat, adding the rest of the butter for the second batch. Set aside with the kielbasa.",
+    "Lower the heat to medium. Add the onion, carrots and celery and cook until softened, about 10 minutes.",
+    "Add the garlic, oregano (crushed between your palms) and cumin. Stir until fragrant.",
+    "Add the potatoes, stock, chopped porcini and strained soaking liquid, bay leaves, allspice and tied dill stems.",
+    "Bring to a boil, then simmer until the potatoes are fork-tender, about 20 minutes.",
+    "Stir in all the pickled vegetables, both brines, the kielbasa and cremini and the pepper.",
+    "Add as much of the reserve stock as fits while leaving about 1 inch of headspace. Simmer 10 minutes.",
+    "Remove the bay leaves, allspice and dill stems.",
+    "Stir in the MSG and taste. Add more brine for sourness and the salt only if needed.",
+    "Whisk the sour cream, flour and horseradish.",
+    "Whisk in 2 ladles of hot broth, then stir the mixture back into the pot.",
+    "Heat gently without boiling until slightly thickened, about 5 minutes.",
+    "Stir in the chopped dill fronds and serve."
+   ],
+   "notes": "Freezes well without the sour cream finish for up to 3 months; reheat and temper in about 40 g sour cream, 2.5 g flour and 6 g horseradish per serving, then finish with fresh dill. For one quart: 65 g sour cream, 4 g flour, 10 g horseradish, 8 g dill fronds. Serve with buttered, toasted rye.",
+   "rating": 0,
+   "traits": [
+    "make-ahead",
+    "freezer",
+    "crowd"
+   ],
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Includes the optional kielbasa and horseradish, all 2840 g of regular chicken stock (about 210 mg sodium per 100 g), and the full sour cream finish. Pickles and brines carry most of the sodium.",
+    "per_serving": {
+     "calories": 490,
+     "carbs_g": 42,
+     "cholesterol_mg": 80,
+     "fat_g": 30,
+     "fiber_g": 6,
+     "protein_g": 17,
+     "sat_fat_g": 13,
+     "sodium_mg": 2350,
+     "sugar_g": 9
+    },
+    "serving": "about 2.5 cups, 650 g (1 of 12)",
+    "servings": 12
+   }
+  },
+  {
    "id": "ldw-potato-salad",
    "title": "Dill Pickle Potato Salad",
    "category": "Sides & Breads",
@@ -3383,7 +3525,7 @@
   },
   {
    "id": "kofta-spice-blend-volume",
-   "title": "Kofta Spice Blend (Scalable, by Volume)",
+   "title": "Kofta Spice Blend (by Volume)",
    "category": "Spice Blends",
    "cuisine": "Middle Eastern",
    "tags": [
@@ -3691,148 +3833,6 @@
     },
     "serving": "1 plate, about 830 g edible food with butter (1 of 13)",
     "servings": 13
-   }
-  },
-  {
-   "id": "make-ahead-breakfast-burritos-bacon-sausage-mushroom",
-   "title": "Make-Ahead Breakfast Burritos (Bacon, Sausage, Mushroom)",
-   "category": "Breakfast",
-   "cuisine": "Tex-Mex",
-   "tags": [
-    "camping",
-    "make-ahead",
-    "freezer",
-    "large-batch"
-   ],
-   "yield": "24 burritos (8 bacon, 8 sausage, 8 mushroom)",
-   "developed": "2026-09-03",
-   "groups": [
-    {
-     "ingredients": [
-      "454 g bacon, cut into lardons (about 1 lb)"
-     ],
-     "name": "Bacon"
-    },
-    {
-     "ingredients": [
-      "454 g breakfast sausage roll (about one 1 lb roll)"
-     ],
-     "name": "Sausage"
-    },
-    {
-     "ingredients": [
-      "680 g sliced mushrooms (about 1 1/2 lb)",
-      "42 g butter (about 3 Tbsp)",
-      "4.5 g salt (about 3/4 tsp)",
-      "15 g cilantro, chopped, stems included (about 3/4 cup)"
-     ],
-     "name": "Mushrooms"
-    },
-    {
-     "ingredients": [
-      "640 g bell peppers, diced (about 4)",
-      "120 g poblano, diced (about 1)",
-      "300 g yellow onions, diced; just under 2 lb vegetables total (about 2 medium)",
-      "42 g oil (about 3 Tbsp)",
-      "25 g [taco seasoning](taco-seasoning), homemade or one 1 oz packet (about 3 Tbsp)"
-     ],
-     "name": "Burrito vegetables"
-    },
-    {
-     "ingredients": [
-      "1500 g eggs (about 30 large)",
-      "9 g salt (about 1 1/2 tsp)",
-      "6 g black pepper, freshly ground (about 2 1/2 tsp)",
-      "227 g cream cheese, cut into small cubes (about one 8 oz block)",
-      "800 g roasted burrito vegetables, all from above (about 4 cups)"
-     ],
-     "name": "Sheet pan eggs"
-    },
-    {
-     "ingredients": [
-      "28 g oil (about 2 Tbsp)",
-      "28 g unsalted butter (about 2 Tbsp)",
-      "150 g onion, diced (about 1 medium)",
-      "20 g garlic (about 4 cloves)",
-      "60 g poblano, diced (about 1/2)",
-      "480 g black beans, drained (about two 15 oz cans)",
-      "8 g salt and 2 g black pepper, to taste (about 1 1/4 tsp salt, 1 tsp pepper)",
-      "1 g cayenne or 2 g Aleppo pepper, to taste (about 1/2 tsp cayenne or 1 tsp Aleppo)"
-     ],
-     "name": "Black bean paste"
-    },
-    {
-     "ingredients": [
-      "2270 g frozen tater tots (about one 5 lb bag)",
-      "20 g salt, tossed with the hot tots (about 1 Tbsp plus 1/4 tsp)"
-     ],
-     "name": "Tots"
-    },
-    {
-     "ingredients": [
-      "1440 g cilantro lime rice (about 6 90-second pouches)"
-     ],
-     "name": "Rice"
-    },
-    {
-     "ingredients": [
-      "2640 g Mission Extra Grande 13-inch flour tortillas (about 24)",
-      "250 g deli white American cheese (about 12 slices)",
-      "340 g shredded cheese (about 12 oz)",
-      "Per burrito: 30 g bean paste, 60 to 75 g tots, 60 g rice, 100 g egg mixture and 21 g American or 28 g shredded cheese (about 2 Tbsp paste, 7 to 9 tots, 1/3 cup rice, scant 1/2 cup egg, 1 slice or 1/4 cup cheese)",
-      "Per burrito, one of: 20 g bacon, 40 g sausage or 44 g mushrooms (about 3 Tbsp bacon, 1/4 cup sausage or 1/4 cup mushrooms)"
-     ],
-     "name": "Assembly"
-    }
-   ],
-   "steps": [
-    "Cover the bacon lardons with water in a pan, boil the water off, then let them render and crisp in their own fat; drain.",
-    "Crumble and brown the sausage, ideally in the bacon pan; cool on a sheet pan.",
-    "Dry-sear the mushrooms in batches in stainless until their water is gone and they brown.",
-    "Off the heat, toss the mushrooms with the butter, salt and cilantro.",
-    "Toss the diced peppers, poblano and onions with the oil and taco seasoning until every piece is glossy.",
-    "Roast the vegetables at 400°F on uncrowded sheet pans until dry and caramelized.",
-    "Line a half sheet pan with parchment and spread the roasted vegetables over it.",
-    "Dot the cream cheese cubes over the vegetables.",
-    "Beat the eggs with the salt and pepper just to uniform yellow and pour over.",
-    "Bake at 325°F 30 to 35 minutes, checking at 25 and rotating once, until the center is just set with a slight wobble.",
-    "Cut the egg slab into quarters on the pan to speed cooling.",
-    "For the bean paste, cook the onion, garlic and poblano in the oil and butter until very soft.",
-    "Add the beans, salt, pepper and cayenne or Aleppo, then blend smooth to a stiff, spreadable paste.",
-    "Fry the tots darker than you would eat them, salt them hot and cool on a rack.",
-    "Heat the rice pouches, spread thin on a sheet pan to cool fast and refrigerate.",
-    "Cool every component completely.",
-    "Warm tortillas in stacks of 8 wrapped in foil at 350°F for 10 to 12 minutes; warm only one stack at a time.",
-    "Smear bean paste over a 6 by 4 inch patch about 3 to 4 inches from the near edge.",
-    "Layer tots, rice, egg mixture and the meat or mushroom on the beans in a 6-inch line.",
-    "Top with the cheese.",
-    "Fold in the sides and roll tight.",
-    "Wrap each in a 12 by 10.75 inch foil sheet."
-   ],
-   "notes": "The bacon and sausage run short at 8 burritos each; cook extra. Frozen burritos hold 1 to 3 months; overwrap the foil with a freezer bag and reheat from frozen in foil at 350°F about 40 minutes.",
-   "rating": 0,
-   "traits": [
-    "camping",
-    "make-ahead",
-    "freezer",
-    "crowd"
-   ],
-   "diet": [],
-   "nutrition": {
-    "assumptions": "Averaged across the bacon, sausage and mushroom fillings; 1 lb bacon cooks down to about 150 g. Only the tots actually used (about 1.6 kg of the 5 lb bag, with their share of the 20 g salt) are counted, with 6% fry oil.",
-    "per_serving": {
-     "calories": 980,
-     "carbs_g": 98,
-     "cholesterol_mg": 295,
-     "fat_g": 51,
-     "fiber_g": 7,
-     "protein_g": 34,
-     "sat_fat_g": 19,
-     "sodium_mg": 2630,
-     "sugar_g": 5
-    },
-    "serving": "1 burrito, about 420 g (1 of 24)",
-    "servings": 24
    }
   },
   {
@@ -4430,27 +4430,32 @@
     "camping",
     "make-ahead"
    ],
-   "yield": "about 1 quart (2 onions)",
+   "yield": "1 quart jar",
    "developed": "2026-10-15",
    "groups": [
     {
      "ingredients": [
-      "300 g red onions, sliced thin (about 2 medium)",
-      "240 g apple cider vinegar",
-      "240 g water",
-      "20 g sugar",
-      "12 g salt"
+      "400 g red onions, sliced thin (about 2 large)",
+      "10 g garlic, smashed (about 2 cloves)",
+      "240 g apple cider vinegar (about 1 cup)",
+      "120 g water (about 1/2 cup)",
+      "30 g granulated sugar (about 2 1/2 Tbsp)",
+      "15 g kosher salt (about 1 Tbsp plus 2 tsp Diamond Crystal)",
+      "4 g brown mustard seeds (about 1 tsp)",
+      "2 g fennel seeds (about 1 tsp)",
+      "2 g dill seeds (about 1 tsp)",
+      "2 g black peppercorns, crushed (about 1 tsp)"
      ],
      "name": ""
     }
    ],
    "steps": [
-    "Pack the sliced onions into a jar.",
-    "Boil the vinegar, water, sugar and salt.",
-    "Pour the hot brine over the onions.",
-    "Cool, then refrigerate."
+    "Pack the onions and garlic into a quart jar.",
+    "Bring the vinegar, water, sugar, salt, mustard seeds, fennel seeds, dill seeds and crushed peppercorns to a simmer, stirring until the sugar and salt dissolve.",
+    "Pour the hot brine and spices over the onions and press them under.",
+    "Cool, lid and refrigerate."
    ],
-   "notes": "Ready in an hour, better after two days, better still at a week.",
+   "notes": "Ready in an hour, better after two days. Keeps two weeks refrigerated.",
    "rating": 0,
    "traits": [
     "camping",
@@ -4465,21 +4470,27 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Two onions at 150 g; the drained onions hold the brine at equilibrium, so about 37% of the salt and sugar is counted.",
+    "assumptions": "Onions assumed to take up about 40% of the brine's salt, sugar and vinegar; the rest is left in the jar.",
     "per_serving": {
      "calories": 30,
      "carbs_g": 6,
      "cholesterol_mg": 0,
-     "fat_g": 0,
+     "fat_g": 0.1,
      "fiber_g": 0.8,
-     "protein_g": 0.5,
+     "protein_g": 0.6,
      "sat_fat_g": 0,
      "sodium_mg": 290,
-     "sugar_g": 3.4
+     "sugar_g": 3.6
     },
-    "serving": "50 g drained (1 of 6)",
-    "servings": 6
-   }
+    "serving": "50 g drained (1 of 8)",
+    "servings": 8
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Merged with Quick Pickled Red Onions; added brown mustard, fennel and dill seeds, crushed black pepper and garlic."
+    }
+   ]
   },
   {
    "id": "pico-de-gallo",
@@ -4740,65 +4751,6 @@
    }
   },
   {
-   "id": "quick-pickled-red-onions",
-   "title": "Quick Pickled Red Onions",
-   "category": "Sauces & Condiments",
-   "cuisine": "British",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead"
-   ],
-   "yield": "1 quart jar",
-   "developed": "2026-10-24",
-   "groups": [
-    {
-     "ingredients": [
-      "400 g red onions, sliced thin (about 2)",
-      "240 g cider vinegar",
-      "120 g water",
-      "30 g granulated sugar",
-      "15 g kosher salt"
-     ],
-     "name": ""
-    }
-   ],
-   "steps": [
-    "Pack the onions into a quart jar.",
-    "Bring the vinegar, water, sugar and salt to a simmer, stirring until dissolved.",
-    "Pour over the onions and press them under.",
-    "Cool, lid and refrigerate."
-   ],
-   "notes": "Ready in an hour, keeps two weeks refrigerated.",
-   "rating": 0,
-   "traits": [
-    "make-ahead",
-    "quick"
-   ],
-   "diet": [
-    "vegan",
-    "vegetarian",
-    "pescatarian",
-    "dairy-free",
-    "gluten-free"
-   ],
-   "nutrition": {
-    "assumptions": "Onions assumed to take up about 40% of the brine's salt, sugar and vinegar; the rest is left in the jar.",
-    "per_serving": {
-     "calories": 30,
-     "carbs_g": 6,
-     "cholesterol_mg": 0,
-     "fat_g": 0.1,
-     "fiber_g": 0.8,
-     "protein_g": 0.6,
-     "sat_fat_g": 0,
-     "sodium_mg": 290,
-     "sugar_g": 3.6
-    },
-    "serving": "50 g drained (1 of 8)",
-    "servings": 8
-   }
-  },
-  {
    "id": "rajma",
    "title": "Rajma (Kidney Bean Curry)",
    "category": "Soups & Stews",
@@ -4980,74 +4932,6 @@
     },
     "serving": "1 tsp, about 2.8 g (1 of 6)",
     "servings": 6
-   }
-  },
-  {
-   "id": "red-beans-camp",
-   "title": "Red Beans (Thick, for Foil Packets)",
-   "category": "Sides & Breads",
-   "cuisine": "Cajun",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
-   "yield": "about 12 oz",
-   "developed": "2026-10-15",
-   "groups": [
-    {
-     "ingredients": [
-      "255 g red kidney beans, rinsed and drained (about one 15.5 oz can)",
-      "30 g butter",
-      "120 g yellow onion, diced 5 mm (about 1 small)",
-      "60 g celery, diced 5 mm (about 1 rib)",
-      "60 g green bell pepper, diced 5 mm (about 1/3)",
-      "15 g garlic, minced (about 3 cloves)",
-      "6 g smoked paprika",
-      "4 g dried thyme",
-      "0.4 g bay leaves (about 2)",
-      "1 g cayenne",
-      "160 to 200 g chicken broth",
-      "4 g salt",
-      "2 g black pepper"
-     ],
-     "name": ""
-    }
-   ],
-   "steps": [
-    "Sweat the onion, celery and bell pepper in the butter over medium 6 to 8 minutes, until soft with no color.",
-    "Add the garlic for 30 seconds.",
-    "Add the paprika, thyme and cayenne for 30 seconds.",
-    "Add the beans, broth and bay leaves and simmer uncovered 15 to 20 minutes.",
-    "Pull the bay leaves.",
-    "Blend about two-thirds of the batch with an immersion blender, leaving the rest whole.",
-    "Reduce until a spoon dragged across the bottom leaves a track that holds 2 seconds.",
-    "Season with the salt and pepper.",
-    "Cool and refrigerate."
-   ],
-   "notes": "Must be thick and scoopable so it does not pool in a sealed foil packet.",
-   "rating": 0,
-   "traits": [
-    "camping",
-    "make-ahead"
-   ],
-   "diet": [
-    "gluten-free"
-   ],
-   "nutrition": {
-    "assumptions": "At the 1.5 cup bean portion the 12 oz batch is a single serving. One 15.5 oz can drains to about 255 g; regular-sodium chicken broth at 180 g.",
-    "per_serving": {
-     "calories": 160,
-     "carbs_g": 21,
-     "cholesterol_mg": 15,
-     "fat_g": 7,
-     "fiber_g": 6,
-     "protein_g": 6,
-     "sat_fat_g": 4,
-     "sodium_mg": 720,
-     "sugar_g": 3.5
-    },
-    "serving": "about 85 g, a quarter of the batch (1 of 4)",
-    "servings": 4
    }
   },
   {
@@ -6219,6 +6103,74 @@
    }
   },
   {
+   "id": "red-beans-camp",
+   "title": "Thick Red Beans",
+   "category": "Sides & Breads",
+   "cuisine": "Cajun",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "about 12 oz",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "255 g red kidney beans, rinsed and drained (about one 15.5 oz can)",
+      "30 g butter",
+      "120 g yellow onion, diced 5 mm (about 1 small)",
+      "60 g celery, diced 5 mm (about 1 rib)",
+      "60 g green bell pepper, diced 5 mm (about 1/3)",
+      "15 g garlic, minced (about 3 cloves)",
+      "6 g smoked paprika",
+      "4 g dried thyme",
+      "0.4 g bay leaves (about 2)",
+      "1 g cayenne",
+      "160 to 200 g chicken broth",
+      "4 g salt",
+      "2 g black pepper"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Sweat the onion, celery and bell pepper in the butter over medium 6 to 8 minutes, until soft with no color.",
+    "Add the garlic for 30 seconds.",
+    "Add the paprika, thyme and cayenne for 30 seconds.",
+    "Add the beans, broth and bay leaves and simmer uncovered 15 to 20 minutes.",
+    "Pull the bay leaves.",
+    "Blend about two-thirds of the batch with an immersion blender, leaving the rest whole.",
+    "Reduce until a spoon dragged across the bottom leaves a track that holds 2 seconds.",
+    "Season with the salt and pepper.",
+    "Cool and refrigerate."
+   ],
+   "notes": "Must be thick and scoopable so it does not pool in a sealed foil packet.",
+   "rating": 0,
+   "traits": [
+    "camping",
+    "make-ahead"
+   ],
+   "diet": [
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "At the 1.5 cup bean portion the 12 oz batch is a single serving. One 15.5 oz can drains to about 255 g; regular-sodium chicken broth at 180 g.",
+    "per_serving": {
+     "calories": 160,
+     "carbs_g": 21,
+     "cholesterol_mg": 15,
+     "fat_g": 7,
+     "fiber_g": 6,
+     "protein_g": 6,
+     "sat_fat_g": 4,
+     "sodium_mg": 720,
+     "sugar_g": 3.5
+    },
+    "serving": "about 85 g, a quarter of the batch (1 of 4)",
+    "servings": 4
+   }
+  },
+  {
    "id": "growler-toasted-almond-revolver",
    "title": "Toasted Almond Revolver",
    "category": "Drinks",
@@ -6361,6 +6313,76 @@
     },
     "serving": "about 410 g (1 of 6)",
     "servings": 6
+   }
+  },
+  {
+   "id": "triple-cooked-chips",
+   "title": "Triple-Cooked Chips",
+   "category": "Sides & Breads",
+   "cuisine": "British",
+   "tags": [],
+   "yield": "serves 7",
+   "developed": "2026-10-26",
+   "groups": [
+    {
+     "ingredients": [
+      "2000 g russet potatoes, peeled, cut in 1.2 cm batons (about 7)",
+      "4000 g water (about 4 L)",
+      "80 g kosher salt, for the water (about 1/3 cup Diamond Crystal)",
+      "30 g malt vinegar (about 2 Tbsp)"
+     ],
+     "name": "Parboil"
+    },
+    {
+     "ingredients": [
+      "2760 g frying oil (about 3 L)",
+      "15 g fine salt, to finish (about 2 1/2 tsp)",
+      "105 g malt vinegar, to serve (about 7 Tbsp)"
+     ],
+     "name": "Fry"
+    }
+   ],
+   "steps": [
+    "Rinse the cut potatoes in cold water until it runs clear.",
+    "Put them in a pot with the cold water, kosher salt and 30 g malt vinegar.",
+    "Bring to a gentle simmer and cook until just tender with fuzzy, cracked edges, 8 to 12 minutes from the simmer. Start checking at 6.",
+    "Lift out carefully with a spider onto a rack set in a sheet pan.",
+    "Let them steam dry 10 minutes, then refrigerate uncovered at least 1 hour, or freeze 30 minutes.",
+    "Heat the oil in a deep pot of at least 8 quarts to 130°C (265°F).",
+    "Parfry in batches 6 to 8 minutes, until a dry, pale skin forms but no color.",
+    "Drain on the rack and cool completely, at least 30 minutes.",
+    "Heat the oil to 190°C (375°F).",
+    "Fry in batches 3 to 5 minutes, until deep golden and crisp.",
+    "Drain on the rack and salt immediately.",
+    "Serve with malt vinegar."
+   ],
+   "notes": "The parfried chips keep up to 2 days refrigerated, or freeze in a single layer, then bag; fry from frozen. Beef dripping is the traditional frying fat.",
+   "rating": 0,
+   "traits": [
+    "make-ahead"
+   ],
+   "diet": [
+    "vegetarian",
+    "vegan",
+    "pescatarian",
+    "gluten-free",
+    "dairy-free"
+   ],
+   "nutrition": {
+    "assumptions": "Oil absorbed at about 9% of cooked weight; about 5% of the parboiling salt and all 15 g of finishing salt counted; malt vinegar counted.",
+    "per_serving": {
+     "calories": 390,
+     "carbs_g": 52,
+     "cholesterol_mg": 0,
+     "fat_g": 18,
+     "fiber_g": 4,
+     "protein_g": 6,
+     "sat_fat_g": 1.5,
+     "sodium_mg": 1100,
+     "sugar_g": 1
+    },
+    "serving": "about 200 g cooked chips (1 of 7)",
+    "servings": 7
    }
   },
   {
