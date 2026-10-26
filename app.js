@@ -25,7 +25,7 @@ async function sb(path,opts={}){
 async function loadFriends(){
   if(!SB)return;
   try{
-    const rows=await sb("notes?select=id,recipe_id,name,rating,note,photo_path,created_at&order=created_at.desc&limit=5000");
+    let rows;try{rows=await sb("notes?select=id,recipe_id,name,rating,note,photo_path,created_at&order=created_at.desc&limit=5000")}catch(e){rows=await sb("notes?select=id,recipe_id,name,rating,note,created_at&order=created_at.desc&limit=5000");state.noPhotos=true}
     state.friends=new Map();for(const n of rows){if(!state.friends.has(n.recipe_id))state.friends.set(n.recipe_id,[]);state.friends.get(n.recipe_id).push(n)}
   }catch(e){console.warn("friend notes unavailable",e)}
   state.friendsLoaded=true;renderList();renderCard();
@@ -241,7 +241,7 @@ function renderCard(){
       <div class="row"><input id="ffName" maxlength="40" placeholder="Your name" aria-label="Your name" value="${esc(me)}" required>
         <div class="stars" role="group" aria-label="Your rating">${[1,2,3,4,5].map(i=>`<button class="star" type="button" data-fs="${i}" aria-label="${i} star${i>1?"s":""}">★</button>`).join("")}</div></div>
       <textarea id="ffNote" maxlength="1000" placeholder="How did it go? What would you change?" aria-label="Note"></textarea>
-      <div class="row"><input type="file" id="ffPhoto" accept="image/*" hidden><button class="btn" type="button" id="ffPhotoBtn">Add a photo</button><img id="ffPrev" class="ff-prev" alt="" hidden><span class="muted" id="ffPhotoName"></span></div>
+      <div class="row"${state.noPhotos?" hidden":""}><input type="file" id="ffPhoto" accept="image/*" hidden><button class="btn" type="button" id="ffPhotoBtn">Add a photo</button><img id="ffPrev" class="ff-prev" alt="" hidden><span class="muted" id="ffPhotoName"></span></div>
       <div class="row"><button class="btn primary" type="submit">Post</button><span class="muted" id="ffMsg"></span></div>
     </form>
     ${notes.length?`<ul class="friend-list">${notes.map(n=>`<li><div class="h"><span class="nm">${esc(n.name)}</span>${n.rating?`<span class="st">${stars(n.rating)}</span>`:""}<span class="dt">${esc(fmtDate(n.created_at))}</span></div>${n.note?`<div class="tx">${esc(n.note)}</div>`:""}${n.photo_path?`<img class="note-photo" src="${esc(photoUrl(n.photo_path))}" alt="Photo from ${esc(n.name)}" loading="lazy">`:""}</li>`).join("")}</ul>`:state.friendsLoaded?`<p class="muted">No notes yet. Be the first.</p>`:""}
