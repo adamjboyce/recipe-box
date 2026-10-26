@@ -1,6 +1,101 @@
 {
- "generated": "2026-10-26T18:14:45+00:00",
+ "generated": "2026-10-26T18:29:35+00:00",
  "recipes": [
+  {
+   "id": "teds-72-hour-pizza-dough",
+   "title": "72-Hour Pizza Dough",
+   "category": "Baking & Dough",
+   "cuisine": "American (New York style)",
+   "tags": [
+    "make-ahead",
+    "sourdough",
+    "cold-ferment"
+   ],
+   "yield": "three ~318 g balls (12 to 13 inch pies) or two ~477 g balls",
+   "developed": "2026-08-11",
+   "groups": [
+    {
+     "ingredients": [
+      "80 g King Arthur bread flour",
+      "80 g water",
+      "0.15 g instant yeast"
+     ],
+     "name": "Poolish"
+    },
+    {
+     "ingredients": [
+      "5 g sourdough starter (cold mother)",
+      "30 g bread flour",
+      "30 g water"
+     ],
+     "name": "Levain (optional, makes it sourdough)"
+    },
+    {
+     "ingredients": [
+      "470 g King Arthur bread flour",
+      "270 g water (250 g up front, 20 g held for bassinage)",
+      "0.15 g instant yeast",
+      "3 g diastatic malt powder",
+      "13 g fine sea salt",
+      "8 g olive oil",
+      "30 g levain (from above)"
+     ],
+     "name": "Final dough"
+    }
+   ],
+   "steps": [
+    "Day 1, ~9pm: disperse the 0.15 g yeast in the 80 g water, then stir in the 80 g flour.",
+    "Mix 5 g mother with 30 g flour and 30 g water to a paste.",
+    "Leave both at ~70F for 12 hours.",
+    "Day 2, ~9am: check the levain is roughly doubled and a spoonful floats; give it 2 to 3 more hours if not.",
+    "Mix the 470 g flour, malt and 0.15 g yeast in a large bowl.",
+    "Add 250 g water and 30 g levain to the poolish and stir to loosen.",
+    "Combine wet into dry and mix about 3 minutes until no dry flour remains.",
+    "Cover and rest 1 hour.",
+    "Add the salt and the reserved 20 g water; squeeze and fold about 1 minute until absorbed.",
+    "Work in the olive oil until it disappears.",
+    "Rest 1 hour at 70 to 75F.",
+    "Check dough temperature: target 70 to 75F.",
+    "Divide into three ~318 g pieces (or two ~477 g).",
+    "Ball each tightly with a sealed seam.",
+    "Place each in a lightly oiled 2-qt round container and lid.",
+    "Rest 30 minutes at room temperature, then refrigerate at 36 to 40F for 72 to 96 hours.",
+    "Bake day: pull the containers 2 to 3 hours ahead to come fully to room temperature.",
+    "Preheat the steel 6 to 8 inches below the broiler at 550F for 60 minutes; switch to broil for the last 10 minutes.",
+    "Shape by hand from the center out, leaving a 1-inch rim. No rolling pin.",
+    "Launch from a semolina-dusted wood peel, dressing in under 60 seconds.",
+    "Bake 5 to 7 minutes, rotating halfway."
+   ],
+   "notes": "Past 96 hours the dough goes slack. Refresh the mother (20 g mother, 40 g flour, 20 g water) in the same session as the levain build.",
+   "rating": 0,
+   "traits": [
+    "make-ahead",
+    "freezer",
+    "long-cook"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free"
+   ],
+   "nutrition": {
+    "assumptions": "Dough only: 30 g levain taken as half flour and half water; container oil, semolina and toppings left out.",
+    "per_serving": {
+     "calories": 710,
+     "carbs_g": 136,
+     "cholesterol_mg": 0,
+     "fat_g": 6,
+     "fiber_g": 4.6,
+     "protein_g": 24,
+     "sat_fat_g": 1,
+     "sodium_mg": 1690,
+     "sugar_g": 0.6
+    },
+    "serving": "one dough ball, about 318 g (1 of 3)",
+    "servings": 3
+   }
+  },
   {
    "id": "brussels-sprouts-bacon",
    "title": "Air Fryer Brussels Sprouts with Bacon",
@@ -329,7 +424,7 @@
     "Lower away from yourself into the 190°C oil.",
     "Fry 3 to 4 minutes, three or four pieces at a time, until the batter is hard and deep gold. Fry the thin tail pieces together.",
     "Drain on a rack and salt immediately.",
-    "Serve with malt vinegar and [tartar sauce](tartar-sauce)."
+    "Serve with malt vinegar and [tartar sauce](tartar-sauce), homemade or jarred."
    ],
    "notes": "The dry mix keeps for days in an airtight container. Cool the oil fully before storing.",
    "rating": 0,
@@ -763,7 +858,7 @@
     {
      "ingredients": [
       "~240 g pooled butter runoff from the boil toss (about 250 ml)",
-      "10 g [Cajun seasoning](cajun-seasoning)",
+      "10 g [Cajun seasoning](cajun-seasoning), homemade or Slap Ya Mama",
       "2 g cayenne",
       "10 g Crystal hot sauce (15 g for genuinely hot)"
      ],
@@ -831,7 +926,7 @@
     "Stir everything together.",
     "Store airtight."
    ],
-   "notes": "Keeps 6 months airtight.",
+   "notes": "Keeps 6 months airtight. Store-bought: Slap Ya Mama or Zatarain's Cajun. Both run saltier than this, so taste before salting the dish.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -1027,7 +1122,7 @@
      "ingredients": [
       "8 pats butter, 15 g each (about 120 g)",
       "8 oz Velveeta, cut into 1.5 cm cubes (about 227 g)",
-      "To finish: 2 Tbsp [Creole seasoning](creole-seasoning) (about 15 g), 1 Tbsp chili flakes (about 5 g), 1/4 cup hot sauce (about 60 g) and 1 cup each [salsa verde](salsa-verde-broiled) and [salsa roja](salsa-roja-de-arbol) (about 240 g each)"
+      "To finish: 2 Tbsp [Creole seasoning](creole-seasoning), homemade or Tony Chachere's (about 15 g), 1 Tbsp chili flakes (about 5 g), 1/4 cup hot sauce (about 60 g) and 1 cup each [salsa verde](salsa-verde-broiled) and [salsa roja](salsa-roja-de-arbol), homemade or jarred (about 240 g each)"
      ],
      "name": "Finish"
     }
@@ -1305,7 +1400,7 @@
     "Space the pasties out from frozen.",
     "Brush all over with egg wash, keeping it out of the vents.",
     "Bake 45 minutes, until deep golden and 165°F in the middle.",
-    "Rest 10 minutes. Serve with [piccalilli](piccalilli) and English mustard."
+    "Rest 10 minutes. Serve with [piccalilli](piccalilli), homemade or Haywards, and English mustard."
    ],
    "notes": "Unbaked pasties keep frozen up to 3 months; bake straight from frozen.",
    "rating": 0,
@@ -1508,7 +1603,7 @@
     "Grind everything to a fine powder in a spice grinder.",
     "Store airtight."
    ],
-   "notes": "Keeps 3 months airtight, away from light.",
+   "notes": "Keeps 3 months airtight, away from light. Store-bought: MDH or Everest Chole Masala.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -1776,7 +1871,7 @@
       "460 g leftover [skillet cornbread](skillet-cornbread-honey-butter), split horizontally (about 4 wedges)",
       "40 g butter or lard, for griddling (about 3 Tbsp)",
       "200 g eggs (about 4 large)",
-      "120 g [pimento cheese](pimento-cheese) (about 1/2 cup)",
+      "120 g [pimento cheese](pimento-cheese), homemade or Palmetto Cheese (about 1/2 cup)",
       "80 g red pepper jelly (mild) (about 1/4 cup)",
       "120 g bacon or country ham, optional (about 4 thick slices bacon)",
       "40 g hot pepper jelly, optional (about 2 Tbsp)"
@@ -1843,7 +1938,7 @@
     "Stir in the horseradish, salt and cayenne.",
     "Seal and refrigerate 2 days before using."
    ],
-   "notes": "Keeps 3 months refrigerated.",
+   "notes": "Keeps 3 months refrigerated. Store-bought: Zatarain's Creole Mustard.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -1886,7 +1981,7 @@
      "ingredients": [
       "500 g green cabbage, finely shredded (about 1/2 medium head)",
       "80 g mayonnaise",
-      "25 g [Creole mustard](creole-mustard)",
+      "25 g [Creole mustard](creole-mustard), homemade or Zatarain's",
       "15 g cider vinegar",
       "3 g kosher salt"
      ],
@@ -1955,7 +2050,7 @@
     "Stir everything together.",
     "Store airtight."
    ],
-   "notes": "Salt-free on purpose, so you season the dish separately. For a salted all-purpose blend, add 35 g fine salt.",
+   "notes": "Salt-free on purpose, so you season the dish separately. For a salted all-purpose blend, add 35 g fine salt. Store-bought match: Tony Chachere's No Salt. Regular Tony's is mostly salt, so cut the dish's other salt if you use it.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -2648,7 +2743,7 @@
     "Sift out any woody bits.",
     "Store airtight."
    ],
-   "notes": "Keeps 3 months airtight, away from light.",
+   "notes": "Keeps 3 months airtight, away from light. Store-bought: MDH or Everest Garam Masala.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -3532,7 +3627,7 @@
       "250 g green bell pepper, diced (about 1 1/2)",
       "200 g celery, diced (about 4 ribs)",
       "60 g garlic, minced (about 12 cloves)",
-      "20 g [no-salt Creole seasoning](creole-seasoning), homemade or Tony Chachere's no-salt",
+      "20 g [no-salt Creole seasoning](creole-seasoning), homemade or Tony Chachere's No Salt",
       "4 g dried thyme",
       "5 g cayenne",
       "6 g black pepper",
@@ -3669,7 +3764,7 @@
     "Pour the butter and boil liquor over the top, sprinkle the 60 g Old Bay over in two or three passes and toss with the paddle about 10 minutes.",
     "Pour off everything that pools at the bottom into bowls for the table as the dip."
    ],
-   "notes": "Melt the butter after any other prep, while the pot climbs. Keep warm until the toss. Hold tiny creamer potatoes until 0:05. Serve on a paper-covered table with [cocktail sauce](ldw-cocktail-sauce), [remoulade](ldw-remoulade), [serrano ranch](serrano-ranch), [Cajun runoff butter](cajun-runoff-butter) and [drawn lemon butter](drawn-lemon-butter) for dipping.",
+   "notes": "Melt the butter after any other prep, while the pot climbs. Keep warm until the toss. Hold tiny creamer potatoes until 0:05. Serve on a paper-covered table with [cocktail sauce](ldw-cocktail-sauce), [remoulade](ldw-remoulade), [serrano ranch](serrano-ranch), [Cajun runoff butter](cajun-runoff-butter) and [drawn lemon butter](drawn-lemon-butter) for dipping. Jarred cocktail sauce, remoulade and ranch work fine.",
    "rating": 0,
    "traits": [
     "crowd"
@@ -3735,7 +3830,7 @@
       "120 g poblano, diced (about 1)",
       "300 g yellow onions, diced; just under 2 lb vegetables total (about 2 medium)",
       "42 g oil (about 3 Tbsp)",
-      "25 g [taco seasoning](taco-seasoning) (about 3 Tbsp)"
+      "25 g [taco seasoning](taco-seasoning), homemade or one 1 oz packet (about 3 Tbsp)"
      ],
      "name": "Burrito vegetables"
     },
@@ -4340,7 +4435,7 @@
     "Spoon into clean jars and cool.",
     "Refrigerate at least 2 days before eating."
    ],
-   "notes": "Keeps 1 month refrigerated. The flavor mellows and improves over the first week.",
+   "notes": "Keeps 1 month refrigerated. The flavor mellows and improves over the first week. Store-bought: Haywards or Heinz Piccalilli.",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -4518,7 +4613,7 @@
     "Taste for salt and heat.",
     "Chill at least 1 hour."
    ],
-   "notes": "Keeps 5 days refrigerated. Grate the cheese yourself; pre-shredded makes it grainy.",
+   "notes": "Keeps 5 days refrigerated. Grate the cheese yourself; pre-shredded makes it grainy. Store-bought: Palmetto Cheese or Price's.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -4573,7 +4668,7 @@
     {
      "ingredients": [
       "4300 g bone-in pork shoulder (Boston butt)",
-      "35 g [no-salt Creole seasoning](creole-seasoning)",
+      "35 g [no-salt Creole seasoning](creole-seasoning), homemade or Tony Chachere's No Salt",
       "45 g kosher salt",
       "30 g brown sugar",
       "6 g black pepper"
@@ -4797,7 +4892,7 @@
     },
     {
      "ingredients": [
-      "12 g [garam masala](garam-masala)",
+      "12 g [garam masala](garam-masala), homemade or MDH",
       "5 g kasuri methi (dried fenugreek leaves)",
       "113 g butter (about 1 stick)",
       "45 g kosher salt",
@@ -5931,7 +6026,7 @@
     "Store airtight.",
     "Use about 25 g per 450 g (1 lb) meat."
    ],
-   "notes": "Keeps 6 months airtight.",
+   "notes": "Keeps 6 months airtight. Store-bought: one 1 oz packet is about the same amount.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -5992,7 +6087,7 @@
     "Taste and salt again. It should be sharp enough to cut fried batter.",
     "Refrigerate."
    ],
-   "notes": "Keeps a week refrigerated.",
+   "notes": "Keeps a week refrigerated. Store-bought: any jarred tartar sauce works.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -6019,100 +6114,6 @@
     },
     "serving": "2 Tbsp, about 30 g (1 of 11)",
     "servings": 11
-   }
-  },
-  {
-   "id": "teds-72-hour-pizza-dough",
-   "title": "Ted's Zaza 72-Hour Pizza Dough",
-   "category": "Baking & Dough",
-   "cuisine": "American (New York style)",
-   "tags": [
-    "make-ahead",
-    "sourdough",
-    "cold-ferment"
-   ],
-   "yield": "three ~318 g balls (12 to 13 inch pies) or two ~477 g balls",
-   "developed": "2026-08-11",
-   "groups": [
-    {
-     "ingredients": [
-      "80 g King Arthur bread flour",
-      "80 g water",
-      "0.15 g instant yeast"
-     ],
-     "name": "Poolish"
-    },
-    {
-     "ingredients": [
-      "5 g sourdough starter (cold mother)",
-      "30 g bread flour",
-      "30 g water"
-     ],
-     "name": "Levain (optional, makes it sourdough)"
-    },
-    {
-     "ingredients": [
-      "470 g King Arthur bread flour",
-      "270 g water (250 g up front, 20 g held for bassinage)",
-      "0.15 g instant yeast",
-      "3 g diastatic malt powder",
-      "13 g fine sea salt",
-      "8 g olive oil",
-      "30 g levain (from above)"
-     ],
-     "name": "Final dough"
-    }
-   ],
-   "steps": [
-    "Day 1, ~9pm: disperse the 0.15 g yeast in the 80 g water, then stir in the 80 g flour.",
-    "Mix 5 g mother with 30 g flour and 30 g water to a paste.",
-    "Leave both at ~70F for 12 hours.",
-    "Day 2, ~9am: check the levain is roughly doubled and a spoonful floats; give it 2 to 3 more hours if not.",
-    "Mix the 470 g flour, malt and 0.15 g yeast in a large bowl.",
-    "Add 250 g water and 30 g levain to the poolish and stir to loosen.",
-    "Combine wet into dry and mix about 3 minutes until no dry flour remains.",
-    "Cover and rest 1 hour.",
-    "Add the salt and the reserved 20 g water; squeeze and fold about 1 minute until absorbed.",
-    "Work in the olive oil until it disappears.",
-    "Rest 1 hour at 70 to 75F.",
-    "Check dough temperature: target 70 to 75F.",
-    "Divide into three ~318 g pieces (or two ~477 g).",
-    "Ball each tightly with a sealed seam.",
-    "Place each in a lightly oiled 2-qt round container and lid.",
-    "Rest 30 minutes at room temperature, then refrigerate at 36 to 40F for 72 to 96 hours.",
-    "Bake day: pull the containers 2 to 3 hours ahead to come fully to room temperature.",
-    "Preheat the steel 6 to 8 inches below the broiler at 550F for 60 minutes; switch to broil for the last 10 minutes.",
-    "Shape by hand from the center out, leaving a 1-inch rim. No rolling pin.",
-    "Launch from a semolina-dusted wood peel, dressing in under 60 seconds.",
-    "Bake 5 to 7 minutes, rotating halfway."
-   ],
-   "notes": "Past 96 hours the dough goes slack. Refresh the mother (20 g mother, 40 g flour, 20 g water) in the same session as the levain build.",
-   "rating": 0,
-   "traits": [
-    "make-ahead",
-    "long-cook"
-   ],
-   "diet": [
-    "vegan",
-    "vegetarian",
-    "pescatarian",
-    "dairy-free"
-   ],
-   "nutrition": {
-    "assumptions": "Dough only: 30 g levain taken as half flour and half water; container oil, semolina and toppings left out.",
-    "per_serving": {
-     "calories": 710,
-     "carbs_g": 136,
-     "cholesterol_mg": 0,
-     "fat_g": 6,
-     "fiber_g": 4.6,
-     "protein_g": 24,
-     "sat_fat_g": 1,
-     "sodium_mg": 1690,
-     "sugar_g": 0.6
-    },
-    "serving": "one dough ball, about 318 g (1 of 3)",
-    "servings": 3
    }
   },
   {

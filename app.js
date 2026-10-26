@@ -227,7 +227,7 @@ function photoBlock(r){
 function renderCard(){
   const el=$("#card");const r=state.recipes.get(state.openId);
   if(!r){el.innerHTML=`<div class="empty">${state.loaded?"Pick a recipe from the box.":"Opening the box…"}</div>`;return}
-  const chk=state.checked[r.id]||{};const k=getScale(r.id);const presets=[.5,1,1.5,2,3];
+  const chk=state.checked[r.id]||{};const anyChk=Object.values(chk).some(Boolean);const k=getScale(r.id);const presets=[.5,1,1.5,2,3];
   const fa=friendAvg(r.id);const notes=state.friends.get(r.id)||[];
   const me=load("rb.name","");
   el.innerHTML=`
@@ -246,7 +246,7 @@ function renderCard(){
   </div>
   <div class="body">
     <section>
-      <h3 class="sec-h">Ingredients <small>tap to check off</small></h3>
+      <h3 class="sec-h">Ingredients <span class="chk-ctl"><small id="chkHint"${anyChk?" hidden":""}>tap to check off</small><button type="button" class="reset-chk" id="resetBtn"${anyChk?"":" hidden"}>↺ Uncheck all</button></span></h3>
       <div class="scaler" role="group" aria-label="Batch size">
         <span class="lbl">Batch</span>
         ${presets.map(p=>`<button type="button" class="sc" data-scale="${p}" aria-pressed="${k===p}">${p===1?"1×":frac(p)+"×"}</button>`).join("")}
@@ -273,14 +273,13 @@ function renderCard(){
     ${notes.length?`<ul class="friend-list">${notes.map(n=>`<li><div class="h"><span class="nm">${esc(n.name)}</span>${n.rating?`<span class="st">${stars(n.rating)}</span>`:""}<span class="dt">${esc(fmtDate(n.created_at))}</span>${beforeChange(r,n)}</div>${n.note?`<div class="tx">${esc(n.note)}</div>`:""}${n.photo_path?`<img class="note-photo" src="${esc(photoUrl(n.photo_path))}" alt="Photo from ${esc(n.name)}" loading="lazy">`:""}</li>`).join("")}</ul>`:state.friendsLoaded?`<p class="muted">No notes yet. Be the first.</p>`:""}
   </section>`:""}
   <div class="foot"><span class="spacer"></span>
-    <button class="btn" type="button" id="resetBtn">Clear checks</button>
     <button class="btn" type="button" id="copyBtn">Copy recipe</button>
     <button class="btn" type="button" id="linkBtn">Copy link</button>
   </div>`;
   $("#backBtn").onclick=()=>openRecipe(null);
   el.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{state.photoSel[r.id]=+b.dataset.ph;renderCard()});
   el.querySelectorAll(".rlink").forEach(a=>a.onclick=e=>e.stopPropagation());
-  el.querySelectorAll(".ing li,.steps li").forEach(li=>li.onclick=()=>{const c=state.checked[r.id]=state.checked[r.id]||{};c[li.dataset.k]=!c[li.dataset.k];li.classList.toggle("done",c[li.dataset.k]);store("rb.checked",state.checked)});
+  el.querySelectorAll(".ing li,.steps li").forEach(li=>li.onclick=()=>{const c=state.checked[r.id]=state.checked[r.id]||{};c[li.dataset.k]=!c[li.dataset.k];li.classList.toggle("done",c[li.dataset.k]);store("rb.checked",state.checked);const on=Object.values(c).some(Boolean);$("#resetBtn").hidden=!on;$("#chkHint").hidden=on});
   el.querySelectorAll("[data-scale]").forEach(b=>b.onclick=()=>setScale(r.id,+b.dataset.scale));
   $("#scaleIn").onchange=e=>{const v=parseFloat(e.target.value);if(v>0&&v<=50)setScale(r.id,Math.round(v*100)/100)};
   $("#resetBtn").onclick=()=>{delete state.checked[r.id];store("rb.checked",state.checked);renderCard()};
