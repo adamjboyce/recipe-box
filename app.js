@@ -249,6 +249,7 @@ function renderCard(){
     </section>
   </div>
   ${r.notes?`<section><h3 class="sec-h">Notes</h3><div class="notes">${esc(r.notes)}</div></section>`:""}
+  ${nutritionBlock(r)}
   ${SB?`<section class="friends-sec">
     <h3 class="sec-h">Made it? <small>leave a rating or a note for Adam and everyone else</small></h3>
     <form class="friend-form" id="ff">
@@ -271,6 +272,7 @@ function renderCard(){
   el.querySelectorAll("[data-scale]").forEach(b=>b.onclick=()=>setScale(r.id,+b.dataset.scale));
   $("#scaleIn").onchange=e=>{const v=parseFloat(e.target.value);if(v>0&&v<=50)setScale(r.id,Math.round(v*100)/100)};
   $("#resetBtn").onclick=()=>{delete state.checked[r.id];store("rb.checked",state.checked);renderCard()};
+  {const d=el.querySelector(".nutri");if(d)d.ontoggle=()=>{state.nutriOpen=d.open}}
   $("#copyBtn").onclick=()=>copyText(recipeText(r,k),"Recipe copied");
   $("#linkBtn").onclick=()=>copyText(location.origin+location.pathname+"#"+r.id,"Link copied");
   if(SB)wireFriendForm(r);
@@ -299,6 +301,19 @@ function wireFriendForm(r){
     }catch(err){msg.textContent="Couldn't post that. Check your connection and try again."}
   };
 }
+function nutritionBlock(r){
+  const n=r.nutrition;if(!n||!n.per_serving)return"";
+  const p=n.per_serving,f=(v,u)=>v==null?"":`${v}${u}`;
+  const row=(label,val,sub)=>val===""?"":`<div class="nrow${sub?" sub":""}"><span>${label}</span><b>${val}</b></div>`;
+  return `<section><details class="nutri"${state.nutriOpen?" open":""}><summary><span class="sec-h" style="margin:0">Nutrition facts</span><span class="muted">${p.calories!=null?p.calories+" cal per serving":""}</span></summary>
+    <div class="nlabel">
+      <div class="nserv">Serving: ${esc(n.serving||"")}${n.servings?` · ${n.servings} servings per batch`:""}</div>
+      <div class="ncal"><span>Calories</span><b>${p.calories??""}</b></div>
+      ${row("Total fat",f(p.fat_g,"g"))}${row("Saturated fat",f(p.sat_fat_g,"g"),1)}${row("Cholesterol",f(p.cholesterol_mg,"mg"))}${row("Sodium",f(p.sodium_mg,"mg"))}
+      ${row("Total carbohydrate",f(p.carbs_g,"g"))}${row("Dietary fiber",f(p.fiber_g,"g"),1)}${row("Total sugars",f(p.sugar_g,"g"),1)}${row("Protein",f(p.protein_g,"g"))}
+      <p class="nnote">Estimated from USDA values for the ingredients as written, per serving at 1× batch.${n.assumptions?" "+esc(n.assumptions):""}</p>
+    </div></details></section>`;
+}
 function recipeText(r,k=1){
   return [r.title+(k!==1?` (× ${frac(k)})`:""),r.yield?`Yield: ${r.yield}${k!==1?` × ${frac(k)}`:""}`:"","",...(r.groups||[]).flatMap(g=>[g.name?`${g.name}:`:"Ingredients:",...(g.ingredients||[]).map(i=>"- "+scaleLine(i,k)),""]),"Method:",...(r.steps||[]).map(s=>"- "+s),r.notes?`\nNotes: ${r.notes}`:""].filter((l,i,a)=>!(l===""&&a[i-1]==="")).join("\n").trim();
 }
@@ -309,7 +324,7 @@ $("#q").value=state.q||"";$("#sort").value=["best","az","new"].includes(state.so
 if(!["all","keepers","rated","photos"].includes(state.show))state.show="all";
 $("#q").oninput=e=>{state.q=e.target.value;saveView();renderList();if(state.panel)renderFilters()};
 $("#sort").onchange=e=>{state.sort=e.target.value;saveView();renderList()};
-function showView(v){const home=v==="home";$("#home").hidden=!home;$("#app").hidden=home;document.title=home?"Adam's Recipe Box":"Recipes · Adam's Recipe Box";if(home){renderHome();window.scrollTo(0,0)}}
+function showView(v){const home=v==="home";$("#home").hidden=!home;$("#app").hidden=home;document.title=home?"Ark's Vibes & Vittles":"Recipes · Ark's Vibes & Vittles";if(home){renderHome();window.scrollTo(0,0)}}
 function route(){
   const h=location.hash.slice(1);
   if(!h){state.openId=null;showView("home");return}
