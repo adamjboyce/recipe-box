@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T20:38:04+00:00",
+ "generated": "2026-10-26T20:57:44+00:00",
  "recipes": [
   {
    "id": "72-hour-pizza-dough",
@@ -97,7 +97,9 @@
    "credit": null,
    "developed": "2026-08-11",
    "updated_at": "2026-10-26T20:36:56.957621+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "brussels-sprouts-bacon",
@@ -160,7 +162,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "apple-cider-doughnut-focaccia",
@@ -247,7 +251,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:36:57.168804+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "banana-boats",
@@ -303,7 +309,129 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:36:57.38408+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
+  },
+  {
+   "id": "barbacoa",
+   "title": "Barbacoa",
+   "category": "Mains",
+   "cuisine": "Mexican",
+   "yield": "about 700 g shredded meat",
+   "tags": [],
+   "traits": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "slow-cooker",
+    "long-cook"
+   ],
+   "diet": [
+    "dairy-free",
+    "gluten-free"
+   ],
+   "groups": [
+    {
+     "name": "Chiles",
+     "ingredients": [
+      "28 g dried guajillo chiles, toasted, stemmed and seeded (about 4)",
+      "45 g dried ancho chiles, toasted, stemmed and seeded (about 4)",
+      "6 g dried morita chiles, toasted and stemmed (about 2)",
+      "20 g chipotles in adobo plus 30 g adobo sauce (about 2 chipotles)"
+     ]
+    },
+    {
+     "name": "Braise",
+     "ingredients": [
+      "1130 g beef chuck roast, cut into large chunks (about 2.5 lb)",
+      "200 g white onion, quartered (about 1)",
+      "30 g garlic, peeled, left whole (about 6 cloves)",
+      "240 g beef broth",
+      "45 g apple cider vinegar",
+      "8 g ground cumin",
+      "6 g dried Mexican oregano",
+      "1 g bay leaves (about 3)",
+      "25 g salt",
+      "3 g MSG (about 3/4 tsp)"
+     ]
+    }
+   ],
+   "steps": [
+    "Toast the guajillo, ancho and morita in a dry pan over medium, 20 to 30 seconds a side, with the vent running.",
+    "Soak the toasted chiles in hot water 20 minutes.",
+    "Blend the soaked chiles with the chipotles, adobo, onion, garlic, broth, vinegar, cumin, oregano, salt and MSG until smooth.",
+    "Sear the chuck hard in a skillet.",
+    "Deglaze the skillet into the crockpot.",
+    "Add the beef, sauce and bay leaves to the crockpot.",
+    "Cook on low 8 hours.",
+    "Lift the meat out with a slotted spoon.",
+    "Skim the fat from the liquid and pull the bay leaves.",
+    "Reduce the liquid hard in a wide saucepan, 15 minutes or more, until it coats a spoon and a finger track across the back holds.",
+    "Taste the reduced sauce for salt.",
+    "Shred the meat and toss with enough sauce to coat; reserve any extra sauce."
+   ],
+   "notes": "Reduce the liquid well before tossing; a thin sauce leaves the meat wet. Freezes well for up to 3 months; reheat covered until hot through.",
+   "nutrition": {
+    "serving": "150 g shredded meat with sauce (1 of 5, from about 700 g)",
+    "servings": 5,
+    "assumptions": "1134 g raw chuck; about half the rendered fat (35 g) is skimmed off. All 25 g salt stays in the meat and reduced sauce.",
+    "per_serving": {
+     "fat_g": 30,
+     "carbs_g": 15,
+     "fiber_g": 4.8,
+     "sugar_g": 5,
+     "calories": 520,
+     "protein_g": 48,
+     "sat_fat_g": 11.5,
+     "sodium_mg": 2420,
+     "cholesterol_mg": 160
+    }
+   },
+   "rating": 4,
+   "photos": [],
+   "credit": null,
+   "developed": "2026-10-15",
+   "updated_at": "2026-10-26T20:57:43.115256+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added a Dutch oven method tab."
+    }
+   ],
+   "method": "Slow cooker",
+   "alt_methods": [
+    {
+     "name": "Dutch oven",
+     "notes": null,
+     "steps": [
+      "Toast the guajillo, ancho and morita in a dry pan over medium, 20 to 30 seconds a side, with the vent running.",
+      "Soak the toasted chiles in hot water 20 minutes.",
+      "Blend the soaked chiles with the chipotles, adobo, onion, garlic, broth, vinegar, cumin, oregano, salt and MSG until smooth.",
+      "Heat the oven to 150°C (300°F).",
+      "Sear the chuck hard in a Dutch oven in batches and set it aside.",
+      "Deglaze the Dutch oven with a splash of the sauce, scraping up the browned bits.",
+      "Return the beef, add the rest of the sauce and the bay leaves and bring to a simmer.",
+      "Cover and braise in the oven 3 to 3 1/2 hours, until the beef shreds easily.",
+      "Lift the meat out with a slotted spoon.",
+      "Skim the fat from the liquid and pull the bay leaves.",
+      "Reduce the liquid uncovered on the stovetop, 10 minutes or more, until it coats a spoon and a finger track across the back holds.",
+      "Taste the reduced sauce for salt.",
+      "Shred the meat and toss with enough sauce to coat; reserve any extra sauce."
+     ],
+     "yield": null,
+     "groups": null,
+     "nutrition": null
+    }
+   ]
   },
   {
    "id": "beer-battered-walleye",
@@ -380,7 +508,9 @@
      "date": "2026-10-26",
      "note": "Fish only now. Fries are just a serve-with."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "black-bean-paste",
@@ -443,91 +573,9 @@
    "credit": null,
    "developed": "2026-09-03",
    "updated_at": "2026-10-26T20:36:58.461933+00:00",
-   "changes": []
-  },
-  {
-   "id": "carnitas-oven",
-   "title": "Braised Carnitas",
-   "category": "Mains",
-   "cuisine": "Mexican",
-   "yield": "about 1084 g shredded meat",
-   "tags": [],
-   "traits": [
-    "camping",
-    "make-ahead",
-    "freezer",
-    "long-cook"
-   ],
-   "diet": [
-    "dairy-free",
-    "gluten-free"
-   ],
-   "groups": [
-    {
-     "name": "Braise",
-     "ingredients": [
-      "1500 g bone-in pork shoulder butt, cut into 5 cm chunks around the bone (about 3.3 lb)",
-      "180 g orange, juiced, peels reserved (about 1)",
-      "150 g white onion, quartered (about 1 medium)",
-      "30 g garlic, smashed and peeled (about 6 cloves)",
-      "8 g ground cumin",
-      "6 g dried Mexican oregano",
-      "0.5 g bay leaves (about 2)",
-      "28 g salt",
-      "3.5 g MSG (about 1 tsp)",
-      "About 750 g water, to come halfway up the meat"
-     ]
-    },
-    {
-     "name": "To crisp",
-     "ingredients": [
-      "2 Tbsp lard (about 30 g)"
-     ]
-    }
-   ],
-   "steps": [
-    "Put everything in an enameled dutch oven with the orange peels and the bone.",
-    "Add water to come halfway up the meat.",
-    "Cover and cook at 165°C for 3 hours.",
-    "Uncover, raise to 190°C and cook about 30 minutes until the liquid renders down and the edges catch.",
-    "Pull the bone.",
-    "Shred coarsely, keeping some fat with the meat.",
-    "Skim and save any fat that separates.",
-    "Heat a griddle over medium-high and add the lard.",
-    "Spread the meat in a thin layer and leave it 2 to 3 minutes before turning."
-   ],
-   "notes": "The braise needs no added fat; the shoulder renders its own. Freezes well for up to 3 months; thaw before crisping. Slow cooker version: [Slow Cooker Carnitas](slow-cooker-carnitas).",
-   "nutrition": {
-    "serving": "150 g cooked meat (1 of 7)",
-    "servings": 7,
-    "assumptions": "Bone about 15% of the 3.3 lb shoulder; about half the fat renders and half of that is skimmed off. The 30 g of griddle lard is counted against the whole 1084 g batch.",
-    "per_serving": {
-     "fat_g": 29,
-     "carbs_g": 6,
-     "fiber_g": 1,
-     "sugar_g": 2,
-     "calories": 420,
-     "protein_g": 31,
-     "sat_fat_g": 10.5,
-     "sodium_mg": 1740,
-     "cholesterol_mg": 135
-    }
-   },
-   "rating": 0,
-   "photos": [],
-   "credit": null,
-   "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:02.273037+00:00",
-   "changes": [
-    {
-     "date": "2026-10-26",
-     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
-    },
-    {
-     "date": "2026-10-26",
-     "note": "MSG added at about 0.3% of the dish."
-    }
-   ]
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "braised-red-cabbage",
@@ -596,7 +644,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "breakfast-burritos",
@@ -737,7 +787,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "salsa-verde-broiled",
@@ -806,7 +858,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "buffalo-chicken-hand-pies",
@@ -894,7 +948,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "cabbage-carrot-slaw-sumac-dressing",
@@ -970,7 +1026,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "cajun-runoff-butter",
@@ -1025,7 +1083,9 @@
    "credit": null,
    "developed": "2026-09-26",
    "updated_at": "2026-10-26T20:37:00.660565+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "cajun-seasoning",
@@ -1091,7 +1151,9 @@
    "credit": null,
    "developed": "2026-10-26",
    "updated_at": "2026-10-26T20:37:00.869777+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "camp-cheesesteaks",
@@ -1164,7 +1226,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "campfire-dutch-oven-cornbread",
@@ -1222,7 +1286,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:01.520511+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "campfire-foil-packet-bar",
@@ -1251,7 +1317,7 @@
       "12 oz andouille, sliced (about 340 g)",
       "14 oz plain smoked ham, 15 mm dice (about 397 g)",
       "350 g [barbacoa](barbacoa)",
-      "542 g [carnitas](carnitas-oven)",
+      "542 g [carnitas](carnitas)",
       "10 oz [mushroom duxelles mix](mushroom-duxelles-mix) (about 283 g)",
       "12 oz [red beans](thick-red-beans) (about 340 g)"
      ]
@@ -1311,7 +1377,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:01.728908+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "campfire-stovetop-popcorn",
@@ -1371,7 +1439,169 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:01.963034+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
+  },
+  {
+   "id": "carnitas",
+   "title": "Carnitas",
+   "category": "Mains",
+   "cuisine": "Mexican",
+   "yield": "about 1084 g shredded meat",
+   "tags": [],
+   "traits": [
+    "camping",
+    "crowd",
+    "freezer",
+    "long-cook",
+    "make-ahead",
+    "slow-cooker"
+   ],
+   "diet": [
+    "dairy-free",
+    "gluten-free"
+   ],
+   "groups": [
+    {
+     "name": "Braise",
+     "ingredients": [
+      "1500 g bone-in pork shoulder butt, cut into 5 cm chunks around the bone (about 3.3 lb)",
+      "180 g orange, juiced, peels reserved (about 1)",
+      "150 g white onion, quartered (about 1 medium)",
+      "30 g garlic, smashed and peeled (about 6 cloves)",
+      "8 g ground cumin",
+      "6 g dried Mexican oregano",
+      "0.5 g bay leaves (about 2)",
+      "28 g salt",
+      "3.5 g MSG (about 1 tsp)",
+      "About 750 g water, to come halfway up the meat"
+     ]
+    },
+    {
+     "name": "To crisp",
+     "ingredients": [
+      "2 Tbsp lard (about 30 g)"
+     ]
+    }
+   ],
+   "steps": [
+    "Put everything in an enameled dutch oven with the orange peels and the bone.",
+    "Add water to come halfway up the meat.",
+    "Cover and cook at 165°C for 3 hours.",
+    "Uncover, raise to 190°C and cook about 30 minutes until the liquid renders down and the edges catch.",
+    "Pull the bone.",
+    "Shred coarsely, keeping some fat with the meat.",
+    "Skim and save any fat that separates.",
+    "Heat a griddle over medium-high and add the lard.",
+    "Spread the meat in a thin layer and leave it 2 to 3 minutes before turning."
+   ],
+   "notes": "The braise needs no added fat; the shoulder renders its own. Freezes well for up to 3 months; thaw before crisping.",
+   "nutrition": {
+    "serving": "150 g cooked meat (1 of 7)",
+    "servings": 7,
+    "assumptions": "Bone about 15% of the 3.3 lb shoulder; about half the fat renders and half of that is skimmed off. The 30 g of griddle lard is counted against the whole 1084 g batch.",
+    "per_serving": {
+     "fat_g": 29,
+     "carbs_g": 6,
+     "fiber_g": 1,
+     "sugar_g": 2,
+     "calories": 420,
+     "protein_g": 31,
+     "sat_fat_g": 10.5,
+     "sodium_mg": 1740,
+     "cholesterol_mg": 135
+    }
+   },
+   "rating": 0,
+   "photos": [],
+   "credit": null,
+   "developed": "2026-10-15",
+   "updated_at": "2026-10-26T20:57:42.837306+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Merged with the slow cooker version as a second method tab."
+    }
+   ],
+   "method": "Dutch oven",
+   "alt_methods": [
+    {
+     "name": "Slow cooker",
+     "notes": "Needs a 7 qt or larger slow cooker. Freeze shredded, uncrisped pork with some of its fat and juices for up to 3 months; crisp after thawing. Freeze the bone for stock.",
+     "steps": [
+      "Toss the pork with the salt, MSG, oregano, cumin and black pepper.",
+      "Refrigerate covered overnight.",
+      "Place the onion, garlic and bay leaves in the slow cooker and add the pork.",
+      "Pour over the orange juice, lime juice, oil and water.",
+      "Tuck in the spent orange halves (do not add lime halves).",
+      "Cover and cook on low about 10 hours, until fork-tender.",
+      "Discard the orange halves, onion and bay leaves.",
+      "Break the pork into large shreds with two forks, keeping some chunks.",
+      "Skim the fat from the juices and reserve both separately.",
+      "To serve, heat a cast iron skillet over high with a spoonful of the reserved fat.",
+      "Add pork in a single layer with a splash of the juices and cook undisturbed until the liquid evaporates and the bottom is crisp, about 5 minutes."
+     ],
+     "yield": "4 kg deboned pork shoulder (7 qt slow cooker)",
+     "groups": [
+      {
+       "name": "Dry brine",
+       "ingredients": [
+        "4000 g pork shoulder meat (from a 9.88 lb bone-in shoulder), deboned and cut into 5 cm chunks",
+        "73 g kosher salt",
+        "8 g MSG (about 2 tsp)",
+        "10 g dried Mexican oregano",
+        "7 g ground cumin",
+        "4 g black pepper"
+       ]
+      },
+      {
+       "name": "Slow cooker",
+       "ingredients": [
+        "325 g white onion, quartered (about 2 medium)",
+        "50 g garlic, smashed (about 10 cloves)",
+        "0.6 g bay leaves (about 3)",
+        "230 g orange, juiced, halves reserved (about 1 large)",
+        "60 g lime juice",
+        "100 g neutral oil",
+        "160 g water"
+       ]
+      }
+     ],
+     "nutrition": {
+      "serving": "150 g cooked meat (1 of 18)",
+      "servings": 18,
+      "assumptions": "About half the pork fat renders and half of that is skimmed off, along with half the added oil; onion, bay and orange halves are discarded. Cooked yield about 2.68 kg with the garlic and some juices.",
+      "per_serving": {
+       "fat_g": 33,
+       "carbs_g": 2.4,
+       "fiber_g": 0.4,
+       "sugar_g": 0.5,
+       "calories": 470,
+       "protein_g": 39,
+       "sat_fat_g": 10.5,
+       "sodium_mg": 1780,
+       "cholesterol_mg": 160
+      }
+     }
+    }
+   ]
   },
   {
    "id": "charred-broccoli-cauliflower",
@@ -1442,7 +1672,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "cheese-onion-potato-pasties",
@@ -1523,7 +1755,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "cheesy-sausage-breakfast-burritos",
@@ -1585,7 +1819,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:03.330902+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "chole",
@@ -1676,7 +1912,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "chole-masala",
@@ -1748,7 +1986,9 @@
    "credit": null,
    "developed": "2026-10-26",
    "updated_at": "2026-10-26T20:37:03.594615+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "cider-cream-cheese-glaze",
@@ -1805,7 +2045,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:04.157134+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "cider-reduction",
@@ -1859,7 +2101,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:04.332764+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "classic-homemade-steak-sauce",
@@ -1921,7 +2165,9 @@
    "credit": null,
    "developed": "2026-04-15",
    "updated_at": "2026-10-26T20:37:04.539671+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "cocktail-sauce",
@@ -1979,7 +2225,9 @@
    "credit": null,
    "developed": "2026-09-26",
    "updated_at": "2026-10-26T20:37:04.696516+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "cornbread-breakfast-sandwiches",
@@ -2035,7 +2283,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:04.858854+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "creole-mustard",
@@ -2099,7 +2349,9 @@
    "credit": null,
    "developed": "2026-10-06",
    "updated_at": "2026-10-26T20:37:05.380132+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "creole-mustard-slaw",
@@ -2159,7 +2411,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "creole-seasoning",
@@ -2225,7 +2479,9 @@
    "credit": null,
    "developed": "2026-10-26",
    "updated_at": "2026-10-26T20:37:05.542809+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "cubano-tater-tot-casserole",
@@ -2324,7 +2580,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "dill-escabeche-pickle-soup",
@@ -2447,7 +2705,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "dill-pickle-potato-salad",
@@ -2545,7 +2805,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "dill-pickles",
@@ -2628,7 +2890,9 @@
    "credit": null,
    "developed": "2026-09-26",
    "updated_at": "2026-10-26T20:37:06.917682+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "drawn-lemon-butter",
@@ -2684,7 +2948,9 @@
    "credit": null,
    "developed": "2026-09-26",
    "updated_at": "2026-10-26T20:37:07.137021+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "duck-fat-roast-potatoes",
@@ -2743,7 +3009,9 @@
    "credit": null,
    "developed": "2026-10-24",
    "updated_at": "2026-10-26T20:37:07.382034+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "duck-fat-rosti",
@@ -2810,7 +3078,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "escabeche-pickles",
@@ -2892,7 +3162,9 @@
    "credit": null,
    "developed": "2026-09-26",
    "updated_at": "2026-10-26T20:37:07.987829+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "frozen-chocolate-milk-slushie",
@@ -2953,7 +3225,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:08.203861+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "frozen-limeade-slushie",
@@ -3013,7 +3287,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:08.380832+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "garam-masala",
@@ -3082,7 +3358,9 @@
    "credit": null,
    "developed": "2026-10-26",
    "updated_at": "2026-10-26T20:37:08.910053+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "garlic-old-bay-butter",
@@ -3143,7 +3421,9 @@
    "credit": null,
    "developed": "2026-09-26",
    "updated_at": "2026-10-26T20:37:09.43466+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "garlic-dill-yogurt-sauce",
@@ -3206,7 +3486,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "green-room-freezer-martini",
@@ -3273,7 +3555,9 @@
    "credit": null,
    "developed": "2026-08-02",
    "updated_at": "2026-10-26T20:37:09.616635+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "grilled-vegetable-skewers",
@@ -3364,7 +3648,9 @@
    "credit": null,
    "developed": "2026-09-03",
    "updated_at": "2026-10-26T20:37:09.811832+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "gruyere-gouda-grilled-cheese",
@@ -3419,7 +3705,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:09.990283+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "hot-chocolate-swiss-miss",
@@ -3484,7 +3772,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:10.71558+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "hot-chocolate-ganache",
@@ -3557,7 +3847,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:10.514566+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "irish-lamb-stew",
@@ -3647,7 +3939,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "kofta",
@@ -3731,7 +4025,9 @@
      "date": "2026-10-26",
      "note": "Spice blend now links to its own recipe."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "kofta-spice-blend",
@@ -3799,7 +4095,9 @@
    "credit": null,
    "developed": "2026-09-03",
    "updated_at": "2026-10-26T20:37:11.288729+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "lemon-herb-compound-butter",
@@ -3861,7 +4159,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:11.843777+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "louisiana-red-beans-and-rice",
@@ -3968,7 +4268,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "low-country-seafood-boil",
@@ -4054,7 +4356,9 @@
    "credit": null,
    "developed": "2026-09-26",
    "updated_at": "2026-10-26T20:37:12.351889+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "mild-chili",
@@ -4145,7 +4449,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:12.736973+00:00",
+   "updated_at": "2026-10-26T20:57:43.477931+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -4154,6 +4458,34 @@
     {
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added a stovetop method tab."
+    }
+   ],
+   "method": "Slow cooker",
+   "alt_methods": [
+    {
+     "name": "Stovetop",
+     "notes": "Best made 1 to 2 days ahead; the flavor improves overnight. Freezes well for up to 3 months.",
+     "steps": [
+      "Toast the guajillos, anchos and morita in a dry skillet over medium heat, pressing flat, about 30 seconds per side, until fragrant. Do not blacken.",
+      "Toast the cumin seeds in the same skillet until fragrant and a shade darker. Grind.",
+      "Cover the chiles with the boiling stock and soak 20 minutes.",
+      "Blend the chiles with the soaking liquid until smooth.",
+      "Brown the beef with the onion and garlic. Drain excess fat if desired.",
+      "Add the tomato paste and ground cumin and cook, stirring, until darkened.",
+      "Crush in the oregano.",
+      "Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs to the beef in a heavy pot. Stir.",
+      "If it looks tight, stir in more stock until it is a thick stew that settles when stirred.",
+      "Bring to a simmer, then cover partly and cook on low 2 1/2 to 3 hours, stirring every 20 minutes and scraping the bottom.",
+      "Cool in shallow containers and refrigerate, ideally overnight.",
+      "Reheat gently, adjust salt and serve with the toppings."
+     ],
+     "yield": null,
+     "groups": null,
+     "nutrition": null
     }
    ]
   },
@@ -4216,7 +4548,9 @@
    "credit": null,
    "developed": "2026-10-24",
    "updated_at": "2026-10-26T20:37:13.105168+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "mudslide-slushie-base",
@@ -4285,7 +4619,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:13.272223+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "mulled-cider",
@@ -4365,7 +4701,9 @@
    "credit": null,
    "developed": "2026-10-24",
    "updated_at": "2026-10-26T20:37:13.482039+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "mushroom-duxelles-mix",
@@ -4436,7 +4774,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "mushrooms-on-toast-soft-eggs",
@@ -4524,7 +4864,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "papas-arrugadas",
@@ -4595,7 +4937,9 @@
      "date": "2026-10-26",
      "note": "Mojo verde moved to its own recipe."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "piccalilli",
@@ -4677,7 +5021,9 @@
    "credit": null,
    "developed": "2026-10-26",
    "updated_at": "2026-10-26T20:37:14.787226+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "pickled-red-onions",
@@ -4748,7 +5094,9 @@
      "date": "2026-10-26",
      "note": "Merged with Quick Pickled Red Onions; added brown mustard, fennel and dill seeds, crushed black pepper and garlic."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "pico-de-gallo",
@@ -4811,7 +5159,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "pimento-cheese",
@@ -4876,7 +5226,9 @@
    "credit": null,
    "developed": "2026-10-26",
    "updated_at": "2026-10-26T20:37:15.706929+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "poor-mans-cochon-de-lait",
@@ -4964,7 +5316,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "queso-american-cheddar",
@@ -5030,7 +5384,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "rajma",
@@ -5148,7 +5504,9 @@
      "date": "2026-10-26",
      "note": "Plain rice directions dropped; serve over basmati."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "ras-el-hanout-caraway",
@@ -5214,7 +5572,9 @@
    "credit": null,
    "developed": "2026-04-26",
    "updated_at": "2026-10-26T20:37:16.929656+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "reeses-puffs-krispie-treats",
@@ -5288,7 +5648,9 @@
    "credit": null,
    "developed": "2026-06-04",
    "updated_at": "2026-10-26T20:37:17.134649+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "reeses-puffs-no-bake-clusters",
@@ -5351,7 +5713,9 @@
    "credit": null,
    "developed": "2026-06-04",
    "updated_at": "2026-10-26T20:37:17.299647+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "remoulade",
@@ -5412,7 +5776,9 @@
    "credit": null,
    "developed": "2026-09-26",
    "updated_at": "2026-10-26T20:37:17.477434+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "roast-game-hens",
@@ -5485,7 +5851,9 @@
    "credit": null,
    "developed": "2026-10-24",
    "updated_at": "2026-10-26T20:37:17.685347+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "hen-gravy",
@@ -5555,7 +5923,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "salsa-roja-de-arbol",
@@ -5629,7 +5999,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "sausage-rolls",
@@ -5706,7 +6078,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "serrano-ranch",
@@ -5769,7 +6143,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "skillet-cornbread-honey-butter",
@@ -5845,187 +6221,9 @@
    "credit": null,
    "developed": "2026-10-15",
    "updated_at": "2026-10-26T20:37:19.357147+00:00",
-   "changes": []
-  },
-  {
-   "id": "slow-cooker-carnitas",
-   "title": "Slow Cooker Carnitas",
-   "category": "Mains",
-   "cuisine": "Mexican",
-   "yield": "4 kg deboned pork shoulder (7 qt slow cooker)",
-   "tags": [],
-   "traits": [
-    "make-ahead",
-    "freezer",
-    "slow-cooker",
-    "long-cook",
-    "crowd"
-   ],
-   "diet": [
-    "dairy-free",
-    "gluten-free"
-   ],
-   "groups": [
-    {
-     "name": "Dry brine",
-     "ingredients": [
-      "4000 g pork shoulder meat (from a 9.88 lb bone-in shoulder), deboned and cut into 5 cm chunks",
-      "73 g kosher salt",
-      "8 g MSG (about 2 tsp)",
-      "10 g dried Mexican oregano",
-      "7 g ground cumin",
-      "4 g black pepper"
-     ]
-    },
-    {
-     "name": "Slow cooker",
-     "ingredients": [
-      "325 g white onion, quartered (about 2 medium)",
-      "50 g garlic, smashed (about 10 cloves)",
-      "0.6 g bay leaves (about 3)",
-      "230 g orange, juiced, halves reserved (about 1 large)",
-      "60 g lime juice",
-      "100 g neutral oil",
-      "160 g water"
-     ]
-    }
-   ],
-   "steps": [
-    "Toss the pork with the salt, MSG, oregano, cumin and black pepper.",
-    "Refrigerate covered overnight.",
-    "Place the onion, garlic and bay leaves in the slow cooker and add the pork.",
-    "Pour over the orange juice, lime juice, oil and water.",
-    "Tuck in the spent orange halves (do not add lime halves).",
-    "Cover and cook on low about 10 hours, until fork-tender.",
-    "Discard the orange halves, onion and bay leaves.",
-    "Break the pork into large shreds with two forks, keeping some chunks.",
-    "Skim the fat from the juices and reserve both separately.",
-    "To serve, heat a cast iron skillet over high with a spoonful of the reserved fat.",
-    "Add pork in a single layer with a splash of the juices and cook undisturbed until the liquid evaporates and the bottom is crisp, about 5 minutes."
-   ],
-   "notes": "Needs a 7 qt or larger slow cooker. Freeze shredded, uncrisped pork with some of its fat and juices for up to 3 months; crisp after thawing. Freeze the bone for stock. Oven version: [Carnitas (Oven, Dutch Oven)](carnitas-oven).",
-   "nutrition": {
-    "serving": "150 g cooked meat (1 of 18)",
-    "servings": 18,
-    "assumptions": "About half the pork fat renders and half of that is skimmed off, along with half the added oil; onion, bay and orange halves are discarded. Cooked yield about 2.68 kg with the garlic and some juices.",
-    "per_serving": {
-     "fat_g": 33,
-     "carbs_g": 2.4,
-     "fiber_g": 0.4,
-     "sugar_g": 0.5,
-     "calories": 470,
-     "protein_g": 39,
-     "sat_fat_g": 10.5,
-     "sodium_mg": 1780,
-     "cholesterol_mg": 160
-    }
-   },
-   "rating": 0,
-   "photos": [],
-   "credit": null,
-   "developed": "2026-10-06",
-   "updated_at": "2026-10-26T20:37:19.527552+00:00",
-   "changes": [
-    {
-     "date": "2026-10-26",
-     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
-    },
-    {
-     "date": "2026-10-26",
-     "note": "MSG added at about 0.3% of the dish."
-    }
-   ]
-  },
-  {
-   "id": "barbacoa",
-   "title": "Slow-Cooked Barbacoa",
-   "category": "Mains",
-   "cuisine": "Mexican",
-   "yield": "about 700 g shredded meat",
-   "tags": [],
-   "traits": [
-    "camping",
-    "make-ahead",
-    "freezer",
-    "slow-cooker",
-    "long-cook"
-   ],
-   "diet": [
-    "dairy-free",
-    "gluten-free"
-   ],
-   "groups": [
-    {
-     "name": "Chiles",
-     "ingredients": [
-      "28 g dried guajillo chiles, toasted, stemmed and seeded (about 4)",
-      "45 g dried ancho chiles, toasted, stemmed and seeded (about 4)",
-      "6 g dried morita chiles, toasted and stemmed (about 2)",
-      "20 g chipotles in adobo plus 30 g adobo sauce (about 2 chipotles)"
-     ]
-    },
-    {
-     "name": "Braise",
-     "ingredients": [
-      "1130 g beef chuck roast, cut into large chunks (about 2.5 lb)",
-      "200 g white onion, quartered (about 1)",
-      "30 g garlic, peeled, left whole (about 6 cloves)",
-      "240 g beef broth",
-      "45 g apple cider vinegar",
-      "8 g ground cumin",
-      "6 g dried Mexican oregano",
-      "1 g bay leaves (about 3)",
-      "25 g salt",
-      "3 g MSG (about 3/4 tsp)"
-     ]
-    }
-   ],
-   "steps": [
-    "Toast the guajillo, ancho and morita in a dry pan over medium, 20 to 30 seconds a side, with the vent running.",
-    "Soak the toasted chiles in hot water 20 minutes.",
-    "Blend the soaked chiles with the chipotles, adobo, onion, garlic, broth, vinegar, cumin, oregano, salt and MSG until smooth.",
-    "Sear the chuck hard in a skillet.",
-    "Deglaze the skillet into the crockpot.",
-    "Add the beef, sauce and bay leaves to the crockpot.",
-    "Cook on low 8 hours.",
-    "Lift the meat out with a slotted spoon.",
-    "Skim the fat from the liquid and pull the bay leaves.",
-    "Reduce the liquid hard in a wide saucepan, 15 minutes or more, until it coats a spoon and a finger track across the back holds.",
-    "Taste the reduced sauce for salt.",
-    "Shred the meat and toss with enough sauce to coat; reserve any extra sauce."
-   ],
-   "notes": "Reduce the liquid well before tossing; a thin sauce leaves the meat wet. Freezes well for up to 3 months; reheat covered until hot through.",
-   "nutrition": {
-    "serving": "150 g shredded meat with sauce (1 of 5, from about 700 g)",
-    "servings": 5,
-    "assumptions": "1134 g raw chuck; about half the rendered fat (35 g) is skimmed off. All 25 g salt stays in the meat and reduced sauce.",
-    "per_serving": {
-     "fat_g": 30,
-     "carbs_g": 15,
-     "fiber_g": 4.8,
-     "sugar_g": 5,
-     "calories": 520,
-     "protein_g": 48,
-     "sat_fat_g": 11.5,
-     "sodium_mg": 2420,
-     "cholesterol_mg": 160
-    }
-   },
-   "rating": 4,
-   "photos": [],
-   "credit": null,
-   "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:36:57.58235+00:00",
-   "changes": [
-    {
-     "date": "2026-10-26",
-     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
-    },
-    {
-     "date": "2026-10-26",
-     "note": "MSG added at about 0.3% of the dish."
-    }
-   ]
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "slushi-margarita",
@@ -6088,7 +6286,9 @@
    "credit": null,
    "developed": "2026-07-30",
    "updated_at": "2026-10-26T20:37:19.920683+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "slushi-strawberry-daiquiri",
@@ -6149,7 +6349,9 @@
    "credit": null,
    "developed": "2026-07-30",
    "updated_at": "2026-10-26T20:37:20.067597+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "spiced-basmati-rice",
@@ -6216,7 +6418,9 @@
    "credit": null,
    "developed": "2026-10-26",
    "updated_at": "2026-10-26T20:37:20.30331+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "split-buttermilk-pancakes",
@@ -6326,7 +6530,9 @@
      "date": "2026-10-26",
      "note": "Sausage and scrambled eggs dropped; pancakes only."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "taco-seasoning",
@@ -6393,7 +6599,9 @@
    "credit": null,
    "developed": "2026-10-26",
    "updated_at": "2026-10-26T20:37:20.899341+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "tartar-sauce",
@@ -6453,7 +6661,9 @@
    "credit": null,
    "developed": "2026-10-24",
    "updated_at": "2026-10-26T20:37:21.111494+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "full-english-breakfast",
@@ -6523,7 +6733,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "thick-red-beans",
@@ -6597,7 +6809,9 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "toasted-almond-revolver",
@@ -6672,7 +6886,9 @@
    "credit": null,
    "developed": "2026-07-30",
    "updated_at": "2026-10-26T20:37:21.65579+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "tomato-soup",
@@ -6752,7 +6968,9 @@
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "triple-cooked-chips",
@@ -6826,7 +7044,9 @@
    "credit": null,
    "developed": "2026-10-26",
    "updated_at": "2026-10-26T20:37:22.249054+00:00",
-   "changes": []
+   "changes": [],
+   "method": "",
+   "alt_methods": []
   },
   {
    "id": "vinegar-slaw",
@@ -6894,17 +7114,21 @@
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
-   ]
+   ],
+   "method": "",
+   "alt_methods": []
   }
  ],
  "aliases": {
-  "barbacoa-crockpot": "barbacoa",
   "make-ahead-breakfast-burritos-bacon-sausage-mushroom": "breakfast-burritos",
   "camp-cheesesteaks-chuck-eye": "camp-cheesesteaks",
   "red-beans-camp": "thick-red-beans",
   "ldw-dill-pickle-jar": "dill-pickles",
   "camp-breakfast-burritos-cheesy-sausage": "cheesy-sausage-breakfast-burritos",
   "ldw-cocktail-sauce": "cocktail-sauce",
+  "carnitas-oven": "carnitas",
+  "slow-cooker-carnitas": "carnitas",
+  "barbacoa-crockpot": "barbacoa",
   "ldw-escabeche-pickle-jar": "escabeche-pickles",
   "camp-hot-chocolate-swiss-miss": "hot-chocolate-swiss-miss",
   "kofta-beef-lamb-logs": "kofta",
