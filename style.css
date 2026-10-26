@@ -296,3 +296,12 @@ html{height:100%}
 #aOut{justify-self:start}
 .share a.btn{text-decoration:none;color:inherit}.share a.btn.primary{color:var(--accent-ink)}
 .share>.btn.back{display:inline-block}
+
+/* ---------- cook mode ---------- */
+.cook-btn{margin-right:10px;font-weight:600}
+.cook-btn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+body.cooking .ing li{font-size:19px;padding-block:10px}
+body.cooking .steps li{font-size:20px;line-height:1.5;padding-block:12px}
+body.cooking .steps li.next{background:var(--mustard-soft);border-radius:8px;box-shadow:inset 4px 0 0 var(--mustard)}
+body.cooking .friends-sec,body.cooking .nutri,body.cooking .verdict,body.cooking .photos{display:none}
+body.cooking .app{grid-template-columns:minmax(0,1fr)}body.cooking .index{display:none}

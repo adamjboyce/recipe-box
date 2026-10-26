@@ -216,7 +216,19 @@ function setScale(id,k){if(k===1)delete state.scale[id];else state.scale[id]=k;s
 function fmtDate(d){if(!d)return"";const dt=new Date(d.length===10?d+"T12:00:00":d);return isNaN(dt)?"":dt.toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"})}
 
 /* ---------- card ---------- */
+/* cook mode: keep the screen awake, bigger type, highlight the next step */
+let wakeLock=null;
+async function grabWake(){try{if("wakeLock" in navigator&&document.visibilityState==="visible"){wakeLock=await navigator.wakeLock.request("screen");wakeLock.addEventListener("release",()=>{wakeLock=null})}else if(!("wakeLock" in navigator))return false}catch(e){return false}return true}
+async function setCook(on){
+  state.cook=on;document.body.classList.toggle("cooking",on);
+  if(on){const ok=await grabWake();toast(ok?"Cook mode on. The screen will stay awake.":"Cook mode on. This browser can't keep the screen awake, so check its sleep setting.")}
+  else{try{wakeLock&&await wakeLock.release()}catch(e){}wakeLock=null}
+  const b=$("#cookBtn");if(b){b.setAttribute("aria-pressed",String(on));b.textContent=on?"● Cook mode on":"Cook mode"}
+}
+document.addEventListener("visibilitychange",()=>{if(state.cook&&document.visibilityState==="visible"&&!wakeLock)grabWake()});
+function markNext(){const ls=[...document.querySelectorAll(".steps li")];ls.forEach(l=>l.classList.remove("next"));const n=ls.find(l=>!l.classList.contains("done"));if(n)n.classList.add("next")}
 function openRecipe(id){
+  if(state.cook&&id!==state.openId)setCook(false);
   if(id){const s=id.startsWith("f-")?"friends":"ark";if(s!==state.src){state.src=s;state.cat="";saveView();renderFilters()}}
   state.openId=id;
   try{history.replaceState(null,"","#"+(id||"box"))}catch(e){}
@@ -242,7 +254,7 @@ function renderCard(){
     <div class="eyebrow"><span>${esc(r.category)}</span>${r.cuisine?`<span>${esc(r.cuisine)}</span>`:""}</div>
     <h2>${esc(r.title)}</h2>
     ${(r.changes||[]).length?`<div class="changed">Updated ${esc(fmtDate(r.changes.at(-1).date))}: ${esc(r.changes.at(-1).note)}</div>`:""}
-    <div class="meta">${r.yield?`<span>Yield <b>${esc(r.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
+    <div class="meta"><button type="button" class="btn cook-btn" id="cookBtn" aria-pressed="${!!state.cook}" title="Keeps the screen on and makes the text bigger">${state.cook?"● Cook mode on":"Cook mode"}</button>${r.yield?`<span>Yield <b>${esc(r.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
     <div class="tags">${(r.traits||[]).filter(t=>TRAIT_LABEL[t]).map(t=>`<span class="trait">${esc(TRAIT_LABEL[t])}</span>`).join("")}${(r.diet||[]).filter(d=>DIET_LABEL[d]).map(d=>`<span class="diet">${esc(DIET_LABEL[d])}</span>`).join("")}${(r.tags||[]).filter(t=>!TRAIT_LABEL[t]&&t!=="large-batch"&&t!=="freezer"&&t!=="camping").map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
   </div>
   ${photoBlock(r)}
@@ -275,6 +287,7 @@ function renderCard(){
       <textarea id="ffNote" maxlength="1000" placeholder="How did it go? What would you change?" aria-label="Note"></textarea>
       <div class="row"${state.noPhotos?" hidden":""}><input type="file" id="ffPhoto" accept="image/*" hidden><button class="btn" type="button" id="ffPhotoBtn">Add a photo</button><img id="ffPrev" class="ff-prev" alt="" hidden><span class="muted" id="ffPhotoName"></span></div>
       <div class="row"><button class="btn primary" type="submit">Post</button><span class="muted" id="ffMsg"></span></div>
+      <p class="hint-line">Adam gives notes and photos a quick look before they show up.</p>
     </form>
     ${notes.length?`<ul class="friend-list">${notes.map(n=>`<li><div class="h"><span class="nm">${esc(n.name)}</span>${n.rating?`<span class="st">${stars(n.rating)}</span>`:""}<span class="dt">${esc(fmtDate(n.created_at))}</span>${beforeChange(r,n)}</div>${n.note?`<div class="tx">${esc(n.note)}</div>`:""}${n.photo_path?`<img class="note-photo" src="${esc(photoUrl(n.photo_path))}" alt="Photo from ${esc(n.name)}" loading="lazy">`:""}</li>`).join("")}</ul>`:state.friendsLoaded?`<p class="muted">No notes yet. Be the first.</p>`:""}
   </section>`:""}
@@ -285,7 +298,8 @@ function renderCard(){
   $("#backBtn").onclick=()=>openRecipe(null);
   el.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{state.photoSel[r.id]=+b.dataset.ph;renderCard()});
   el.querySelectorAll(".rlink").forEach(a=>a.onclick=e=>e.stopPropagation());
-  el.querySelectorAll(".ing li,.steps li").forEach(li=>li.onclick=()=>{const c=state.checked[r.id]=state.checked[r.id]||{};c[li.dataset.k]=!c[li.dataset.k];li.classList.toggle("done",c[li.dataset.k]);store("rb.checked",state.checked);const on=Object.values(c).some(Boolean);$("#resetBtn").hidden=!on;$("#chkHint").hidden=on});
+  el.querySelectorAll(".ing li,.steps li").forEach(li=>li.onclick=()=>{const c=state.checked[r.id]=state.checked[r.id]||{};c[li.dataset.k]=!c[li.dataset.k];li.classList.toggle("done",c[li.dataset.k]);store("rb.checked",state.checked);const on=Object.values(c).some(Boolean);$("#resetBtn").hidden=!on;$("#chkHint").hidden=on;markNext()});
+  $("#cookBtn").onclick=()=>setCook(!state.cook);markNext();
   el.querySelectorAll("[data-scale]").forEach(b=>b.onclick=()=>setScale(r.id,+b.dataset.scale));
   $("#scaleIn").onchange=e=>{const v=parseFloat(e.target.value);if(v>0&&v<=50)setScale(r.id,Math.round(v*100)/100)};
   $("#resetBtn").onclick=()=>{delete state.checked[r.id];store("rb.checked",state.checked);renderCard()};
@@ -311,10 +325,9 @@ function wireFriendForm(r){
       let photo_path=null;
       if(file){msg.textContent="Uploading photo…";try{photo_path=await uploadFriendPhoto(r.id,file)}catch(err){msg.textContent=/decode|encode/.test(err.message)?"That photo couldn't be read. Try a JPEG or PNG.":/too big/.test(err.message)?"That photo is too large.":"The photo didn't upload. Try again.";console.warn(err);return}msg.textContent="Posting…"}
       const row={recipe_id:r.id,name,rating:pick||null,note:note||null,photo_path};
-      const out=await sb("notes",{method:"POST",headers:{Prefer:"return=representation"},body:JSON.stringify(row)});
-      const saved=(out&&out[0])||{...row,created_at:new Date().toISOString()};
-      if(!state.friends.has(r.id))state.friends.set(r.id,[]);state.friends.get(r.id).unshift(saved);
-      toast("Posted. Thanks!");renderList();renderCard();
+      await sb("notes",{method:"POST",headers:{Prefer:"return=minimal"},body:JSON.stringify(row)});
+      $("#ff").reset();pick=0;paint();file=null;prev.hidden=true;$("#ffPhotoBtn").textContent="Add a photo";
+      msg.textContent="Thanks! It'll show up here once Adam approves it.";
     }catch(err){msg.textContent="Couldn't post that. Check your connection and try again."}
   };
 }
@@ -395,6 +408,7 @@ async function loadQueue(pass){
   let rows;try{rows=await rpc("rb_admin_list",{pass})}catch(e){
     if(/42501|not allowed/.test(e.message)){try{localStorage.removeItem("rb.admin")}catch(_){}$("#aMsg").textContent="That passcode didn't work.";q.innerHTML="";renderAdmin();return}
     q.innerHTML=`<p class="muted">Couldn't load the queue. ${esc(e.message)}</p>`;return}
+  let notes=[];try{notes=await rpc("rb_admin_notes",{pass})}catch(e){console.warn("note queue unavailable",e)}
   rows=rows.filter(x=>x.status!=="rejected");
   const pend=rows.filter(x=>x.status==="pending"),live=rows.filter(x=>x.status==="approved");
   const item=x=>`<details class="qitem"${x.status==="pending"?" open":""} data-sid="${esc(x.id)}">
@@ -407,7 +421,12 @@ async function loadQueue(pass){
     <label>Notes<textarea data-f="notes" rows="3">${esc(x.notes||"")}</textarea></label>
     <div class="row">${x.status==="pending"?`<button class="btn primary" data-act="approved">Approve and post</button>`:`<button class="btn primary" data-act="approved">Save changes</button><a class="btn" href="#f-${esc(x.id)}">View</a><button class="btn" data-act="pending">Take down</button>`}<span class="spacer"></span><button class="btn danger" data-act="rejected">Toss</button><span class="muted" data-msg></span></div>
   </details>`;
-  q.innerHTML=`<h2>Waiting for you (${pend.length})</h2>${pend.length?pend.map(item).join(""):`<p class="muted">Nothing waiting.</p>`}<h2>Posted (${live.length})</h2>${live.map(item).join("")||`<p class="muted">None yet.</p>`}`;
+  const nItem=n=>{const r=getR(n.recipe_id);return `<div class="qitem qnote" data-nid="${esc(n.id)}"><div><b>${esc(n.name)}</b> on <a href="#${esc(n.recipe_id)}">${esc(r?r.title:n.recipe_id)}</a> <span class="muted">${esc(fmtDate(n.created_at))}</span> ${n.rating?`<span class="st">${stars(n.rating)}</span>`:""}</div>${n.note?`<div>${esc(n.note)}</div>`:""}${n.photo_path?`<img class="q-photo" src="${esc(photoUrl(n.photo_path))}" alt="">`:""}<div class="row"><button class="btn primary" data-nact="approved">Approve</button><span class="spacer"></span><button class="btn danger" data-nact="rejected">Toss</button><span class="muted" data-msg></span></div></div>`};
+  q.innerHTML=`<h2>Notes and photos waiting (${notes.length})</h2>${notes.length?notes.map(nItem).join(""):`<p class="muted">Nothing waiting.</p>`}<h2>Recipes waiting (${pend.length})</h2>${pend.length?pend.map(item).join(""):`<p class="muted">Nothing waiting.</p>`}<h2>Posted (${live.length})</h2>${live.map(item).join("")||`<p class="muted">None yet.</p>`}`;
+  q.querySelectorAll("[data-nact]").forEach(b=>b.onclick=async()=>{
+    const d=b.closest(".qnote"),act=b.dataset.nact,m=d.querySelector("[data-msg]");m.textContent="Saving…";
+    try{await rpc("rb_admin_note",{pass,nid:d.dataset.nid,new_status:act});toast(act==="approved"?"Approved":"Tossed");d.remove();loadFriends()}
+    catch(e){m.textContent="Didn't save: "+e.message.slice(0,120)}});
   q.querySelectorAll("[data-act]").forEach(b=>b.onclick=async()=>{
     const d=b.closest(".qitem"),act=b.dataset.act,m=d.querySelector("[data-msg]");
     if(act==="rejected"&&!confirm("Toss this recipe? It won't be posted."))return;

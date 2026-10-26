@@ -14,6 +14,9 @@ import argparse, json, os, shutil, sys, datetime, pathlib
 
 PUBLIC = ["id", "title", "category", "cuisine", "tags", "yield", "developed",
           "groups", "steps", "notes", "rating", "traits", "diet", "nutrition"]
+# Tags that repeat a trait or diet, or name the event a recipe was made for (kept private).
+HIDE_TAGS = {"make-ahead", "camping", "freezer", "frozen", "large-batch", "slow-cooker", "vegetarian", "vegan",
+             "gluten-free", "dairy-free", "pescatarian", "quick", "crowd", "long-cook", "shelf-stable", "fall", "party", "outdoor"}
 IMG_EXT = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 
 def main():
@@ -38,12 +41,16 @@ def main():
 
     photos_dir = site / "photos"
     photos_dir.mkdir(exist_ok=True)
-    keep, missing, out = set(), [], []
+    keep, missing, out, drafts = set(), [], [], []
     for f in files:
         doc = json.load(open(f, encoding="utf-8"))
         doc = doc.get("data", doc)  # tolerate {id, data, version} wrappers
         doc.setdefault("id", f.stem)
+        if doc.get("draft") or "incomplete" in (doc.get("flags") or []):
+            drafts.append(doc["id"])
+            continue
         r = {k: doc[k] for k in PUBLIC if k in doc}
+        r["tags"] = [t for t in (r.get("tags") or []) if t not in HIDE_TAGS and "weekend" not in t and not t.startswith("ldw")]
         r["rating"] = int(r.get("rating") or 0)
         ch = [{"date": e.get("date"), "note": e.get("note", "")} for e in (doc.get("log") or []) if e.get("type") == "change" and e.get("date")]
         if ch:
@@ -75,6 +82,8 @@ def main():
     with open(site / "data" / "recipes.json", "w", encoding="utf-8") as fh:
         json.dump(data, fh, ensure_ascii=False, indent=1)
     print(f"{len(out)} recipes, {len(keep)} photos")
+    if drafts:
+        print("held back as unfinished: " + " ".join(drafts))
     if missing:
         print("MISSING PHOTOS: " + " ".join(missing))
 

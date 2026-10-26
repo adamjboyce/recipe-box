@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T19:13:25+00:00",
+ "generated": "2026-10-26T19:33:00+00:00",
  "recipes": [
   {
    "id": "teds-72-hour-pizza-dough",
@@ -7,7 +7,6 @@
    "category": "Baking & Dough",
    "cuisine": "American (New York style)",
    "tags": [
-    "make-ahead",
     "sourdough",
     "cold-ferment"
    ],
@@ -101,10 +100,7 @@
    "title": "Air Fryer Brussels Sprouts with Bacon",
    "category": "Sides & Breads",
    "cuisine": "British",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "serves 7",
    "developed": "2026-10-24",
    "groups": [
@@ -113,7 +109,7 @@
       "900 g Brussels sprouts, halved",
       "150 g thick-cut bacon, in lardons (about 4 thick slices)",
       "25 g lard",
-      "10 g kosher salt",
+      "17 g kosher salt (about 2 Tbsp Diamond Crystal)",
       "4 g black pepper, freshly ground (about 2 tsp)",
       "10 g cider vinegar"
      ],
@@ -137,7 +133,7 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Bacon weighed raw with its rendered fat kept in the dish; all 10 g salt and 4 g pepper counted.",
+    "assumptions": "Bacon weighed raw with its rendered fat kept in the dish; all 17 g salt and 4 g pepper counted.",
     "per_serving": {
      "calories": 180,
      "carbs_g": 12,
@@ -146,12 +142,18 @@
      "fiber_g": 4.9,
      "protein_g": 7,
      "sat_fat_g": 4.5,
-     "sodium_mg": 770,
+     "sodium_mg": 1160,
      "sugar_g": 2.8
     },
     "serving": "about 130 g (1 of 7)",
     "servings": 7
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "apple-cider-doughnut-focaccia",
@@ -159,7 +161,6 @@
    "category": "Baking & Dough",
    "cuisine": "American",
    "tags": [
-    "make-ahead",
     "sourdough-discard",
     "cold-ferment"
    ],
@@ -242,9 +243,7 @@
    "title": "Banana Boats",
    "category": "Desserts",
    "cuisine": "American",
-   "tags": [
-    "camping"
-   ],
+   "tags": [],
    "yield": "8 banana boats",
    "developed": "2026-10-15",
    "groups": [
@@ -296,10 +295,7 @@
    "title": "Beer-Battered Walleye",
    "category": "Mains",
    "cuisine": "British",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "serves 7",
    "developed": "2026-10-24",
    "groups": [
@@ -432,11 +428,7 @@
    "title": "Braised Carnitas",
    "category": "Mains",
    "cuisine": "Mexican",
-   "tags": [
-    "camping",
-    "make-ahead",
-    "freezer"
-   ],
+   "tags": [],
    "yield": "about 1084 g shredded meat",
    "developed": "2026-10-15",
    "groups": [
@@ -449,7 +441,7 @@
       "8 g ground cumin",
       "6 g dried Mexican oregano",
       "0.5 g bay leaves (about 2)",
-      "16 g salt",
+      "28 g salt",
       "About 750 g water, to come halfway up the meat"
      ],
      "name": "Braise"
@@ -472,7 +464,7 @@
     "Heat a griddle over medium-high and add the lard.",
     "Spread the meat in a thin layer and leave it 2 to 3 minutes before turning."
    ],
-   "notes": "The braise needs no added fat; the shoulder renders its own. Freezes well for up to 3 months; thaw before crisping.",
+   "notes": "The braise needs no added fat; the shoulder renders its own. Freezes well for up to 3 months; thaw before crisping. Slow cooker version: [Slow Cooker Carnitas](slow-cooker-carnitas).",
    "rating": 0,
    "traits": [
     "camping",
@@ -494,22 +486,25 @@
      "fiber_g": 1,
      "protein_g": 31,
      "sat_fat_g": 10.5,
-     "sodium_mg": 1010,
+     "sodium_mg": 1680,
      "sugar_g": 2
     },
     "serving": "150 g cooked meat (1 of 7)",
     "servings": 7
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "braised-red-cabbage",
    "title": "Braised Red Cabbage",
    "category": "Sides & Breads",
    "cuisine": "British",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "serves 7",
    "developed": "2026-10-24",
    "groups": [
@@ -524,7 +519,7 @@
       "110 g water",
       "3 g cinnamon stick (about 1)",
       "0.2 g whole cloves, or a scant 1/8 tsp ground (about 2 whole)",
-      "12 g kosher salt"
+      "26 g kosher salt (about 3 Tbsp Diamond Crystal)"
      ],
      "name": ""
     }
@@ -557,24 +552,25 @@
      "fiber_g": 3.9,
      "protein_g": 2.3,
      "sat_fat_g": 3,
-     "sodium_mg": 740,
+     "sodium_mg": 1530,
      "sugar_g": 15
     },
     "serving": "about 200 g (1 of 7)",
     "servings": 7
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "make-ahead-breakfast-burritos-bacon-sausage-mushroom",
    "title": "Breakfast Burritos (Bacon, Sausage, Mushroom)",
    "category": "Breakfast",
    "cuisine": "Tex-Mex",
-   "tags": [
-    "camping",
-    "make-ahead",
-    "freezer",
-    "large-batch"
-   ],
+   "tags": [],
    "yield": "24 burritos (8 bacon, 8 sausage, 8 mushroom)",
    "developed": "2026-09-03",
    "groups": [
@@ -612,7 +608,7 @@
     {
      "ingredients": [
       "1500 g eggs (about 30 large)",
-      "9 g salt (about 1 1/2 tsp)",
+      "43 g salt (about 7 tsp)",
       "6 g black pepper, freshly ground (about 2 1/2 tsp)",
       "227 g cream cheese, cut into small cubes (about one 8 oz block)",
       "800 g roasted burrito vegetables, all from above (about 4 cups)"
@@ -685,7 +681,7 @@
      "fiber_g": 7,
      "protein_g": 34,
      "sat_fat_g": 19,
-     "sodium_mg": 2630,
+     "sodium_mg": 3160,
      "sugar_g": 5
     },
     "serving": "1 burrito, about 420 g (1 of 24)",
@@ -695,6 +691,10 @@
     {
      "date": "2026-10-26",
      "note": "Black bean paste moved to its own recipe."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
    ]
   },
@@ -703,10 +703,7 @@
    "title": "Broiled Salsa Verde",
    "category": "Sauces & Condiments",
    "cuisine": "Mexican",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 1 kg",
    "developed": "2026-10-15",
    "groups": [
@@ -718,7 +715,7 @@
       "20 g garlic, unpeeled (about 4 cloves)",
       "30 g lime juice",
       "20 g cilantro (about 1/3 bunch)",
-      "8 g salt"
+      "17 g salt"
      ],
      "name": ""
     }
@@ -754,23 +751,25 @@
      "fiber_g": 0.6,
      "protein_g": 0.3,
      "sat_fat_g": 0,
-     "sodium_mg": 100,
+     "sodium_mg": 210,
      "sugar_g": 1.2
     },
     "serving": "2 Tbsp, about 30 g (1 of 31)",
     "servings": 31
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "buffalo-chicken-hand-pies",
    "title": "Buffalo Chicken Hand Pies",
    "category": "Mains",
    "cuisine": "American",
-   "tags": [
-    "camping",
-    "make-ahead",
-    "freezer"
-   ],
+   "tags": [],
    "yield": "12 hand pies",
    "developed": "2026-09-03",
    "groups": [
@@ -848,10 +847,7 @@
    "title": "Cabbage-Carrot Slaw with Sumac Dressing",
    "category": "Sides & Breads",
    "cuisine": "Turkish",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 8 cups slaw",
    "developed": "2026-09-03",
    "groups": [
@@ -870,7 +866,7 @@
       "2 g Aleppo pepper (about 1 tsp)",
       "4 g sugar (about 1 tsp)",
       "5 g Cointreau (about 1 tsp)",
-      "7 g salt (about 1 1/2 tsp)",
+      "21 g salt (about 3 1/2 tsp)",
       "4 g black pepper, freshly ground (about 2 tsp)"
      ],
      "name": "Dressing"
@@ -906,12 +902,18 @@
      "fiber_g": 3.7,
      "protein_g": 1.6,
      "sat_fat_g": 1,
-     "sodium_mg": 550,
+     "sodium_mg": 1340,
      "sugar_g": 6
     },
     "serving": "about 150 g slaw, dressed (1 of 7)",
     "servings": 7
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "cajun-runoff-butter",
@@ -1031,15 +1033,15 @@
    "title": "Camp Cheesesteaks",
    "category": "Mains",
    "cuisine": "American",
-   "tags": [
-    "camping"
-   ],
+   "tags": [],
    "yield": "8 sandwiches",
    "developed": "2026-10-15",
    "groups": [
     {
      "ingredients": [
       "2040 g shaved chuck eye",
+      "1 1/2 Tbsp kosher salt, for the meat and vegetables (about 14 g Diamond Crystal)",
+      "1 tsp black pepper, freshly ground (about 2.5 g)",
       "10 hoagie rolls, 8 inch (about 850 g)",
       "2 large yellow onions, sliced thin (about 400 g)",
       "2 green bell peppers, sliced (about 320 g)",
@@ -1057,7 +1059,7 @@
     "Finish the mushrooms with butter and salt and hold in a foil pan near the fire.",
     "Reheat the queso in the dutch oven at the edge of the coals until molten.",
     "Cook the onions on the griddle, adding the peppers a few minutes later, then push to one side.",
-    "Put the meat on the cleared hot surface and chop with two spatulas.",
+    "Put the meat on the cleared hot surface, season with the salt and pepper and chop with two spatulas.",
     "When just past pink, pile it, fold in the onions and peppers and add provolone if using; let it slump 30 seconds.",
     "Toast the rolls face-down on the edge of the griddle.",
     "Scoop the meat into the rolls and spoon queso over the top.",
@@ -1082,7 +1084,7 @@
      "fiber_g": 3.7,
      "protein_g": 73,
      "sat_fat_g": 31.5,
-     "sodium_mg": 1660,
+     "sodium_mg": 2350,
      "sugar_g": 7
     },
     "serving": "1 sandwich (1 of 8)",
@@ -1094,9 +1096,7 @@
    "title": "Campfire Dutch Oven Cornbread (Jiffy)",
    "category": "Sides & Breads",
    "cuisine": "American",
-   "tags": [
-    "camping"
-   ],
+   "tags": [],
    "yield": "1 dutch oven, serves 8",
    "developed": "2026-10-15",
    "groups": [
@@ -1150,9 +1150,7 @@
    "title": "Campfire Foil Packet Bar",
    "category": "Mains",
    "cuisine": "American",
-   "tags": [
-    "camping"
-   ],
+   "tags": [],
    "yield": "8 packets",
    "developed": "2026-10-15",
    "groups": [
@@ -1237,9 +1235,7 @@
    "title": "Campfire Stovetop Popcorn",
    "category": "Sides & Breads",
    "cuisine": "American",
-   "tags": [
-    "camping"
-   ],
+   "tags": [],
    "yield": "about 14 cups",
    "developed": "2026-10-15",
    "groups": [
@@ -1295,9 +1291,7 @@
    "title": "Charred Broccoli and Cauliflower",
    "category": "Sides & Breads",
    "cuisine": "American",
-   "tags": [
-    "camping"
-   ],
+   "tags": [],
    "yield": "serves 8 as a side",
    "developed": "2026-10-15",
    "groups": [
@@ -1307,6 +1301,7 @@
       "450 g cauliflower",
       "20 g neutral oil",
       "1/2 lemon (about 50 g)",
+      "14 g kosher salt (about 1 1/2 Tbsp Diamond Crystal)",
       "3 g flaky salt",
       "2 g black pepper",
       "2 g chili flakes, on the side (about 1 tsp)"
@@ -1346,23 +1341,25 @@
      "fiber_g": 2.7,
      "protein_g": 2.7,
      "sat_fat_g": 0.5,
-     "sodium_mg": 180,
+     "sodium_mg": 870,
      "sugar_g": 2.1
     },
     "serving": "about 110 g vegetables (1 of 8)",
     "servings": 8
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "cheese-onion-potato-pasties",
    "title": "Cheese, Onion and Potato Pasties",
    "category": "Baking & Dough",
    "cuisine": "British",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead",
-    "freezer"
-   ],
+   "tags": [],
    "yield": "6 pasties",
    "developed": "2026-10-24",
    "groups": [
@@ -1376,7 +1373,7 @@
       "4 g mustard powder",
       "2 g fresh sage, finely chopped",
       "2 g fresh thyme leaves, finely chopped",
-      "14 g kosher salt",
+      "20 g kosher salt (about 2 1/2 Tbsp Diamond Crystal)",
       "4 g ground white pepper",
       "10 g malt vinegar",
       "100 g eggs, beaten, 1 for sealing, 1 with a splash of water for egg wash (about 2 large)"
@@ -1417,23 +1414,25 @@
      "fiber_g": 2.3,
      "protein_g": 29,
      "sat_fat_g": 39,
-     "sodium_mg": 2440,
+     "sodium_mg": 2830,
      "sugar_g": 2.7
     },
     "serving": "1 pasty, about 435 g (1 of 6)",
     "servings": 6
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "camp-breakfast-burritos-cheesy-sausage",
    "title": "Cheesy Sausage Breakfast Burritos",
    "category": "Breakfast",
    "cuisine": "Tex-Mex",
-   "tags": [
-    "camping",
-    "make-ahead",
-    "freezer"
-   ],
+   "tags": [],
    "yield": "10 burritos",
    "developed": "2026-10-15",
    "groups": [
@@ -1492,12 +1491,13 @@
    "category": "Mains",
    "cuisine": "Punjabi",
    "tags": [],
-   "yield": "",
+   "yield": "serves 4",
    "developed": "2026-09-29",
    "groups": [
     {
      "ingredients": [
       "250 g dried kabuli chana (chickpeas), soaked overnight (about 1 1/4 cups)",
+      "750 g water, for cooking the chickpeas (about 3 cups)",
       "2 g black tea, or a couple dried amla (about 1 tea bag)"
      ],
      "name": "Chickpeas"
@@ -1525,14 +1525,18 @@
     }
    ],
    "steps": [
-    "Soak the chickpeas overnight.",
-    "Pressure-cook the chickpeas with the tea bag (or amla) for color.",
-    "Brown the onions properly.",
-    "Add tomatoes and cook down until the oil separates.",
-    "Add the spices, anardana and amchur, then the chickpeas.",
-    "Crush in kasuri methi at the end.",
-    "Finish with a ghee tadka of ginger julienne and green chili.",
-    "Salt boldly.",
+    "Soak the chickpeas overnight in plenty of water, then drain.",
+    "Pressure-cook the chickpeas with the 750 g fresh water and the tea bag or amla for 35 minutes at high pressure, or simmer covered 1 1/2 to 2 hours, until very soft.",
+    "Discard the tea bag and keep the cooking liquid.",
+    "Heat 25 g of the ghee in a heavy pan over medium-high and add the black cardamom.",
+    "Add the onions and cook, stirring often, until deep golden brown, 15 to 20 minutes.",
+    "Add the tomato puree and cook until thick and the ghee separates at the edges, about 10 minutes.",
+    "Add the [chole masala](chole-masala), anardana and amchur and stir 1 minute.",
+    "Add the chickpeas with about 250 g of their cooking liquid and the salt.",
+    "Simmer 15 minutes, mashing a few chickpeas against the pan to thicken the gravy.",
+    "Crush in the kasuri methi.",
+    "Taste and adjust the salt.",
+    "Heat the remaining 15 g ghee, fry the ginger and green chili 30 seconds and pour over the chole.",
     "Serve with [spiced basmati rice](spiced-basmati-rice) or plain basmati."
    ],
    "notes": "",
@@ -1635,9 +1639,7 @@
    "title": "Cider Cream Cheese Glaze",
    "category": "Desserts",
    "cuisine": "American",
-   "tags": [
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "dipping glaze for one 9x13 focaccia",
    "developed": "2026-10-15",
    "groups": [
@@ -1690,9 +1692,7 @@
    "title": "Cider Reduction",
    "category": "Sauces & Condiments",
    "cuisine": "American",
-   "tags": [
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 150 g",
    "developed": "2026-10-15",
    "groups": [
@@ -1800,9 +1800,7 @@
    "title": "Cocktail Sauce",
    "category": "Sauces & Condiments",
    "cuisine": "American",
-   "tags": [
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "~600 g",
    "developed": "2026-09-26",
    "groups": [
@@ -1859,7 +1857,7 @@
    "tags": [
     "leftovers"
    ],
-   "yield": "",
+   "yield": "4 sandwiches",
    "developed": "2026-10-15",
    "groups": [
     {
@@ -1876,10 +1874,11 @@
     }
    ],
    "steps": [
-    "Split cornbread wedges horizontally.",
-    "Griddle the cut sides in butter or lard until crisp.",
+    "Split the cornbread wedges horizontally.",
+    "Griddle the cut sides in the butter or lard until crisp.",
+    "Cook the bacon or warm the country ham, if using.",
     "Fry the eggs with jammy yolks.",
-    "Stack: cornbread, pimento cheese, egg, pepper jelly, cornbread."
+    "Stack: cornbread, pimento cheese, egg, bacon or ham if using, pepper jelly, cornbread."
    ],
    "notes": "",
    "rating": 0,
@@ -1907,9 +1906,7 @@
    "title": "Creole Mustard",
    "category": "Sauces & Condiments",
    "cuisine": "Creole",
-   "tags": [
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 250 g",
    "developed": "2026-10-06",
    "groups": [
@@ -1979,7 +1976,7 @@
       "80 g mayonnaise",
       "25 g [Creole mustard](creole-mustard), homemade or Zatarain's",
       "15 g cider vinegar",
-      "3 g kosher salt"
+      "9 g kosher salt (about 1 Tbsp Diamond Crystal)"
      ],
      "name": ""
     }
@@ -2008,12 +2005,18 @@
      "fiber_g": 3.4,
      "protein_g": 2,
      "sat_fat_g": 2.5,
-     "sodium_mg": 530,
+     "sodium_mg": 1120,
      "sugar_g": 4.2
     },
     "serving": "about 150 g (1 of 4)",
     "servings": 4
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "creole-seasoning",
@@ -2171,11 +2174,7 @@
    "title": "Dill and Escabeche Pickle Soup with Mushrooms",
    "category": "Soups & Stews",
    "cuisine": "Polish",
-   "tags": [
-    "large-batch",
-    "freezer",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "fills an 8 qt pot, about 12 servings",
    "developed": "2026-09-24",
    "groups": [
@@ -2224,7 +2223,7 @@
      "ingredients": [
       "5 g black pepper, ground",
       "5 g MSG",
-      "3 g Diamond Crystal kosher salt, to taste"
+      "29 g Diamond Crystal kosher salt (about 3 1/2 Tbsp), to taste"
      ],
      "name": "Seasoning"
     },
@@ -2273,22 +2272,25 @@
      "fiber_g": 6,
      "protein_g": 17,
      "sat_fat_g": 13,
-     "sodium_mg": 2350,
+     "sodium_mg": 3200,
      "sugar_g": 9
     },
     "serving": "about 2.5 cups, 650 g (1 of 12)",
     "servings": 12
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "ldw-potato-salad",
    "title": "Dill Pickle Potato Salad",
    "category": "Sides & Breads",
    "cuisine": "American",
-   "tags": [
-    "make-ahead",
-    "large-batch"
-   ],
+   "tags": [],
    "yield": "serves 13 (2.7 kg potatoes)",
    "developed": "2026-09-26",
    "groups": [
@@ -2306,7 +2308,7 @@
       "480 g mayonnaise",
       "55 g yellow mustard",
       "18 g garlic, grated (about 6 cloves)",
-      "18 g fine sea salt",
+      "34 g fine sea salt",
       "10 g black pepper, freshly ground (about 4 tsp)"
      ],
      "name": "Dressing"
@@ -2356,7 +2358,7 @@
      "fiber_g": 5,
      "protein_g": 8,
      "sat_fat_g": 5,
-     "sodium_mg": 1730,
+     "sodium_mg": 2210,
      "sugar_g": 3
     },
     "serving": "about 320 g (1 of 13)",
@@ -2366,6 +2368,10 @@
     {
      "date": "2026-10-26",
      "note": "Bigger chunks simmered gently and steamed dry; brine and vinegar go on warm, mayo dressing once cool; 25% less mayo; fold, don't mash."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
    ]
   },
@@ -2375,7 +2381,6 @@
    "category": "Sauces & Condiments",
    "cuisine": "American",
    "tags": [
-    "make-ahead",
     "pickles"
    ],
    "yield": "about 2 quarts (one half-gallon jar)",
@@ -2455,7 +2460,6 @@
    "category": "Sauces & Condiments",
    "cuisine": "American",
    "tags": [
-    "make-ahead",
     "dip"
    ],
    "yield": "115 g",
@@ -2507,10 +2511,7 @@
    "title": "Duck Fat Roast Potatoes",
    "category": "Sides & Breads",
    "cuisine": "British",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "two sheet pans, serves 7",
    "developed": "2026-10-24",
    "groups": [
@@ -2565,10 +2566,7 @@
    "title": "Duck Fat Rösti",
    "category": "Breakfast",
    "cuisine": "Swiss",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "one 12-inch skillet, 8 wedges",
    "developed": "2026-10-24",
    "groups": [
@@ -2576,7 +2574,7 @@
      "ingredients": [
       "1.1 kg russet potatoes, whole and unpeeled (about 4)",
       "125 g duck fat",
-      "14 g kosher salt",
+      "20 g kosher salt (about 2 1/2 Tbsp Diamond Crystal)",
       "4 g black pepper, freshly ground (about 2 tsp)"
      ],
      "name": ""
@@ -2605,7 +2603,7 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "About 100 g of the 125 g duck fat assumed absorbed, the rest left in the skillet; finishing salt beyond the 14 g not counted.",
+    "assumptions": "About 100 g of the 125 g duck fat assumed absorbed, the rest left in the skillet; finishing salt beyond the 20 g not counted.",
     "per_serving": {
      "calories": 220,
      "carbs_g": 25,
@@ -2614,12 +2612,18 @@
      "fiber_g": 1.9,
      "protein_g": 3,
      "sat_fat_g": 4,
-     "sodium_mg": 690,
+     "sodium_mg": 980,
      "sugar_g": 0.8
     },
     "serving": "1 wedge, about 140 g (1 of 8)",
     "servings": 8
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "ldw-escabeche-pickle-jar",
@@ -2627,7 +2631,6 @@
    "category": "Sauces & Condiments",
    "cuisine": "Mexican",
    "tags": [
-    "make-ahead",
     "pickles"
    ],
    "yield": "about 2 quarts",
@@ -2706,10 +2709,7 @@
    "category": "Drinks",
    "cuisine": "American",
    "tags": [
-    "make-ahead",
-    "frozen",
     "kid-friendly",
-    "camping",
     "ninja-slushi"
    ],
    "yield": "112 oz (about 3440 g)",
@@ -2766,10 +2766,7 @@
    "category": "Drinks",
    "cuisine": "American",
    "tags": [
-    "make-ahead",
-    "frozen",
     "kid-friendly",
-    "camping",
     "ninja-slushi"
    ],
    "yield": "112 oz (about 3320 g)",
@@ -2889,11 +2886,7 @@
    "title": "Garlic Old Bay Butter",
    "category": "Sauces & Condiments",
    "cuisine": "Southern / Lowcountry",
-   "tags": [
-    "make-ahead",
-    "freezer",
-    "large-batch"
-   ],
+   "tags": [],
    "yield": "900 g butter, for tossing a seafood boil",
    "developed": "2026-09-26",
    "groups": [
@@ -2950,10 +2943,7 @@
    "title": "Garlic-Dill Yogurt Sauce",
    "category": "Sauces & Condiments",
    "cuisine": "Turkish",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 2 cups",
    "developed": "2026-09-03",
    "groups": [
@@ -2964,7 +2954,7 @@
       "3 g dried dill weed (about 1 Tbsp)",
       "45 g lemon juice (about 1 lemon)",
       "28 g olive oil (about 2 Tbsp)",
-      "3 g kosher salt (about 1 tsp)"
+      "10 g kosher salt (about 3 1/2 tsp)"
      ],
      "name": ""
     }
@@ -2986,7 +2976,7 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Whole-milk Greek yogurt at about 97 kcal per 100 g; one lemon gives 45 g juice; 1 tsp Diamond kosher salt is 3 g.",
+    "assumptions": "Whole-milk Greek yogurt at about 97 kcal per 100 g; one lemon gives 45 g juice; 3 1/2 tsp Diamond kosher salt is 10 g.",
     "per_serving": {
      "calories": 45,
      "carbs_g": 1.6,
@@ -2995,12 +2985,18 @@
      "fiber_g": 0,
      "protein_g": 2.6,
      "sat_fat_g": 1,
-     "sodium_mg": 80,
+     "sodium_mg": 250,
      "sugar_g": 1.2
     },
     "serving": "2 Tbsp, about 34 g (1 of 16)",
     "servings": 16
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "green-room-freezer-martini",
@@ -3008,9 +3004,6 @@
    "category": "Drinks",
    "cuisine": "",
    "tags": [
-    "make-ahead",
-    "freezer",
-    "large-batch",
     "cocktail"
    ],
    "yield": "52.5 oz, about 17 pours at 3 oz, about 32% ABV",
@@ -3074,10 +3067,7 @@
    "category": "Sides & Breads",
    "cuisine": "Mediterranean",
    "tags": [
-    "camping",
-    "make-ahead",
-    "grill",
-    "large-batch"
+    "grill"
    ],
    "yield": "about 20 skewers, serves 10 to 12 as a side",
    "developed": "2026-09-03",
@@ -3215,7 +3205,6 @@
    "category": "Drinks",
    "cuisine": "American",
    "tags": [
-    "camping",
     "hot-drink",
     "kid-friendly"
    ],
@@ -3277,8 +3266,6 @@
    "category": "Drinks",
    "cuisine": "American",
    "tags": [
-    "make-ahead",
-    "camping",
     "hot-drink",
     "kid-friendly"
    ],
@@ -3347,12 +3334,7 @@
    "title": "Irish Lamb Stew",
    "category": "Soups & Stews",
    "cuisine": "Irish",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead",
-    "freezer",
-    "large-batch"
-   ],
+   "tags": [],
    "yield": "serves 7",
    "developed": "2026-10-24",
    "groups": [
@@ -3368,7 +3350,7 @@
       "1200 g chicken stock (about 1.2 L)",
       "0.5 g bay leaves (about 2)",
       "6 g thyme leaves",
-      "25 g kosher salt",
+      "55 g kosher salt",
       "4 g black pepper",
       "6 g MSG"
      ],
@@ -3417,12 +3399,18 @@
      "fiber_g": 9,
      "protein_g": 54,
      "sat_fat_g": 24.5,
-     "sodium_mg": 2950,
+     "sodium_mg": 4630,
      "sugar_g": 12
     },
     "serving": "1 bowl, about 900 g (1 of 7)",
     "servings": 7
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "kofta-beef-lamb-logs",
@@ -3430,9 +3418,6 @@
    "category": "Mains",
    "cuisine": "Turkish",
    "tags": [
-    "camping",
-    "make-ahead",
-    "freezer",
     "grill"
    ],
    "yield": "16 logs of 2 oz (16 pita wraps)",
@@ -3510,27 +3495,24 @@
   },
   {
    "id": "kofta-spice-blend-weighed",
-   "title": "Kofta Spice Blend (Aleppo, Weighed)",
+   "title": "Kofta Spice Blend",
    "category": "Spice Blends",
    "cuisine": "Turkish",
-   "tags": [
-    "make-ahead",
-    "camping"
-   ],
+   "tags": [],
    "yield": "20 g, seasons 2 lb ground meat",
    "developed": "2026-09-03",
    "groups": [
     {
      "ingredients": [
-      "5 g cumin seed (whole)",
-      "4 g sweet paprika (ground)",
-      "3 g coriander seed (whole)",
-      "2.5 g black peppercorns (whole, Tellicherry)",
-      "2 g Aleppo pepper flakes",
-      "1.5 g allspice berries (whole)",
-      "1 g dried oregano leaf",
-      "0.5 g ground cinnamon",
-      "0.5 g ground sumac"
+      "5 g cumin seed, whole (about 2 1/2 tsp)",
+      "4 g sweet paprika, ground (about 1 3/4 tsp)",
+      "3 g coriander seed, whole (about 1 1/2 tsp)",
+      "2.5 g black peppercorns, whole, Tellicherry (about 3/4 tsp)",
+      "2 g Aleppo pepper flakes (about 1 tsp)",
+      "1.5 g allspice berries, whole (about 1/2 tsp)",
+      "1 g dried oregano leaf (about 1 tsp)",
+      "0.5 g ground cinnamon (about 1/4 tsp)",
+      "0.5 g ground sumac (about 1/4 tsp)"
      ],
      "name": ""
     }
@@ -3543,7 +3525,7 @@
     "Mix in the paprika, Aleppo, cinnamon and sumac without toasting them.",
     "Jar it."
    ],
-   "notes": "Keeps for months in a jar. Salt (15 g kosher) and MSG (2 to 3 g) go into the meat separately, not into the jar. Double for 4 lb of meat.",
+   "notes": "Keeps for months in a jar. Salt (15 g kosher) and MSG (2 to 3 g) go into the meat separately, not into the jar. Double for 4 lb of meat. With pre-ground cumin and coriander, use the same weights and skip the toasting.",
    "rating": 0,
    "traits": [
     "camping",
@@ -3576,75 +3558,11 @@
    }
   },
   {
-   "id": "kofta-spice-blend-volume",
-   "title": "Kofta Spice Blend (by Volume)",
-   "category": "Spice Blends",
-   "cuisine": "Middle Eastern",
-   "tags": [
-    "make-ahead"
-   ],
-   "yield": "seasons 2 lb meat (1 lb beef + 1 lb lamb)",
-   "developed": "2026-04-26",
-   "groups": [
-    {
-     "ingredients": [
-      "6 g ground cumin (about 3 tsp)",
-      "4.5 g ground coriander (about 2 1/2 tsp)",
-      "2 g smoked paprika (about 1 tsp)",
-      "1 g dried oregano (about 1 tsp)",
-      "6 g salt (about 1 tsp)",
-      "1 g ground black pepper (about 1/2 tsp)",
-      "1 g ground cinnamon (about 1/2 tsp)",
-      "1.5 g garlic powder (about 1/2 tsp)",
-      "1 g onion powder (about 1/2 tsp)"
-     ],
-     "name": ""
-    }
-   ],
-   "steps": [
-    "Mix all spices together.",
-    "Add directly to 1 lb ground beef plus 1 lb ground lamb."
-   ],
-   "notes": "",
-   "rating": 0,
-   "traits": [
-    "make-ahead",
-    "shelf-stable",
-    "quick"
-   ],
-   "diet": [
-    "vegan",
-    "vegetarian",
-    "pescatarian",
-    "dairy-free",
-    "gluten-free"
-   ],
-   "nutrition": {
-    "assumptions": "The batch is 10.5 tsp; values are for exactly 1 tsp. Plain salt taken as fine table salt at 6 g per tsp.",
-    "per_serving": {
-     "calories": 5,
-     "carbs_g": 1.1,
-     "cholesterol_mg": 0,
-     "fat_g": 0.2,
-     "fiber_g": 0.5,
-     "protein_g": 0.3,
-     "sat_fat_g": 0,
-     "sodium_mg": 220,
-     "sugar_g": 0.1
-    },
-    "serving": "1 tsp, about 2.3 g (batch is about 11 tsp)",
-    "servings": 11
-   }
-  },
-  {
    "id": "lemon-herb-compound-butter",
    "title": "Lemon Herb Compound Butter",
    "category": "Sauces & Condiments",
    "cuisine": "French",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "1 log, about 270 g",
    "developed": "2026-10-15",
    "groups": [
@@ -3702,11 +3620,7 @@
    "title": "Louisiana Red Beans and Rice",
    "category": "Soups & Stews",
    "cuisine": "Creole",
-   "tags": [
-    "large-batch",
-    "freezer",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 7.5 qt beans",
    "developed": "2026-10-06",
    "groups": [
@@ -3739,7 +3653,7 @@
     },
     {
      "ingredients": [
-      "20 g kosher salt (to start), plus more to taste",
+      "94 g kosher salt (to start), plus more to taste",
       "5 g MSG",
       "20 g Louisiana hot sauce",
       "60 g green onion, sliced (about 6)",
@@ -3762,7 +3676,7 @@
     "Remove the hock and bay leaves; shred the meat, discard skin and bone and return the meat to the pot with the andouille.",
     "Mash about a third of the beans against the side of the pot (or pulse briefly with an immersion blender).",
     "Simmer uncovered, stirring often, until thick and creamy, about 30 minutes.",
-    "Stir in the 20 g salt and the MSG, wait a couple of minutes, then taste a whole bean and add more salt in 5 g hits as needed.",
+    "Stir in the 94 g salt and the MSG, wait a couple of minutes, then taste a whole bean and add more salt in 5 g hits as needed.",
     "Stir in the hot sauce.",
     "Serve over white rice, topped with the green onion and parsley."
    ],
@@ -3779,7 +3693,7 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "About 7.2 kg of beans at 360 g per serving; 15% of the soaking salt is counted, the ham hock yields about 250 g meat and only the 20 g starting finishing salt is included.",
+    "assumptions": "About 7.2 kg of beans at 360 g per serving; 15% of the soaking salt is counted, the ham hock yields about 250 g meat and only the 94 g starting finishing salt is included.",
     "per_serving": {
      "calories": 390,
      "carbs_g": 43,
@@ -3788,7 +3702,7 @@
      "fiber_g": 10.5,
      "protein_g": 23,
      "sat_fat_g": 5,
-     "sodium_mg": 1100,
+     "sodium_mg": 2550,
      "sugar_g": 3.3
     },
     "serving": "1.5 cups beans (about 360 g), rice not included (1 of 20)",
@@ -3798,6 +3712,10 @@
     {
      "date": "2026-10-26",
      "note": "Plain rice directions dropped; serve over any white rice."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
     }
    ]
   },
@@ -3806,11 +3724,7 @@
    "title": "Low Country Seafood Boil",
    "category": "Mains",
    "cuisine": "Southern / Lowcountry",
-   "tags": [
-    "large-batch",
-    "outdoor",
-    "party"
-   ],
+   "tags": [],
    "yield": "serves 13 (about 33 lb food)",
    "developed": "2026-09-26",
    "groups": [
@@ -3892,11 +3806,7 @@
    "title": "Mild Chili with Toasted Dried Chiles",
    "category": "Soups & Stews",
    "cuisine": "Tex-Mex",
-   "tags": [
-    "make-ahead",
-    "freezer",
-    "slow-cooker"
-   ],
+   "tags": [],
    "yield": "serves 8",
    "developed": "2026-10-15",
    "groups": [
@@ -3917,7 +3827,7 @@
       "15 g jalapeno, seeded and minced (about 1)",
       "4 g whole cumin seeds",
       "2 g dried Mexican oregano, whole leaf",
-      "22 g fine salt",
+      "46 g fine salt",
       "5 g MSG",
       "3 g coarse ground black pepper",
       "60 g saltine crackers, finely ground (about 20 crackers)"
@@ -3972,12 +3882,18 @@
      "fiber_g": 15,
      "protein_g": 39,
      "sat_fat_g": 17.5,
-     "sodium_mg": 2530,
+     "sodium_mg": 3710,
      "sugar_g": 9
     },
     "serving": "about 1.5 cups chili plus toppings (1 of 8)",
     "servings": 8
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "mojo-verde",
@@ -4042,8 +3958,6 @@
    "category": "Drinks",
    "cuisine": "American",
    "tags": [
-    "make-ahead",
-    "frozen",
     "cocktail",
     "ninja-slushi"
    ],
@@ -4109,11 +4023,7 @@
    "category": "Drinks",
    "cuisine": "American",
    "tags": [
-    "make-ahead",
-    "hot-drink",
-    "fall",
-    "camping",
-    "large-batch"
+    "hot-drink"
    ],
    "yield": "1 gallon of cider",
    "developed": "2026-10-24",
@@ -4188,10 +4098,7 @@
    "title": "Mushroom Duxelles Mix",
    "category": "Sides & Breads",
    "cuisine": "French",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 10 oz",
    "developed": "2026-10-15",
    "groups": [
@@ -4252,10 +4159,7 @@
    "title": "Mushrooms on Toast with Soft Eggs",
    "category": "Breakfast",
    "cuisine": "British",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "serves 7",
    "developed": "2026-10-24",
    "groups": [
@@ -4273,7 +4177,7 @@
       "15 g garlic, minced (about 3 cloves)",
       "45 g heavy cream (about 45 ml)",
       "12 g thyme leaves",
-      "10 g kosher salt",
+      "21 g kosher salt",
       "3 g black pepper, freshly ground (about 1 1/4 tsp)"
      ],
      "name": "Mushrooms"
@@ -4317,22 +4221,25 @@
      "fiber_g": 2.7,
      "protein_g": 16,
      "sat_fat_g": 10.5,
-     "sodium_mg": 990,
+     "sodium_mg": 1610,
      "sugar_g": 3.7
     },
     "serving": "1 slice sourdough toast, 1 egg and about 110 g mushrooms (1 of 7)",
     "servings": 7
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "papas-arrugadas-mojo-verde",
    "title": "Papas Arrugadas with Mojo Verde",
    "category": "Sides & Breads",
    "cuisine": "Canarian",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "serves 7",
    "developed": "2026-10-24",
    "groups": [
@@ -4478,10 +4385,7 @@
    "title": "Pickled Red Onions",
    "category": "Sauces & Condiments",
    "cuisine": "American",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "1 quart jar",
    "developed": "2026-10-15",
    "groups": [
@@ -4549,9 +4453,7 @@
    "title": "Pico de Gallo",
    "category": "Sauces & Condiments",
    "cuisine": "Mexican",
-   "tags": [
-    "camping"
-   ],
+   "tags": [],
    "yield": "about 570 g",
    "developed": "2026-10-15",
    "groups": [
@@ -4562,7 +4464,7 @@
       "15 g jalapeño, minced (about 1)",
       "20 g cilantro, chopped (about 1/2 bunch)",
       "25 g lime juice (about 1 lime)",
-      "5 g salt"
+      "10 g salt"
      ],
      "name": ""
     }
@@ -4584,7 +4486,7 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Jalapeno taken as 40 g trimmed; all 5 g salt counted.",
+    "assumptions": "Jalapeno taken as 40 g trimmed; all 10 g salt counted.",
     "per_serving": {
      "calories": 5,
      "carbs_g": 1.7,
@@ -4593,12 +4495,18 @@
      "fiber_g": 0.5,
      "protein_g": 0.3,
      "sat_fat_g": 0,
-     "sodium_mg": 100,
+     "sodium_mg": 200,
      "sugar_g": 0.9
     },
     "serving": "2 Tbsp, about 30 g (1 of 19)",
     "servings": 19
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "pimento-cheese",
@@ -4666,11 +4574,7 @@
    "title": "Poor Man's Cochon de Lait",
    "category": "Mains",
    "cuisine": "Cajun",
-   "tags": [
-    "large-batch",
-    "freezer",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "one 4.3 kg (9.47 lb) bone-in pork butt, pulled",
    "developed": "2026-10-06",
    "groups": [
@@ -4748,10 +4652,7 @@
    "title": "Queso (American and Sharp Cheddar)",
    "category": "Sauces & Condiments",
    "cuisine": "American",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 780 g",
    "developed": "2026-10-15",
    "groups": [
@@ -4807,12 +4708,7 @@
    "title": "Rajma (Kidney Bean Curry)",
    "category": "Soups & Stews",
    "cuisine": "Punjabi",
-   "tags": [
-    "large-batch",
-    "freezer",
-    "vegetarian",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 7.5 qt (needs an 8 qt or larger pot)",
    "developed": "2026-10-06",
    "groups": [
@@ -4927,9 +4823,7 @@
    "title": "Ras el Hanout with Caraway (No Cardamom)",
    "category": "Spice Blends",
    "cuisine": "Moroccan",
-   "tags": [
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 2 Tbsp",
    "developed": "2026-04-26",
    "groups": [
@@ -5120,9 +5014,7 @@
    "title": "Remoulade",
    "category": "Sauces & Condiments",
    "cuisine": "Cajun",
-   "tags": [
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "~600 g",
    "developed": "2026-09-26",
    "groups": [
@@ -5179,11 +5071,7 @@
    "title": "Roast Cornish Game Hens with Garlic Thyme Butter",
    "category": "Mains",
    "cuisine": "British",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead",
-    "large-batch"
-   ],
+   "tags": [],
    "yield": "7 hens, serves 7",
    "developed": "2026-10-24",
    "groups": [
@@ -5252,10 +5140,7 @@
    "title": "Roast Hen Gravy",
    "category": "Sauces & Condiments",
    "cuisine": "British",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 600 ml",
    "developed": "2026-10-24",
    "groups": [
@@ -5316,10 +5201,7 @@
    "title": "Salsa Roja de Árbol (Full Hot)",
    "category": "Sauces & Condiments",
    "cuisine": "Mexican",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 700 g",
    "developed": "2026-10-15",
    "groups": [
@@ -5331,7 +5213,7 @@
       "100 g white onion, quartered (about 1/2)",
       "25 g garlic, unpeeled (about 5 cloves)",
       "15 g white vinegar",
-      "8 g salt",
+      "12 g salt",
       "30 g neutral oil"
      ],
      "name": ""
@@ -5372,24 +5254,25 @@
      "fiber_g": 0.8,
      "protein_g": 0.5,
      "sat_fat_g": 0,
-     "sodium_mg": 140,
+     "sodium_mg": 210,
      "sugar_g": 1.2
     },
     "serving": "2 Tbsp, about 30 g (1 of 23)",
     "servings": 23
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "sausage-rolls",
    "title": "Sausage Rolls",
    "category": "Baking & Dough",
    "cuisine": "British",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead",
-    "freezer",
-    "large-batch"
-   ],
+   "tags": [],
    "yield": "32 rolls",
    "developed": "2026-10-24",
    "groups": [
@@ -5399,7 +5282,7 @@
       "150 g yellow onion, grated (about 1 medium)",
       "8 g sage, chopped",
       "4 g fennel seeds",
-      "15 g kosher salt",
+      "28 g kosher salt",
       "4 g black pepper",
       "980 g puff pastry (about 4 sheets, two 17.3 oz boxes)",
       "100 g eggs, beaten, 1 for sealing and 1 with a splash of water for egg wash (about 2 large)"
@@ -5440,21 +5323,25 @@
      "fiber_g": 0.6,
      "protein_g": 8,
      "sat_fat_g": 5.5,
-     "sodium_mg": 280,
+     "sodium_mg": 440,
      "sugar_g": 0.4
     },
     "serving": "1 roll (1 of 32)",
     "servings": 32
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "serrano-ranch",
    "title": "Serrano Ranch",
    "category": "Sauces & Condiments",
    "cuisine": "American",
-   "tags": [
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "~550 g",
    "developed": "2026-09-26",
    "groups": [
@@ -5508,7 +5395,6 @@
    "category": "Sides & Breads",
    "cuisine": "Southern",
    "tags": [
-    "make-ahead",
     "cast-iron"
    ],
    "yield": "one 12-inch cast iron skillet, serves 10",
@@ -5580,19 +5466,14 @@
    "title": "Slow Cooker Carnitas",
    "category": "Mains",
    "cuisine": "Mexican",
-   "tags": [
-    "large-batch",
-    "freezer",
-    "slow-cooker",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "4 kg deboned pork shoulder (7 qt slow cooker)",
    "developed": "2026-10-06",
    "groups": [
     {
      "ingredients": [
       "4000 g pork shoulder meat (from a 9.88 lb bone-in shoulder), deboned and cut into 5 cm chunks",
-      "48 g kosher salt",
+      "73 g kosher salt",
       "10 g dried Mexican oregano",
       "7 g ground cumin",
       "4 g black pepper"
@@ -5625,7 +5506,7 @@
     "To serve, heat a cast iron skillet over high with a spoonful of the reserved fat.",
     "Add pork in a single layer with a splash of the juices and cook undisturbed until the liquid evaporates and the bottom is crisp, about 5 minutes."
    ],
-   "notes": "Needs a 7 qt or larger slow cooker. Freeze shredded, uncrisped pork with some of its fat and juices for up to 3 months; crisp after thawing. Freeze the bone for stock.",
+   "notes": "Needs a 7 qt or larger slow cooker. Freeze shredded, uncrisped pork with some of its fat and juices for up to 3 months; crisp after thawing. Freeze the bone for stock. Oven version: [Carnitas (Oven, Dutch Oven)](carnitas-oven).",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -5648,23 +5529,25 @@
      "fiber_g": 0.4,
      "protein_g": 39,
      "sat_fat_g": 10.5,
-     "sodium_mg": 1180,
+     "sodium_mg": 1730,
      "sugar_g": 0.5
     },
     "serving": "150 g cooked meat (1 of 18)",
     "servings": 18
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "barbacoa-crockpot",
    "title": "Slow-Cooked Barbacoa",
    "category": "Mains",
    "cuisine": "Mexican",
-   "tags": [
-    "camping",
-    "make-ahead",
-    "freezer"
-   ],
+   "tags": [],
    "yield": "about 700 g shredded meat",
    "developed": "2026-10-15",
    "groups": [
@@ -5687,7 +5570,7 @@
       "8 g ground cumin",
       "6 g dried Mexican oregano",
       "1 g bay leaves (about 3)",
-      "18 g salt"
+      "25 g salt"
      ],
      "name": "Braise"
     }
@@ -5720,7 +5603,7 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "1134 g raw chuck; about half the rendered fat (35 g) is skimmed off. All 18 g salt stays in the meat and reduced sauce.",
+    "assumptions": "1134 g raw chuck; about half the rendered fat (35 g) is skimmed off. All 25 g salt stays in the meat and reduced sauce.",
     "per_serving": {
      "calories": 520,
      "carbs_g": 15,
@@ -5729,12 +5612,18 @@
      "fiber_g": 4.8,
      "protein_g": 48,
      "sat_fat_g": 11.5,
-     "sodium_mg": 1800,
+     "sodium_mg": 2350,
      "sugar_g": 5
     },
     "serving": "150 g shredded meat with sauce (1 of 5, from about 700 g)",
     "servings": 5
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "slushi-margarita",
@@ -5742,10 +5631,7 @@
    "category": "Drinks",
    "cuisine": "Mexican-American",
    "tags": [
-    "large-batch",
-    "frozen",
     "cocktail",
-    "party",
     "ninja-slushi"
    ],
    "yield": "112 oz, about 12 servings at 9 oz, about 15% ABV",
@@ -5804,10 +5690,7 @@
    "category": "Drinks",
    "cuisine": "Caribbean-American",
    "tags": [
-    "large-batch",
-    "frozen",
     "cocktail",
-    "party",
     "ninja-slushi"
    ],
    "yield": "112 oz, about 12 servings at 9 oz, about 16% ABV",
@@ -5926,10 +5809,7 @@
    "title": "Split Buttermilk Pancakes (Sweet and Ham-Cheddar)",
    "category": "Breakfast",
    "cuisine": "American",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 18 pancakes, serves 8",
    "developed": "2026-10-15",
    "groups": [
@@ -6099,10 +5979,7 @@
    "title": "Tartar Sauce",
    "category": "Sauces & Condiments",
    "cuisine": "British",
-   "tags": [
-    "hobbit-weekend",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 325 g",
    "developed": "2026-10-24",
    "groups": [
@@ -6158,10 +6035,7 @@
    "title": "The Full English",
    "category": "Breakfast",
    "cuisine": "British",
-   "tags": [
-    "hobbit-weekend",
-    "large-batch"
-   ],
+   "tags": [],
    "yield": "serves 7",
    "developed": "2026-10-24",
    "groups": [
@@ -6176,7 +6050,7 @@
       "350 g sourdough (about 7 slices)",
       "120 g duck fat",
       "40 g butter",
-      "12 g kosher salt",
+      "35 g kosher salt",
       "8 g black pepper, freshly ground (about 4 tsp)"
      ],
      "name": ""
@@ -6210,22 +6084,25 @@
      "fiber_g": 7,
      "protein_g": 53,
      "sat_fat_g": 27,
-     "sodium_mg": 3090,
+     "sodium_mg": 4380,
      "sugar_g": 11
     },
     "serving": "1 plate: 2 eggs, 2 rashers worth of bacon, 1 brat, beans, tomato, mushrooms, fried bread (1 of 7)",
     "servings": 7
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "red-beans-camp",
    "title": "Thick Red Beans",
    "category": "Sides & Breads",
    "cuisine": "Cajun",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 12 oz",
    "developed": "2026-10-15",
    "groups": [
@@ -6242,7 +6119,7 @@
       "0.4 g bay leaves (about 2)",
       "1 g cayenne",
       "160 to 200 g chicken broth",
-      "4 g salt",
+      "7 g salt",
       "2 g black pepper"
      ],
      "name": ""
@@ -6278,12 +6155,18 @@
      "fiber_g": 6,
      "protein_g": 6,
      "sat_fat_g": 4,
-     "sodium_mg": 720,
+     "sodium_mg": 1010,
      "sugar_g": 3.5
     },
     "serving": "about 85 g, a quarter of the batch (1 of 4)",
     "servings": 4
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   },
   {
    "id": "growler-toasted-almond-revolver",
@@ -6291,8 +6174,6 @@
    "category": "Drinks",
    "cuisine": "",
    "tags": [
-    "make-ahead",
-    "large-batch",
     "cocktail"
    ],
    "yield": "about 59 oz, about 16 pours of 3.7 oz, about 28% ABV",
@@ -6363,9 +6244,7 @@
    "title": "Tomato Soup",
    "category": "Soups & Stews",
    "cuisine": "American",
-   "tags": [
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "serves 6",
    "developed": "2026-10-15",
    "groups": [
@@ -6505,10 +6384,7 @@
    "title": "Vinegar Slaw",
    "category": "Sides & Breads",
    "cuisine": "American",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
+   "tags": [],
    "yield": "about 900 g",
    "developed": "2026-10-15",
    "groups": [
@@ -6519,7 +6395,7 @@
       "120 g apple cider vinegar",
       "40 g sugar",
       "30 g neutral oil",
-      "8 g salt",
+      "16 g salt",
       "4 g celery seed",
       "3 g black pepper, freshly ground (about 1 1/2 tsp)"
      ],
@@ -6555,12 +6431,18 @@
      "fiber_g": 3.1,
      "protein_g": 1.6,
      "sat_fat_g": 0.5,
-     "sodium_mg": 550,
+     "sodium_mg": 1070,
      "sugar_g": 11
     },
     "serving": "about 150 g (1 of 6)",
     "servings": 6
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    }
+   ]
   }
  ]
 }
