@@ -1,0 +1,4006 @@
+{
+ "generated": "2026-10-26T14:49:42+00:00",
+ "recipes": [
+  {
+   "id": "brussels-sprouts-bacon",
+   "title": "Air Fryer Brussels Sprouts with Bacon",
+   "category": "Sides & Breads",
+   "cuisine": "British",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead"
+   ],
+   "yield": "serves 7",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "900 g Brussels sprouts, halved",
+      "150 g thick-cut bacon, in lardons",
+      "25 g lard",
+      "10 g kosher salt",
+      "black pepper",
+      "10 g cider vinegar"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Crisp the bacon lardons and jar them with their fat.",
+    "Toss the sprouts with the bacon fat, lard and salt.",
+    "Air fry at 400°F in two batches, 15 minutes each, shaking halfway.",
+    "Toss with the bacon, pepper and cider vinegar."
+   ],
+   "notes": "Sprouts halved and bacon crisped the day before.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "apple-cider-doughnut-focaccia",
+   "title": "Apple Cider Doughnut Focaccia",
+   "category": "Baking & Dough",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead",
+    "sourdough-discard",
+    "cold-ferment"
+   ],
+   "yield": "one 9x13 pan",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "3 to 4 cinnamon sticks (about 8 g ground)",
+      "150 g granulated sugar",
+      "1 g fine salt"
+     ],
+     "name": "Cinnamon sugar"
+    },
+    {
+     "ingredients": [
+      "120 g cider reduction, room temperature",
+      "500 g bread flour",
+      "200 g sourdough discard, 100% hydration, cold and unfed is fine",
+      "260 g water, room temperature",
+      "12 g fine salt",
+      "3 g instant yeast",
+      "4 g ground cinnamon, optional",
+      "40 g olive oil"
+     ],
+     "name": "Dough"
+    },
+    {
+     "ingredients": [
+      "30 g olive oil, for the pan",
+      "85 g unsalted butter, melted"
+     ],
+     "name": "To bake and finish"
+    }
+   ],
+   "steps": [
+    "Warm the cinnamon sticks in a dry skillet over medium heat, 1 to 2 minutes, until fragrant.",
+    "Cool, break up and grind the cinnamon in a spice grinder. Sift.",
+    "Mix the ground cinnamon with the sugar and 1 g salt. Store airtight.",
+    "Mix the flour, discard, water, cider reduction, 12 g salt, yeast, ground cinnamon and 40 g olive oil until no dry flour remains.",
+    "With a wet hand, lift and fold the dough over itself 4 times, rotating the bowl.",
+    "Repeat the folds 3 more times at 30 minute intervals.",
+    "Cover and refrigerate overnight, 12 to 24 hours, toward the back of the fridge.",
+    "Pour 30 g olive oil into the pan, transfer the dough and turn to coat.",
+    "Proof at room temperature until puffy and relaxed to the edges, 2 to 3 hours.",
+    "Heat the oven to 425F.",
+    "Dimple the dough to the bottom of the pan with oiled fingers.",
+    "Bake 22 to 28 minutes, until deep golden and pulling from the sides.",
+    "Turn out, brush all over with the melted butter and press the top and sides into the cinnamon sugar."
+   ],
+   "notes": "Serve with the cider cream cheese glaze for dipping. For a 36 hour cold ferment, use 2 g yeast instead of 3 g.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "banana-boats",
+   "title": "Banana Boats",
+   "category": "Desserts",
+   "cuisine": "American",
+   "tags": [
+    "camping"
+   ],
+   "yield": "8 banana boats",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "8 bananas",
+      "60 g mini marshmallows",
+      "60 g chocolate chips",
+      "40 g peanut butter chips",
+      "60 g walnuts"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Split each banana lengthwise through the peel without cutting through the bottom.",
+    "Stuff with marshmallows, chocolate chips, peanut butter chips and walnuts.",
+    "Wrap in foil.",
+    "Cook 10 minutes in the coals."
+   ],
+   "notes": "",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "barbacoa-crockpot",
+   "title": "Barbacoa (Crockpot)",
+   "category": "Mains",
+   "cuisine": "Mexican",
+   "tags": [
+    "camping",
+    "make-ahead",
+    "freezer"
+   ],
+   "yield": "about 700 g shredded meat",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "4 dried guajillo chiles, toasted, stemmed and seeded",
+      "4 dried ancho chiles, toasted, stemmed and seeded",
+      "2 dried morita chiles, toasted and stemmed",
+      "2 chipotles in adobo plus 30 g adobo sauce"
+     ],
+     "name": "Chiles"
+    },
+    {
+     "ingredients": [
+      "2.5 lb beef chuck roast, cut into large chunks",
+      "1 white onion, quartered",
+      "6 garlic cloves, peeled, left whole",
+      "240 g beef broth",
+      "45 g apple cider vinegar",
+      "8 g ground cumin",
+      "6 g dried Mexican oregano",
+      "3 bay leaves",
+      "18 g salt"
+     ],
+     "name": "Braise"
+    }
+   ],
+   "steps": [
+    "Toast the guajillo, ancho and morita in a dry pan over medium, 20 to 30 seconds a side, with the vent running.",
+    "Soak the toasted chiles in hot water 20 minutes.",
+    "Blend the soaked chiles with the chipotles, adobo, onion, garlic, broth, vinegar, cumin, oregano and salt until smooth.",
+    "Sear the chuck hard in a skillet.",
+    "Deglaze the skillet into the crockpot.",
+    "Add the beef, sauce and bay leaves to the crockpot.",
+    "Cook on low 8 hours.",
+    "Lift the meat out with a slotted spoon.",
+    "Skim the fat from the liquid and pull the bay leaves.",
+    "Reduce the liquid hard in a wide saucepan, 15 minutes or more, until it coats a spoon and a finger track across the back holds.",
+    "Taste the reduced sauce for salt.",
+    "Shred the meat and toss with enough sauce to coat; jar any extra sauce.",
+    "Cool on a sheet pan.",
+    "Split in half: one half to the fridge, the other wrapped flat and frozen.",
+    "At camp, reheat in a foil pan."
+   ],
+   "notes": "Frozen half rides as cooler ballast and is used two days later. Excess liquid boils foil-packet fillings, so reduce before splitting.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "beer-battered-walleye-and-chips",
+   "title": "Beer-Battered Walleye and Chips",
+   "category": "Mains",
+   "cuisine": "British",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead"
+   ],
+   "yield": "serves 7",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "250 g flour",
+      "50 g cornstarch",
+      "8 g baking powder",
+      "15 g fine salt"
+     ],
+     "name": "Batter dry mix"
+    },
+    {
+     "ingredients": [
+      "1.35 kg walleye fillets, thawed, skinned, cut crosswise into 14 pieces of about 3 oz",
+      "460 ml lager, ice cold",
+      "100 ml vodka, ice cold",
+      "60 g flour, for dredging",
+      "fine salt",
+      "3 L frying oil",
+      "malt vinegar, to serve"
+     ],
+     "name": "Fish"
+    },
+    {
+     "ingredients": [
+      "two 28 oz bags frozen thick-cut chips",
+      "fine salt"
+     ],
+     "name": "Chips"
+    }
+   ],
+   "steps": [
+    "Whisk the dry mix ingredients together and bag.",
+    "Heat the oil in an 8-quart stockpot to 190°C, lid on while it climbs and between batches.",
+    "Air fry the chips at 400°F in batches, 15 to 18 minutes, shaking halfway.",
+    "Salt the chips the second they come out and hold on a rack in a 200°F oven.",
+    "Whisk the lager and vodka into the dry mix just to combine, lumps and all. Rest 10 minutes.",
+    "Pat the fish dry and salt both sides.",
+    "Dredge in flour, shake off, dip in batter and let the excess run.",
+    "Lower away from yourself into the 190°C oil.",
+    "Fry 3 to 4 minutes, three or four pieces at a time, until the batter is hard and deep gold. Fry the thin tail pieces together.",
+    "Drain on a rack and salt immediately.",
+    "Serve with malt vinegar and tartar sauce."
+   ],
+   "notes": "Dry mix made days ahead. Fried outdoors on an induction burner. Cool the oil fully before storing.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "dill-escabeche-pickle-soup",
+   "title": "Big-Batch Dill and Escabeche Pickle Soup with Mushrooms",
+   "category": "Soups & Stews",
+   "cuisine": "Polish",
+   "tags": [
+    "large-batch",
+    "freezer",
+    "make-ahead"
+   ],
+   "yield": "fills an 8 qt pot, about 12 servings",
+   "developed": "2026-09-24",
+   "groups": [
+    {
+     "ingredients": [
+      "20 g dried porcini",
+      "500 g hot water"
+     ],
+     "name": "Porcini"
+    },
+    {
+     "ingredients": [
+      "75 g unsalted butter",
+      "700 g smoked kielbasa, sliced into half-moons (optional)",
+      "450 g cremini mushrooms, sliced",
+      "400 g yellow onion, diced",
+      "300 g fresh carrots, diced",
+      "200 g fresh celery, diced",
+      "30 g garlic, minced (about 6 cloves)",
+      "3 g dried Mexican oregano",
+      "3 g ground cumin",
+      "1500 g Yukon Gold potatoes, 2 cm dice",
+      "2340 g chicken stock",
+      "500 g chicken stock, reserve",
+      "1 g bay leaves (about 4)",
+      "0.5 g whole allspice berries (about 6)",
+      "60 g fresh dill, stems tied with twine, fronds chopped"
+     ],
+     "name": "Base"
+    },
+    {
+     "ingredients": [
+      "250 g dill pickles (cucumber), coarsely grated",
+      "100 g dill-pickled cauliflower, chopped to 1 cm",
+      "75 g dill-pickled green beans, cut to 1 cm",
+      "75 g dill-pickled fennel, chopped to 1 cm",
+      "150 g escabeche carrots, chopped",
+      "75 g escabeche jalapenos, chopped",
+      "75 g escabeche radish, chopped",
+      "255 g dill pickle brine",
+      "130 g escabeche brine"
+     ],
+     "name": "Pickles and brine"
+    },
+    {
+     "ingredients": [
+      "5 g black pepper, ground",
+      "5 g MSG",
+      "3 g Diamond Crystal kosher salt, to taste"
+     ],
+     "name": "Seasoning"
+    },
+    {
+     "ingredients": [
+      "480 g full-fat sour cream",
+      "30 g all-purpose flour",
+      "75 g prepared horseradish, not creamy style (optional)"
+     ],
+     "name": "To finish"
+    }
+   ],
+   "steps": [
+    "Cover the porcini with the hot water and soak until soft, about 20 minutes.",
+    "Lift out the porcini and chop them. Strain the soaking liquid through a paper towel, leaving any grit behind.",
+    "Melt 60 g of the butter in an 8 qt stockpot over medium-high heat. Brown the kielbasa, then remove with a slotted spoon.",
+    "Brown the cremini in two batches in the remaining fat, adding the rest of the butter for the second batch. Set aside with the kielbasa.",
+    "Lower the heat to medium. Add the onion, carrots and celery and cook until softened, about 10 minutes.",
+    "Add the garlic, oregano (crushed between your palms) and cumin. Stir until fragrant.",
+    "Add the potatoes, stock, chopped porcini and strained soaking liquid, bay leaves, allspice and tied dill stems.",
+    "Bring to a boil, then simmer until the potatoes are fork-tender, about 20 minutes.",
+    "Stir in all the pickled vegetables, both brines, the kielbasa and cremini, and the pepper.",
+    "Add as much of the reserve stock as fits while leaving about 1 inch of headspace. Simmer 10 minutes.",
+    "Remove the bay leaves, allspice and dill stems.",
+    "Stir in the MSG and taste. Add more brine for sourness and the salt only if needed.",
+    "Ladle the portions to be frozen into containers before adding the sour cream.",
+    "Whisk the sour cream, flour and horseradish, scaled to the soup left in the pot.",
+    "Whisk in 2 ladles of hot broth, then stir the mixture back into the pot.",
+    "Heat gently without boiling until slightly thickened, about 5 minutes.",
+    "Stir in the chopped dill fronds and serve."
+   ],
+   "notes": "Freeze portions without the sour cream for up to 3 months. To serve frozen portions, thaw, reheat, then temper in about 40 g sour cream, 2.5 g flour and 6 g horseradish per serving, and finish with fresh dill. For one quart served fresh: 65 g sour cream, 4 g flour, 10 g horseradish, 8 g dill fronds. Serve with buttered, toasted rye.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "braised-red-cabbage",
+   "title": "Braised Red Cabbage",
+   "category": "Sides & Breads",
+   "cuisine": "British",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead"
+   ],
+   "yield": "serves 7",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "900 g red cabbage, shredded",
+      "1 apple, diced",
+      "225 g yellow onion, sliced",
+      "40 g butter",
+      "45 g dark brown sugar",
+      "75 g cider vinegar, plus a splash to finish",
+      "110 g water",
+      "1 cinnamon stick",
+      "2 whole cloves, or a scant 1/8 tsp ground",
+      "12 g kosher salt"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Soften the onion in the butter.",
+    "Add everything else and toss to coat.",
+    "Cover and cook on low 1 hour, stirring every 15 minutes.",
+    "Uncover and cook off the liquid, 15 minutes, stirring often so it doesn't catch.",
+    "Pull out the cinnamon stick, and the cloves if whole.",
+    "Taste and correct salt and vinegar. It should be sharp.",
+    "Cool and refrigerate.",
+    "To serve, reheat in a covered pot on low, stirring now and then.",
+    "Taste and sharpen with a splash of cider vinegar."
+   ],
+   "notes": "Made 3 days ahead; reheated on low about 4 hours before dinner.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "salsa-verde-broiled",
+   "title": "Broiled Salsa Verde",
+   "category": "Sauces & Condiments",
+   "cuisine": "Mexican",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "about 1 kg",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "700 g tomatillos, husked and halved",
+      "2 jalapeños",
+      "1 white onion, quartered",
+      "4 garlic cloves, unpeeled",
+      "30 g lime juice",
+      "20 g cilantro",
+      "8 g salt"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Line a sheet pan with foil, not parchment.",
+    "Arrange the tomatillos cut side down with the jalapeños, onion and garlic.",
+    "Broil about 4 inches from the element, about 10 minutes, until blackened in spots.",
+    "Peel the garlic.",
+    "Blend everything, including the liquid pooled on the pan.",
+    "Refrigerate."
+   ],
+   "notes": "Better after a day. Came out hotter than intended with 2 jalapeños; sour cream at the table mutes it.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "buffalo-chicken-hand-pies",
+   "title": "Buffalo Chicken Hand Pies",
+   "category": "Mains",
+   "cuisine": "American",
+   "tags": [
+    "camping",
+    "make-ahead",
+    "freezer"
+   ],
+   "yield": "12 hand pies",
+   "developed": "2026-09-03",
+   "groups": [
+    {
+     "ingredients": [
+      "1 1/2 lb boneless skinless chicken thighs",
+      "Salt",
+      "A little oil"
+     ],
+     "name": "Chicken"
+    },
+    {
+     "ingredients": [
+      "1 bottle (12 oz) Frank's RedHot Buffalo Wings Sauce",
+      "Cayenne, to taste",
+      "About 12 oz cream cheese (1 1/2 blocks)",
+      "About 6 oz sharp cheddar, grated",
+      "Celery seed"
+     ],
+     "name": "Filling"
+    },
+    {
+     "ingredients": [
+      "1 box puff pastry (2 sheets), thawed in the fridge",
+      "Egg wash (beaten egg)",
+      "4 oz blue cheese crumbles (for half the pies)"
+     ],
+     "name": "Pastry"
+    }
+   ],
+   "steps": [
+    "Season the thighs with salt and a little oil and roast at 400°F 25 to 30 minutes, to 175°F.",
+    "Shred while warm, using a stand mixer with the paddle on low.",
+    "Cook the shredded chicken with the sauce, cooking off about a quarter, until no free liquid runs when a chilled spoonful is tilted.",
+    "Season with cayenne.",
+    "Cool completely.",
+    "Fold in the cream cheese, cheddar and celery seed.",
+    "Chill overnight.",
+    "Cut the puff pastry into 12 pieces and portion the cold filling onto them.",
+    "Fold, seal hard with a fork, and cut two vent slits.",
+    "Freeze raw on a sheet pan, then bag.",
+    "On baking day, brush the frozen pies with egg wash.",
+    "Press blue cheese crumbles onto the tops of half the pies.",
+    "Bake from frozen at 400°F for 28 to 30 minutes.",
+    "Cool completely on a rack before packing in a rigid container."
+   ],
+   "notes": "Raw assembled pies freeze until baking. After baking, refrigerate in a rigid container; do not refreeze. Eat early on day of travel and keep cold in a dry bag with a frozen bottle.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "cabbage-carrot-slaw-sumac-dressing",
+   "title": "Cabbage-Carrot Slaw with Sumac Dressing",
+   "category": "Sides & Breads",
+   "cuisine": "Turkish",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "about 8 cups slaw",
+   "developed": "2026-09-03",
+   "groups": [
+    {
+     "ingredients": [
+      "1/2 large green cabbage, shredded (about 6 cups)",
+      "Carrots, julienned (from 1 lb whole carrots)"
+     ],
+     "name": "Slaw"
+    },
+    {
+     "ingredients": [
+      "1/4 cup lemon juice",
+      "1/4 cup olive oil",
+      "1 Tbsp sumac",
+      "1 tsp Aleppo pepper",
+      "1 tsp sugar",
+      "1 tsp Cointreau",
+      "1 1/2 tsp salt",
+      "Black pepper"
+     ],
+     "name": "Dressing"
+    }
+   ],
+   "steps": [
+    "Shred the cabbage and julienne the carrots; bag together dry and undressed.",
+    "Dissolve the sugar in the lemon juice.",
+    "Add the oil, sumac, Aleppo, Cointreau, salt and pepper to a jar and shake.",
+    "Dress the slaw at serving time."
+   ],
+   "notes": "Store vegetables and dressing separately until serving. Dressing keeps in a sealed jar.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "cajun-runoff-butter",
+   "title": "Cajun Runoff Butter",
+   "category": "Sauces & Condiments",
+   "cuisine": "Cajun",
+   "tags": [
+    "dip"
+   ],
+   "yield": "~250 ml",
+   "developed": "2026-09-26",
+   "groups": [
+    {
+     "ingredients": [
+      "~250 ml pooled butter runoff from the boil toss",
+      "10 g Cajun seasoning",
+      "2 g cayenne",
+      "10 g Crystal hot sauce (15 g for genuinely hot)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Pour ~250 ml of the pooled runoff from the toss into a bowl.",
+    "Stir in the Cajun seasoning and cayenne.",
+    "Stir in the Crystal, poured from the bottle."
+   ],
+   "notes": "Pre-mix the Cajun seasoning and cayenne in one container; keep the Crystal separate.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "camp-breakfast-burritos-cheesy-sausage",
+   "title": "Camp Breakfast Burritos (Cheesy Sausage)",
+   "category": "Breakfast",
+   "cuisine": "Tex-Mex",
+   "tags": [
+    "camping",
+    "make-ahead",
+    "freezer"
+   ],
+   "yield": "10 burritos",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "14 eggs",
+      "20 oz (567 g) refrigerated diced potatoes with peppers and onion",
+      "Salt",
+      "14 oz breakfast sausage",
+      "4 oz white American cheese, torn",
+      "8 oz shredded cheddar",
+      "10 burrito-size flour tortillas, 10 inch"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Cook the potatoes in an uncrowded pan until genuinely browned, not just heated through.",
+    "Salt the potatoes and cool completely.",
+    "Scramble the eggs soft and slightly underdone; cool completely.",
+    "Brown the sausage and drain most of the fat.",
+    "Off the heat, tear in the American cheese and stir until it coats the sausage.",
+    "Cool the sausage completely.",
+    "Warm one tortilla in a dry skillet 15 to 20 seconds a side.",
+    "Fill with about 6 oz of potatoes, eggs, sausage and cheddar, and roll tight.",
+    "Repeat with each tortilla, warming one at a time.",
+    "Wrap each in foil and freeze flat.",
+    "At camp, set the frozen burritos at the edge of the coal bed, not buried, 15 to 20 minutes, turning twice."
+   ],
+   "notes": "Frozen burritos ride as cooler ballast. Hot sauce on the side.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "camp-cheesesteaks-chuck-eye",
+   "title": "Camp Cheesesteaks (Shaved Chuck Eye with Queso)",
+   "category": "Mains",
+   "cuisine": "American",
+   "tags": [
+    "camping"
+   ],
+   "yield": "8 sandwiches",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "2040 g shaved chuck eye, portioned at home into 8 portions of 255 g",
+      "10 hoagie rolls, 8 inch",
+      "2 large yellow onions, sliced thin",
+      "2 green bell peppers, sliced",
+      "340 g cremini, sliced thick",
+      "Butter and salt (for the mushrooms)",
+      "8 slices provolone",
+      "Queso (American and sharp cheddar)",
+      "Sandwich paper and tape"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Cook the mushrooms on the griddle dry and hot, undisturbed, until their water cooks off.",
+    "Finish the mushrooms with butter and salt and hold in a foil pan near the fire.",
+    "Reheat the queso in the dutch oven at the edge of the coals until molten.",
+    "Cook the onions on the griddle, adding the peppers a few minutes later, then push to one side.",
+    "Put the meat on the cleared hot surface and chop with two spatulas.",
+    "When just past pink, pile it, fold in the onions and peppers, and add provolone if using; let it slump 30 seconds.",
+    "Toast the rolls face-down on the edge of the griddle.",
+    "Scoop the meat into the rolls and spoon queso over the top.",
+    "Wrap in paper, tape, rest 2 minutes, and cut through the paper.",
+    "Keep a plain corner of meat with no onion or pepper for kids."
+   ],
+   "notes": "Portion the meat at home with a scale so nothing is weighed at camp.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "camp-hot-chocolate-swiss-miss",
+   "title": "Camp Hot Chocolate (Swiss Miss and Half-and-Half)",
+   "category": "Drinks",
+   "cuisine": "American",
+   "tags": [
+    "camping",
+    "hot-drink",
+    "kid-friendly"
+   ],
+   "yield": "9 cups, one airpot",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "6 cups water",
+      "12 servings Swiss Miss, per the canister scoop",
+      "3 cups half-and-half, cold (725 g if pre-measuring)"
+     ],
+     "name": ""
+    },
+    {
+     "ingredients": [
+      "marshmallows",
+      "whipped cream",
+      "spiced rum or Baileys, for adults"
+     ],
+     "name": "At the mug"
+    }
+   ],
+   "steps": [
+    "Pre-warm the airpot: boiling water in, 5 minutes, dump.",
+    "Boil the water in the stainless pot.",
+    "Whisk in the Swiss Miss.",
+    "Stir in the cold half-and-half off the heat.",
+    "Fill the airpot."
+   ],
+   "notes": "Lands around 68°C, hot but drinkable. Nothing scorches since the water does the heating. Needs about a 3 qt pot.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "campfire-dutch-oven-cornbread",
+   "title": "Campfire Dutch Oven Cornbread (Jiffy)",
+   "category": "Sides & Breads",
+   "cuisine": "American",
+   "tags": [
+    "camping"
+   ],
+   "yield": "1 dutch oven, serves 8",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "4 boxes Jiffy corn muffin mix, combined in one bag",
+      "600 g milk and 4 eggs, whisked together in one container",
+      "30 g lard",
+      "Honey and butter for the table"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Preheat the bare cast iron dutch oven with the lard, swirled to coat the bottom and 5 cm up the sides, until it shimmers.",
+    "Pour the wet mix in, dump the Jiffy on top, stir fast, and put the lid on.",
+    "Set a third of the coals underneath and two-thirds on the lid.",
+    "Rotate the pot a quarter turn every 10 minutes.",
+    "Bake 25 to 35 minutes, checking at 25.",
+    "Home oven method: preheat an enameled dutch oven dry at 220°C for 15 minutes once the oven is up.",
+    "Home oven method: add the lard, swirl, and return to the oven 3 to 4 minutes to heat the fat.",
+    "Home oven method: pour in the wet mix, dump in the Jiffy, stir fast, and level.",
+    "Home oven method: bake uncovered 30 to 40 minutes, checking at 30, until golden and a skewer comes out clean; tent with foil if the top browns early.",
+    "Rest 10 minutes before cutting."
+   ],
+   "notes": "Wet mix and dry mix are prepped and stored separately until baking.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "campfire-foil-packet-bar",
+   "title": "Campfire Foil Packet Bar",
+   "category": "Mains",
+   "cuisine": "American",
+   "tags": [
+    "camping"
+   ],
+   "yield": "8 packets (kid packets smaller)",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "1 head cabbage, outer leaves whole plus 1 cm rounds",
+      "900 g frozen tater tots"
+     ],
+     "name": "Liner and base"
+    },
+    {
+     "ingredients": [
+      "12 oz andouille, sliced",
+      "14 oz plain smoked ham, 15 mm dice",
+      "350 g barbacoa (frozen half)",
+      "542 g carnitas (frozen half)",
+      "10 oz mushroom duxelles mix",
+      "12 oz red beans"
+     ],
+     "name": "Proteins"
+    },
+    {
+     "ingredients": [
+      "2 yellow onions, diced 1 cm",
+      "2 celery ribs, diced 1 cm",
+      "1 green bell pepper, diced 1 cm",
+      "1 carrot, diced 1 cm",
+      "2 zucchini, half-moons 1 cm",
+      "8 oz frozen corn",
+      "8 jalapeños, sliced",
+      "4 habaneros, sliced (separate board)"
+     ],
+     "name": "Vegetables"
+    },
+    {
+     "ingredients": [
+      "8 pats butter, 15 g each",
+      "8 oz Velveeta, cut into 1.5 cm cubes",
+      "Creole seasoning, chili flakes, hot sauce, salsa verde, salsa roja"
+     ],
+     "name": "Finish"
+    }
+   ],
+   "steps": [
+    "Build the fire at least 90 minutes ahead so there is a bed of coals.",
+    "Lay heavy-duty 18-inch foil double, and line each packet with cabbage.",
+    "Add tots straight from the cooler.",
+    "Add proteins, beans and vegetables to taste.",
+    "Add a pat of butter to every packet.",
+    "Lay cheese cubes on top of the fillings.",
+    "Seal and write names on the foil with a Sharpie.",
+    "Cook in the coals about 20 minutes, flipping once; never open packets on the fire.",
+    "Grill backup: 200°C, lid down, 20 to 25 minutes, flipped once."
+   ],
+   "notes": "",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "campfire-stovetop-popcorn",
+   "title": "Campfire Stovetop Popcorn",
+   "category": "Sides & Breads",
+   "cuisine": "American",
+   "tags": [
+    "camping"
+   ],
+   "yield": "about 14 cups",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "1/2 cup (105 g) popcorn kernels",
+      "3 Tbsp (41 g) neutral oil",
+      "12 g fine salt"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Put an 8 qt pot with a lid over the fire.",
+    "Add the oil and 3 kernels.",
+    "When those pop, add the rest of the kernels.",
+    "Take the pot off the heat 30 seconds, then return it and shake steadily.",
+    "Pull when the popping slows to a few seconds between pops.",
+    "Salt immediately while steaming."
+   ],
+   "notes": "Weights are for pre-measuring at home.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "carnitas-oven",
+   "title": "Carnitas (Oven, Dutch Oven)",
+   "category": "Mains",
+   "cuisine": "Mexican",
+   "tags": [
+    "camping",
+    "make-ahead",
+    "freezer"
+   ],
+   "yield": "about 1084 g shredded meat",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "3.3 lb bone-in pork shoulder butt, cut into 5 cm chunks around the bone",
+      "1 orange, juiced, peels reserved",
+      "1 white onion, quartered",
+      "6 garlic cloves, smashed and peeled",
+      "8 g ground cumin",
+      "6 g dried Mexican oregano",
+      "2 bay leaves",
+      "16 g salt",
+      "Water to come halfway up"
+     ],
+     "name": "Braise"
+    },
+    {
+     "ingredients": [
+      "30 g lard"
+     ],
+     "name": "At camp"
+    }
+   ],
+   "steps": [
+    "Put everything in an enameled dutch oven with the orange peels and the bone.",
+    "Add water to come halfway up the meat.",
+    "Cover and cook at 165°C for 3 hours.",
+    "Uncover, raise to 190°C, and cook about 30 minutes until the liquid renders down and the edges catch.",
+    "Pull the bone.",
+    "Shred coarsely, keeping some fat with the meat.",
+    "Cool on a sheet pan; skim and jar any fat that separates.",
+    "Split evenly: 542 g to the fridge, 542 g wrapped flat and frozen.",
+    "At camp, heat the griddle, add the lard, spread the meat in a thin layer, and leave it 2 to 3 minutes before turning."
+   ],
+   "notes": "Frozen half rides as cooler ballast. The braise needs no added fat; the shoulder renders its own.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "charred-broccoli-cauliflower",
+   "title": "Charred Broccoli and Cauliflower",
+   "category": "Sides & Breads",
+   "cuisine": "American",
+   "tags": [
+    "camping"
+   ],
+   "yield": "serves 8 as a side",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "450 g broccoli",
+      "450 g cauliflower",
+      "20 g neutral oil",
+      "1/2 lemon",
+      "3 g flaky salt",
+      "2 g black pepper",
+      "Chili flakes, on the side"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Cut florets about 4 cm, with a flat face cut on each; cut the cauliflower slightly smaller.",
+    "Heat a cast iron skillet on the fire until ripping hot and dry.",
+    "Add the cauliflower flat side down for 4 minutes.",
+    "Add the broccoli and leave everything undisturbed until blackened in spots, 4 to 5 minutes.",
+    "Toss and cook a few minutes more.",
+    "Off the heat, toss with the oil and salt.",
+    "Finish with lemon, flaky salt and pepper; serve chili flakes on the side."
+   ],
+   "notes": "",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "cheese-onion-potato-pasties",
+   "title": "Cheese, Onion and Potato Pasties",
+   "category": "Baking & Dough",
+   "cuisine": "British",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead",
+    "freezer"
+   ],
+   "yield": "6 pasties",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "6 refrigerated pie crust rounds",
+      "600 g russet potatoes, 1 cm dice",
+      "225 g yellow onion, diced",
+      "453 g sharp cheddar, grated",
+      "30 g butter",
+      "4 g mustard powder",
+      "2 g fresh sage, finely chopped",
+      "2 g fresh thyme leaves, finely chopped",
+      "14 g kosher salt",
+      "4 g ground white pepper",
+      "10 g malt vinegar",
+      "2 eggs, beaten (1 for sealing, 1 with a splash of water for egg wash)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Boil the potato in salted water 5 minutes, drain and cool.",
+    "Soften the onion in the butter 8 minutes and cool.",
+    "Combine everything but the egg.",
+    "Taste cold and salt again.",
+    "Fill one half of each round, egg the border, fold, rope crimp and cut a vent.",
+    "Freeze on a tray, then bag.",
+    "To bake, heat the oven to 400°F and line a sheet pan with parchment.",
+    "Space the pasties out from frozen.",
+    "Brush all over with egg wash, keeping it out of the vents.",
+    "Bake 45 minutes, until deep golden and 165°F in the middle.",
+    "Rest 10 minutes. Serve with piccalilli and English mustard."
+   ],
+   "notes": "Bake straight from frozen.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "chole",
+   "title": "Chole (Punjabi Chickpea Curry)",
+   "category": "Mains",
+   "cuisine": "Punjabi",
+   "tags": [],
+   "yield": "",
+   "developed": "2026-09-29",
+   "groups": [
+    {
+     "ingredients": [
+      "dried kabuli chana (chickpeas)",
+      "1 black tea bag (or a couple dried amla)"
+     ],
+     "name": "Chickpeas"
+    },
+    {
+     "ingredients": [
+      "onions",
+      "tomatoes",
+      "black cardamom",
+      "anardana (dried pomegranate seed), toasted and ground",
+      "amchur (dried green mango powder)",
+      "chole masala (homemade blend or MDH)",
+      "kasuri methi",
+      "salt"
+     ],
+     "name": "Masala"
+    },
+    {
+     "ingredients": [
+      "ghee",
+      "ginger, julienned",
+      "green chili"
+     ],
+     "name": "Tadka"
+    }
+   ],
+   "steps": [
+    "Soak the chickpeas overnight.",
+    "Pressure-cook the chickpeas with the tea bag (or amla) for color.",
+    "Brown the onions properly.",
+    "Add tomatoes and cook down until the oil separates.",
+    "Add the spices, anardana, and amchur, then the chickpeas.",
+    "Crush in kasuri methi at the end.",
+    "Finish with a ghee tadka of ginger julienne and green chili.",
+    "Salt boldly."
+   ],
+   "notes": "",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "cider-cream-cheese-glaze",
+   "title": "Cider Cream Cheese Glaze",
+   "category": "Desserts",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead"
+   ],
+   "yield": "dipping glaze for one 9x13 focaccia",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "115 g cream cheese, softened",
+      "55 g unsalted butter, softened",
+      "180 g powdered sugar",
+      "30 g cider reduction, plus more to thin",
+      "1 g fine salt"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Beat the cream cheese and butter until smooth.",
+    "Beat in the powdered sugar, cider reduction and salt.",
+    "Thin with more reduction until dippable.",
+    "Refrigerate."
+   ],
+   "notes": "Make a day ahead. Take out the morning of serving to soften. Serve in a bowl beside the focaccia for dipping, not spread on top.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "cider-reduction",
+   "title": "Cider Reduction",
+   "category": "Sauces & Condiments",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead"
+   ],
+   "yield": "about 150 g",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "600 ml apple cider"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Simmer the cider in a wide pan until reduced to about 150 g, thick and syrupy.",
+    "Weigh it in a tared heatproof cup; if it reduced past 150 g, stir water back in while warm to bring it to 150 g.",
+    "Cover, cool and refrigerate."
+   ],
+   "notes": "120 g goes in the apple cider doughnut focaccia and 30 g in the cider cream cheese glaze. Warm slightly to loosen if it sets firm in the fridge.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "classic-homemade-steak-sauce",
+   "title": "Classic Homemade Steak Sauce",
+   "category": "Sauces & Condiments",
+   "cuisine": "American",
+   "tags": [],
+   "yield": "serves 8",
+   "developed": "2026-04-15",
+   "groups": [
+    {
+     "ingredients": [
+      "1/2 cup ketchup",
+      "3 Tbsp Worcestershire sauce",
+      "2 Tbsp apple cider vinegar",
+      "1 Tbsp Dijon mustard",
+      "1 Tbsp brown sugar",
+      "1 Tbsp soy sauce",
+      "1 tsp hot sauce (such as Tabasco)",
+      "2 garlic cloves, minced",
+      "1/2 tsp smoked paprika",
+      "1/4 tsp black pepper",
+      "1 tsp anchovy paste"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Whisk everything together in a small saucepan until smooth.",
+    "Bring to a gentle simmer over medium-low heat and cook about 10 minutes, stirring occasionally, until slightly thickened.",
+    "Taste and adjust vinegar, brown sugar and hot sauce.",
+    "Cool slightly before serving."
+   ],
+   "notes": "Keeps 2 to 3 weeks refrigerated in a sealed jar; better after a day or two.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "ldw-cocktail-sauce",
+   "title": "Cocktail Sauce",
+   "category": "Sauces & Condiments",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead"
+   ],
+   "yield": "~600 g",
+   "developed": "2026-09-26",
+   "groups": [
+    {
+     "ingredients": [
+      "450 g ketchup",
+      "100 g prepared horseradish",
+      "30 g lemon juice (about 1 lemon)",
+      "15 g Worcestershire",
+      "3 g black pepper",
+      "8 g Crystal hot sauce"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Stir everything together.",
+    "Refrigerate.",
+    "Taste after a day and add more horseradish if it has mellowed."
+   ],
+   "notes": "Holds two weeks refrigerated and improves sitting. Let it sit an hour before judging the heat.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "cornbread-breakfast-sandwiches",
+   "title": "Cornbread Breakfast Sandwiches",
+   "category": "Breakfast",
+   "cuisine": "Southern",
+   "tags": [
+    "leftovers"
+   ],
+   "yield": "",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "leftover skillet cornbread",
+      "butter or lard, for griddling",
+      "eggs",
+      "pimento cheese",
+      "red pepper jelly (mild)",
+      "bacon or country ham, optional",
+      "hot pepper jelly, optional"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Split cornbread wedges horizontally.",
+    "Griddle the cut sides in butter or lard until crisp.",
+    "Fry the eggs with jammy yolks.",
+    "Stack: cornbread, pimento cheese, egg, pepper jelly, cornbread."
+   ],
+   "notes": "",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "creole-mustard",
+   "title": "Creole Mustard",
+   "category": "Sauces & Condiments",
+   "cuisine": "Creole",
+   "tags": [
+    "make-ahead"
+   ],
+   "yield": "about 250 g",
+   "developed": "2026-10-06",
+   "groups": [
+    {
+     "ingredients": [
+      "60 g brown mustard seeds",
+      "20 g yellow mustard seeds (or 80 g brown total and no yellow)",
+      "100 g distilled white vinegar",
+      "60 g water",
+      "20 g prepared horseradish",
+      "6 g kosher salt",
+      "1 g cayenne"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Combine the mustard seeds, vinegar, and water in a jar.",
+    "Cover with a regular lid and leave at room temperature about 24 hours, stirring once or twice, until the seeds absorb most of the liquid; add a splash of water if they look dry.",
+    "Blend about half the mixture with an immersion blender in a tall narrow container until creamy, leaving the rest whole.",
+    "Stir both halves back together.",
+    "Stir in the horseradish, salt, and cayenne.",
+    "Seal and refrigerate 2 days before using."
+   ],
+   "notes": "Keeps 3 months refrigerated.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "creole-mustard-slaw",
+   "title": "Creole Mustard Slaw",
+   "category": "Sides & Breads",
+   "cuisine": "Cajun",
+   "tags": [],
+   "yield": "enough for 4 French bread loaves of po'boys",
+   "developed": "2026-10-06",
+   "groups": [
+    {
+     "ingredients": [
+      "500 g green cabbage, finely shredded",
+      "80 g mayonnaise",
+      "25 g Creole mustard",
+      "15 g cider vinegar",
+      "3 g kosher salt"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Toss the cabbage with the mayonnaise, Creole mustard, vinegar, and salt.",
+    "Refrigerate about 30 minutes.",
+    "Serve on warmed, crisped French bread loaves piled with pulled cochon de lait."
+   ],
+   "notes": "",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "cubano-tater-tot-casserole",
+   "title": "Cubano Tater Tot Casserole",
+   "category": "Mains",
+   "cuisine": "Cuban-American",
+   "tags": [
+    "casserole"
+   ],
+   "yield": "one 9x13 pan, serves 8",
+   "developed": "2026-09-29",
+   "groups": [
+    {
+     "ingredients": [
+      "450 g ground pork",
+      "6 garlic cloves, minced",
+      "8 g ground cumin",
+      "4 g Mexican oregano",
+      "8 g kosher salt",
+      "2 limes, zested and juiced",
+      "120 g orange juice",
+      "500 g diced ham"
+     ],
+     "name": "Mojo pork"
+    },
+    {
+     "ingredients": [
+      "60 g unsalted butter",
+      "150 g yellow onion, diced",
+      "6 garlic cloves, minced",
+      "40 g all-purpose flour",
+      "720 g whole milk",
+      "200 g Swiss cheese, shredded",
+      "80 g yellow mustard",
+      "60 g dill pickle brine",
+      "25 g kosher salt",
+      "6 g black pepper",
+      "250 g dill pickles, chopped"
+     ],
+     "name": "Sauce"
+    },
+    {
+     "ingredients": [
+      "907 g frozen tater tots",
+      "30 g unsalted butter",
+      "4 garlic cloves, grated",
+      "2 g kosher salt",
+      "80 g Swiss cheese, shredded"
+     ],
+     "name": "Topping"
+    }
+   ],
+   "steps": [
+    "Heat the oven to 425F. Grease a 9x13 pan.",
+    "In a large skillet over high heat, brown the pork, breaking it up, until well browned, about 8 minutes.",
+    "Add the garlic, cumin, oregano, salt, and the lime zest and juice.",
+    "Add the orange juice and cook until the liquid is gone, about 4 minutes.",
+    "Transfer to a bowl with the ham.",
+    "In the same pan over medium heat, melt the butter. Cook the onion until soft, then add the garlic for 30 seconds.",
+    "Stir in the flour and cook, stirring, 2 to 3 minutes until it smells nutty.",
+    "Warm the milk. Whisk it in gradually, bring to a simmer, and cook, stirring often, 12 to 15 minutes, until it coats the back of a spoon.",
+    "Off heat, stir in the Swiss, mustard, pickle brine, salt and pepper until smooth.",
+    "Fold the ham, pork and chopped pickles into the sauce. Spread in the pan.",
+    "Arrange the tots on top in a single tight layer.",
+    "Melt the butter with the grated garlic and salt. Drizzle evenly over the tots.",
+    "Bake about 30 minutes, until the tots are deep golden and the sauce is bubbling at the edges.",
+    "Scatter the Swiss over the top and bake about 5 minutes until melted.",
+    "Rest 10 minutes before serving."
+   ],
+   "notes": "Serve with extra pickle spears and yellow mustard.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "ldw-dill-pickle-jar",
+   "title": "Dill Pickle Jar (Pickle Bowls)",
+   "category": "Sauces & Condiments",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead",
+    "pickles"
+   ],
+   "yield": "1 half-gallon jar",
+   "developed": "2026-09-26",
+   "groups": [
+    {
+     "ingredients": [
+      "350 g okra, whole, stem cap trimmed",
+      "350 g green beans, trimmed to jar height",
+      "1 large fennel bulb, in wedges",
+      "3 Persian cucumbers, in thick spears"
+     ],
+     "name": "Vegetables"
+    },
+    {
+     "ingredients": [
+      "4 cloves garlic",
+      "1 large bunch fresh dill",
+      "8 g dill seed",
+      "8 g mustard seed",
+      "5 g black peppercorns",
+      "2 bay leaves"
+     ],
+     "name": "Aromatics"
+    },
+    {
+     "ingredients": [
+      "600 ml distilled white vinegar",
+      "600 ml water",
+      "25 g kosher salt",
+      "32 g sugar"
+     ],
+     "name": "Brine (half of the shared 2.4 L batch)"
+    }
+   ],
+   "steps": [
+    "Cut everything thick.",
+    "Pack the vegetables and aromatics raw into the jar, upright.",
+    "Simmer the vinegar, water, salt and sugar until dissolved.",
+    "Cool the brine to warm, not boiling.",
+    "Pour over the vegetables.",
+    "Run a chopstick down the sides to release air bubbles, then top up.",
+    "Seal and refrigerate."
+   ],
+   "notes": "Best 5 to 6 days out; made Mon 8/31 or Tue 9/1 for a 9/6 serve. A bay leaf or pinch of black tea per jar helps crunch. Does not need a cooler in transit. Combine with the escabeche jar into shared bowls at serving.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "ldw-potato-salad",
+   "title": "Dill Pickle Potato Salad",
+   "category": "Sides & Breads",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead",
+    "large-batch"
+   ],
+   "yield": "serves 13 (2.7 kg potatoes)",
+   "developed": "2026-09-26",
+   "groups": [
+    {
+     "ingredients": [
+      "640 g mayonnaise",
+      "115 g dill pickle brine",
+      "55 g apple cider vinegar",
+      "55 g yellow mustard",
+      "18 g garlic (about 6 cloves), grated",
+      "18 g fine sea salt",
+      "Black pepper"
+     ],
+     "name": "Dressing"
+    },
+    {
+     "ingredients": [
+      "60 g kosher salt, for the cooking water",
+      "2.7 kg Yukon Gold potatoes, skins on, cut in 1.5 cm pieces",
+      "340 g refrigerated dill pickles, diced at 6 mm, drained",
+      "90 g shallot (about 3), minced",
+      "25 g fresh dill, chopped",
+      "6 hard-boiled eggs, chopped"
+     ],
+     "name": "Salad"
+    }
+   ],
+   "steps": [
+    "Soak the minced shallot in pickle brine or cider vinegar 10 minutes.",
+    "Whisk the dressing ingredients together.",
+    "Boil the potatoes in water salted with the 60 g kosher salt until fork-tender, about 10 minutes.",
+    "Drain and let steam off 2 minutes.",
+    "Dress the potatoes while warm, mashing some as you stir.",
+    "Cool.",
+    "Fold in the pickles, shallot, dill and eggs.",
+    "Refrigerate."
+   ],
+   "notes": "Made 2 days ahead. Stir before storing and again the next morning. Taste the morning of serving and loosen with mayo and pickle brine if it has tightened.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "drawn-lemon-butter",
+   "title": "Drawn Lemon Butter",
+   "category": "Sauces & Condiments",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead",
+    "dip"
+   ],
+   "yield": "115 g",
+   "developed": "2026-09-26",
+   "groups": [
+    {
+     "ingredients": [
+      "115 g unsalted butter",
+      "15 g lemon juice"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Melt the butter in a small pan.",
+    "Stir in the lemon juice.",
+    "Keep warm until serving."
+   ],
+   "notes": "Made ahead and remelted day of, after the endive boats while the pot climbs.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "duck-fat-roast-potatoes",
+   "title": "Duck Fat Roast Potatoes",
+   "category": "Sides & Breads",
+   "cuisine": "British",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead"
+   ],
+   "yield": "two sheet pans, serves 7",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "2.2 kg yellow potatoes, peeled and quartered",
+      "salt, for heavily salted boiling water",
+      "450 g duck fat",
+      "25 g kosher salt",
+      "rosemary, stripped",
+      "kosher salt, to finish"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Boil the potatoes in heavily salted water 8 minutes.",
+    "Drain and shake hard in the pot to rough up the edges.",
+    "Toss with the duck fat and 25 g kosher salt.",
+    "Cool and refrigerate in a covered pan.",
+    "Spread across two sheet pans and roast under the hens at 425°F.",
+    "When the hens come out, finish the potatoes alone at 450°F for 20 minutes, turning once.",
+    "Scatter with rosemary and more salt."
+   ],
+   "notes": "Parboiled and fat-coated up to 3 days ahead.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "duck-fat-rosti",
+   "title": "Duck Fat Rösti",
+   "category": "Breakfast",
+   "cuisine": "Swiss",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead"
+   ],
+   "yield": "one 12-inch skillet, 8 wedges",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "1.1 kg russet potatoes, whole and unpeeled",
+      "125 g duck fat",
+      "14 g kosher salt",
+      "black pepper"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Parboil the whole unpeeled russets 10 minutes, until tender at the edge and firm in the middle.",
+    "Cool, peel and grate coarsely. Bag and refrigerate.",
+    "Toss the grated potato with the salt and pepper.",
+    "Heat the duck fat in a 12-inch cast iron skillet.",
+    "Press the potato in flat, about 2 cm deep.",
+    "Cook over medium 12 minutes, until the underside is deep brown.",
+    "Tilt the skillet and spoon the loose fat into a heatproof bowl.",
+    "Slide the rösti onto the flat underside of an upside-down sheet pan, put the skillet over it and flip both together.",
+    "Spoon the fat back in around the edges.",
+    "Cook 10 minutes more.",
+    "Cut in 8 wedges and salt again."
+   ],
+   "notes": "Potato parboiled and grated up to 3 days ahead (Tuesday for Friday).",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "ldw-escabeche-pickle-jar",
+   "title": "Escabeche Pickle Jar (Pickle Bowls)",
+   "category": "Sauces & Condiments",
+   "cuisine": "Mexican",
+   "tags": [
+    "make-ahead",
+    "pickles"
+   ],
+   "yield": "1 half-gallon jar",
+   "developed": "2026-09-26",
+   "groups": [
+    {
+     "ingredients": [
+      "450 g carrots, in fat batons",
+      "1 small cauliflower, in big florets",
+      "2 bunches radishes, halved",
+      "6 jalapeños, in spears"
+     ],
+     "name": "Vegetables"
+    },
+    {
+     "ingredients": [
+      "4 cloves garlic",
+      "8 g cumin seed",
+      "5 g Mexican oregano",
+      "5 g black peppercorns",
+      "2 bay leaves"
+     ],
+     "name": "Aromatics"
+    },
+    {
+     "ingredients": [
+      "600 ml apple cider vinegar (sherry vinegar for any shortfall)",
+      "600 ml water",
+      "25 g kosher salt",
+      "32 g sugar"
+     ],
+     "name": "Brine (half of the shared 2.4 L batch)"
+    }
+   ],
+   "steps": [
+    "Cut everything thick.",
+    "Pack the vegetables and aromatics raw into the jar, with a dense layer of carrots across the top to hold the radish and jalapeño down.",
+    "Simmer the vinegar, water, salt and sugar until dissolved.",
+    "Cool the brine to warm, not boiling.",
+    "Pour over the vegetables.",
+    "Run a chopstick down the sides to release air bubbles, then top up.",
+    "Seal and refrigerate."
+   ],
+   "notes": "Best 5 to 6 days out. The radish turns this jar pink. Does not need a cooler in transit.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "frozen-chocolate-milk-slushie",
+   "title": "Frozen Chocolate Milk Slushie (112 oz)",
+   "category": "Drinks",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead",
+    "frozen",
+    "kid-friendly",
+    "camping",
+    "ninja-slushi"
+   ],
+   "yield": "112 oz (about 3440 g)",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "2160 g chocolate milk",
+      "864 g heavy cream",
+      "405 g chocolate syrup",
+      "11 g vanilla",
+      "13 g salt"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Whisk everything together.",
+    "Refrigerate.",
+    "Pour in cold.",
+    "Run on the Milkshake preset."
+   ],
+   "notes": "Made ahead at home and kept cold in the cooler.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "frozen-limeade-slushie",
+   "title": "Frozen Limeade Slushie (112 oz)",
+   "category": "Drinks",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead",
+    "frozen",
+    "kid-friendly",
+    "camping",
+    "ninja-slushi"
+   ],
+   "yield": "112 oz (about 3320 g)",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "830 g frozen limeade concentrate (about 2 1/3 cans, 12 oz each)",
+      "2490 g water"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Stir until the concentrate dissolves.",
+    "Refrigerate.",
+    "Pour in cold.",
+    "Run on the Slush preset."
+   ],
+   "notes": "Three parts water to one part concentrate (not label strength), which puts sugar near 14 percent. If using bottled limeade instead, add simple syrup to get it near 14 percent sugar.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "garlic-old-bay-butter",
+   "title": "Garlic Old Bay Butter",
+   "category": "Sauces & Condiments",
+   "cuisine": "Southern / Lowcountry",
+   "tags": [
+    "make-ahead",
+    "freezer",
+    "large-batch"
+   ],
+   "yield": "900 g butter (toss for the boil)",
+   "developed": "2026-09-26",
+   "groups": [
+    {
+     "ingredients": [
+      "900 g unsalted butter",
+      "50 g garlic, minced (12 to 16 cloves)",
+      "15 g Old Bay",
+      "2 g smoked paprika",
+      "20 g lemon juice (about 1 lemon)",
+      "2 g black pepper"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Melt the butter over low heat.",
+    "Add the garlic and cook 4 to 6 minutes until it smells sweet rather than sharp, without browning.",
+    "Take off the heat.",
+    "Stir in the Old Bay, paprika, lemon juice and pepper.",
+    "Cool, then bag it flat and freeze.",
+    "Day of: melt over low heat, stirring; do not let it boil.",
+    "At the pull, stir in ~500 ml boil liquor before tossing."
+   ],
+   "notes": "Frozen flat in a half-inch slab it remelts in minutes. Milk solids separate on melting and reintegrate when stirred. Made the week of Aug 25 and frozen.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "garlic-dill-yogurt-sauce",
+   "title": "Garlic-Dill Yogurt Sauce",
+   "category": "Sauces & Condiments",
+   "cuisine": "Turkish",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "about 2 cups, enough for 16 wraps",
+   "developed": "2026-09-03",
+   "groups": [
+    {
+     "ingredients": [
+      "16 oz plain whole-milk Greek yogurt",
+      "2 garlic cloves, grated",
+      "1 Tbsp dried dill weed",
+      "Juice of 1 lemon",
+      "2 Tbsp olive oil",
+      "1 tsp kosher salt"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Mix all ingredients.",
+    "Refrigerate at least a few hours before serving."
+   ],
+   "notes": "Better on day two. Raw garlic strengthens over two days. Holds Thursday to Saturday in a cooler.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "go-juice",
+   "title": "Go Juice (Liquid IV and Caffeine Stick Station)",
+   "category": "Drinks",
+   "cuisine": "",
+   "tags": [
+    "large-batch",
+    "electrolyte",
+    "caffeinated"
+   ],
+   "yield": "per serving, self-mixed",
+   "developed": "2026-07-30",
+   "groups": [
+    {
+     "ingredients": [
+      "Liquid IV packets, Firecracker Popsicle flavor",
+      "CELSIUS On-the-Go sticks (200 mg caffeine, Berry or Cranberry Lemon), one 14-pack",
+      "Pure Kick Blue Raspberry sticks (80 mg caffeine), one 72-pack",
+      "cold water",
+      "8 oz cups"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Set the Liquid IV packets and caffeine sticks out next to the water.",
+    "Each person mixes one Liquid IV packet with water.",
+    "Add one caffeine stick to taste: a CELSIUS stick for about 200 mg, or Pure Kick sticks at 80 mg each."
+   ],
+   "notes": "Label the caffeine amounts per stick. Plain water and other electrolyte options alongside.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "green-room-freezer-martini",
+   "title": "Green Room Freezer Martini",
+   "category": "Drinks",
+   "cuisine": "",
+   "tags": [
+    "make-ahead",
+    "freezer",
+    "large-batch",
+    "cocktail"
+   ],
+   "yield": "52.5 oz, about 17 pours at 3 oz, about 32% ABV",
+   "developed": "2026-08-02",
+   "groups": [
+    {
+     "ingredients": [
+      "21 oz Cotswolds Dry Gin",
+      "13 oz Empirical Cilantro",
+      "9 1/2 oz dry vermouth (Dolin Dry)",
+      "1 1/2 oz Fernet-Branca",
+      "7 1/2 oz filtered water",
+      "1/2 tsp fine salt"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Dissolve the salt in the water.",
+    "Combine everything at room temperature in a 64 oz jar.",
+    "Stir well.",
+    "Freeze at least 6 hours.",
+    "Pour 3 oz straight into a frozen glass, no ice, no stirring.",
+    "Garnish with a grapefruit twist, or a lime twist for sharper."
+   ],
+   "notes": "Citrus-free, so it keeps indefinitely in the freezer. It goes cloudy in the cold. Taste a pour before adding any more Fernet (3 oz is the ceiling).",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "grilled-vegetable-skewers",
+   "title": "Grilled Vegetable Skewers",
+   "category": "Sides & Breads",
+   "cuisine": "Mediterranean",
+   "tags": [
+    "camping",
+    "make-ahead",
+    "grill",
+    "large-batch"
+   ],
+   "yield": "about 20 skewers, serves 10 to 12 as a side",
+   "developed": "2026-09-03",
+   "groups": [
+    {
+     "ingredients": [
+      "3 zucchini, cut into coins",
+      "2 yellow summer squash, cut into coins",
+      "5 bell peppers, red or orange, cut into squares slightly smaller than the coins",
+      "3 poblanos, cut into squares",
+      "1 1/2 lb cremini mushrooms, whole, wiped not washed",
+      "2 red onions, cut into wedges"
+     ],
+     "name": "Vegetables (all cut to about 3/4 inch)"
+    },
+    {
+     "ingredients": [
+      "1/2 cup neutral oil (canola)",
+      "1 Tbsp Aleppo pepper",
+      "Kosher salt",
+      "Black pepper"
+     ],
+     "name": "Toss"
+    },
+    {
+     "ingredients": [
+      "3 lemons, halved crosswise",
+      "Olive oil",
+      "Balsamic glaze (optional)"
+     ],
+     "name": "Finish"
+    },
+    {
+     "ingredients": [
+      "About 40 bamboo skewers"
+     ],
+     "name": "Equipment"
+    }
+   ],
+   "steps": [
+    "Up to 2 days ahead, cut all vegetables and store dry and unsalted in the fridge; keep mushrooms whole in paper.",
+    "At camp, stir the Aleppo into the oil and let it sit a few minutes.",
+    "Toss each vegetable in its own bowl with enough oil to look glossy, then salt and pepper.",
+    "Thread onto bamboo skewers without crowding; skewer mushrooms through the side of the cap.",
+    "Hang the handle ends past the edge of the grate, away from the heat.",
+    "Grill over medium heat 8 to 10 minutes, turning 2 or 3 times, until colored and the squash gives slightly.",
+    "Grill the lemon halves cut side down on a clean oiled grate 3 to 5 minutes, undisturbed, until deeply browned.",
+    "Off the heat, squeeze the warm charred lemon over the skewers.",
+    "Drizzle with olive oil, and balsamic glaze if using."
+   ],
+   "notes": "Cut vegetables keep 2 days refrigerated if stored dry and unsalted. Salt and oil go on only at the grill.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "growler-toasted-almond-revolver",
+   "title": "Growler Toasted Almond Revolver",
+   "category": "Drinks",
+   "cuisine": "",
+   "tags": [
+    "make-ahead",
+    "large-batch",
+    "cocktail"
+   ],
+   "yield": "about 59 oz in a 64 oz growler, about 16 pours at 3.7 oz, about 28% ABV",
+   "developed": "2026-07-30",
+   "groups": [
+    {
+     "ingredients": [
+      "26 oz bourbon (90 to 100 proof)",
+      "6.5 oz Disaronno amaretto",
+      "11 oz coffee liqueur",
+      "6 oz cold brew concentrate",
+      "9 oz cold filtered water",
+      "1/2 oz Fernet-Branca or another bitter amaro",
+      "2 tsp Angostura bitters",
+      "heaping 1/4 tsp fine salt (two big pinches)"
+     ],
+     "name": ""
+    },
+    {
+     "ingredients": [
+      "orange peel, per glass"
+     ],
+     "name": "To serve"
+    }
+   ],
+   "steps": [
+    "Empty the growler into a large pitcher or bowl.",
+    "Stir in the bourbon, cold brew, water and amaro.",
+    "Add the bitters and salt and stir until the salt dissolves.",
+    "Taste, and add more bitters or a pinch more salt if it reads cloying.",
+    "Funnel back into the growler, cap, and refrigerate at least 4 hours.",
+    "Pour about 3.7 oz over one large cube.",
+    "Express an orange peel over the top and drop it in."
+   ],
+   "notes": "No citrus or dairy, keeps 3 to 4 weeks refrigerated. Optional: small tinctures in 2 oz bourbon each (one cracked cinnamon stick for 2 days; 4 or 5 cloves for 24 hours; peel of one orange for 4 hours), strained, dosed by the drop per glass or into the batch a day before serving.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "gruyere-gouda-grilled-cheese",
+   "title": "Gruyere and Gouda Grilled Cheese",
+   "category": "Mains",
+   "cuisine": "American",
+   "tags": [],
+   "yield": "2 sandwiches",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "4 slices sourdough, about 1.5 cm thick",
+      "80 g Gruyere, grated",
+      "80 g young gouda, grated",
+      "30 g unsalted butter, softened"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Toss the cheeses together.",
+    "Butter one side of each slice.",
+    "Build the sandwiches buttered sides out, with the cheese mounded to the edges.",
+    "Cook over medium-low, covered, until deep golden and fully melted, 4 to 5 minutes per side."
+   ],
+   "notes": "Served with the tomato soup.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "camp-hot-chocolate-ganache",
+   "title": "Hot Chocolate from Ganache Base (Camp Airpot)",
+   "category": "Drinks",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead",
+    "camping",
+    "hot-drink",
+    "kid-friendly"
+   ],
+   "yield": "2.4 L, one airpot",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "260 g dark chocolate (60 to 70%), chopped",
+      "130 g heavy cream",
+      "40 g cocoa powder",
+      "60 g sugar",
+      "5 g vanilla",
+      "3 g salt"
+     ],
+     "name": "Ganache (make ahead)"
+    },
+    {
+     "ingredients": [
+      "1900 g whole milk",
+      "500 g ganache (the whole jar)",
+      "mini marshmallows",
+      "full-size marshmallows on sticks",
+      "whipped cream"
+     ],
+     "name": "At camp"
+    }
+   ],
+   "steps": [
+    "Heat the cream.",
+    "Pour over the chopped chocolate.",
+    "Rest 2 minutes, then whisk smooth.",
+    "Whisk in the cocoa, sugar, vanilla and salt.",
+    "Jar it. Yields about 500 g.",
+    "At camp, pre-warm the airpot: boiling water in, 5 minutes, dump.",
+    "Heat the milk to 70°C in the stainless pot at the edge of the coals, stirring, off direct flame.",
+    "Whisk in the ganache until smooth.",
+    "Fill the airpot.",
+    "Serve marshmallows and whipped cream at the mug, never in the airpot."
+   ],
+   "notes": "Milk scorches: keep it moving and off direct flame.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "irish-lamb-stew",
+   "title": "Irish Lamb Stew",
+   "category": "Soups & Stews",
+   "cuisine": "Irish",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead",
+    "freezer",
+    "large-batch"
+   ],
+   "yield": "serves 7",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "1.4 kg boneless lamb shoulder, cut in 4 cm pieces",
+      "30 g lard",
+      "450 g yellow onion, thickly sliced",
+      "6 garlic cloves, sliced",
+      "500 g russet potatoes, peeled, cut small",
+      "1.1 kg red potatoes, peeled, cut in large chunks",
+      "375 g carrot, cut in chunks",
+      "1.2 L chicken stock",
+      "2 bay leaves",
+      "6 g thyme leaves",
+      "25 g kosher salt",
+      "4 g black pepper"
+     ],
+     "name": "Stew"
+    },
+    {
+     "ingredients": [
+      "1 can Guinness",
+      "about 1 L chicken stock, to thin",
+      "parsley, chopped",
+      "sourdough and butter"
+     ],
+     "name": "To reheat and serve"
+    }
+   ],
+   "steps": [
+    "Season the lamb hard with half the salt and half the pepper.",
+    "Brown it in lard in batches in a Dutch oven, removing each batch.",
+    "Soften the onion in the fat 8 minutes, adding the garlic for the last 2.",
+    "Return the lamb and its juices.",
+    "Add the stock, russets, bay, thyme, remaining pepper and the rest of the salt.",
+    "Cover and simmer gently 1 hour.",
+    "Add the red potatoes and carrot.",
+    "Simmer uncovered 45 minutes, until the lamb is tender and the russets have collapsed into the broth.",
+    "Remove the bay leaves, taste and salt again.",
+    "Cool completely and freeze flat in two bags.",
+    "To serve, put the stew in a pot with the Guinness at the start so the alcohol cooks off.",
+    "Loosen with stock, a splash at a time, until spoonable.",
+    "Cover and heat on low 40 minutes, stirring now and then.",
+    "Taste and salt.",
+    "Top with parsley and serve with sourdough and butter."
+   ],
+   "notes": "Made 4 days ahead and frozen. Sets very thick when cold; thin with stock on reheating.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "kofta-beef-lamb-logs",
+   "title": "Kofta (Beef and Lamb Logs)",
+   "category": "Mains",
+   "cuisine": "Turkish",
+   "tags": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "grill"
+   ],
+   "yield": "16 logs of 2 oz (16 pita wraps)",
+   "developed": "2026-09-03",
+   "groups": [
+    {
+     "ingredients": [
+      "5 g cumin seed, toasted and ground",
+      "4 g sweet paprika",
+      "3 g coriander seed, toasted and ground",
+      "2.5 g black peppercorns, ground fresh",
+      "2 g Aleppo pepper flakes",
+      "1.5 g allspice berries, ground",
+      "1 g dried oregano, crumbled",
+      "0.5 g ground cinnamon",
+      "0.5 g ground sumac"
+     ],
+     "name": "Spice blend (20 g, for 2 lb meat)"
+    },
+    {
+     "ingredients": [
+      "1 lb ground beef, 73/27",
+      "1 lb ground lamb, 80/20",
+      "1 medium yellow onion (about 150 g), grated and wrung to about 80 g pulp",
+      "3 to 4 garlic cloves, grated",
+      "20 g spice blend (above)",
+      "15 g kosher salt",
+      "2 to 3 g MSG"
+     ],
+     "name": "Meat mix"
+    },
+    {
+     "ingredients": [
+      "16 pocketless Greek pita",
+      "Grilled vegetable skewers",
+      "Garlic-dill yogurt sauce",
+      "Pickled red onions",
+      "Charred lemon halves",
+      "Sumac and Aleppo pepper for the table"
+     ],
+     "name": "To serve"
+    }
+   ],
+   "steps": [
+    "Toast the cumin and coriander seed in a dry pan over medium heat for 60 to 90 seconds until fragrant.",
+    "Cool the toasted seeds completely.",
+    "Grind the cumin, coriander, peppercorns and allspice; mix with the paprika, Aleppo, oregano, cinnamon and sumac. Do not toast the paprika, Aleppo or sumac.",
+    "Grate the onion on the fine side of a box grater and wring the pulp hard in a towel.",
+    "Combine the beef, lamb, onion pulp, garlic, 20 g spice blend, salt and MSG.",
+    "Knead by hand 3 to 5 minutes until the mix is tacky and pulls at your fingers.",
+    "Fry a teaspoon-sized test patty and adjust seasoning.",
+    "Portion into 16 logs of 2 oz, about 1 inch thick and 4 to 5 inches long, with blunt ends.",
+    "Smooth any surface cracks with wet hands.",
+    "Chill at least 1 hour, or wrap individually and freeze flat.",
+    "Double-skewer each cold log on bamboo skewers.",
+    "Grill over medium heat 8 to 10 minutes, turning 2 or 3 times, with one burner off as a cool zone for flare-ups.",
+    "Pull at 160°F internal.",
+    "Warm the pita on the grate 30 seconds a side.",
+    "Build each wrap with one log, grilled vegetables, yogurt sauce, pickled onions and a squeeze of charred lemon."
+   ],
+   "notes": "Logs can be mixed and frozen days ahead; frozen 2 oz logs thaw quickly in a cooler. Spice blend keeps for months in a jar. Cook all logs at camp rather than bringing raw meat home. To make 4 lb, double everything including salt and spice.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "kofta-spice-blend-weighed",
+   "title": "Kofta Spice Blend (Aleppo, Weighed)",
+   "category": "Spice Blends",
+   "cuisine": "Turkish",
+   "tags": [
+    "make-ahead",
+    "camping"
+   ],
+   "yield": "20 g, seasons 2 lb ground meat",
+   "developed": "2026-09-03",
+   "groups": [
+    {
+     "ingredients": [
+      "5 g cumin seed (whole)",
+      "4 g sweet paprika (ground)",
+      "3 g coriander seed (whole)",
+      "2.5 g black peppercorns (whole, Tellicherry)",
+      "2 g Aleppo pepper flakes",
+      "1.5 g allspice berries (whole)",
+      "1 g dried oregano leaf",
+      "0.5 g ground cinnamon",
+      "0.5 g ground sumac"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Toast only the cumin and coriander seed in a dry pan over medium heat, 60 to 90 seconds, until fragrant.",
+    "Cool completely before grinding.",
+    "Grind the cumin, coriander, peppercorns and allspice together.",
+    "Crumble in the oregano by hand.",
+    "Mix in the paprika, Aleppo, cinnamon and sumac without toasting them.",
+    "Jar it."
+   ],
+   "notes": "Keeps for months in a jar. Salt (15 g kosher) and MSG (2 to 3 g) go into the meat separately, not into the jar. Double for 4 lb of meat.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "kofta-spice-blend-volume",
+   "title": "Kofta Spice Blend (Scalable, by Volume)",
+   "category": "Spice Blends",
+   "cuisine": "Middle Eastern",
+   "tags": [
+    "make-ahead"
+   ],
+   "yield": "seasons 2 lb meat (1 lb beef + 1 lb lamb)",
+   "developed": "2026-04-26",
+   "groups": [
+    {
+     "ingredients": [
+      "3 tsp cumin",
+      "2 1/2 tsp coriander",
+      "1 tsp smoked paprika",
+      "1 tsp dried oregano",
+      "1 tsp salt",
+      "1/2 tsp black pepper",
+      "1/2 tsp cinnamon",
+      "1/2 tsp garlic powder",
+      "1/2 tsp onion powder"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Mix all spices together.",
+    "Add directly to 1 lb ground beef plus 1 lb ground lamb."
+   ],
+   "notes": "",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "lemon-herb-compound-butter",
+   "title": "Lemon Herb Compound Butter",
+   "category": "Sauces & Condiments",
+   "cuisine": "French",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "1 log, about 270 g",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "225 g unsalted butter, softened",
+      "Zest of 2 lemons",
+      "20 g lemon juice",
+      "15 g chives, minced",
+      "10 g dill or parsley",
+      "4 g salt",
+      "2 g black pepper"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Whip the butter with the zest, herbs, salt and pepper.",
+    "Add the lemon juice slowly while whipping so it does not break.",
+    "Roll into a log in parchment.",
+    "Chill.",
+    "Slice coins at camp."
+   ],
+   "notes": "Keeps chilled in the cooler through the weekend.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "louisiana-red-beans-and-rice",
+   "title": "Louisiana Red Beans and Rice",
+   "category": "Soups & Stews",
+   "cuisine": "Creole",
+   "tags": [
+    "large-batch",
+    "freezer",
+    "make-ahead"
+   ],
+   "yield": "about 7.5 qt beans (8 qt stock pot)",
+   "developed": "2026-10-06",
+   "groups": [
+    {
+     "ingredients": [
+      "1200 g kidney and pinto beans, sorted and rinsed",
+      "36 g kosher salt",
+      "5000 g water"
+     ],
+     "name": "Brine soak"
+    },
+    {
+     "ingredients": [
+      "40 g lard",
+      "700 g andouille sausage, sliced into coins",
+      "350 g yellow onion, diced",
+      "250 g green bell pepper, diced",
+      "200 g celery, diced",
+      "60 g garlic, minced",
+      "20 g no-salt Creole seasoning (Tony Chachere's no-salt)",
+      "4 g dried thyme",
+      "5 g cayenne",
+      "6 g black pepper",
+      "500 g smoked ham hock",
+      "1500 g low-sodium chicken stock",
+      "1500 g water, plus more as needed",
+      "3 bay leaves"
+     ],
+     "name": "Pot"
+    },
+    {
+     "ingredients": [
+      "20 g kosher salt (to start), plus more to taste",
+      "5 g MSG",
+      "20 g Louisiana hot sauce",
+      "60 g green onion, sliced",
+      "20 g flat-leaf parsley, chopped"
+     ],
+     "name": "Finish"
+    },
+    {
+     "ingredients": [
+      "900 g long-grain white or jasmine rice"
+     ],
+     "name": "To serve"
+    }
+   ],
+   "steps": [
+    "Dissolve the soaking salt in the soaking water, add the beans, and soak covered at room temperature 8 to 24 hours.",
+    "Drain and rinse the beans.",
+    "Heat the lard in the stock pot over medium-high.",
+    "Brown the andouille in batches and remove to a plate, leaving the fat.",
+    "Add the onion, bell pepper, and celery; cook over medium, scraping up the fond, until soft, about 10 minutes.",
+    "Add the garlic, Creole seasoning, thyme, cayenne, and black pepper; stir until fragrant, about 1 minute.",
+    "Add the beans, ham hock, stock, water, and bay leaves.",
+    "Bring to a full rolling boil and hold it there for at least 10 minutes.",
+    "Drop to a low simmer, partially covered, stirring occasionally and scraping the bottom, about 90 minutes, until the beans are fully tender.",
+    "Top up with water as needed to keep the beans just covered, staying below the fill line.",
+    "Remove the hock and bay leaves; shred the meat, discard skin and bone, and return the meat to the pot with the andouille.",
+    "Mash about a third of the beans against the side of the pot (or pulse briefly with an immersion blender).",
+    "Simmer uncovered, stirring often, until thick and creamy, about 30 minutes.",
+    "Stir in the 20 g salt and the MSG, wait a couple of minutes, then taste a whole bean and add more salt in 5 g hits as needed.",
+    "Stir in the hot sauce.",
+    "Cook the rice according to package directions.",
+    "Serve the beans over rice topped with green onion and parsley."
+   ],
+   "notes": "Freeze without rice, green onion, or parsley for up to 3 months; add them fresh when reheating. Thickens a lot when cold; thin with water when reheating and stir often to prevent scorching. Freeze flat in gallon bags filled about half (about 2 qt).",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "low-country-seafood-boil",
+   "title": "Low Country Seafood Boil",
+   "category": "Mains",
+   "cuisine": "Southern / Lowcountry",
+   "tags": [
+    "large-batch",
+    "outdoor",
+    "party"
+   ],
+   "yield": "serves 13 (80-qt pot, ~33 lb food)",
+   "developed": "2026-09-26",
+   "groups": [
+    {
+     "ingredients": [
+      "10 gallons water",
+      "3 packages Zatarain's crab boil",
+      "2 containers (24 oz each) Old Bay",
+      "6 sweet onions, quartered",
+      "6 lemons, halved",
+      "4 heads garlic, halved crosswise",
+      "Kosher salt, only if the water needs it after tasting"
+     ],
+     "name": "Water"
+    },
+    {
+     "ingredients": [
+      "2.7 kg (6 lb) small red potatoes",
+      "1.8 kg (4 lb) andouille, cut into 1 to 1.5 inch coins on the bias",
+      "12 ears corn, halved",
+      "900 g (2 lb) mushrooms",
+      "5.4 kg (12 lb) snow crab clusters, frozen",
+      "2.7 kg (6 lb) raw shell-on headless shrimp (16/20 or 21/25), frozen"
+     ],
+     "name": "Cook"
+    },
+    {
+     "ingredients": [
+      "900 g Garlic Old Bay Butter, melted",
+      "~500 ml boil liquor, from the pot",
+      "60 g Old Bay"
+     ],
+     "name": "Butter toss"
+    }
+   ],
+   "steps": [
+    "Fill the 80-qt pot to the 10-gallon line.",
+    "Add the Zatarain's, Old Bay, onions, lemons and garlic.",
+    "Light the burner at T-90; lid on only while bringing the water up from cold. Allow 45 to 60 minutes to a rolling boil.",
+    "Boil 5 to 10 minutes, then taste: it should taste like aggressively seasoned soup. Add kosher salt if it does not.",
+    "Lid off for the entire cook. Burner on full the entire time.",
+    "0:00: add the potatoes and andouille.",
+    "Watch for boilover once the potatoes go in; knock the burner down if foam climbs.",
+    "0:08: add the corn, mushrooms and frozen crab.",
+    "0:16: add the frozen shrimp, or once the pot is back to a full boil, whichever is later.",
+    "0:19: ladle out ~500 ml of boil liquor and stir it into the melted garlic Old Bay butter.",
+    "Kill the gas. Pull the basket and drain it.",
+    "Return the food to the empty, still-hot pot.",
+    "Pour the butter and boil liquor over the top, sprinkle the 60 g Old Bay over in two or three passes, and toss with the paddle about 10 minutes.",
+    "Pour off everything that pools at the bottom into bowls for the table as the dip."
+   ],
+   "notes": "Melt the butter after any other prep, while the pot climbs. Keep warm until the toss. Hold tiny creamer potatoes until 0:05. Serve on a paper-covered table with Cajun butter, drawn lemon butter, cocktail sauce, remoulade, serrano ranch and the pickle bowls.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "make-ahead-breakfast-burritos-bacon-sausage-mushroom",
+   "title": "Make-Ahead Breakfast Burritos (Bacon, Sausage, Mushroom)",
+   "category": "Breakfast",
+   "cuisine": "Tex-Mex",
+   "tags": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "large-batch"
+   ],
+   "yield": "24 burritos (8 bacon, 8 sausage, 8 mushroom)",
+   "developed": "2026-09-03",
+   "groups": [
+    {
+     "ingredients": [
+      "1 lb bacon, cut into lardons"
+     ],
+     "name": "Bacon"
+    },
+    {
+     "ingredients": [
+      "1 lb breakfast sausage roll"
+     ],
+     "name": "Sausage"
+    },
+    {
+     "ingredients": [
+      "1 1/2 lb sliced mushrooms",
+      "3 Tbsp (42 g) butter",
+      "3/4 tsp salt",
+      "3/4 cup chopped cilantro, stems included"
+     ],
+     "name": "Mushrooms"
+    },
+    {
+     "ingredients": [
+      "4 bell peppers, diced",
+      "1 poblano, diced",
+      "2 yellow onions, diced (just under 2 lb vegetables total)",
+      "3 Tbsp oil",
+      "25 g (about 3 Tbsp) salted taco seasoning"
+     ],
+     "name": "Burrito vegetables"
+    },
+    {
+     "ingredients": [
+      "30 eggs",
+      "1 1/2 tsp salt",
+      "Black pepper",
+      "8 oz cream cheese, cut into small cubes",
+      "Roasted burrito vegetables (above)"
+     ],
+     "name": "Sheet pan eggs"
+    },
+    {
+     "ingredients": [
+      "2 Tbsp (28 g) oil",
+      "2 Tbsp (28 g) unsalted butter",
+      "1 onion, diced",
+      "4 garlic cloves",
+      "1/2 poblano, diced",
+      "2 cans black beans, drained",
+      "Salt and pepper",
+      "Cayenne or Aleppo pepper"
+     ],
+     "name": "Black bean paste"
+    },
+    {
+     "ingredients": [
+      "5 lb bag frozen tater tots",
+      "Salt"
+     ],
+     "name": "Tots"
+    },
+    {
+     "ingredients": [
+      "6 pouches (90-second) cilantro lime rice"
+     ],
+     "name": "Rice"
+    },
+    {
+     "ingredients": [
+      "24 Mission Extra Grande 13-inch flour tortillas",
+      "12 slices deli white American cheese",
+      "12 oz shredded cheese",
+      "Per burrito: about 2 Tbsp bean paste, 7 to 9 tots, 1/3 cup rice, scant 1/2 cup (about 100 g) egg mixture, 1 slice American or 1/4 cup shredded cheese",
+      "Per burrito, one of: 3 Tbsp (about 20 g) bacon, 1/4 cup (about 40 g) sausage, or 1/4 cup (about 44 g) mushrooms"
+     ],
+     "name": "Assembly"
+    }
+   ],
+   "steps": [
+    "Cover the bacon lardons with water in a pan, boil the water off, then let them render and crisp in their own fat; drain.",
+    "Crumble and brown the sausage, ideally in the bacon pan; cool on a sheet pan.",
+    "Dry-sear the mushrooms in batches in stainless until their water is gone and they brown.",
+    "Off the heat, toss the mushrooms with the butter, salt and cilantro.",
+    "Toss the diced peppers, poblano and onions with the oil and taco seasoning until every piece is glossy.",
+    "Roast the vegetables at 400°F on uncrowded sheet pans until dry and caramelized.",
+    "Line a half sheet pan with parchment and spread the roasted vegetables over it.",
+    "Dot the cream cheese cubes over the vegetables.",
+    "Beat the eggs with the salt and pepper just to uniform yellow and pour over.",
+    "Bake at 325°F 30 to 35 minutes, checking at 25 and rotating once, until the center is just set with a slight wobble.",
+    "Cut the egg slab into quarters on the pan to speed cooling.",
+    "For the bean paste, cook the onion, garlic and poblano in the oil and butter until very soft.",
+    "Add the beans, salt, pepper and cayenne or Aleppo, then blend smooth to a stiff, spreadable paste.",
+    "Fry the tots darker than you would eat them, salt them hot, and cool on a rack.",
+    "Heat the rice pouches, spread thin on a sheet pan to cool fast, and refrigerate.",
+    "Cool every component completely.",
+    "Warm tortillas in stacks of 8 wrapped in foil at 350°F for 10 to 12 minutes; warm only one stack at a time.",
+    "Smear bean paste over a 6 by 4 inch patch about 3 to 4 inches from the near edge.",
+    "Layer tots, rice, egg mixture and the meat or mushroom on the beans in a 6-inch line.",
+    "Top with the cheese.",
+    "Fold in the sides and roll tight.",
+    "Wrap in 12 by 10.75 inch foil sheets and label the foil with a Sharpie by filling and cheese.",
+    "Refrigerate 12 for the first morning and freeze 12 for the second.",
+    "At camp, reheat on a cool zone of the grill, turning every few minutes."
+   ],
+   "notes": "Make extra filling; 24 burritos ran short on bacon and sausage. Frozen burritos hold 1 to 3 months; overwrap the foil with a freezer bag and reheat from frozen in foil at 350°F about 40 minutes.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "mild-chili-toasted-dried-chiles",
+   "title": "Mild Chili with Toasted Dried Chiles",
+   "category": "Soups & Stews",
+   "cuisine": "Tex-Mex",
+   "tags": [
+    "make-ahead",
+    "freezer",
+    "slow-cooker"
+   ],
+   "yield": "serves 8",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "900 g ground beef, 80/20",
+      "1 large yellow onion, chopped",
+      "4 garlic cloves, minced",
+      "28 g dried guajillo chiles, stemmed and seeded (about 4)",
+      "30 g dried ancho chiles, stemmed and seeded (about 2)",
+      "1 dried morita chile, stemmed and seeded",
+      "480 ml beef stock, boiling",
+      "455 g dark red kidney beans, rinsed and drained",
+      "455 g light red kidney beans, rinsed and drained",
+      "820 g canned diced tomatoes, undrained",
+      "65 g tomato paste",
+      "1 poblano, diced",
+      "1 jalapeno, seeded and minced",
+      "4 g whole cumin seeds",
+      "2 g dried Mexican oregano, whole leaf",
+      "22 g fine salt",
+      "5 g MSG",
+      "3 g coarse ground black pepper",
+      "60 g saltine crackers, finely ground"
+     ],
+     "name": "Chili"
+    },
+    {
+     "ingredients": [
+      "grated sharp cheddar (about 150 g)",
+      "sour cream",
+      "scallions, sliced",
+      "yellow onion, diced",
+      "pickled jalapenos",
+      "cilantro",
+      "lime wedges",
+      "oyster crackers or Fritos",
+      "hot sauce"
+     ],
+     "name": "Toppings"
+    }
+   ],
+   "steps": [
+    "Toast the guajillos, anchos and morita in a dry skillet over medium heat, pressing flat, about 30 seconds per side, until fragrant. Do not blacken.",
+    "Toast the cumin seeds in the same skillet until fragrant and a shade darker. Grind.",
+    "Cover the chiles with the boiling stock and soak 20 minutes.",
+    "Blend the chiles with the soaking liquid until smooth.",
+    "Brown the beef with the onion and garlic. Drain excess fat if desired.",
+    "Add the tomato paste and ground cumin and cook, stirring, until darkened.",
+    "Crush in the oregano.",
+    "Transfer to the slow cooker. Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs. Stir.",
+    "If it looks tight, stir in more stock until it is a thick stew that settles when stirred.",
+    "Cook on low overnight, about 8 hours.",
+    "Portion half into flat freezer bags and freeze. Refrigerate the rest in shallow containers.",
+    "Reheat gently, adjust salt and serve with the toppings."
+   ],
+   "notes": "Make 2 to 3 days ahead. Cool in shallow containers, not in the slow cooker insert. Freeze half flat in bags before anyone eats from the pot.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "mudslide-slushie-base",
+   "title": "Mudslide Slushie Base (Adults)",
+   "category": "Drinks",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead",
+    "frozen",
+    "cocktail",
+    "ninja-slushi"
+   ],
+   "yield": "about 2830 g, roughly 90 oz",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "1600 g whole milk",
+      "640 g heavy cream",
+      "320 g chocolate syrup",
+      "240 g maple syrup",
+      "24 g decaf instant espresso powder",
+      "8 g vanilla",
+      "3 g salt"
+     ],
+     "name": ""
+    },
+    {
+     "ingredients": [
+      "Kahlua, Baileys or vodka"
+     ],
+     "name": "At the glass"
+    }
+   ],
+   "steps": [
+    "Whisk until the espresso powder dissolves.",
+    "Refrigerate.",
+    "Shake before pouring.",
+    "Run on the Milkshake preset, or the Spike setting.",
+    "Add Kahlua, Baileys or vodka at the glass."
+   ],
+   "notes": "",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "mulled-cider",
+   "title": "Mulled Cider with Chairman's Spiced Rum",
+   "category": "Drinks",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead",
+    "hot-drink",
+    "fall",
+    "camping",
+    "large-batch"
+   ],
+   "yield": "1 gallon of cider",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "300 g water",
+      "220 g granulated sugar",
+      "16 g cinnamon sticks",
+      "6 g whole allspice",
+      "3 g whole cloves",
+      "10 g fresh ginger, sliced",
+      "peel of 2 oranges, in wide strips",
+      "2 star anise",
+      "juice of 2 oranges"
+     ],
+     "name": "Concentrate (make ahead)"
+    },
+    {
+     "ingredients": [
+      "1 gallon fresh apple cider",
+      "all the concentrate",
+      "Chairman's Reserve Spiced rum, at the mug"
+     ],
+     "name": "To serve"
+    }
+   ],
+   "steps": [
+    "Simmer the water, sugar, cinnamon, allspice, cloves, ginger, orange peel and star anise for 20 minutes.",
+    "Steep off the heat 20 minutes more.",
+    "Strain.",
+    "Stir in the orange juice.",
+    "Jar and refrigerate.",
+    "Heat the cider with the concentrate until steaming, about 75°C. Do not boil.",
+    "Hold on Keep Warm (Instant Pot or Dutch oven on low), or pour into a pre-warmed airpot: boiling water in, 5 minutes, dump.",
+    "Pour rum into the mug first, then ladle the cider over it."
+   ],
+   "notes": "Concentrate keeps for weeks in the fridge. Do not increase the cloves. One 84.5 oz airpot: about 0.6×. Hobbit weekend: 2×, served as two 1-gallon nights, with two 750 ml bottles of Chairman's for six adults.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "mushroom-duxelles-mix",
+   "title": "Mushroom Duxelles Mix (for Foil Packets)",
+   "category": "Sides & Breads",
+   "cuisine": "French",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "about 10 oz",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "450 g mushrooms, half button and half portabella (gills scraped), minced to about 2 mm",
+      "30 g butter",
+      "60 g shallot, minced",
+      "4 garlic cloves, minced",
+      "5 g fresh thyme leaves (or 2 g dried)",
+      "115 g cream cheese",
+      "4 g salt",
+      "3 g black pepper"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Scrape the gills from the portabellas.",
+    "Pulse the mushrooms in a food processor in two batches, bowl no more than half full, until about 2 mm and still distinct.",
+    "Cook in a dry pan over medium-high, stirring occasionally, until the released water evaporates and the mushrooms squeak and brown, 8 to 10 minutes or a little longer for portabella.",
+    "Add the butter, shallot, garlic and thyme and cook 2 minutes.",
+    "Off the heat, stir in the cream cheese until evenly melted.",
+    "Check that a spoonful mounds and nothing runs when the pan is tilted; if it weeps, return to medium heat 2 to 3 minutes.",
+    "Season with the salt and pepper.",
+    "Cool and refrigerate."
+   ],
+   "notes": "Holds refrigerated through the weekend.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "mushrooms-on-toast-soft-eggs",
+   "title": "Mushrooms on Toast with Soft Eggs",
+   "category": "Breakfast",
+   "cuisine": "British",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead"
+   ],
+   "yield": "serves 7",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "7 eggs, straight from the fridge"
+     ],
+     "name": "Soft eggs"
+    },
+    {
+     "ingredients": [
+      "680 g mushrooms, sliced thick",
+      "30 g lard",
+      "75 g butter",
+      "3 garlic cloves, minced",
+      "45 ml heavy cream",
+      "12 g thyme leaves",
+      "10 g kosher salt",
+      "black pepper"
+     ],
+     "name": "Mushrooms"
+    },
+    {
+     "ingredients": [
+      "sourdough, sliced and toasted",
+      "18-year cheddar, a chunk for grating"
+     ],
+     "name": "To serve"
+    }
+   ],
+   "steps": [
+    "Soft eggs: lower the eggs into boiling water and cook 6 minutes.",
+    "Move them straight into an ice bath for 5 minutes.",
+    "Peel gently under cool running water.",
+    "Refrigerate in a covered container with a damp paper towel over them.",
+    "To serve, put the eggs in a bowl, cover with water just off the boil and leave 4 minutes to warm through.",
+    "Mushrooms: get a wide pan properly hot with the lard.",
+    "Add the mushrooms in one layer and leave them alone 4 minutes.",
+    "Stir and keep cooking until browned and squeaky, 4 to 6 minutes more. Use two pans if crowded.",
+    "Salt the mushrooms.",
+    "Add the butter, garlic and thyme. Cook 1 minute.",
+    "Add the cream and reduce 2 minutes.",
+    "Taste and salt again.",
+    "Spoon over the toast and grate the cheddar over the top.",
+    "Halve the eggs, salt them and put them on the toast."
+   ],
+   "notes": "Eggs cooked and peeled up to 3 days ahead; mushrooms sliced the day before.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "papas-arrugadas-mojo-verde",
+   "title": "Papas Arrugadas with Mojo Verde",
+   "category": "Sides & Breads",
+   "cuisine": "Canarian",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead"
+   ],
+   "yield": "serves 7",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "1.5 kg small waxy potatoes, scrubbed, unpeeled",
+      "180 g coarse sea salt",
+      "water, to barely cover",
+      "cilantro, chopped, to finish"
+     ],
+     "name": "Papas arrugadas"
+    },
+    {
+     "ingredients": [
+      "60 g cilantro, leaves and tender stems",
+      "1 green bell pepper, seeded",
+      "4 garlic cloves",
+      "5 g cumin seed, toasted",
+      "12 g kosher salt",
+      "60 g white wine vinegar",
+      "180 g olive oil"
+     ],
+     "name": "Mojo verde"
+    }
+   ],
+   "steps": [
+    "Mojo: blend everything but the oil until smooth.",
+    "With the blender running, pour in the oil.",
+    "Taste and keep salting until it tastes sharp and loud.",
+    "Jar the mojo.",
+    "Potatoes: put them in a wide pot in a single layer.",
+    "Add the salt and just enough water to barely cover.",
+    "Boil hard, uncovered, 20 to 25 minutes, until a knife slides in and the water has nearly gone.",
+    "Pour off whatever water is left.",
+    "Return the pot to low heat and shake it every 30 seconds, 3 to 5 minutes, until the potatoes are dry, the skins wrinkle and a white salt bloom forms.",
+    "Serve in the pot, scattered with chopped cilantro, with the mojo in ramekins alongside."
+   ],
+   "notes": "Mojo made Tuesday; keeps a week refrigerated. Take the mojo out of the fridge about an hour before serving so the oil loosens.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "pico-de-gallo",
+   "title": "Pico de Gallo",
+   "category": "Sauces & Condiments",
+   "cuisine": "Mexican",
+   "tags": [
+    "camping"
+   ],
+   "yield": "about 570 g",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "400 g roma tomatoes, seeded and diced",
+      "120 g white onion, diced",
+      "1 jalapeño, minced",
+      "20 g cilantro, chopped",
+      "25 g lime juice",
+      "5 g salt"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Combine everything."
+   ],
+   "notes": "Make the day it is served or the day before; it declines by the next day.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "poor-mans-cochon-de-lait",
+   "title": "Poor Man's Cochon de Lait",
+   "category": "Mains",
+   "cuisine": "Cajun",
+   "tags": [
+    "large-batch",
+    "freezer",
+    "make-ahead"
+   ],
+   "yield": "one 4.3 kg (9.47 lb) bone-in pork butt, pulled",
+   "developed": "2026-10-06",
+   "groups": [
+    {
+     "ingredients": [
+      "170 g butter, melted",
+      "170 g low-sodium chicken stock",
+      "55 g Louisiana hot sauce",
+      "45 g Worcestershire sauce",
+      "9 g garlic powder",
+      "9 g onion powder"
+     ],
+     "name": "Injection"
+    },
+    {
+     "ingredients": [
+      "4300 g bone-in pork shoulder (Boston butt)",
+      "35 g no-salt Creole seasoning",
+      "45 g kosher salt",
+      "30 g brown sugar",
+      "6 g black pepper"
+     ],
+     "name": "Rub"
+    },
+    {
+     "ingredients": [
+      "15 to 25 g kosher salt, to taste"
+     ],
+     "name": "Finish"
+    }
+   ],
+   "steps": [
+    "Whisk the butter, stock, hot sauce, Worcestershire, garlic powder, and onion powder until smooth; keep warm so the butter stays liquid.",
+    "Inject the pork all over in a 3 cm grid, going deep and pulling back slowly.",
+    "Wipe off excess injection.",
+    "Mix the Creole seasoning, salt, brown sugar, and black pepper and coat the pork on all sides.",
+    "Refrigerate uncovered on a rack 24 to 36 hours.",
+    "Heat the oven to 275°F (135°C).",
+    "Roast the pork fat side up on a rack in a roasting pan until the internal temperature reaches 200°F (93°C) and the bone pulls free, 9 to 11 hours.",
+    "Tent loosely with foil and rest 1 hour.",
+    "Pull the pork into shreds while still warm, discarding bone and large fat pockets.",
+    "Skim the fat from the pan drippings and toss the pork with the drippings.",
+    "Sprinkle the finishing salt over the pork in 5 g hits, tossing and tasting as you go."
+   ],
+   "notes": "Needs a meat injector and a roasting pan with rack. Cool in shallow containers or flat bags and refrigerate within 2 hours. Freeze pulled pork with its drippings for up to 3 months; reheat with a splash of drippings or water.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "queso-american-cheddar",
+   "title": "Queso (American and Sharp Cheddar)",
+   "category": "Sauces & Condiments",
+   "cuisine": "American",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "about 780 g",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "440 g white American cheese, torn",
+      "120 g sharp cheddar, grated from a block",
+      "220 g evaporated milk",
+      "3 g dry mustard (Colman's), or 10 g Dijon",
+      "2 g white pepper"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Whisk the mustard into the evaporated milk.",
+    "Warm the milk mixture over low heat.",
+    "Add the American cheese in handfuls, stirring constantly, until smooth.",
+    "Off the heat, stir in the cheddar a handful at a time until melted.",
+    "Season with white pepper, adding salt only if needed.",
+    "Cool and refrigerate.",
+    "At camp, reheat in a dutch oven at the edge of the coals until molten, then hold in a crockpot on warm."
+   ],
+   "notes": "Reheats without breaking. Use block cheddar, not bagged shredded.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "quick-pickled-red-onions",
+   "title": "Quick Pickled Red Onions",
+   "category": "Sauces & Condiments",
+   "cuisine": "British",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead"
+   ],
+   "yield": "1 quart jar",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "2 red onions, about 400 g, sliced thin",
+      "240 g cider vinegar",
+      "120 g water",
+      "30 g granulated sugar",
+      "15 g kosher salt"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Pack the onions into a quart jar.",
+    "Bring the vinegar, water, sugar and salt to a simmer, stirring until dissolved.",
+    "Pour over the onions and press them under.",
+    "Cool, lid and refrigerate."
+   ],
+   "notes": "Ready in an hour, keeps two weeks refrigerated. For the ploughman's board.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "pickled-red-onions",
+   "title": "Quick Pickled Red Onions (Camping Batch)",
+   "category": "Sauces & Condiments",
+   "cuisine": "American",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "1 jar (2 onions)",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "2 red onions, sliced thin",
+      "240 g apple cider vinegar",
+      "240 g water",
+      "20 g sugar",
+      "12 g salt"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Pack the sliced onions into a jar.",
+    "Boil the vinegar, water, sugar and salt.",
+    "Pour the hot brine over the onions.",
+    "Cool, then refrigerate."
+   ],
+   "notes": "Ready in an hour, better after two days, better still at a week. Also made for the Aug 2026 kofta trip, where no quantities were recorded.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "rajma",
+   "title": "Rajma (Kidney Bean Curry)",
+   "category": "Soups & Stews",
+   "cuisine": "Punjabi",
+   "tags": [
+    "large-batch",
+    "freezer",
+    "vegetarian",
+    "make-ahead"
+   ],
+   "yield": "about 7.5 qt (8 qt stock pot)",
+   "developed": "2026-10-06",
+   "groups": [
+    {
+     "ingredients": [
+      "1247 g kidney and pinto beans, sorted and rinsed",
+      "36 g kosher salt",
+      "5000 g water"
+     ],
+     "name": "Brine soak"
+    },
+    {
+     "ingredients": [
+      "3500 g water, plus more as needed",
+      "2 bay leaves"
+     ],
+     "name": "Beans"
+    },
+    {
+     "ingredients": [
+      "60 g ghee",
+      "10 g cumin seeds",
+      "1 cinnamon stick",
+      "6 green cardamom pods, cracked",
+      "4 whole cloves",
+      "500 g yellow onion, finely diced",
+      "60 g ginger, grated",
+      "60 g garlic, grated",
+      "20 g serrano chiles, minced",
+      "20 g Kashmiri chili powder",
+      "15 g ground coriander",
+      "6 g ground cumin",
+      "5 g ground turmeric",
+      "10 g kosher salt",
+      "1200 g crushed tomatoes"
+     ],
+     "name": "Masala"
+    },
+    {
+     "ingredients": [
+      "12 g garam masala",
+      "5 g kasuri methi (dried fenugreek leaves)",
+      "113 g butter (1 stick)",
+      "45 g kosher salt",
+      "7 g MSG",
+      "30 g lemon juice",
+      "30 g cilantro, chopped"
+     ],
+     "name": "Finish"
+    },
+    {
+     "ingredients": [
+      "900 g extra long basmati rice"
+     ],
+     "name": "To serve"
+    }
+   ],
+   "steps": [
+    "Dissolve the soaking salt in the soaking water, add the beans, and soak covered at room temperature about 12 hours.",
+    "Drain and rinse the beans.",
+    "Add the beans, cooking water, and bay leaves to the stock pot.",
+    "Bring to a full rolling boil and hold it there for at least 10 minutes.",
+    "Drop to a low simmer, partially covered, until fully tender, about 75 minutes. Do not drain.",
+    "While the beans simmer, heat the ghee in a large skillet or Dutch oven over medium.",
+    "Add the cumin seeds, cinnamon stick, cardamom pods, and cloves; stir until the cumin darkens, about 1 minute.",
+    "Add the onion and cook over medium to medium-high, stirring often, until deep amber-brown with darker edges, 20 to 30 minutes; add a splash of water if the bottom catches.",
+    "Lower the heat to medium. Add the ginger, garlic, and serranos and cook until the raw smell is gone, about 2 minutes.",
+    "Add the Kashmiri chili powder, coriander, ground cumin, and turmeric with a splash of water; stir constantly for 1 minute.",
+    "Add the crushed tomatoes and the 10 g salt; cook, stirring occasionally, until thick and the fat separates at the edges, about 15 minutes.",
+    "Remove the cinnamon stick, cardamom pods, and cloves from the masala.",
+    "Remove the bay leaves from the bean pot.",
+    "Scrape the masala into the beans.",
+    "Mash about a quarter of the beans against the side of the pot or with an immersion blender.",
+    "Simmer uncovered, stirring often, about 30 minutes, until the gravy coats a spoon.",
+    "Stir in the garam masala and the kasuri methi crushed between your palms.",
+    "Stir in the butter over low heat until emulsified.",
+    "Add the 45 g salt and the MSG, tasting a whole bean as you go.",
+    "Rinse the rice well, soak 20 minutes, drain, and cook according to package directions.",
+    "Finish with lemon juice and cilantro and serve over rice."
+   ],
+   "notes": "Freeze without rice or cilantro for up to 3 months; the garam masala, methi, butter, and salt can go in before freezing. Add a fresh squeeze of lemon when reheating. Keeps 3 to 4 days in the fridge.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "ras-el-hanout-caraway",
+   "title": "Ras el Hanout with Caraway (No Cardamom)",
+   "category": "Spice Blends",
+   "cuisine": "Moroccan",
+   "tags": [
+    "make-ahead"
+   ],
+   "yield": "about 2 Tbsp",
+   "developed": "2026-04-26",
+   "groups": [
+    {
+     "ingredients": [
+      "2 tsp cumin",
+      "1 1/2 tsp coriander",
+      "1 tsp ground ginger",
+      "3/4 tsp cinnamon",
+      "3/4 tsp smoked paprika",
+      "1/2 tsp turmeric",
+      "1/2 tsp black pepper",
+      "1/4 tsp allspice",
+      "1/4 tsp caraway seed, toasted and ground",
+      "1/4 tsp nutmeg",
+      "1/8 tsp cayenne"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "If using whole caraway, cumin or coriander, toast in a dry pan and grind.",
+    "Whisk all spices together until evenly combined.",
+    "Transfer to an airtight jar."
+   ],
+   "notes": "Keeps 3 to 6 months in an airtight jar; ginger and cinnamon fade fastest. Requested scaling to a 0.14 oz container was never completed.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "red-beans-camp",
+   "title": "Red Beans (Thick, for Foil Packets)",
+   "category": "Sides & Breads",
+   "cuisine": "Cajun",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "about 12 oz",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "1 can (15.5 oz) red kidney beans, rinsed and drained",
+      "30 g butter",
+      "120 g yellow onion, diced 5 mm",
+      "60 g celery, diced 5 mm",
+      "60 g green bell pepper, diced 5 mm",
+      "3 garlic cloves, minced",
+      "6 g smoked paprika",
+      "4 g dried thyme",
+      "2 bay leaves",
+      "1 g cayenne",
+      "160 to 200 g chicken broth",
+      "4 g salt",
+      "2 g black pepper"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Sweat the onion, celery and bell pepper in the butter over medium 6 to 8 minutes, until soft with no color.",
+    "Add the garlic for 30 seconds.",
+    "Add the paprika, thyme and cayenne for 30 seconds.",
+    "Add the beans, broth and bay leaves and simmer uncovered 15 to 20 minutes.",
+    "Pull the bay leaves.",
+    "Blend about two-thirds of the batch with an immersion blender, leaving the rest whole.",
+    "Reduce until a spoon dragged across the bottom leaves a track that holds 2 seconds.",
+    "Season with the salt and pepper.",
+    "Cool and refrigerate."
+   ],
+   "notes": "Must be thick and scoopable so it does not pool in a sealed foil packet.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "reeses-puffs-krispie-treats",
+   "title": "Reese's Puffs Krispie Treats with Orange Dark Chocolate Drizzle",
+   "category": "Desserts",
+   "cuisine": "American",
+   "tags": [
+    "no-bake"
+   ],
+   "yield": "16 squares (9x13 or 8x8)",
+   "developed": "2026-06-04",
+   "groups": [
+    {
+     "ingredients": [
+      "3 tbsp butter",
+      "10 oz mini marshmallows",
+      "1/4 tsp salt",
+      "1/4 cup peanut butter",
+      "3 cups Rice Krispies",
+      "3 cups Reese's Puffs cereal"
+     ],
+     "name": "Treats"
+    },
+    {
+     "ingredients": [
+      "~4 oz 80% dark chocolate, chopped",
+      "1 to 2 tsp neutral or coconut oil",
+      "Zest of 1 orange",
+      "1/4 tsp orange extract (or 2 to 3 drops orange oil)",
+      "Flaky salt"
+     ],
+     "name": "Orange chocolate drizzle"
+    }
+   ],
+   "steps": [
+    "Butter or line the pan and measure both cereals into a big bowl.",
+    "Melt the butter in a large pot over low-medium heat.",
+    "Add the marshmallows and salt and stir until smooth.",
+    "Off the heat, stir in the peanut butter until streak-free.",
+    "Fold in both cereals quickly until coated.",
+    "Press gently into the pan with a buttered spatula.",
+    "Let set about 25 minutes, then cut.",
+    "Melt the chocolate with the oil low and slow.",
+    "Off the heat, stir in the extract, then the zest.",
+    "Drizzle over the cut bars.",
+    "Sprinkle with flaky salt.",
+    "Chill 15 minutes to set."
+   ],
+   "notes": "",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "reeses-puffs-no-bake-clusters",
+   "title": "Reese's Puffs No-Bake Clusters",
+   "category": "Desserts",
+   "cuisine": "American",
+   "tags": [
+    "no-bake"
+   ],
+   "yield": "about 22 clusters",
+   "developed": "2026-06-04",
+   "groups": [
+    {
+     "ingredients": [
+      "4 cups Reese's Puffs cereal",
+      "1/2 cup butter",
+      "1/2 cup milk",
+      "1 1/2 cups sugar",
+      "1/2 cup peanut butter",
+      "1/4 cup cocoa powder",
+      "1 tsp vanilla"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Line a tray with wax paper and measure the cereal into a large bowl.",
+    "Combine the butter, milk, sugar, peanut butter and cocoa in a large skillet over medium heat, stirring until smooth.",
+    "Bring to a full rolling boil, then boil exactly 3 minutes, stirring constantly.",
+    "Off the heat, stir in the vanilla.",
+    "Pour over the cereal and fold quickly until coated.",
+    "Scoop onto wax paper or press into a lined 8x8 pan.",
+    "Cool about 25 minutes until set."
+   ],
+   "notes": "Press a few dry Puffs onto the tops right after scooping for crunch.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "ldw-remoulade",
+   "title": "Remoulade",
+   "category": "Sauces & Condiments",
+   "cuisine": "Cajun",
+   "tags": [
+    "make-ahead"
+   ],
+   "yield": "~600 g",
+   "developed": "2026-09-26",
+   "groups": [
+    {
+     "ingredients": [
+      "400 g mayonnaise",
+      "45 g Dijon",
+      "60 g cornichons, finely chopped",
+      "40 g capers, drained and chopped",
+      "25 g lemon juice",
+      "15 g Worcestershire",
+      "5 g paprika",
+      "2 cloves garlic, grated",
+      "6 g Crystal hot sauce"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Finely chop the cornichons and capers.",
+    "Stir everything together.",
+    "Refrigerate."
+   ],
+   "notes": "Holds two weeks refrigerated and improves sitting.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "roast-game-hens",
+   "title": "Roast Cornish Game Hens with Garlic Thyme Butter",
+   "category": "Mains",
+   "cuisine": "British",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead",
+    "large-batch"
+   ],
+   "yield": "7 hens, serves 7",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "115 g butter, soft",
+      "5 garlic cloves, grated",
+      "8 g thyme leaves",
+      "zest of 2 lemons",
+      "black pepper"
+     ],
+     "name": "Hen butter"
+    },
+    {
+     "ingredients": [
+      "7 Cornish game hens",
+      "53 g fine salt",
+      "2 lemons (the zested ones), quartered",
+      "kitchen twine"
+     ],
+     "name": "Hens"
+    }
+   ],
+   "steps": [
+    "Hen butter: mash the butter, garlic, thyme, lemon zest and pepper together, roll in parchment and refrigerate.",
+    "Take the hens out of their packaging over the sink and pat dry.",
+    "Salt with the 53 g salt between the seven, inside and out.",
+    "Set on sheet pans breast side up and refrigerate uncovered overnight.",
+    "Take the hen butter out of the fridge an hour before so it softens.",
+    "Preheat the oven to 425°F.",
+    "Pat the hens dry.",
+    "Rub the butter under and over the skin.",
+    "Put a lemon quarter in each cavity and tie the legs.",
+    "Nestle 4 hens on one pan of parboiled roast potatoes and 3 on the other.",
+    "Roast at 425°F, swapping racks and rotating pans after 30 minutes, until the thighs read 165°F (about 55 minutes).",
+    "Rest 15 minutes under foil."
+   ],
+   "notes": "Hen butter keeps several days refrigerated. Roast on top of the duck fat roast potatoes. Strain the rendered hen fat and keep it for frying.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "hen-gravy",
+   "title": "Roast Hen Gravy",
+   "category": "Sauces & Condiments",
+   "cuisine": "British",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead"
+   ],
+   "yield": "about 600 ml",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "30 g butter",
+      "30 g flour",
+      "550 ml chicken stock",
+      "4 g kosher salt",
+      "black pepper"
+     ],
+     "name": "Gravy base"
+    },
+    {
+     "ingredients": [
+      "pan juices from the roast hens",
+      "salt",
+      "black pepper",
+      "MSG, a pinch"
+     ],
+     "name": "To finish"
+    }
+   ],
+   "steps": [
+    "Cook the butter and flour together 2 minutes.",
+    "Whisk in the stock and simmer 5 minutes until smooth.",
+    "Season with the 4 g salt and black pepper, to just under where you'd want it.",
+    "Cool and jar.",
+    "Pour the hen pan juices into a jar and let the fat rise.",
+    "Warm the base in a saucepan and whisk in the defatted juices.",
+    "Simmer 5 minutes.",
+    "Taste and finish the seasoning.",
+    "Strain the remaining hen fat into a jar for later frying."
+   ],
+   "notes": "Base made 3 days ahead; seasoned light because the juices from the salted hens bring the rest.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "salsa-roja-de-arbol",
+   "title": "Salsa Roja de Árbol (Full Hot)",
+   "category": "Sauces & Condiments",
+   "cuisine": "Mexican",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "about 700 g",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "25 g chiles de árbol, toasted and stemmed, seeds in",
+      "4 dried guajillo chiles, toasted, stemmed and seeded",
+      "450 g roma tomatoes, halved",
+      "1/2 white onion, quartered",
+      "5 garlic cloves, unpeeled",
+      "15 g white vinegar",
+      "8 g salt",
+      "30 g neutral oil"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Toast the árbols and guajillos in a dry pan 20 to 30 seconds a side, with the vent running.",
+    "Soak the chiles in hot water 20 minutes.",
+    "Line a sheet pan with foil and set the tomatoes cut side down with the onion and garlic.",
+    "Broil about 4 inches from the element, 10 minutes, until blackened in spots.",
+    "Peel the garlic.",
+    "Blend with the vinegar, salt, a splash of soaking liquid and the liquid pooled on the pan; leave it coarse.",
+    "Heat the oil until shimmering.",
+    "Pour in the salsa and fry 5 minutes, stirring, with the vent running.",
+    "Taste after frying and add more vinegar if flat.",
+    "Cool and refrigerate."
+   ],
+   "notes": "Improves over a few days; frying helps it keep longer.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "sausage-rolls",
+   "title": "Sausage Rolls",
+   "category": "Baking & Dough",
+   "cuisine": "British",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead",
+    "freezer",
+    "large-batch"
+   ],
+   "yield": "32 rolls",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "950 g plain ground pork",
+      "150 g yellow onion, grated",
+      "8 g sage, chopped",
+      "4 g fennel seeds",
+      "15 g kosher salt",
+      "4 g black pepper",
+      "4 sheets puff pastry",
+      "2 eggs, beaten (1 for sealing, 1 with a splash of water for egg wash)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Combine the pork, onion, sage, fennel, salt and pepper.",
+    "Fry a teaspoon and taste.",
+    "Divide into 8 portions, about 140 g each.",
+    "Unfold each pastry sheet, press the seams flat and cut in half into 2 strips.",
+    "Lay a log of filling down each strip, egg one edge, fold and seal with a fork.",
+    "Cut each strip into 4.",
+    "Freeze on a tray, then bag.",
+    "To bake, heat the oven to 400°F and line two sheet pans with parchment.",
+    "Lay the rolls flat from frozen, crimped edge to the side, about 2 cm apart.",
+    "Brush the tops with egg wash.",
+    "Bake 22 to 25 minutes, until deep golden and the filling reads 160°F.",
+    "Rest 5 minutes. Serve with HP and English mustard."
+   ],
+   "notes": "Bake straight from frozen.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "serrano-ranch",
+   "title": "Serrano Ranch",
+   "category": "Sauces & Condiments",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead"
+   ],
+   "yield": "~550 g",
+   "developed": "2026-09-26",
+   "groups": [
+    {
+     "ingredients": [
+      "400 g ranch dressing",
+      "3 serrano chiles, minced fine (seeds and ribs in for heat)",
+      "60 g buttermilk",
+      "25 g lime juice (about 1 lime)",
+      "15 g cilantro, chopped (optional)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Mince the serranos fine, leaving seeds and ribs in on at least two.",
+    "Stir everything together, thinning with the buttermilk.",
+    "Refrigerate."
+   ],
+   "notes": "Make no more than 3 days ahead; buttermilk will not hold a week. Ride in the cooler.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "skillet-cornbread-honey-butter",
+   "title": "Skillet Cornbread with Honey Butter",
+   "category": "Sides & Breads",
+   "cuisine": "Southern",
+   "tags": [
+    "make-ahead",
+    "cast-iron"
+   ],
+   "yield": "one 12-inch cast iron skillet, serves 10",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "115 g unsalted butter, softened",
+      "45 g honey",
+      "2 g fine salt"
+     ],
+     "name": "Honey butter"
+    },
+    {
+     "ingredients": [
+      "300 g medium-grind yellow cornmeal",
+      "150 g all-purpose flour",
+      "12 g baking powder",
+      "4 g baking soda",
+      "10 g fine salt",
+      "480 g buttermilk",
+      "3 large eggs",
+      "21 g honey",
+      "70 g lard, melted and cooled slightly",
+      "45 g lard, for the skillet",
+      "flaky salt, to finish"
+     ],
+     "name": "Cornbread"
+    }
+   ],
+   "steps": [
+    "Whisk the butter, 45 g honey and 2 g salt for the honey butter until smooth. Refrigerate.",
+    "Put 45 g lard in the skillet and heat the oven to 425F with the skillet inside.",
+    "Whisk the cornmeal, flour, baking powder, baking soda and salt.",
+    "Whisk the buttermilk, eggs and 21 g honey, then whisk in the melted lard.",
+    "Fold wet into dry just until no dry pockets remain. The batter stays lumpy.",
+    "Rest the batter 15 minutes.",
+    "Swirl the hot lard up the sides of the skillet, pour in the batter and return to the oven.",
+    "Bake 20 to 25 minutes, until golden with deep brown edges and a clean skewer.",
+    "Cool in the pan.",
+    "Before serving, rewarm in the skillet at 350F for 10 minutes.",
+    "Finish with flaky salt and serve with the honey butter."
+   ],
+   "notes": "Honey butter can be made a day ahead; take it out 2 to 3 hours before serving to soften. Leftover wedges are split and griddled for breakfast sandwiches.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "slow-cooker-carnitas",
+   "title": "Slow Cooker Carnitas",
+   "category": "Mains",
+   "cuisine": "Mexican",
+   "tags": [
+    "large-batch",
+    "freezer",
+    "slow-cooker",
+    "make-ahead"
+   ],
+   "yield": "4 kg deboned pork shoulder (7 qt slow cooker)",
+   "developed": "2026-10-06",
+   "groups": [
+    {
+     "ingredients": [
+      "4000 g pork shoulder meat (from a 9.88 lb bone-in shoulder), deboned and cut into 5 cm chunks",
+      "48 g kosher salt",
+      "10 g dried Mexican oregano",
+      "7 g ground cumin",
+      "4 g black pepper"
+     ],
+     "name": "Dry brine"
+    },
+    {
+     "ingredients": [
+      "325 g white onion, quartered",
+      "50 g garlic cloves, smashed",
+      "3 bay leaves",
+      "1 large orange, juiced, halves reserved",
+      "60 g lime juice",
+      "100 g neutral oil",
+      "160 g water"
+     ],
+     "name": "Slow cooker"
+    }
+   ],
+   "steps": [
+    "Toss the pork with the salt, oregano, cumin, and black pepper.",
+    "Refrigerate covered overnight.",
+    "Place the onion, garlic, and bay leaves in the slow cooker and add the pork.",
+    "Pour over the orange juice, lime juice, oil, and water.",
+    "Tuck in the spent orange halves (do not add lime halves).",
+    "Cover and cook on low about 10 hours, until fork-tender.",
+    "Discard the orange halves, onion, and bay leaves.",
+    "Break the pork into large shreds with two forks, keeping some chunks.",
+    "Skim the fat from the juices and reserve both separately.",
+    "To serve, heat a cast iron skillet over high with a spoonful of the reserved fat.",
+    "Add pork in a single layer with a splash of the juices and cook undisturbed until the liquid evaporates and the bottom is crisp, about 5 minutes."
+   ],
+   "notes": "Needs a 7 qt or larger slow cooker. Freeze shredded, uncrisped pork with some of its fat and juices for up to 3 months; crisp after thawing. Freeze the bone for stock.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "slushi-margarita",
+   "title": "SlushiMax Margarita (Spiked Slush Max)",
+   "category": "Drinks",
+   "cuisine": "Mexican-American",
+   "tags": [
+    "large-batch",
+    "frozen",
+    "cocktail",
+    "party",
+    "ninja-slushi"
+   ],
+   "yield": "112 oz, about 12 servings at 9 oz, about 15% ABV",
+   "developed": "2026-07-30",
+   "groups": [
+    {
+     "ingredients": [
+      "59 oz Master of Mixes Margarita mix (the full 1.75 L bottle)",
+      "25 oz blanco tequila (one 750 ml bottle)",
+      "2 oz Sauza Silver tequila",
+      "10 oz Cointreau",
+      "6 oz Empirical Cilantro",
+      "10 oz unsweetened lime juice (fresh or 100% bottled, not Rose's or sweetened)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Chill every ingredient before it goes in the vessel.",
+    "Pour everything into the Ninja SlushiMax vessel.",
+    "Run on Spiked Slush Max.",
+    "Run the rinse cycle before switching to another batch."
+   ],
+   "notes": "If the first taste reads too sweet, lime is the lever. If it won't freeze, add 1/4 cup water or soda per serving and give it 30 more minutes.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "slushi-strawberry-daiquiri",
+   "title": "SlushiMax Spiced Strawberry Daiquiri (Spiked Slush Max)",
+   "category": "Drinks",
+   "cuisine": "Caribbean-American",
+   "tags": [
+    "large-batch",
+    "frozen",
+    "cocktail",
+    "party",
+    "ninja-slushi"
+   ],
+   "yield": "112 oz, about 12 servings at 9 oz, about 16% ABV",
+   "developed": "2026-07-30",
+   "groups": [
+    {
+     "ingredients": [
+      "59 oz Master of Mixes Strawberry Daiquiri mix (the full 1.75 L bottle)",
+      "21 oz Saint Benevolence 5-Year rum",
+      "8 oz Chairman's Reserve Spiced rum",
+      "16 oz white rum",
+      "8 oz unsweetened lime juice (fresh or 100% bottled, not Rose's or sweetened)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Chill every ingredient before it goes in the vessel.",
+    "Pour everything into the Ninja SlushiMax vessel.",
+    "Run on Spiked Slush Max.",
+    "Run the rinse cycle before switching to another batch."
+   ],
+   "notes": "No cilantro in this one. If it won't freeze, add 1/4 cup water or soda per serving and give it 30 more minutes.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "split-buttermilk-pancakes-ham-cheddar",
+   "title": "Split Buttermilk Pancakes (Sweet and Ham-Cheddar) with Griddle Eggs",
+   "category": "Breakfast",
+   "cuisine": "American",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "about 18 pancakes plus eggs, serves 8",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "175 g AP flour",
+      "18 g sugar",
+      "6 g baking powder",
+      "3 g baking soda",
+      "4 g salt"
+     ],
+     "name": "Sweet dry bag"
+    },
+    {
+     "ingredients": [
+      "175 g AP flour",
+      "6 g sugar",
+      "6 g baking powder",
+      "3 g baking soda",
+      "4 g salt",
+      "1.5 g black pepper"
+     ],
+     "name": "Savory dry bag"
+    },
+    {
+     "ingredients": [
+      "320 g buttermilk",
+      "1 egg",
+      "35 g melted butter, cooled"
+     ],
+     "name": "Wet mix (make 2 containers)"
+    },
+    {
+     "ingredients": [
+      "8 oz plain smoked ham (not honey glazed), 5 mm dice",
+      "4 oz shredded cheddar",
+      "3 oz chocolate chips",
+      "1 pint blueberries"
+     ],
+     "name": "Toppings at the pour"
+    },
+    {
+     "ingredients": [
+      "About 1 lb 10 oz breakfast sausage (the rest of a 2.5 lb purchase after the burritos)",
+      "12 eggs, blended 10 to 15 seconds, in 2 squeeze bottles",
+      "60 g butter (for the eggs)"
+     ],
+     "name": "Griddle"
+    },
+    {
+     "ingredients": [
+      "Lemon herb compound butter",
+      "Sour cream",
+      "Pickled red onions",
+      "Hot sauce",
+      "Flaky salt",
+      "Maple syrup",
+      "Whipped cream"
+     ],
+     "name": "Stations"
+    }
+   ],
+   "steps": [
+    "At home, whisk each dry blend and bag it in a labeled 2-gallon freezer bag.",
+    "At home, whisk the buttermilk, egg and cooled melted butter for each wet container.",
+    "At camp, cook the sausage on the griddle first.",
+    "Pour one wet mix into each dry bag and squeeze until just hydrated, leaving lumps.",
+    "Rest the batter 15 minutes.",
+    "Add butter to the griddle if the sausage fat looks thin.",
+    "For ham pancakes, crisp the ham dice on the griddle and nudge into loose rounds.",
+    "Cut a corner of the savory bag and pour batter over each ham round; scatter cheddar on the wet top.",
+    "For sweet pancakes, pour on the griddle and scatter chocolate chips or blueberries on the wet top.",
+    "Flip once and cook through.",
+    "After the pancakes are off, turn the griddle to low.",
+    "Melt the 60 g butter, add the eggs, and push slowly with a spatula until just set and still glossy."
+   ],
+   "notes": "Wet mixes keep a couple of days refrigerated; shake hard before pouring since the butter sets into flecks. Blended eggs hold in squeeze bottles in the cooler.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "tartar-sauce",
+   "title": "Tartar Sauce",
+   "category": "Sauces & Condiments",
+   "cuisine": "British",
+   "tags": [
+    "hobbit-weekend",
+    "make-ahead"
+   ],
+   "yield": "about 325 g, 7 ramekins",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "220 g mayonnaise",
+      "60 g cornichons, finely chopped",
+      "20 g capers, chopped",
+      "10 g parsley, chopped",
+      "15 g lemon juice",
+      "3 g kosher salt",
+      "black pepper"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Stir everything together.",
+    "Taste and salt again. It should be sharp enough to cut fried batter.",
+    "Jar and refrigerate."
+   ],
+   "notes": "Keeps a week refrigerated.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "teds-72-hour-pizza-dough",
+   "title": "Ted's Zaza 72-Hour Pizza Dough",
+   "category": "Baking & Dough",
+   "cuisine": "American (New York style)",
+   "tags": [
+    "make-ahead",
+    "sourdough",
+    "cold-ferment"
+   ],
+   "yield": "three ~318 g balls (12 to 13 inch pies) or two ~477 g balls",
+   "developed": "2026-08-11",
+   "groups": [
+    {
+     "ingredients": [
+      "80 g King Arthur bread flour",
+      "80 g water",
+      "0.15 g instant yeast"
+     ],
+     "name": "Poolish"
+    },
+    {
+     "ingredients": [
+      "5 g sourdough starter (cold mother)",
+      "30 g bread flour",
+      "30 g water"
+     ],
+     "name": "Levain (optional, makes it sourdough)"
+    },
+    {
+     "ingredients": [
+      "470 g King Arthur bread flour",
+      "270 g water (250 g up front, 20 g held for bassinage)",
+      "0.15 g instant yeast",
+      "3 g diastatic malt powder",
+      "13 g fine sea salt",
+      "8 g olive oil",
+      "30 g levain (from above)"
+     ],
+     "name": "Final dough"
+    }
+   ],
+   "steps": [
+    "Day 1, ~9pm: disperse the 0.15 g yeast in the 80 g water, then stir in the 80 g flour.",
+    "Mix 5 g mother with 30 g flour and 30 g water to a paste.",
+    "Leave both at ~70F for 12 hours.",
+    "Day 2, ~9am: check the levain is roughly doubled and a spoonful floats; give it 2 to 3 more hours if not.",
+    "Mix the 470 g flour, malt and 0.15 g yeast in a large bowl.",
+    "Add 250 g water and 30 g levain to the poolish and stir to loosen.",
+    "Combine wet into dry and mix about 3 minutes until no dry flour remains.",
+    "Cover and rest 1 hour.",
+    "Add the salt and the reserved 20 g water; squeeze and fold about 1 minute until absorbed.",
+    "Work in the olive oil until it disappears.",
+    "Rest 1 hour at 70 to 75F.",
+    "Check dough temperature: target 70 to 75F.",
+    "Divide into three ~318 g pieces (or two ~477 g).",
+    "Ball each tightly with a sealed seam.",
+    "Place each in a lightly oiled 2-qt round container and lid.",
+    "Rest 30 minutes at room temperature, then refrigerate at 36 to 40F for 72 to 96 hours.",
+    "Bake day: pull the containers 2 to 3 hours ahead to come fully to room temperature.",
+    "Preheat the steel 6 to 8 inches below the broiler at 550F for 60 minutes; switch to broil for the last 10 minutes.",
+    "Shape by hand from the center out, leaving a 1-inch rim. No rolling pin.",
+    "Launch from a semolina-dusted wood peel, dressing in under 60 seconds.",
+    "Bake 5 to 7 minutes, rotating halfway."
+   ],
+   "notes": "Label containers with date and time. Past 96 hours the dough goes slack. Refresh the mother (20 g mother, 40 g flour, 20 g water) in the same session as the levain build.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "full-english-breakfast",
+   "title": "The Full English",
+   "category": "Breakfast",
+   "cuisine": "British",
+   "tags": [
+    "hobbit-weekend",
+    "large-batch"
+   ],
+   "yield": "serves 7",
+   "developed": "2026-10-24",
+   "groups": [
+    {
+     "ingredients": [
+      "500 g bacon",
+      "2 lb bratwurst, par-cooked",
+      "14 eggs",
+      "two 415 g cans Heinz British baked beans",
+      "7 tomatoes, halved",
+      "450 g cremini mushrooms, halved",
+      "7 slices sourdough",
+      "120 g duck fat, plus strained hen fat",
+      "40 g butter",
+      "12 g kosher salt",
+      "black pepper"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Par-cook the brats the day before: bare simmer in well-salted water 10 minutes until firm, then cool and refrigerate.",
+    "Lay the bacon on wire racks set in sheet pans and bake at 400°F.",
+    "After 10 minutes, add the brats on a second pan. Bake both 15 minutes more, until the bacon is crisp and the brats browned.",
+    "Fry the bread in duck fat until golden on both sides and salt it.",
+    "Hold the bacon and brats under foil.",
+    "Toss the mushrooms in bacon fat from under the racks, salt them hard and spread in one layer on a half sheet pan.",
+    "Broil 2 minutes.",
+    "Add the tomatoes cut side up, brushed with bacon fat and salted.",
+    "Broil 4 to 5 minutes more, until the tomatoes blister and the mushrooms brown.",
+    "Warm the beans in a small pot.",
+    "Fry the eggs in butter last, over medium, in batches.",
+    "Plate everything at once, beans in a ramekin on each plate."
+   ],
+   "notes": "",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "san-marzano-tomato-soup",
+   "title": "Tomato Soup",
+   "category": "Soups & Stews",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead"
+   ],
+   "yield": "serves 6",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "30 g unsalted butter",
+      "30 g olive oil",
+      "1 large yellow onion, chopped",
+      "4 garlic cloves, sliced",
+      "1.6 kg whole peeled San Marzano tomatoes (two 28 oz cans)",
+      "480 ml chicken or vegetable stock",
+      "18 g fine salt",
+      "2 g black pepper",
+      "3 g dried oregano",
+      "2 g dried thyme",
+      "2 bay leaves",
+      "Parmesan rind, optional",
+      "5 g sugar, if the tomatoes taste sharp"
+     ],
+     "name": "Soup"
+    },
+    {
+     "ingredients": [
+      "120 ml heavy cream",
+      "a few basil leaves, optional"
+     ],
+     "name": "To finish"
+    }
+   ],
+   "steps": [
+    "Melt the butter with the olive oil over medium heat.",
+    "Cook the onion with a pinch of the salt until soft and golden, about 10 minutes.",
+    "Add the garlic and cook 1 minute.",
+    "Add the tomatoes with their juice, the stock, remaining salt, pepper, oregano, thyme, bay leaves and Parmesan rind.",
+    "Simmer uncovered 30 minutes.",
+    "Remove the bay leaves, any thyme stems and the rind.",
+    "Blend until smooth. Add the sugar only if needed.",
+    "Cool in shallow containers and refrigerate.",
+    "To serve, reheat gently, stir in the cream and tear in the basil."
+   ],
+   "notes": "Make up to 4 days ahead. Hold the cream and basil until reheating. Served with grilled cheese.",
+   "rating": 0,
+   "keeper": false
+  },
+  {
+   "id": "vinegar-slaw",
+   "title": "Vinegar Slaw",
+   "category": "Sides & Breads",
+   "cuisine": "American",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "about 900 g",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "600 g green cabbage, shredded",
+      "100 g carrot, shredded",
+      "120 g apple cider vinegar",
+      "40 g sugar",
+      "30 g neutral oil",
+      "8 g salt",
+      "4 g celery seed",
+      "Black pepper"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Whisk the vinegar, sugar, oil, salt, celery seed and pepper.",
+    "Pour over the cabbage and carrot and toss.",
+    "Refrigerate."
+   ],
+   "notes": "Make about 3 days ahead; it improves, but goes limp by 5 days.",
+   "rating": 0,
+   "keeper": false
+  }
+ ]
+}
