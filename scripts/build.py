@@ -45,6 +45,9 @@ def main():
         doc.setdefault("id", f.stem)
         r = {k: doc[k] for k in PUBLIC if k in doc}
         r["rating"] = int(r.get("rating") or 0)
+        ch = [{"date": e.get("date"), "note": e.get("note", "")} for e in (doc.get("log") or []) if e.get("type") == "change" and e.get("date")]
+        if ch:
+            r["changes"] = sorted(ch, key=lambda e: e["date"])
         names = []
         for pid in doc.get("photos") or []:
             existing = next(iter(photos_dir.glob(pid + ".*")), None)

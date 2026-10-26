@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T17:22:15+00:00",
+ "generated": "2026-10-26T17:32:21+00:00",
  "recipes": [
   {
    "id": "brussels-sprouts-bacon",
@@ -1897,9 +1897,16 @@
    "groups": [
     {
      "ingredients": [
-      "640 g mayonnaise",
+      "120 g kosher salt, for the cooking water (about 5 L water)",
+      "2.7 kg Yukon Gold potatoes, skins on, cut in 2.5 to 3 cm chunks (about 13 medium)",
       "115 g dill pickle brine",
-      "55 g apple cider vinegar",
+      "55 g apple cider vinegar"
+     ],
+     "name": "For the warm potatoes"
+    },
+    {
+     "ingredients": [
+      "480 g mayonnaise",
       "55 g yellow mustard",
       "18 g garlic, grated (about 6 cloves)",
       "18 g fine sea salt",
@@ -1909,8 +1916,6 @@
     },
     {
      "ingredients": [
-      "60 g kosher salt, for the cooking water",
-      "2.7 kg Yukon Gold potatoes, skins on, cut in 1.5 cm pieces (about 13 medium)",
       "340 g refrigerated dill pickles, diced at 6 mm, drained",
       "90 g shallot, minced (about 3)",
       "25 g fresh dill, chopped (about 1 bunch)",
@@ -1920,16 +1925,19 @@
     }
    ],
    "steps": [
-    "Soak the minced shallot in pickle brine or cider vinegar 10 minutes.",
-    "Whisk the dressing ingredients together.",
-    "Boil the potatoes in water salted with the 60 g kosher salt until fork-tender, about 10 minutes.",
-    "Drain and let steam off 2 minutes.",
-    "Dress the potatoes while warm, mashing some as you stir.",
-    "Cool.",
-    "Fold in the pickles, shallot, dill and eggs.",
-    "Refrigerate."
+    "Soak the minced shallot in a spoonful of the pickle brine 10 minutes.",
+    "Put the potatoes in a large pot with about 5 L cold water and the kosher salt.",
+    "Bring to a boil, then lower to a gentle simmer.",
+    "Simmer until a knife slides through a chunk with slight resistance, 10 to 15 minutes from the boil. Start checking at 8.",
+    "Drain and spread on a sheet pan in one layer. Let steam dry 10 minutes.",
+    "While still warm, sprinkle with the pickle brine and vinegar and toss gently with a spatula.",
+    "Cool to room temperature, about 30 minutes.",
+    "Whisk the mayonnaise, mustard, garlic, fine salt and pepper.",
+    "Fold the dressing, pickles, shallot, dill and eggs into the cooled potatoes. Fold, don't stir, so the chunks stay whole.",
+    "Taste for salt and acid.",
+    "Refrigerate at least 2 hours."
    ],
-   "notes": "Better made a day or two ahead. Taste before serving and loosen with mayo and pickle brine if it has tightened.",
+   "notes": "Keeps 3 days refrigerated. If it tightens up, loosen with a little mayo and pickle brine.",
    "rating": 2,
    "traits": [
     "make-ahead",
@@ -1942,21 +1950,27 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "15% of the 60 g cooking-water salt counted as absorbed; pickle brine at about 1,200 mg sodium per 100 g.",
+    "assumptions": "15% of the 120 g cooking-water salt counted as absorbed; pickle brine at about 1,200 mg sodium per 100 g.",
     "per_serving": {
-     "calories": 550,
+     "calories": 470,
      "carbs_g": 40,
-     "cholesterol_mg": 105,
-     "fat_g": 40,
+     "cholesterol_mg": 100,
+     "fat_g": 31,
      "fiber_g": 5,
      "protein_g": 8,
-     "sat_fat_g": 6.5,
-     "sodium_mg": 1540,
-     "sugar_g": 3.2
+     "sat_fat_g": 5,
+     "sodium_mg": 1730,
+     "sugar_g": 3
     },
-    "serving": "about 330 g (1 of 13)",
+    "serving": "about 320 g (1 of 13)",
     "servings": 13
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Bigger chunks simmered gently and steamed dry; brine and vinegar go on warm, mayo dressing once cool; 25% less mayo; fold, don't mash."
+    }
+   ]
   },
   {
    "id": "ldw-dill-pickle-jar",
@@ -2893,7 +2907,8 @@
       "0.5 g bay leaves (about 2)",
       "6 g thyme leaves",
       "25 g kosher salt",
-      "4 g black pepper"
+      "4 g black pepper",
+      "6 g MSG"
      ],
      "name": "Stew"
     },
@@ -2926,7 +2941,8 @@
    "rating": 0,
    "traits": [
     "make-ahead",
-    "freezer"
+    "freezer",
+    "long-cook"
    ],
    "diet": [],
    "nutrition": {
