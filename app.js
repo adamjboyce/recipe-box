@@ -269,7 +269,8 @@ state.spicy=load("rb.spicy",{});state.easy=load("rb.easy",{});
 function applySpicy(R,sp){
   const ch=new Set(),sw=new Map((sp.swaps||[]).map(x=>[x.from,x.to])),ss=new Map((sp.steps||[]).map(x=>[x.from,x.to]));
   const groups=(R.groups||[]).map(g=>({...g,ingredients:(g.ingredients||[]).map(l=>{if(sw.has(l)){ch.add(sw.get(l));return sw.get(l)}return l})}));
-  for(const a of sp.add||[]){const g=groups.find(x=>(x.name||"")===(a.group||""))||groups[0];if(g){g.ingredients=[...g.ingredients,a.line];ch.add(a.line)}}
+  // an add goes into the group it names; adds for groups that only exist on another tab are skipped here
+  for(const a of sp.add||[]){const want=a.group||"";const g=groups.find(x=>(x.name||"")===want)||(want===""?groups[0]:null);if(g){g.ingredients=[...g.ingredients,a.line];ch.add(a.line)}}
   const steps=(R.steps||[]).map(x=>{if(ss.has(x)){ch.add(ss.get(x));return ss.get(x)}return x});
   return {...R,groups,steps,hot:ch};
 }
