@@ -16,21 +16,18 @@
   <aside class="index">
     <div class="index-head">
       <div class="brand"><h1>Adam's Recipe Box</h1><span class="count" id="count"></span></div>
-      <input class="search" id="q" type="search" placeholder="Search recipes, ingredients, tags" aria-label="Search recipes">
-      <div class="filters" id="filters" role="group" aria-label="Filters"></div>
-      <div class="row">
-        <select class="select" id="show" aria-label="Show">
-          <option value="all">All recipes</option>
-          <option value="keepers">Adam's keepers</option>
-          <option value="rated">Rated 4+</option>
-          <option value="photos">With photos</option>
-        </select>
+      <input class="search" id="q" type="search" placeholder="Search, or try: mushroom, no pork" aria-label="Search recipes">
+      <div class="tools">
+        <select class="select" id="catSel" aria-label="Type"><option value="">All types</option></select>
         <select class="select" id="sort" aria-label="Sort">
           <option value="best">Best first</option>
           <option value="az">A to Z</option>
           <option value="new">Newest</option>
         </select>
+        <button class="btn fbtn" id="fBtn" type="button" aria-expanded="false" aria-controls="fPanel">Filters</button>
       </div>
+      <div class="active" id="activeF" hidden></div>
+      <div class="fpanel" id="fPanel" hidden></div>
     </div>
     <div class="list" id="list"><div class="empty">Opening the box…</div></div>
   </aside>

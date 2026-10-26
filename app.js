@@ -13,7 +13,7 @@ function load(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}
 Object.assign(state,load("rb.view",{}));
 if(!Array.isArray(state.traits))state.traits=[];
 state.checked=load("rb.checked",{});state.scale=load("rb.scale",{});
-function saveView(){store("rb.view",{q:state.q,cat:state.cat,show:state.show,sort:state.sort,traits:state.traits,diets:state.diets,ingr:state.ingr,open:state.open})}
+function saveView(){store("rb.view",{q:state.q,cat:state.cat,show:state.show,sort:state.sort,traits:state.traits,diets:state.diets,open:state.open})}
 function renderTraits(){}
 
 /* ---------- friends (Supabase REST) ---------- */
@@ -59,56 +59,69 @@ function friendAvg(id){const rs=(state.friends.get(id)||[]).map(n=>n.rating).fil
 
 /* ---------- index ---------- */
 function renderCats(){renderFilters()}
-/* ---------- filters: categories, traits, diet, ingredients ---------- */
+const SHOW_OPTS=[["all","All recipes"],["keepers","Adam's keepers"],["rated","Rated 4+"],["photos","With photos"]];
+/* ---------- filters: type dropdown, filter panel, search with exclusions ---------- */
 const DIETS=[["vegetarian","Vegetarian"],["vegan","Vegan"],["pescatarian","Pescatarian"],["gluten-free","Gluten-free"],["dairy-free","Dairy-free"]];
 const DIET_LABEL=Object.fromEntries(DIETS);
-const INGR_WORDS=["mushroom","garlic","onion","potato","tomato","cheese","cheddar","butter","cream","egg","bacon","sausage","andouille","ham","pork","beef","lamb","chicken","duck fat","shrimp","crab","walleye","beans","chickpea","rice","corn","cabbage","carrot","bell pepper","poblano","jalapeno","habanero","chile","lime","lemon","orange","apple","cider","honey","maple","chocolate","peanut butter","marshmallow","yogurt","sour cream","dill","cilantro","parsley","thyme","oregano","cumin","paprika","cinnamon","ginger","old bay","rum","tequila","gin","bourbon","vodka","beer","lard","flour","cornmeal","sourdough","pickle","mustard","mayonnaise","vinegar","broccoli","cauliflower","zucchini","squash","tortilla","pita","puff pastry","celery","walnut","almond","coffee","cocoa","sugar"];
-["diets","ingr"].forEach(k=>{if(!Array.isArray(state[k]))state[k]=[]});
-state.open=state.open||{};
+["diets"].forEach(k=>{if(!Array.isArray(state[k]))state[k]=[]});
+state.ingr=[];state.panel=false;
 const stem=w=>w.toLowerCase().trim().replace(/(es|s)$/,"");
 function ingText(r){return (r.groups||[]).flatMap(g=>g.ingredients||[]).join(" | ").toLowerCase()}
 function hasIngr(r,term){const t=ingText(r),w=term.toLowerCase().trim();return t.includes(w)||t.includes(stem(w))}
+function parseQ(q){
+  const exc=[];
+  q=(" "+q.toLowerCase()).replace(/\s(?:no|without)\s+([^\s,]+)/g,(m,w)=>{exc.push(w);return " "}).replace(/\s-([^\s,]+)/g,(m,w)=>{exc.push(w);return " "});
+  return {inc:q.split(/[\s,]+/).filter(Boolean),exc};
+}
+function searchMatch(r){
+  const {inc,exc}=parseQ(state.q||"");
+  if(exc.some(w=>hasIngr(r,w)))return false;
+  const h=haystack(r);
+  return inc.every(w=>h.includes(w)||h.includes(stem(w)));
+}
 function filterMatch(r){
   if(state.diets.length&&!state.diets.every(d=>(r.diet||[]).includes(d)))return false;
-  for(const raw of state.ingr){const neg=raw.startsWith("-");const term=neg?raw.slice(1):raw;if(hasIngr(r,term)===neg)return false}
   return true;
 }
-function pillRow(key,label,items,isOn,onToggle,top=3){
-  const shown=state.open[key]?items:items.filter((it,i)=>i<top||isOn(it[0]));
-  const extra=items.length-shown.length;
-  return `<div class="frow" data-row="${key}"><span class="lbl">${esc(label)}</span>`+
-    shown.map(([k,l,n])=>`<button type="button" class="chip${key==="cats"?"":" t"}" data-k="${esc(k)}" aria-pressed="${isOn(k)}">${esc(l)}${n!=null?` <span class="n">${n}</span>`:""}</button>`).join("")+
-    (items.length>top?`<button type="button" class="more" data-more="${key}">${state.open[key]?"Fewer":`+${extra} more`}</button>`:"")+`</div>`;
-}
+const SHOW_LABEL=Object.fromEntries(SHOW_OPTS);
+function activeCount(){return state.traits.length+state.diets.length+(state.show&&state.show!=="all"?1:0)}
 function renderFilters(){
-  const el=$("#filters");if(!el)return;
   const all=[...state.recipes.values()];
-  const count=(fn)=>all.filter(fn).length;
-  const cats=CATS.map(c=>[c,c,count(r=>r.category===c)]).filter(x=>x[2]).sort((a,b)=>b[2]-a[2]);
-  const traits=TRAITS.map(([k,l])=>[k,l,count(r=>(r.traits||[]).includes(k))]).filter(x=>x[2]).sort((a,b)=>b[2]-a[2]);
-  const diets=DIETS.map(([k,l])=>[k,l,count(r=>(r.diet||[]).includes(k))]).filter(x=>x[2]).sort((a,b)=>b[2]-a[2]);
-  const txt=all.map(ingText).join(" ");
-  const words=INGR_WORDS.filter(w=>txt.includes(w));
-  const active=(state.cat?1:0)+state.traits.length+state.diets.length+state.ingr.length;
-  el.innerHTML=
-    pillRow("cats","Type",cats,k=>state.cat===k)+
-    pillRow("traits","Good for",traits,k=>state.traits.includes(k))+
-    pillRow("diets","Diet",diets,k=>state.diets.includes(k))+
-    `<div class="frow ingr"><span class="lbl">Ingredients</span>${state.ingr.map(t=>`<span class="ichip${t.startsWith("-")?" neg":""}">${t.startsWith("-")?"no ":""}${esc(t.replace(/^-/,""))}<button type="button" data-rm="${esc(t)}" aria-label="Remove ${esc(t)}">×</button></span>`).join("")}
-      <input id="ingrIn" list="ingrList" placeholder="${state.ingr.length?"add another":"has mushrooms, or no pork…"}" aria-label="Filter by ingredient" autocomplete="off">
-      <datalist id="ingrList">${words.map(w=>`<option value="${esc(w)}"><option value="no ${esc(w)}">`).join("")}</datalist></div>`+
-    (active?`<div class="frow"><button type="button" class="more" id="clearF">Clear ${active} filter${active>1?"s":""}</button></div>`:"");
-  el.querySelectorAll('[data-row="cats"] [data-k]').forEach(b=>b.onclick=()=>{state.cat=state.cat===b.dataset.k?"":b.dataset.k;applyFilters()});
-  const tog=(arr,k)=>arr.includes(k)?arr.filter(x=>x!==k):[...arr,k];
-  el.querySelectorAll('[data-row="traits"] [data-k]').forEach(b=>b.onclick=()=>{state.traits=tog(state.traits,b.dataset.k);applyFilters()});
-  el.querySelectorAll('[data-row="diets"] [data-k]').forEach(b=>b.onclick=()=>{state.diets=tog(state.diets,b.dataset.k);applyFilters()});
-  el.querySelectorAll("[data-more]").forEach(b=>b.onclick=()=>{state.open[b.dataset.more]=!state.open[b.dataset.more];saveView();renderFilters()});
-  el.querySelectorAll("[data-rm]").forEach(b=>b.onclick=()=>{state.ingr=state.ingr.filter(t=>t!==b.dataset.rm);applyFilters()});
-  const inp=$("#ingrIn");
-  const addIngr=()=>{let v=inp.value.trim().toLowerCase();if(!v)return;let neg=false;if(/^(no|without|-)\s*/.test(v)){neg=true;v=v.replace(/^(no|without|-)\s*/,"")}if(!v)return;const key=(neg?"-":"")+v;if(!state.ingr.includes(key))state.ingr=[...state.ingr,key];applyFilters();setTimeout(()=>{const i=$("#ingrIn");if(i)i.focus()},0)};
-  inp.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();addIngr()}};
-  inp.onchange=()=>{const v=inp.value.trim().toLowerCase();if(words.includes(v.replace(/^no /,"")))addIngr()};
-  const c=$("#clearF");if(c)c.onclick=()=>{state.cat="";state.traits=[];state.diets=[];state.ingr=[];applyFilters()};
+  const count=fn=>all.filter(fn).length;
+  // type dropdown
+  const sel=$("#catSel");
+  if(sel){
+    const cats=CATS.map(c=>[c,count(r=>r.category===c)]).filter(x=>x[1]);
+    sel.innerHTML=`<option value="">All types</option>`+cats.map(([c,n])=>`<option value="${esc(c)}">${esc(c)} (${n})</option>`).join("");
+    sel.value=state.cat||"";
+    sel.onchange=()=>{state.cat=sel.value;applyFilters()};
+  }
+  // filters button
+  const n=activeCount(),btn=$("#fBtn");
+  btn.innerHTML=`Filters${n?` <span class="badge">${n}</span>`:""}`;
+  btn.setAttribute("aria-expanded",String(state.panel));
+  btn.onclick=()=>{state.panel=!state.panel;renderFilters()};
+  // active chips (shown when panel is closed)
+  const act=$("#activeF");
+  const chips=[...(state.show&&state.show!=="all"?[["show",state.show,SHOW_LABEL[state.show]]]:[]),
+    ...state.traits.map(t=>["traits",t,TRAIT_LABEL[t]]),...state.diets.map(d=>["diets",d,DIET_LABEL[d]])].filter(c=>c[2]);
+  act.hidden=state.panel||!chips.length;
+  act.innerHTML=chips.map(([g,k,l])=>`<span class="achip">${esc(l)}<button type="button" data-g="${g}" data-k="${esc(k)}" aria-label="Remove ${esc(l)}">×</button></span>`).join("")+(chips.length>1?`<button type="button" class="more" data-clear>Clear all</button>`:"");
+  act.querySelectorAll("[data-g]").forEach(b=>b.onclick=()=>{const g=b.dataset.g,k=b.dataset.k;if(g==="show")state.show="all";else state[g]=state[g].filter(x=>x!==k);applyFilters()});
+  // panel
+  const p=$("#fPanel");p.hidden=!state.panel;
+  if(state.panel){
+    const traits=TRAITS.filter(([k])=>all.some(r=>(r.traits||[]).includes(k)));
+    const diets=DIETS.filter(([k])=>all.some(r=>(r.diet||[]).includes(k)));
+    const grp=(title,key,items,isOn)=>`<div class="fgroup"><h5>${esc(title)}</h5><div class="opts">${items.map(([k,l])=>`<button type="button" class="chip" data-pg="${key}" data-k="${esc(k)}" aria-pressed="${isOn(k)}">${esc(l)}</button>`).join("")}</div></div>`;
+    p.innerHTML=grp("Show","show",SHOW_OPTS,k=>(state.show||"all")===k)+grp("Good for","traits",traits,k=>state.traits.includes(k))+grp("Diet","diets",diets,k=>state.diets.includes(k))+
+      `<p class="hint-line">Ingredients: type them in search. "mushroom" finds it, "no pork" leaves it out.</p>`+
+      `<div class="fpanel-foot">${n?`<button type="button" class="more" data-clear>Clear all</button>`:""}<span style="flex:1"></span><button type="button" class="btn primary" id="fDone">Show ${filtered().length} recipes</button></div>`;
+    p.querySelectorAll("[data-pg]").forEach(b=>b.onclick=()=>{const g=b.dataset.pg,k=b.dataset.k;
+      if(g==="show")state.show=state.show===k?"all":k;else state[g]=state[g].includes(k)?state[g].filter(x=>x!==k):[...state[g],k];applyFilters()});
+    $("#fDone").onclick=()=>{state.panel=false;renderFilters()};
+  }
+  document.querySelectorAll("[data-clear]").forEach(b=>b.onclick=()=>{state.show="all";state.traits=[];state.diets=[];applyFilters()});
 }
 function applyFilters(){saveView();renderFilters();renderList()}
 
@@ -123,7 +136,7 @@ function filtered(){
     if(state.show==="photos"&&!allPhotos(r).length)return false;
     if(state.traits.length&&!state.traits.every(t=>(r.traits||[]).includes(t)))return false;
     if(!filterMatch(r))return false;
-    if(q&&!q.split(/\s+/).every(w=>haystack(r).includes(w)))return false;
+    if(q&&!searchMatch(r))return false;
     return true});
   const by={
     best:(a,b)=>(b.keeper?1:0)-(a.keeper?1:0)||score(b)-score(a)||a.title.localeCompare(b.title),
@@ -291,10 +304,9 @@ function recipeText(r,k=1){
 async function copyText(t,msg){try{await navigator.clipboard.writeText(t);toast(msg)}catch(e){const ta=document.createElement("textarea");ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");toast(msg)}catch(_){toast("Select and copy")}setTimeout(()=>ta.remove(),3000)}}
 
 /* ---------- boot ---------- */
-$("#q").value=state.q||"";$("#show").value=state.show;$("#sort").value=["best","az","new"].includes(state.sort)?state.sort:"best";state.sort=$("#sort").value;
-if(!["all","keepers","rated","photos"].includes(state.show)){state.show="all";$("#show").value="all"}
-$("#q").oninput=e=>{state.q=e.target.value;saveView();renderList()};
-$("#show").onchange=e=>{state.show=e.target.value;saveView();renderList()};
+$("#q").value=state.q||"";$("#sort").value=["best","az","new"].includes(state.sort)?state.sort:"best";state.sort=$("#sort").value;
+if(!["all","keepers","rated","photos"].includes(state.show))state.show="all";
+$("#q").oninput=e=>{state.q=e.target.value;saveView();renderList();if(state.panel)renderFilters()};
 $("#sort").onchange=e=>{state.sort=e.target.value;saveView();renderList()};
 window.addEventListener("hashchange",()=>{const id=location.hash.slice(1);if(id!==state.openId&&state.recipes.has(id))openRecipe(id)});
 fetch("data/recipes.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{
