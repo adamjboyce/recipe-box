@@ -26,14 +26,18 @@ async function loadFriends(){
   if(!SB)return;
   try{
     let rows;try{rows=await sb("notes?select=id,recipe_id,name,rating,note,photo_path,created_at&order=created_at.desc&limit=5000")}catch(e){rows=await sb("notes?select=id,recipe_id,name,rating,note,created_at&order=created_at.desc&limit=5000");state.noPhotos=true}
-    state.friends=new Map();for(const n of rows){if(!state.friends.has(n.recipe_id))state.friends.set(n.recipe_id,[]);state.friends.get(n.recipe_id).push(n)}
+    state.friendRows=rows;regroupFriends();
   }catch(e){console.warn("friend notes unavailable",e)}
   state.friendsLoaded=true;renderList();renderCard();if(!$("#home").hidden)renderHome();
+}
+function regroupFriends(){
+  const al=state.aliases||new Map();state.friends=new Map();
+  for(const n of state.friendRows||[]){const id=al.get(n.recipe_id)||n.recipe_id;if(!state.friends.has(id))state.friends.set(id,[]);state.friends.get(id).push(n)}
 }
 function sbHeaders(extra){return {apikey:SB.key,...(SB.key.startsWith("sb_")?{}:{Authorization:`Bearer ${SB.key}`}),...(extra||{})}}
 const photoUrl=p=>`${SB.url}/storage/v1/object/public/photos/${p.split("/").map(encodeURIComponent).join("/")}`;
 function allPhotos(r){
-  const own=r.friend?(r.friendPhoto&&SB?[{src:photoUrl(r.friendPhoto),by:r.by}]:[]):(r.photos||[]).map(p=>({src:"photos/"+p,by:"Adam"}));
+  const own=r.friend?(r.friendPhoto&&SB?[{src:photoUrl(r.friendPhoto),by:r.by}]:[]):(r.photos||[]).map(p=>typeof p==="string"?{src:"photos/"+p,by:"Adam"}:{src:photoUrl(p.path),by:p.by||"Adam"});
   const fr=SB?(state.friends.get(r.id)||[]).filter(n=>n.photo_path).map(n=>({src:photoUrl(n.photo_path),by:n.name})):[];
   return [...own,...fr];
 }
@@ -256,7 +260,7 @@ function renderCard(){
   <div>
     <button class="btn back" type="button" id="backBtn">← ${r.friend?"Friends' recipes":"Box"}</button>
     <div class="eyebrow"><span>${esc(r.category)}</span>${r.cuisine?`<span>${esc(r.cuisine)}</span>`:""}</div>
-    <h2>${esc(r.title)}</h2>
+    <h2>${esc(r.title)}</h2>${r.credit?`<div class="credit">From ${esc(r.credit)}</div>`:""}
     ${(r.changes||[]).length?`<div class="changed">Updated ${esc(fmtDate(r.changes.at(-1).date))}: ${esc(r.changes.at(-1).note)}</div>`:""}
     <div class="meta">${r.yield?`<span>Yield <b>${esc(r.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
     <div class="tags">${(r.traits||[]).filter(t=>TRAIT_LABEL[t]).map(t=>`<span class="trait">${esc(TRAIT_LABEL[t])}</span>`).join("")}${(r.diet||[]).filter(d=>DIET_LABEL[d]).map(d=>`<span class="diet">${esc(DIET_LABEL[d])}</span>`).join("")}${(r.tags||[]).filter(t=>!TRAIT_LABEL[t]&&t!=="large-batch"&&t!=="freezer"&&t!=="camping").map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
@@ -399,47 +403,12 @@ function renderShare(){
     finally{f.querySelector("[type=submit]").disabled=false}
   };
 }
-/* admin queue: passcode checked by the database, never stored in this code */
-async function rpc(fn,args){return sb("rpc/"+fn,{method:"POST",body:JSON.stringify(args)})}
-function renderAdmin(){
-  const pass=load("rb.admin","");$("#aLogin").hidden=!!pass;$("#aOut").hidden=!pass;
-  $("#aLogin").onsubmit=e=>{e.preventDefault();store("rb.admin",$("#aPass").value);renderAdmin()};
-  $("#aOut").onclick=()=>{try{localStorage.removeItem("rb.admin")}catch(e){}$("#queue").innerHTML="";renderAdmin()};
-  if(pass)loadQueue(pass);
-}
-async function loadQueue(pass){
-  const q=$("#queue");q.innerHTML=`<p class="muted">Loading…</p>`;
-  let rows;try{rows=await rpc("rb_admin_list",{pass})}catch(e){
-    if(/42501|not allowed/.test(e.message)){try{localStorage.removeItem("rb.admin")}catch(_){}$("#aMsg").textContent="That passcode didn't work.";q.innerHTML="";renderAdmin();return}
-    q.innerHTML=`<p class="muted">Couldn't load the queue. ${esc(e.message)}</p>`;return}
-  let notes=[];try{notes=await rpc("rb_admin_notes",{pass})}catch(e){console.warn("note queue unavailable",e)}
-  rows=rows.filter(x=>x.status!=="rejected");
-  const pend=rows.filter(x=>x.status==="pending"),live=rows.filter(x=>x.status==="approved");
-  const item=x=>`<details class="qitem"${x.status==="pending"?" open":""} data-sid="${esc(x.id)}">
-    <summary><b>${esc(x.title)}</b> <span class="muted">from ${esc(x.name)} · ${esc(fmtDate(x.created_at))}</span></summary>
-    ${x.photo_path?`<img class="q-photo" src="${esc(photoUrl(x.photo_path))}" alt="">`:""}
-    <label>Recipe name<input data-f="title" value="${esc(x.title)}" maxlength="120"></label>
-    <div class="two"><label>Type<select data-f="category">${catOptions(x.category)}</select></label><label>Makes<input data-f="yield" value="${esc(x.yield||"")}" maxlength="120"></label></div>
-    <label>Ingredients<textarea data-f="ingredients" rows="8">${esc(x.ingredients)}</textarea></label>
-    <label>Steps<textarea data-f="steps" rows="8">${esc(x.steps)}</textarea></label>
-    <label>Notes<textarea data-f="notes" rows="3">${esc(x.notes||"")}</textarea></label>
-    <div class="row">${x.status==="pending"?`<button class="btn primary" data-act="approved">Approve and post</button>`:`<button class="btn primary" data-act="approved">Save changes</button><a class="btn" href="#f-${esc(x.id)}">View</a><button class="btn" data-act="pending">Take down</button>`}<span class="spacer"></span><button class="btn danger" data-act="rejected">Toss</button><span class="muted" data-msg></span></div>
-  </details>`;
-  const nItem=n=>{const r=getR(n.recipe_id);return `<div class="qitem qnote" data-nid="${esc(n.id)}"><div><b>${esc(n.name)}</b> on <a href="#${esc(n.recipe_id)}">${esc(r?r.title:n.recipe_id)}</a> <span class="muted">${esc(fmtDate(n.created_at))}</span> ${n.rating?`<span class="st">${stars(n.rating)}</span>`:""}</div>${n.note?`<div>${esc(n.note)}</div>`:""}${n.photo_path?`<img class="q-photo" src="${esc(photoUrl(n.photo_path))}" alt="">`:""}<div class="row"><button class="btn primary" data-nact="approved">Approve</button><span class="spacer"></span><button class="btn danger" data-nact="rejected">Toss</button><span class="muted" data-msg></span></div></div>`};
-  q.innerHTML=`<h2>Notes and photos waiting (${notes.length})</h2>${notes.length?notes.map(nItem).join(""):`<p class="muted">Nothing waiting.</p>`}<h2>Recipes waiting (${pend.length})</h2>${pend.length?pend.map(item).join(""):`<p class="muted">Nothing waiting.</p>`}<h2>Posted (${live.length})</h2>${live.map(item).join("")||`<p class="muted">None yet.</p>`}`;
-  q.querySelectorAll("[data-nact]").forEach(b=>b.onclick=async()=>{
-    const d=b.closest(".qnote"),act=b.dataset.nact,m=d.querySelector("[data-msg]");m.textContent="Saving…";
-    try{await rpc("rb_admin_note",{pass,nid:d.dataset.nid,new_status:act});toast(act==="approved"?"Approved":"Tossed");d.remove();loadFriends()}
-    catch(e){m.textContent="Didn't save: "+e.message.slice(0,120)}});
-  q.querySelectorAll("[data-act]").forEach(b=>b.onclick=async()=>{
-    const d=b.closest(".qitem"),act=b.dataset.act,m=d.querySelector("[data-msg]");
-    if(act==="rejected"&&!confirm("Toss this recipe? It won't be posted."))return;
-    const fields={};d.querySelectorAll("[data-f]").forEach(i=>fields[i.dataset.f]=i.value.trim());
-    if(act==="approved"&&(!fields.title||!fields.ingredients||!fields.steps)){m.textContent="Needs a name, ingredients and steps.";return}
-    m.textContent="Saving…";
-    try{await rpc("rb_admin_save",{pass,sid:d.dataset.sid,fields,new_status:act});toast({approved:"Posted",pending:"Taken down",rejected:"Tossed"}[act]);loadQueue(pass);loadSubmissions()}
-    catch(e){m.textContent="Didn't save: "+e.message.slice(0,120)}
-  });
+/* admin panel lives in admin.js and only loads on #admin */
+function loadAdmin(){
+  if(window.RBAdmin)return window.RBAdmin.render();
+  const sc=document.createElement("script");sc.src="admin.js?v="+(document.querySelector('script[src^="app.js"]').src.split("v=")[1]||"");
+  sc.onload=()=>window.RBAdmin.render();sc.onerror=()=>{$("#admin").innerHTML=`<p class="muted">Couldn't load the admin panel. Reload the page.</p>`};
+  document.body.appendChild(sc);
 }
 
 /* ---------- boot ---------- */
@@ -449,14 +418,16 @@ $("#q").oninput=e=>{state.q=e.target.value;saveView();renderList();if(state.pane
 $("#sort").onchange=e=>{state.sort=e.target.value;saveView();renderList()};
 function showView(v){const home=v==="home";$("#home").hidden=!home;$("#app").hidden=v!=="box";$("#share").hidden=v!=="share";$("#admin").hidden=v!=="admin";
   document.title={home:"Ark's Vibes & Vittles",share:"Share a recipe · Ark's Vibes & Vittles",admin:"Recipe queue · Ark's Vibes & Vittles"}[v]||"Recipes · Ark's Vibes & Vittles";
-  if(home)renderHome();if(v==="share")renderShare();if(v==="admin")renderAdmin();if(v!=="box")window.scrollTo(0,0)}
+  if(home)renderHome();if(v==="share")renderShare();if(v==="admin")loadAdmin();if(v!=="box")window.scrollTo(0,0)}
 function route(){
   const h=location.hash.slice(1);
   if(!h){state.openId=null;showView("home");return}
-  if(h==="share"||h==="admin"){showView(h);return}
+  if(h==="share"){showView(h);return}
+  if(h==="admin"||h.startsWith("admin/")){showView("admin");return}
   if(h==="friends"){state.src="friends";state.cat="";saveView();renderFilters();state.openId=null;history.replaceState(null,"","#box");showView("box");$("#app").classList.remove("show-card");renderList();renderCard();return}
   showView("box");
   if(h==="box"){state.openId=null;$("#app").classList.remove("show-card");renderList();renderCard();return}
+  if(!getR(h)&&state.aliases&&state.aliases.has(h)){location.replace("#"+state.aliases.get(h));return}
   if(getR(h)&&h!==state.openId)openRecipe(h);
 }
 window.addEventListener("hashchange",route);
@@ -480,9 +451,22 @@ function renderHome(){
   document.querySelectorAll(".pick").forEach(b=>b.onclick=()=>goBox({[b.dataset.g]:[b.dataset.k]}));
 }
 $("#homeSearch").onsubmit=e=>{e.preventDefault();goBox({q:$("#hq").value.trim()})};
-fetch("data/recipes.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{
-  state.recipes=new Map(d.recipes.map(r=>[r.id,{...r,category:CATS.includes(r.category)?r.category:"Mains"}]));
+/* Recipes come live from Supabase; data/recipes.json is a saved copy used only if Supabase can't be reached. */
+async function loadRecipes(){
+  if(SB){try{
+    const [rows,aliases]=await Promise.all([sb("recipes_public?select=*&order=title"),sb("recipe_aliases?select=alias,id")]);
+    state.aliases=new Map(aliases.map(a=>[a.alias,a.id]));state.live=true;return rows;
+  }catch(e){console.warn("live recipes unavailable, using the saved copy",e)}}
+  const d=await fetch("data/recipes.json",{cache:"no-cache"}).then(r=>r.json());
+  state.aliases=new Map(Object.entries(d.aliases||{}));return d.recipes;
+}
+function setRecipes(rows){
+  state.recipes=new Map(rows.map(r=>[r.id,{...r,category:CATS.includes(r.category)?r.category:"Mains"}]));
   state.loaded=true;
+}
+loadRecipes().then(rows=>{
+  setRecipes(rows);
   state.traits=state.traits.filter(t=>TRAIT_LABEL[t]);renderCats();renderTraits();renderList();renderCard();route();
+  if(state.friends.size)regroupFriends();
 }).catch(()=>{$("#list").innerHTML=`<div class="empty">Couldn't load the recipes. Reload the page.</div>`});
 loadFriends();loadSubmissions();
