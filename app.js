@@ -219,16 +219,20 @@ function fmtDate(d){if(!d)return"";const dt=new Date(d.length===10?d+"T12:00:00"
 /* cook mode: keep the screen awake, bigger type, highlight the next step */
 let wakeLock=null;
 async function grabWake(){try{if("wakeLock" in navigator&&document.visibilityState==="visible"){wakeLock=await navigator.wakeLock.request("screen");wakeLock.addEventListener("release",()=>{wakeLock=null})}else if(!("wakeLock" in navigator))return false}catch(e){return false}return true}
-async function setCook(on){
-  state.cook=on;document.body.classList.toggle("cooking",on);
-  if(on){const ok=await grabWake();toast(ok?"Cook mode on. The screen will stay awake.":"Cook mode on. This browser can't keep the screen awake, so check its sleep setting.")}
-  else{try{wakeLock&&await wakeLock.release()}catch(e){}wakeLock=null}
-  const b=$("#cookBtn");if(b){b.setAttribute("aria-pressed",String(on));b.textContent=on?"● Cook mode on":"Cook mode"}
+async function setMode(m){
+  const was=state.mode;state.mode=m;const b=document.body;
+  b.classList.toggle("cooking",!!m);b.classList.toggle("mode-mise",m==="mise");b.classList.toggle("mode-cook",m==="cook");
+  document.querySelectorAll("[data-mode]").forEach(x=>{const on=x.dataset.mode===m;x.setAttribute("aria-pressed",String(on));x.textContent=(on?"● ":"")+(x.dataset.mode==="mise"?"Mise en place":"Cook")});
+  if(m&&!was){const ok=await grabWake();if(!ok)toast("This browser can't keep the screen awake, so check its sleep setting.")}
+  if(!m){try{wakeLock&&await wakeLock.release()}catch(e){}wakeLock=null}
+  if(m==="cook"){const h=$("#methodH");if(h)h.scrollIntoView({behavior:"smooth",block:"start"})}
+  if(m==="mise"){const h=document.querySelector(".body .sec-h");if(h)h.scrollIntoView({behavior:"smooth",block:"start"})}
+  markNext();
 }
-document.addEventListener("visibilitychange",()=>{if(state.cook&&document.visibilityState==="visible"&&!wakeLock)grabWake()});
-function markNext(){const ls=[...document.querySelectorAll(".steps li")];ls.forEach(l=>l.classList.remove("next"));const n=ls.find(l=>!l.classList.contains("done"));if(n)n.classList.add("next")}
+document.addEventListener("visibilitychange",()=>{if(state.mode&&document.visibilityState==="visible"&&!wakeLock)grabWake()});
+function markNext(){for(const sel of [".ing li",".steps li"]){const ls=[...document.querySelectorAll(sel)];ls.forEach(l=>l.classList.remove("next"));const n=ls.find(l=>!l.classList.contains("done"));if(n)n.classList.add("next")}}
 function openRecipe(id){
-  if(state.cook&&id!==state.openId)setCook(false);
+  if(state.mode&&id!==state.openId)setMode(null);
   if(id){const s=id.startsWith("f-")?"friends":"ark";if(s!==state.src){state.src=s;state.cat="";saveView();renderFilters()}}
   state.openId=id;
   try{history.replaceState(null,"","#"+(id||"box"))}catch(e){}
@@ -254,7 +258,7 @@ function renderCard(){
     <div class="eyebrow"><span>${esc(r.category)}</span>${r.cuisine?`<span>${esc(r.cuisine)}</span>`:""}</div>
     <h2>${esc(r.title)}</h2>
     ${(r.changes||[]).length?`<div class="changed">Updated ${esc(fmtDate(r.changes.at(-1).date))}: ${esc(r.changes.at(-1).note)}</div>`:""}
-    <div class="meta"><button type="button" class="btn cook-btn" id="cookBtn" aria-pressed="${!!state.cook}" title="Keeps the screen on and makes the text bigger">${state.cook?"● Cook mode on":"Cook mode"}</button>${r.yield?`<span>Yield <b>${esc(r.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
+    <div class="meta">${r.yield?`<span>Yield <b>${esc(r.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
     <div class="tags">${(r.traits||[]).filter(t=>TRAIT_LABEL[t]).map(t=>`<span class="trait">${esc(TRAIT_LABEL[t])}</span>`).join("")}${(r.diet||[]).filter(d=>DIET_LABEL[d]).map(d=>`<span class="diet">${esc(DIET_LABEL[d])}</span>`).join("")}${(r.tags||[]).filter(t=>!TRAIT_LABEL[t]&&t!=="large-batch"&&t!=="freezer"&&t!=="camping").map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
   </div>
   ${photoBlock(r)}
@@ -264,16 +268,16 @@ function renderCard(){
   </div>
   <div class="body">
     <section>
-      <h3 class="sec-h">Ingredients <span class="chk-ctl"><small id="chkHint"${anyChk?" hidden":""}>tap to check off</small><button type="button" class="reset-chk" id="resetBtn"${anyChk?"":" hidden"}>↺ Uncheck all</button></span></h3>
+      <h3 class="sec-h"><span class="sec-t">Ingredients <button type="button" class="mode-btn" data-mode="mise" aria-pressed="${state.mode==="mise"}" title="Keeps the screen on while you prep">${state.mode==="mise"?"● Mise en place":"Mise en place"}</button></span><span class="chk-ctl"><small id="chkHint"${anyChk?" hidden":""}>tap to check off</small><button type="button" class="reset-chk" id="resetBtn"${anyChk?"":" hidden"}>↺ Uncheck all</button></span></h3>
       <div class="scaler" role="group" aria-label="Batch size">
         <span class="lbl">Batch</span>
         ${presets.map(p=>`<button type="button" class="sc" data-scale="${p}" aria-pressed="${k===p}">${p===1?"1×":frac(p)+"×"}</button>`).join("")}
         <input id="scaleIn" type="number" min="0.1" step="0.05" inputmode="decimal" aria-label="Custom multiplier" value="${presets.includes(k)?"":k}" placeholder="×">
       </div>
-      ${(r.groups||[]).map((g,gi)=>`<div class="ing-group">${g.name?`<h4>${esc(g.name)}</h4>`:""}<ul class="ing">${(g.ingredients||[]).map((ing,ii)=>{const [q,rest]=splitQty(scaleLine(ing,k));const key=`i${gi}-${ii}`;return `<li data-k="${key}" class="${chk[key]?"done":""}"><span class="q">${esc(q)}</span><span>${linkify(esc(rest))}</span></li>`}).join("")}</ul></div>`).join("")}
+      <div class="ing-cols">${(r.groups||[]).map((g,gi)=>`<div class="ing-group">${g.name?`<h4>${esc(g.name)}</h4>`:""}<ul class="ing">${(g.ingredients||[]).map((ing,ii)=>{const [q,rest]=splitQty(scaleLine(ing,k));const key=`i${gi}-${ii}`;return `<li data-k="${key}" class="${chk[key]?"done":""}"><span class="q">${esc(q)}</span><span>${linkify(esc(rest))}</span></li>`}).join("")}</ul></div>`).join("")}</div>
     </section>
     <section>
-      <h3 class="sec-h">Method</h3>
+      <h3 class="sec-h" id="methodH"><span class="sec-t">Method <button type="button" class="mode-btn" data-mode="cook" aria-pressed="${state.mode==="cook"}" title="Keeps the screen on while you cook">${state.mode==="cook"?"● Cook":"Cook"}</button></span></h3>
       <ol class="steps">${(r.steps||[]).map((s,i)=>`<li data-k="s${i}" class="${chk["s"+i]?"done":""}"><span>${linkify(esc(s))}</span></li>`).join("")}</ol>
     </section>
   </div>
@@ -299,7 +303,7 @@ function renderCard(){
   el.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{state.photoSel[r.id]=+b.dataset.ph;renderCard()});
   el.querySelectorAll(".rlink").forEach(a=>a.onclick=e=>e.stopPropagation());
   el.querySelectorAll(".ing li,.steps li").forEach(li=>li.onclick=()=>{const c=state.checked[r.id]=state.checked[r.id]||{};c[li.dataset.k]=!c[li.dataset.k];li.classList.toggle("done",c[li.dataset.k]);store("rb.checked",state.checked);const on=Object.values(c).some(Boolean);$("#resetBtn").hidden=!on;$("#chkHint").hidden=on;markNext()});
-  $("#cookBtn").onclick=()=>setCook(!state.cook);markNext();
+  el.querySelectorAll("[data-mode]").forEach(b=>b.onclick=()=>setMode(state.mode===b.dataset.mode?null:b.dataset.mode));markNext();
   el.querySelectorAll("[data-scale]").forEach(b=>b.onclick=()=>setScale(r.id,+b.dataset.scale));
   $("#scaleIn").onchange=e=>{const v=parseFloat(e.target.value);if(v>0&&v<=50)setScale(r.id,Math.round(v*100)/100)};
   $("#resetBtn").onclick=()=>{delete state.checked[r.id];store("rb.checked",state.checked);renderCard()};

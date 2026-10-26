@@ -94,7 +94,7 @@ button{cursor:pointer}
 .verdict .spacer{flex:1}
 .cooked{font-size:13px;color:var(--muted)}
 
-.body{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px;align-items:start}
+.body{display:grid;grid-template-columns:minmax(0,1fr);gap:28px;align-items:start}
 .sec-h{font:700 13px var(--body);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 10px;display:flex;justify-content:space-between;align-items:baseline}
 .sec-h small{font:400 12px var(--body);letter-spacing:0;text-transform:none}
 .ing-group+.ing-group{margin-top:16px}
@@ -297,11 +297,16 @@ html{height:100%}
 .share a.btn{text-decoration:none;color:inherit}.share a.btn.primary{color:var(--accent-ink)}
 .share>.btn.back{display:inline-block}
 
-/* ---------- cook mode ---------- */
-.cook-btn{margin-right:10px;font-weight:600}
-.cook-btn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
-body.cooking .ing li{font-size:19px;padding-block:10px}
-body.cooking .steps li{font-size:20px;line-height:1.5;padding-block:12px}
-body.cooking .steps li.next{background:var(--mustard-soft);border-radius:8px;box-shadow:inset 4px 0 0 var(--mustard)}
+/* ---------- layout: ingredients over method; mise en place and cook modes ---------- */
+.sec-t{display:inline-flex;align-items:center;gap:10px;flex-wrap:wrap}
+.mode-btn{font:600 12px var(--body);letter-spacing:0;text-transform:none;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:4px 12px;cursor:pointer}
+.mode-btn:hover{border-color:var(--accent)}
+.mode-btn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+@media (min-width:760px){.ing-cols{column-count:2;column-gap:32px}.ing-group{break-inside:avoid}}
 body.cooking .friends-sec,body.cooking .nutri,body.cooking .verdict,body.cooking .photos{display:none}
 body.cooking .app{grid-template-columns:minmax(0,1fr)}body.cooking .index{display:none}
+body.mode-mise .ing li{font-size:19px;padding-block:10px}
+body.mode-mise .ing li.next{background:var(--mustard-soft);border-radius:8px;box-shadow:inset 4px 0 0 var(--mustard)}
+body.mode-mise .steps{opacity:.55}
+body.mode-cook .steps li{font-size:20px;line-height:1.5;padding-block:12px}
+body.mode-cook .steps li.next{background:var(--mustard-soft);border-radius:8px;box-shadow:inset 4px 0 0 var(--mustard)}

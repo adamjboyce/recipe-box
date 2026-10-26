@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T19:33:00+00:00",
+ "generated": "2026-10-26T19:55:42+00:00",
  "recipes": [
   {
    "id": "teds-72-hour-pizza-dough",
@@ -442,6 +442,7 @@
       "6 g dried Mexican oregano",
       "0.5 g bay leaves (about 2)",
       "28 g salt",
+      "3.5 g MSG (about 1 tsp)",
       "About 750 g water, to come halfway up the meat"
      ],
      "name": "Braise"
@@ -486,7 +487,7 @@
      "fiber_g": 1,
      "protein_g": 31,
      "sat_fat_g": 10.5,
-     "sodium_mg": 1680,
+     "sodium_mg": 1740,
      "sugar_g": 2
     },
     "serving": "150 g cooked meat (1 of 7)",
@@ -496,6 +497,10 @@
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
     }
    ]
   },
@@ -609,6 +614,7 @@
      "ingredients": [
       "1500 g eggs (about 30 large)",
       "43 g salt (about 7 tsp)",
+      "7.5 g MSG (scant 2 tsp)",
       "6 g black pepper, freshly ground (about 2 1/2 tsp)",
       "227 g cream cheese, cut into small cubes (about one 8 oz block)",
       "800 g roasted burrito vegetables, all from above (about 4 cups)"
@@ -649,7 +655,7 @@
     "Roast the vegetables at 400°F on uncrowded sheet pans until dry and caramelized.",
     "Line a half sheet pan with parchment and spread the roasted vegetables over it.",
     "Dot the cream cheese cubes over the vegetables.",
-    "Beat the eggs with the salt and pepper just to uniform yellow and pour over.",
+    "Beat the eggs with the salt, MSG and pepper just to uniform yellow and pour over.",
     "Bake at 325°F 30 to 35 minutes, checking at 25 and rotating once, until the center is just set with a slight wobble.",
     "Cut the egg slab into quarters on the pan to speed cooling.",
     "Fry the tots darker than you would eat them, salt them hot and cool on a rack.",
@@ -681,7 +687,7 @@
      "fiber_g": 7,
      "protein_g": 34,
      "sat_fat_g": 19,
-     "sodium_mg": 3160,
+     "sodium_mg": 3200,
      "sugar_g": 5
     },
     "serving": "1 burrito, about 420 g (1 of 24)",
@@ -695,6 +701,10 @@
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
     }
    ]
   },
@@ -777,6 +787,7 @@
      "ingredients": [
       "680 g boneless skinless chicken thighs (about 1 1/2 lb, 6 thighs)",
       "7 g kosher salt (about 2 1/4 tsp Diamond Crystal)",
+      "4 g MSG (about 1 tsp)",
       "14 g neutral oil (about 1 Tbsp)"
      ],
      "name": "Chicken"
@@ -801,7 +812,7 @@
     }
    ],
    "steps": [
-    "Season the thighs with salt and a little oil and roast at 400°F 25 to 30 minutes, to 175°F.",
+    "Season the thighs with salt, MSG and a little oil and roast at 400°F 25 to 30 minutes, to 175°F.",
     "Shred while warm, using a stand mixer with the paddle on low.",
     "Cook the shredded chicken with the sauce, cooking off about a quarter, until no free liquid runs when a chilled spoonful is tilted.",
     "Season with cayenne.",
@@ -835,12 +846,18 @@
      "fiber_g": 0.7,
      "protein_g": 22,
      "sat_fat_g": 15,
-     "sodium_mg": 1530,
+     "sodium_mg": 1570,
      "sugar_g": 1.4
     },
     "serving": "1 hand pie (1 of 12)",
     "servings": 12
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    }
+   ]
   },
   {
    "id": "cabbage-carrot-slaw-sumac-dressing",
@@ -1041,6 +1058,7 @@
      "ingredients": [
       "2040 g shaved chuck eye",
       "1 1/2 Tbsp kosher salt, for the meat and vegetables (about 14 g Diamond Crystal)",
+      "1 1/2 tsp MSG (about 6 g)",
       "1 tsp black pepper, freshly ground (about 2.5 g)",
       "10 hoagie rolls, 8 inch (about 850 g)",
       "2 large yellow onions, sliced thin (about 400 g)",
@@ -1059,7 +1077,7 @@
     "Finish the mushrooms with butter and salt and hold in a foil pan near the fire.",
     "Reheat the queso in the dutch oven at the edge of the coals until molten.",
     "Cook the onions on the griddle, adding the peppers a few minutes later, then push to one side.",
-    "Put the meat on the cleared hot surface, season with the salt and pepper and chop with two spatulas.",
+    "Put the meat on the cleared hot surface, season with the salt, MSG and pepper and chop with two spatulas.",
     "When just past pink, pile it, fold in the onions and peppers and add provolone if using; let it slump 30 seconds.",
     "Toast the rolls face-down on the edge of the griddle.",
     "Scoop the meat into the rolls and spoon queso over the top.",
@@ -1084,12 +1102,18 @@
      "fiber_g": 3.7,
      "protein_g": 73,
      "sat_fat_g": 31.5,
-     "sodium_mg": 2350,
+     "sodium_mg": 2440,
      "sugar_g": 7
     },
     "serving": "1 sandwich (1 of 8)",
     "servings": 8
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    }
+   ]
   },
   {
    "id": "campfire-dutch-oven-cornbread",
@@ -1374,6 +1398,7 @@
       "2 g fresh sage, finely chopped",
       "2 g fresh thyme leaves, finely chopped",
       "20 g kosher salt (about 2 1/2 Tbsp Diamond Crystal)",
+      "4 g MSG (about 1 tsp)",
       "4 g ground white pepper",
       "10 g malt vinegar",
       "100 g eggs, beaten, 1 for sealing, 1 with a splash of water for egg wash (about 2 large)"
@@ -1414,7 +1439,7 @@
      "fiber_g": 2.3,
      "protein_g": 29,
      "sat_fat_g": 39,
-     "sodium_mg": 2830,
+     "sodium_mg": 2910,
      "sugar_g": 2.7
     },
     "serving": "1 pasty, about 435 g (1 of 6)",
@@ -1424,6 +1449,10 @@
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
     }
    ]
   },
@@ -1511,7 +1540,8 @@
       "3 g amchur (dried green mango powder) (about 1 tsp)",
       "15 g [chole masala](chole-masala), homemade or MDH (about 2 Tbsp)",
       "2 g kasuri methi (about 1 Tbsp)",
-      "22 g kosher salt (about 2 1/2 Tbsp Diamond Crystal)"
+      "22 g kosher salt (about 2 1/2 Tbsp Diamond Crystal)",
+      "4.5 g MSG (about 1 1/4 tsp)"
      ],
      "name": "Masala"
     },
@@ -1532,7 +1562,7 @@
     "Add the onions and cook, stirring often, until deep golden brown, 15 to 20 minutes.",
     "Add the tomato puree and cook until thick and the ghee separates at the edges, about 10 minutes.",
     "Add the [chole masala](chole-masala), anardana and amchur and stir 1 minute.",
-    "Add the chickpeas with about 250 g of their cooking liquid and the salt.",
+    "Add the chickpeas with about 250 g of their cooking liquid and the salt and MSG.",
     "Simmer 15 minutes, mashing a few chickpeas against the pan to thicken the gravy.",
     "Crush in the kasuri methi.",
     "Taste and adjust the salt.",
@@ -1559,12 +1589,18 @@
      "fiber_g": 12,
      "protein_g": 15,
      "sat_fat_g": 6.5,
-     "sodium_mg": 2310,
+     "sodium_mg": 2450,
      "sugar_g": 13
     },
     "serving": "1.5 cups, about 360 g (1 of 4)",
     "servings": 4
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    }
+   ]
   },
   {
    "id": "chole-masala",
@@ -2115,6 +2151,7 @@
       "80 g yellow mustard",
       "60 g dill pickle brine",
       "25 g kosher salt",
+      "7 g MSG (about 1 3/4 tsp)",
       "6 g black pepper",
       "250 g dill pickles, chopped"
      ],
@@ -2140,7 +2177,7 @@
     "In the same pan over medium heat, melt the butter. Cook the onion until soft, then add the garlic for 30 seconds.",
     "Stir in the flour and cook, stirring, 2 to 3 minutes until it smells nutty.",
     "Warm the milk. Whisk it in gradually, bring to a simmer and cook, stirring often, 12 to 15 minutes, until it coats the back of a spoon.",
-    "Off heat, stir in the Swiss, mustard, pickle brine, salt and pepper until smooth.",
+    "Off heat, stir in the Swiss, mustard, pickle brine, salt, MSG and pepper until smooth.",
     "Fold the ham, pork and chopped pickles into the sauce. Spread in the pan.",
     "Arrange the tots on top in a single tight layer.",
     "Melt the butter with the grated garlic and salt. Drizzle evenly over the tots.",
@@ -2162,12 +2199,18 @@
      "fiber_g": 4.7,
      "protein_g": 37,
      "sat_fat_g": 22,
-     "sodium_mg": 3580,
+     "sodium_mg": 3690,
      "sugar_g": 9
     },
     "serving": "1/8 of the 9x13 pan, about 440 g (1 of 8)",
     "servings": 8
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    }
+   ]
   },
   {
    "id": "dill-escabeche-pickle-soup",
@@ -2222,8 +2265,8 @@
     {
      "ingredients": [
       "5 g black pepper, ground",
-      "5 g MSG",
-      "29 g Diamond Crystal kosher salt (about 3 1/2 Tbsp), to taste"
+      "29 g Diamond Crystal kosher salt (about 3 1/2 Tbsp), to taste",
+      "23 g MSG (about 5 3/4 tsp)"
      ],
      "name": "Seasoning"
     },
@@ -2272,7 +2315,7 @@
      "fiber_g": 6,
      "protein_g": 17,
      "sat_fat_g": 13,
-     "sodium_mg": 3200,
+     "sodium_mg": 3380,
      "sugar_g": 9
     },
     "serving": "about 2.5 cups, 650 g (1 of 12)",
@@ -2282,6 +2325,10 @@
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
     }
    ]
   },
@@ -2309,6 +2356,7 @@
       "55 g yellow mustard",
       "18 g garlic, grated (about 6 cloves)",
       "34 g fine sea salt",
+      "13 g MSG (about 3 1/4 tsp)",
       "10 g black pepper, freshly ground (about 4 tsp)"
      ],
      "name": "Dressing"
@@ -2331,7 +2379,7 @@
     "Drain and spread on a sheet pan in one layer. Let steam dry 10 minutes.",
     "While still warm, sprinkle with the pickle brine and vinegar and toss gently with a spatula.",
     "Cool to room temperature, about 30 minutes.",
-    "Whisk the mayonnaise, mustard, garlic, fine salt and pepper.",
+    "Whisk the mayonnaise, mustard, garlic, fine salt, MSG and pepper.",
     "Fold the dressing, pickles, shallot, dill and eggs into the cooled potatoes. Fold, don't stir, so the chunks stay whole.",
     "Taste for salt and acid.",
     "Refrigerate at least 2 hours."
@@ -2358,7 +2406,7 @@
      "fiber_g": 5,
      "protein_g": 8,
      "sat_fat_g": 5,
-     "sodium_mg": 2210,
+     "sodium_mg": 2330,
      "sugar_g": 3
     },
     "serving": "about 320 g (1 of 13)",
@@ -2372,6 +2420,10 @@
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
     }
    ]
   },
@@ -3351,8 +3403,8 @@
       "0.5 g bay leaves (about 2)",
       "6 g thyme leaves",
       "55 g kosher salt",
-      "4 g black pepper",
-      "6 g MSG"
+      "19 g MSG (about 4 3/4 tsp)",
+      "4 g black pepper"
      ],
      "name": "Stew"
     },
@@ -3371,7 +3423,7 @@
     "Brown it in lard in batches in a Dutch oven, removing each batch.",
     "Soften the onion in the fat 8 minutes, adding the garlic for the last 2.",
     "Return the lamb and its juices.",
-    "Add the stock, russets, bay, thyme, remaining pepper and the rest of the salt.",
+    "Add the stock, russets, bay, thyme, remaining pepper, the rest of the salt and the MSG.",
     "Cover and simmer gently 1 hour.",
     "Add the red potatoes and carrot.",
     "Simmer uncovered 45 minutes, until the lamb is tender and the russets have collapsed into the broth.",
@@ -3399,7 +3451,7 @@
      "fiber_g": 9,
      "protein_g": 54,
      "sat_fat_g": 24.5,
-     "sodium_mg": 4630,
+     "sodium_mg": 4860,
      "sugar_g": 12
     },
     "serving": "1 bowl, about 900 g (1 of 7)",
@@ -3409,6 +3461,10 @@
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
     }
    ]
   },
@@ -3892,6 +3948,10 @@
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
     }
    ]
   },
@@ -4111,6 +4171,7 @@
       "5 g fresh thyme leaves (or 2 g dried)",
       "115 g cream cheese (about half an 8 oz package)",
       "4 g salt",
+      "1 g MSG (about 1/4 tsp)",
       "3 g black pepper"
      ],
      "name": ""
@@ -4123,7 +4184,7 @@
     "Add the butter, shallot, garlic and thyme and cook 2 minutes.",
     "Off the heat, stir in the cream cheese until evenly melted.",
     "Check that a spoonful mounds and nothing runs when the pan is tilted; if it weeps, return to medium heat 2 to 3 minutes.",
-    "Season with the salt and pepper.",
+    "Season with the salt, MSG and pepper.",
     "Cool and refrigerate."
    ],
    "notes": "Keeps 3 days refrigerated.",
@@ -4147,12 +4208,18 @@
      "fiber_g": 4.1,
      "protein_g": 12,
      "sat_fat_g": 19,
-     "sodium_mg": 980,
+     "sodium_mg": 1040,
      "sugar_g": 9
     },
     "serving": "about 140 g, half the batch (1 of 2)",
     "servings": 2
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    }
+   ]
   },
   {
    "id": "mushrooms-on-toast-soft-eggs",
@@ -4178,6 +4245,7 @@
       "45 g heavy cream (about 45 ml)",
       "12 g thyme leaves",
       "21 g kosher salt",
+      "2.5 g MSG (generous 1/2 tsp)",
       "3 g black pepper, freshly ground (about 1 1/4 tsp)"
      ],
      "name": "Mushrooms"
@@ -4197,7 +4265,7 @@
     "Mushrooms: get a wide pan properly hot with the lard.",
     "Add the mushrooms in one layer and leave them alone 4 minutes.",
     "Stir and keep cooking until browned and squeaky, 4 to 6 minutes more. Use two pans if crowded.",
-    "Salt the mushrooms.",
+    "Salt the mushrooms and add the MSG.",
     "Add the butter, garlic and thyme. Cook 1 minute.",
     "Add the cream and reduce 2 minutes.",
     "Taste and salt again.",
@@ -4221,7 +4289,7 @@
      "fiber_g": 2.7,
      "protein_g": 16,
      "sat_fat_g": 10.5,
-     "sodium_mg": 1610,
+     "sodium_mg": 1650,
      "sugar_g": 3.7
     },
     "serving": "1 slice sourdough toast, 1 egg and about 110 g mushrooms (1 of 7)",
@@ -4231,6 +4299,10 @@
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
     }
    ]
   },
@@ -4594,6 +4666,7 @@
       "4300 g bone-in pork shoulder (Boston butt)",
       "35 g [no-salt Creole seasoning](creole-seasoning), homemade or Tony Chachere's No Salt",
       "45 g kosher salt",
+      "7.5 g MSG (about 2 tsp)",
       "30 g brown sugar",
       "6 g black pepper"
      ],
@@ -4610,7 +4683,7 @@
     "Whisk the butter, stock, hot sauce, Worcestershire, garlic powder and onion powder until smooth; keep warm so the butter stays liquid.",
     "Inject the pork all over in a 3 cm grid, going deep and pulling back slowly.",
     "Wipe off excess injection.",
-    "Mix the Creole seasoning, salt, brown sugar and black pepper and coat the pork on all sides.",
+    "Mix the Creole seasoning, salt, MSG, brown sugar and black pepper and coat the pork on all sides.",
     "Refrigerate uncovered on a rack 24 to 36 hours.",
     "Heat the oven to 275°F (135°C).",
     "Roast the pork fat side up on a rack in a roasting pan until the internal temperature reaches 200°F (93°C) and the bone pulls free, 9 to 11 hours.",
@@ -4640,12 +4713,18 @@
      "fiber_g": 0.8,
      "protein_g": 42,
      "sat_fat_g": 12.5,
-     "sodium_mg": 1890,
+     "sodium_mg": 1950,
      "sugar_g": 2.3
     },
     "serving": "150 g pulled pork (1 of 16)",
     "servings": 16
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    }
+   ]
   },
   {
    "id": "queso-american-cheddar",
@@ -4662,7 +4741,8 @@
       "120 g sharp cheddar, grated from a block",
       "220 g evaporated milk",
       "3 g dry mustard (Colman's), or 10 g Dijon",
-      "2 g white pepper"
+      "2 g white pepper",
+      "2.5 g MSG (generous 1/2 tsp)"
      ],
      "name": ""
     }
@@ -4672,7 +4752,7 @@
     "Warm the milk mixture over low heat.",
     "Add the American cheese in handfuls, stirring constantly, until smooth.",
     "Off the heat, stir in the cheddar a handful at a time until melted.",
-    "Season with white pepper, adding salt only if needed.",
+    "Season with white pepper and MSG, adding salt only if needed.",
     "Serve warm, or hold in a slow cooker on warm."
    ],
    "notes": "Reheats without breaking; rewarm gently over low heat, stirring. Use block cheddar, not bagged shredded.",
@@ -4696,12 +4776,18 @@
      "fiber_g": 0,
      "protein_g": 4.8,
      "sat_fat_g": 4.5,
-     "sodium_mg": 290,
+     "sodium_mg": 300,
      "sugar_g": 1.3
     },
     "serving": "2 Tbsp, about 30 g (1 of 26)",
     "servings": 26
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    }
+   ]
   },
   {
    "id": "rajma",
@@ -5150,6 +5236,7 @@
       "30 g flour",
       "550 g chicken stock (about 550 ml)",
       "4 g kosher salt",
+      "2 g MSG (about 1/2 tsp)",
       "2 g black pepper, freshly ground (about 1 tsp)"
      ],
      "name": "Gravy base"
@@ -5158,8 +5245,7 @@
      "ingredients": [
       "150 g pan juices from the roast hens, defatted (about 2/3 cup)",
       "3 g kosher salt (about 1 tsp Diamond Crystal)",
-      "1 g black pepper, freshly ground (about 1/2 tsp)",
-      "0.3 g MSG (about a pinch)"
+      "1 g black pepper, freshly ground (about 1/2 tsp)"
      ],
      "name": "To finish"
     }
@@ -5167,7 +5253,7 @@
    "steps": [
     "Cook the butter and flour together 2 minutes.",
     "Whisk in the stock and simmer 5 minutes until smooth.",
-    "Season with the 4 g salt and black pepper, to just under where you'd want it.",
+    "Season with the 4 g salt, MSG and black pepper, to just under where you'd want it.",
     "Pour the hen pan juices into a fat separator or measuring cup and let the fat rise; spoon it off.",
     "Whisk the defatted juices into the warm base.",
     "Simmer 5 minutes.",
@@ -5189,12 +5275,18 @@
      "fiber_g": 0.1,
      "protein_g": 0.9,
      "sat_fat_g": 1,
-     "sodium_mg": 300,
+     "sodium_mg": 310,
      "sugar_g": 0.2
     },
     "serving": "2 Tbsp, about 30 g (1 of 20)",
     "servings": 20
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    }
+   ]
   },
   {
    "id": "salsa-roja-de-arbol",
@@ -5283,6 +5375,7 @@
       "8 g sage, chopped",
       "4 g fennel seeds",
       "28 g kosher salt",
+      "3.5 g MSG (scant 1 tsp)",
       "4 g black pepper",
       "980 g puff pastry (about 4 sheets, two 17.3 oz boxes)",
       "100 g eggs, beaten, 1 for sealing and 1 with a splash of water for egg wash (about 2 large)"
@@ -5291,7 +5384,7 @@
     }
    ],
    "steps": [
-    "Combine the pork, onion, sage, fennel, salt and pepper.",
+    "Combine the pork, onion, sage, fennel, salt, MSG and pepper.",
     "Fry a teaspoon and taste.",
     "Divide into 8 portions, about 140 g each.",
     "Unfold each pastry sheet, press the seams flat and cut in half into 2 strips.",
@@ -5323,7 +5416,7 @@
      "fiber_g": 0.6,
      "protein_g": 8,
      "sat_fat_g": 5.5,
-     "sodium_mg": 440,
+     "sodium_mg": 450,
      "sugar_g": 0.4
     },
     "serving": "1 roll (1 of 32)",
@@ -5333,6 +5426,10 @@
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
     }
    ]
   },
@@ -5351,6 +5448,7 @@
       "18 g serrano chiles, minced fine, seeds and ribs in for heat (about 3)",
       "60 g buttermilk",
       "25 g lime juice (about 1 lime)",
+      "1.5 g MSG (scant 1/2 tsp)",
       "15 g cilantro, chopped (optional)"
      ],
      "name": ""
@@ -5358,7 +5456,7 @@
    ],
    "steps": [
     "Mince the serranos fine, leaving seeds and ribs in on at least two.",
-    "Stir everything together, thinning with the buttermilk.",
+    "Stir everything together, including the MSG, thinning with the buttermilk.",
     "Refrigerate."
    ],
    "notes": "Keeps about 3 days refrigerated; the buttermilk will not hold a week.",
@@ -5382,12 +5480,18 @@
      "fiber_g": 0.2,
      "protein_g": 0.5,
      "sat_fat_g": 1.5,
-     "sodium_mg": 220,
+     "sodium_mg": 230,
      "sugar_g": 1.3
     },
     "serving": "2 Tbsp, about 30 g (1 of 17)",
     "servings": 17
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    }
+   ]
   },
   {
    "id": "skillet-cornbread-honey-butter",
@@ -5474,6 +5578,7 @@
      "ingredients": [
       "4000 g pork shoulder meat (from a 9.88 lb bone-in shoulder), deboned and cut into 5 cm chunks",
       "73 g kosher salt",
+      "8 g MSG (about 2 tsp)",
       "10 g dried Mexican oregano",
       "7 g ground cumin",
       "4 g black pepper"
@@ -5494,7 +5599,7 @@
     }
    ],
    "steps": [
-    "Toss the pork with the salt, oregano, cumin and black pepper.",
+    "Toss the pork with the salt, MSG, oregano, cumin and black pepper.",
     "Refrigerate covered overnight.",
     "Place the onion, garlic and bay leaves in the slow cooker and add the pork.",
     "Pour over the orange juice, lime juice, oil and water.",
@@ -5529,7 +5634,7 @@
      "fiber_g": 0.4,
      "protein_g": 39,
      "sat_fat_g": 10.5,
-     "sodium_mg": 1730,
+     "sodium_mg": 1780,
      "sugar_g": 0.5
     },
     "serving": "150 g cooked meat (1 of 18)",
@@ -5539,6 +5644,10 @@
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
     }
    ]
   },
@@ -5570,7 +5679,8 @@
       "8 g ground cumin",
       "6 g dried Mexican oregano",
       "1 g bay leaves (about 3)",
-      "25 g salt"
+      "25 g salt",
+      "3 g MSG (about 3/4 tsp)"
      ],
      "name": "Braise"
     }
@@ -5578,7 +5688,7 @@
    "steps": [
     "Toast the guajillo, ancho and morita in a dry pan over medium, 20 to 30 seconds a side, with the vent running.",
     "Soak the toasted chiles in hot water 20 minutes.",
-    "Blend the soaked chiles with the chipotles, adobo, onion, garlic, broth, vinegar, cumin, oregano and salt until smooth.",
+    "Blend the soaked chiles with the chipotles, adobo, onion, garlic, broth, vinegar, cumin, oregano, salt and MSG until smooth.",
     "Sear the chuck hard in a skillet.",
     "Deglaze the skillet into the crockpot.",
     "Add the beef, sauce and bay leaves to the crockpot.",
@@ -5612,7 +5722,7 @@
      "fiber_g": 4.8,
      "protein_g": 48,
      "sat_fat_g": 11.5,
-     "sodium_mg": 2350,
+     "sodium_mg": 2420,
      "sugar_g": 5
     },
     "serving": "150 g shredded meat with sauce (1 of 5, from about 700 g)",
@@ -5622,6 +5732,10 @@
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
     }
    ]
   },
@@ -6257,6 +6371,7 @@
       "1.6 kg whole peeled San Marzano tomatoes (about two 28 oz cans)",
       "480 g chicken or vegetable stock (about 480 ml)",
       "18 g fine salt",
+      "7.5 g MSG (about 2 tsp)",
       "2 g black pepper",
       "3 g dried oregano",
       "2 g dried thyme",
@@ -6278,7 +6393,7 @@
     "Melt the butter with the olive oil over medium heat.",
     "Cook the onion with a pinch of the salt until soft and golden, about 10 minutes.",
     "Add the garlic and cook 1 minute.",
-    "Add the tomatoes with their juice, the stock, remaining salt, pepper, oregano, thyme, bay leaves and Parmesan rind.",
+    "Add the tomatoes with their juice, the stock, remaining salt, MSG, pepper, oregano, thyme, bay leaves and Parmesan rind.",
     "Simmer uncovered 30 minutes.",
     "Remove the bay leaves, any thyme stems and the rind.",
     "Blend until smooth. Add the sugar only if needed.",
@@ -6302,12 +6417,18 @@
      "fiber_g": 6,
      "protein_g": 4.6,
      "sat_fat_g": 8.5,
-     "sodium_mg": 1800,
+     "sodium_mg": 1950,
      "sugar_g": 10
     },
     "serving": "about 410 g (1 of 6)",
     "servings": 6
-   }
+   },
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    }
+   ]
   },
   {
    "id": "triple-cooked-chips",
