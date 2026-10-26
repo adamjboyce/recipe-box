@@ -13,7 +13,7 @@ parent folder, and lists any photo ids it could not find.
 import argparse, json, os, shutil, sys, datetime, pathlib
 
 PUBLIC = ["id", "title", "category", "cuisine", "tags", "yield", "developed",
-          "groups", "steps", "notes", "rating", "keeper", "traits", "diet", "nutrition"]
+          "groups", "steps", "notes", "rating", "traits", "diet", "nutrition"]
 IMG_EXT = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 
 def main():
@@ -45,7 +45,6 @@ def main():
         doc.setdefault("id", f.stem)
         r = {k: doc[k] for k in PUBLIC if k in doc}
         r["rating"] = int(r.get("rating") or 0)
-        r["keeper"] = bool(r.get("keeper"))
         names = []
         for pid in doc.get("photos") or []:
             existing = next(iter(photos_dir.glob(pid + ".*")), None)

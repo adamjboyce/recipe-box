@@ -59,7 +59,7 @@ function friendAvg(id){const rs=(state.friends.get(id)||[]).map(n=>n.rating).fil
 
 /* ---------- index ---------- */
 function renderCats(){renderFilters()}
-const SHOW_OPTS=[["all","All recipes"],["keepers","Adam's keepers"],["rated","Rated 4+"],["photos","With photos"]];
+const SHOW_OPTS=[["all","All recipes"],["rated","Rated 4+"],["photos","With photos"]];
 /* ---------- filters: type dropdown, filter panel, search with exclusions ---------- */
 const DIETS=[["vegetarian","Vegetarian"],["vegan","Vegan"],["pescatarian","Pescatarian"],["gluten-free","Gluten-free"],["dairy-free","Dairy-free"]];
 const DIET_LABEL=Object.fromEntries(DIETS);
@@ -131,7 +131,6 @@ function filtered(){
   const q=state.q.trim().toLowerCase();
   const rs=[...state.recipes.values()].filter(r=>{
     if(state.cat&&r.category!==state.cat)return false;
-    if(state.show==="keepers"&&!r.keeper)return false;
     if(state.show==="rated"&&!(score(r)>=4))return false;
     if(state.show==="photos"&&!allPhotos(r).length)return false;
     if(state.traits.length&&!state.traits.every(t=>(r.traits||[]).includes(t)))return false;
@@ -139,7 +138,7 @@ function filtered(){
     if(q&&!searchMatch(r))return false;
     return true});
   const by={
-    best:(a,b)=>(b.keeper?1:0)-(a.keeper?1:0)||score(b)-score(a)||a.title.localeCompare(b.title),
+    best:(a,b)=>score(b)-score(a)||a.title.localeCompare(b.title),
     az:(a,b)=>a.title.localeCompare(b.title),
     new:(a,b)=>(b.developed||"").localeCompare(a.developed||"")||a.title.localeCompare(b.title)}[state.sort]||((a,b)=>a.title.localeCompare(b.title));
   return rs.sort(by);
@@ -161,7 +160,7 @@ function renderList(){
     const ph0=allPhotos(r)[0];
     html+=`<button class="item${ph0?" has-photo":""}" type="button" data-id="${esc(r.id)}" aria-current="${r.id===state.openId}">
       ${ph0?`<img class="thumb" src="${esc(ph0.src)}" alt="" loading="lazy">`:""}<span class="t">${esc(r.title)}</span><span class="m">${esc(meta)}</span>
-      <span class="s">${r.keeper?'<span class="keeper-tag">Keeper</span>':""}<span class="mini-stars">${stars(r.rating)}</span></span></button>`;
+      <span class="s"><span class="mini-stars">${stars(r.rating)}</span></span></button>`;
   }
   el.innerHTML=html;
   el.querySelectorAll(".item").forEach(b=>b.onclick=()=>openRecipe(b.dataset.id));
@@ -195,6 +194,14 @@ function scaleLine(line,k){
   if(m)return m[1]+fmt(num(m[2])*k,"")+line.slice(m[0].length);
   return line;
 }
+const _scaleLead=scaleLine;
+scaleLine=function(line,k){
+  if(k===1)return line;
+  const am=String(line).match(/\(about ([^()]*)\)\s*$/);
+  if(!am)return _scaleLead(line,k);
+  const head=line.slice(0,am.index);
+  return _scaleLead(head,k)+"(about "+_scaleLead(am[1],k)+")";
+};
 function getScale(id){const v=state.scale[id];return v>0?v:1}
 function setScale(id,k){if(k===1)delete state.scale[id];else state.scale[id]=k;store("rb.scale",state.scale);renderCard()}
 function fmtDate(d){if(!d)return"";const dt=new Date(d.length===10?d+"T12:00:00":d);return isNaN(dt)?"":dt.toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"})}
@@ -230,7 +237,6 @@ function renderCard(){
   ${photoBlock(r)}
   <div class="verdict">
     <div class="pair"><span class="who">Adam</span><span class="big">${r.rating?stars(r.rating):"<span class='sub'>Not rated yet</span>"}</span></div>
-    ${r.keeper?'<span class="keeper-tag" style="font-size:12px;padding:2px 8px">Keeper</span>':""}
     ${SB?`<div class="pair"><span class="who">Friends</span><span class="big friends">${fa?stars(fa.avg):"<span class='sub'>No ratings yet</span>"}</span>${fa?`<span class="sub">${fa.avg.toFixed(1)} from ${fa.n}</span>`:""}</div>`:""}
   </div>
   <div class="body">
@@ -321,7 +327,7 @@ async function copyText(t,msg){try{await navigator.clipboard.writeText(t);toast(
 
 /* ---------- boot ---------- */
 $("#q").value=state.q||"";$("#sort").value=["best","az","new"].includes(state.sort)?state.sort:"best";state.sort=$("#sort").value;
-if(!["all","keepers","rated","photos"].includes(state.show))state.show="all";
+if(!["all","rated","photos"].includes(state.show))state.show="all";
 $("#q").oninput=e=>{state.q=e.target.value;saveView();renderList();if(state.panel)renderFilters()};
 $("#sort").onchange=e=>{state.sort=e.target.value;saveView();renderList()};
 function showView(v){const home=v==="home";$("#home").hidden=!home;$("#app").hidden=home;document.title=home?"Ark's Vibes & Vittles":"Recipes · Ark's Vibes & Vittles";if(home){renderHome();window.scrollTo(0,0)}}
