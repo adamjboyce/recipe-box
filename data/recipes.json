@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T21:05:10+00:00",
+ "generated": "2026-10-26T21:10:51+00:00",
  "recipes": [
   {
    "id": "72-hour-pizza-dough",
@@ -311,10 +311,42 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:36:57.38408+00:00",
-   "changes": [],
-   "method": "",
-   "alt_methods": [],
+   "updated_at": "2026-10-26T21:10:46.691373+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Added an at-home method tab; camping moved from the title to the camping tag."
+    }
+   ],
+   "method": "Coals",
+   "alt_methods": [
+    {
+     "name": "At home",
+     "notes": null,
+     "steps": [
+      "Heat the oven to 400°F.",
+      "Split each banana lengthwise through the peel without cutting through the bottom.",
+      "Stuff with marshmallows, chocolate chips, peanut butter chips and walnuts.",
+      "Wrap each banana in foil.",
+      "Set the packets on a sheet pan, cut side up.",
+      "Bake 10 to 12 minutes, until the marshmallows are melted and the chocolate is soft."
+     ],
+     "yield": null,
+     "groups": [
+      {
+       "name": "",
+       "ingredients": [
+        "950 g bananas (about 8)",
+        "60 g mini marshmallows (about 1 1/4 cups)",
+        "60 g chocolate chips (about 1/3 cup)",
+        "40 g peanut butter chips (about 1/4 cup)",
+        "60 g walnuts (about 1/2 cup)"
+       ]
+      }
+     ],
+     "nutrition": null
+    }
+   ],
    "extras": {}
   },
   {
@@ -396,7 +428,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:57:43.115256+00:00",
+   "updated_at": "2026-10-26T21:10:49.838801+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -409,6 +441,10 @@
     {
      "date": "2026-10-26",
      "note": "Added a Dutch oven method tab."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added a spicy version."
     }
    ],
    "method": "Slow cooker",
@@ -436,7 +472,32 @@
      "nutrition": null
     }
    ],
-   "extras": {}
+   "extras": {
+    "spicy": {
+     "add": [
+      {
+       "line": "4 g dried chiles de árbol, stemmed (about 6)",
+       "group": "Chiles"
+      }
+     ],
+     "steps": [
+      {
+       "to": "Toast the guajillo, ancho, morita and árbol in a dry pan over medium, 20 to 30 seconds a side, with the vent running.",
+       "from": "Toast the guajillo, ancho and morita in a dry pan over medium, 20 to 30 seconds a side, with the vent running."
+      }
+     ],
+     "swaps": [
+      {
+       "to": "12 g dried morita chiles, toasted and stemmed (about 4)",
+       "from": "6 g dried morita chiles, toasted and stemmed (about 2)"
+      },
+      {
+       "to": "40 g chipotles in adobo plus 30 g adobo sauce (about 4 chipotles)",
+       "from": "20 g chipotles in adobo plus 30 g adobo sauce (about 2 chipotles)"
+      }
+     ]
+    }
+   }
   },
   {
    "id": "beer-battered-walleye",
@@ -578,11 +639,41 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-03",
-   "updated_at": "2026-10-26T20:36:58.461933+00:00",
-   "changes": [],
+   "updated_at": "2026-10-26T21:10:50.052064+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Added a spicy version."
+    }
+   ],
    "method": "",
    "alt_methods": [],
-   "extras": {}
+   "extras": {
+    "spicy": {
+     "add": [
+      {
+       "line": "15 g serrano chiles, minced, seeds left in (about 2)",
+       "group": ""
+      }
+     ],
+     "steps": [
+      {
+       "to": "Cook the onion, garlic, poblano and serranos, stirring often, until very soft, 8 to 10 minutes.",
+       "from": "Cook the onion, garlic and poblano, stirring often, until very soft, 8 to 10 minutes."
+      },
+      {
+       "to": "Add the beans, salt, pepper and cayenne and cook 3 minutes.",
+       "from": "Add the beans, salt, pepper and cayenne or Aleppo and cook 3 minutes."
+      }
+     ],
+     "swaps": [
+      {
+       "to": "3 g cayenne (about 1 1/2 tsp)",
+       "from": "1 g cayenne or 2 g Aleppo pepper (about 1/2 tsp cayenne or 1 tsp Aleppo)"
+      }
+     ]
+    }
+   }
   },
   {
    "id": "braised-red-cabbage",
@@ -952,16 +1043,41 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-03",
-   "updated_at": "2026-10-26T20:36:59.743506+00:00",
+   "updated_at": "2026-10-26T21:10:50.298292+00:00",
    "changes": [
     {
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added a spicy version."
     }
    ],
    "method": "",
    "alt_methods": [],
-   "extras": {}
+   "extras": {
+    "spicy": {
+     "add": [
+      {
+       "line": "30 g Frank's RedHot XTRA Hot Cayenne Pepper Sauce (about 2 Tbsp)",
+       "group": "Filling"
+      }
+     ],
+     "steps": [
+      {
+       "to": "Cook the shredded chicken with the sauce and the XTRA Hot sauce, cooking off about a quarter, until no free liquid runs when a chilled spoonful is tilted.",
+       "from": "Cook the shredded chicken with the sauce, cooking off about a quarter, until no free liquid runs when a chilled spoonful is tilted."
+      }
+     ],
+     "swaps": [
+      {
+       "to": "3 g cayenne, to taste (about 1 1/2 tsp)",
+       "from": "1 g cayenne, to taste (about 1/2 tsp)"
+      }
+     ]
+    }
+   }
   },
   {
    "id": "cabbage-carrot-slaw-sumac-dressing",
@@ -1170,298 +1286,6 @@
    "extras": {}
   },
   {
-   "id": "camp-cheesesteaks",
-   "title": "Camp Cheesesteaks",
-   "category": "Mains",
-   "cuisine": "American",
-   "yield": "8 sandwiches",
-   "tags": [],
-   "traits": [
-    "camping",
-    "quick"
-   ],
-   "diet": [
-    "gluten-free"
-   ],
-   "groups": [
-    {
-     "name": "",
-     "ingredients": [
-      "2040 g shaved chuck eye",
-      "1 1/2 Tbsp kosher salt, for the meat and vegetables (about 14 g Diamond Crystal)",
-      "1 1/2 tsp MSG (about 6 g)",
-      "1 tsp black pepper, freshly ground (about 2.5 g)",
-      "10 hoagie rolls, 8 inch (about 850 g)",
-      "2 large yellow onions, sliced thin (about 400 g)",
-      "2 green bell peppers, sliced (about 320 g)",
-      "340 g cremini, sliced thick",
-      "2 Tbsp butter and 1 1/2 tsp kosher salt, for the mushrooms (about 28 g butter and 4.5 g Diamond Crystal)",
-      "8 slices provolone (about 170 g)",
-      "2 cups [queso](queso-american-cheddar), about 1/4 cup per sandwich (about 480 g)",
-      "Sandwich paper and tape"
-     ]
-    }
-   ],
-   "steps": [
-    "Cook the mushrooms on the griddle dry and hot, undisturbed, until their water cooks off.",
-    "Finish the mushrooms with butter and salt and hold in a foil pan near the fire.",
-    "Reheat the queso in the dutch oven at the edge of the coals until molten.",
-    "Cook the onions on the griddle, adding the peppers a few minutes later, then push to one side.",
-    "Put the meat on the cleared hot surface, season with the salt, MSG and pepper and chop with two spatulas.",
-    "When just past pink, pile it, fold in the onions and peppers and add provolone if using; let it slump 30 seconds.",
-    "Toast the rolls face-down on the edge of the griddle.",
-    "Scoop the meat into the rolls and spoon queso over the top.",
-    "Wrap in paper, tape, rest 2 minutes and cut through the paper."
-   ],
-   "notes": "",
-   "nutrition": {
-    "serving": "1 sandwich (1 of 8)",
-    "servings": 8,
-    "assumptions": "8 of the 10 rolls (85 g each) used, with 60 g queso (about 55% American, 25% cheddar, 20% milk) and provolone on every sandwich. Meat weighed raw with no fat drained.",
-    "per_serving": {
-     "fat_g": 67,
-     "carbs_g": 56,
-     "fiber_g": 3.7,
-     "sugar_g": 7,
-     "calories": 1120,
-     "protein_g": 73,
-     "sat_fat_g": 31.5,
-     "sodium_mg": 2440,
-     "cholesterol_mg": 250
-    }
-   },
-   "rating": 0,
-   "photos": [],
-   "credit": null,
-   "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:01.057901+00:00",
-   "changes": [
-    {
-     "date": "2026-10-26",
-     "note": "MSG added at about 0.3% of the dish."
-    }
-   ],
-   "method": "",
-   "alt_methods": [],
-   "extras": {}
-  },
-  {
-   "id": "campfire-dutch-oven-cornbread",
-   "title": "Campfire Dutch Oven Cornbread (Jiffy)",
-   "category": "Sides & Breads",
-   "cuisine": "American",
-   "yield": "1 dutch oven, serves 8",
-   "tags": [],
-   "traits": [
-    "camping"
-   ],
-   "diet": [],
-   "groups": [
-    {
-     "name": "",
-     "ingredients": [
-      "964 g Jiffy corn muffin mix (about 4 boxes)",
-      "600 g milk and 200 g eggs, whisked together (about 4 large eggs)",
-      "2 Tbsp lard (about 30 g)",
-      "1/2 cup honey and 1 stick salted butter, for the table (about 170 g honey and 113 g butter)"
-     ]
-    }
-   ],
-   "steps": [
-    "Preheat the bare cast iron dutch oven with the lard, swirled to coat the bottom and 5 cm up the sides, until it shimmers.",
-    "Pour the wet mix in, dump the Jiffy on top, stir fast and put the lid on.",
-    "Set a third of the coals underneath and two-thirds on the lid.",
-    "Rotate the pot a quarter turn every 10 minutes.",
-    "Bake 25 to 35 minutes, checking at 25.",
-    "Home oven method: preheat an enameled dutch oven dry at 220°C for 15 minutes once the oven is up.",
-    "Home oven method: add the lard, swirl and return to the oven 3 to 4 minutes to heat the fat.",
-    "Home oven method: pour in the wet mix, dump in the Jiffy, stir fast and level.",
-    "Home oven method: bake uncovered 30 to 40 minutes, checking at 30, until golden and a skewer comes out clean; tent with foil if the top browns early.",
-    "Rest 10 minutes before cutting."
-   ],
-   "notes": "",
-   "nutrition": {
-    "serving": "1 wedge, about 225 g (1 of 8)",
-    "servings": 8,
-    "assumptions": "Four 8.5 oz boxes of Jiffy at label values and all 30 g of the pan lard counted as absorbed. Table honey and salted butter split evenly across 8.",
-    "per_serving": {
-     "fat_g": 33,
-     "carbs_g": 106,
-     "fiber_g": 3.1,
-     "sugar_g": 44,
-     "calories": 770,
-     "protein_g": 12,
-     "sat_fat_g": 17,
-     "sodium_mg": 1190,
-     "cholesterol_mg": 150
-    }
-   },
-   "rating": 0,
-   "photos": [],
-   "credit": null,
-   "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:01.520511+00:00",
-   "changes": [],
-   "method": "",
-   "alt_methods": [],
-   "extras": {}
-  },
-  {
-   "id": "campfire-foil-packet-bar",
-   "title": "Campfire Foil Packet Bar",
-   "category": "Mains",
-   "cuisine": "American",
-   "yield": "8 packets",
-   "tags": [],
-   "traits": [
-    "camping"
-   ],
-   "diet": [
-    "gluten-free"
-   ],
-   "groups": [
-    {
-     "name": "Liner and base",
-     "ingredients": [
-      "1 head cabbage, outer leaves whole plus 1 cm rounds (about 1.1 kg)",
-      "900 g frozen tater tots (about one 2 lb bag)"
-     ]
-    },
-    {
-     "name": "Proteins",
-     "ingredients": [
-      "12 oz andouille, sliced (about 340 g)",
-      "14 oz plain smoked ham, 15 mm dice (about 397 g)",
-      "350 g [barbacoa](barbacoa)",
-      "542 g [carnitas](carnitas)",
-      "10 oz [mushroom duxelles mix](mushroom-duxelles-mix) (about 283 g)",
-      "12 oz [red beans](thick-red-beans) (about 340 g)"
-     ]
-    },
-    {
-     "name": "Vegetables",
-     "ingredients": [
-      "2 yellow onions, diced 1 cm (about 300 g)",
-      "2 celery ribs, diced 1 cm (about 100 g)",
-      "1 green bell pepper, diced 1 cm (about 160 g)",
-      "1 carrot, diced 1 cm (about 60 g)",
-      "2 zucchini, half-moons 1 cm (about 400 g)",
-      "8 oz frozen corn (about 227 g)",
-      "8 jalapeños, sliced (about 120 g)",
-      "4 habaneros, sliced, separate board (about 32 g)"
-     ]
-    },
-    {
-     "name": "Finish",
-     "ingredients": [
-      "8 pats butter, 15 g each (about 120 g)",
-      "8 oz Velveeta, cut into 1.5 cm cubes (about 227 g)",
-      "To finish: 2 Tbsp [Creole seasoning](creole-seasoning), homemade or Tony Chachere's (about 15 g), 1 Tbsp chili flakes (about 5 g), 1/4 cup hot sauce (about 60 g) and 1 cup each [salsa verde](salsa-verde-broiled) and [salsa roja](salsa-roja-de-arbol), homemade or jarred (about 240 g each)"
-     ]
-    }
-   ],
-   "steps": [
-    "Build the fire at least 90 minutes ahead so there is a bed of coals.",
-    "Lay heavy-duty 18-inch foil double, and line each packet with cabbage.",
-    "Add the tots.",
-    "Add proteins, beans and vegetables to taste.",
-    "Add a pat of butter to every packet.",
-    "Lay cheese cubes on top of the fillings.",
-    "Seal the packets tightly.",
-    "Cook in the coals about 20 minutes, flipping once; never open packets on the fire.",
-    "Grill backup: 200°C, lid down, 20 to 25 minutes, flipped once."
-   ],
-   "notes": "",
-   "nutrition": {
-    "serving": "1 adult packet, about 680 g (1 of 8)",
-    "servings": 8,
-    "assumptions": "Assumes every component, including the full table spread of seasoning, hot sauce and salsas, gets used across 8 packets, with about 600 g of the cabbage head eaten (the rest is liner left in the foil). Barbacoa, carnitas, duxelles, red beans and salsas computed from their own recipes.",
-    "per_serving": {
-     "fat_g": 85,
-     "carbs_g": 79,
-     "fiber_g": 16,
-     "sugar_g": 19,
-     "calories": 1320,
-     "protein_g": 62,
-     "sat_fat_g": 36,
-     "sodium_mg": 4690,
-     "cholesterol_mg": 250
-    }
-   },
-   "rating": 0,
-   "photos": [],
-   "credit": null,
-   "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:01.728908+00:00",
-   "changes": [],
-   "method": "",
-   "alt_methods": [],
-   "extras": {}
-  },
-  {
-   "id": "campfire-stovetop-popcorn",
-   "title": "Campfire Stovetop Popcorn",
-   "category": "Sides & Breads",
-   "cuisine": "American",
-   "yield": "about 14 cups",
-   "tags": [],
-   "traits": [
-    "camping",
-    "quick"
-   ],
-   "diet": [
-    "vegan",
-    "vegetarian",
-    "pescatarian",
-    "dairy-free",
-    "gluten-free"
-   ],
-   "groups": [
-    {
-     "name": "",
-     "ingredients": [
-      "1/2 cup popcorn kernels (about 105 g)",
-      "3 Tbsp neutral oil (about 41 g)",
-      "2 tsp fine salt (about 12 g)"
-     ]
-    }
-   ],
-   "steps": [
-    "Put an 8 qt pot with a lid over the fire.",
-    "Add the oil and 3 kernels.",
-    "When those pop, add the rest of the kernels.",
-    "Take the pot off the heat 30 seconds, then return it and shake steadily.",
-    "Pull when the popping slows to a few seconds between pops.",
-    "Salt immediately while steaming."
-   ],
-   "notes": "",
-   "nutrition": {
-    "serving": "3.5 cups popped, about 37 g (1 of 4)",
-    "servings": 4,
-    "assumptions": "Batch of about 14 cups split into four 3.5 cup servings; all oil and salt counted as eaten.",
-    "per_serving": {
-     "fat_g": 11,
-     "carbs_g": 20,
-     "fiber_g": 3.8,
-     "sugar_g": 0.2,
-     "calories": 190,
-     "protein_g": 3.4,
-     "sat_fat_g": 1,
-     "sodium_mg": 1170,
-     "cholesterol_mg": 0
-    }
-   },
-   "rating": 0,
-   "photos": [],
-   "credit": null,
-   "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:01.963034+00:00",
-   "changes": [],
-   "method": "",
-   "alt_methods": [],
-   "extras": {}
-  },
-  {
    "id": "carnitas",
    "title": "Carnitas",
    "category": "Mains",
@@ -1535,7 +1359,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:57:42.837306+00:00",
+   "updated_at": "2026-10-26T21:10:50.608087+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -1556,6 +1380,10 @@
     {
      "date": "2026-10-26",
      "note": "Merged with the slow cooker version as a second method tab."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added a spicy version."
     }
    ],
    "method": "Dutch oven",
@@ -1620,7 +1448,39 @@
      }
     }
    ],
-   "extras": {}
+   "extras": {
+    "spicy": {
+     "add": [
+      {
+       "line": "3 g dried chiles de árbol, stemmed (about 6)",
+       "group": "Braise"
+      },
+      {
+       "line": "4 g chipotle powder (about 2 tsp)",
+       "group": "Braise"
+      },
+      {
+       "line": "6 g dried chiles de árbol, stemmed (about 12)",
+       "group": "Slow cooker"
+      },
+      {
+       "line": "8 g chipotle powder (about 4 tsp)",
+       "group": "Dry brine"
+      }
+     ],
+     "steps": [
+      {
+       "to": "Toss the pork with the salt, MSG, oregano, cumin, chipotle powder and black pepper.",
+       "from": "Toss the pork with the salt, MSG, oregano, cumin and black pepper."
+      },
+      {
+       "to": "Place the onion, garlic, bay leaves and chiles de árbol in the slow cooker and add the pork.",
+       "from": "Place the onion, garlic and bay leaves in the slow cooker and add the pork."
+      }
+     ],
+     "swaps": []
+    }
+   }
   },
   {
    "id": "charred-broccoli-cauliflower",
@@ -1778,6 +1638,127 @@
    ],
    "method": "",
    "alt_methods": [],
+   "extras": {}
+  },
+  {
+   "id": "cheesesteaks",
+   "title": "Cheesesteaks",
+   "category": "Mains",
+   "cuisine": "American",
+   "yield": "8 sandwiches",
+   "tags": [],
+   "traits": [
+    "camping",
+    "quick"
+   ],
+   "diet": [
+    "gluten-free"
+   ],
+   "groups": [
+    {
+     "name": "",
+     "ingredients": [
+      "2040 g shaved chuck eye",
+      "1 1/2 Tbsp kosher salt, for the meat and vegetables (about 14 g Diamond Crystal)",
+      "1 1/2 tsp MSG (about 6 g)",
+      "1 tsp black pepper, freshly ground (about 2.5 g)",
+      "10 hoagie rolls, 8 inch (about 850 g)",
+      "2 large yellow onions, sliced thin (about 400 g)",
+      "2 green bell peppers, sliced (about 320 g)",
+      "340 g cremini, sliced thick",
+      "2 Tbsp butter and 1 1/2 tsp kosher salt, for the mushrooms (about 28 g butter and 4.5 g Diamond Crystal)",
+      "8 slices provolone (about 170 g)",
+      "2 cups [queso](queso-american-cheddar), about 1/4 cup per sandwich (about 480 g)",
+      "Sandwich paper and tape"
+     ]
+    }
+   ],
+   "steps": [
+    "Cook the mushrooms on the griddle dry and hot, undisturbed, until their water cooks off.",
+    "Finish the mushrooms with butter and salt and hold in a foil pan near the fire.",
+    "Reheat the queso in the dutch oven at the edge of the coals until molten.",
+    "Cook the onions on the griddle, adding the peppers a few minutes later, then push to one side.",
+    "Put the meat on the cleared hot surface, season with the salt, MSG and pepper and chop with two spatulas.",
+    "When just past pink, pile it, fold in the onions and peppers and add provolone if using; let it slump 30 seconds.",
+    "Toast the rolls face-down on the edge of the griddle.",
+    "Scoop the meat into the rolls and spoon queso over the top.",
+    "Wrap in paper, tape, rest 2 minutes and cut through the paper."
+   ],
+   "notes": "",
+   "nutrition": {
+    "serving": "1 sandwich (1 of 8)",
+    "servings": 8,
+    "assumptions": "8 of the 10 rolls (85 g each) used, with 60 g queso (about 55% American, 25% cheddar, 20% milk) and provolone on every sandwich. Meat weighed raw with no fat drained.",
+    "per_serving": {
+     "fat_g": 67,
+     "carbs_g": 56,
+     "fiber_g": 3.7,
+     "sugar_g": 7,
+     "calories": 1120,
+     "protein_g": 73,
+     "sat_fat_g": 31.5,
+     "sodium_mg": 2440,
+     "cholesterol_mg": 250
+    }
+   },
+   "rating": 0,
+   "photos": [],
+   "credit": null,
+   "developed": "2026-10-15",
+   "updated_at": "2026-10-26T21:10:47.336788+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added an at-home method tab; camping moved from the title to the camping tag."
+    }
+   ],
+   "method": "Camp griddle",
+   "alt_methods": [
+    {
+     "name": "At home",
+     "notes": null,
+     "steps": [
+      "Heat a large cast-iron griddle or skillet over high heat.",
+      "Cook the mushrooms dry and undisturbed until their water cooks off, 6 to 8 minutes.",
+      "Toss the mushrooms with the butter and salt and transfer to a bowl.",
+      "Warm the queso in a small saucepan over low heat, stirring, until molten.",
+      "Lower the heat to medium-high and cook the onions 3 minutes.",
+      "Add the peppers and cook until both are soft and browned at the edges, about 5 minutes more, then push to one side.",
+      "Put the meat on the cleared hot surface, working in batches if needed, and season with the salt, MSG and pepper.",
+      "Chop the meat with two spatulas as it cooks.",
+      "When just past pink, pile it and fold in the onions and peppers.",
+      "Lay the provolone on top if using and let it slump 30 seconds.",
+      "Toast the rolls face-down in the skillet until golden, 1 to 2 minutes.",
+      "Scoop the meat into the rolls and spoon queso over the top.",
+      "Wrap in paper, tape, rest 2 minutes and cut through the paper."
+     ],
+     "yield": null,
+     "groups": [
+      {
+       "name": "",
+       "ingredients": [
+        "2040 g shaved chuck eye",
+        "14 g kosher salt (Diamond Crystal), for the meat and vegetables (about 1 1/2 Tbsp)",
+        "6 g MSG (about 1 1/2 tsp)",
+        "2.5 g black pepper, freshly ground (about 1 tsp)",
+        "850 g hoagie rolls, 8 inch (about 10)",
+        "400 g yellow onions, sliced thin (about 2 large)",
+        "320 g green bell peppers, sliced (about 2)",
+        "340 g cremini, sliced thick",
+        "28 g butter and 4.5 g kosher salt (Diamond Crystal), for the mushrooms (about 2 Tbsp butter and 1 1/2 tsp salt)",
+        "170 g provolone (about 8 slices)",
+        "480 g [queso](queso-american-cheddar), about 1/4 cup per sandwich (about 2 cups)",
+        "Sandwich paper and tape"
+       ]
+      }
+     ],
+     "nutrition": null
+    }
+   ],
    "extras": {}
   },
   {
@@ -3293,6 +3274,101 @@
    "extras": {}
   },
   {
+   "id": "dutch-oven-cornbread",
+   "title": "Dutch Oven Cornbread (Jiffy)",
+   "category": "Sides & Breads",
+   "cuisine": "American",
+   "yield": "1 dutch oven, serves 8",
+   "tags": [],
+   "traits": [
+    "camping"
+   ],
+   "diet": [],
+   "groups": [
+    {
+     "name": "",
+     "ingredients": [
+      "964 g Jiffy corn muffin mix (about 4 boxes)",
+      "600 g milk and 200 g eggs, whisked together (about 4 large eggs)",
+      "2 Tbsp lard (about 30 g)",
+      "1/2 cup honey and 1 stick salted butter, for the table (about 170 g honey and 113 g butter)"
+     ]
+    }
+   ],
+   "steps": [
+    "Preheat the bare cast iron dutch oven with the lard, swirled to coat the bottom and 5 cm up the sides, until it shimmers.",
+    "Pour the wet mix in, dump the Jiffy on top, stir fast and put the lid on.",
+    "Set a third of the coals underneath and two-thirds on the lid.",
+    "Rotate the pot a quarter turn every 10 minutes.",
+    "Bake 25 to 35 minutes, checking at 25.",
+    "Home oven method: preheat an enameled dutch oven dry at 220°C for 15 minutes once the oven is up.",
+    "Home oven method: add the lard, swirl and return to the oven 3 to 4 minutes to heat the fat.",
+    "Home oven method: pour in the wet mix, dump in the Jiffy, stir fast and level.",
+    "Home oven method: bake uncovered 30 to 40 minutes, checking at 30, until golden and a skewer comes out clean; tent with foil if the top browns early.",
+    "Rest 10 minutes before cutting."
+   ],
+   "notes": "",
+   "nutrition": {
+    "serving": "1 wedge, about 225 g (1 of 8)",
+    "servings": 8,
+    "assumptions": "Four 8.5 oz boxes of Jiffy at label values and all 30 g of the pan lard counted as absorbed. Table honey and salted butter split evenly across 8.",
+    "per_serving": {
+     "fat_g": 33,
+     "carbs_g": 106,
+     "fiber_g": 3.1,
+     "sugar_g": 44,
+     "calories": 770,
+     "protein_g": 12,
+     "sat_fat_g": 17,
+     "sodium_mg": 1190,
+     "cholesterol_mg": 150
+    }
+   },
+   "rating": 0,
+   "photos": [],
+   "credit": null,
+   "developed": "2026-10-15",
+   "updated_at": "2026-10-26T21:10:47.8541+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Added an at-home method tab; camping moved from the title to the camping tag."
+    }
+   ],
+   "method": "Coals",
+   "alt_methods": [
+    {
+     "name": "At home",
+     "notes": null,
+     "steps": [
+      "Heat the oven to 425°F with an enameled dutch oven inside, dry and uncovered.",
+      "Once the oven is up, heat the dutch oven 15 minutes more.",
+      "Add the lard and swirl to coat the bottom and 5 cm up the sides.",
+      "Return the pot to the oven 3 to 4 minutes to heat the fat.",
+      "Pour in the wet mix.",
+      "Dump in the Jiffy, stir fast and level.",
+      "Bake uncovered 30 to 40 minutes, checking at 30, until golden and a skewer comes out clean.",
+      "Tent with foil if the top browns early.",
+      "Rest 10 minutes before cutting."
+     ],
+     "yield": null,
+     "groups": [
+      {
+       "name": "",
+       "ingredients": [
+        "964 g Jiffy corn muffin mix (about 4 boxes)",
+        "600 g milk and 200 g eggs, whisked together (about 2 1/2 cups milk and 4 large eggs)",
+        "30 g lard (about 2 Tbsp)",
+        "170 g honey and 113 g salted butter, for the table (about 1/2 cup honey and 1 stick butter)"
+       ]
+      }
+     ],
+     "nutrition": null
+    }
+   ],
+   "extras": {}
+  },
+  {
    "id": "escabeche-pickles",
    "title": "Escabeche Pickles",
    "category": "Sauces & Condiments",
@@ -3375,6 +3451,164 @@
    "changes": [],
    "method": "",
    "alt_methods": [],
+   "extras": {}
+  },
+  {
+   "id": "foil-packet-bar",
+   "title": "Foil Packet Bar",
+   "category": "Mains",
+   "cuisine": "American",
+   "yield": "8 packets",
+   "tags": [],
+   "traits": [
+    "camping"
+   ],
+   "diet": [
+    "gluten-free"
+   ],
+   "groups": [
+    {
+     "name": "Liner and base",
+     "ingredients": [
+      "1 head cabbage, outer leaves whole plus 1 cm rounds (about 1.1 kg)",
+      "900 g frozen tater tots (about one 2 lb bag)"
+     ]
+    },
+    {
+     "name": "Proteins",
+     "ingredients": [
+      "12 oz andouille, sliced (about 340 g)",
+      "14 oz plain smoked ham, 15 mm dice (about 397 g)",
+      "350 g [barbacoa](barbacoa)",
+      "542 g [carnitas](carnitas)",
+      "10 oz [mushroom duxelles mix](mushroom-duxelles-mix) (about 283 g)",
+      "12 oz [red beans](thick-red-beans) (about 340 g)"
+     ]
+    },
+    {
+     "name": "Vegetables",
+     "ingredients": [
+      "2 yellow onions, diced 1 cm (about 300 g)",
+      "2 celery ribs, diced 1 cm (about 100 g)",
+      "1 green bell pepper, diced 1 cm (about 160 g)",
+      "1 carrot, diced 1 cm (about 60 g)",
+      "2 zucchini, half-moons 1 cm (about 400 g)",
+      "8 oz frozen corn (about 227 g)",
+      "8 jalapeños, sliced (about 120 g)",
+      "4 habaneros, sliced, separate board (about 32 g)"
+     ]
+    },
+    {
+     "name": "Finish",
+     "ingredients": [
+      "8 pats butter, 15 g each (about 120 g)",
+      "8 oz Velveeta, cut into 1.5 cm cubes (about 227 g)",
+      "To finish: 2 Tbsp [Creole seasoning](creole-seasoning), homemade or Tony Chachere's (about 15 g), 1 Tbsp chili flakes (about 5 g), 1/4 cup hot sauce (about 60 g) and 1 cup each [salsa verde](salsa-verde-broiled) and [salsa roja](salsa-roja-de-arbol), homemade or jarred (about 240 g each)"
+     ]
+    }
+   ],
+   "steps": [
+    "Build the fire at least 90 minutes ahead so there is a bed of coals.",
+    "Lay heavy-duty 18-inch foil double, and line each packet with cabbage.",
+    "Add the tots.",
+    "Add proteins, beans and vegetables to taste.",
+    "Add a pat of butter to every packet.",
+    "Lay cheese cubes on top of the fillings.",
+    "Seal the packets tightly.",
+    "Cook in the coals about 20 minutes, flipping once; never open packets on the fire.",
+    "Grill backup: 200°C, lid down, 20 to 25 minutes, flipped once."
+   ],
+   "notes": "",
+   "nutrition": {
+    "serving": "1 adult packet, about 680 g (1 of 8)",
+    "servings": 8,
+    "assumptions": "Assumes every component, including the full table spread of seasoning, hot sauce and salsas, gets used across 8 packets, with about 600 g of the cabbage head eaten (the rest is liner left in the foil). Barbacoa, carnitas, duxelles, red beans and salsas computed from their own recipes.",
+    "per_serving": {
+     "fat_g": 85,
+     "carbs_g": 79,
+     "fiber_g": 16,
+     "sugar_g": 19,
+     "calories": 1320,
+     "protein_g": 62,
+     "sat_fat_g": 36,
+     "sodium_mg": 4690,
+     "cholesterol_mg": 250
+    }
+   },
+   "rating": 0,
+   "photos": [],
+   "credit": null,
+   "developed": "2026-10-15",
+   "updated_at": "2026-10-26T21:10:48.341071+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Added an at-home method tab; camping moved from the title to the camping tag."
+    }
+   ],
+   "method": "Coals",
+   "alt_methods": [
+    {
+     "name": "At home",
+     "notes": null,
+     "steps": [
+      "Heat the oven to 425°F.",
+      "Lay heavy-duty 18-inch foil double, and line each packet with cabbage.",
+      "Add the tots.",
+      "Add proteins, beans and vegetables to taste.",
+      "Add a pat of butter to every packet.",
+      "Lay cheese cubes on top of the fillings.",
+      "Seal the packets tightly.",
+      "Set the packets on sheet pans in a single layer.",
+      "Bake 30 to 35 minutes, until the tots are hot through and the cheese is melted.",
+      "Open one packet carefully to check before pulling the rest.",
+      "Serve with the Creole seasoning, chili flakes, hot sauce and salsas on the side."
+     ],
+     "yield": null,
+     "groups": [
+      {
+       "name": "Liner and base",
+       "ingredients": [
+        "1100 g cabbage, outer leaves whole plus 1 cm rounds (about 1 head)",
+        "900 g frozen tater tots (about one 2 lb bag)"
+       ]
+      },
+      {
+       "name": "Proteins",
+       "ingredients": [
+        "340 g andouille, sliced (about 12 oz)",
+        "397 g plain smoked ham, 15 mm dice (about 14 oz)",
+        "350 g [barbacoa](barbacoa)",
+        "542 g [carnitas](carnitas)",
+        "283 g [mushroom duxelles mix](mushroom-duxelles-mix) (about 10 oz)",
+        "340 g [red beans](thick-red-beans) (about 12 oz)"
+       ]
+      },
+      {
+       "name": "Vegetables",
+       "ingredients": [
+        "300 g yellow onions, diced 1 cm (about 2 medium)",
+        "100 g celery, diced 1 cm (about 2 ribs)",
+        "160 g green bell pepper, diced 1 cm (about 1)",
+        "60 g carrot, diced 1 cm (about 1 medium)",
+        "400 g zucchini, half-moons 1 cm (about 2)",
+        "227 g frozen corn (about 8 oz)",
+        "120 g jalapeños, sliced (about 8)",
+        "32 g habaneros, sliced, separate board (about 4)"
+       ]
+      },
+      {
+       "name": "Finish",
+       "ingredients": [
+        "120 g butter, cut into 15 g pats (about 8 pats)",
+        "227 g Velveeta, cut into 1.5 cm cubes (about 8 oz)",
+        "To finish: 15 g [Creole seasoning](creole-seasoning), homemade or Tony Chachere's (about 2 Tbsp), 5 g chili flakes (about 1 Tbsp), 60 g hot sauce (about 1/4 cup) and 240 g each [salsa verde](salsa-verde-broiled) and [salsa roja](salsa-roja-de-arbol), homemade or jarred (about 1 cup each)"
+       ]
+      }
+     ],
+     "nutrition": null
+    }
+   ],
    "extras": {}
   },
   {
@@ -3864,10 +4098,69 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-03",
-   "updated_at": "2026-10-26T20:37:09.811832+00:00",
-   "changes": [],
-   "method": "",
-   "alt_methods": [],
+   "updated_at": "2026-10-26T21:10:48.624123+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Added an at-home method tab; camping moved from the title to the camping tag."
+    }
+   ],
+   "method": "Campfire grill",
+   "alt_methods": [
+    {
+     "name": "At home",
+     "notes": null,
+     "steps": [
+      "Heat an outdoor grill to medium, 400 to 450°F.",
+      "Clean and oil the grates.",
+      "Stir the Aleppo into the oil and let it sit a few minutes.",
+      "Toss each vegetable in its own bowl with enough oil to look glossy, then salt and pepper.",
+      "Thread onto bamboo skewers without crowding; skewer mushrooms through the side of the cap.",
+      "Grill 8 to 10 minutes, turning 2 or 3 times, until colored and the squash gives slightly.",
+      "Grill the lemon halves cut side down 3 to 5 minutes, undisturbed, until deeply browned.",
+      "Off the heat, squeeze the warm charred lemon over the skewers.",
+      "Drizzle with olive oil, and balsamic glaze if using."
+     ],
+     "yield": null,
+     "groups": [
+      {
+       "name": "Vegetables (all cut to about 3/4 inch)",
+       "ingredients": [
+        "600 g zucchini, cut into coins (about 3 medium)",
+        "400 g yellow summer squash, cut into coins (about 2 medium)",
+        "800 g bell peppers, red or orange, cut into squares slightly smaller than the coins (about 5)",
+        "360 g poblanos, cut into squares (about 3)",
+        "680 g cremini mushrooms, whole, wiped not washed (about 1 1/2 lb, roughly 34)",
+        "300 g red onions, cut into wedges (about 2 medium)"
+       ]
+      },
+      {
+       "name": "Toss",
+       "ingredients": [
+        "110 g neutral oil, canola (about 1/2 cup)",
+        "6 g Aleppo pepper (about 1 Tbsp)",
+        "45 g kosher salt, Diamond Crystal (about 5 Tbsp)",
+        "14 g black pepper, freshly ground (about 2 Tbsp)"
+       ]
+      },
+      {
+       "name": "Finish",
+       "ingredients": [
+        "300 g lemons, halved crosswise (about 3)",
+        "55 g olive oil, for drizzling (about 1/4 cup)",
+        "80 g balsamic glaze, optional (about 1/4 cup)"
+       ]
+      },
+      {
+       "name": "Equipment",
+       "ingredients": [
+        "About 40 bamboo skewers"
+       ]
+      }
+     ],
+     "nutrition": null
+    }
+   ],
    "extras": {}
   },
   {
@@ -3990,10 +4283,48 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:10.71558+00:00",
-   "changes": [],
-   "method": "",
-   "alt_methods": [],
+   "updated_at": "2026-10-26T21:10:49.073527+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Added an at-home method tab; camping moved from the title to the camping tag."
+    }
+   ],
+   "method": "Camp stove",
+   "alt_methods": [
+    {
+     "name": "At home",
+     "notes": null,
+     "steps": [
+      "Bring the water to a boil in a 3 qt pot over high heat.",
+      "Whisk in the Swiss Miss until dissolved.",
+      "Remove the pot from the heat.",
+      "Stir in the cold half-and-half.",
+      "Ladle into mugs.",
+      "Top each mug with marshmallows, whipped cream and, for adults, spiced rum or Baileys."
+     ],
+     "yield": null,
+     "groups": [
+      {
+       "name": "",
+       "ingredients": [
+        "1420 g water (about 6 cups)",
+        "330 g Swiss Miss, per the canister scoop (about 12 servings)",
+        "725 g half-and-half, cold (about 3 cups)"
+       ]
+      },
+      {
+       "name": "At the mug",
+       "ingredients": [
+        "100 g mini marshmallows (about 2 cups)",
+        "90 g canned whipped cream, about 1/4 cup per mug (about 2 1/4 cups)",
+        "228 g spiced rum or Baileys, for adults, about 2 Tbsp (1 oz) per mug (about 1 cup)"
+       ]
+      }
+     ],
+     "nutrition": null
+    }
+   ],
    "extras": {}
   },
   {
@@ -4066,10 +4397,56 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:10.514566+00:00",
-   "changes": [],
-   "method": "",
-   "alt_methods": [],
+   "updated_at": "2026-10-26T21:10:48.848459+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Added an at-home method tab; camping moved from the title to the camping tag."
+    }
+   ],
+   "method": "Camp stove",
+   "alt_methods": [
+    {
+     "name": "At home",
+     "notes": null,
+     "steps": [
+      "Heat the cream in a small saucepan over medium heat until steaming, about 2 minutes.",
+      "Pour the cream over the chopped chocolate.",
+      "Rest 2 minutes.",
+      "Whisk until smooth.",
+      "Whisk in the cocoa, sugar, vanilla and salt. Yields about 500 g.",
+      "Heat the milk in a large pot over medium-low heat to 158°F, stirring constantly, until steaming but not simmering.",
+      "Whisk in the ganache until smooth.",
+      "Ladle into mugs.",
+      "Top each mug with marshmallows and whipped cream."
+     ],
+     "yield": null,
+     "groups": [
+      {
+       "name": "Ganache (make ahead)",
+       "ingredients": [
+        "260 g dark chocolate (60 to 70%), chopped",
+        "130 g heavy cream",
+        "40 g cocoa powder",
+        "60 g sugar",
+        "5 g vanilla",
+        "3 g salt"
+       ]
+      },
+      {
+       "name": "To serve",
+       "ingredients": [
+        "1900 g whole milk (about 7 3/4 cups)",
+        "500 g ganache, the whole batch",
+        "100 g mini marshmallows (about 2 cups)",
+        "70 g full-size marshmallows on sticks, one per mug (about 10)",
+        "185 g aerosol whipped cream (about one 6.5 oz can)"
+       ]
+      }
+     ],
+     "nutrition": null
+    }
+   ],
    "extras": {}
   },
   {
@@ -4483,7 +4860,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-06",
-   "updated_at": "2026-10-26T20:37:12.011692+00:00",
+   "updated_at": "2026-10-26T21:10:50.829933+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -4492,11 +4869,30 @@
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added a spicy version."
     }
    ],
    "method": "",
    "alt_methods": [],
-   "extras": {}
+   "extras": {
+    "spicy": {
+     "add": [],
+     "steps": [],
+     "swaps": [
+      {
+       "to": "10 g cayenne",
+       "from": "5 g cayenne"
+      },
+      {
+       "to": "40 g Louisiana hot sauce",
+       "from": "20 g Louisiana hot sauce"
+      }
+     ]
+    }
+   }
   },
   {
    "id": "low-country-seafood-boil",
@@ -5648,16 +6044,41 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-06",
-   "updated_at": "2026-10-26T20:37:16.569655+00:00",
+   "updated_at": "2026-10-26T21:10:51.084465+00:00",
    "changes": [
     {
      "date": "2026-10-26",
      "note": "Plain rice directions dropped; serve over basmati."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added a spicy version."
     }
    ],
    "method": "",
    "alt_methods": [],
-   "extras": {}
+   "extras": {
+    "spicy": {
+     "add": [
+      {
+       "line": "5 g hot Indian red chili powder (about 2 tsp)",
+       "group": "Masala"
+      }
+     ],
+     "steps": [
+      {
+       "to": "Add the Kashmiri chili powder, hot red chili powder, coriander, ground cumin and turmeric with a splash of water; stir constantly for 1 minute.",
+       "from": "Add the Kashmiri chili powder, coriander, ground cumin and turmeric with a splash of water; stir constantly for 1 minute."
+      }
+     ],
+     "swaps": [
+      {
+       "to": "40 g serrano chiles, minced, seeds left in (about 6)",
+       "from": "20 g serrano chiles, minced (about 3)"
+      }
+     ]
+    }
+   }
   },
   {
    "id": "ras-el-hanout-caraway",
@@ -6700,6 +7121,99 @@
    "extras": {}
   },
   {
+   "id": "stovetop-popcorn",
+   "title": "Stovetop Popcorn",
+   "category": "Sides & Breads",
+   "cuisine": "American",
+   "yield": "about 14 cups",
+   "tags": [],
+   "traits": [
+    "camping",
+    "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+   ],
+   "groups": [
+    {
+     "name": "",
+     "ingredients": [
+      "1/2 cup popcorn kernels (about 105 g)",
+      "3 Tbsp neutral oil (about 41 g)",
+      "2 tsp fine salt (about 12 g)"
+     ]
+    }
+   ],
+   "steps": [
+    "Put an 8 qt pot with a lid over the fire.",
+    "Add the oil and 3 kernels.",
+    "When those pop, add the rest of the kernels.",
+    "Take the pot off the heat 30 seconds, then return it and shake steadily.",
+    "Pull when the popping slows to a few seconds between pops.",
+    "Salt immediately while steaming."
+   ],
+   "notes": "",
+   "nutrition": {
+    "serving": "3.5 cups popped, about 37 g (1 of 4)",
+    "servings": 4,
+    "assumptions": "Batch of about 14 cups split into four 3.5 cup servings; all oil and salt counted as eaten.",
+    "per_serving": {
+     "fat_g": 11,
+     "carbs_g": 20,
+     "fiber_g": 3.8,
+     "sugar_g": 0.2,
+     "calories": 190,
+     "protein_g": 3.4,
+     "sat_fat_g": 1,
+     "sodium_mg": 1170,
+     "cholesterol_mg": 0
+    }
+   },
+   "rating": 0,
+   "photos": [],
+   "credit": null,
+   "developed": "2026-10-15",
+   "updated_at": "2026-10-26T21:10:49.618924+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Added an at-home method tab; camping moved from the title to the camping tag."
+    }
+   ],
+   "method": "Campfire",
+   "alt_methods": [
+    {
+     "name": "At home",
+     "notes": null,
+     "steps": [
+      "Put an 8 qt pot with a lid over medium-high heat.",
+      "Add the oil and 3 kernels.",
+      "When those pop, add the rest of the kernels.",
+      "Take the pot off the heat 30 seconds, then return it and shake steadily.",
+      "Pull when the popping slows to a few seconds between pops.",
+      "Salt immediately while steaming."
+     ],
+     "yield": null,
+     "groups": [
+      {
+       "name": "",
+       "ingredients": [
+        "105 g popcorn kernels (about 1/2 cup)",
+        "41 g neutral oil (about 3 Tbsp)",
+        "12 g fine salt (about 2 tsp)"
+       ]
+      }
+     ],
+     "nutrition": null
+    }
+   ],
+   "extras": {}
+  },
+  {
    "id": "taco-seasoning",
    "title": "Taco Seasoning",
    "category": "Spice Blends",
@@ -7294,7 +7808,6 @@
  ],
  "aliases": {
   "make-ahead-breakfast-burritos-bacon-sausage-mushroom": "breakfast-burritos",
-  "camp-cheesesteaks-chuck-eye": "camp-cheesesteaks",
   "red-beans-camp": "thick-red-beans",
   "ldw-dill-pickle-jar": "dill-pickles",
   "camp-breakfast-burritos-cheesy-sausage": "cheesy-sausage-breakfast-burritos",
@@ -7304,10 +7817,15 @@
   "barbacoa-crockpot": "barbacoa",
   "mild-chili-toasted-dried-chiles": "chili",
   "mild-chili": "chili",
+  "camp-cheesesteaks-chuck-eye": "cheesesteaks",
+  "camp-cheesesteaks": "cheesesteaks",
   "ldw-escabeche-pickle-jar": "escabeche-pickles",
+  "campfire-dutch-oven-cornbread": "dutch-oven-cornbread",
   "camp-hot-chocolate-swiss-miss": "hot-chocolate-swiss-miss",
+  "campfire-foil-packet-bar": "foil-packet-bar",
   "kofta-beef-lamb-logs": "kofta",
   "papas-arrugadas-mojo-verde": "papas-arrugadas",
+  "campfire-stovetop-popcorn": "stovetop-popcorn",
   "ldw-remoulade": "remoulade",
   "san-marzano-tomato-soup": "tomato-soup",
   "growler-toasted-almond-revolver": "toasted-almond-revolver",
