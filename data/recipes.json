@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T17:32:21+00:00",
+ "generated": "2026-10-26T18:07:44+00:00",
  "recipes": [
   {
    "id": "brussels-sprouts-bacon",
@@ -437,7 +437,7 @@
     "Add the garlic, oregano (crushed between your palms) and cumin. Stir until fragrant.",
     "Add the potatoes, stock, chopped porcini and strained soaking liquid, bay leaves, allspice and tied dill stems.",
     "Bring to a boil, then simmer until the potatoes are fork-tender, about 20 minutes.",
-    "Stir in all the pickled vegetables, both brines, the kielbasa and cremini, and the pepper.",
+    "Stir in all the pickled vegetables, both brines, the kielbasa and cremini and the pepper.",
     "Add as much of the reserve stock as fits while leaving about 1 inch of headspace. Simmer 10 minutes.",
     "Remove the bay leaves, allspice and dill stems.",
     "Stir in the MSG and taste. Add more brine for sourness and the salt only if needed.",
@@ -507,7 +507,7 @@
     "Pull out the cinnamon stick, and the cloves if whole.",
     "Taste and correct salt and vinegar, finishing with a splash of cider vinegar. It should be sharp."
    ],
-   "notes": "Improves made a day or two ahead; refrigerate, reheat covered on low, and sharpen with a splash of cider vinegar.",
+   "notes": "Improves made a day or two ahead; refrigerate, reheat covered on low and sharpen with a splash of cider vinegar.",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -646,7 +646,7 @@
     "Fold in the cream cheese, cheddar and celery seed.",
     "Chill overnight.",
     "Cut the puff pastry into 12 pieces and portion the cold filling onto them.",
-    "Fold, seal hard with a fork, and cut two vent slits.",
+    "Fold, seal hard with a fork and cut two vent slits.",
     "Freeze raw on a sheet pan until firm.",
     "Brush the frozen pies with egg wash.",
     "Press blue cheese crumbles onto the tops of half the pies.",
@@ -832,10 +832,10 @@
     "Reheat the queso in the dutch oven at the edge of the coals until molten.",
     "Cook the onions on the griddle, adding the peppers a few minutes later, then push to one side.",
     "Put the meat on the cleared hot surface and chop with two spatulas.",
-    "When just past pink, pile it, fold in the onions and peppers, and add provolone if using; let it slump 30 seconds.",
+    "When just past pink, pile it, fold in the onions and peppers and add provolone if using; let it slump 30 seconds.",
     "Toast the rolls face-down on the edge of the griddle.",
     "Scoop the meat into the rolls and spoon queso over the top.",
-    "Wrap in paper, tape, rest 2 minutes, and cut through the paper."
+    "Wrap in paper, tape, rest 2 minutes and cut through the paper."
    ],
    "notes": "",
    "rating": 0,
@@ -886,13 +886,13 @@
    ],
    "steps": [
     "Preheat the bare cast iron dutch oven with the lard, swirled to coat the bottom and 5 cm up the sides, until it shimmers.",
-    "Pour the wet mix in, dump the Jiffy on top, stir fast, and put the lid on.",
+    "Pour the wet mix in, dump the Jiffy on top, stir fast and put the lid on.",
     "Set a third of the coals underneath and two-thirds on the lid.",
     "Rotate the pot a quarter turn every 10 minutes.",
     "Bake 25 to 35 minutes, checking at 25.",
     "Home oven method: preheat an enameled dutch oven dry at 220°C for 15 minutes once the oven is up.",
-    "Home oven method: add the lard, swirl, and return to the oven 3 to 4 minutes to heat the fat.",
-    "Home oven method: pour in the wet mix, dump in the Jiffy, stir fast, and level.",
+    "Home oven method: add the lard, swirl and return to the oven 3 to 4 minutes to heat the fat.",
+    "Home oven method: pour in the wet mix, dump in the Jiffy, stir fast and level.",
     "Home oven method: bake uncovered 30 to 40 minutes, checking at 30, until golden and a skewer comes out clean; tent with foil if the top browns early.",
     "Rest 10 minutes before cutting."
    ],
@@ -1102,7 +1102,7 @@
     "Put everything in an enameled dutch oven with the orange peels and the bone.",
     "Add water to come halfway up the meat.",
     "Cover and cook at 165°C for 3 hours.",
-    "Uncover, raise to 190°C, and cook about 30 minutes until the liquid renders down and the edges catch.",
+    "Uncover, raise to 190°C and cook about 30 minutes until the liquid renders down and the edges catch.",
     "Pull the bone.",
     "Shred coarsely, keeping some fat with the meat.",
     "Skim and save any fat that separates.",
@@ -1305,7 +1305,7 @@
     "Brown the sausage and drain most of the fat.",
     "Off the heat, tear in the American cheese and stir until it coats the sausage.",
     "Warm one tortilla in a dry skillet 15 to 20 seconds a side.",
-    "Fill with about 6 oz of potatoes, eggs, sausage and cheddar, and roll tight.",
+    "Fill with about 6 oz of potatoes, eggs, sausage and cheddar and roll tight.",
     "Repeat with each tortilla, warming one at a time."
    ],
    "notes": "Serve with hot sauce on the side. Freezes well for up to 3 months if the fillings are cooled completely before rolling and each burrito is wrapped in foil; reheat in the foil at 350°F or at the edge of a campfire coal bed, turning twice, until hot through.",
@@ -1318,7 +1318,7 @@
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "All 10 g salt on the potatoes counted; Simply Potatoes Southwest label values, 10-inch tortillas at 72 g each, and about a fifth of the sausage fat drained off. Hot sauce on the side not included.",
+    "assumptions": "All 10 g salt on the potatoes counted; Simply Potatoes Southwest label values, 10-inch tortillas at 72 g each and about a fifth of the sausage fat drained off. Hot sauce on the side not included.",
     "per_serving": {
      "calories": 610,
      "carbs_g": 49,
@@ -1377,7 +1377,7 @@
     "Pressure-cook the chickpeas with the tea bag (or amla) for color.",
     "Brown the onions properly.",
     "Add tomatoes and cook down until the oil separates.",
-    "Add the spices, anardana, and amchur, then the chickpeas.",
+    "Add the spices, anardana and amchur, then the chickpeas.",
     "Crush in kasuri methi at the end.",
     "Finish with a ghee tadka of ginger julienne and green chili.",
     "Salt boldly."
@@ -1706,11 +1706,11 @@
     }
    ],
    "steps": [
-    "Combine the mustard seeds, vinegar, and water in a jar.",
+    "Combine the mustard seeds, vinegar and water in a jar.",
     "Cover with a regular lid and leave at room temperature about 24 hours, stirring once or twice, until the seeds absorb most of the liquid; add a splash of water if they look dry.",
     "Blend about half the mixture with an immersion blender in a tall narrow container until creamy, leaving the rest whole.",
     "Stir both halves back together.",
-    "Stir in the horseradish, salt, and cayenne.",
+    "Stir in the horseradish, salt and cayenne.",
     "Seal and refrigerate 2 days before using."
    ],
    "notes": "Keeps 3 months refrigerated.",
@@ -1764,7 +1764,7 @@
     }
    ],
    "steps": [
-    "Toss the cabbage with the mayonnaise, Creole mustard, vinegar, and salt.",
+    "Toss the cabbage with the mayonnaise, Creole mustard, vinegar and salt.",
     "Refrigerate about 30 minutes.",
     "Serve on warmed, crisped French bread loaves piled with pulled cochon de lait."
    ],
@@ -1848,12 +1848,12 @@
    "steps": [
     "Heat the oven to 425F. Grease a 9x13 pan.",
     "In a large skillet over high heat, brown the pork, breaking it up, until well browned, about 8 minutes.",
-    "Add the garlic, cumin, oregano, salt, and the lime zest and juice.",
+    "Add the garlic, cumin, oregano, salt and the lime zest and juice.",
     "Add the orange juice and cook until the liquid is gone, about 4 minutes.",
     "Transfer to a bowl with the ham.",
     "In the same pan over medium heat, melt the butter. Cook the onion until soft, then add the garlic for 30 seconds.",
     "Stir in the flour and cook, stirring, 2 to 3 minutes until it smells nutty.",
-    "Warm the milk. Whisk it in gradually, bring to a simmer, and cook, stirring often, 12 to 15 minutes, until it coats the back of a spoon.",
+    "Warm the milk. Whisk it in gradually, bring to a simmer and cook, stirring often, 12 to 15 minutes, until it coats the back of a spoon.",
     "Off heat, stir in the Swiss, mustard, pickle brine, salt and pepper until smooth.",
     "Fold the ham, pork and chopped pickles into the sauce. Spread in the pan.",
     "Arrange the tots on top in a single tight layer.",
@@ -2917,7 +2917,7 @@
       "440 g Guinness (about one 14.9 oz can)",
       "1000 g chicken stock, to thin (about 1 L)",
       "20 g parsley, chopped (about 2/3 cup)",
-      "700 g sourdough and 100 g salted butter, for serving (about 1 large loaf, 14 slices, and 7 Tbsp)"
+      "700 g sourdough and 100 g salted butter, for serving (about 1 large loaf, 14 slices and 7 Tbsp)"
      ],
      "name": "To finish"
     }
@@ -3304,17 +3304,17 @@
     }
    ],
    "steps": [
-    "Dissolve the soaking salt in the soaking water, add the beans, and soak covered at room temperature 8 to 24 hours.",
+    "Dissolve the soaking salt in the soaking water, add the beans and soak covered at room temperature 8 to 24 hours.",
     "Drain and rinse the beans.",
     "Heat the lard over medium-high in a stock pot that holds at least 8 quarts.",
     "Brown the andouille in batches and remove to a plate, leaving the fat.",
-    "Add the onion, bell pepper, and celery; cook over medium, scraping up the fond, until soft, about 10 minutes.",
-    "Add the garlic, Creole seasoning, thyme, cayenne, and black pepper; stir until fragrant, about 1 minute.",
-    "Add the beans, ham hock, stock, water, and bay leaves.",
+    "Add the onion, bell pepper and celery; cook over medium, scraping up the fond, until soft, about 10 minutes.",
+    "Add the garlic, Creole seasoning, thyme, cayenne and black pepper; stir until fragrant, about 1 minute.",
+    "Add the beans, ham hock, stock, water and bay leaves.",
     "Bring to a full rolling boil and hold it there for at least 10 minutes.",
     "Drop to a low simmer, partially covered, stirring occasionally and scraping the bottom, about 90 minutes, until the beans are fully tender.",
     "Top up with water as needed to keep the beans just covered.",
-    "Remove the hock and bay leaves; shred the meat, discard skin and bone, and return the meat to the pot with the andouille.",
+    "Remove the hock and bay leaves; shred the meat, discard skin and bone and return the meat to the pot with the andouille.",
     "Mash about a third of the beans against the side of the pot (or pulse briefly with an immersion blender).",
     "Simmer uncovered, stirring often, until thick and creamy, about 30 minutes.",
     "Stir in the 20 g salt and the MSG, wait a couple of minutes, then taste a whole bean and add more salt in 5 g hits as needed.",
@@ -3322,7 +3322,7 @@
     "Cook the rice according to package directions.",
     "Serve the beans over rice topped with green onion and parsley."
    ],
-   "notes": "Freeze without rice, green onion, or parsley for up to 3 months; add them fresh when reheating. Thickens a lot when cold; thin with water when reheating and stir often to prevent scorching.",
+   "notes": "Freeze without rice, green onion or parsley for up to 3 months; add them fresh when reheating. Thickens a lot when cold; thin with water when reheating and stir often to prevent scorching.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -3335,7 +3335,7 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "About 7.2 kg of beans at 360 g per serving, with the 900 g dry rice split evenly; 15% of the soaking salt is counted, the ham hock yields about 250 g meat, and only the 20 g starting finishing salt is included.",
+    "assumptions": "About 7.2 kg of beans at 360 g per serving, with the 900 g dry rice split evenly; 15% of the soaking salt is counted, the ham hock yields about 250 g meat and only the 20 g starting finishing salt is included.",
     "per_serving": {
      "calories": 550,
      "carbs_g": 79,
@@ -3409,7 +3409,7 @@
     "0:19: ladle out ~500 ml of boil liquor and stir it into the melted garlic Old Bay butter.",
     "Kill the gas. Pull the basket and drain it.",
     "Return the food to the empty, still-hot pot.",
-    "Pour the butter and boil liquor over the top, sprinkle the 60 g Old Bay over in two or three passes, and toss with the paddle about 10 minutes.",
+    "Pour the butter and boil liquor over the top, sprinkle the 60 g Old Bay over in two or three passes and toss with the paddle about 10 minutes.",
     "Pour off everything that pools at the bottom into bowls for the table as the dip."
    ],
    "notes": "Melt the butter after any other prep, while the pot climbs. Keep warm until the toss. Hold tiny creamer potatoes until 0:05. Serve on a paper-covered table with dipping sauces.",
@@ -3523,8 +3523,8 @@
       "2640 g Mission Extra Grande 13-inch flour tortillas (about 24)",
       "250 g deli white American cheese (about 12 slices)",
       "340 g shredded cheese (about 12 oz)",
-      "Per burrito: 30 g bean paste, 60 to 75 g tots, 60 g rice, 100 g egg mixture, and 21 g American or 28 g shredded cheese (about 2 Tbsp paste, 7 to 9 tots, 1/3 cup rice, scant 1/2 cup egg, 1 slice or 1/4 cup cheese)",
-      "Per burrito, one of: 20 g bacon, 40 g sausage, or 44 g mushrooms (about 3 Tbsp bacon, 1/4 cup sausage, or 1/4 cup mushrooms)"
+      "Per burrito: 30 g bean paste, 60 to 75 g tots, 60 g rice, 100 g egg mixture and 21 g American or 28 g shredded cheese (about 2 Tbsp paste, 7 to 9 tots, 1/3 cup rice, scant 1/2 cup egg, 1 slice or 1/4 cup cheese)",
+      "Per burrito, one of: 20 g bacon, 40 g sausage or 44 g mushrooms (about 3 Tbsp bacon, 1/4 cup sausage or 1/4 cup mushrooms)"
      ],
      "name": "Assembly"
     }
@@ -3543,8 +3543,8 @@
     "Cut the egg slab into quarters on the pan to speed cooling.",
     "For the bean paste, cook the onion, garlic and poblano in the oil and butter until very soft.",
     "Add the beans, salt, pepper and cayenne or Aleppo, then blend smooth to a stiff, spreadable paste.",
-    "Fry the tots darker than you would eat them, salt them hot, and cool on a rack.",
-    "Heat the rice pouches, spread thin on a sheet pan to cool fast, and refrigerate.",
+    "Fry the tots darker than you would eat them, salt them hot and cool on a rack.",
+    "Heat the rice pouches, spread thin on a sheet pan to cool fast and refrigerate.",
     "Cool every component completely.",
     "Warm tortillas in stacks of 8 wrapped in foil at 350°F for 10 to 12 minutes; warm only one stack at a time.",
     "Smear bean paste over a 6 by 4 inch patch about 3 to 4 inches from the near edge.",
@@ -4192,10 +4192,10 @@
     }
    ],
    "steps": [
-    "Whisk the butter, stock, hot sauce, Worcestershire, garlic powder, and onion powder until smooth; keep warm so the butter stays liquid.",
+    "Whisk the butter, stock, hot sauce, Worcestershire, garlic powder and onion powder until smooth; keep warm so the butter stays liquid.",
     "Inject the pork all over in a 3 cm grid, going deep and pulling back slowly.",
     "Wipe off excess injection.",
-    "Mix the Creole seasoning, salt, brown sugar, and black pepper and coat the pork on all sides.",
+    "Mix the Creole seasoning, salt, brown sugar and black pepper and coat the pork on all sides.",
     "Refrigerate uncovered on a rack 24 to 36 hours.",
     "Heat the oven to 275°F (135°C).",
     "Roast the pork fat side up on a rack in a roasting pan until the internal temperature reaches 200°F (93°C) and the bone pulls free, 9 to 11 hours.",
@@ -4419,18 +4419,18 @@
     }
    ],
    "steps": [
-    "Dissolve the soaking salt in the soaking water, add the beans, and soak covered at room temperature about 12 hours.",
+    "Dissolve the soaking salt in the soaking water, add the beans and soak covered at room temperature about 12 hours.",
     "Drain and rinse the beans.",
-    "Add the beans, cooking water, and bay leaves to the stock pot.",
+    "Add the beans, cooking water and bay leaves to the stock pot.",
     "Bring to a full rolling boil and hold it there for at least 10 minutes.",
     "Drop to a low simmer, partially covered, until fully tender, about 75 minutes. Do not drain.",
     "While the beans simmer, heat the ghee in a large skillet or Dutch oven over medium.",
-    "Add the cumin seeds, cinnamon stick, cardamom pods, and cloves; stir until the cumin darkens, about 1 minute.",
+    "Add the cumin seeds, cinnamon stick, cardamom pods and cloves; stir until the cumin darkens, about 1 minute.",
     "Add the onion and cook over medium to medium-high, stirring often, until deep amber-brown with darker edges, 20 to 30 minutes; add a splash of water if the bottom catches.",
-    "Lower the heat to medium. Add the ginger, garlic, and serranos and cook until the raw smell is gone, about 2 minutes.",
-    "Add the Kashmiri chili powder, coriander, ground cumin, and turmeric with a splash of water; stir constantly for 1 minute.",
+    "Lower the heat to medium. Add the ginger, garlic and serranos and cook until the raw smell is gone, about 2 minutes.",
+    "Add the Kashmiri chili powder, coriander, ground cumin and turmeric with a splash of water; stir constantly for 1 minute.",
     "Add the crushed tomatoes and the 10 g salt; cook, stirring occasionally, until thick and the fat separates at the edges, about 15 minutes.",
-    "Remove the cinnamon stick, cardamom pods, and cloves from the masala.",
+    "Remove the cinnamon stick, cardamom pods and cloves from the masala.",
     "Remove the bay leaves from the bean pot.",
     "Scrape the masala into the beans.",
     "Mash about a quarter of the beans against the side of the pot or with an immersion blender.",
@@ -4438,10 +4438,10 @@
     "Stir in the garam masala and the kasuri methi crushed between your palms.",
     "Stir in the butter over low heat until emulsified.",
     "Add the 45 g salt and the MSG, tasting a whole bean as you go.",
-    "Rinse the rice well, soak 20 minutes, drain, and cook according to package directions.",
+    "Rinse the rice well, soak 20 minutes, drain and cook according to package directions.",
     "Finish with lemon juice and cilantro and serve over rice."
    ],
-   "notes": "Freeze without rice or cilantro for up to 3 months; the garam masala, methi, butter, and salt can go in before freezing. Add a fresh squeeze of lemon when reheating. Keeps 3 to 4 days in the fridge.",
+   "notes": "Freeze without rice or cilantro for up to 3 months; the garam masala, methi, butter and salt can go in before freezing. Add a fresh squeeze of lemon when reheating. Keeps 3 to 4 days in the fridge.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -5230,13 +5230,13 @@
     }
    ],
    "steps": [
-    "Toss the pork with the salt, oregano, cumin, and black pepper.",
+    "Toss the pork with the salt, oregano, cumin and black pepper.",
     "Refrigerate covered overnight.",
-    "Place the onion, garlic, and bay leaves in the slow cooker and add the pork.",
-    "Pour over the orange juice, lime juice, oil, and water.",
+    "Place the onion, garlic and bay leaves in the slow cooker and add the pork.",
+    "Pour over the orange juice, lime juice, oil and water.",
     "Tuck in the spent orange halves (do not add lime halves).",
     "Cover and cook on low about 10 hours, until fork-tender.",
-    "Discard the orange halves, onion, and bay leaves.",
+    "Discard the orange halves, onion and bay leaves.",
     "Break the pork into large shreds with two forks, keeping some chunks.",
     "Skim the fat from the juices and reserve both separately.",
     "To serve, heat a cast iron skillet over high with a spoonful of the reserved fat.",
@@ -5477,7 +5477,7 @@
     "For sweet pancakes, pour on the griddle and scatter chocolate chips or blueberries on the wet top.",
     "Flip once and cook through.",
     "After the pancakes are off, turn the griddle to low.",
-    "Melt the 60 g butter, add the eggs, and push slowly with a spatula until just set and still glossy."
+    "Melt the 60 g butter, add the eggs and push slowly with a spatula until just set and still glossy."
    ],
    "notes": "The wet mix keeps a couple of days refrigerated; whisk hard before using since the butter sets into flecks.",
    "rating": 0,

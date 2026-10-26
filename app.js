@@ -296,7 +296,7 @@ function wireFriendForm(r){
     e.preventDefault();
     const name=$("#ffName").value.trim(),note=$("#ffNote").value.trim(),msg=$("#ffMsg");
     if(!name){msg.textContent="Add your name first.";return}
-    if(!pick&&!note&&!file){msg.textContent="Pick some stars, write a note, or add a photo.";return}
+    if(!pick&&!note&&!file){msg.textContent="Pick some stars, write a note or add a photo.";return}
     msg.textContent="Posting…";store("rb.name",name);
     try{
       let photo_path=null;

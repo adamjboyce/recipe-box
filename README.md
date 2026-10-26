@@ -1,6 +1,6 @@
 # Ark's Vibes & Vittles
 
-The public, read-only copy of Ark's Vibes & Vittles, served by GitHub Pages. Friends can browse every recipe, scale batches, and leave their own ratings and notes without an account.
+The public, read-only copy of Ark's Vibes & Vittles, served by GitHub Pages. Friends can browse every recipe, scale batches and leave their own ratings and notes without an account.
 
 ## How it fits together
 
