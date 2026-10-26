@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T20:57:44+00:00",
+ "generated": "2026-10-26T21:05:10+00:00",
  "recipes": [
   {
    "id": "72-hour-pizza-dough",
@@ -99,7 +99,8 @@
    "updated_at": "2026-10-26T20:36:56.957621+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "brussels-sprouts-bacon",
@@ -164,7 +165,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "apple-cider-doughnut-focaccia",
@@ -253,7 +255,8 @@
    "updated_at": "2026-10-26T20:36:57.168804+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "banana-boats",
@@ -311,7 +314,8 @@
    "updated_at": "2026-10-26T20:36:57.38408+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "barbacoa",
@@ -431,7 +435,8 @@
      "groups": null,
      "nutrition": null
     }
-   ]
+   ],
+   "extras": {}
   },
   {
    "id": "beer-battered-walleye",
@@ -510,7 +515,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "black-bean-paste",
@@ -575,7 +581,8 @@
    "updated_at": "2026-10-26T20:36:58.461933+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "braised-red-cabbage",
@@ -646,7 +653,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "breakfast-burritos",
@@ -789,7 +797,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "salsa-verde-broiled",
@@ -860,7 +869,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "buffalo-chicken-hand-pies",
@@ -950,7 +960,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "cabbage-carrot-slaw-sumac-dressing",
@@ -1028,7 +1039,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "cajun-runoff-butter",
@@ -1085,7 +1097,8 @@
    "updated_at": "2026-10-26T20:37:00.660565+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "cajun-seasoning",
@@ -1153,7 +1166,8 @@
    "updated_at": "2026-10-26T20:37:00.869777+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "camp-cheesesteaks",
@@ -1228,7 +1242,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "campfire-dutch-oven-cornbread",
@@ -1288,7 +1303,8 @@
    "updated_at": "2026-10-26T20:37:01.520511+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "campfire-foil-packet-bar",
@@ -1379,7 +1395,8 @@
    "updated_at": "2026-10-26T20:37:01.728908+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "campfire-stovetop-popcorn",
@@ -1441,7 +1458,8 @@
    "updated_at": "2026-10-26T20:37:01.963034+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "carnitas",
@@ -1601,7 +1619,8 @@
       }
      }
     }
-   ]
+   ],
+   "extras": {}
   },
   {
    "id": "charred-broccoli-cauliflower",
@@ -1674,7 +1693,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "cheese-onion-potato-pasties",
@@ -1757,7 +1777,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "cheesy-sausage-breakfast-burritos",
@@ -1821,7 +1842,179 @@
    "updated_at": "2026-10-26T20:37:03.330902+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
+  },
+  {
+   "id": "chili",
+   "title": "Chili with Toasted Dried Chiles",
+   "category": "Soups & Stews",
+   "cuisine": "Tex-Mex",
+   "yield": "serves 8",
+   "tags": [],
+   "traits": [
+    "make-ahead",
+    "freezer",
+    "slow-cooker",
+    "long-cook"
+   ],
+   "diet": [],
+   "groups": [
+    {
+     "name": "Chili",
+     "ingredients": [
+      "900 g ground beef, 80/20",
+      "200 g yellow onion, chopped (about 1 large)",
+      "20 g garlic, minced (about 4 cloves)",
+      "28 g dried guajillo chiles, stemmed and seeded (about 4)",
+      "30 g dried ancho chiles, stemmed and seeded (about 2)",
+      "3 g dried morita chile, stemmed and seeded (about 1)",
+      "480 g beef stock, boiling (about 2 cups)",
+      "455 g dark red kidney beans, rinsed and drained (about two 15.5 oz cans)",
+      "455 g light red kidney beans, rinsed and drained (about two 15.5 oz cans)",
+      "820 g canned diced tomatoes, undrained (about two 14.5 oz cans)",
+      "65 g tomato paste (about 4 Tbsp)",
+      "120 g poblano, diced (about 1)",
+      "15 g jalapeno, seeded and minced (about 1)",
+      "4 g whole cumin seeds",
+      "2 g dried Mexican oregano, whole leaf",
+      "46 g fine salt",
+      "5 g MSG",
+      "3 g coarse ground black pepper",
+      "60 g saltine crackers, finely ground (about 20 crackers)"
+     ]
+    },
+    {
+     "name": "Toppings",
+     "ingredients": [
+      "150 g sharp cheddar, grated",
+      "240 g sour cream, for serving (about 1 cup)",
+      "40 g scallions, sliced (about 4, 1/2 cup)",
+      "150 g yellow onion, diced (about 1 medium, 1 cup)",
+      "90 g pickled jalapenos, drained (about 3/4 cup)",
+      "15 g cilantro, chopped (about 1/2 cup)",
+      "130 g lime wedges (about 2 limes)",
+      "200 g oyster crackers or Fritos (about 25 g per bowl)",
+      "40 g hot sauce, for serving (about 2 1/2 Tbsp)"
+     ]
+    }
+   ],
+   "steps": [
+    "Toast the guajillos, anchos and morita in a dry skillet over medium heat, pressing flat, about 30 seconds per side, until fragrant. Do not blacken.",
+    "Toast the cumin seeds in the same skillet until fragrant and a shade darker. Grind.",
+    "Cover the chiles with the boiling stock and soak 20 minutes.",
+    "Blend the chiles with the soaking liquid until smooth.",
+    "Brown the beef with the onion and garlic. Drain excess fat if desired.",
+    "Add the tomato paste and ground cumin and cook, stirring, until darkened.",
+    "Crush in the oregano.",
+    "Transfer to the slow cooker. Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs. Stir.",
+    "If it looks tight, stir in more stock until it is a thick stew that settles when stirred.",
+    "Cook on low overnight, about 8 hours.",
+    "Cool in shallow containers and refrigerate, ideally overnight.",
+    "Reheat gently, adjust salt and serve with the toppings."
+   ],
+   "notes": "Best made 1 to 2 days ahead; the flavor improves overnight. Cool in shallow containers, not in the slow cooker insert. Freezes well for up to 3 months.",
+   "nutrition": {
+    "serving": "about 1.5 cups chili plus toppings (1 of 8)",
+    "servings": 8,
+    "assumptions": "Beef fat not drained; regular beef stock and canned beans; all toppings counted, with Fritos for the crackers and about 30 g of juice squeezed from the limes.",
+    "per_serving": {
+     "fat_g": 46,
+     "carbs_g": 61,
+     "fiber_g": 15,
+     "sugar_g": 9,
+     "calories": 810,
+     "protein_g": 39,
+     "sat_fat_g": 17.5,
+     "sodium_mg": 3710,
+     "cholesterol_mg": 115
+    }
+   },
+   "rating": 0,
+   "photos": [],
+   "credit": null,
+   "developed": "2026-10-15",
+   "updated_at": "2026-10-26T21:05:08.902771+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "MSG added at about 0.3% of the dish."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added a stovetop method tab."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added a spicy version; title drops Mild."
+    }
+   ],
+   "method": "Slow cooker",
+   "alt_methods": [
+    {
+     "name": "Stovetop",
+     "notes": "Best made 1 to 2 days ahead; the flavor improves overnight. Freezes well for up to 3 months.",
+     "steps": [
+      "Toast the guajillos, anchos and morita in a dry skillet over medium heat, pressing flat, about 30 seconds per side, until fragrant. Do not blacken.",
+      "Toast the cumin seeds in the same skillet until fragrant and a shade darker. Grind.",
+      "Cover the chiles with the boiling stock and soak 20 minutes.",
+      "Blend the chiles with the soaking liquid until smooth.",
+      "Brown the beef with the onion and garlic. Drain excess fat if desired.",
+      "Add the tomato paste and ground cumin and cook, stirring, until darkened.",
+      "Crush in the oregano.",
+      "Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs to the beef in a heavy pot. Stir.",
+      "If it looks tight, stir in more stock until it is a thick stew that settles when stirred.",
+      "Bring to a simmer, then cover partly and cook on low 2 1/2 to 3 hours, stirring every 20 minutes and scraping the bottom.",
+      "Cool in shallow containers and refrigerate, ideally overnight.",
+      "Reheat gently, adjust salt and serve with the toppings."
+     ],
+     "yield": null,
+     "groups": null,
+     "nutrition": null
+    }
+   ],
+   "extras": {
+    "spicy": {
+     "add": [
+      {
+       "line": "5 g dried chiles de árbol, stemmed (about 8)",
+       "group": "Chili"
+      },
+      {
+       "line": "2 g cayenne (about 1 tsp)",
+       "group": "Chili"
+      }
+     ],
+     "steps": [
+      {
+       "to": "Toast the guajillos, anchos, moritas and árbol in a dry skillet over medium heat, pressing flat, about 30 seconds per side, until fragrant. Do not blacken.",
+       "from": "Toast the guajillos, anchos and morita in a dry skillet over medium heat, pressing flat, about 30 seconds per side, until fragrant. Do not blacken."
+      },
+      {
+       "to": "Transfer to the slow cooker. Add the chile puree, both beans, tomatoes, poblano, jalapeños, cayenne, salt, MSG, pepper and cracker crumbs. Stir.",
+       "from": "Transfer to the slow cooker. Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs. Stir."
+      },
+      {
+       "to": "Add the chile puree, both beans, tomatoes, poblano, jalapeños, cayenne, salt, MSG, pepper and cracker crumbs to the beef in a heavy pot. Stir.",
+       "from": "Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs to the beef in a heavy pot. Stir."
+      }
+     ],
+     "swaps": [
+      {
+       "to": "9 g dried morita chiles, stemmed, seeds left in (about 3)",
+       "from": "3 g dried morita chile, stemmed and seeded (about 1)"
+      },
+      {
+       "to": "30 g jalapeños, minced with seeds (about 2)",
+       "from": "15 g jalapeno, seeded and minced (about 1)"
+      }
+     ]
+    }
+   }
   },
   {
    "id": "chole",
@@ -1914,7 +2107,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "chole-masala",
@@ -1988,7 +2182,8 @@
    "updated_at": "2026-10-26T20:37:03.594615+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "cider-cream-cheese-glaze",
@@ -2047,7 +2242,8 @@
    "updated_at": "2026-10-26T20:37:04.157134+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "cider-reduction",
@@ -2103,7 +2299,8 @@
    "updated_at": "2026-10-26T20:37:04.332764+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "classic-homemade-steak-sauce",
@@ -2167,7 +2364,8 @@
    "updated_at": "2026-10-26T20:37:04.539671+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "cocktail-sauce",
@@ -2227,7 +2425,8 @@
    "updated_at": "2026-10-26T20:37:04.696516+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "cornbread-breakfast-sandwiches",
@@ -2285,7 +2484,8 @@
    "updated_at": "2026-10-26T20:37:04.858854+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "creole-mustard",
@@ -2351,7 +2551,8 @@
    "updated_at": "2026-10-26T20:37:05.380132+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "creole-mustard-slaw",
@@ -2413,7 +2614,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "creole-seasoning",
@@ -2481,7 +2683,8 @@
    "updated_at": "2026-10-26T20:37:05.542809+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "cubano-tater-tot-casserole",
@@ -2582,7 +2785,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "dill-escabeche-pickle-soup",
@@ -2707,7 +2911,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "dill-pickle-potato-salad",
@@ -2807,7 +3012,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "dill-pickles",
@@ -2892,7 +3098,8 @@
    "updated_at": "2026-10-26T20:37:06.917682+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "drawn-lemon-butter",
@@ -2950,7 +3157,8 @@
    "updated_at": "2026-10-26T20:37:07.137021+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "duck-fat-roast-potatoes",
@@ -3011,7 +3219,8 @@
    "updated_at": "2026-10-26T20:37:07.382034+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "duck-fat-rosti",
@@ -3080,7 +3289,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "escabeche-pickles",
@@ -3164,7 +3374,8 @@
    "updated_at": "2026-10-26T20:37:07.987829+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "frozen-chocolate-milk-slushie",
@@ -3227,7 +3438,8 @@
    "updated_at": "2026-10-26T20:37:08.203861+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "frozen-limeade-slushie",
@@ -3289,7 +3501,8 @@
    "updated_at": "2026-10-26T20:37:08.380832+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "garam-masala",
@@ -3360,7 +3573,8 @@
    "updated_at": "2026-10-26T20:37:08.910053+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "garlic-old-bay-butter",
@@ -3423,7 +3637,8 @@
    "updated_at": "2026-10-26T20:37:09.43466+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "garlic-dill-yogurt-sauce",
@@ -3488,7 +3703,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "green-room-freezer-martini",
@@ -3557,7 +3773,8 @@
    "updated_at": "2026-10-26T20:37:09.616635+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "grilled-vegetable-skewers",
@@ -3650,7 +3867,8 @@
    "updated_at": "2026-10-26T20:37:09.811832+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "gruyere-gouda-grilled-cheese",
@@ -3707,7 +3925,8 @@
    "updated_at": "2026-10-26T20:37:09.990283+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "hot-chocolate-swiss-miss",
@@ -3774,7 +3993,8 @@
    "updated_at": "2026-10-26T20:37:10.71558+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "hot-chocolate-ganache",
@@ -3849,7 +4069,8 @@
    "updated_at": "2026-10-26T20:37:10.514566+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "irish-lamb-stew",
@@ -3941,7 +4162,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "kofta",
@@ -4027,7 +4249,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "kofta-spice-blend",
@@ -4097,7 +4320,8 @@
    "updated_at": "2026-10-26T20:37:11.288729+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "lemon-herb-compound-butter",
@@ -4161,7 +4385,8 @@
    "updated_at": "2026-10-26T20:37:11.843777+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "louisiana-red-beans-and-rice",
@@ -4270,7 +4495,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "low-country-seafood-boil",
@@ -4358,136 +4584,8 @@
    "updated_at": "2026-10-26T20:37:12.351889+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
-  },
-  {
-   "id": "mild-chili",
-   "title": "Mild Chili with Toasted Dried Chiles",
-   "category": "Soups & Stews",
-   "cuisine": "Tex-Mex",
-   "yield": "serves 8",
-   "tags": [],
-   "traits": [
-    "make-ahead",
-    "freezer",
-    "slow-cooker",
-    "long-cook"
-   ],
-   "diet": [],
-   "groups": [
-    {
-     "name": "Chili",
-     "ingredients": [
-      "900 g ground beef, 80/20",
-      "200 g yellow onion, chopped (about 1 large)",
-      "20 g garlic, minced (about 4 cloves)",
-      "28 g dried guajillo chiles, stemmed and seeded (about 4)",
-      "30 g dried ancho chiles, stemmed and seeded (about 2)",
-      "3 g dried morita chile, stemmed and seeded (about 1)",
-      "480 g beef stock, boiling (about 2 cups)",
-      "455 g dark red kidney beans, rinsed and drained (about two 15.5 oz cans)",
-      "455 g light red kidney beans, rinsed and drained (about two 15.5 oz cans)",
-      "820 g canned diced tomatoes, undrained (about two 14.5 oz cans)",
-      "65 g tomato paste (about 4 Tbsp)",
-      "120 g poblano, diced (about 1)",
-      "15 g jalapeno, seeded and minced (about 1)",
-      "4 g whole cumin seeds",
-      "2 g dried Mexican oregano, whole leaf",
-      "46 g fine salt",
-      "5 g MSG",
-      "3 g coarse ground black pepper",
-      "60 g saltine crackers, finely ground (about 20 crackers)"
-     ]
-    },
-    {
-     "name": "Toppings",
-     "ingredients": [
-      "150 g sharp cheddar, grated",
-      "240 g sour cream, for serving (about 1 cup)",
-      "40 g scallions, sliced (about 4, 1/2 cup)",
-      "150 g yellow onion, diced (about 1 medium, 1 cup)",
-      "90 g pickled jalapenos, drained (about 3/4 cup)",
-      "15 g cilantro, chopped (about 1/2 cup)",
-      "130 g lime wedges (about 2 limes)",
-      "200 g oyster crackers or Fritos (about 25 g per bowl)",
-      "40 g hot sauce, for serving (about 2 1/2 Tbsp)"
-     ]
-    }
-   ],
-   "steps": [
-    "Toast the guajillos, anchos and morita in a dry skillet over medium heat, pressing flat, about 30 seconds per side, until fragrant. Do not blacken.",
-    "Toast the cumin seeds in the same skillet until fragrant and a shade darker. Grind.",
-    "Cover the chiles with the boiling stock and soak 20 minutes.",
-    "Blend the chiles with the soaking liquid until smooth.",
-    "Brown the beef with the onion and garlic. Drain excess fat if desired.",
-    "Add the tomato paste and ground cumin and cook, stirring, until darkened.",
-    "Crush in the oregano.",
-    "Transfer to the slow cooker. Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs. Stir.",
-    "If it looks tight, stir in more stock until it is a thick stew that settles when stirred.",
-    "Cook on low overnight, about 8 hours.",
-    "Cool in shallow containers and refrigerate, ideally overnight.",
-    "Reheat gently, adjust salt and serve with the toppings."
-   ],
-   "notes": "Best made 1 to 2 days ahead; the flavor improves overnight. Cool in shallow containers, not in the slow cooker insert. Freezes well for up to 3 months.",
-   "nutrition": {
-    "serving": "about 1.5 cups chili plus toppings (1 of 8)",
-    "servings": 8,
-    "assumptions": "Beef fat not drained; regular beef stock and canned beans; all toppings counted, with Fritos for the crackers and about 30 g of juice squeezed from the limes.",
-    "per_serving": {
-     "fat_g": 46,
-     "carbs_g": 61,
-     "fiber_g": 15,
-     "sugar_g": 9,
-     "calories": 810,
-     "protein_g": 39,
-     "sat_fat_g": 17.5,
-     "sodium_mg": 3710,
-     "cholesterol_mg": 115
-    }
-   },
-   "rating": 0,
-   "photos": [],
-   "credit": null,
-   "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:57:43.477931+00:00",
-   "changes": [
-    {
-     "date": "2026-10-26",
-     "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
-    },
-    {
-     "date": "2026-10-26",
-     "note": "MSG added at about 0.3% of the dish."
-    },
-    {
-     "date": "2026-10-26",
-     "note": "Added a stovetop method tab."
-    }
-   ],
-   "method": "Slow cooker",
-   "alt_methods": [
-    {
-     "name": "Stovetop",
-     "notes": "Best made 1 to 2 days ahead; the flavor improves overnight. Freezes well for up to 3 months.",
-     "steps": [
-      "Toast the guajillos, anchos and morita in a dry skillet over medium heat, pressing flat, about 30 seconds per side, until fragrant. Do not blacken.",
-      "Toast the cumin seeds in the same skillet until fragrant and a shade darker. Grind.",
-      "Cover the chiles with the boiling stock and soak 20 minutes.",
-      "Blend the chiles with the soaking liquid until smooth.",
-      "Brown the beef with the onion and garlic. Drain excess fat if desired.",
-      "Add the tomato paste and ground cumin and cook, stirring, until darkened.",
-      "Crush in the oregano.",
-      "Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs to the beef in a heavy pot. Stir.",
-      "If it looks tight, stir in more stock until it is a thick stew that settles when stirred.",
-      "Bring to a simmer, then cover partly and cook on low 2 1/2 to 3 hours, stirring every 20 minutes and scraping the bottom.",
-      "Cool in shallow containers and refrigerate, ideally overnight.",
-      "Reheat gently, adjust salt and serve with the toppings."
-     ],
-     "yield": null,
-     "groups": null,
-     "nutrition": null
-    }
-   ]
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "mojo-verde",
@@ -4550,7 +4648,8 @@
    "updated_at": "2026-10-26T20:37:13.105168+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "mudslide-slushie-base",
@@ -4621,7 +4720,8 @@
    "updated_at": "2026-10-26T20:37:13.272223+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "mulled-cider",
@@ -4703,7 +4803,8 @@
    "updated_at": "2026-10-26T20:37:13.482039+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "mushroom-duxelles-mix",
@@ -4776,7 +4877,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "mushrooms-on-toast-soft-eggs",
@@ -4866,7 +4968,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "papas-arrugadas",
@@ -4939,7 +5042,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "piccalilli",
@@ -5023,7 +5127,8 @@
    "updated_at": "2026-10-26T20:37:14.787226+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "pickled-red-onions",
@@ -5096,7 +5201,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "pico-de-gallo",
@@ -5153,15 +5259,29 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:15.369927+00:00",
+   "updated_at": "2026-10-26T21:05:09.370263+00:00",
    "changes": [
     {
      "date": "2026-10-26",
      "note": "Salt raised to about 1.75% of the dish (1.25% for brothy soups)."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added a spicy version."
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {
+    "spicy": {
+     "swaps": [
+      {
+       "to": "30 g serranos, minced with seeds (about 3)",
+       "from": "15 g jalapeño, minced (about 1)"
+      }
+     ]
+    }
+   }
   },
   {
    "id": "pimento-cheese",
@@ -5228,7 +5348,8 @@
    "updated_at": "2026-10-26T20:37:15.706929+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "poor-mans-cochon-de-lait",
@@ -5318,7 +5439,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "queso-american-cheddar",
@@ -5378,15 +5500,43 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:16.246061+00:00",
+   "updated_at": "2026-10-26T21:05:09.143409+00:00",
    "changes": [
     {
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added a spicy version."
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {
+    "spicy": {
+     "add": [
+      {
+       "line": "45 g pickled jalapeños, minced (about 1/4 cup)",
+       "group": ""
+      },
+      {
+       "line": "15 g pickled jalapeño brine (about 1 Tbsp)",
+       "group": ""
+      },
+      {
+       "line": "1 g cayenne (about 1/2 tsp)",
+       "group": ""
+      }
+     ],
+     "steps": [
+      {
+       "to": "Season with white pepper, cayenne and MSG, then stir in the jalapeños and brine, adding salt only if needed.",
+       "from": "Season with white pepper and MSG, adding salt only if needed."
+      }
+     ]
+    }
+   }
   },
   {
    "id": "rajma",
@@ -5506,7 +5656,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "ras-el-hanout-caraway",
@@ -5574,7 +5725,8 @@
    "updated_at": "2026-10-26T20:37:16.929656+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "reeses-puffs-krispie-treats",
@@ -5650,7 +5802,8 @@
    "updated_at": "2026-10-26T20:37:17.134649+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "reeses-puffs-no-bake-clusters",
@@ -5715,7 +5868,8 @@
    "updated_at": "2026-10-26T20:37:17.299647+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "remoulade",
@@ -5778,7 +5932,8 @@
    "updated_at": "2026-10-26T20:37:17.477434+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "roast-game-hens",
@@ -5853,7 +6008,8 @@
    "updated_at": "2026-10-26T20:37:17.685347+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "hen-gravy",
@@ -5925,7 +6081,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "salsa-roja-de-arbol",
@@ -6001,7 +6158,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "sausage-rolls",
@@ -6080,7 +6238,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "serrano-ranch",
@@ -6145,7 +6304,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "skillet-cornbread-honey-butter",
@@ -6223,7 +6383,8 @@
    "updated_at": "2026-10-26T20:37:19.357147+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "slushi-margarita",
@@ -6288,7 +6449,8 @@
    "updated_at": "2026-10-26T20:37:19.920683+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "slushi-strawberry-daiquiri",
@@ -6351,7 +6513,8 @@
    "updated_at": "2026-10-26T20:37:20.067597+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "spiced-basmati-rice",
@@ -6420,7 +6583,8 @@
    "updated_at": "2026-10-26T20:37:20.30331+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "split-buttermilk-pancakes",
@@ -6532,7 +6696,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "taco-seasoning",
@@ -6601,7 +6766,8 @@
    "updated_at": "2026-10-26T20:37:20.899341+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "tartar-sauce",
@@ -6663,7 +6829,8 @@
    "updated_at": "2026-10-26T20:37:21.111494+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "full-english-breakfast",
@@ -6735,7 +6902,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "thick-red-beans",
@@ -6811,7 +6979,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "toasted-almond-revolver",
@@ -6888,7 +7057,8 @@
    "updated_at": "2026-10-26T20:37:21.65579+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "tomato-soup",
@@ -6970,7 +7140,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "triple-cooked-chips",
@@ -7046,7 +7217,8 @@
    "updated_at": "2026-10-26T20:37:22.249054+00:00",
    "changes": [],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   },
   {
    "id": "vinegar-slaw",
@@ -7116,7 +7288,8 @@
     }
    ],
    "method": "",
-   "alt_methods": []
+   "alt_methods": [],
+   "extras": {}
   }
  ],
  "aliases": {
@@ -7129,11 +7302,12 @@
   "carnitas-oven": "carnitas",
   "slow-cooker-carnitas": "carnitas",
   "barbacoa-crockpot": "barbacoa",
+  "mild-chili-toasted-dried-chiles": "chili",
+  "mild-chili": "chili",
   "ldw-escabeche-pickle-jar": "escabeche-pickles",
   "camp-hot-chocolate-swiss-miss": "hot-chocolate-swiss-miss",
   "kofta-beef-lamb-logs": "kofta",
   "papas-arrugadas-mojo-verde": "papas-arrugadas",
-  "mild-chili-toasted-dried-chiles": "mild-chili",
   "ldw-remoulade": "remoulade",
   "san-marzano-tomato-soup": "tomato-soup",
   "growler-toasted-almond-revolver": "toasted-almond-revolver",
