@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T15:35:53+00:00",
+ "generated": "2026-10-26T16:42:40+00:00",
  "recipes": [
   {
    "id": "brussels-sprouts-bacon",
@@ -41,7 +41,23 @@
    "diet": [
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Bacon weighed raw with its rendered fat kept in the dish; all 10 g salt counted.",
+    "per_serving": {
+     "calories": 180,
+     "carbs_g": 12,
+     "cholesterol_mg": 20,
+     "fat_g": 13,
+     "fiber_g": 4.9,
+     "protein_g": 7,
+     "sat_fat_g": 4.5,
+     "sodium_mg": 770,
+     "sugar_g": 2.8
+    },
+    "serving": "about 130 g (1 of 7)",
+    "servings": 7
+   }
   },
   {
    "id": "apple-cider-doughnut-focaccia",
@@ -110,7 +126,23 @@
    "diet": [
     "vegetarian",
     "pescatarian"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Cut into 12 pieces; all of the cinnamon sugar and pan oil assumed to end up on the bread, and the optional 4 g dough cinnamon is included. Glaze not included.",
+    "per_serving": {
+     "calories": 350,
+     "carbs_g": 55,
+     "cholesterol_mg": 15,
+     "fat_g": 12,
+     "fiber_g": 1.9,
+     "protein_g": 6,
+     "sat_fat_g": 4.5,
+     "sodium_mg": 420,
+     "sugar_g": 17
+    },
+    "serving": "1 piece, about 110 g (1 of 12)",
+    "servings": 12
+   }
   },
   {
    "id": "banana-boats",
@@ -149,7 +181,23 @@
    ],
    "diet": [
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Medium bananas at about 118 g peeled each; everything listed is stuffed in and eaten.",
+    "per_serving": {
+     "calories": 240,
+     "carbs_g": 41,
+     "cholesterol_mg": 0,
+     "fat_g": 9,
+     "fiber_g": 4.1,
+     "protein_g": 3.5,
+     "sat_fat_g": 3.5,
+     "sodium_mg": 20,
+     "sugar_g": 25
+    },
+    "serving": "1 banana boat (1 of 8)",
+    "servings": 8
+   }
   },
   {
    "id": "barbacoa-crockpot",
@@ -206,7 +254,7 @@
     "At camp, reheat in a foil pan."
    ],
    "notes": "Frozen half rides as cooler ballast and is used two days later. Excess liquid boils foil-packet fillings, so reduce before splitting.",
-   "rating": 0,
+   "rating": 4,
    "keeper": false,
    "traits": [
     "camping",
@@ -218,7 +266,23 @@
    "diet": [
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "1134 g raw chuck; about half the rendered fat (35 g) is skimmed off. All 18 g salt stays in the meat and reduced sauce.",
+    "per_serving": {
+     "calories": 520,
+     "carbs_g": 15,
+     "cholesterol_mg": 160,
+     "fat_g": 30,
+     "fiber_g": 4.8,
+     "protein_g": 48,
+     "sat_fat_g": 11.5,
+     "sodium_mg": 1800,
+     "sugar_g": 5
+    },
+    "serving": "150 g shredded meat with sauce (1 of 5, from about 700 g)",
+    "servings": 5
+   }
   },
   {
    "id": "beer-battered-walleye-and-chips",
@@ -283,7 +347,23 @@
    "diet": [
     "pescatarian",
     "dairy-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "All the batter is counted, with oil absorbed at 12% of the battered fish weight and the beer and vodka ethanol counted in full; chips are air fried with no added oil. Unmeasured salt estimated at 7 g on the fish and 8 g on the chips; malt vinegar and tartar sauce left out.",
+    "per_serving": {
+     "calories": 1120,
+     "carbs_g": 97,
+     "cholesterol_mg": 165,
+     "fat_g": 53,
+     "fiber_g": 6,
+     "protein_g": 47,
+     "sat_fat_g": 5.5,
+     "sodium_mg": 2570,
+     "sugar_g": 0.8
+    },
+    "serving": "3 pieces of fish (about 190 g raw) with about 225 g chips (1 of 7)",
+    "servings": 7
+   }
   },
   {
    "id": "dill-escabeche-pickle-soup",
@@ -383,7 +463,23 @@
     "freezer",
     "crowd"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Includes the optional kielbasa and horseradish, all 2840 g of regular chicken stock (about 210 mg sodium per 100 g), and the full sour cream finish. Pickles and brines carry most of the sodium.",
+    "per_serving": {
+     "calories": 490,
+     "carbs_g": 42,
+     "cholesterol_mg": 80,
+     "fat_g": 30,
+     "fiber_g": 6,
+     "protein_g": 17,
+     "sat_fat_g": 13,
+     "sodium_mg": 2350,
+     "sugar_g": 9
+    },
+    "serving": "about 2.5 cups, 650 g (1 of 12)",
+    "servings": 12
+   }
   },
   {
    "id": "braised-red-cabbage",
@@ -434,7 +530,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Medium apple at 180 g and a 10 g splash of vinegar to finish; salted butter; cinnamon and cloves are negligible. Water cooks off and adds nothing.",
+    "per_serving": {
+     "calories": 130,
+     "carbs_g": 22,
+     "cholesterol_mg": 10,
+     "fat_g": 4.9,
+     "fiber_g": 3.9,
+     "protein_g": 2.3,
+     "sat_fat_g": 3,
+     "sodium_mg": 740,
+     "sugar_g": 15
+    },
+    "serving": "about 200 g (1 of 7)",
+    "servings": 7
+   }
   },
   {
    "id": "salsa-verde-broiled",
@@ -482,7 +594,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About 930 g of raw ingredients including a 150 g onion and two 14 g jalapenos; broiling changes water, not nutrients.",
+    "per_serving": {
+     "calories": 10,
+     "carbs_g": 2.1,
+     "cholesterol_mg": 0,
+     "fat_g": 0.2,
+     "fiber_g": 0.6,
+     "protein_g": 0.3,
+     "sat_fat_g": 0,
+     "sodium_mg": 100,
+     "sugar_g": 1.2
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 31)",
+    "servings": 31
+   }
   },
   {
    "id": "buffalo-chicken-hand-pies",
@@ -549,7 +677,23 @@
     "freezer",
     "crowd"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Unmeasured seasoning salt taken as 6 g and oil as 1 Tbsp; half the beaten egg ends up on the pies; blue cheese is averaged across all 12 though only half get it. Frank's Buffalo Wings Sauce at label values, reduction loses water only.",
+    "per_serving": {
+     "calories": 530,
+     "carbs_g": 21,
+     "cholesterol_mg": 115,
+     "fat_g": 40,
+     "fiber_g": 0.6,
+     "protein_g": 22,
+     "sat_fat_g": 15.5,
+     "sodium_mg": 1520,
+     "sugar_g": 1.6
+    },
+    "serving": "1 hand pie (1 of 12)",
+    "servings": 12
+   }
   },
   {
    "id": "cabbage-carrot-slaw-sumac-dressing",
@@ -604,7 +748,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Half a large cabbage taken as 450 g and 1 lb whole carrots as 400 g trimmed; all dressing is eaten with the slaw. Black pepper (no quantity) left out.",
+    "per_serving": {
+     "calories": 120,
+     "carbs_g": 11,
+     "cholesterol_mg": 0,
+     "fat_g": 8,
+     "fiber_g": 3.6,
+     "protein_g": 1.5,
+     "sat_fat_g": 1,
+     "sodium_mg": 550,
+     "sugar_g": 6
+    },
+    "serving": "about 150 g slaw, dressed (1 of 7)",
+    "servings": 7
+   }
   },
   {
    "id": "cajun-runoff-butter",
@@ -640,7 +800,23 @@
    ],
    "diet": [
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "The 250 ml of runoff is taken as about 155 g Garlic Old Bay Butter and 80 g boil liquor (Old Bay at about 8.4 mg sodium per g of liquor), plus about 5 g of the dusted Old Bay washed down. Cajun seasoning at Tony Chachere style sodium.",
+    "per_serving": {
+     "calories": 120,
+     "carbs_g": 1.1,
+     "cholesterol_mg": 35,
+     "fat_g": 13,
+     "fiber_g": 0.3,
+     "protein_g": 0.3,
+     "sat_fat_g": 8,
+     "sodium_mg": 660,
+     "sugar_g": 0.1
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 9)",
+    "servings": 9
+   }
   },
   {
    "id": "camp-breakfast-burritos-cheesy-sausage",
@@ -690,7 +866,23 @@
     "freezer",
     "crowd"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Salt on the potatoes estimated at 5 g; refrigerated potatoes use Simply Potatoes Southwest label values; 10-inch tortillas at 72 g each; about a fifth of the sausage fat drained off. Hot sauce on the side not included.",
+    "per_serving": {
+     "calories": 610,
+     "carbs_g": 49,
+     "cholesterol_mg": 325,
+     "fat_g": 33,
+     "fiber_g": 3.9,
+     "protein_g": 30,
+     "sat_fat_g": 13.5,
+     "sodium_mg": 1550,
+     "sugar_g": 3.2
+    },
+    "serving": "1 burrito, about 260 g (1 of 10)",
+    "servings": 10
+   }
   },
   {
    "id": "camp-cheesesteaks-chuck-eye",
@@ -739,7 +931,23 @@
    ],
    "diet": [
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "8 of the 10 rolls (100 g each) used; about 60 g queso per sandwich and provolone on all 8. Meat weighed raw with no fat drained; mushroom butter and salt estimated at 15 g and 3 g.",
+    "per_serving": {
+     "calories": 1140,
+     "carbs_g": 62,
+     "cholesterol_mg": 245,
+     "fat_g": 64,
+     "fiber_g": 4.1,
+     "protein_g": 75,
+     "sat_fat_g": 29.5,
+     "sodium_mg": 1580,
+     "sugar_g": 12
+    },
+    "serving": "1 sandwich (1 of 8)",
+    "servings": 8
+   }
   },
   {
    "id": "camp-hot-chocolate-swiss-miss",
@@ -787,7 +995,23 @@
    ],
    "diet": [
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Swiss Miss Milk Chocolate label values, 12 servings at 32 g each. Marshmallows, whipped cream and spirits at the mug are left out.",
+    "per_serving": {
+     "calories": 280,
+     "carbs_g": 39,
+     "cholesterol_mg": 30,
+     "fat_g": 12,
+     "fiber_g": 1.3,
+     "protein_g": 3.7,
+     "sat_fat_g": 8,
+     "sodium_mg": 220,
+     "sugar_g": 34
+    },
+    "serving": "8 oz mug, about 260 g (1 of 9)",
+    "servings": 9
+   }
   },
   {
    "id": "campfire-dutch-oven-cornbread",
@@ -828,7 +1052,23 @@
    "traits": [
     "camping"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Four 8.5 oz boxes of Jiffy at label values and all 30 g of the pan lard counted as absorbed. Table honey and butter have no quantity and are left out.",
+    "per_serving": {
+     "calories": 600,
+     "carbs_g": 88,
+     "cholesterol_mg": 120,
+     "fat_g": 22,
+     "fiber_g": 3,
+     "protein_g": 12,
+     "sat_fat_g": 9.5,
+     "sodium_mg": 1100,
+     "sugar_g": 26
+    },
+    "serving": "1 wedge, about 225 g (1 of 8)",
+    "servings": 8
+   }
   },
   {
    "id": "campfire-foil-packet-bar",
@@ -900,7 +1140,23 @@
    ],
    "diet": [
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Assumes every component gets used across 8 packets, with about 600 g of the cabbage head eaten (the rest is liner left in the foil); barbacoa, carnitas, duxelles and red beans computed from their own recipes. Creole seasoning, chili flakes, hot sauce and salsas have no quantity and are left out.",
+    "per_serving": {
+     "calories": 1280,
+     "carbs_g": 74,
+     "cholesterol_mg": 250,
+     "fat_g": 83,
+     "fiber_g": 14,
+     "protein_g": 61,
+     "sat_fat_g": 36,
+     "sodium_mg": 3750,
+     "sugar_g": 16
+    },
+    "serving": "1 adult packet, about 680 g (1 of 8)",
+    "servings": 8
+   }
   },
   {
    "id": "campfire-stovetop-popcorn",
@@ -943,7 +1199,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Batch of about 14 cups split into four 3.5 cup servings; all oil and salt counted as eaten.",
+    "per_serving": {
+     "calories": 190,
+     "carbs_g": 20,
+     "cholesterol_mg": 0,
+     "fat_g": 11,
+     "fiber_g": 3.8,
+     "protein_g": 3.4,
+     "sat_fat_g": 1,
+     "sodium_mg": 1170,
+     "sugar_g": 0.2
+    },
+    "serving": "3.5 cups popped, about 37 g (1 of 4)",
+    "servings": 4
+   }
   },
   {
    "id": "carnitas-oven",
@@ -1002,7 +1274,23 @@
    "diet": [
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Bone about 15% of the 3.3 lb shoulder; about half the fat renders and half of that is skimmed off. The 30 g of griddle lard is counted against the whole 1084 g batch.",
+    "per_serving": {
+     "calories": 420,
+     "carbs_g": 6,
+     "cholesterol_mg": 135,
+     "fat_g": 29,
+     "fiber_g": 1,
+     "protein_g": 31,
+     "sat_fat_g": 10.5,
+     "sodium_mg": 1010,
+     "sugar_g": 2
+    },
+    "serving": "150 g cooked meat (1 of 7)",
+    "servings": 7
+   }
   },
   {
    "id": "charred-broccoli-cauliflower",
@@ -1050,7 +1338,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Juice of half a lemon taken as 24 g; all oil and flaky salt counted. Chili flakes on the side left out.",
+    "per_serving": {
+     "calories": 60,
+     "carbs_g": 7,
+     "cholesterol_mg": 0,
+     "fat_g": 2.9,
+     "fiber_g": 2.7,
+     "protein_g": 2.7,
+     "sat_fat_g": 0,
+     "sodium_mg": 180,
+     "sugar_g": 2.1
+    },
+    "serving": "about 110 g vegetables (1 of 8)",
+    "servings": 8
+   }
   },
   {
    "id": "cheese-onion-potato-pasties",
@@ -1106,7 +1410,23 @@
    "diet": [
     "vegetarian",
     "pescatarian"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Refrigerated pie crust rounds at Pillsbury label values, about 200 g each. About 70 g of the two eggs ends up on the pasties; salt from the potato boiling water is not counted.",
+    "per_serving": {
+     "calories": 1260,
+     "carbs_g": 119,
+     "cholesterol_mg": 165,
+     "fat_g": 79,
+     "fiber_g": 2.3,
+     "protein_g": 29,
+     "sat_fat_g": 39,
+     "sodium_mg": 2440,
+     "sugar_g": 2.7
+    },
+    "serving": "1 pasty, about 435 g (1 of 6)",
+    "servings": 6
+   }
   },
   {
    "id": "chole",
@@ -1166,7 +1486,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "The recipe gives no quantities, so this assumes a typical batch: 250 g dry chickpeas, 300 g each onion and tomato, 40 g ghee in all, 15 g chole masala and 12 g kosher salt, yielding about 1.4 kg.",
+    "per_serving": {
+     "calories": 390,
+     "carbs_g": 55,
+     "cholesterol_mg": 25,
+     "fat_g": 14,
+     "fiber_g": 12,
+     "protein_g": 15,
+     "sat_fat_g": 6.5,
+     "sodium_mg": 1240,
+     "sugar_g": 13
+    },
+    "serving": "1.5 cups, about 360 g (1 of 4)",
+    "servings": 4
+   }
   },
   {
    "id": "cider-cream-cheese-glaze",
@@ -1206,7 +1542,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About 380 g batch at 30 g per serving; extra cider used to thin not counted.",
+    "per_serving": {
+     "calories": 120,
+     "carbs_g": 15,
+     "cholesterol_mg": 20,
+     "fat_g": 6,
+     "fiber_g": 0,
+     "protein_g": 0.6,
+     "sat_fat_g": 4,
+     "sodium_mg": 60,
+     "sugar_g": 15
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 13)",
+    "servings": 13
+   }
   },
   {
    "id": "cider-reduction",
@@ -1243,7 +1595,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "600 ml cider at about 624 g reduced to 150 g; reduction removes only water, so all the cider sugar stays.",
+    "per_serving": {
+     "calories": 60,
+     "carbs_g": 14,
+     "cholesterol_mg": 0,
+     "fat_g": 0.2,
+     "fiber_g": 0.2,
+     "protein_g": 0.1,
+     "sat_fat_g": 0,
+     "sodium_mg": 0,
+     "sugar_g": 12
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 5)",
+    "servings": 5
+   }
   },
   {
    "id": "classic-homemade-steak-sauce",
@@ -1286,7 +1654,23 @@
    "diet": [
     "pescatarian",
     "dairy-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Regular (not low-sodium) ketchup, Worcestershire and soy sauce; most of the sodium comes from those three.",
+    "per_serving": {
+     "calories": 35,
+     "carbs_g": 8,
+     "cholesterol_mg": 0,
+     "fat_g": 0.2,
+     "fiber_g": 0.2,
+     "protein_g": 0.7,
+     "sat_fat_g": 0,
+     "sodium_mg": 400,
+     "sugar_g": 6
+    },
+    "serving": "about 2 Tbsp, 35 g (1 of 8)",
+    "servings": 8
+   }
   },
   {
    "id": "ldw-cocktail-sauce",
@@ -1327,7 +1711,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Regular ketchup carries most of the sodium and sugar; prepared horseradish at USDA values.",
+    "per_serving": {
+     "calories": 25,
+     "carbs_g": 7,
+     "cholesterol_mg": 0,
+     "fat_g": 0.1,
+     "fiber_g": 0.3,
+     "protein_g": 0.3,
+     "sat_fat_g": 0,
+     "sodium_mg": 250,
+     "sugar_g": 5
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 20)",
+    "servings": 20
+   }
   },
   {
    "id": "cornbread-breakfast-sandwiches",
@@ -1363,7 +1763,23 @@
    "rating": 0,
    "keeper": false,
    "traits": [],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Recipe has no quantities: each sandwich is assumed to be 1/10 of the Skillet Cornbread (no honey butter), 10 g butter for griddling and the egg, 30 g pimento cheese and 20 g red pepper jelly. Optional bacon, country ham and hot pepper jelly left out.",
+    "per_serving": {
+     "calories": 630,
+     "carbs_g": 54,
+     "cholesterol_mg": 295,
+     "fat_g": 39,
+     "fiber_g": 2.8,
+     "protein_g": 18,
+     "sat_fat_g": 16.5,
+     "sodium_mg": 1000,
+     "sugar_g": 15
+    },
+    "serving": "1 sandwich: 1 wedge skillet cornbread, 1 egg, 30 g pimento cheese, 20 g pepper jelly (1 of 4)",
+    "servings": 4
+   }
   },
   {
    "id": "creole-mustard",
@@ -1410,7 +1826,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About 267 g batch at the standard 30 g sauce portion; brown and yellow mustard seed treated alike.",
+    "per_serving": {
+     "calories": 50,
+     "carbs_g": 2.8,
+     "cholesterol_mg": 0,
+     "fat_g": 3.2,
+     "fiber_g": 1.2,
+     "protein_g": 2.4,
+     "sat_fat_g": 0,
+     "sodium_mg": 270,
+     "sugar_g": 0.8
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 9)",
+    "servings": 9
+   }
   },
   {
    "id": "creole-mustard-slaw",
@@ -1446,7 +1878,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Batch of about 620 g portioned as a 150 g side; Creole mustard at about 1,400 mg sodium per 100 g.",
+    "per_serving": {
+     "calories": 170,
+     "carbs_g": 8,
+     "cholesterol_mg": 10,
+     "fat_g": 15,
+     "fiber_g": 3.4,
+     "protein_g": 2,
+     "sat_fat_g": 2.5,
+     "sodium_mg": 530,
+     "sugar_g": 4.2
+    },
+    "serving": "about 150 g (1 of 4)",
+    "servings": 4
+   }
   },
   {
    "id": "cubano-tater-tot-casserole",
@@ -1520,7 +1968,23 @@
    "rating": 0,
    "keeper": false,
    "traits": [],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "All 35 g of salt counted plus the sodium in ham, pickles, brine, mustard, Swiss and tots; pork fat stays in the dish. Extra pickle spears and mustard at the table are left out.",
+    "per_serving": {
+     "calories": 780,
+     "carbs_g": 50,
+     "cholesterol_mg": 140,
+     "fat_g": 49,
+     "fiber_g": 4.7,
+     "protein_g": 37,
+     "sat_fat_g": 22,
+     "sodium_mg": 3580,
+     "sugar_g": 9
+    },
+    "serving": "1/8 of the 9x13 pan, about 440 g (1 of 8)",
+    "servings": 8
+   }
   },
   {
    "id": "ldw-dill-pickle-jar",
@@ -1585,7 +2049,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About 1250 g of vegetables; equilibrated pickles hold about 40% of the brine salt, sugar and vinegar, with the rest discarded with the brine. Loose seeds mostly stay in the jar.",
+    "per_serving": {
+     "calories": 25,
+     "carbs_g": 4.3,
+     "cholesterol_mg": 0,
+     "fat_g": 0.2,
+     "fiber_g": 1.3,
+     "protein_g": 0.9,
+     "sat_fat_g": 0,
+     "sodium_mg": 160,
+     "sugar_g": 1.9
+    },
+    "serving": "50 g drained vegetables (1 of 25)",
+    "servings": 25
+   }
   },
   {
    "id": "ldw-potato-salad",
@@ -1645,7 +2125,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "15% of the 60 g cooking-water salt counted as absorbed; pickle brine at about 1,200 mg sodium per 100 g; black pepper about 2 g.",
+    "per_serving": {
+     "calories": 550,
+     "carbs_g": 40,
+     "cholesterol_mg": 105,
+     "fat_g": 40,
+     "fiber_g": 5,
+     "protein_g": 8,
+     "sat_fat_g": 6.5,
+     "sodium_mg": 1540,
+     "sugar_g": 3.2
+    },
+    "serving": "about 330 g (1 of 13)",
+    "servings": 13
+   }
   },
   {
    "id": "drawn-lemon-butter",
@@ -1683,7 +2179,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Unsalted butter with lemon juice, 130 g batch split into four 2 Tbsp portions.",
+    "per_serving": {
+     "calories": 210,
+     "carbs_g": 0.3,
+     "cholesterol_mg": 60,
+     "fat_g": 23,
+     "fiber_g": 0,
+     "protein_g": 0.3,
+     "sat_fat_g": 15,
+     "sodium_mg": 0,
+     "sugar_g": 0.1
+    },
+    "serving": "2 Tbsp, about 32 g (1 of 4)",
+    "servings": 4
+   }
   },
   {
    "id": "duck-fat-roast-potatoes",
@@ -1727,7 +2239,23 @@
    "diet": [
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About 75% of the duck fat ends up on the potatoes and the rest stays in the pans; boiling water assumed salted with 60 g (15% counted) and about 3 g finishing salt. Rosemary is negligible.",
+    "per_serving": {
+     "calories": 670,
+     "carbs_g": 55,
+     "cholesterol_mg": 50,
+     "fat_g": 48,
+     "fiber_g": 7,
+     "protein_g": 6,
+     "sat_fat_g": 16,
+     "sodium_mg": 2070,
+     "sugar_g": 2.6
+    },
+    "serving": "about 280 g roasted (1 of 7)",
+    "servings": 7
+   }
   },
   {
    "id": "duck-fat-rosti",
@@ -1773,7 +2301,23 @@
    "diet": [
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About 100 g of the 125 g duck fat assumed absorbed, the rest left in the skillet; finishing salt beyond the 14 g not counted.",
+    "per_serving": {
+     "calories": 220,
+     "carbs_g": 25,
+     "cholesterol_mg": 10,
+     "fat_g": 13,
+     "fiber_g": 1.8,
+     "protein_g": 2.9,
+     "sat_fat_g": 4,
+     "sodium_mg": 690,
+     "sugar_g": 0.8
+    },
+    "serving": "1 wedge, about 140 g (1 of 8)",
+    "servings": 8
+   }
   },
   {
    "id": "ldw-escabeche-pickle-jar",
@@ -1837,7 +2381,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About 1290 g of vegetables; equilibrated pickles hold about 40% of the brine salt, sugar and vinegar, with the rest discarded with the brine. Loose seeds and bay mostly stay in the jar.",
+    "per_serving": {
+     "calories": 20,
+     "carbs_g": 3.9,
+     "cholesterol_mg": 0,
+     "fat_g": 0.1,
+     "fiber_g": 1.1,
+     "protein_g": 0.6,
+     "sat_fat_g": 0,
+     "sodium_mg": 170,
+     "sugar_g": 2
+    },
+    "serving": "50 g drained vegetables (1 of 26)",
+    "servings": 26
+   }
   },
   {
    "id": "frozen-chocolate-milk-slushie",
@@ -1882,7 +2442,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Whole chocolate milk at USDA values; 112 oz batch split into twelve 9 oz pours.",
+    "per_serving": {
+     "calories": 490,
+     "carbs_g": 43,
+     "cholesterol_mg": 105,
+     "fat_g": 32,
+     "fiber_g": 2.4,
+     "protein_g": 8,
+     "sat_fat_g": 20.5,
+     "sodium_mg": 570,
+     "sugar_g": 36
+    },
+    "serving": "9 oz, about 285 g (1 of 12)",
+    "servings": 12
+   }
   },
   {
    "id": "frozen-limeade-slushie",
@@ -1926,7 +2502,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Frozen limeade concentrate at USDA values (about 56 g sugar per 100 g); the 112 oz batch makes about 12 pours of 9 oz.",
+    "per_serving": {
+     "calories": 160,
+     "carbs_g": 39,
+     "cholesterol_mg": 0,
+     "fat_g": 0,
+     "fiber_g": 0.1,
+     "protein_g": 0.1,
+     "sat_fat_g": 0,
+     "sodium_mg": 10,
+     "sugar_g": 39
+    },
+    "serving": "9 oz pour, about 270 g (1 of 12)",
+    "servings": 12
+   }
   },
   {
    "id": "garlic-old-bay-butter",
@@ -1973,7 +2565,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Compound butter portion of 14 g from a 989 g batch; Old Bay at label sodium (140 mg per 0.6 g).",
+    "per_serving": {
+     "calories": 90,
+     "carbs_g": 0.3,
+     "cholesterol_mg": 25,
+     "fat_g": 10,
+     "fiber_g": 0,
+     "protein_g": 0.2,
+     "sat_fat_g": 6.5,
+     "sodium_mg": 50,
+     "sugar_g": 0
+    },
+    "serving": "1 Tbsp, about 14 g (1 of 71)",
+    "servings": 71
+   }
   },
   {
    "id": "garlic-dill-yogurt-sauce",
@@ -2015,7 +2623,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Whole-milk Greek yogurt at about 97 kcal per 100 g; one lemon gives 45 g juice; 1 tsp Diamond kosher salt is 3 g.",
+    "per_serving": {
+     "calories": 45,
+     "carbs_g": 1.6,
+     "cholesterol_mg": 5,
+     "fat_g": 3.1,
+     "fiber_g": 0,
+     "protein_g": 2.6,
+     "sat_fat_g": 1,
+     "sodium_mg": 80,
+     "sugar_g": 1.2
+    },
+    "serving": "2 Tbsp, about 34 g (1 of 16)",
+    "servings": 16
+   }
   },
   {
    "id": "go-juice",
@@ -2058,7 +2682,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Liquid IV Hydration Multiplier label values (45 kcal, 11 g sugar, 500 mg sodium per packet) plus about 5 kcal for a CELSIUS or Pure Kick stick; caffeine 80 to 200 mg depending on stick.",
+    "per_serving": {
+     "calories": 50,
+     "carbs_g": 12,
+     "cholesterol_mg": 0,
+     "fat_g": 0,
+     "fiber_g": 0,
+     "protein_g": 0,
+     "sat_fat_g": 0,
+     "sodium_mg": 500,
+     "sugar_g": 11
+    },
+    "serving": "1 cup, 8 oz, with 1 Liquid IV packet and 1 caffeine stick (1 of 1)",
+    "servings": 1
+   }
   },
   {
    "id": "green-room-freezer-martini",
@@ -2109,7 +2749,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Cotswolds Dry Gin at 46% ABV, Empirical Cilantro 40%, Dolin Dry 17.5%, Fernet-Branca 39%; calories are almost entirely ethanol plus a little vermouth and Fernet sugar.",
+    "per_serving": {
+     "calories": 160,
+     "carbs_g": 0.5,
+     "cholesterol_mg": 0,
+     "fat_g": 0,
+     "fiber_g": 0,
+     "protein_g": 0,
+     "sat_fat_g": 0,
+     "sodium_mg": 70,
+     "sugar_g": 0.5
+    },
+    "serving": "3 oz pour (1 of 17)",
+    "servings": 17
+   }
   },
   {
    "id": "grilled-vegetable-skewers",
@@ -2185,7 +2841,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About 80 g of the 1/2 cup oil ends up on the vegetables; unmeasured kosher salt estimated at 20 g for the batch. Finishing olive oil, black pepper and optional balsamic glaze have no quantity and are left out.",
+    "per_serving": {
+     "calories": 150,
+     "carbs_g": 15,
+     "cholesterol_mg": 0,
+     "fat_g": 9,
+     "fiber_g": 4.2,
+     "protein_g": 4.3,
+     "sat_fat_g": 0.5,
+     "sodium_mg": 790,
+     "sugar_g": 9
+    },
+    "serving": "2 skewers, about 300 g raw vegetables (1 of 10)",
+    "servings": 10
+   }
   },
   {
    "id": "growler-toasted-almond-revolver",
@@ -2243,7 +2915,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Bourbon taken at 95 proof and coffee liqueur at Kahlua's 20% ABV; liqueur sugars about 25 g (amaretto) and 40 g (coffee liqueur) per 100 ml. Orange peel garnish not counted.",
+    "per_serving": {
+     "calories": 220,
+     "carbs_g": 11,
+     "cholesterol_mg": 0,
+     "fat_g": 0,
+     "fiber_g": 0,
+     "protein_g": 0,
+     "sat_fat_g": 0,
+     "sodium_mg": 40,
+     "sugar_g": 11
+    },
+    "serving": "one 3.7 oz pour (about 110 ml) (1 of 16)",
+    "servings": 16
+   }
   },
   {
    "id": "gruyere-gouda-grilled-cheese",
@@ -2279,7 +2967,23 @@
    "diet": [
     "vegetarian",
     "pescatarian"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Thick sourdough slices estimated at 50 g each; soup not included.",
+    "per_serving": {
+     "calories": 690,
+     "carbs_g": 53,
+     "cholesterol_mg": 120,
+     "fat_g": 38,
+     "fiber_g": 2.2,
+     "protein_g": 33,
+     "sat_fat_g": 23,
+     "sodium_mg": 1220,
+     "sugar_g": 3.4
+    },
+    "serving": "1 sandwich (1 of 2)",
+    "servings": 2
+   }
   },
   {
    "id": "camp-hot-chocolate-ganache",
@@ -2338,7 +3042,23 @@
    ],
    "diet": [
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Whole 500 g ganache jar into 1900 g milk, about 2.4 L. Marshmallows and whipped cream at the mug have no quantity and are left out.",
+    "per_serving": {
+     "calories": 340,
+     "carbs_g": 31,
+     "cholesterol_mg": 35,
+     "fat_g": 21,
+     "fiber_g": 3.6,
+     "protein_g": 9,
+     "sat_fat_g": 12.5,
+     "sodium_mg": 210,
+     "sugar_g": 26
+    },
+    "serving": "1 cup, 8 oz (240 ml) (1 of 10)",
+    "servings": 10
+   }
   },
   {
    "id": "irish-lamb-stew",
@@ -2405,7 +3125,23 @@
     "make-ahead",
     "freezer"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Includes the 1 L thinning stock and the Guinness with its alcohol cooked off, regular chicken stock throughout; about half the rendered lamb fat (40 g) is skimmed. Parsley, sourdough and butter are left out.",
+    "per_serving": {
+     "calories": 740,
+     "carbs_g": 54,
+     "cholesterol_mg": 150,
+     "fat_g": 39,
+     "fiber_g": 7,
+     "protein_g": 43,
+     "sat_fat_g": 16.5,
+     "sodium_mg": 2250,
+     "sugar_g": 9
+    },
+    "serving": "1 bowl, about 900 g (1 of 7)",
+    "servings": 7
+   }
   },
   {
    "id": "kofta-beef-lamb-logs",
@@ -2485,7 +3221,23 @@
     "freezer",
     "crowd"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "About a quarter of the meat fat renders off on the grill; pita at about 85 g each. Grilled vegetables, yogurt sauce, pickled onions, lemon and table spices have no quantity and are left out.",
+    "per_serving": {
+     "calories": 380,
+     "carbs_g": 49,
+     "cholesterol_mg": 40,
+     "fat_g": 12,
+     "fiber_g": 2.3,
+     "protein_g": 17,
+     "sat_fat_g": 4.5,
+     "sodium_mg": 880,
+     "sugar_g": 1.4
+    },
+    "serving": "1 wrap: one 2 oz log in one pocketless pita (1 of 16)",
+    "servings": 16
+   }
   },
   {
    "id": "kofta-spice-blend-weighed",
@@ -2537,7 +3289,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Ground blend at about 2.5 g per tsp; contains no salt, the salt and MSG for the meat are not part of the blend.",
+    "per_serving": {
+     "calories": 5,
+     "carbs_g": 1.4,
+     "cholesterol_mg": 0,
+     "fat_g": 0.3,
+     "fiber_g": 0.7,
+     "protein_g": 0.3,
+     "sat_fat_g": 0,
+     "sodium_mg": 0,
+     "sugar_g": 0.1
+    },
+    "serving": "1 tsp, about 2.5 g (1 of 8)",
+    "servings": 8
+   }
   },
   {
    "id": "kofta-spice-blend-volume",
@@ -2583,7 +3351,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "The batch is 10.5 tsp; values are for exactly 1 tsp. Plain salt taken as fine table salt at 6 g per tsp.",
+    "per_serving": {
+     "calories": 5,
+     "carbs_g": 1.1,
+     "cholesterol_mg": 0,
+     "fat_g": 0.2,
+     "fiber_g": 0.5,
+     "protein_g": 0.3,
+     "sat_fat_g": 0,
+     "sodium_mg": 220,
+     "sugar_g": 0.1
+    },
+    "serving": "1 tsp, about 2.3 g (batch is about 11 tsp)",
+    "servings": 11
+   }
   },
   {
    "id": "lemon-herb-compound-butter",
@@ -2629,7 +3413,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Unsalted butter so all sodium comes from the 4 g salt; zest of 2 lemons about 4 g.",
+    "per_serving": {
+     "calories": 90,
+     "carbs_g": 0.3,
+     "cholesterol_mg": 25,
+     "fat_g": 10,
+     "fiber_g": 0.1,
+     "protein_g": 0.2,
+     "sat_fat_g": 6,
+     "sodium_mg": 80,
+     "sugar_g": 0.1
+    },
+    "serving": "1 Tbsp, about 14 g (1 of 19)",
+    "servings": 19
+   }
   },
   {
    "id": "louisiana-red-beans-and-rice",
@@ -2719,7 +3519,23 @@
    "diet": [
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About 7.2 kg of beans at 360 g per serving, with the 900 g dry rice split evenly; 15% of the soaking salt is counted, the ham hock yields about 250 g meat, and only the 20 g starting finishing salt is included.",
+    "per_serving": {
+     "calories": 550,
+     "carbs_g": 79,
+     "cholesterol_mg": 35,
+     "fat_g": 14,
+     "fiber_g": 11,
+     "protein_g": 26,
+     "sat_fat_g": 5,
+     "sodium_mg": 1100,
+     "sugar_g": 3.3
+    },
+    "serving": "1.5 cups beans (about 360 g) over about 135 g cooked rice (1 of 20)",
+    "servings": 20
+   }
   },
   {
    "id": "low-country-seafood-boil",
@@ -2790,7 +3606,23 @@
    ],
    "diet": [
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Edible yield: crab meat about 25% of cluster weight, shrimp meat about 70% of frozen shell-on weight, about 100 g kernels per ear. Food absorbs about 3% of the boil Old Bay, and the full butter toss (900 g garlic Old Bay butter, 60 g Old Bay, 500 ml liquor) is counted; Zatarain bag spices, the aromatics and table dips are left out.",
+    "per_serving": {
+     "calories": 1390,
+     "carbs_g": 61,
+     "cholesterol_mg": 540,
+     "fat_g": 92,
+     "fiber_g": 8,
+     "protein_g": 89,
+     "sat_fat_g": 45.5,
+     "sodium_mg": 4480,
+     "sugar_g": 10
+    },
+    "serving": "1 plate, about 830 g edible food with butter (1 of 13)",
+    "servings": 13
+   }
   },
   {
    "id": "make-ahead-breakfast-burritos-bacon-sausage-mushroom",
@@ -2919,7 +3751,23 @@
     "freezer",
     "crowd"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Averaged across the bacon, sausage and mushroom fillings; 1 lb bacon cooks down to about 150 g. Only the tots actually used (about 8 per burrito, 1.6 kg of the 5 lb bag) are counted, with 6% fry oil; unmeasured salt on beans and tots estimated at 4 g and 3 g.",
+    "per_serving": {
+     "calories": 980,
+     "carbs_g": 98,
+     "cholesterol_mg": 295,
+     "fat_g": 51,
+     "fiber_g": 7,
+     "protein_g": 34,
+     "sat_fat_g": 19,
+     "sodium_mg": 2390,
+     "sugar_g": 5
+    },
+    "serving": "1 burrito, about 420 g (1 of 24)",
+    "servings": 24
+   }
   },
   {
    "id": "mild-chili-toasted-dried-chiles",
@@ -2996,7 +3844,23 @@
     "slow-cooker",
     "long-cook"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Beef fat not drained; regular beef stock and canned beans; the 150 g cheddar topping is included, while unquantified toppings (sour cream, Fritos, etc.) are left out.",
+    "per_serving": {
+     "calories": 600,
+     "carbs_g": 45,
+     "cholesterol_mg": 100,
+     "fat_g": 31,
+     "fiber_g": 12,
+     "protein_g": 37,
+     "sat_fat_g": 13,
+     "sodium_mg": 2110,
+     "sugar_g": 8
+    },
+    "serving": "about 1.5 cups chili plus cheese (1 of 8)",
+    "servings": 8
+   }
   },
   {
    "id": "mudslide-slushie-base",
@@ -3048,7 +3912,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Base only: Kahlua, Baileys or vodka added at the glass have no quantity and are left out.",
+    "per_serving": {
+     "calories": 480,
+     "carbs_g": 48,
+     "cholesterol_mg": 90,
+     "fat_g": 29,
+     "fiber_g": 0.9,
+     "protein_g": 8,
+     "sat_fat_g": 18,
+     "sodium_mg": 230,
+     "sugar_g": 40
+    },
+    "serving": "9 oz, about 280 g (1 of 10)",
+    "servings": 10
+   }
   },
   {
    "id": "mulled-cider",
@@ -3113,7 +3993,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "One gallon of cider (3900 g) plus concentrate gives about 4.5 L; strained spices and peel contribute almost nothing. Rum at the mug has no set quantity and is left out.",
+    "per_serving": {
+     "calories": 140,
+     "carbs_g": 36,
+     "cholesterol_mg": 0,
+     "fat_g": 0.2,
+     "fiber_g": 0.4,
+     "protein_g": 0.3,
+     "sat_fat_g": 0,
+     "sodium_mg": 10,
+     "sugar_g": 32
+    },
+    "serving": "8 oz mug, 240 ml (1 of 19)",
+    "servings": 19
+   }
   },
   {
    "id": "mushroom-duxelles-mix",
@@ -3162,7 +4058,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Portioned as a side at about 140 g from the roughly 285 g (10 oz) cooked batch; the mushroom water cooks off without changing nutrients.",
+    "per_serving": {
+     "calories": 400,
+     "carbs_g": 20,
+     "cholesterol_mg": 95,
+     "fat_g": 33,
+     "fiber_g": 4.1,
+     "protein_g": 12,
+     "sat_fat_g": 19,
+     "sodium_mg": 980,
+     "sugar_g": 9
+    },
+    "serving": "about 140 g, half the batch (1 of 2)",
+    "servings": 2
+   }
   },
   {
    "id": "mushrooms-on-toast-soft-eggs",
@@ -3226,7 +4138,23 @@
     "make-ahead",
     "quick"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Sourdough toast and grated cheddar have no quantities and are left out, so add a slice of toast and cheese on top of these numbers; salt on the eggs not counted.",
+    "per_serving": {
+     "calories": 240,
+     "carbs_g": 4.9,
+     "cholesterol_mg": 220,
+     "fat_g": 20,
+     "fiber_g": 1.3,
+     "protein_g": 10,
+     "sat_fat_g": 10.5,
+     "sodium_mg": 700,
+     "sugar_g": 2.3
+    },
+    "serving": "1 egg plus about 110 g mushrooms (1 of 7)",
+    "servings": 7
+   }
   },
   {
    "id": "papas-arrugadas-mojo-verde",
@@ -3286,7 +4214,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About 20% of the 180 g boiling salt assumed to stay on the potatoes as the crust; mojo counted at 2 Tbsp (30 g) per serving, not the whole jar.",
+    "per_serving": {
+     "calories": 250,
+     "carbs_g": 35,
+     "cholesterol_mg": 0,
+     "fat_g": 11,
+     "fiber_g": 4,
+     "protein_g": 4.4,
+     "sat_fat_g": 1.5,
+     "sodium_mg": 2320,
+     "sugar_g": 3.1
+    },
+    "serving": "about 215 g potatoes plus 2 Tbsp mojo (1 of 7)",
+    "servings": 7
+   }
   },
   {
    "id": "pico-de-gallo",
@@ -3327,7 +4271,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Jalapeno taken as 40 g trimmed; all 5 g salt counted.",
+    "per_serving": {
+     "calories": 5,
+     "carbs_g": 1.7,
+     "cholesterol_mg": 0,
+     "fat_g": 0.1,
+     "fiber_g": 0.5,
+     "protein_g": 0.3,
+     "sat_fat_g": 0,
+     "sodium_mg": 100,
+     "sugar_g": 0.9
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 19)",
+    "servings": 19
+   }
   },
   {
    "id": "poor-mans-cochon-de-lait",
@@ -3394,7 +4354,23 @@
    ],
    "diet": [
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Bone about 10% of the butt and about 80% of the injection stays in; about 35% of the fat is lost between rendering, the skimmed drippings and the discarded fat pockets. Cooked yield about 2.47 kg with drippings; finishing salt taken as 20 g.",
+    "per_serving": {
+     "calories": 490,
+     "carbs_g": 4.6,
+     "cholesterol_mg": 195,
+     "fat_g": 33,
+     "fiber_g": 0.8,
+     "protein_g": 42,
+     "sat_fat_g": 12.5,
+     "sodium_mg": 1890,
+     "sugar_g": 2.3
+    },
+    "serving": "150 g pulled pork (1 of 16)",
+    "servings": 16
+   }
   },
   {
    "id": "queso-american-cheddar",
@@ -3439,7 +4415,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Batch of about 780 g portioned as a 30 g dip serving; deli white American at about 1,500 mg sodium per 100 g.",
+    "per_serving": {
+     "calories": 90,
+     "carbs_g": 1.8,
+     "cholesterol_mg": 25,
+     "fat_g": 7,
+     "fiber_g": 0,
+     "protein_g": 4.8,
+     "sat_fat_g": 4.5,
+     "sodium_mg": 290,
+     "sugar_g": 1.3
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 26)",
+    "servings": 26
+   }
   },
   {
    "id": "quick-pickled-red-onions",
@@ -3483,7 +4475,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Onions assumed to take up about 40% of the brine's salt, sugar and vinegar; the rest is left in the jar.",
+    "per_serving": {
+     "calories": 30,
+     "carbs_g": 6,
+     "cholesterol_mg": 0,
+     "fat_g": 0.1,
+     "fiber_g": 0.8,
+     "protein_g": 0.6,
+     "sat_fat_g": 0,
+     "sodium_mg": 290,
+     "sugar_g": 3.6
+    },
+    "serving": "50 g drained (1 of 8)",
+    "servings": 8
+   }
   },
   {
    "id": "pickled-red-onions",
@@ -3528,7 +4536,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Two onions at 150 g; the drained onions hold the brine at equilibrium, so about 37% of the salt and sugar is counted.",
+    "per_serving": {
+     "calories": 30,
+     "carbs_g": 6,
+     "cholesterol_mg": 0,
+     "fat_g": 0,
+     "fiber_g": 0.8,
+     "protein_g": 0.5,
+     "sat_fat_g": 0,
+     "sodium_mg": 290,
+     "sugar_g": 3.4
+    },
+    "serving": "50 g drained (1 of 6)",
+    "servings": 6
+   }
   },
   {
    "id": "rajma",
@@ -3634,7 +4658,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About 7.5 qt (7.1 L) of rajma at 360 g a serving, with the 900 g dry rice split across all servings; kidney and pinto taken 50/50; 15% of the soaking salt counted, all 55 g of cooking salt and the MSG counted; unsalted butter.",
+    "per_serving": {
+     "calories": 490,
+     "carbs_g": 85,
+     "cholesterol_mg": 20,
+     "fat_g": 9,
+     "fiber_g": 16,
+     "protein_g": 19,
+     "sat_fat_g": 5,
+     "sodium_mg": 1310,
+     "sugar_g": 5
+    },
+    "serving": "1.5 cups rajma (about 360 g) over about 135 g cooked basmati (1 of 20)",
+    "servings": 20
+   }
   },
   {
    "id": "ras-el-hanout-caraway",
@@ -3683,7 +4723,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Standard teaspoon weights for ground spices; the blend contains no salt.",
+    "per_serving": {
+     "calories": 10,
+     "carbs_g": 1.7,
+     "cholesterol_mg": 0,
+     "fat_g": 0.4,
+     "fiber_g": 0.8,
+     "protein_g": 0.3,
+     "sat_fat_g": 0,
+     "sodium_mg": 0,
+     "sugar_g": 0.1
+    },
+    "serving": "1 tsp, about 2.8 g (1 of 6)",
+    "servings": 6
+   }
   },
   {
    "id": "red-beans-camp",
@@ -3736,7 +4792,23 @@
    ],
    "diet": [
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "At the 1.5 cup bean portion the 12 oz batch is a single serving. One 15.5 oz can drains to about 255 g; regular-sodium chicken broth at 180 g.",
+    "per_serving": {
+     "calories": 160,
+     "carbs_g": 21,
+     "cholesterol_mg": 15,
+     "fat_g": 7,
+     "fiber_g": 6,
+     "protein_g": 6,
+     "sat_fat_g": 4,
+     "sodium_mg": 720,
+     "sugar_g": 3.5
+    },
+    "serving": "about 85 g, a quarter of the batch (1 of 4)",
+    "servings": 4
+   }
   },
   {
    "id": "reeses-puffs-krispie-treats",
@@ -3791,7 +4863,23 @@
    "traits": [
     "quick"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Reese's Puffs from the label (1 cup, 41 g, 160 kcal); Rice Krispies at 27 g per cup; 1.5 tsp oil in the drizzle. Flaky salt on top has no quantity and is left out.",
+    "per_serving": {
+     "calories": 190,
+     "carbs_g": 28,
+     "cholesterol_mg": 5,
+     "fat_g": 9,
+     "fiber_g": 1.4,
+     "protein_g": 2.8,
+     "sat_fat_g": 4,
+     "sodium_mg": 150,
+     "sugar_g": 15
+    },
+    "serving": "1 square (1 of 16)",
+    "servings": 16
+   }
   },
   {
    "id": "reeses-puffs-no-bake-clusters",
@@ -3835,7 +4923,23 @@
    "diet": [
     "vegetarian",
     "pescatarian"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Salted butter assumed; cereal at label values (29 g per 3/4 cup), 4 cups about 155 g. Extra Puffs pressed on top not counted.",
+    "per_serving": {
+     "calories": 160,
+     "carbs_g": 21,
+     "cholesterol_mg": 10,
+     "fat_g": 8,
+     "fiber_g": 0.9,
+     "protein_g": 2.4,
+     "sat_fat_g": 3.5,
+     "sodium_mg": 100,
+     "sugar_g": 17
+    },
+    "serving": "1 cluster (1 of 22)",
+    "servings": 22
+   }
   },
   {
    "id": "ldw-remoulade",
@@ -3879,7 +4983,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About 606 g batch at 30 g per serving; regular full-fat mayonnaise assumed.",
+    "per_serving": {
+     "calories": 140,
+     "carbs_g": 1,
+     "cholesterol_mg": 10,
+     "fat_g": 15,
+     "fiber_g": 0.3,
+     "protein_g": 0.4,
+     "sat_fat_g": 2.5,
+     "sodium_mg": 250,
+     "sugar_g": 0.3
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 20)",
+    "servings": 20
+   }
   },
   {
    "id": "roast-game-hens",
@@ -3937,7 +5057,23 @@
    ],
    "diet": [
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Hens about 1.25 lb each, 61% edible meat and skin; about 40% of the fat renders and half of that is drained; all 53 g of dry-brine salt counted; unsalted butter; cavity lemons not eaten.",
+    "per_serving": {
+     "calories": 730,
+     "carbs_g": 1.6,
+     "cholesterol_mg": 375,
+     "fat_g": 52,
+     "fiber_g": 0.3,
+     "protein_g": 60,
+     "sat_fat_g": 19,
+     "sodium_mg": 3160,
+     "sugar_g": 0.1
+    },
+    "serving": "1 whole hen, meat and skin (1 of 7)",
+    "servings": 7
+   }
   },
   {
    "id": "hen-gravy",
@@ -3988,7 +5124,23 @@
    "traits": [
     "make-ahead"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Unsalted butter and regular-sodium stock; about 150 g defatted pan juices from the dry-brined hens and 2 g finishing salt assumed.",
+    "per_serving": {
+     "calories": 20,
+     "carbs_g": 1.5,
+     "cholesterol_mg": 5,
+     "fat_g": 1.4,
+     "fiber_g": 0,
+     "protein_g": 0.9,
+     "sat_fat_g": 1,
+     "sodium_mg": 280,
+     "sugar_g": 0.1
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 20)",
+    "servings": 20
+   }
   },
   {
    "id": "salsa-roja-de-arbol",
@@ -4041,7 +5193,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Four guajillos taken as 24 g and half an onion as 75 g; all frying oil stays in the salsa.",
+    "per_serving": {
+     "calories": 25,
+     "carbs_g": 2.5,
+     "cholesterol_mg": 0,
+     "fat_g": 1.5,
+     "fiber_g": 0.8,
+     "protein_g": 0.5,
+     "sat_fat_g": 0,
+     "sodium_mg": 140,
+     "sugar_g": 1.2
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 23)",
+    "servings": 23
+   }
   },
   {
    "id": "sausage-rolls",
@@ -4095,7 +5263,23 @@
    ],
    "diet": [
     "dairy-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Puff pastry sheets at 245 g each; about 75 g of the 2 eggs used, rest of the wash discarded; pork fat not drained. HP sauce and mustard not included.",
+    "per_serving": {
+     "calories": 260,
+     "carbs_g": 15,
+     "cholesterol_mg": 30,
+     "fat_g": 18,
+     "fiber_g": 0.6,
+     "protein_g": 8,
+     "sat_fat_g": 5.5,
+     "sodium_mg": 280,
+     "sugar_g": 0.4
+    },
+    "serving": "1 roll (1 of 32)",
+    "servings": 32
+   }
   },
   {
    "id": "serrano-ranch",
@@ -4135,7 +5319,23 @@
     "vegetarian",
     "pescatarian",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Bottled ranch at USDA values (close to Hidden Valley); three serranos at about 6 g each; cilantro included.",
+    "per_serving": {
+     "calories": 100,
+     "carbs_g": 1.8,
+     "cholesterol_mg": 5,
+     "fat_g": 11,
+     "fiber_g": 0.2,
+     "protein_g": 0.5,
+     "sat_fat_g": 1.5,
+     "sodium_mg": 220,
+     "sugar_g": 1.3
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 17)",
+    "servings": 17
+   }
   },
   {
    "id": "skillet-cornbread-honey-butter",
@@ -4194,7 +5394,23 @@
     "make-ahead",
     "crowd"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "All the skillet lard is counted as absorbed and the honey butter is split evenly across the 10 wedges. Finishing flaky salt has no quantity and is left out.",
+    "per_serving": {
+     "calories": 410,
+     "carbs_g": 43,
+     "cholesterol_mg": 95,
+     "fat_g": 24,
+     "fiber_g": 2.6,
+     "protein_g": 8,
+     "sat_fat_g": 11.5,
+     "sodium_mg": 790,
+     "sugar_g": 8
+    },
+    "serving": "1 wedge with about 16 g honey butter (1 of 10)",
+    "servings": 10
+   }
   },
   {
    "id": "slow-cooker-carnitas",
@@ -4259,7 +5475,23 @@
    "diet": [
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "About half the pork fat renders and half of that is skimmed off, along with half the added oil; onion, bay and orange halves are discarded. Cooked yield about 2.68 kg with the garlic and some juices.",
+    "per_serving": {
+     "calories": 470,
+     "carbs_g": 2.4,
+     "cholesterol_mg": 160,
+     "fat_g": 33,
+     "fiber_g": 0.4,
+     "protein_g": 39,
+     "sat_fat_g": 10.5,
+     "sodium_mg": 1180,
+     "sugar_g": 0.5
+    },
+    "serving": "150 g cooked meat (1 of 18)",
+    "servings": 18
+   }
   },
   {
    "id": "slushi-margarita",
@@ -4306,7 +5538,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Master of Mixes from its label (130 kcal, 31 g sugar per 4 oz); Cointreau carries about 24 g sugar per 100 ml; Empirical Cilantro at 38% ABV with no sugar.",
+    "per_serving": {
+     "calories": 420,
+     "carbs_g": 47,
+     "cholesterol_mg": 0,
+     "fat_g": 0,
+     "fiber_g": 0.1,
+     "protein_g": 0.1,
+     "sat_fat_g": 0,
+     "sodium_mg": 30,
+     "sugar_g": 44
+    },
+    "serving": "one 9 oz pour (about 270 ml) (1 of 12)",
+    "servings": 12
+   }
   },
   {
    "id": "slushi-strawberry-daiquiri",
@@ -4352,7 +5600,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Master of Mixes at label values (130 kcal, 32 g carbs per 4 oz); Saint Benevolence and white rum at 40% ABV, Chairman's Spiced at 35%.",
+    "per_serving": {
+     "calories": 400,
+     "carbs_g": 41,
+     "cholesterol_mg": 0,
+     "fat_g": 0,
+     "fiber_g": 0.1,
+     "protein_g": 0.1,
+     "sat_fat_g": 0,
+     "sodium_mg": 30,
+     "sugar_g": 38
+    },
+    "serving": "9 oz pour (1 of 12)",
+    "servings": 12
+   }
   },
   {
    "id": "split-buttermilk-pancakes-ham-cheddar",
@@ -4446,7 +5710,23 @@
     "camping",
     "make-ahead"
    ],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Sausage counted raw with about 30% of its fat left on the griddle; blueberries 300 g per pint; unsalted butter. Station items (compound butter, sour cream, syrup, whipped cream, flaky salt, hot sauce) have no quantities and are left out.",
+    "per_serving": {
+     "calories": 810,
+     "carbs_g": 55,
+     "cholesterol_mg": 455,
+     "fat_g": 48,
+     "fiber_g": 2.8,
+     "protein_g": 41,
+     "sat_fat_g": 22,
+     "sodium_mg": 2070,
+     "sugar_g": 17
+    },
+    "serving": "about 2 pancakes plus sausage and scrambled eggs (1 of 8)",
+    "servings": 8
+   }
   },
   {
    "id": "tartar-sauce",
@@ -4490,7 +5770,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Regular full-fat mayonnaise; black pepper (no quantity) left out.",
+    "per_serving": {
+     "calories": 140,
+     "carbs_g": 0.5,
+     "cholesterol_mg": 10,
+     "fat_g": 15,
+     "fiber_g": 0.1,
+     "protein_g": 0.3,
+     "sat_fat_g": 2.5,
+     "sodium_mg": 330,
+     "sugar_g": 0.2
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 11)",
+    "servings": 11
+   }
   },
   {
    "id": "teds-72-hour-pizza-dough",
@@ -4569,7 +5865,23 @@
     "vegetarian",
     "pescatarian",
     "dairy-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Dough only: 30 g levain taken as half flour and half water; container oil, semolina and toppings left out.",
+    "per_serving": {
+     "calories": 710,
+     "carbs_g": 136,
+     "cholesterol_mg": 0,
+     "fat_g": 6,
+     "fiber_g": 4.6,
+     "protein_g": 24,
+     "sat_fat_g": 1,
+     "sodium_mg": 1690,
+     "sugar_g": 0.6
+    },
+    "serving": "one dough ball, about 318 g (1 of 3)",
+    "servings": 3
+   }
   },
   {
    "id": "full-english-breakfast",
@@ -4618,7 +5930,23 @@
    "rating": 0,
    "keeper": false,
    "traits": [],
-   "diet": []
+   "diet": [],
+   "nutrition": {
+    "assumptions": "Half the bacon fat renders off, with about 30 g of it reused on the mushrooms and tomatoes; brats lose about 15% of their fat. About 70 g of the duck fat is absorbed by the bread; unmeasured hen fat and black pepper left out.",
+    "per_serving": {
+     "calories": 1130,
+     "carbs_g": 54,
+     "cholesterol_mg": 535,
+     "fat_g": 77,
+     "fiber_g": 7,
+     "protein_g": 53,
+     "sat_fat_g": 27,
+     "sodium_mg": 3090,
+     "sugar_g": 11
+    },
+    "serving": "1 plate: 2 eggs, 2 rashers worth of bacon, 1 brat, beans, tomato, mushrooms, fried bread (1 of 7)",
+    "servings": 7
+   }
   },
   {
    "id": "san-marzano-tomato-soup",
@@ -4676,7 +6004,23 @@
    ],
    "diet": [
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Canned tomatoes at about 115 mg sodium per 100 g and regular (not low-sodium) stock; the optional sugar is included, the optional Parmesan rind and basil are not.",
+    "per_serving": {
+     "calories": 220,
+     "carbs_g": 18,
+     "cholesterol_mg": 35,
+     "fat_g": 17,
+     "fiber_g": 6,
+     "protein_g": 4,
+     "sat_fat_g": 8,
+     "sodium_mg": 1770,
+     "sugar_g": 10
+    },
+    "serving": "about 410 g (1 of 6)",
+    "servings": 6
+   }
   },
   {
    "id": "vinegar-slaw",
@@ -4723,7 +6067,23 @@
     "pescatarian",
     "dairy-free",
     "gluten-free"
-   ]
+   ],
+   "nutrition": {
+    "assumptions": "Batch of about 900 g portioned as a 150 g side; all of the dressing counted as eaten.",
+    "per_serving": {
+     "calories": 110,
+     "carbs_g": 15,
+     "cholesterol_mg": 0,
+     "fat_g": 5,
+     "fiber_g": 3.1,
+     "protein_g": 1.6,
+     "sat_fat_g": 0.5,
+     "sodium_mg": 550,
+     "sugar_g": 11
+    },
+    "serving": "about 150 g (1 of 6)",
+    "servings": 6
+   }
   }
  ]
 }
