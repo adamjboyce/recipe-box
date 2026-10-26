@@ -130,6 +130,7 @@ function renderEditor(){
       <div id="eAlts" class="ealts">${(r.alt_methods||[]).map(altBlock).join("")}</div>
       <div class="row"><button class="btn" type="button" id="eAddAlt">+ Add another method</button></div></details>
     ${spicyBlock(r)}
+    ${easyBlock(r)}
     <details class="eblock"${r.nutrition?"":""}><summary>Nutrition</summary>
       <div class="two"><label>Serving<input id="nServing" value="${esc(n.serving||"")}"></label><label>Servings per batch<input id="nServings" type="number" min="0" step="1" value="${esc(n.servings??"")}"></label></div>
       <div class="ngrid">${NUT.map(([k,l,u])=>`<label>${l}${u?` <small>${u}</small>`:""}<input type="number" step="any" data-nut="${k}" value="${esc(ps[k]??"")}"></label>`).join("")}</div>
@@ -180,6 +181,17 @@ function spicyBlock(r){const sp=(r.extras&&r.extras.spicy)||{};const pairs=a=>(a
       <label>Add them to<select id="hpAddGroup">${names.map(n=>`<option value="${esc(n)}"${n===addG?" selected":""}>${esc(n||"The ingredient list")}</option>`).join("")}</select></label></div>
     <label>Swap steps <small>the exact step, then =&gt;, then the spicy step</small><textarea id="hpSteps" rows="3">${esc(pairs(sp.steps))}</textarea></label>
     <p class="muted" id="hpWarn"></p></details>`}
+function easyBlock(r){const e=(r.extras&&r.extras.easy)||{};const tabs=(e.alt_methods||[]).length;
+  return `<details class="eblock"${r.extras&&r.extras.easy?" open":""}><summary>Easy version <small>adds an ⚡ switch that swaps in a shortcut recipe</small></summary>
+    <label>Switch label <small>shown when it's on, e.g. "Swiss Miss shortcut"</small><input id="ezLabel" value="${esc(e.label||"")}"></label>
+    <label>Ingredients <small>one per line; leave empty for no easy version</small><textarea id="ezIng" rows="6">${esc(groupsToText(e.groups))}</textarea></label>
+    <label>Steps<textarea id="ezSteps" rows="6">${esc(stepsToText(e.steps))}</textarea></label>
+    <div class="two"><label>Makes<input id="ezYield" value="${esc(e.yield||"")}"></label><label>Notes<input id="ezNotes" value="${esc(e.notes||"")}"></label></div>
+    ${tabs?`<p class="muted">This easy version also has ${e.method?esc(e.method)+" and ":""}${(e.alt_methods||[]).map(a=>esc(a.name)).join(", ")} tabs. They're kept as they are; ask Claude to change them.</p>`:""}</details>`}
+function collectEasy(){const old=(A.editing.extras&&A.editing.extras.easy)||{};const g=toGroups(document.getElementById("ezIng").value);
+  if(!g.length)return null;
+  return {...old,label:document.getElementById("ezLabel").value.trim()||null,groups:g,steps:toSteps(document.getElementById("ezSteps").value),
+    yield:document.getElementById("ezYield").value.trim()||null,notes:document.getElementById("ezNotes").value.trim()||null}}
 function collectSpicy(){
   const pairs=id=>document.getElementById(id).value.split("\n").map(l=>l.split(" => ")).filter(p=>p.length===2&&p[0].trim()&&p[1].trim()).map(([a,b])=>({from:a.trim(),to:b.trim()}));
   const g=document.getElementById("hpAddGroup").value;
@@ -197,7 +209,7 @@ function collect(){
     traits:[...document.querySelectorAll("[data-trait]:checked")].map(i=>i.dataset.trait),diet:[...document.querySelectorAll("[data-diet]:checked")].map(i=>i.dataset.diet),
     tags:v("eTags").split(",").map(t=>t.trim().toLowerCase()).filter(Boolean),
     groups:toGroups(document.getElementById("eIng").value),steps:toSteps(document.getElementById("eSteps").value),notes:v("eNotes"),
-    nutrition:nut,extras:{spicy:collectSpicy()},method:v("eMethod"),alt_methods:collectAlts().filter(a=>a.name),developed:v("eDev")||null,credit:v("eCredit")||null,photos:r.photos||[],
+    nutrition:nut,extras:{spicy:collectSpicy(),easy:collectEasy()},method:v("eMethod"),alt_methods:collectAlts().filter(a=>a.name),developed:v("eDev")||null,credit:v("eCredit")||null,photos:r.photos||[],
     private:{occasion:v("pOcc")||null,source_title:v("pSrcT")||null,source_url:v("pSrcU")||null,private_notes:v("pNotes")||null,
       flags:v("pFlags")?v("pFlags").split(",").map(t=>t.trim()).filter(Boolean):null}
   };

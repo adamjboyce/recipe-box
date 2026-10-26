@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T21:10:51+00:00",
+ "generated": "2026-10-26T21:16:03+00:00",
  "recipes": [
   {
    "id": "72-hour-pizza-dough",
@@ -2424,7 +2424,7 @@
     {
      "name": "",
      "ingredients": [
-      "460 g leftover [skillet cornbread](skillet-cornbread-honey-butter), split horizontally (about 4 wedges)",
+      "460 g leftover [skillet cornbread](cornbread), split horizontally (about 4 wedges)",
       "40 g butter or lard, for griddling (about 3 Tbsp)",
       "200 g eggs (about 4 large)",
       "120 g [pimento cheese](pimento-cheese), homemade or Palmetto Cheese (about 1/2 cup)",
@@ -2467,6 +2467,167 @@
    "method": "",
    "alt_methods": [],
    "extras": {}
+  },
+  {
+   "id": "cornbread",
+   "title": "Cornbread with Honey Butter",
+   "category": "Sides & Breads",
+   "cuisine": "Southern",
+   "yield": "one 12-inch cast iron skillet, serves 10",
+   "tags": [
+    "cast-iron"
+   ],
+   "traits": [
+    "camping",
+    "crowd",
+    "make-ahead"
+   ],
+   "diet": [],
+   "groups": [
+    {
+     "name": "Honey butter",
+     "ingredients": [
+      "115 g unsalted butter, softened (about 1 stick)",
+      "45 g honey",
+      "2 g fine salt"
+     ]
+    },
+    {
+     "name": "Cornbread",
+     "ingredients": [
+      "300 g medium-grind yellow cornmeal",
+      "150 g all-purpose flour",
+      "12 g baking powder",
+      "4 g baking soda",
+      "10 g fine salt",
+      "480 g buttermilk",
+      "150 g eggs (about 3 large)",
+      "21 g honey",
+      "70 g lard, melted and cooled slightly",
+      "45 g lard, for the skillet",
+      "4 g flaky salt, to finish (about 1 1/2 tsp)"
+     ]
+    }
+   ],
+   "steps": [
+    "Whisk the butter, 45 g honey and 2 g salt for the honey butter until smooth. Refrigerate.",
+    "Put 45 g lard in the skillet and heat the oven to 425F with the skillet inside.",
+    "Whisk the cornmeal, flour, baking powder, baking soda and salt.",
+    "Whisk the buttermilk, eggs and 21 g honey, then whisk in the melted lard.",
+    "Fold wet into dry just until no dry pockets remain. The batter stays lumpy.",
+    "Rest the batter 15 minutes.",
+    "Swirl the hot lard up the sides of the skillet, pour in the batter and return to the oven.",
+    "Bake 20 to 25 minutes, until golden with deep brown edges and a clean skewer.",
+    "Cool in the pan 10 minutes.",
+    "Finish with flaky salt and serve with the honey butter."
+   ],
+   "notes": "Honey butter can be made a day ahead; soften 2 to 3 hours at room temperature before serving. Rewarm in the skillet at 350F for 10 minutes. Leftover wedges are good split and griddled for breakfast sandwiches.",
+   "nutrition": {
+    "serving": "1 wedge with about 16 g honey butter (1 of 10)",
+    "servings": 10,
+    "assumptions": "All the skillet lard is counted as absorbed and the honey butter is split evenly across the 10 wedges; all 4 g finishing salt counted.",
+    "per_serving": {
+     "fat_g": 24,
+     "carbs_g": 43,
+     "fiber_g": 2.6,
+     "sugar_g": 8,
+     "calories": 410,
+     "protein_g": 8,
+     "sat_fat_g": 11,
+     "sodium_mg": 940,
+     "cholesterol_mg": 95
+    }
+   },
+   "rating": 0,
+   "photos": [],
+   "credit": null,
+   "developed": "2026-10-15",
+   "updated_at": "2026-10-26T21:15:57.851286+00:00",
+   "changes": [
+    {
+     "date": "2026-10-26",
+     "note": "Added an at-home method tab; camping moved from the title to the camping tag."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Merged the Jiffy version in as the easy version."
+    }
+   ],
+   "method": "",
+   "alt_methods": [],
+   "extras": {
+    "easy": {
+     "label": "Jiffy shortcut",
+     "steps": [
+      "Preheat the bare cast iron dutch oven with the lard, swirled to coat the bottom and 5 cm up the sides, until it shimmers.",
+      "Pour the wet mix in, dump the Jiffy on top, stir fast and put the lid on.",
+      "Set a third of the coals underneath and two-thirds on the lid.",
+      "Rotate the pot a quarter turn every 10 minutes.",
+      "Bake 25 to 35 minutes, checking at 25.",
+      "Home oven method: preheat an enameled dutch oven dry at 220°C for 15 minutes once the oven is up.",
+      "Home oven method: add the lard, swirl and return to the oven 3 to 4 minutes to heat the fat.",
+      "Home oven method: pour in the wet mix, dump in the Jiffy, stir fast and level.",
+      "Home oven method: bake uncovered 30 to 40 minutes, checking at 30, until golden and a skewer comes out clean; tent with foil if the top browns early.",
+      "Rest 10 minutes before cutting."
+     ],
+     "yield": "1 dutch oven, serves 8",
+     "groups": [
+      {
+       "name": "",
+       "ingredients": [
+        "964 g Jiffy corn muffin mix (about 4 boxes)",
+        "600 g milk and 200 g eggs, whisked together (about 4 large eggs)",
+        "2 Tbsp lard (about 30 g)",
+        "1/2 cup honey and 1 stick salted butter, for the table (about 170 g honey and 113 g butter)"
+       ]
+      }
+     ],
+     "method": "Coals",
+     "nutrition": {
+      "serving": "1 wedge, about 225 g (1 of 8)",
+      "servings": 8,
+      "assumptions": "Four 8.5 oz boxes of Jiffy at label values and all 30 g of the pan lard counted as absorbed. Table honey and salted butter split evenly across 8.",
+      "per_serving": {
+       "fat_g": 33,
+       "carbs_g": 106,
+       "fiber_g": 3.1,
+       "sugar_g": 44,
+       "calories": 770,
+       "protein_g": 12,
+       "sat_fat_g": 17,
+       "sodium_mg": 1190,
+       "cholesterol_mg": 150
+      }
+     },
+     "alt_methods": [
+      {
+       "name": "At home",
+       "steps": [
+        "Heat the oven to 425°F with an enameled dutch oven inside, dry and uncovered.",
+        "Once the oven is up, heat the dutch oven 15 minutes more.",
+        "Add the lard and swirl to coat the bottom and 5 cm up the sides.",
+        "Return the pot to the oven 3 to 4 minutes to heat the fat.",
+        "Pour in the wet mix.",
+        "Dump in the Jiffy, stir fast and level.",
+        "Bake uncovered 30 to 40 minutes, checking at 30, until golden and a skewer comes out clean.",
+        "Tent with foil if the top browns early.",
+        "Rest 10 minutes before cutting."
+       ],
+       "groups": [
+        {
+         "name": "",
+         "ingredients": [
+          "964 g Jiffy corn muffin mix (about 4 boxes)",
+          "600 g milk and 200 g eggs, whisked together (about 2 1/2 cups milk and 4 large eggs)",
+          "30 g lard (about 2 Tbsp)",
+          "170 g honey and 113 g salted butter, for the table (about 1/2 cup honey and 1 stick butter)"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
   },
   {
    "id": "creole-mustard",
@@ -3271,101 +3432,6 @@
    ],
    "method": "",
    "alt_methods": [],
-   "extras": {}
-  },
-  {
-   "id": "dutch-oven-cornbread",
-   "title": "Dutch Oven Cornbread (Jiffy)",
-   "category": "Sides & Breads",
-   "cuisine": "American",
-   "yield": "1 dutch oven, serves 8",
-   "tags": [],
-   "traits": [
-    "camping"
-   ],
-   "diet": [],
-   "groups": [
-    {
-     "name": "",
-     "ingredients": [
-      "964 g Jiffy corn muffin mix (about 4 boxes)",
-      "600 g milk and 200 g eggs, whisked together (about 4 large eggs)",
-      "2 Tbsp lard (about 30 g)",
-      "1/2 cup honey and 1 stick salted butter, for the table (about 170 g honey and 113 g butter)"
-     ]
-    }
-   ],
-   "steps": [
-    "Preheat the bare cast iron dutch oven with the lard, swirled to coat the bottom and 5 cm up the sides, until it shimmers.",
-    "Pour the wet mix in, dump the Jiffy on top, stir fast and put the lid on.",
-    "Set a third of the coals underneath and two-thirds on the lid.",
-    "Rotate the pot a quarter turn every 10 minutes.",
-    "Bake 25 to 35 minutes, checking at 25.",
-    "Home oven method: preheat an enameled dutch oven dry at 220°C for 15 minutes once the oven is up.",
-    "Home oven method: add the lard, swirl and return to the oven 3 to 4 minutes to heat the fat.",
-    "Home oven method: pour in the wet mix, dump in the Jiffy, stir fast and level.",
-    "Home oven method: bake uncovered 30 to 40 minutes, checking at 30, until golden and a skewer comes out clean; tent with foil if the top browns early.",
-    "Rest 10 minutes before cutting."
-   ],
-   "notes": "",
-   "nutrition": {
-    "serving": "1 wedge, about 225 g (1 of 8)",
-    "servings": 8,
-    "assumptions": "Four 8.5 oz boxes of Jiffy at label values and all 30 g of the pan lard counted as absorbed. Table honey and salted butter split evenly across 8.",
-    "per_serving": {
-     "fat_g": 33,
-     "carbs_g": 106,
-     "fiber_g": 3.1,
-     "sugar_g": 44,
-     "calories": 770,
-     "protein_g": 12,
-     "sat_fat_g": 17,
-     "sodium_mg": 1190,
-     "cholesterol_mg": 150
-    }
-   },
-   "rating": 0,
-   "photos": [],
-   "credit": null,
-   "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:10:47.8541+00:00",
-   "changes": [
-    {
-     "date": "2026-10-26",
-     "note": "Added an at-home method tab; camping moved from the title to the camping tag."
-    }
-   ],
-   "method": "Coals",
-   "alt_methods": [
-    {
-     "name": "At home",
-     "notes": null,
-     "steps": [
-      "Heat the oven to 425°F with an enameled dutch oven inside, dry and uncovered.",
-      "Once the oven is up, heat the dutch oven 15 minutes more.",
-      "Add the lard and swirl to coat the bottom and 5 cm up the sides.",
-      "Return the pot to the oven 3 to 4 minutes to heat the fat.",
-      "Pour in the wet mix.",
-      "Dump in the Jiffy, stir fast and level.",
-      "Bake uncovered 30 to 40 minutes, checking at 30, until golden and a skewer comes out clean.",
-      "Tent with foil if the top browns early.",
-      "Rest 10 minutes before cutting."
-     ],
-     "yield": null,
-     "groups": [
-      {
-       "name": "",
-       "ingredients": [
-        "964 g Jiffy corn muffin mix (about 4 boxes)",
-        "600 g milk and 200 g eggs, whisked together (about 2 1/2 cups milk and 4 large eggs)",
-        "30 g lard (about 2 Tbsp)",
-        "170 g honey and 113 g salted butter, for the table (about 1/2 cup honey and 1 stick butter)"
-       ]
-      }
-     ],
-     "nutrition": null
-    }
-   ],
    "extras": {}
   },
   {
@@ -4222,114 +4288,8 @@
    "extras": {}
   },
   {
-   "id": "hot-chocolate-swiss-miss",
-   "title": "Hot Chocolate (Swiss Miss and Half-and-Half)",
-   "category": "Drinks",
-   "cuisine": "American",
-   "yield": "about 9 cups",
-   "tags": [
-    "hot-drink",
-    "kid-friendly"
-   ],
-   "traits": [
-    "camping",
-    "quick"
-   ],
-   "diet": [
-    "gluten-free"
-   ],
-   "groups": [
-    {
-     "name": "",
-     "ingredients": [
-      "6 cups water (about 1420 g)",
-      "12 servings Swiss Miss, per the canister scoop (about 330 g)",
-      "3 cups half-and-half, cold (about 725 g)"
-     ]
-    },
-    {
-     "name": "At the mug",
-     "ingredients": [
-      "2 cups mini marshmallows (about 100 g)",
-      "2 1/4 cups canned whipped cream, about 1/4 cup per mug (about 90 g)",
-      "1 cup spiced rum or Baileys, for adults, about 2 Tbsp (1 oz) per mug (about 240 ml)"
-     ]
-    }
-   ],
-   "steps": [
-    "Boil the water in a pot.",
-    "Whisk in the Swiss Miss.",
-    "Off the heat, stir in the cold half-and-half.",
-    "Top each mug with marshmallows, whipped cream and, for adults, spiced rum or Baileys."
-   ],
-   "notes": "Lands around 68°C, hot but drinkable. Nothing scorches since the water does the heating. Needs about a 3 qt pot.",
-   "nutrition": {
-    "serving": "8 oz mug, about 260 g (1 of 9)",
-    "servings": 9,
-    "assumptions": "Swiss Miss Milk Chocolate label values, 12 servings at 32 g each; marshmallows, aerosol whipped cream and 1 oz of 35% ABV spiced rum are spread across all 9 mugs.",
-    "per_serving": {
-     "fat_g": 14,
-     "carbs_g": 50,
-     "fiber_g": 1.3,
-     "sugar_g": 42,
-     "calories": 400,
-     "protein_g": 4.2,
-     "sat_fat_g": 9,
-     "sodium_mg": 230,
-     "cholesterol_mg": 35
-    }
-   },
-   "rating": 0,
-   "photos": [],
-   "credit": null,
-   "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:10:49.073527+00:00",
-   "changes": [
-    {
-     "date": "2026-10-26",
-     "note": "Added an at-home method tab; camping moved from the title to the camping tag."
-    }
-   ],
-   "method": "Camp stove",
-   "alt_methods": [
-    {
-     "name": "At home",
-     "notes": null,
-     "steps": [
-      "Bring the water to a boil in a 3 qt pot over high heat.",
-      "Whisk in the Swiss Miss until dissolved.",
-      "Remove the pot from the heat.",
-      "Stir in the cold half-and-half.",
-      "Ladle into mugs.",
-      "Top each mug with marshmallows, whipped cream and, for adults, spiced rum or Baileys."
-     ],
-     "yield": null,
-     "groups": [
-      {
-       "name": "",
-       "ingredients": [
-        "1420 g water (about 6 cups)",
-        "330 g Swiss Miss, per the canister scoop (about 12 servings)",
-        "725 g half-and-half, cold (about 3 cups)"
-       ]
-      },
-      {
-       "name": "At the mug",
-       "ingredients": [
-        "100 g mini marshmallows (about 2 cups)",
-        "90 g canned whipped cream, about 1/4 cup per mug (about 2 1/4 cups)",
-        "228 g spiced rum or Baileys, for adults, about 2 Tbsp (1 oz) per mug (about 1 cup)"
-       ]
-      }
-     ],
-     "nutrition": null
-    }
-   ],
-   "extras": {}
-  },
-  {
-   "id": "hot-chocolate-ganache",
-   "title": "Hot Chocolate from Ganache Base",
+   "id": "hot-chocolate",
+   "title": "Hot Chocolate",
    "category": "Drinks",
    "cuisine": "American",
    "yield": "about 2.4 L, 10 mugs",
@@ -4339,7 +4299,8 @@
    ],
    "traits": [
     "camping",
-    "make-ahead"
+    "make-ahead",
+    "quick"
    ],
    "diet": [
     "gluten-free"
@@ -4397,11 +4358,19 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:10:48.848459+00:00",
+   "updated_at": "2026-10-26T21:15:56.886088+00:00",
    "changes": [
     {
      "date": "2026-10-26",
      "note": "Added an at-home method tab; camping moved from the title to the camping tag."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Added an at-home method tab; camping moved from the title to the camping tag."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Merged the Swiss version in as the easy version."
     }
    ],
    "method": "Camp stove",
@@ -4447,7 +4416,85 @@
      "nutrition": null
     }
    ],
-   "extras": {}
+   "extras": {
+    "easy": {
+     "label": "Swiss Miss shortcut",
+     "notes": "Lands around 68°C, hot but drinkable. Nothing scorches since the water does the heating. Needs about a 3 qt pot.",
+     "steps": [
+      "Boil the water in a pot.",
+      "Whisk in the Swiss Miss.",
+      "Off the heat, stir in the cold half-and-half.",
+      "Top each mug with marshmallows, whipped cream and, for adults, spiced rum or Baileys."
+     ],
+     "yield": "about 9 cups",
+     "groups": [
+      {
+       "name": "",
+       "ingredients": [
+        "6 cups water (about 1420 g)",
+        "12 servings Swiss Miss, per the canister scoop (about 330 g)",
+        "3 cups half-and-half, cold (about 725 g)"
+       ]
+      },
+      {
+       "name": "At the mug",
+       "ingredients": [
+        "2 cups mini marshmallows (about 100 g)",
+        "2 1/4 cups canned whipped cream, about 1/4 cup per mug (about 90 g)",
+        "1 cup spiced rum or Baileys, for adults, about 2 Tbsp (1 oz) per mug (about 240 ml)"
+       ]
+      }
+     ],
+     "method": "Camp stove",
+     "nutrition": {
+      "serving": "8 oz mug, about 260 g (1 of 9)",
+      "servings": 9,
+      "assumptions": "Swiss Miss Milk Chocolate label values, 12 servings at 32 g each; marshmallows, aerosol whipped cream and 1 oz of 35% ABV spiced rum are spread across all 9 mugs.",
+      "per_serving": {
+       "fat_g": 14,
+       "carbs_g": 50,
+       "fiber_g": 1.3,
+       "sugar_g": 42,
+       "calories": 400,
+       "protein_g": 4.2,
+       "sat_fat_g": 9,
+       "sodium_mg": 230,
+       "cholesterol_mg": 35
+      }
+     },
+     "alt_methods": [
+      {
+       "name": "At home",
+       "steps": [
+        "Bring the water to a boil in a 3 qt pot over high heat.",
+        "Whisk in the Swiss Miss until dissolved.",
+        "Remove the pot from the heat.",
+        "Stir in the cold half-and-half.",
+        "Ladle into mugs.",
+        "Top each mug with marshmallows, whipped cream and, for adults, spiced rum or Baileys."
+       ],
+       "groups": [
+        {
+         "name": "",
+         "ingredients": [
+          "1420 g water (about 6 cups)",
+          "330 g Swiss Miss, per the canister scoop (about 12 servings)",
+          "725 g half-and-half, cold (about 3 cups)"
+         ]
+        },
+        {
+         "name": "At the mug",
+         "ingredients": [
+          "100 g mini marshmallows (about 2 cups)",
+          "90 g canned whipped cream, about 1/4 cup per mug (about 2 1/4 cups)",
+          "228 g spiced rum or Baileys, for adults, about 2 Tbsp (1 oz) per mug (about 1 cup)"
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   }
   },
   {
    "id": "irish-lamb-stew",
@@ -6729,85 +6776,6 @@
    "extras": {}
   },
   {
-   "id": "skillet-cornbread-honey-butter",
-   "title": "Skillet Cornbread with Honey Butter",
-   "category": "Sides & Breads",
-   "cuisine": "Southern",
-   "yield": "one 12-inch cast iron skillet, serves 10",
-   "tags": [
-    "cast-iron"
-   ],
-   "traits": [
-    "make-ahead",
-    "crowd"
-   ],
-   "diet": [],
-   "groups": [
-    {
-     "name": "Honey butter",
-     "ingredients": [
-      "115 g unsalted butter, softened (about 1 stick)",
-      "45 g honey",
-      "2 g fine salt"
-     ]
-    },
-    {
-     "name": "Cornbread",
-     "ingredients": [
-      "300 g medium-grind yellow cornmeal",
-      "150 g all-purpose flour",
-      "12 g baking powder",
-      "4 g baking soda",
-      "10 g fine salt",
-      "480 g buttermilk",
-      "150 g eggs (about 3 large)",
-      "21 g honey",
-      "70 g lard, melted and cooled slightly",
-      "45 g lard, for the skillet",
-      "4 g flaky salt, to finish (about 1 1/2 tsp)"
-     ]
-    }
-   ],
-   "steps": [
-    "Whisk the butter, 45 g honey and 2 g salt for the honey butter until smooth. Refrigerate.",
-    "Put 45 g lard in the skillet and heat the oven to 425F with the skillet inside.",
-    "Whisk the cornmeal, flour, baking powder, baking soda and salt.",
-    "Whisk the buttermilk, eggs and 21 g honey, then whisk in the melted lard.",
-    "Fold wet into dry just until no dry pockets remain. The batter stays lumpy.",
-    "Rest the batter 15 minutes.",
-    "Swirl the hot lard up the sides of the skillet, pour in the batter and return to the oven.",
-    "Bake 20 to 25 minutes, until golden with deep brown edges and a clean skewer.",
-    "Cool in the pan 10 minutes.",
-    "Finish with flaky salt and serve with the honey butter."
-   ],
-   "notes": "Honey butter can be made a day ahead; soften 2 to 3 hours at room temperature before serving. Rewarm in the skillet at 350F for 10 minutes. Leftover wedges are good split and griddled for breakfast sandwiches.",
-   "nutrition": {
-    "serving": "1 wedge with about 16 g honey butter (1 of 10)",
-    "servings": 10,
-    "assumptions": "All the skillet lard is counted as absorbed and the honey butter is split evenly across the 10 wedges; all 4 g finishing salt counted.",
-    "per_serving": {
-     "fat_g": 24,
-     "carbs_g": 43,
-     "fiber_g": 2.6,
-     "sugar_g": 8,
-     "calories": 410,
-     "protein_g": 8,
-     "sat_fat_g": 11,
-     "sodium_mg": 940,
-     "cholesterol_mg": 95
-    }
-   },
-   "rating": 0,
-   "photos": [],
-   "credit": null,
-   "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:19.357147+00:00",
-   "changes": [],
-   "method": "",
-   "alt_methods": [],
-   "extras": {}
-  },
-  {
    "id": "slushi-margarita",
    "title": "SlushiMax Margarita (Spiked Slush Max)",
    "category": "Drinks",
@@ -7820,19 +7788,23 @@
   "camp-cheesesteaks-chuck-eye": "cheesesteaks",
   "camp-cheesesteaks": "cheesesteaks",
   "ldw-escabeche-pickle-jar": "escabeche-pickles",
-  "campfire-dutch-oven-cornbread": "dutch-oven-cornbread",
-  "camp-hot-chocolate-swiss-miss": "hot-chocolate-swiss-miss",
   "campfire-foil-packet-bar": "foil-packet-bar",
   "kofta-beef-lamb-logs": "kofta",
   "papas-arrugadas-mojo-verde": "papas-arrugadas",
   "campfire-stovetop-popcorn": "stovetop-popcorn",
+  "hot-chocolate-swiss-miss": "hot-chocolate",
+  "camp-hot-chocolate-swiss-miss": "hot-chocolate",
+  "hot-chocolate-ganache": "hot-chocolate",
+  "camp-hot-chocolate-ganache": "hot-chocolate",
   "ldw-remoulade": "remoulade",
   "san-marzano-tomato-soup": "tomato-soup",
   "growler-toasted-almond-revolver": "toasted-almond-revolver",
   "split-buttermilk-pancakes-ham-cheddar": "split-buttermilk-pancakes",
   "teds-72-hour-pizza-dough": "72-hour-pizza-dough",
   "beer-battered-walleye-and-chips": "beer-battered-walleye",
-  "camp-hot-chocolate-ganache": "hot-chocolate-ganache",
+  "skillet-cornbread-honey-butter": "cornbread",
+  "campfire-dutch-oven-cornbread": "cornbread",
+  "dutch-oven-cornbread": "cornbread",
   "ldw-potato-salad": "dill-pickle-potato-salad",
   "kofta-spice-blend-weighed": "kofta-spice-blend"
  }

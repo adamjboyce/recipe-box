@@ -64,14 +64,14 @@ function friendAvg(id){const rs=(state.friends.get(id)||[]).map(n=>n.rating).fil
 
 /* ---------- index ---------- */
 function renderCats(){renderFilters()}
-const SHOW_OPTS=[["all","All recipes"],["rated","Rated 4+"],["photos","With photos"],["spicy","Spicy option"]];
+const SHOW_OPTS=[["all","All recipes"],["rated","Rated 4+"],["photos","With photos"],["spicy","Spicy option"],["easy","Easy version"]];
 /* ---------- filters: type dropdown, filter panel, search with exclusions ---------- */
 const DIETS=[["vegetarian","Vegetarian"],["vegan","Vegan"],["pescatarian","Pescatarian"],["gluten-free","Gluten-free"],["dairy-free","Dairy-free"]];
 const DIET_LABEL=Object.fromEntries(DIETS);
 ["diets"].forEach(k=>{if(!Array.isArray(state[k]))state[k]=[]});
 state.ingr=[];state.panel=false;
 const stem=w=>w.toLowerCase().trim().replace(/(es|s)$/,"");
-function allGroups(r){return [...(r.groups||[]),...(r.alt_methods||[]).flatMap(a=>a.groups||[])]}
+function allGroups(r){const e=r.extras&&r.extras.easy;return [...(r.groups||[]),...(r.alt_methods||[]).flatMap(a=>a.groups||[]),...(e?[...(e.groups||[]),...(e.alt_methods||[]).flatMap(a=>a.groups||[])]:[])]}
 function ingText(r){return allGroups(r).flatMap(g=>g.ingredients||[]).join(" | ").toLowerCase()}
 function hasIngr(r,term){const t=ingText(r),w=term.toLowerCase().trim();return t.includes(w)||t.includes(stem(w))}
 function parseQ(q){
@@ -146,6 +146,7 @@ function filtered(){
     if(state.show==="rated"&&!(score(r)>=4))return false;
     if(state.show==="photos"&&!allPhotos(r).length)return false;
     if(state.show==="spicy"&&!(r.extras&&r.extras.spicy))return false;
+    if(state.show==="easy"&&!(r.extras&&r.extras.easy))return false;
     if(state.traits.length&&!state.traits.every(t=>(r.traits||[]).includes(t)))return false;
     if(!filterMatch(r))return false;
     if(q&&!searchMatch(r))return false;
@@ -174,7 +175,7 @@ function renderList(){
     const meta=[r.friend?"from "+r.by:r.cuisine,r.yield,f?`${f} note${f>1?"s":""}`:""].filter(Boolean).join(" · ");
     const ph0=allPhotos(r)[0];
     html+=`<button class="item${ph0?" has-photo":""}" type="button" data-id="${esc(r.id)}" aria-current="${r.id===state.openId}">
-      ${ph0?`<img class="thumb" src="${esc(ph0.src)}" alt="" loading="lazy">`:""}<span class="t">${esc(r.title)}${r.extras&&r.extras.spicy?` <span class="hot-mark" title="Has a spicy option">🌶</span>`:""}</span><span class="m">${esc(meta)}</span>
+      ${ph0?`<img class="thumb" src="${esc(ph0.src)}" alt="" loading="lazy">`:""}<span class="t">${esc(r.title)}${r.extras&&r.extras.spicy?` <span class="hot-mark" title="Has a spicy option">🌶</span>`:""}${r.extras&&r.extras.easy?` <span class="hot-mark" title="Has an easy version">⚡</span>`:""}</span><span class="m">${esc(meta)}</span>
       <span class="s"><span class="mini-stars">${stars(r.rating)}</span></span></button>`;
   }
   el.innerHTML=html;
@@ -260,11 +261,11 @@ function methodView(r){
   if(!alts.length)return {i:0,list:[],...base};
   const list=[base,...alts.map(a=>({name:a.name,groups:a.groups&&a.groups.length?a.groups:r.groups,steps:a.steps||[],
     yield:a.yield||r.yield,notes:a.notes?a.notes:r.notes,nutrition:a.nutrition||r.nutrition}))];
-  let i=+state.methodSel[r.id]||0;if(i>=list.length)i=0;
+  let i=+state.methodSel[r._mk||r.id]||0;if(i>=list.length)i=0;
   return {i,list,...list[i]};
 }
 /* spicy toggle: extras.spicy swaps ingredient lines, adds lines and swaps steps; changed lines get marked */
-state.spicy=load("rb.spicy",{});
+state.spicy=load("rb.spicy",{});state.easy=load("rb.easy",{});
 function applySpicy(R,sp){
   const ch=new Set(),sw=new Map((sp.swaps||[]).map(x=>[x.from,x.to])),ss=new Map((sp.steps||[]).map(x=>[x.from,x.to]));
   const groups=(R.groups||[]).map(g=>({...g,ingredients:(g.ingredients||[]).map(l=>{if(sw.has(l)){ch.add(sw.get(l));return sw.get(l)}return l})}));
@@ -275,9 +276,11 @@ function applySpicy(R,sp){
 function renderCard(){
   const el=$("#card");const r=getR(state.openId);
   if(!r){el.innerHTML=`<div class="empty">${!state.loaded||(state.src==="friends"&&!state.frLoaded)?"Opening the box…":state.src==="friends"?"Pick one of your friends' recipes.":"Pick a recipe from the box."}</div>`;return}
-  const SP=r.extras&&r.extras.spicy,hotOn=!!(SP&&state.spicy[r.id]),M=methodView(r);
+  const EZ=r.extras&&r.extras.easy,ezOn=!!(EZ&&state.easy[r.id]);
+  const V=ezOn?{...r,groups:EZ.groups||[],steps:EZ.steps||[],yield:EZ.yield||r.yield,notes:EZ.notes||"",nutrition:EZ.nutrition||null,method:EZ.method||"",alt_methods:EZ.alt_methods||[],_mk:r.id+"~easy"}:r;
+  const SP=!ezOn&&r.extras&&r.extras.spicy,hotOn=!!(SP&&state.spicy[r.id]),M=methodView(V);
   let R={...r,groups:M.groups,steps:M.steps,yield:M.yield,notes:M.notes,nutrition:M.nutrition,hot:new Set()};if(hotOn)R=applySpicy(R,SP);
-  const ck=r.id+(M.i?"@"+M.i:"")+(hotOn?"!":"");
+  const ck=r.id+(ezOn?"~":"")+(M.i?"@"+M.i:"")+(hotOn?"!":"");
   const chk=state.checked[ck]||{};const anyChk=Object.values(chk).some(Boolean);const k=getScale(r.id);const presets=[.5,1,1.5,2,3];
   const fa=friendAvg(r.id);const notes=state.friends.get(r.id)||[];
   const me=load("rb.name","");
@@ -287,7 +290,7 @@ function renderCard(){
     <div class="eyebrow"><span>${esc(r.category)}</span>${r.cuisine?`<span>${esc(r.cuisine)}</span>`:""}</div>
     <h2>${esc(r.title)}</h2>${r.credit?`<div class="credit">From ${esc(r.credit)}</div>`:""}
     ${(r.changes||[]).length?`<div class="changed">Updated ${esc(fmtDate(r.changes.at(-1).date))}: ${esc(r.changes.at(-1).note)}</div>`:""}
-    <div class="meta">${SP?`<button type="button" class="spicy-btn" id="spicyBtn" aria-pressed="${hotOn}" title="Swap in the hotter version">🌶 ${hotOn?"Spicy":"Make it spicy"}</button>`:""}${R.yield?`<span>Yield <b>${esc(R.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
+    <div class="meta">${EZ?`<button type="button" class="easy-btn" id="easyBtn" aria-pressed="${ezOn}" title="${esc(EZ.label||"A shortcut version")}">⚡ ${ezOn?esc(EZ.label||"Easy version"):"Easy version"}</button>`:""}${SP?`<button type="button" class="spicy-btn" id="spicyBtn" aria-pressed="${hotOn}" title="Swap in the hotter version">🌶 ${hotOn?"Spicy":"Make it spicy"}</button>`:""}${R.yield?`<span>Yield <b>${esc(R.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
     <div class="tags">${(r.traits||[]).filter(t=>TRAIT_LABEL[t]).map(t=>`<span class="trait">${esc(TRAIT_LABEL[t])}</span>`).join("")}${(r.diet||[]).filter(d=>DIET_LABEL[d]).map(d=>`<span class="diet">${esc(DIET_LABEL[d])}</span>`).join("")}${(r.tags||[]).filter(t=>!TRAIT_LABEL[t]&&t!=="large-batch"&&t!=="freezer"&&t!=="camping").map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
   </div>
   ${photoBlock(r)}
@@ -329,8 +332,9 @@ function renderCard(){
     <button class="btn" type="button" id="copyBtn">Copy recipe</button>
     <button class="btn" type="button" id="linkBtn">Copy link</button>
   </div>`;
-  el.querySelectorAll("[data-meth]").forEach(b=>b.onclick=()=>{state.methodSel[r.id]=+b.dataset.meth;store("rb.method",state.methodSel);renderCard()});
+  el.querySelectorAll("[data-meth]").forEach(b=>b.onclick=()=>{state.methodSel[V._mk||r.id]=+b.dataset.meth;store("rb.method",state.methodSel);renderCard()});
   {const sb=$("#spicyBtn");if(sb)sb.onclick=()=>{if(hotOn)delete state.spicy[r.id];else state.spicy[r.id]=1;store("rb.spicy",state.spicy);renderCard()}}
+  {const eb=$("#easyBtn");if(eb)eb.onclick=()=>{if(ezOn)delete state.easy[r.id];else state.easy[r.id]=1;store("rb.easy",state.easy);renderCard()}}
   $("#backBtn").onclick=()=>openRecipe(null);
   el.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{state.photoSel[r.id]=+b.dataset.ph;renderCard()});
   el.querySelectorAll(".rlink").forEach(a=>a.onclick=e=>e.stopPropagation());
@@ -441,7 +445,7 @@ function loadAdmin(){
 
 /* ---------- boot ---------- */
 $("#q").value=state.q||"";$("#sort").value=["best","az","new"].includes(state.sort)?state.sort:"best";state.sort=$("#sort").value;
-if(!["all","rated","photos","spicy"].includes(state.show))state.show="all";
+if(!["all","rated","photos","spicy","easy"].includes(state.show))state.show="all";
 $("#q").oninput=e=>{state.q=e.target.value;saveView();renderList();if(state.panel)renderFilters()};
 $("#sort").onchange=e=>{state.sort=e.target.value;saveView();renderList()};
 function showView(v){const home=v==="home";$("#home").hidden=!home;$("#app").hidden=v!=="box";$("#share").hidden=v!=="share";$("#admin").hidden=v!=="admin";
