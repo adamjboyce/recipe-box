@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T15:27:45+00:00",
+ "generated": "2026-10-26T15:35:53+00:00",
  "recipes": [
   {
    "id": "brussels-sprouts-bacon",
@@ -37,6 +37,10 @@
    "traits": [
     "make-ahead",
     "quick"
+   ],
+   "diet": [
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -102,6 +106,10 @@
    "traits": [
     "make-ahead",
     "long-cook"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian"
    ]
   },
   {
@@ -138,6 +146,9 @@
    "traits": [
     "camping",
     "quick"
+   ],
+   "diet": [
+    "gluten-free"
    ]
   },
   {
@@ -203,6 +214,10 @@
     "freezer",
     "slow-cooker",
     "long-cook"
+   ],
+   "diet": [
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -264,6 +279,10 @@
    "keeper": false,
    "traits": [
     "make-ahead"
+   ],
+   "diet": [
+    "pescatarian",
+    "dairy-free"
    ]
   },
   {
@@ -363,7 +382,8 @@
     "make-ahead",
     "freezer",
     "crowd"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "braised-red-cabbage",
@@ -409,6 +429,11 @@
    "keeper": false,
    "traits": [
     "make-ahead"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -450,6 +475,13 @@
    "traits": [
     "camping",
     "make-ahead"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -516,7 +548,8 @@
     "make-ahead",
     "freezer",
     "crowd"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "cabbage-carrot-slaw-sumac-dressing",
@@ -564,6 +597,13 @@
     "camping",
     "make-ahead",
     "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -597,6 +637,9 @@
    "keeper": false,
    "traits": [
     "quick"
+   ],
+   "diet": [
+    "gluten-free"
    ]
   },
   {
@@ -646,7 +689,8 @@
     "make-ahead",
     "freezer",
     "crowd"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "camp-cheesesteaks-chuck-eye",
@@ -692,6 +736,9 @@
    "traits": [
     "camping",
     "quick"
+   ],
+   "diet": [
+    "gluten-free"
    ]
   },
   {
@@ -737,6 +784,9 @@
    "traits": [
     "camping",
     "quick"
+   ],
+   "diet": [
+    "gluten-free"
    ]
   },
   {
@@ -777,7 +827,8 @@
    "keeper": false,
    "traits": [
     "camping"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "campfire-foil-packet-bar",
@@ -846,6 +897,9 @@
    "keeper": false,
    "traits": [
     "camping"
+   ],
+   "diet": [
+    "gluten-free"
    ]
   },
   {
@@ -882,6 +936,13 @@
    "traits": [
     "camping",
     "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -937,6 +998,10 @@
     "make-ahead",
     "freezer",
     "long-cook"
+   ],
+   "diet": [
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -978,6 +1043,13 @@
    "traits": [
     "camping",
     "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -1030,6 +1102,10 @@
    "traits": [
     "make-ahead",
     "freezer"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian"
    ]
   },
   {
@@ -1085,6 +1161,11 @@
    "keeper": false,
    "traits": [
     "long-cook"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -1120,6 +1201,11 @@
    "keeper": false,
    "traits": [
     "make-ahead"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -1150,6 +1236,13 @@
    "keeper": false,
    "traits": [
     "make-ahead"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -1189,6 +1282,10 @@
    "keeper": false,
    "traits": [
     "quick"
+   ],
+   "diet": [
+    "pescatarian",
+    "dairy-free"
    ]
   },
   {
@@ -1225,6 +1322,11 @@
    "traits": [
     "make-ahead",
     "quick"
+   ],
+   "diet": [
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -1260,7 +1362,8 @@
    "notes": "",
    "rating": 0,
    "keeper": false,
-   "traits": []
+   "traits": [],
+   "diet": []
   },
   {
    "id": "creole-mustard",
@@ -1300,6 +1403,13 @@
    "traits": [
     "make-ahead",
     "long-cook"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -1330,7 +1440,13 @@
    "notes": "",
    "rating": 0,
    "keeper": false,
-   "traits": []
+   "traits": [],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+   ]
   },
   {
    "id": "cubano-tater-tot-casserole",
@@ -1403,7 +1519,8 @@
    "notes": "Serve with extra pickle spears and yellow mustard.",
    "rating": 0,
    "keeper": false,
-   "traits": []
+   "traits": [],
+   "diet": []
   },
   {
    "id": "ldw-dill-pickle-jar",
@@ -1461,6 +1578,13 @@
    "keeper": false,
    "traits": [
     "make-ahead"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -1515,6 +1639,12 @@
    "traits": [
     "make-ahead",
     "crowd"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -1548,6 +1678,11 @@
    "traits": [
     "make-ahead",
     "quick"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -1588,6 +1723,10 @@
    "keeper": false,
    "traits": [
     "make-ahead"
+   ],
+   "diet": [
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -1630,6 +1769,10 @@
    "keeper": false,
    "traits": [
     "make-ahead"
+   ],
+   "diet": [
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -1687,6 +1830,13 @@
    "keeper": false,
    "traits": [
     "make-ahead"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -1727,6 +1877,11 @@
    "traits": [
     "camping",
     "make-ahead"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -1764,6 +1919,13 @@
    "traits": [
     "camping",
     "make-ahead"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -1806,6 +1968,11 @@
    "traits": [
     "make-ahead",
     "freezer"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -1843,6 +2010,11 @@
     "camping",
     "make-ahead",
     "quick"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -1879,6 +2051,13 @@
    "keeper": false,
    "traits": [
     "shelf-stable"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -1923,6 +2102,13 @@
     "freezer",
     "shelf-stable",
     "crowd"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -1992,6 +2178,13 @@
     "camping",
     "make-ahead",
     "crowd"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -2043,6 +2236,13 @@
     "make-ahead",
     "shelf-stable",
     "crowd"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -2075,6 +2275,10 @@
    "keeper": false,
    "traits": [
     "quick"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian"
    ]
   },
   {
@@ -2131,6 +2335,9 @@
    "traits": [
     "camping",
     "make-ahead"
+   ],
+   "diet": [
+    "gluten-free"
    ]
   },
   {
@@ -2197,7 +2404,8 @@
    "traits": [
     "make-ahead",
     "freezer"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "kofta-beef-lamb-logs",
@@ -2276,7 +2484,8 @@
     "make-ahead",
     "freezer",
     "crowd"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "kofta-spice-blend-weighed",
@@ -2321,6 +2530,13 @@
     "make-ahead",
     "shelf-stable",
     "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -2360,6 +2576,13 @@
     "make-ahead",
     "shelf-stable",
     "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -2401,6 +2624,11 @@
     "camping",
     "make-ahead",
     "quick"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -2487,6 +2715,10 @@
     "freezer",
     "long-cook",
     "crowd"
+   ],
+   "diet": [
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -2555,6 +2787,9 @@
    "keeper": false,
    "traits": [
     "crowd"
+   ],
+   "diet": [
+    "gluten-free"
    ]
   },
   {
@@ -2683,7 +2918,8 @@
     "make-ahead",
     "freezer",
     "crowd"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "mild-chili-toasted-dried-chiles",
@@ -2759,7 +2995,8 @@
     "freezer",
     "slow-cooker",
     "long-cook"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "mudslide-slushie-base",
@@ -2806,6 +3043,11 @@
    "keeper": false,
    "traits": [
     "make-ahead"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -2864,6 +3106,13 @@
     "make-ahead",
     "slow-cooker",
     "crowd"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -2908,6 +3157,11 @@
    "traits": [
     "camping",
     "make-ahead"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -2971,7 +3225,8 @@
    "traits": [
     "make-ahead",
     "quick"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "papas-arrugadas-mojo-verde",
@@ -3024,6 +3279,13 @@
    "keeper": false,
    "traits": [
     "make-ahead"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -3058,6 +3320,13 @@
    "traits": [
     "camping",
     "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -3122,6 +3391,9 @@
     "freezer",
     "long-cook",
     "crowd"
+   ],
+   "diet": [
+    "gluten-free"
    ]
   },
   {
@@ -3162,6 +3434,11 @@
    "traits": [
     "camping",
     "make-ahead"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -3199,6 +3476,13 @@
    "traits": [
     "make-ahead",
     "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -3237,6 +3521,13 @@
     "camping",
     "make-ahead",
     "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -3338,6 +3629,11 @@
     "freezer",
     "long-cook",
     "crowd"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -3380,6 +3676,13 @@
     "make-ahead",
     "shelf-stable",
     "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -3430,6 +3733,9 @@
    "traits": [
     "camping",
     "make-ahead"
+   ],
+   "diet": [
+    "gluten-free"
    ]
   },
   {
@@ -3484,7 +3790,8 @@
    "keeper": false,
    "traits": [
     "quick"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "reeses-puffs-no-bake-clusters",
@@ -3524,6 +3831,10 @@
    "keeper": false,
    "traits": [
     "quick"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian"
    ]
   },
   {
@@ -3563,6 +3874,11 @@
    "traits": [
     "make-ahead",
     "quick"
+   ],
+   "diet": [
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -3618,6 +3934,9 @@
    "traits": [
     "make-ahead",
     "long-cook"
+   ],
+   "diet": [
+    "gluten-free"
    ]
   },
   {
@@ -3668,7 +3987,8 @@
    "keeper": false,
    "traits": [
     "make-ahead"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "salsa-roja-de-arbol",
@@ -3714,6 +4034,13 @@
    "traits": [
     "camping",
     "make-ahead"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -3765,6 +4092,9 @@
     "make-ahead",
     "freezer",
     "crowd"
+   ],
+   "diet": [
+    "dairy-free"
    ]
   },
   {
@@ -3800,6 +4130,11 @@
    "traits": [
     "make-ahead",
     "quick"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
    ]
   },
   {
@@ -3858,7 +4193,8 @@
    "traits": [
     "make-ahead",
     "crowd"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "slow-cooker-carnitas",
@@ -3919,6 +4255,10 @@
     "slow-cooker",
     "long-cook",
     "crowd"
+   ],
+   "diet": [
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -3959,6 +4299,13 @@
    "keeper": false,
    "traits": [
     "crowd"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -3998,6 +4345,13 @@
    "keeper": false,
    "traits": [
     "crowd"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -4091,7 +4445,8 @@
    "traits": [
     "camping",
     "make-ahead"
-   ]
+   ],
+   "diet": []
   },
   {
    "id": "tartar-sauce",
@@ -4129,6 +4484,12 @@
    "traits": [
     "make-ahead",
     "quick"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   },
   {
@@ -4202,6 +4563,12 @@
    "traits": [
     "make-ahead",
     "long-cook"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free"
    ]
   },
   {
@@ -4250,7 +4617,8 @@
    "notes": "",
    "rating": 0,
    "keeper": false,
-   "traits": []
+   "traits": [],
+   "diet": []
   },
   {
    "id": "san-marzano-tomato-soup",
@@ -4305,6 +4673,9 @@
    "keeper": false,
    "traits": [
     "make-ahead"
+   ],
+   "diet": [
+    "gluten-free"
    ]
   },
   {
@@ -4345,6 +4716,13 @@
     "camping",
     "make-ahead",
     "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
    ]
   }
  ]

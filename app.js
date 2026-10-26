@@ -13,13 +13,8 @@ function load(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}
 Object.assign(state,load("rb.view",{}));
 if(!Array.isArray(state.traits))state.traits=[];
 state.checked=load("rb.checked",{});state.scale=load("rb.scale",{});
-function saveView(){store("rb.view",{q:state.q,cat:state.cat,show:state.show,sort:state.sort,traits:state.traits})}
-function renderTraits(){
-  const el=$("#traits");
-  const present=new Set([...state.recipes.values()].flatMap(r=>r.traits||[]));
-  el.innerHTML='<span class="lbl">Good for</span>'+TRAITS.filter(([k])=>present.has(k)).map(([k,l])=>`<button type="button" class="chip t" data-trait="${k}" aria-pressed="${state.traits.includes(k)}">${esc(l)}</button>`).join("");
-  el.querySelectorAll("[data-trait]").forEach(b=>b.onclick=()=>{const k=b.dataset.trait;state.traits=state.traits.includes(k)?state.traits.filter(x=>x!==k):[...state.traits,k];saveView();renderTraits();renderList()});
-}
+function saveView(){store("rb.view",{q:state.q,cat:state.cat,show:state.show,sort:state.sort,traits:state.traits,diets:state.diets,ingr:state.ingr,open:state.open})}
+function renderTraits(){}
 
 /* ---------- friends (Supabase REST) ---------- */
 async function sb(path,opts={}){
@@ -30,22 +25,93 @@ async function sb(path,opts={}){
 async function loadFriends(){
   if(!SB)return;
   try{
-    const rows=await sb("notes?select=id,recipe_id,name,rating,note,created_at&order=created_at.desc&limit=5000");
+    const rows=await sb("notes?select=id,recipe_id,name,rating,note,photo_path,created_at&order=created_at.desc&limit=5000");
     state.friends=new Map();for(const n of rows){if(!state.friends.has(n.recipe_id))state.friends.set(n.recipe_id,[]);state.friends.get(n.recipe_id).push(n)}
   }catch(e){console.warn("friend notes unavailable",e)}
   state.friendsLoaded=true;renderList();renderCard();
 }
+function sbHeaders(extra){return {apikey:SB.key,...(SB.key.startsWith("sb_")?{}:{Authorization:`Bearer ${SB.key}`}),...(extra||{})}}
+const photoUrl=p=>`${SB.url}/storage/v1/object/public/photos/${p.split("/").map(encodeURIComponent).join("/")}`;
+function allPhotos(r){
+  const own=(r.photos||[]).map(p=>({src:"photos/"+p,by:"Adam"}));
+  const fr=SB?(state.friends.get(r.id)||[]).filter(n=>n.photo_path).map(n=>({src:photoUrl(n.photo_path),by:n.name})):[];
+  return [...own,...fr];
+}
+function shrink(file){
+  return new Promise((res,rej)=>{
+    const url=URL.createObjectURL(file),img=new Image();
+    img.onload=()=>{const max=1800,s=Math.min(1,max/Math.max(img.width,img.height));
+      const c=document.createElement("canvas");c.width=Math.round(img.width*s);c.height=Math.round(img.height*s);
+      c.getContext("2d").drawImage(img,0,0,c.width,c.height);URL.revokeObjectURL(url);
+      c.toBlob(b=>b?res(b):rej(new Error("encode")),"image/jpeg",.85)};
+    img.onerror=()=>{URL.revokeObjectURL(url);rej(new Error("decode"))};img.src=url;
+  });
+}
+async function uploadFriendPhoto(recipeId,file){
+  const blob=await shrink(file);
+  if(blob.size>5*1024*1024)throw new Error("too big");
+  const path=`${recipeId}/${Date.now().toString(36)}-${Math.random().toString(36).slice(2,8)}.jpg`;
+  const r=await fetch(`${SB.url}/storage/v1/object/photos/${path}`,{method:"POST",headers:sbHeaders({"Content-Type":"image/jpeg","x-upsert":"false"}),body:blob});
+  if(!r.ok)throw new Error("upload "+r.status+" "+(await r.text()).slice(0,200));
+  return path;
+}
 function friendAvg(id){const rs=(state.friends.get(id)||[]).map(n=>n.rating).filter(Boolean);return rs.length?{avg:rs.reduce((a,b)=>a+b,0)/rs.length,n:rs.length}:null}
 
 /* ---------- index ---------- */
-function renderCats(){
-  const el=$("#cats");el.innerHTML="";
-  const present=new Set([...state.recipes.values()].map(r=>r.category));
-  [["","All"],...CATS.filter(c=>present.has(c)).map(c=>[c,c])].forEach(([v,l])=>{
-    const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=l;
-    b.setAttribute("aria-pressed",String(state.cat===v));
-    b.onclick=()=>{state.cat=v;saveView();renderCats();renderList()};el.appendChild(b)});
+function renderCats(){renderFilters()}
+/* ---------- filters: categories, traits, diet, ingredients ---------- */
+const DIETS=[["vegetarian","Vegetarian"],["vegan","Vegan"],["pescatarian","Pescatarian"],["gluten-free","Gluten-free"],["dairy-free","Dairy-free"]];
+const DIET_LABEL=Object.fromEntries(DIETS);
+const INGR_WORDS=["mushroom","garlic","onion","potato","tomato","cheese","cheddar","butter","cream","egg","bacon","sausage","andouille","ham","pork","beef","lamb","chicken","duck fat","shrimp","crab","walleye","beans","chickpea","rice","corn","cabbage","carrot","bell pepper","poblano","jalapeno","habanero","chile","lime","lemon","orange","apple","cider","honey","maple","chocolate","peanut butter","marshmallow","yogurt","sour cream","dill","cilantro","parsley","thyme","oregano","cumin","paprika","cinnamon","ginger","old bay","rum","tequila","gin","bourbon","vodka","beer","lard","flour","cornmeal","sourdough","pickle","mustard","mayonnaise","vinegar","broccoli","cauliflower","zucchini","squash","tortilla","pita","puff pastry","celery","walnut","almond","coffee","cocoa","sugar"];
+["diets","ingr"].forEach(k=>{if(!Array.isArray(state[k]))state[k]=[]});
+state.open=state.open||{};
+const stem=w=>w.toLowerCase().trim().replace(/(es|s)$/,"");
+function ingText(r){return (r.groups||[]).flatMap(g=>g.ingredients||[]).join(" | ").toLowerCase()}
+function hasIngr(r,term){const t=ingText(r),w=term.toLowerCase().trim();return t.includes(w)||t.includes(stem(w))}
+function filterMatch(r){
+  if(state.diets.length&&!state.diets.every(d=>(r.diet||[]).includes(d)))return false;
+  for(const raw of state.ingr){const neg=raw.startsWith("-");const term=neg?raw.slice(1):raw;if(hasIngr(r,term)===neg)return false}
+  return true;
 }
+function pillRow(key,label,items,isOn,onToggle,top=3){
+  const shown=state.open[key]?items:items.filter((it,i)=>i<top||isOn(it[0]));
+  const extra=items.length-shown.length;
+  return `<div class="frow" data-row="${key}"><span class="lbl">${esc(label)}</span>`+
+    shown.map(([k,l,n])=>`<button type="button" class="chip${key==="cats"?"":" t"}" data-k="${esc(k)}" aria-pressed="${isOn(k)}">${esc(l)}${n!=null?` <span class="n">${n}</span>`:""}</button>`).join("")+
+    (items.length>top?`<button type="button" class="more" data-more="${key}">${state.open[key]?"Fewer":`+${extra} more`}</button>`:"")+`</div>`;
+}
+function renderFilters(){
+  const el=$("#filters");if(!el)return;
+  const all=[...state.recipes.values()];
+  const count=(fn)=>all.filter(fn).length;
+  const cats=CATS.map(c=>[c,c,count(r=>r.category===c)]).filter(x=>x[2]).sort((a,b)=>b[2]-a[2]);
+  const traits=TRAITS.map(([k,l])=>[k,l,count(r=>(r.traits||[]).includes(k))]).filter(x=>x[2]).sort((a,b)=>b[2]-a[2]);
+  const diets=DIETS.map(([k,l])=>[k,l,count(r=>(r.diet||[]).includes(k))]).filter(x=>x[2]).sort((a,b)=>b[2]-a[2]);
+  const txt=all.map(ingText).join(" ");
+  const words=INGR_WORDS.filter(w=>txt.includes(w));
+  const active=(state.cat?1:0)+state.traits.length+state.diets.length+state.ingr.length;
+  el.innerHTML=
+    pillRow("cats","Type",cats,k=>state.cat===k)+
+    pillRow("traits","Good for",traits,k=>state.traits.includes(k))+
+    pillRow("diets","Diet",diets,k=>state.diets.includes(k))+
+    `<div class="frow ingr"><span class="lbl">Ingredients</span>${state.ingr.map(t=>`<span class="ichip${t.startsWith("-")?" neg":""}">${t.startsWith("-")?"no ":""}${esc(t.replace(/^-/,""))}<button type="button" data-rm="${esc(t)}" aria-label="Remove ${esc(t)}">×</button></span>`).join("")}
+      <input id="ingrIn" list="ingrList" placeholder="${state.ingr.length?"add another":"has mushrooms, or no pork…"}" aria-label="Filter by ingredient" autocomplete="off">
+      <datalist id="ingrList">${words.map(w=>`<option value="${esc(w)}"><option value="no ${esc(w)}">`).join("")}</datalist></div>`+
+    (active?`<div class="frow"><button type="button" class="more" id="clearF">Clear ${active} filter${active>1?"s":""}</button></div>`:"");
+  el.querySelectorAll('[data-row="cats"] [data-k]').forEach(b=>b.onclick=()=>{state.cat=state.cat===b.dataset.k?"":b.dataset.k;applyFilters()});
+  const tog=(arr,k)=>arr.includes(k)?arr.filter(x=>x!==k):[...arr,k];
+  el.querySelectorAll('[data-row="traits"] [data-k]').forEach(b=>b.onclick=()=>{state.traits=tog(state.traits,b.dataset.k);applyFilters()});
+  el.querySelectorAll('[data-row="diets"] [data-k]').forEach(b=>b.onclick=()=>{state.diets=tog(state.diets,b.dataset.k);applyFilters()});
+  el.querySelectorAll("[data-more]").forEach(b=>b.onclick=()=>{state.open[b.dataset.more]=!state.open[b.dataset.more];saveView();renderFilters()});
+  el.querySelectorAll("[data-rm]").forEach(b=>b.onclick=()=>{state.ingr=state.ingr.filter(t=>t!==b.dataset.rm);applyFilters()});
+  const inp=$("#ingrIn");
+  const addIngr=()=>{let v=inp.value.trim().toLowerCase();if(!v)return;let neg=false;if(/^(no|without|-)\s*/.test(v)){neg=true;v=v.replace(/^(no|without|-)\s*/,"")}if(!v)return;const key=(neg?"-":"")+v;if(!state.ingr.includes(key))state.ingr=[...state.ingr,key];applyFilters();setTimeout(()=>{const i=$("#ingrIn");if(i)i.focus()},0)};
+  inp.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();addIngr()}};
+  inp.onchange=()=>{const v=inp.value.trim().toLowerCase();if(words.includes(v.replace(/^no /,"")))addIngr()};
+  const c=$("#clearF");if(c)c.onclick=()=>{state.cat="";state.traits=[];state.diets=[];state.ingr=[];applyFilters()};
+}
+function applyFilters(){saveView();renderFilters();renderList()}
+
 function haystack(r){return [r.title,r.cuisine,r.category,(r.tags||[]).join(" "),...(r.groups||[]).flatMap(g=>g.ingredients||[])].join(" ").toLowerCase()}
 function score(r){const f=friendAvg(r.id);return r.rating||(f?f.avg:0)}
 function filtered(){
@@ -54,8 +120,9 @@ function filtered(){
     if(state.cat&&r.category!==state.cat)return false;
     if(state.show==="keepers"&&!r.keeper)return false;
     if(state.show==="rated"&&!(score(r)>=4))return false;
-    if(state.show==="photos"&&!(r.photos||[]).length)return false;
+    if(state.show==="photos"&&!allPhotos(r).length)return false;
     if(state.traits.length&&!state.traits.every(t=>(r.traits||[]).includes(t)))return false;
+    if(!filterMatch(r))return false;
     if(q&&!q.split(/\s+/).every(w=>haystack(r).includes(w)))return false;
     return true});
   const by={
@@ -78,9 +145,9 @@ function renderList(){
     if(grouped&&r.category!==cur){cur=r.category;html+=`<div class="group-label">${esc(cur)}</div>`}
     const f=(state.friends.get(r.id)||[]).length;
     const meta=[r.cuisine,r.yield,f?`${f} note${f>1?"s":""}`:""].filter(Boolean).join(" · ");
-    const ph=(r.photos||[])[0];
-    html+=`<button class="item${ph?" has-photo":""}" type="button" data-id="${esc(r.id)}" aria-current="${r.id===state.openId}">
-      ${ph?`<img class="thumb" src="photos/${esc(ph)}" alt="" loading="lazy">`:""}<span class="t">${esc(r.title)}</span><span class="m">${esc(meta)}</span>
+    const ph0=allPhotos(r)[0];
+    html+=`<button class="item${ph0?" has-photo":""}" type="button" data-id="${esc(r.id)}" aria-current="${r.id===state.openId}">
+      ${ph0?`<img class="thumb" src="${esc(ph0.src)}" alt="" loading="lazy">`:""}<span class="t">${esc(r.title)}</span><span class="m">${esc(meta)}</span>
       <span class="s">${r.keeper?'<span class="keeper-tag">Keeper</span>':""}<span class="mini-stars">${stars(r.rating)}</span></span></button>`;
   }
   el.innerHTML=html;
@@ -127,10 +194,10 @@ function openRecipe(id){
   renderList();renderCard();$("#pane").scrollTop=0;window.scrollTo(0,0);
 }
 function photoBlock(r){
-  const ps=r.photos||[];if(!ps.length)return"";
+  const ps=allPhotos(r);if(!ps.length)return"";
   const sel=Math.min(state.photoSel[r.id]||0,ps.length-1);
-  return `<div class="photos"><img class="hero" src="photos/${esc(ps[sel])}" alt="${esc(r.title)}">
-    ${ps.length>1?`<div class="strip">${ps.map((p,i)=>`<button type="button" data-ph="${i}" aria-current="${i===sel}" aria-label="Photo ${i+1}"><img src="photos/${esc(p)}" alt="" loading="lazy"></button>`).join("")}</div>`:""}</div>`;
+  return `<div class="photos"><img class="hero" src="${esc(ps[sel].src)}" alt="${esc(r.title)}"><div class="photo-by">Photo by ${esc(ps[sel].by)}</div>
+    ${ps.length>1?`<div class="strip">${ps.map((p,i)=>`<button type="button" data-ph="${i}" aria-current="${i===sel}" aria-label="Photo ${i+1} by ${esc(p.by)}"><img src="${esc(p.src)}" alt="" loading="lazy"></button>`).join("")}</div>`:""}</div>`;
 }
 function renderCard(){
   const el=$("#card");const r=state.recipes.get(state.openId);
@@ -144,7 +211,7 @@ function renderCard(){
     <div class="eyebrow"><span>${esc(r.category)}</span>${r.cuisine?`<span>${esc(r.cuisine)}</span>`:""}</div>
     <h2>${esc(r.title)}</h2>
     <div class="meta">${r.yield?`<span>Yield <b>${esc(r.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
-    <div class="tags">${(r.traits||[]).filter(t=>TRAIT_LABEL[t]).map(t=>`<span class="trait">${esc(TRAIT_LABEL[t])}</span>`).join("")}${(r.tags||[]).filter(t=>!TRAIT_LABEL[t]&&t!=="large-batch"&&t!=="freezer"&&t!=="camping").map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
+    <div class="tags">${(r.traits||[]).filter(t=>TRAIT_LABEL[t]).map(t=>`<span class="trait">${esc(TRAIT_LABEL[t])}</span>`).join("")}${(r.diet||[]).filter(d=>DIET_LABEL[d]).map(d=>`<span class="diet">${esc(DIET_LABEL[d])}</span>`).join("")}${(r.tags||[]).filter(t=>!TRAIT_LABEL[t]&&t!=="large-batch"&&t!=="freezer"&&t!=="camping").map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
   </div>
   ${photoBlock(r)}
   <div class="verdict">
@@ -174,9 +241,10 @@ function renderCard(){
       <div class="row"><input id="ffName" maxlength="40" placeholder="Your name" aria-label="Your name" value="${esc(me)}" required>
         <div class="stars" role="group" aria-label="Your rating">${[1,2,3,4,5].map(i=>`<button class="star" type="button" data-fs="${i}" aria-label="${i} star${i>1?"s":""}">★</button>`).join("")}</div></div>
       <textarea id="ffNote" maxlength="1000" placeholder="How did it go? What would you change?" aria-label="Note"></textarea>
+      <div class="row"><input type="file" id="ffPhoto" accept="image/*" hidden><button class="btn" type="button" id="ffPhotoBtn">Add a photo</button><img id="ffPrev" class="ff-prev" alt="" hidden><span class="muted" id="ffPhotoName"></span></div>
       <div class="row"><button class="btn primary" type="submit">Post</button><span class="muted" id="ffMsg"></span></div>
     </form>
-    ${notes.length?`<ul class="friend-list">${notes.map(n=>`<li><div class="h"><span class="nm">${esc(n.name)}</span>${n.rating?`<span class="st">${stars(n.rating)}</span>`:""}<span class="dt">${esc(fmtDate(n.created_at))}</span></div>${n.note?`<div class="tx">${esc(n.note)}</div>`:""}</li>`).join("")}</ul>`:state.friendsLoaded?`<p class="muted">No notes yet. Be the first.</p>`:""}
+    ${notes.length?`<ul class="friend-list">${notes.map(n=>`<li><div class="h"><span class="nm">${esc(n.name)}</span>${n.rating?`<span class="st">${stars(n.rating)}</span>`:""}<span class="dt">${esc(fmtDate(n.created_at))}</span></div>${n.note?`<div class="tx">${esc(n.note)}</div>`:""}${n.photo_path?`<img class="note-photo" src="${esc(photoUrl(n.photo_path))}" alt="Photo from ${esc(n.name)}" loading="lazy">`:""}</li>`).join("")}</ul>`:state.friendsLoaded?`<p class="muted">No notes yet. Be the first.</p>`:""}
   </section>`:""}
   <div class="foot"><span class="spacer"></span>
     <button class="btn" type="button" id="resetBtn">Clear checks</button>
@@ -194,17 +262,22 @@ function renderCard(){
   if(SB)wireFriendForm(r);
 }
 function wireFriendForm(r){
-  let pick=0;const btns=[...document.querySelectorAll("[data-fs]")];
+  let pick=0,file=null;const btns=[...document.querySelectorAll("[data-fs]")];
+  const fin=$("#ffPhoto"),prev=$("#ffPrev");
+  $("#ffPhotoBtn").onclick=()=>fin.click();
+  fin.onchange=()=>{file=fin.files[0]||null;if(prev.src)URL.revokeObjectURL(prev.src);if(file){prev.src=URL.createObjectURL(file);prev.hidden=false;$("#ffPhotoBtn").textContent="Change photo"}else{prev.hidden=true}};
   const paint=()=>btns.forEach(b=>b.classList.toggle("on",+b.dataset.fs<=pick));
   btns.forEach(b=>b.onclick=()=>{pick=pick===+b.dataset.fs?0:+b.dataset.fs;paint()});
   $("#ff").onsubmit=async e=>{
     e.preventDefault();
     const name=$("#ffName").value.trim(),note=$("#ffNote").value.trim(),msg=$("#ffMsg");
     if(!name){msg.textContent="Add your name first.";return}
-    if(!pick&&!note){msg.textContent="Pick some stars or write a note.";return}
+    if(!pick&&!note&&!file){msg.textContent="Pick some stars, write a note, or add a photo.";return}
     msg.textContent="Posting…";store("rb.name",name);
     try{
-      const row={recipe_id:r.id,name,rating:pick||null,note:note||null};
+      let photo_path=null;
+      if(file){msg.textContent="Uploading photo…";try{photo_path=await uploadFriendPhoto(r.id,file)}catch(err){msg.textContent=/decode|encode/.test(err.message)?"That photo couldn't be read. Try a JPEG or PNG.":/too big/.test(err.message)?"That photo is too large.":"The photo didn't upload. Try again.";console.warn(err);return}msg.textContent="Posting…"}
+      const row={recipe_id:r.id,name,rating:pick||null,note:note||null,photo_path};
       const out=await sb("notes",{method:"POST",headers:{Prefer:"return=representation"},body:JSON.stringify(row)});
       const saved=(out&&out[0])||{...row,created_at:new Date().toISOString()};
       if(!state.friends.has(r.id))state.friends.set(r.id,[]);state.friends.get(r.id).unshift(saved);
