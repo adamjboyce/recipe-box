@@ -64,7 +64,7 @@ function friendAvg(id){const rs=(state.friends.get(id)||[]).map(n=>n.rating).fil
 
 /* ---------- index ---------- */
 function renderCats(){renderFilters()}
-const SHOW_OPTS=[["all","All recipes"],["rated","Rated 4+"],["photos","With photos"]];
+const SHOW_OPTS=[["all","All recipes"],["rated","Rated 4+"],["photos","With photos"],["spicy","Spicy option"]];
 /* ---------- filters: type dropdown, filter panel, search with exclusions ---------- */
 const DIETS=[["vegetarian","Vegetarian"],["vegan","Vegan"],["pescatarian","Pescatarian"],["gluten-free","Gluten-free"],["dairy-free","Dairy-free"]];
 const DIET_LABEL=Object.fromEntries(DIETS);
@@ -145,6 +145,7 @@ function filtered(){
     if(fr)return !q||searchMatch(r);
     if(state.show==="rated"&&!(score(r)>=4))return false;
     if(state.show==="photos"&&!allPhotos(r).length)return false;
+    if(state.show==="spicy"&&!(r.extras&&r.extras.spicy))return false;
     if(state.traits.length&&!state.traits.every(t=>(r.traits||[]).includes(t)))return false;
     if(!filterMatch(r))return false;
     if(q&&!searchMatch(r))return false;
@@ -173,7 +174,7 @@ function renderList(){
     const meta=[r.friend?"from "+r.by:r.cuisine,r.yield,f?`${f} note${f>1?"s":""}`:""].filter(Boolean).join(" · ");
     const ph0=allPhotos(r)[0];
     html+=`<button class="item${ph0?" has-photo":""}" type="button" data-id="${esc(r.id)}" aria-current="${r.id===state.openId}">
-      ${ph0?`<img class="thumb" src="${esc(ph0.src)}" alt="" loading="lazy">`:""}<span class="t">${esc(r.title)}</span><span class="m">${esc(meta)}</span>
+      ${ph0?`<img class="thumb" src="${esc(ph0.src)}" alt="" loading="lazy">`:""}<span class="t">${esc(r.title)}${r.extras&&r.extras.spicy?` <span class="hot-mark" title="Has a spicy option">🌶</span>`:""}</span><span class="m">${esc(meta)}</span>
       <span class="s"><span class="mini-stars">${stars(r.rating)}</span></span></button>`;
   }
   el.innerHTML=html;
@@ -262,10 +263,21 @@ function methodView(r){
   let i=+state.methodSel[r.id]||0;if(i>=list.length)i=0;
   return {i,list,...list[i]};
 }
+/* spicy toggle: extras.spicy swaps ingredient lines, adds lines and swaps steps; changed lines get marked */
+state.spicy=load("rb.spicy",{});
+function applySpicy(R,sp){
+  const ch=new Set(),sw=new Map((sp.swaps||[]).map(x=>[x.from,x.to])),ss=new Map((sp.steps||[]).map(x=>[x.from,x.to]));
+  const groups=(R.groups||[]).map(g=>({...g,ingredients:(g.ingredients||[]).map(l=>{if(sw.has(l)){ch.add(sw.get(l));return sw.get(l)}return l})}));
+  for(const a of sp.add||[]){const g=groups.find(x=>(x.name||"")===(a.group||""))||groups[0];if(g){g.ingredients=[...g.ingredients,a.line];ch.add(a.line)}}
+  const steps=(R.steps||[]).map(x=>{if(ss.has(x)){ch.add(ss.get(x));return ss.get(x)}return x});
+  return {...R,groups,steps,hot:ch};
+}
 function renderCard(){
   const el=$("#card");const r=getR(state.openId);
   if(!r){el.innerHTML=`<div class="empty">${!state.loaded||(state.src==="friends"&&!state.frLoaded)?"Opening the box…":state.src==="friends"?"Pick one of your friends' recipes.":"Pick a recipe from the box."}</div>`;return}
-  const M=methodView(r),R={...r,groups:M.groups,steps:M.steps,yield:M.yield,notes:M.notes,nutrition:M.nutrition},ck=r.id+(M.i?"@"+M.i:"");
+  const SP=r.extras&&r.extras.spicy,hotOn=!!(SP&&state.spicy[r.id]),M=methodView(r);
+  let R={...r,groups:M.groups,steps:M.steps,yield:M.yield,notes:M.notes,nutrition:M.nutrition,hot:new Set()};if(hotOn)R=applySpicy(R,SP);
+  const ck=r.id+(M.i?"@"+M.i:"")+(hotOn?"!":"");
   const chk=state.checked[ck]||{};const anyChk=Object.values(chk).some(Boolean);const k=getScale(r.id);const presets=[.5,1,1.5,2,3];
   const fa=friendAvg(r.id);const notes=state.friends.get(r.id)||[];
   const me=load("rb.name","");
@@ -275,7 +287,7 @@ function renderCard(){
     <div class="eyebrow"><span>${esc(r.category)}</span>${r.cuisine?`<span>${esc(r.cuisine)}</span>`:""}</div>
     <h2>${esc(r.title)}</h2>${r.credit?`<div class="credit">From ${esc(r.credit)}</div>`:""}
     ${(r.changes||[]).length?`<div class="changed">Updated ${esc(fmtDate(r.changes.at(-1).date))}: ${esc(r.changes.at(-1).note)}</div>`:""}
-    <div class="meta">${R.yield?`<span>Yield <b>${esc(R.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
+    <div class="meta">${SP?`<button type="button" class="spicy-btn" id="spicyBtn" aria-pressed="${hotOn}" title="Swap in the hotter version">🌶 ${hotOn?"Spicy":"Make it spicy"}</button>`:""}${R.yield?`<span>Yield <b>${esc(R.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
     <div class="tags">${(r.traits||[]).filter(t=>TRAIT_LABEL[t]).map(t=>`<span class="trait">${esc(TRAIT_LABEL[t])}</span>`).join("")}${(r.diet||[]).filter(d=>DIET_LABEL[d]).map(d=>`<span class="diet">${esc(DIET_LABEL[d])}</span>`).join("")}${(r.tags||[]).filter(t=>!TRAIT_LABEL[t]&&t!=="large-batch"&&t!=="freezer"&&t!=="camping").map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
   </div>
   ${photoBlock(r)}
@@ -292,11 +304,11 @@ function renderCard(){
         ${presets.map(p=>`<button type="button" class="sc" data-scale="${p}" aria-pressed="${k===p}">${p===1?"1×":frac(p)+"×"}</button>`).join("")}
         <input id="scaleIn" type="number" min="0.1" step="0.05" inputmode="decimal" aria-label="Custom multiplier" value="${presets.includes(k)?"":k}" placeholder="×">
       </div>
-      <div class="ing-cols">${(R.groups||[]).map((g,gi)=>`<div class="ing-group">${g.name?`<h4>${esc(g.name)}</h4>`:""}<ul class="ing">${(g.ingredients||[]).map((ing,ii)=>{const [q,rest]=splitQty(scaleLine(ing,k));const key=`i${gi}-${ii}`;return `<li data-k="${key}" class="${chk[key]?"done":""}"><span class="q">${esc(q)}</span><span>${linkify(esc(rest))}</span></li>`}).join("")}</ul></div>`).join("")}</div>
+      <div class="ing-cols">${(R.groups||[]).map((g,gi)=>`<div class="ing-group">${g.name?`<h4>${esc(g.name)}</h4>`:""}<ul class="ing">${(g.ingredients||[]).map((ing,ii)=>{const [q,rest]=splitQty(scaleLine(ing,k));const key=`i${gi}-${ii}`;return `<li data-k="${key}" class="${chk[key]?"done":""}${R.hot.has(ing)?" hot":""}"><span class="q">${esc(q)}</span><span>${linkify(esc(rest))}</span></li>`}).join("")}</ul></div>`).join("")}</div>
     </section>
     <section>
       <h3 class="sec-h" id="methodH"><span class="sec-t">Method <button type="button" class="mode-btn" data-mode="cook" aria-pressed="${state.mode==="cook"}" title="Keeps the screen on while you cook">${state.mode==="cook"?"● Cook":"Cook"}</button></span></h3>
-      <ol class="steps">${(R.steps||[]).map((s,i)=>`<li data-k="s${i}" class="${chk["s"+i]?"done":""}"><span>${linkify(esc(s))}</span></li>`).join("")}</ol>
+      <ol class="steps">${(R.steps||[]).map((s,i)=>`<li data-k="s${i}" class="${chk["s"+i]?"done":""}${R.hot.has(s)?" hot":""}"><span>${linkify(esc(s))}</span></li>`).join("")}</ol>
     </section>
   </div>
   ${R.notes?`<section><h3 class="sec-h">Notes</h3><div class="notes">${linkify(esc(R.notes))}</div></section>`:""}
@@ -318,6 +330,7 @@ function renderCard(){
     <button class="btn" type="button" id="linkBtn">Copy link</button>
   </div>`;
   el.querySelectorAll("[data-meth]").forEach(b=>b.onclick=()=>{state.methodSel[r.id]=+b.dataset.meth;store("rb.method",state.methodSel);renderCard()});
+  {const sb=$("#spicyBtn");if(sb)sb.onclick=()=>{if(hotOn)delete state.spicy[r.id];else state.spicy[r.id]=1;store("rb.spicy",state.spicy);renderCard()}}
   $("#backBtn").onclick=()=>openRecipe(null);
   el.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{state.photoSel[r.id]=+b.dataset.ph;renderCard()});
   el.querySelectorAll(".rlink").forEach(a=>a.onclick=e=>e.stopPropagation());
@@ -428,7 +441,7 @@ function loadAdmin(){
 
 /* ---------- boot ---------- */
 $("#q").value=state.q||"";$("#sort").value=["best","az","new"].includes(state.sort)?state.sort:"best";state.sort=$("#sort").value;
-if(!["all","rated","photos"].includes(state.show))state.show="all";
+if(!["all","rated","photos","spicy"].includes(state.show))state.show="all";
 $("#q").oninput=e=>{state.q=e.target.value;saveView();renderList();if(state.panel)renderFilters()};
 $("#sort").onchange=e=>{state.sort=e.target.value;saveView();renderList()};
 function showView(v){const home=v==="home";$("#home").hidden=!home;$("#app").hidden=v!=="box";$("#share").hidden=v!=="share";$("#admin").hidden=v!=="admin";

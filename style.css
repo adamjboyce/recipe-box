@@ -368,3 +368,10 @@ legend{font-weight:600;font-size:14px;padding:0 4px}
 .ameth{border:1px solid var(--line);border-radius:10px;padding:12px;display:grid;gap:10px;background:var(--bg)}
 .ameth .row h4{margin:0}
 .ealts{display:grid;gap:12px}
+
+/* ---------- spicy toggle ---------- */
+.spicy-btn{margin-right:10px;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:4px 12px;font-weight:600;font-size:13px;cursor:pointer}
+.spicy-btn[aria-pressed="true"]{background:#b8321e;border-color:#b8321e;color:#fff}
+.ing li.hot,.steps li.hot{box-shadow:inset 3px 0 0 #b8321e;padding-left:8px}
+.ing li.hot .q{color:#b8321e}
+.hot-mark{font-size:12px}

@@ -129,6 +129,7 @@ function renderEditor(){
       <label>Main method <small>what the ingredients and steps above are, e.g. Dutch oven. Leave blank if there's only one way.</small><input id="eMethod" value="${esc(r.method||"")}"></label>
       <div id="eAlts" class="ealts">${(r.alt_methods||[]).map(altBlock).join("")}</div>
       <div class="row"><button class="btn" type="button" id="eAddAlt">+ Add another method</button></div></details>
+    ${spicyBlock(r)}
     <details class="eblock"${r.nutrition?"":""}><summary>Nutrition</summary>
       <div class="two"><label>Serving<input id="nServing" value="${esc(n.serving||"")}"></label><label>Servings per batch<input id="nServings" type="number" min="0" step="1" value="${esc(n.servings??"")}"></label></div>
       <div class="ngrid">${NUT.map(([k,l,u])=>`<label>${l}${u?` <small>${u}</small>`:""}<input type="number" step="any" data-nut="${k}" value="${esc(ps[k]??"")}"></label>`).join("")}</div>
@@ -171,6 +172,20 @@ function altBlock(a,i){const same=!a.groups||!a.groups.length;
 function collectAlts(){const old=A.editing.alt_methods||[];
   return [...document.querySelectorAll("[data-alt]")].map(f=>{const g=k=>f.querySelector(`[data-af="${k}"]`);const same=g("same").checked;
     return {name:g("name").value.trim(),groups:same?null:toGroups(g("groups").value),steps:toSteps(g("steps").value),yield:g("yield").value.trim()||null,notes:g("notes").value.trim()||null,nutrition:(old[+f.dataset.alt]||{}).nutrition||null}})}
+function spicyBlock(r){const sp=(r.extras&&r.extras.spicy)||{};const pairs=a=>(a||[]).map(x=>`${x.from} => ${x.to}`).join("\n");
+  const names=[...new Set((r.groups||[]).map(g=>g.name||""))];const addG=(sp.add&&sp.add[0]&&sp.add[0].group)||names[0]||"";
+  return `<details class="eblock"${r.extras&&r.extras.spicy?" open":""}><summary>Spicy version <small>adds a 🌶 toggle on the card</small></summary>
+    <label>Swap ingredients <small>one per line: the exact line from above, then =&gt;, then the spicy line</small><textarea id="hpSwaps" rows="4" placeholder="15 g jalapeño, minced (about 1) => 30 g serranos, minced (about 3)">${esc(pairs(sp.swaps))}</textarea></label>
+    <div class="two"><label>Add ingredients <small>one per line</small><textarea id="hpAdd" rows="3">${esc((sp.add||[]).map(x=>x.line).join("\n"))}</textarea></label>
+      <label>Add them to<select id="hpAddGroup">${names.map(n=>`<option value="${esc(n)}"${n===addG?" selected":""}>${esc(n||"The ingredient list")}</option>`).join("")}</select></label></div>
+    <label>Swap steps <small>the exact step, then =&gt;, then the spicy step</small><textarea id="hpSteps" rows="3">${esc(pairs(sp.steps))}</textarea></label>
+    <p class="muted" id="hpWarn"></p></details>`}
+function collectSpicy(){
+  const pairs=id=>document.getElementById(id).value.split("\n").map(l=>l.split(" => ")).filter(p=>p.length===2&&p[0].trim()&&p[1].trim()).map(([a,b])=>({from:a.trim(),to:b.trim()}));
+  const g=document.getElementById("hpAddGroup").value;
+  const sp={swaps:pairs("hpSwaps"),add:document.getElementById("hpAdd").value.split("\n").map(l=>l.trim()).filter(Boolean).map(line=>({group:g,line})),steps:pairs("hpSteps")};
+  return sp.swaps.length||sp.add.length||sp.steps.length?sp:null;
+}
 const snapText=b=>[b.title,b.yield?"Makes "+b.yield:"","",groupsToText(b.groups),"",(b.steps||[]).map((s,i)=>`${i+1}. ${s}`).join("\n"),b.notes?"\nNotes: "+b.notes:""].join("\n").trim();
 function collect(){
   const r=A.editing,v=id=>document.getElementById(id).value.trim();
@@ -182,7 +197,7 @@ function collect(){
     traits:[...document.querySelectorAll("[data-trait]:checked")].map(i=>i.dataset.trait),diet:[...document.querySelectorAll("[data-diet]:checked")].map(i=>i.dataset.diet),
     tags:v("eTags").split(",").map(t=>t.trim().toLowerCase()).filter(Boolean),
     groups:toGroups(document.getElementById("eIng").value),steps:toSteps(document.getElementById("eSteps").value),notes:v("eNotes"),
-    nutrition:nut,method:v("eMethod"),alt_methods:collectAlts().filter(a=>a.name),developed:v("eDev")||null,credit:v("eCredit")||null,photos:r.photos||[],
+    nutrition:nut,extras:{spicy:collectSpicy()},method:v("eMethod"),alt_methods:collectAlts().filter(a=>a.name),developed:v("eDev")||null,credit:v("eCredit")||null,photos:r.photos||[],
     private:{occasion:v("pOcc")||null,source_title:v("pSrcT")||null,source_url:v("pSrcU")||null,private_notes:v("pNotes")||null,
       flags:v("pFlags")?v("pFlags").split(",").map(t=>t.trim()).filter(Boolean):null}
   };
@@ -208,6 +223,12 @@ function wireEditor(){
   if(ren)ren.onclick=async()=>{const nv=prompt("New web name (lowercase letters, numbers and dashes). The old link will keep working.",r.id);
     if(!nv||nv===r.id)return;if(!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(nv)){toast("Lowercase letters, numbers and dashes only");return}
     try{await call("rb_rename",{p_old:r.id,p_new:nv});toast("Renamed");refreshSite();location.hash="#admin/r/"+encodeURIComponent(nv)}catch(x){toast(x.message)}};
+  // spicy: flag swaps that don't match any line exactly
+  const hpCheck=()=>{const ing=new Set([...toGroups(document.getElementById("eIng").value),...collectAlts().flatMap(a=>a.groups||[])].flatMap(g=>g.ingredients));
+    const st=new Set([...toSteps(document.getElementById("eSteps").value),...collectAlts().flatMap(a=>a.steps)]);const sp=collectSpicy()||{};
+    const miss=[...(sp.swaps||[]).filter(x=>!ing.has(x.from)).map(x=>x.from),...(sp.steps||[]).filter(x=>!st.has(x.from)).map(x=>x.from)];
+    document.getElementById("hpWarn").textContent=miss.length?`Not found word for word, so these won't swap: ${miss.join(" / ")}`:""};
+  ["hpSwaps","hpSteps","eIng","eSteps"].forEach(id=>document.getElementById(id).addEventListener("input",hpCheck));hpCheck();
   // cooking methods
   const keep=()=>{const c=collect();c.alt_methods=collectAlts();Object.assign(A.editing,c);return A.editing};
   document.getElementById("eAddAlt").onclick=()=>{const e=keep();if(!e.method)e.method="Main";e.alt_methods=[...e.alt_methods,{name:"",groups:null,steps:[]}];renderEditor()};
