@@ -12,10 +12,28 @@
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}[hidden]{display:none!important}img{max-width:100%}</style>
 </head>
 <body>
-<div class="app" id="app">
+<main class="home" id="home">
+  <header class="home-hero">
+    <p class="kicker">Tested at home, at camp, and for crowds</p>
+    <h1 class="home-title">Adam's Recipe Box</h1>
+    <p class="about">These are the recipes I actually cook, worked out over a lot of test batches: Labor Day boils, camping weekends, hobbit weekends, slushie nights and whatever's simmering on a Sunday. Everything's in grams unless it's meant for a campsite. Season boldly.</p>
+    <p class="about">Made one? Leave stars, a note or a photo on the recipe so everyone knows how it went.</p>
+    <form class="home-search" id="homeSearch" role="search">
+      <input id="hq" type="search" placeholder="Search, or try: mushroom, no pork" aria-label="Search recipes">
+      <button class="btn primary" type="submit">Search</button>
+    </form>
+    <div class="home-cta"><a class="btn primary big" href="#box" id="browseAll">Browse all recipes</a></div>
+  </header>
+  <section class="home-sec"><h2>Browse by type</h2><div class="type-grid" id="typeGrid"></div></section>
+  <section class="home-sec"><h2>Quick picks</h2><div class="picks" id="picks"></div></section>
+  <section class="home-sec" id="newSec"><h2>Newest in the box</h2><div class="card-row" id="newest"></div></section>
+  <section class="home-sec" id="friendSec" hidden><h2>From friends</h2><div class="friend-feed" id="feed"></div></section>
+  <footer class="home-foot"><p>Every recipe scales: use the Batch buttons on the card. Tap ingredients and steps to check them off while you cook.</p></footer>
+</main>
+<div class="app" id="app" hidden>
   <aside class="index">
     <div class="index-head">
-      <div class="brand"><h1>Adam's Recipe Box</h1><span class="count" id="count"></span></div>
+      <div class="brand"><h1><a href="#" class="home-link" title="Back to the front page">Adam's Recipe Box</a></h1><span class="count" id="count"></span></div>
       <input class="search" id="q" type="search" placeholder="Search, or try: mushroom, no pork" aria-label="Search recipes">
       <div class="tools">
         <select class="select" id="catSel" aria-label="Type"><option value="">All types</option></select>

@@ -28,7 +28,7 @@ async function loadFriends(){
     let rows;try{rows=await sb("notes?select=id,recipe_id,name,rating,note,photo_path,created_at&order=created_at.desc&limit=5000")}catch(e){rows=await sb("notes?select=id,recipe_id,name,rating,note,created_at&order=created_at.desc&limit=5000");state.noPhotos=true}
     state.friends=new Map();for(const n of rows){if(!state.friends.has(n.recipe_id))state.friends.set(n.recipe_id,[]);state.friends.get(n.recipe_id).push(n)}
   }catch(e){console.warn("friend notes unavailable",e)}
-  state.friendsLoaded=true;renderList();renderCard();
+  state.friendsLoaded=true;renderList();renderCard();if(!$("#home").hidden)renderHome();
 }
 function sbHeaders(extra){return {apikey:SB.key,...(SB.key.startsWith("sb_")?{}:{Authorization:`Bearer ${SB.key}`}),...(extra||{})}}
 const photoUrl=p=>`${SB.url}/storage/v1/object/public/photos/${p.split("/").map(encodeURIComponent).join("/")}`;
@@ -202,7 +202,8 @@ function fmtDate(d){if(!d)return"";const dt=new Date(d.length===10?d+"T12:00:00"
 /* ---------- card ---------- */
 function openRecipe(id){
   state.openId=id;
-  try{history.replaceState(null,"",id?"#"+id:location.pathname)}catch(e){}
+  try{history.replaceState(null,"","#"+(id||"box"))}catch(e){}
+  showView("box");
   $("#app").classList.toggle("show-card",!!id);
   renderList();renderCard();$("#pane").scrollTop=0;window.scrollTo(0,0);
 }
@@ -308,11 +309,37 @@ $("#q").value=state.q||"";$("#sort").value=["best","az","new"].includes(state.so
 if(!["all","keepers","rated","photos"].includes(state.show))state.show="all";
 $("#q").oninput=e=>{state.q=e.target.value;saveView();renderList();if(state.panel)renderFilters()};
 $("#sort").onchange=e=>{state.sort=e.target.value;saveView();renderList()};
-window.addEventListener("hashchange",()=>{const id=location.hash.slice(1);if(id!==state.openId&&state.recipes.has(id))openRecipe(id)});
+function showView(v){const home=v==="home";$("#home").hidden=!home;$("#app").hidden=home;document.title=home?"Adam's Recipe Box":"Recipes · Adam's Recipe Box";if(home){renderHome();window.scrollTo(0,0)}}
+function route(){
+  const h=location.hash.slice(1);
+  if(!h){state.openId=null;showView("home");return}
+  showView("box");
+  if(h==="box"){state.openId=null;$("#app").classList.remove("show-card");renderList();renderCard();return}
+  if(state.recipes.has(h)&&h!==state.openId)openRecipe(h);
+}
+window.addEventListener("hashchange",route);
+function goBox(patch){Object.assign(state,{cat:"",traits:[],diets:[],show:"all",q:""},patch||{});$("#q").value=state.q;saveView();renderFilters();location.hash="box";if(location.hash==="#box")route()}
+const PICKS=[["traits","camping","Camping-friendly"],["traits","quick","Quick"],["traits","make-ahead","Make-ahead"],["traits","crowd","Feeds a crowd"],["traits","slow-cooker","Slow cooker"],["diets","vegetarian","Vegetarian"],["diets","gluten-free","Gluten-free"],["traits","freezer","Freezer-friendly"]];
+function renderHome(){
+  if(!state.loaded)return;
+  const all=[...state.recipes.values()];
+  $("#browseAll").textContent=`Browse all ${all.length} recipes`;
+  $("#typeGrid").innerHTML=CATS.map(c=>{const rs=all.filter(r=>r.category===c);if(!rs.length)return"";
+    const ph=rs.map(r=>allPhotos(r)[0]).find(Boolean);
+    return `<button type="button" class="type-tile" data-cat="${esc(c)}">${ph?`<img src="${esc(ph.src)}" alt="" loading="lazy">`:""}<span class="tt">${esc(c)}</span><span class="tn">${rs.length} recipe${rs.length>1?"s":""}</span><span class="ts">${esc(rs.slice(0,3).map(r=>r.title).join(" · "))}</span></button>`}).join("");
+  $("#picks").innerHTML=PICKS.map(([g,k,l])=>{const n=all.filter(r=>(r[g==="traits"?"traits":"diet"]||[]).includes(k)).length;return n?`<button type="button" class="pick" data-g="${g}" data-k="${k}">${esc(l)}<span>${n}</span></button>`:""}).join("");
+  const newest=[...all].sort((a,b)=>(b.developed||"").localeCompare(a.developed||"")).slice(0,6);
+  $("#newest").innerHTML=newest.map(r=>`<a class="mini" href="#${esc(r.id)}"><span class="mc">${esc(r.category)}</span><span class="mt">${esc(r.title)}</span><span class="mm">${esc(r.yield||"")}</span></a>`).join("");
+  const notes=[...state.friends.values()].flat().sort((a,b)=>b.created_at.localeCompare(a.created_at)).slice(0,6);
+  $("#friendSec").hidden=!notes.length;
+  $("#feed").innerHTML=notes.map(n=>{const r=state.recipes.get(n.recipe_id);if(!r)return"";return `<a class="fnote" href="#${esc(r.id)}">${n.photo_path?`<img src="${esc(photoUrl(n.photo_path))}" alt="" loading="lazy">`:""}<span class="fn">${esc(n.name)} on <b>${esc(r.title)}</b></span>${n.rating?`<span class="st">${stars(n.rating)}</span>`:""}${n.note?`<span class="fx">${esc(n.note.length>140?n.note.slice(0,140)+"…":n.note)}</span>`:""}</a>`}).join("");
+  document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>goBox({cat:b.dataset.cat}));
+  document.querySelectorAll(".pick").forEach(b=>b.onclick=()=>goBox({[b.dataset.g]:[b.dataset.k]}));
+}
+$("#homeSearch").onsubmit=e=>{e.preventDefault();goBox({q:$("#hq").value.trim()})};
 fetch("data/recipes.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{
   state.recipes=new Map(d.recipes.map(r=>[r.id,{...r,category:CATS.includes(r.category)?r.category:"Mains"}]));
   state.loaded=true;
-  const h=location.hash.slice(1);if(h&&state.recipes.has(h)){state.openId=h;$("#app").classList.add("show-card")}
-  state.traits=state.traits.filter(t=>TRAIT_LABEL[t]);renderCats();renderTraits();renderList();renderCard();
+  state.traits=state.traits.filter(t=>TRAIT_LABEL[t]);renderCats();renderTraits();renderList();renderCard();route();
 }).catch(()=>{$("#list").innerHTML=`<div class="empty">Couldn't load the recipes. Reload the page.</div>`});
 loadFriends();
