@@ -172,7 +172,7 @@ function renderList(){
   for(const r of order){
     if(grouped&&r.category!==cur){cur=r.category;html+=`<div class="group-label">${esc(cur)}</div>`}
     const f=(state.friends.get(r.id)||[]).length;
-    const meta=[r.friend?"from "+r.by:r.cuisine,r.yield,f?`${f} note${f>1?"s":""}`:""].filter(Boolean).join(" · ");
+    const meta=[r.friend?"from "+r.by:r.cuisine,sizesPlain(r.yield),f?`${f} note${f>1?"s":""}`:""].filter(Boolean).join(" · ");
     const ph0=allPhotos(r)[0];
     html+=`<button class="item${ph0?" has-photo":""}" type="button" data-id="${esc(r.id)}" aria-current="${r.id===state.openId}">
       ${ph0?`<img class="thumb" src="${esc(ph0.src)}" alt="" loading="lazy">`:""}<span class="t">${esc(r.title)}${r.extras&&r.extras.spicy?` <span class="hot-mark" title="Has a spicy option">🌶</span>`:""}${r.extras&&r.extras.easy?` <span class="hot-mark" title="Has an easy version">⚡</span>`:""}</span><span class="m">${esc(meta)}</span>
@@ -218,6 +218,24 @@ scaleLine=function(line,k){
   const head=line.slice(0,am.index);
   return _scaleLead(head,k)+"(about "+_scaleLead(am[1],k)+")";
 };
+/* container sizes written in braces grow and shrink with the batch: {4 qt} pot, {8x8} pan, {10-inch} skillet, {medium} pot */
+const QT=[0.5,1,1.5,2,3,4,5,6,7,8,10,12,16,20,24,30,40,60,80,100],LTR=[0.5,1,1.5,2,3,4,5,6,8,10,12,15,20,30,40];
+const PANS=[[8,8],[9,9],[9,13],[11,17],[13,18]],ROUNDS=[6,8,9,10,12,14],WORDS=["small","medium","large","extra-large"];
+function sizeTok(t,k){
+  let m;const n=x=>String(+x.toFixed(1));
+  if(m=t.match(/^(\d+(?:\.\d+)?)([ -]?)(qt|quarts?|L|liters?)$/i)){if(k===1)return t;const v=+m[1]*k,list=/^q/i.test(m[3])?QT:LTR;
+    const z=list.find(x=>x>=v*0.95)??Math.ceil(v);return n(z)+m[2]+(/^quart/i.test(m[3])?(z===1||m[2]==="-"?"quart":"quarts"):m[3])}
+  if(m=t.match(/^(\d+)\s*x\s*(\d+)$/i)){if(k===1)return t;const need=m[1]*m[2]*k;const p=PANS.find(([a,b])=>a*b>=need*0.9);
+    if(p)return p[0]+"x"+p[1];const c=Math.ceil(need/(13*18));return (["","one","two","three","four"][c]||c)+" 13x18"}
+  if(m=t.match(/^(\d+)([ -])inch$/i)){if(k===1)return t;const need=m[1]*m[1]*k;const d=ROUNDS.find(x=>x*x>=need*0.9);
+    if(d)return d+m[2]+"inch";return "two "+(ROUNDS.find(x=>2*x*x>=need*0.9)||14)+m[2]+"inch"}
+  const w=WORDS.indexOf(t.toLowerCase());
+  if(w>=0){if(k===1)return t;const step=k>=2.5?2:k>=1.4?1:k<=0.6?-1:0;return WORDS[Math.max(0,Math.min(WORDS.length-1,w+step))]}
+  return t;
+}
+const anOf=(art,out)=>art?(/^(8|11|18|80|extra)/i.test(out)?(art[0]==="A"?"An ":"an "):(art[0]==="A"?"A ":"a ")):"";
+function sizes(text,k){return String(text??"").replace(/(\b[Aa]n? )?\{([^{}]{1,24})\}/g,(m,art,t)=>{const out=sizeTok(t.trim(),k);return anOf(art,out)+(k!==1&&out!==t.trim()?`<span class="sz">${out}</span>`:out)})}
+function sizesPlain(text,k=1){return String(text??"").replace(/(\b[Aa]n? )?\{([^{}]{1,24})\}/g,(m,art,t)=>{const out=sizeTok(t.trim(),k);return anOf(art,out)+out})}
 function getScale(id){const v=state.scale[id];return v>0?v:1}
 function setScale(id,k){if(k===1)delete state.scale[id];else state.scale[id]=k;store("rb.scale",state.scale);renderCard()}
 function fmtDate(d){if(!d)return"";const dt=new Date(d.length===10?d+"T12:00:00":d);return isNaN(dt)?"":dt.toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"})}
@@ -291,7 +309,7 @@ function renderCard(){
     <div class="eyebrow"><span>${esc(r.category)}</span>${r.cuisine?`<span>${esc(r.cuisine)}</span>`:""}</div>
     <h2>${esc(r.title)}</h2>${r.credit?`<div class="credit">From ${esc(r.credit)}</div>`:""}
     ${(r.changes||[]).length?`<div class="changed">Updated ${esc(fmtDate(r.changes.at(-1).date))}: ${esc(r.changes.at(-1).note)}</div>`:""}
-    <div class="meta">${EZ?`<button type="button" class="easy-btn" id="easyBtn" aria-pressed="${ezOn}" title="${esc(EZ.label||"A shortcut version")}">⚡ ${ezOn?esc(EZ.label||"Easy version"):"Easy version"}</button>`:""}${SP?`<button type="button" class="spicy-btn" id="spicyBtn" aria-pressed="${hotOn}" title="Swap in the hotter version">🌶 ${hotOn?"Spicy":"Make it spicy"}</button>`:""}${R.yield?`<span>Yield <b>${esc(R.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
+    <div class="meta">${EZ?`<button type="button" class="easy-btn" id="easyBtn" aria-pressed="${ezOn}" title="${esc(EZ.label||"A shortcut version")}">⚡ ${ezOn?esc(EZ.label||"Easy version"):"Easy version"}</button>`:""}${SP?`<button type="button" class="spicy-btn" id="spicyBtn" aria-pressed="${hotOn}" title="Swap in the hotter version">🌶 ${hotOn?"Spicy":"Make it spicy"}</button>`:""}${R.yield?`<span>Yield <b>${sizes(esc(R.yield),k)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
     <div class="tags">${(r.traits||[]).filter(t=>TRAIT_LABEL[t]).map(t=>`<span class="trait">${esc(TRAIT_LABEL[t])}</span>`).join("")}${(r.diet||[]).filter(d=>DIET_LABEL[d]).map(d=>`<span class="diet">${esc(DIET_LABEL[d])}</span>`).join("")}${(r.tags||[]).filter(t=>!TRAIT_LABEL[t]&&t!=="large-batch"&&t!=="freezer"&&t!=="camping").map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
   </div>
   ${photoBlock(r)}
@@ -312,10 +330,10 @@ function renderCard(){
     </section>
     <section>
       <h3 class="sec-h" id="methodH"><span class="sec-t">Method <button type="button" class="mode-btn" data-mode="cook" aria-pressed="${state.mode==="cook"}" title="Keeps the screen on while you cook">${state.mode==="cook"?"● Cook":"Cook"}</button></span></h3>
-      <ol class="steps">${(R.steps||[]).map((s,i)=>`<li data-k="s${i}" class="${chk["s"+i]?"done":""}${R.hot.has(s)?" hot":""}"><span>${linkify(esc(s))}</span></li>`).join("")}</ol>
+      <ol class="steps">${(R.steps||[]).map((s,i)=>`<li data-k="s${i}" class="${chk["s"+i]?"done":""}${R.hot.has(s)?" hot":""}"><span>${linkify(sizes(esc(s),k))}</span></li>`).join("")}</ol>
     </section>
   </div>
-  ${R.notes?`<section><h3 class="sec-h">Notes</h3><div class="notes">${linkify(esc(R.notes))}</div></section>`:""}
+  ${R.notes?`<section><h3 class="sec-h">Notes</h3><div class="notes">${linkify(sizes(esc(R.notes),k))}</div></section>`:""}
   ${nutritionBlock(R)}
   ${SB?`<section class="friends-sec">
     <h3 class="sec-h">Made it? <small>leave a rating or a note for ${esc(r.friend?r.by:"Adam")} and everyone else</small></h3>
@@ -386,7 +404,7 @@ function nutritionBlock(r){
     </div></details></section>`;
 }
 function recipeText(r,k=1){
-  return [r.title+(k!==1?` (× ${frac(k)})`:""),r.yield?`Yield: ${r.yield}${k!==1?` × ${frac(k)}`:""}`:"","",...(r.groups||[]).flatMap(g=>[g.name?`${g.name}:`:"Ingredients:",...(g.ingredients||[]).map(i=>"- "+unlink(scaleLine(i,k))),""]),"Method:",...(r.steps||[]).map(s=>"- "+unlink(s)),r.notes?`\nNotes: ${unlink(r.notes)}`:""].filter((l,i,a)=>!(l===""&&a[i-1]==="")).join("\n").trim();
+  return [r.title+(k!==1?` (× ${frac(k)})`:""),r.yield?`Yield: ${sizesPlain(r.yield,k)}${k!==1?` × ${frac(k)}`:""}`:"","",...(r.groups||[]).flatMap(g=>[g.name?`${g.name}:`:"Ingredients:",...(g.ingredients||[]).map(i=>"- "+unlink(scaleLine(i,k))),""]),"Method:",...(r.steps||[]).map(s=>"- "+unlink(sizesPlain(s,k))),r.notes?`\nNotes: ${unlink(sizesPlain(r.notes,k))}`:""].filter((l,i,a)=>!(l===""&&a[i-1]==="")).join("\n").trim();
 }
 async function copyText(t,msg){try{await navigator.clipboard.writeText(t);toast(msg)}catch(e){const ta=document.createElement("textarea");ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");toast(msg)}catch(_){toast("Select and copy")}setTimeout(()=>ta.remove(),3000)}}
 
@@ -475,7 +493,7 @@ function renderHome(){
     return `<button type="button" class="type-tile" data-cat="${esc(c)}">${ph?`<img src="${esc(ph.src)}" alt="" loading="lazy">`:""}<span class="tt">${esc(c)}</span><span class="tn">${rs.length} recipe${rs.length>1?"s":""}</span><span class="ts">${esc(rs.slice(0,3).map(r=>r.title).join(" · "))}</span></button>`}).join("");
   $("#picks").innerHTML=PICKS.map(([g,k,l])=>{const n=all.filter(r=>(r[g==="traits"?"traits":"diet"]||[]).includes(k)).length;return n?`<button type="button" class="pick" data-g="${g}" data-k="${k}">${esc(l)}<span>${n}</span></button>`:""}).join("");
   const newest=[...all].sort((a,b)=>(b.developed||"").localeCompare(a.developed||"")).slice(0,6);
-  $("#newest").innerHTML=newest.map(r=>`<a class="mini" href="#${esc(r.id)}"><span class="mc">${esc(r.category)}</span><span class="mt">${esc(r.title)}</span><span class="mm">${esc(r.yield||"")}</span></a>`).join("");
+  $("#newest").innerHTML=newest.map(r=>`<a class="mini" href="#${esc(r.id)}"><span class="mc">${esc(r.category)}</span><span class="mt">${esc(r.title)}</span><span class="mm">${esc(sizesPlain(r.yield||""))}</span></a>`).join("");
   renderHomeFriends();
   const notes=[...state.friends.values()].flat().sort((a,b)=>b.created_at.localeCompare(a.created_at)).slice(0,6);
   $("#friendSec").hidden=!notes.length;

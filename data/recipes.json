@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T21:27:04+00:00",
+ "generated": "2026-10-26T21:36:14+00:00",
  "recipes": [
   {
    "id": "72-hour-pizza-dough",
@@ -57,7 +57,7 @@
     "Mix 5 g mother with 30 g flour and 30 g water to a paste.",
     "Leave both at ~70F for 12 hours.",
     "Day 2, ~9am: check the levain is roughly doubled and a spoonful floats; give it 2 to 3 more hours if not.",
-    "Mix the 470 g flour, malt and 0.15 g yeast in a large bowl.",
+    "Mix the 470 g flour, malt and 0.15 g yeast in a {large} bowl.",
     "Add 250 g water and 30 g levain to the poolish and stir to loosen.",
     "Combine wet into dry and mix about 3 minutes until no dry flour remains.",
     "Cover and rest 1 hour.",
@@ -96,7 +96,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-08-11",
-   "updated_at": "2026-10-26T20:36:56.957621+00:00",
+   "updated_at": "2026-10-26T21:35:49.906425+00:00",
    "changes": [],
    "method": "",
    "alt_methods": [],
@@ -177,7 +177,7 @@
    "title": "Apple Cider Doughnut Focaccia",
    "category": "Baking & Dough",
    "cuisine": "American",
-   "yield": "one 8x8 pan, serves 4",
+   "yield": "one {8x8} pan, serves 4",
    "tags": [
     "sourdough-discard",
     "cold-ferment"
@@ -228,7 +228,7 @@
     "With a wet hand, lift and fold the dough over itself 4 times, rotating the bowl.",
     "Repeat the folds 3 more times at 30 minute intervals.",
     "Cover and refrigerate overnight, 12 to 24 hours, toward the back of the fridge.",
-    "Pour 15 g olive oil into an 8x8 pan, transfer the dough and turn to coat.",
+    "Pour 15 g olive oil into an {8x8} pan, transfer the dough and turn to coat.",
     "Proof at room temperature until puffy and relaxed to the edges, 2 to 3 hours.",
     "Heat the oven to 425F.",
     "Dimple the dough to the bottom of the pan with oiled fingers.",
@@ -256,7 +256,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:26:35.515632+00:00",
+   "updated_at": "2026-10-26T21:35:50.471836+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -410,13 +410,13 @@
     "Toast the guajillo, ancho and morita in a dry pan over medium, 20 to 30 seconds a side, with the vent running.",
     "Soak the toasted chiles in hot water 20 minutes.",
     "Blend the soaked chiles with the chipotles, adobo, onion, garlic, broth, vinegar, cumin, oregano, salt and MSG until smooth.",
-    "Sear the chuck hard in a skillet.",
-    "Deglaze the skillet into the crockpot.",
+    "Sear the chuck hard in a {12-inch} skillet.",
+    "Deglaze the skillet into the {4 qt} crockpot.",
     "Add the beef, sauce and bay leaves to the crockpot.",
     "Cook on low 8 hours.",
     "Lift the meat out with a slotted spoon.",
     "Skim the fat from the liquid and pull the bay leaves.",
-    "Reduce the liquid hard in a wide saucepan, 10 minutes or more, until it coats a spoon and a finger track across the back holds.",
+    "Reduce the liquid hard in a {medium} wide saucepan, 10 minutes or more, until it coats a spoon and a finger track across the back holds.",
     "Taste the reduced sauce for salt.",
     "Shred the meat and toss with enough sauce to coat; reserve any extra sauce."
    ],
@@ -441,7 +441,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:26:36.566008+00:00",
+   "updated_at": "2026-10-26T21:35:51.000233+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -474,7 +474,7 @@
       "Soak the toasted chiles in hot water 20 minutes.",
       "Blend the soaked chiles with the chipotles, adobo, onion, garlic, broth, vinegar, cumin, oregano, salt and MSG until smooth.",
       "Heat the oven to 150°C (300°F).",
-      "Sear the chuck hard in a Dutch oven in batches and set it aside.",
+      "Sear the chuck hard in a {5 qt} Dutch oven in batches and set it aside.",
       "Deglaze the Dutch oven with a splash of the sauce, scraping up the browned bits.",
       "Return the beef, add the rest of the sauce and the bay leaves and bring to a simmer.",
       "Cover and braise in the oven 2 1/2 to 3 hours, until the beef shreds easily.",
@@ -555,7 +555,7 @@
    ],
    "steps": [
     "Whisk the dry mix ingredients together.",
-    "Heat the oil in a deep pot of at least 5 quarts to 190°C, lid on while it climbs and between batches.",
+    "Heat the oil in a deep pot of at least {5 qt} to 190°C, lid on while it climbs and between batches.",
     "Whisk the lager and vodka into the dry mix just to combine, lumps and all. Rest 10 minutes.",
     "Pat the fish dry and salt both sides.",
     "Dredge in flour, shake off, dip in batter and let the excess run.",
@@ -585,7 +585,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-24",
-   "updated_at": "2026-10-26T21:26:37.040559+00:00",
+   "updated_at": "2026-10-26T21:35:51.530762+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -633,7 +633,7 @@
     }
    ],
    "steps": [
-    "Heat the oil and butter in a skillet over medium.",
+    "Heat the oil and butter in a {10-inch} skillet over medium.",
     "Cook the onion, garlic and poblano, stirring often, until very soft, 8 to 10 minutes.",
     "Add the beans, salt, pepper and cayenne or Aleppo and cook 3 minutes.",
     "Blend smooth to a stiff, spreadable paste, adding a splash of water only if the blender stalls.",
@@ -660,7 +660,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-03",
-   "updated_at": "2026-10-26T21:26:37.486291+00:00",
+   "updated_at": "2026-10-26T21:35:52.011045+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -733,7 +733,7 @@
     }
    ],
    "steps": [
-    "Soften the onion in the butter.",
+    "Soften the onion in the butter in a {5 qt} Dutch oven.",
     "Add everything else and toss to coat.",
     "Cover and cook on low 1 hour, stirring every 15 minutes.",
     "Uncover and cook off the liquid, 10 minutes, stirring often so it doesn't catch.",
@@ -761,7 +761,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-24",
-   "updated_at": "2026-10-26T21:26:37.920501+00:00",
+   "updated_at": "2026-10-26T21:35:52.489606+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -781,7 +781,7 @@
    "title": "Breakfast Burritos",
    "category": "Breakfast",
    "cuisine": "Tex-Mex",
-   "yield": "4 burritos (2 sausage, 1 bacon, 1 mushroom)",
+   "yield": "4 burritos",
    "tags": [],
    "traits": [
     "camping",
@@ -792,24 +792,9 @@
    "diet": [],
    "groups": [
     {
-     "name": "Bacon",
+     "name": "Filling",
      "ingredients": [
-      "60 g bacon, cut into lardons (about 2 slices)"
-     ]
-    },
-    {
-     "name": "Sausage",
-     "ingredients": [
-      "100 g breakfast sausage (about 3 1/2 oz)"
-     ]
-    },
-    {
-     "name": "Mushrooms",
-     "ingredients": [
-      "90 g sliced mushrooms (about 1 1/4 cups)",
-      "5 g butter (about 1 tsp)",
-      "1 g salt (about 1/8 tsp)",
-      "2 g cilantro, chopped, stems included (about 1 1/2 Tbsp)"
+      "160 g cooked meaty filling of your choice: crumbled breakfast sausage, bacon, chorizo, diced ham or seared mushrooms (about 40 g per burrito)"
      ]
     },
     {
@@ -853,19 +838,15 @@
       "440 g Mission Extra Grande 13-inch flour tortillas (about 4)",
       "42 g deli white American cheese (about 2 slices)",
       "57 g shredded cheese (about 2 oz)",
-      "Per burrito: 30 g bean paste, 60 to 75 g tots, 60 g rice, 100 g egg mixture and 21 g American or 28 g shredded cheese (about 2 Tbsp paste, 7 to 9 tots, 1/3 cup rice, scant 1/2 cup egg, 1 slice or 1/4 cup cheese)",
-      "Per burrito, one of: 20 g bacon, 40 g sausage or 44 g mushrooms (about 3 Tbsp bacon, 1/4 cup sausage or 1/4 cup mushrooms)"
+      "Per burrito: 40 g filling, 30 g bean paste, 60 to 75 g tots, 60 g rice, 100 g egg mixture and 21 g American or 28 g shredded cheese (about 1/4 cup filling, 2 Tbsp paste, 7 to 9 tots, 1/3 cup rice, scant 1/2 cup egg, 1 slice or 1/4 cup cheese)"
      ]
     }
    ],
    "steps": [
-    "Cover the bacon lardons with water in a pan, boil the water off, then let them render and crisp in their own fat; drain.",
-    "Crumble and brown the sausage, ideally in the bacon pan; cool on a sheet pan.",
-    "Dry-sear the mushrooms in one batch in stainless until their water is gone and they brown.",
-    "Off the heat, toss the mushrooms with the butter, salt and cilantro.",
+    "Cook the filling until well browned, drain the fat and cool.",
     "Toss the diced peppers, poblano and onions with the oil and taco seasoning until every piece is glossy.",
     "Roast the vegetables at 400°F on an uncrowded sheet pan until dry and caramelized.",
-    "Line an 8x8 baking pan with parchment and spread the roasted vegetables over it.",
+    "Line an {8x8} baking pan with parchment and spread the roasted vegetables over it.",
     "Dot the cream cheese cubes over the vegetables.",
     "Beat the eggs with the salt, MSG and pepper just to uniform yellow and pour over.",
     "Bake at 325°F 20 to 25 minutes, checking at 18 and rotating once, until the center is just set with a slight wobble.",
@@ -875,7 +856,7 @@
     "Cool every component completely.",
     "Warm the tortillas in a stack of 4 wrapped in foil at 350°F for 8 to 10 minutes.",
     "Smear bean paste over a 6 by 4 inch patch about 3 to 4 inches from the near edge.",
-    "Layer tots, rice, egg mixture and the meat or mushroom on the beans in a 6-inch line.",
+    "Layer tots, rice, egg mixture and the filling on the beans in a 6-inch line.",
     "Top with the cheese.",
     "Fold in the sides and roll tight.",
     "Wrap each in a 12 by 10.75 inch foil sheet."
@@ -901,7 +882,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-03",
-   "updated_at": "2026-10-26T21:26:38.381633+00:00",
+   "updated_at": "2026-10-26T21:34:38.093338+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -922,6 +903,10 @@
     {
      "date": "2026-10-26",
      "note": "Scaled to serve 4; use the batch buttons to make more."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "One meaty filling of your choice instead of three separate fillings."
     }
    ],
    "method": "",
@@ -1013,7 +998,7 @@
     }
    ],
    "steps": [
-    "Line a sheet pan with foil, not parchment.",
+    "Line a {13x18} sheet pan with foil, not parchment.",
     "Arrange the tomatillos cut side down with the jalapeños, onion and garlic.",
     "Broil about 4 inches from the element, about 10 minutes, until blackened in spots.",
     "Peel the garlic.",
@@ -1041,7 +1026,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:26:59.18842+00:00",
+   "updated_at": "2026-10-26T21:36:10.596654+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -1102,7 +1087,7 @@
    "steps": [
     "Season the thighs with salt, MSG and a little oil and roast at 400°F 25 to 30 minutes, to 175°F.",
     "Shred while warm, using a stand mixer with the paddle on low.",
-    "Cook the shredded chicken with the sauce, cooking off about a quarter, until no free liquid runs when a chilled spoonful is tilted.",
+    "Cook the shredded chicken with the sauce in a {10-inch} skillet, cooking off about a quarter, until no free liquid runs when a chilled spoonful is tilted.",
     "Season with cayenne.",
     "Cool completely.",
     "Fold in the cream cheese, cheddar and celery seed.",
@@ -1136,7 +1121,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-03",
-   "updated_at": "2026-10-26T21:26:39.311751+00:00",
+   "updated_at": "2026-10-26T21:35:52.96663+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -1163,8 +1148,8 @@
      ],
      "steps": [
       {
-       "to": "Cook the shredded chicken with the sauce and the XTRA Hot sauce, cooking off about a quarter, until no free liquid runs when a chilled spoonful is tilted.",
-       "from": "Cook the shredded chicken with the sauce, cooking off about a quarter, until no free liquid runs when a chilled spoonful is tilted."
+       "to": "Cook the shredded chicken with the sauce and the XTRA Hot sauce in a {10-inch} skillet, cooking off about a quarter, until no free liquid runs when a chilled spoonful is tilted.",
+       "from": "Cook the shredded chicken with the sauce in a {10-inch} skillet, cooking off about a quarter, until no free liquid runs when a chilled spoonful is tilted."
       }
      ],
      "swaps": [
@@ -1429,7 +1414,7 @@
     }
    ],
    "steps": [
-    "Put everything in an enameled dutch oven with the orange peels and the bone.",
+    "Put everything in an enameled {5 qt} dutch oven with the orange peels and the bone.",
     "Add water to come halfway up the meat.",
     "Cover and cook at 165°C for 3 hours.",
     "Uncover, raise to 190°C and cook about 30 minutes until the liquid renders down and the edges catch.",
@@ -1460,7 +1445,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:26:40.272009+00:00",
+   "updated_at": "2026-10-26T21:35:53.468485+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -1495,11 +1480,11 @@
    "alt_methods": [
     {
      "name": "Slow cooker",
-     "notes": "Needs a 4 qt or larger slow cooker. Freeze shredded, uncrisped pork with some of its fat and juices for up to 3 months; crisp after thawing. Freeze the bone for stock.",
+     "notes": "Needs a {4 qt} or larger slow cooker. Freeze shredded, uncrisped pork with some of its fat and juices for up to 3 months; crisp after thawing. Freeze the bone for stock.",
      "steps": [
       "Toss the pork with the salt, MSG, oregano, cumin and black pepper.",
       "Refrigerate covered overnight.",
-      "Place the onion, garlic and bay leaves in the slow cooker and add the pork.",
+      "Place the onion, garlic and bay leaves in the {4 qt} slow cooker and add the pork.",
       "Pour over the orange juice, lime juice, oil and water.",
       "Tuck in the spent orange halves (do not add lime halves).",
       "Cover and cook on low about 8 hours, until fork-tender.",
@@ -1509,7 +1494,7 @@
       "To serve, heat a cast iron skillet over high with a spoonful of the reserved fat.",
       "Add pork in a single layer with a splash of the juices and cook undisturbed until the liquid evaporates and the bottom is crisp, about 5 minutes."
      ],
-     "yield": "890 g deboned pork shoulder (4 qt slow cooker)",
+     "yield": "890 g deboned pork shoulder ({4 qt} slow cooker)",
      "groups": [
       {
        "name": "Dry brine",
@@ -1579,8 +1564,8 @@
        "from": "Toss the pork with the salt, MSG, oregano, cumin and black pepper."
       },
       {
-       "to": "Place the onion, garlic, bay leaves and chiles de árbol in the slow cooker and add the pork.",
-       "from": "Place the onion, garlic and bay leaves in the slow cooker and add the pork."
+       "to": "Place the onion, garlic, bay leaves and chiles de árbol in the {4 qt} slow cooker and add the pork.",
+       "from": "Place the onion, garlic and bay leaves in the {4 qt} slow cooker and add the pork."
       }
      ],
      "swaps": []
@@ -1622,7 +1607,7 @@
    ],
    "steps": [
     "Cut florets about 4 cm, with a flat face cut on each; cut the cauliflower slightly smaller.",
-    "Heat a cast iron skillet over high heat or a hot fire until ripping hot and dry.",
+    "Heat a {12-inch} cast iron skillet over high heat or a hot fire until ripping hot and dry.",
     "Add the cauliflower flat side down for 4 minutes.",
     "Add the broccoli and leave everything undisturbed until blackened in spots, 4 to 5 minutes.",
     "Toss and cook a few minutes more.",
@@ -1650,7 +1635,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:26:40.728206+00:00",
+   "updated_at": "2026-10-26T21:35:53.93611+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -1818,7 +1803,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:26:41.62537+00:00",
+   "updated_at": "2026-10-26T21:35:54.410403+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -1842,7 +1827,7 @@
       "Heat a large cast-iron griddle or skillet over high heat.",
       "Cook the mushrooms dry and undisturbed until their water cooks off, 6 to 8 minutes.",
       "Toss the mushrooms with the butter and salt and transfer to a bowl.",
-      "Warm the queso in a small saucepan over low heat, stirring, until molten.",
+      "Warm the queso in a {small} saucepan over low heat, stirring, until molten.",
       "Lower the heat to medium-high and cook the onions 3 minutes.",
       "Add the peppers and cook until both are soft and browned at the edges, about 5 minutes more, then push to one side.",
       "Put the meat on the cleared hot surface, working in batches if needed, and season with the salt, MSG and pepper.",
@@ -1940,7 +1925,7 @@
     "Brown the beef with the onion and garlic. Drain excess fat if desired.",
     "Add the tomato paste and ground cumin and cook, stirring, until darkened.",
     "Crush in the oregano.",
-    "Transfer to the slow cooker. Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs. Stir.",
+    "Transfer to the {4 qt} slow cooker. Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs. Stir.",
     "If it looks tight, stir in more stock until it is a thick stew that settles when stirred.",
     "Cook on low overnight, about 8 hours.",
     "Cool in shallow containers and refrigerate, ideally overnight.",
@@ -1967,7 +1952,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:26:42.07161+00:00",
+   "updated_at": "2026-10-26T21:35:54.875331+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -2003,7 +1988,7 @@
       "Brown the beef with the onion and garlic. Drain excess fat if desired.",
       "Add the tomato paste and ground cumin and cook, stirring, until darkened.",
       "Crush in the oregano.",
-      "Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs to the beef in a heavy pot. Stir.",
+      "Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs to the beef in a heavy {5 qt} pot. Stir.",
       "If it looks tight, stir in more stock until it is a thick stew that settles when stirred.",
       "Bring to a simmer, then cover partly and cook on low 2 to 2 1/2 hours, stirring every 20 minutes and scraping the bottom.",
       "Cool in shallow containers and refrigerate, ideally overnight.",
@@ -2032,12 +2017,12 @@
        "from": "Toast the guajillos, anchos and morita in a dry skillet over medium heat, pressing flat, about 30 seconds per side, until fragrant. Do not blacken."
       },
       {
-       "to": "Transfer to the slow cooker. Add the chile puree, both beans, tomatoes, poblano, jalapeño, cayenne, salt, MSG, pepper and cracker crumbs. Stir.",
-       "from": "Transfer to the slow cooker. Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs. Stir."
+       "to": "Transfer to the {4 qt} slow cooker. Add the chile puree, both beans, tomatoes, poblano, jalapeño, cayenne, salt, MSG, pepper and cracker crumbs. Stir.",
+       "from": "Transfer to the {4 qt} slow cooker. Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs. Stir."
       },
       {
-       "to": "Add the chile puree, both beans, tomatoes, poblano, jalapeño, cayenne, salt, MSG, pepper and cracker crumbs to the beef in a heavy pot. Stir.",
-       "from": "Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs to the beef in a heavy pot. Stir."
+       "to": "Add the chile puree, both beans, tomatoes, poblano, jalapeño, cayenne, salt, MSG, pepper and cracker crumbs to the beef in a heavy {5 qt} pot. Stir.",
+       "from": "Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs to the beef in a heavy {5 qt} pot. Stir."
       }
      ],
      "swaps": [
@@ -2102,9 +2087,9 @@
    ],
    "steps": [
     "Soak the chickpeas overnight in plenty of water, then drain.",
-    "Pressure-cook the chickpeas with the 750 g fresh water and the tea bag or amla for 35 minutes at high pressure, or simmer covered 1 1/2 to 2 hours, until very soft.",
+    "Pressure-cook the chickpeas in a {6 qt} pressure cooker or pot with the 750 g fresh water and the tea bag or amla for 35 minutes at high pressure, or simmer covered 1 1/2 to 2 hours, until very soft.",
     "Discard the tea bag and keep the cooking liquid.",
-    "Heat 25 g of the ghee in a heavy pan over medium-high and add the black cardamom.",
+    "Heat 25 g of the ghee in a heavy {4 qt} pan over medium-high and add the black cardamom.",
     "Add the onions and cook, stirring often, until deep golden brown, 15 to 20 minutes.",
     "Add the tomato puree and cook until thick and the ghee separates at the edges, about 10 minutes.",
     "Add the [chole masala](chole-masala), anardana and amchur and stir 1 minute.",
@@ -2136,7 +2121,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-29",
-   "updated_at": "2026-10-26T20:37:03.789641+00:00",
+   "updated_at": "2026-10-26T21:35:55.374932+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -2313,7 +2298,7 @@
     }
    ],
    "steps": [
-    "Simmer the cider in a wide pan until reduced to about 150 g, thick and syrupy.",
+    "Simmer the cider in a wide {10-inch} pan until reduced to about 150 g, thick and syrupy.",
     "Weigh it in a tared heatproof cup; if it reduced past 150 g, stir water back in while warm to bring it to 150 g.",
     "Cover, cool and refrigerate."
    ],
@@ -2338,7 +2323,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:04.332764+00:00",
+   "updated_at": "2026-10-26T21:35:55.91084+00:00",
    "changes": [],
    "method": "",
    "alt_methods": [],
@@ -2377,7 +2362,7 @@
     }
    ],
    "steps": [
-    "Whisk everything together in a small saucepan until smooth.",
+    "Whisk everything together in a {small} saucepan until smooth.",
     "Bring to a gentle simmer over medium-low heat and cook about 10 minutes, stirring occasionally, until slightly thickened.",
     "Taste and adjust vinegar, brown sugar and hot sauce.",
     "Cool slightly before serving."
@@ -2403,7 +2388,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-04-15",
-   "updated_at": "2026-10-26T20:37:04.539671+00:00",
+   "updated_at": "2026-10-26T21:35:56.382146+00:00",
    "changes": [],
    "method": "",
    "alt_methods": [],
@@ -2539,7 +2524,7 @@
    "title": "Cornbread with Honey Butter",
    "category": "Sides & Breads",
    "cuisine": "Southern",
-   "yield": "one 8-inch cast iron skillet, serves 4",
+   "yield": "one {8-inch} cast iron skillet, serves 4",
    "tags": [
     "cast-iron"
    ],
@@ -2577,7 +2562,7 @@
    ],
    "steps": [
     "Whisk the butter, 18 g honey and 1 g salt for the honey butter until smooth. Refrigerate.",
-    "Put 18 g lard in the skillet and heat the oven to 425F with the skillet inside.",
+    "Put 18 g lard in the {8-inch} cast iron skillet and heat the oven to 425F with the skillet inside.",
     "Whisk the cornmeal, flour, baking powder, baking soda and salt.",
     "Whisk the buttermilk, egg and 8.5 g honey, then whisk in the melted lard.",
     "Fold wet into dry just until no dry pockets remain. The batter stays lumpy.",
@@ -2608,7 +2593,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:26:43.45425+00:00",
+   "updated_at": "2026-10-26T21:35:56.864925+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -2629,18 +2614,18 @@
     "easy": {
      "label": "Jiffy shortcut",
      "steps": [
-      "Preheat the bare cast iron dutch oven with the lard, swirled to coat the bottom and 5 cm up the sides, until it shimmers.",
+      "Preheat the bare {10-inch} cast iron dutch oven with the lard, swirled to coat the bottom and 5 cm up the sides, until it shimmers.",
       "Pour the wet mix in, dump the Jiffy on top, stir fast and put the lid on.",
       "Set a third of the coals underneath and two-thirds on the lid.",
       "Rotate the pot a quarter turn every 10 minutes.",
       "Bake 20 to 30 minutes, checking at 20.",
-      "Home oven method: preheat an enameled dutch oven dry at 220°C for 15 minutes once the oven is up.",
+      "Home oven method: preheat an enameled {5 qt} dutch oven dry at 220°C for 15 minutes once the oven is up.",
       "Home oven method: add the lard, swirl and return to the oven 3 to 4 minutes to heat the fat.",
       "Home oven method: pour in the wet mix, dump in the Jiffy, stir fast and level.",
       "Home oven method: bake uncovered 25 to 35 minutes, checking at 25, until golden and a skewer comes out clean; tent with foil if the top browns early.",
       "Rest 10 minutes before cutting."
      ],
-     "yield": "1 dutch oven, serves 4",
+     "yield": "1 {10-inch} dutch oven, serves 4",
      "groups": [
       {
        "name": "",
@@ -2673,7 +2658,7 @@
       {
        "name": "At home",
        "steps": [
-        "Heat the oven to 425°F with an enameled dutch oven inside, dry and uncovered.",
+        "Heat the oven to 425°F with an enameled {5 qt} dutch oven inside, dry and uncovered.",
         "Once the oven is up, heat the dutch oven 15 minutes more.",
         "Add the lard and swirl to coat the bottom and 5 cm up the sides.",
         "Return the pot to the oven 3 to 4 minutes to heat the fat.",
@@ -2732,7 +2717,7 @@
     }
    ],
    "steps": [
-    "Combine the mustard seeds, vinegar and water in a jar.",
+    "Combine the mustard seeds, vinegar and water in a {1 qt} jar.",
     "Cover with a regular lid and leave at room temperature about 24 hours, stirring once or twice, until the seeds absorb most of the liquid; add a splash of water if they look dry.",
     "Blend about half the mixture with an immersion blender in a tall narrow container until creamy, leaving the rest whole.",
     "Stir both halves back together.",
@@ -2760,7 +2745,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-06",
-   "updated_at": "2026-10-26T20:37:05.380132+00:00",
+   "updated_at": "2026-10-26T21:35:57.348368+00:00",
    "changes": [],
    "method": "",
    "alt_methods": [],
@@ -2903,7 +2888,7 @@
    "title": "Cubano Tater Tot Casserole",
    "category": "Mains",
    "cuisine": "Cuban-American",
-   "yield": "one 8x8 pan, serves 4",
+   "yield": "one {8x8} pan, serves 4",
    "tags": [
     "casserole"
    ],
@@ -2952,8 +2937,8 @@
     }
    ],
    "steps": [
-    "Heat the oven to 425F. Grease an 8x8 pan.",
-    "In a large skillet over high heat, brown the pork, breaking it up, until well browned, about 6 minutes.",
+    "Heat the oven to 425F. Grease an {8x8} pan.",
+    "In a {large} skillet over high heat, brown the pork, breaking it up, until well browned, about 6 minutes.",
     "Add the garlic, cumin, oregano, salt and the lime zest and juice.",
     "Add the orange juice and cook until the liquid is gone, about 3 minutes.",
     "Transfer to a bowl with the ham.",
@@ -2989,7 +2974,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-29",
-   "updated_at": "2026-10-26T21:26:43.921482+00:00",
+   "updated_at": "2026-10-26T21:35:57.766764+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -3079,7 +3064,7 @@
    "steps": [
     "Cover the porcini with the hot water and soak until soft, about 20 minutes.",
     "Lift out the porcini and chop them. Strain the soaking liquid through a paper towel, leaving any grit behind.",
-    "Melt 20 g of the butter in an 4 qt pot over medium-high heat. Brown the kielbasa, then remove with a slotted spoon.",
+    "Melt 20 g of the butter in a {4 qt} pot over medium-high heat. Brown the kielbasa, then remove with a slotted spoon.",
     "Brown the cremini in one batch in the remaining fat, adding the rest of the butter. Set aside with the kielbasa.",
     "Lower the heat to medium. Add the onion, carrots and celery and cook until softened, about 10 minutes.",
     "Add the garlic, oregano (crushed between your palms) and cumin. Stir until fragrant.",
@@ -3115,7 +3100,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-24",
-   "updated_at": "2026-10-26T21:26:44.401032+00:00",
+   "updated_at": "2026-10-26T21:35:58.197335+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -3184,10 +3169,10 @@
    ],
    "steps": [
     "Soak the minced shallot in a spoonful of the pickle brine 10 minutes.",
-    "Put the potatoes in a medium pot with about 1.5 L cold water and the kosher salt.",
+    "Put the potatoes in a {medium} pot with about 1.5 L cold water and the kosher salt.",
     "Bring to a boil, then lower to a gentle simmer.",
     "Simmer until a knife slides through a chunk with slight resistance, 10 to 15 minutes from the boil. Start checking at 8.",
-    "Drain and spread on a sheet pan in one layer. Let steam dry 10 minutes.",
+    "Drain and spread on a {13x18} sheet pan in one layer. Let steam dry 10 minutes.",
     "While still warm, sprinkle with the pickle brine and vinegar and toss gently with a spatula.",
     "Cool to room temperature, about 30 minutes.",
     "Whisk the mayonnaise, mustard, garlic, fine salt, MSG and pepper.",
@@ -3216,7 +3201,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-26",
-   "updated_at": "2026-10-26T21:26:44.953362+00:00",
+   "updated_at": "2026-10-26T21:35:58.65601+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -3244,7 +3229,7 @@
    "title": "Dill Pickles",
    "category": "Sauces & Condiments",
    "cuisine": "American",
-   "yield": "about 1 quart (one quart jar)",
+   "yield": "about 1 quart (one {1 qt} jar)",
    "tags": [
     "pickles"
    ],
@@ -3291,8 +3276,8 @@
    ],
    "steps": [
     "Cut everything thick.",
-    "Pack the vegetables and aromatics raw into the jar, upright.",
-    "Simmer the vinegar, water, salt and sugar until dissolved.",
+    "Pack the vegetables and aromatics raw into the {1 qt} jar, upright.",
+    "Simmer the vinegar, water, salt and sugar in a {small} saucepan until dissolved.",
     "Cool the brine to warm, not boiling.",
     "Pour over the vegetables.",
     "Run a chopstick down the sides to release air bubbles, then top up.",
@@ -3319,7 +3304,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-26",
-   "updated_at": "2026-10-26T21:26:45.408154+00:00",
+   "updated_at": "2026-10-26T21:35:59.092095+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -3358,7 +3343,7 @@
     }
    ],
    "steps": [
-    "Melt the butter in a small pan.",
+    "Melt the butter in a {small} pan.",
     "Stir in the lemon juice.",
     "Keep warm until serving."
    ],
@@ -3383,7 +3368,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-26",
-   "updated_at": "2026-10-26T20:37:07.137021+00:00",
+   "updated_at": "2026-10-26T21:35:59.563369+00:00",
    "changes": [],
    "method": "",
    "alt_methods": [],
@@ -3394,7 +3379,7 @@
    "title": "Duck Fat Roast Potatoes",
    "category": "Sides & Breads",
    "cuisine": "British",
-   "yield": "one sheet pan, serves 4",
+   "yield": "one {13x18} sheet pan, serves 4",
    "tags": [],
    "traits": [
     "make-ahead"
@@ -3417,10 +3402,10 @@
     }
    ],
    "steps": [
-    "Boil the potatoes in heavily salted water 8 minutes.",
+    "Boil the potatoes in heavily salted water in a {6 qt} pot 8 minutes.",
     "Drain and shake hard in the pot to rough up the edges.",
     "Toss with the duck fat and 14 g kosher salt.",
-    "Spread on one sheet pan and roast at 425°F until starting to color, 40 to 50 minutes.",
+    "Spread on one {13x18} sheet pan and roast at 425°F until starting to color, 40 to 50 minutes.",
     "Raise the oven to 450°F and roast 20 minutes more, turning once.",
     "Scatter with rosemary and more salt."
    ],
@@ -3445,7 +3430,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-24",
-   "updated_at": "2026-10-26T21:26:45.827189+00:00",
+   "updated_at": "2026-10-26T21:35:59.999218+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -3461,7 +3446,7 @@
    "title": "Duck Fat Rösti",
    "category": "Breakfast",
    "cuisine": "Swiss",
-   "yield": "one 9-inch skillet, 4 wedges",
+   "yield": "one {9-inch} skillet, 4 wedges",
    "tags": [],
    "traits": [
     "make-ahead"
@@ -3485,7 +3470,7 @@
     "Parboil the whole unpeeled russets 10 minutes, until tender at the edge and firm in the middle.",
     "Cool, peel and grate coarsely. Refrigerate until cold.",
     "Toss the grated potato with the salt and pepper.",
-    "Heat the duck fat in a 9-inch cast iron skillet.",
+    "Heat the duck fat in a {9-inch} cast iron skillet.",
     "Press the potato in flat, about 2 cm deep.",
     "Cook over medium 12 minutes, until the underside is deep brown.",
     "Tilt the skillet and spoon the loose fat into a heatproof bowl.",
@@ -3515,7 +3500,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-24",
-   "updated_at": "2026-10-26T21:26:46.259937+00:00",
+   "updated_at": "2026-10-26T21:36:00.530805+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -3581,8 +3566,8 @@
    ],
    "steps": [
     "Cut everything thick.",
-    "Pack the vegetables and aromatics raw into a quart jar, with a dense layer of carrots across the top to hold the radish and jalapeño down.",
-    "Simmer the vinegar, water, salt and sugar until dissolved.",
+    "Pack the vegetables and aromatics raw into a {1 qt} jar, with a dense layer of carrots across the top to hold the radish and jalapeño down.",
+    "Simmer the vinegar, water, salt and sugar in a {small} saucepan until dissolved.",
     "Cool the brine to warm, not boiling.",
     "Pour over the vegetables.",
     "Run a chopstick down the sides to release air bubbles, then top up.",
@@ -3609,7 +3594,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-26",
-   "updated_at": "2026-10-26T21:26:46.70493+00:00",
+   "updated_at": "2026-10-26T21:36:01.115807+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -4021,7 +4006,7 @@
     }
    ],
    "steps": [
-    "Melt the butter over low heat.",
+    "Melt the butter in a {3 qt} saucepan over low heat.",
     "Add the garlic and cook 4 to 6 minutes until it smells sweet rather than sharp, without browning.",
     "Take off the heat.",
     "Stir in the Old Bay, paprika, lemon juice and pepper.",
@@ -4049,7 +4034,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-26",
-   "updated_at": "2026-10-26T20:37:09.43466+00:00",
+   "updated_at": "2026-10-26T21:36:02.0406+00:00",
    "changes": [],
    "method": "",
    "alt_methods": [],
@@ -4457,11 +4442,11 @@
     }
    ],
    "steps": [
-    "Heat the cream.",
+    "Heat the cream in a {small} pot.",
     "Pour over the chopped chocolate.",
     "Rest 2 minutes, then whisk smooth.",
     "Whisk in the cocoa, sugar, vanilla and salt. Yields about 200 g.",
-    "Heat the milk to 70°C over gentle heat, stirring constantly.",
+    "Heat the milk in a {medium} pot to 70°C over gentle heat, stirring constantly.",
     "Whisk in the ganache until smooth.",
     "Top each mug with marshmallows and whipped cream."
    ],
@@ -4486,7 +4471,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:26:51.005706+00:00",
+   "updated_at": "2026-10-26T21:36:02.958921+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -4511,12 +4496,12 @@
      "name": "At home",
      "notes": null,
      "steps": [
-      "Heat the cream in a small saucepan over medium heat until steaming, about 1 minute.",
+      "Heat the cream in a {small} saucepan over medium heat until steaming, about 1 minute.",
       "Pour the cream over the chopped chocolate.",
       "Rest 2 minutes.",
       "Whisk until smooth.",
       "Whisk in the cocoa, sugar, vanilla and salt. Yields about 200 g.",
-      "Heat the milk in a medium pot over medium-low heat to 158°F, stirring constantly, until steaming but not simmering.",
+      "Heat the milk in a {medium} pot over medium-low heat to 158°F, stirring constantly, until steaming but not simmering.",
       "Whisk in the ganache until smooth.",
       "Ladle into mugs.",
       "Top each mug with marshmallows and whipped cream."
@@ -4551,9 +4536,9 @@
    "extras": {
     "easy": {
      "label": "Swiss Miss shortcut",
-     "notes": "Lands around 68°C, hot but drinkable. Nothing scorches since the water does the heating. Needs about a 2 qt pot.",
+     "notes": "Lands around 68°C, hot but drinkable. Nothing scorches since the water does the heating. Needs about a {2 qt} pot.",
      "steps": [
-      "Boil the water in a pot.",
+      "Boil the water in a {2 qt} pot.",
       "Whisk in the Swiss Miss.",
       "Off the heat, stir in the cold half-and-half.",
       "Top each mug with marshmallows, whipped cream and, for adults, spiced rum or Baileys."
@@ -4598,7 +4583,7 @@
       {
        "name": "At home",
        "steps": [
-        "Bring the water to a boil in a 2 qt pot over high heat.",
+        "Bring the water to a boil in a {2 qt} pot over high heat.",
         "Whisk in the Swiss Miss until dissolved.",
         "Remove the pot from the heat.",
         "Stir in the cold half-and-half.",
@@ -4672,7 +4657,7 @@
    ],
    "steps": [
     "Season the lamb hard with half the salt and half the pepper.",
-    "Brown it in lard in batches in a Dutch oven, removing each batch.",
+    "Brown it in lard in batches in a {5 qt} Dutch oven, removing each batch.",
     "Soften the onion in the fat 8 minutes, adding the garlic for the last 2.",
     "Return the lamb and its juices.",
     "Add the stock, russets, bay, thyme, remaining pepper, the rest of the salt and the MSG.",
@@ -4706,7 +4691,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-24",
-   "updated_at": "2026-10-26T21:26:51.439628+00:00",
+   "updated_at": "2026-10-26T21:36:03.468486+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -5011,7 +4996,7 @@
    "steps": [
     "Dissolve the soaking salt in the soaking water, add the beans and soak covered at room temperature 8 to 24 hours.",
     "Drain and rinse the beans.",
-    "Heat the lard over medium-high in a stock pot that holds at least 4 quarts.",
+    "Heat the lard over medium-high in a stock pot that holds at least {4 qt}.",
     "Brown the andouille in one batch and remove to a plate, leaving the fat.",
     "Add the onion, bell pepper and celery; cook over medium, scraping up the fond, until soft, about 10 minutes.",
     "Add the garlic, Creole seasoning, thyme, cayenne and black pepper; stir until fragrant, about 1 minute.",
@@ -5047,7 +5032,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-06",
-   "updated_at": "2026-10-26T21:26:52.330922+00:00",
+   "updated_at": "2026-10-26T21:36:03.95803+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -5132,7 +5117,7 @@
     }
    ],
    "steps": [
-    "Fill a pot of at least 80 quarts, fitted with a basket, with the 10 gallons of water.",
+    "Fill a pot of at least {80 qt}, fitted with a basket, with the 10 gallons of water.",
     "Add the Zatarain's, Old Bay, onions, lemons and garlic.",
     "Light the burner; lid on only while bringing the water up from cold. Allow 45 to 60 minutes to a rolling boil.",
     "Boil 5 to 10 minutes, then taste: it should taste like aggressively seasoned soup. Add kosher salt if it does not.",
@@ -5168,7 +5153,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-26",
-   "updated_at": "2026-10-26T20:37:12.351889+00:00",
+   "updated_at": "2026-10-26T21:36:04.418469+00:00",
    "changes": [],
    "method": "",
    "alt_methods": [],
@@ -5362,13 +5347,13 @@
     }
    ],
    "steps": [
-    "Simmer the water, sugar, cinnamon, allspice, cloves, ginger, orange peel and star anise for 5 minutes.",
+    "Simmer the water, sugar, cinnamon, allspice, cloves, ginger, orange peel and star anise in a {small} saucepan for 5 minutes.",
     "Steep off the heat 30 minutes more.",
     "Strain.",
     "Stir in the orange juice.",
     "Refrigerate until needed.",
-    "Heat the cider with the concentrate until steaming, about 75°C. Do not boil.",
-    "Hold warm over low heat or on Keep Warm in a slow cooker or Instant Pot.",
+    "Heat the cider with the concentrate in a {2 qt} pot until steaming, about 75°C. Do not boil.",
+    "Hold warm over low heat or on Keep Warm in a {4 qt} slow cooker or Instant Pot.",
     "Pour rum into the mug first, then ladle the cider over it."
    ],
    "notes": "Concentrate keeps for weeks in the fridge. Do not increase the cloves.",
@@ -5392,7 +5377,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-24",
-   "updated_at": "2026-10-26T21:26:53.171331+00:00",
+   "updated_at": "2026-10-26T21:36:04.863108+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -5438,7 +5423,7 @@
    "steps": [
     "Scrape the gills from the portabellas.",
     "Pulse the mushrooms in a food processor in two batches, bowl no more than half full, until about 2 mm and still distinct.",
-    "Cook in a dry pan over medium-high, stirring occasionally, until the released water evaporates and the mushrooms squeak and brown, 8 to 10 minutes or a little longer for portabella.",
+    "Cook in a dry {12-inch} pan over medium-high, stirring occasionally, until the released water evaporates and the mushrooms squeak and brown, 8 to 10 minutes or a little longer for portabella.",
     "Add the butter, shallot, garlic and thyme and cook 2 minutes.",
     "Off the heat, stir in the cream cheese until evenly melted.",
     "Check that a spoonful mounds and nothing runs when the pan is tilted; if it weeps, return to medium heat 2 to 3 minutes.",
@@ -5466,7 +5451,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:13.660117+00:00",
+   "updated_at": "2026-10-26T21:36:05.35183+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -5522,7 +5507,7 @@
     "Soft eggs: lower the eggs into boiling water and cook 6 minutes.",
     "Move them straight into an ice bath for 5 minutes.",
     "Peel gently under cool running water.",
-    "Mushrooms: get a wide pan properly hot with the lard.",
+    "Mushrooms: get a wide {12-inch} pan properly hot with the lard.",
     "Add the mushrooms in one layer and leave them alone 4 minutes.",
     "Stir and keep cooking until browned and squeaky, 4 to 6 minutes more. Use two pans if crowded.",
     "Salt the mushrooms and add the MSG.",
@@ -5553,7 +5538,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-24",
-   "updated_at": "2026-10-26T21:26:53.607127+00:00",
+   "updated_at": "2026-10-26T21:36:05.829141+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -5607,7 +5592,7 @@
     }
    ],
    "steps": [
-    "Put the potatoes in a wide pot in a single layer.",
+    "Put the potatoes in a wide {5 qt} pot in a single layer.",
     "Add the salt and just enough water to barely cover.",
     "Boil hard, uncovered, 20 to 25 minutes, until a knife slides in and the water has nearly gone.",
     "Pour off whatever water is left.",
@@ -5635,7 +5620,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-24",
-   "updated_at": "2026-10-26T21:26:54.091737+00:00",
+   "updated_at": "2026-10-26T21:36:06.298495+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -5697,10 +5682,10 @@
     }
    ],
    "steps": [
-    "Toss the vegetables with the salt in a bowl.",
+    "Toss the vegetables with the salt in a {large} bowl.",
     "Cover and refrigerate 4 hours or overnight.",
     "Rinse well and drain thoroughly.",
-    "Bring the vinegar, sugar and mustard seeds to a simmer, stirring to dissolve the sugar.",
+    "Bring the vinegar, sugar and mustard seeds to a simmer in a {3 qt} saucepan, stirring to dissolve the sugar.",
     "Whisk the mustard powder, turmeric, ginger, chili flakes, cornstarch and cold water to a smooth paste.",
     "Whisk the paste into the simmering vinegar.",
     "Simmer, whisking, until thick and glossy, about 3 minutes.",
@@ -5729,7 +5714,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-26",
-   "updated_at": "2026-10-26T20:37:14.787226+00:00",
+   "updated_at": "2026-10-26T21:36:06.792447+00:00",
    "changes": [],
    "method": "",
    "alt_methods": [],
@@ -5740,7 +5725,7 @@
    "title": "Pickled Red Onions",
    "category": "Sauces & Condiments",
    "cuisine": "American",
-   "yield": "1 quart jar",
+   "yield": "{1 qt} jar",
    "tags": [],
    "traits": [
     "camping",
@@ -5772,8 +5757,8 @@
     }
    ],
    "steps": [
-    "Pack the onions and garlic into a quart jar.",
-    "Bring the vinegar, water, sugar, salt, mustard seeds, fennel seeds, dill seeds and crushed peppercorns to a simmer, stirring until the sugar and salt dissolve.",
+    "Pack the onions and garlic into a {1 qt} jar.",
+    "Bring the vinegar, water, sugar, salt, mustard seeds, fennel seeds, dill seeds and crushed peppercorns to a simmer in a {small} saucepan, stirring until the sugar and salt dissolve.",
     "Pour the hot brine and spices over the onions and press them under.",
     "Cool, lid and refrigerate."
    ],
@@ -5798,7 +5783,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:14.977322+00:00",
+   "updated_at": "2026-10-26T21:36:07.300848+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -6018,7 +6003,7 @@
     "Mix the Creole seasoning, salt, MSG, brown sugar and black pepper and coat the pork on all sides.",
     "Refrigerate uncovered on a rack 24 to 36 hours.",
     "Heat the oven to 275°F (135°C).",
-    "Roast the pork fat side up on a rack in a roasting pan until the internal temperature reaches 200°F (93°C) and the bone pulls free, 5 to 6 hours.",
+    "Roast the pork fat side up on a rack in a {9x13} roasting pan until the internal temperature reaches 200°F (93°C) and the bone pulls free, 5 to 6 hours.",
     "Tent loosely with foil and rest 30 minutes.",
     "Pull the pork into shreds while still warm, discarding bone and large fat pockets.",
     "Skim the fat from the pan drippings and toss the pork with the drippings.",
@@ -6045,7 +6030,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-06",
-   "updated_at": "2026-10-26T21:26:55.536077+00:00",
+   "updated_at": "2026-10-26T21:36:07.754898+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -6091,11 +6076,11 @@
    ],
    "steps": [
     "Whisk the mustard into the evaporated milk.",
-    "Warm the milk mixture over low heat.",
+    "Warm the milk mixture in a {small} saucepan over low heat.",
     "Add the American cheese in handfuls, stirring constantly, until smooth.",
     "Off the heat, stir in the cheddar a handful at a time until melted.",
     "Season with white pepper and MSG, adding salt only if needed.",
-    "Serve warm, or hold in a slow cooker on warm."
+    "Serve warm, or hold in a {1.5 qt} slow cooker on warm."
    ],
    "notes": "Reheats without breaking; rewarm gently over low heat, stirring. Use block cheddar, not bagged shredded.",
    "nutrition": {
@@ -6118,7 +6103,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:26:55.954711+00:00",
+   "updated_at": "2026-10-26T21:36:08.204265+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -6165,7 +6150,7 @@
    "title": "Rajma (Kidney Bean Curry)",
    "category": "Soups & Stews",
    "cuisine": "Punjabi",
-   "yield": "about 1.5 qt (needs a 3 qt or larger pot)",
+   "yield": "about 1.5 qt (needs a {3 qt} or larger pot)",
    "tags": [],
    "traits": [
     "make-ahead",
@@ -6230,10 +6215,10 @@
    "steps": [
     "Dissolve the soaking salt in the soaking water, add the beans and soak covered at room temperature about 12 hours.",
     "Drain and rinse the beans.",
-    "Add the beans, cooking water and bay leaves to the stock pot.",
+    "Add the beans, cooking water and bay leaves to the {3 qt} stock pot.",
     "Bring to a full rolling boil and hold it there for at least 10 minutes.",
     "Drop to a low simmer, partially covered, until fully tender, about 75 minutes. Do not drain.",
-    "While the beans simmer, heat the ghee in a skillet over medium.",
+    "While the beans simmer, heat the ghee in a {10-inch} skillet over medium.",
     "Add the cumin seeds, cinnamon stick, cardamom pods and cloves; stir until the cumin darkens, about 1 minute.",
     "Add the onion and cook over medium to medium-high, stirring often, until deep amber-brown with darker edges, 10 to 15 minutes; add a splash of water if the bottom catches.",
     "Lower the heat to medium. Add the ginger, garlic and serranos and cook until the raw smell is gone, about 2 minutes.",
@@ -6270,7 +6255,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-06",
-   "updated_at": "2026-10-26T21:26:56.461021+00:00",
+   "updated_at": "2026-10-26T21:36:08.656964+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -6384,7 +6369,7 @@
    "title": "Reese's Puffs Krispie Treats with Orange Dark Chocolate Drizzle",
    "category": "Desserts",
    "cuisine": "American",
-   "yield": "one 8x8 pan, 8 squares, serves 4",
+   "yield": "one {8x8} pan, 8 squares, serves 4",
    "tags": [
     "no-bake"
    ],
@@ -6416,8 +6401,8 @@
     }
    ],
    "steps": [
-    "Butter or line an 8x8 pan and measure both cereals into a big bowl.",
-    "Melt the butter in a medium pot over low-medium heat.",
+    "Butter or line an {8x8} pan and measure both cereals into a big bowl.",
+    "Melt the butter in a {medium} pot over low-medium heat.",
     "Add the marshmallows and salt and stir until smooth.",
     "Off the heat, stir in the peanut butter until streak-free.",
     "Fold in both cereals quickly until coated.",
@@ -6450,7 +6435,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-06-04",
-   "updated_at": "2026-10-26T21:26:56.946648+00:00",
+   "updated_at": "2026-10-26T21:36:09.164271+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -6492,8 +6477,8 @@
     }
    ],
    "steps": [
-    "Line a tray with wax paper and measure the cereal into a medium bowl.",
-    "Combine the butter, milk, sugar, peanut butter and cocoa in a small saucepan over medium heat, stirring until smooth.",
+    "Line a tray with wax paper and measure the cereal into a {medium} bowl.",
+    "Combine the butter, milk, sugar, peanut butter and cocoa in a {small} saucepan over medium heat, stirring until smooth.",
     "Bring to a full rolling boil, then boil exactly 3 minutes, stirring constantly.",
     "Off the heat, stir in the vanilla.",
     "Pour over the cereal and fold quickly until coated.",
@@ -6521,7 +6506,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-06-04",
-   "updated_at": "2026-10-26T21:26:57.418602+00:00",
+   "updated_at": "2026-10-26T21:36:09.651985+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -6715,7 +6700,7 @@
     }
    ],
    "steps": [
-    "Cook the butter and flour together 2 minutes.",
+    "Cook the butter and flour together in a {1.5 qt} saucepan 2 minutes.",
     "Whisk in the stock and simmer 5 minutes until smooth.",
     "Season with the 2 g salt, MSG and black pepper, to just under where you'd want it.",
     "Pour the hen pan juices into a fat separator or measuring cup and let the fat rise; spoon it off.",
@@ -6744,7 +6729,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-24",
-   "updated_at": "2026-10-26T21:26:50.558012+00:00",
+   "updated_at": "2026-10-26T21:36:02.493059+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -6799,7 +6784,7 @@
     "Broil about 4 inches from the element, 10 minutes, until blackened in spots.",
     "Peel the garlic.",
     "Blend with the vinegar, salt, a splash of soaking liquid and the liquid pooled on the pan; leave it coarse.",
-    "Heat the oil until shimmering.",
+    "Heat the oil in a {3 qt} saucepan until shimmering.",
     "Pour in the salsa and fry 3 to 4 minutes, stirring, with the vent running.",
     "Taste after frying and add more vinegar if flat.",
     "Cool and refrigerate."
@@ -6825,7 +6810,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:26:58.751344+00:00",
+   "updated_at": "2026-10-26T21:36:10.107164+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -7168,7 +7153,7 @@
    "steps": [
     "Rinse the rice in several changes of cold water until it runs nearly clear.",
     "Soak 20 minutes, then drain well.",
-    "Heat the ghee in a heavy pot with a tight lid over medium.",
+    "Heat the ghee in a heavy {3 qt} pot with a tight lid over medium.",
     "Add the cumin, coriander, cardamom, cloves, cinnamon and bay; stir until the cumin darkens and smells toasty, about 1 minute.",
     "Add the onion and cook, stirring, until golden brown, 8 to 10 minutes.",
     "Add the drained rice and stir gently 2 minutes to coat every grain.",
@@ -7177,7 +7162,7 @@
     "Rest off the heat, still covered, 10 minutes.",
     "Pull out the cinnamon stick and bay leaves and fluff gently with a fork."
    ],
-   "notes": "Use vegetable stock for a vegetarian version. Rice cooker: do the first 6 steps in a skillet, scrape everything into the cooker with 465 g stock and the salt and run the white rice setting. Rest 10 minutes after it switches to warm, then fluff.",
+   "notes": "Use vegetable stock for a vegetarian version. Rice cooker: do the first 6 steps in a {10-inch} skillet, scrape everything into the cooker with 465 g stock and the salt and run the white rice setting. Rest 10 minutes after it switches to warm, then fluff.",
    "nutrition": {
     "serving": "about 1 1/4 cups (1 of 4)",
     "servings": 4,
@@ -7198,7 +7183,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-26",
-   "updated_at": "2026-10-26T21:27:01.606691+00:00",
+   "updated_at": "2026-10-26T21:36:11.080401+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -7355,7 +7340,7 @@
     }
    ],
    "steps": [
-    "Put an 8 qt pot with a lid over the fire.",
+    "Put an {8 qt} pot with a lid over the fire.",
     "Add the oil and 3 kernels.",
     "When those pop, add the rest of the kernels.",
     "Take the pot off the heat 30 seconds, then return it and shake steadily.",
@@ -7383,7 +7368,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:10:49.618924+00:00",
+   "updated_at": "2026-10-26T21:36:11.622228+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -7396,7 +7381,7 @@
      "name": "At home",
      "notes": null,
      "steps": [
-      "Put an 8 qt pot with a lid over medium-high heat.",
+      "Put an {8 qt} pot with a lid over medium-high heat.",
       "Add the oil and 3 kernels.",
       "When those pop, add the rest of the kernels.",
       "Take the pot off the heat 30 seconds, then return it and shake steadily.",
@@ -7589,7 +7574,7 @@
     "Broil 2 minutes.",
     "Add the tomatoes cut side up, brushed with bacon fat and salted.",
     "Broil 4 to 5 minutes more, until the tomatoes blister and the mushrooms brown.",
-    "Warm the beans in a small pot.",
+    "Warm the beans in a {small} pot.",
     "Fry the eggs in butter last, over medium, in batches.",
     "Plate everything at once, beans in a ramekin on each plate."
    ],
@@ -7614,7 +7599,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-24",
-   "updated_at": "2026-10-26T21:26:48.721449+00:00",
+   "updated_at": "2026-10-26T21:36:01.575279+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -7664,7 +7649,7 @@
     }
    ],
    "steps": [
-    "Sweat the onion, celery and bell pepper in the butter over medium 6 to 8 minutes, until soft with no color.",
+    "Sweat the onion, celery and bell pepper in the butter in a {2 qt} saucepan over medium 6 to 8 minutes, until soft with no color.",
     "Add the garlic for 30 seconds.",
     "Add the paprika, thyme and cayenne for 30 seconds.",
     "Add the beans, broth and bay leaves and simmer uncovered 15 to 20 minutes.",
@@ -7695,7 +7680,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:21.295798+00:00",
+   "updated_at": "2026-10-26T21:36:12.093766+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -7749,7 +7734,7 @@
     }
    ],
    "steps": [
-    "Combine the amaretto and coffee liqueur in a pitcher or jar.",
+    "Combine the amaretto and coffee liqueur in a {1 qt} pitcher or jar.",
     "Stir in the bourbon, cold brew, water and amaro.",
     "Add the bitters and salt and stir until the salt dissolves.",
     "Taste, and add more bitters or a pinch more salt if it reads cloying.",
@@ -7778,7 +7763,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-07-30",
-   "updated_at": "2026-10-26T21:27:02.526802+00:00",
+   "updated_at": "2026-10-26T21:36:12.546429+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -7831,7 +7816,7 @@
     }
    ],
    "steps": [
-    "Melt the butter with the olive oil over medium heat.",
+    "Melt the butter with the olive oil in a {4 qt} pot over medium heat.",
     "Cook the onion with a pinch of the salt until soft and golden, about 10 minutes.",
     "Add the garlic and cook 1 minute.",
     "Add the tomatoes with their juice, the stock, remaining salt, MSG, pepper, oregano, thyme, bay leaves and Parmesan rind.",
@@ -7861,7 +7846,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-15",
-   "updated_at": "2026-10-26T21:27:02.970158+00:00",
+   "updated_at": "2026-10-26T21:36:13.032837+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -7914,11 +7899,11 @@
    ],
    "steps": [
     "Rinse the cut potatoes in cold water until it runs clear.",
-    "Put them in a pot with the cold water, kosher salt and 17 g malt vinegar.",
+    "Put them in a {6 qt} pot with the cold water, kosher salt and 17 g malt vinegar.",
     "Bring to a gentle simmer and cook until just tender with fuzzy, cracked edges, 8 to 12 minutes from the simmer. Start checking at 6.",
-    "Lift out carefully with a spider onto a rack set in a sheet pan.",
+    "Lift out carefully with a spider onto a rack set in a {13x18} sheet pan.",
     "Let them steam dry 10 minutes, then refrigerate uncovered at least 1 hour, or freeze 30 minutes.",
-    "Heat the oil in a deep pot of at least 5 quarts to 130°C (265°F).",
+    "Heat the oil in a deep pot of at least {5 qt} to 130°C (265°F).",
     "Parfry in batches 6 to 8 minutes, until a dry, pale skin forms but no color.",
     "Drain on the rack and cool completely, at least 30 minutes.",
     "Heat the oil to 190°C (375°F).",
@@ -7947,7 +7932,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-10-26",
-   "updated_at": "2026-10-26T21:27:03.525114+00:00",
+   "updated_at": "2026-10-26T21:36:13.504732+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -8038,35 +8023,35 @@
   "make-ahead-breakfast-burritos-bacon-sausage-mushroom": "breakfast-burritos",
   "cheesy-sausage-breakfast-burritos": "breakfast-burritos",
   "camp-breakfast-burritos-cheesy-sausage": "breakfast-burritos",
-  "beer-battered-walleye-and-chips": "beer-battered-walleye",
-  "red-beans-camp": "thick-red-beans",
   "ldw-cocktail-sauce": "cocktail-sauce",
-  "ldw-potato-salad": "dill-pickle-potato-salad",
   "ldw-dill-pickle-jar": "dill-pickles",
-  "carnitas-oven": "carnitas",
-  "slow-cooker-carnitas": "carnitas",
-  "papas-arrugadas-mojo-verde": "papas-arrugadas",
-  "growler-toasted-almond-revolver": "toasted-almond-revolver",
-  "mild-chili-toasted-dried-chiles": "chili",
-  "mild-chili": "chili",
+  "red-beans-camp": "thick-red-beans",
+  "campfire-stovetop-popcorn": "stovetop-popcorn",
+  "ldw-escabeche-pickle-jar": "escabeche-pickles",
   "san-marzano-tomato-soup": "tomato-soup",
   "camp-cheesesteaks-chuck-eye": "cheesesteaks",
   "camp-cheesesteaks": "cheesesteaks",
-  "ldw-escabeche-pickle-jar": "escabeche-pickles",
+  "beer-battered-walleye-and-chips": "beer-battered-walleye",
+  "barbacoa-crockpot": "barbacoa",
   "campfire-foil-packet-bar": "foil-packet-bar",
   "kofta-beef-lamb-logs": "kofta",
-  "campfire-stovetop-popcorn": "stovetop-popcorn",
+  "carnitas-oven": "carnitas",
+  "slow-cooker-carnitas": "carnitas",
   "hot-chocolate-swiss-miss": "hot-chocolate",
   "camp-hot-chocolate-swiss-miss": "hot-chocolate",
   "hot-chocolate-ganache": "hot-chocolate",
   "camp-hot-chocolate-ganache": "hot-chocolate",
   "ldw-remoulade": "remoulade",
+  "mild-chili-toasted-dried-chiles": "chili",
+  "mild-chili": "chili",
   "split-buttermilk-pancakes-ham-cheddar": "split-buttermilk-pancakes",
   "teds-72-hour-pizza-dough": "72-hour-pizza-dough",
   "skillet-cornbread-honey-butter": "cornbread",
   "campfire-dutch-oven-cornbread": "cornbread",
   "dutch-oven-cornbread": "cornbread",
+  "ldw-potato-salad": "dill-pickle-potato-salad",
+  "papas-arrugadas-mojo-verde": "papas-arrugadas",
   "kofta-spice-blend-weighed": "kofta-spice-blend",
-  "barbacoa-crockpot": "barbacoa"
+  "growler-toasted-almond-revolver": "toasted-almond-revolver"
  }
 }

@@ -123,7 +123,7 @@ function renderEditor(){
     <label>Tags <small>comma separated</small><input id="eTags" value="${esc((r.tags||[]).join(", "))}"></label>
     <label>Ingredients <small>one per line. A line ending in a colon starts a section, like "Sauce:". Link a recipe with [label](web-name).</small>
       <textarea id="eIng" rows="14">${esc(groupsToText(r.groups))}</textarea></label>
-    <label>Steps <small>one per line</small><textarea id="eSteps" rows="12">${esc(stepsToText(r.steps))}</textarea></label>
+    <label>Steps <small>one per line. Put container sizes in braces so they grow with the batch: {4 qt} pot, {8x8} pan, {10-inch} skillet, {medium} pot.</small><textarea id="eSteps" rows="12">${esc(stepsToText(r.steps))}</textarea></label>
     <label>Notes<textarea id="eNotes" rows="3">${esc(r.notes||"")}</textarea></label>
     <details class="eblock"${(r.alt_methods||[]).length?" open":""}><summary>Cooking methods <small>shown as tabs on the card</small></summary>
       <label>Main method <small>what the ingredients and steps above are, e.g. Dutch oven. Leave blank if there's only one way.</small><input id="eMethod" value="${esc(r.method||"")}"></label>
