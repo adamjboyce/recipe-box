@@ -247,3 +247,4 @@ html{height:100%}
 .home-foot p{margin:0}
 .home-link{color:inherit;text-decoration:none}
 .home-link:hover{color:var(--accent)}
+.index{min-width:0;overflow:hidden}.index-head{grid-template-columns:minmax(0,1fr)}.index-head>*{min-width:0}.tools .select{width:0}.brand{min-width:0}.brand h1{min-width:0}
