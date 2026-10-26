@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T16:54:48+00:00",
+ "generated": "2026-10-26T17:22:15+00:00",
  "recipes": [
   {
    "id": "brussels-sprouts-bacon",
@@ -19,19 +19,19 @@
       "150 g thick-cut bacon, in lardons (about 4 thick slices)",
       "25 g lard",
       "10 g kosher salt",
-      "black pepper",
+      "4 g black pepper, freshly ground (about 2 tsp)",
       "10 g cider vinegar"
      ],
      "name": ""
     }
    ],
    "steps": [
-    "Crisp the bacon lardons and jar them with their fat.",
+    "Crisp the bacon lardons, keeping their rendered fat.",
     "Toss the sprouts with the bacon fat, lard and salt.",
     "Air fry at 400°F in two batches, 15 minutes each, shaking halfway.",
     "Toss with the bacon, pepper and cider vinegar."
    ],
-   "notes": "Sprouts halved and bacon crisped the day before.",
+   "notes": "",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -42,7 +42,7 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Bacon weighed raw with its rendered fat kept in the dish; all 10 g salt counted.",
+    "assumptions": "Bacon weighed raw with its rendered fat kept in the dish; all 10 g salt and 4 g pepper counted.",
     "per_serving": {
      "calories": 180,
      "carbs_g": 12,
@@ -245,12 +245,9 @@
     "Skim the fat from the liquid and pull the bay leaves.",
     "Reduce the liquid hard in a wide saucepan, 15 minutes or more, until it coats a spoon and a finger track across the back holds.",
     "Taste the reduced sauce for salt.",
-    "Shred the meat and toss with enough sauce to coat; jar any extra sauce.",
-    "Cool on a sheet pan.",
-    "Split in half: one half to the fridge, the other wrapped flat and frozen.",
-    "At camp, reheat in a foil pan."
+    "Shred the meat and toss with enough sauce to coat; reserve any extra sauce."
    ],
-   "notes": "Frozen half rides as cooler ballast and is used two days later. Excess liquid boils foil-packet fillings, so reduce before splitting.",
+   "notes": "Reduce the liquid well before tossing; a thin sauce leaves the meat wet. Freezes well for up to 3 months; reheat covered until hot through.",
    "rating": 4,
    "traits": [
     "camping",
@@ -307,23 +304,23 @@
       "465 g lager, ice cold (about 460 ml)",
       "95 g vodka, ice cold (about 100 ml)",
       "60 g flour, for dredging",
-      "fine salt",
+      "20 g fine salt, for both sides before dredging and right out of the oil (about 3 1/2 tsp)",
       "2760 g frying oil (about 3 L)",
-      "malt vinegar, to serve"
+      "105 g malt vinegar, to serve (about 7 Tbsp)"
      ],
      "name": "Fish"
     },
     {
      "ingredients": [
       "1588 g frozen thick-cut chips (about two 28 oz bags)",
-      "fine salt"
+      "16 g fine salt, for the chips right out of the air fryer (about 2 3/4 tsp)"
      ],
      "name": "Chips"
     }
    ],
    "steps": [
-    "Whisk the dry mix ingredients together and bag.",
-    "Heat the oil in an 8-quart stockpot to 190°C, lid on while it climbs and between batches.",
+    "Whisk the dry mix ingredients together.",
+    "Heat the oil in a deep pot of at least 8 quarts to 190°C, lid on while it climbs and between batches.",
     "Air fry the chips at 400°F in batches, 15 to 18 minutes, shaking halfway.",
     "Salt the chips the second they come out and hold on a rack in a 200°F oven.",
     "Whisk the lager and vodka into the dry mix just to combine, lumps and all. Rest 10 minutes.",
@@ -334,7 +331,7 @@
     "Drain on a rack and salt immediately.",
     "Serve with malt vinegar and tartar sauce."
    ],
-   "notes": "Dry mix made days ahead. Fried outdoors on an induction burner. Cool the oil fully before storing.",
+   "notes": "The dry mix keeps for days in an airtight container. Cool the oil fully before storing.",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -344,7 +341,7 @@
     "dairy-free"
    ],
    "nutrition": {
-    "assumptions": "All the batter is counted, with oil absorbed at 12% of the battered fish weight and the beer and vodka ethanol counted in full; chips are air fried with no added oil. Unmeasured salt estimated at 7 g on the fish and 8 g on the chips; malt vinegar and tartar sauce left out.",
+    "assumptions": "All the batter is counted, with oil absorbed at 12% of the battered fish weight and the beer and vodka ethanol counted in full; chips are air fried with no added oil. All 36 g of finishing salt and the malt vinegar are counted; tartar sauce is left out.",
     "per_serving": {
      "calories": 1120,
      "carbs_g": 97,
@@ -353,8 +350,8 @@
      "fiber_g": 6,
      "protein_g": 47,
      "sat_fat_g": 5.5,
-     "sodium_mg": 2570,
-     "sugar_g": 0.8
+     "sodium_mg": 3730,
+     "sugar_g": 0.9
     },
     "serving": "3 pieces of fish (about 190 g raw) with about 225 g chips (1 of 7)",
     "servings": 7
@@ -444,13 +441,12 @@
     "Add as much of the reserve stock as fits while leaving about 1 inch of headspace. Simmer 10 minutes.",
     "Remove the bay leaves, allspice and dill stems.",
     "Stir in the MSG and taste. Add more brine for sourness and the salt only if needed.",
-    "Ladle the portions to be frozen into containers before adding the sour cream.",
-    "Whisk the sour cream, flour and horseradish, scaled to the soup left in the pot.",
+    "Whisk the sour cream, flour and horseradish.",
     "Whisk in 2 ladles of hot broth, then stir the mixture back into the pot.",
     "Heat gently without boiling until slightly thickened, about 5 minutes.",
     "Stir in the chopped dill fronds and serve."
    ],
-   "notes": "Freeze portions without the sour cream for up to 3 months. To serve frozen portions, thaw, reheat, then temper in about 40 g sour cream, 2.5 g flour and 6 g horseradish per serving, and finish with fresh dill. For one quart served fresh: 65 g sour cream, 4 g flour, 10 g horseradish, 8 g dill fronds. Serve with buttered, toasted rye.",
+   "notes": "Freezes well without the sour cream finish for up to 3 months; reheat and temper in about 40 g sour cream, 2.5 g flour and 6 g horseradish per serving, then finish with fresh dill. For one quart: 65 g sour cream, 4 g flour, 10 g horseradish, 8 g dill fronds. Serve with buttered, toasted rye.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -509,12 +505,9 @@
     "Cover and cook on low 1 hour, stirring every 15 minutes.",
     "Uncover and cook off the liquid, 15 minutes, stirring often so it doesn't catch.",
     "Pull out the cinnamon stick, and the cloves if whole.",
-    "Taste and correct salt and vinegar. It should be sharp.",
-    "Cool and refrigerate.",
-    "To serve, reheat in a covered pot on low, stirring now and then.",
-    "Taste and sharpen with a splash of cider vinegar."
+    "Taste and correct salt and vinegar, finishing with a splash of cider vinegar. It should be sharp."
    ],
-   "notes": "Made 3 days ahead; reheated on low about 4 hours before dinner.",
+   "notes": "Improves made a day or two ahead; refrigerate, reheat covered on low, and sharpen with a splash of cider vinegar.",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -574,7 +567,7 @@
     "Blend everything, including the liquid pooled on the pan.",
     "Refrigerate."
    ],
-   "notes": "Better after a day. Came out hotter than intended with 2 jalapeños; sour cream at the table mutes it.",
+   "notes": "Better after a day. Fairly hot with 2 jalapeños; sour cream at the table mutes it.",
    "rating": 0,
    "traits": [
     "camping",
@@ -620,18 +613,18 @@
     {
      "ingredients": [
       "680 g boneless skinless chicken thighs (about 1 1/2 lb, 6 thighs)",
-      "Salt",
-      "A little oil"
+      "7 g kosher salt (about 2 1/4 tsp Diamond Crystal)",
+      "14 g neutral oil (about 1 Tbsp)"
      ],
      "name": "Chicken"
     },
     {
      "ingredients": [
       "360 g Frank's RedHot Buffalo Wings Sauce (about one 12 oz bottle)",
-      "Cayenne, to taste",
+      "1 g cayenne, to taste (about 1/2 tsp)",
       "340 g cream cheese (about 1 1/2 blocks)",
       "170 g sharp cheddar, grated (about 6 oz)",
-      "Celery seed"
+      "2 g celery seed (about 1 tsp)"
      ],
      "name": "Filling"
     },
@@ -654,13 +647,13 @@
     "Chill overnight.",
     "Cut the puff pastry into 12 pieces and portion the cold filling onto them.",
     "Fold, seal hard with a fork, and cut two vent slits.",
-    "Freeze raw on a sheet pan, then bag.",
-    "On baking day, brush the frozen pies with egg wash.",
+    "Freeze raw on a sheet pan until firm.",
+    "Brush the frozen pies with egg wash.",
     "Press blue cheese crumbles onto the tops of half the pies.",
     "Bake from frozen at 400°F for 28 to 30 minutes.",
-    "Cool completely on a rack before packing in a rigid container."
+    "Cool on a rack at least 10 minutes before serving."
    ],
-   "notes": "Raw assembled pies freeze until baking. After baking, refrigerate in a rigid container; do not refreeze. Eat early on day of travel and keep cold in a dry bag with a frozen bottle.",
+   "notes": "Raw assembled pies keep frozen up to 3 months; bake straight from frozen. Do not refreeze after baking.",
    "rating": 0,
    "traits": [
     "camping",
@@ -670,17 +663,17 @@
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "Unmeasured seasoning salt taken as 6 g and oil as 1 Tbsp; half the beaten egg ends up on the pies; blue cheese is averaged across all 12 though only half get it. Frank's Buffalo Wings Sauce at label values, reduction loses water only.",
+    "assumptions": "Frank's Buffalo Wings Sauce at label values, reduction loses water only; half the beaten egg ends up on the pies. Blue cheese is averaged across all 12 though only half get it.",
     "per_serving": {
-     "calories": 530,
+     "calories": 520,
      "carbs_g": 21,
      "cholesterol_mg": 115,
-     "fat_g": 40,
-     "fiber_g": 0.6,
+     "fat_g": 38,
+     "fiber_g": 0.7,
      "protein_g": 22,
-     "sat_fat_g": 15.5,
-     "sodium_mg": 1520,
-     "sugar_g": 1.6
+     "sat_fat_g": 15,
+     "sodium_mg": 1530,
+     "sugar_g": 1.4
     },
     "serving": "1 hand pie (1 of 12)",
     "servings": 12
@@ -714,18 +707,18 @@
       "4 g sugar (about 1 tsp)",
       "5 g Cointreau (about 1 tsp)",
       "7 g salt (about 1 1/2 tsp)",
-      "Black pepper"
+      "4 g black pepper, freshly ground (about 2 tsp)"
      ],
      "name": "Dressing"
     }
    ],
    "steps": [
-    "Shred the cabbage and julienne the carrots; bag together dry and undressed.",
+    "Shred the cabbage and julienne the carrots; toss together.",
     "Dissolve the sugar in the lemon juice.",
-    "Add the oil, sumac, Aleppo, Cointreau, salt and pepper to a jar and shake.",
+    "Whisk in the oil, sumac, Aleppo, Cointreau, salt and pepper.",
     "Dress the slaw at serving time."
    ],
-   "notes": "Store vegetables and dressing separately until serving. Dressing keeps in a sealed jar.",
+   "notes": "Store the vegetables and dressing separately until serving.",
    "rating": 0,
    "traits": [
     "camping",
@@ -740,14 +733,14 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Half a large cabbage taken as 450 g and 1 lb whole carrots as 400 g trimmed; all dressing is eaten with the slaw. Black pepper (no quantity) left out.",
+    "assumptions": "Half a large cabbage taken as 450 g and 1 lb whole carrots as 400 g trimmed; all dressing is eaten with the slaw.",
     "per_serving": {
      "calories": 120,
      "carbs_g": 11,
      "cholesterol_mg": 0,
      "fat_g": 8,
-     "fiber_g": 3.6,
-     "protein_g": 1.5,
+     "fiber_g": 3.7,
+     "protein_g": 1.6,
      "sat_fat_g": 1,
      "sodium_mg": 550,
      "sugar_g": 6
@@ -780,9 +773,9 @@
    "steps": [
     "Pour ~250 ml of the pooled runoff from the toss into a bowl.",
     "Stir in the Cajun seasoning and cayenne.",
-    "Stir in the Crystal, poured from the bottle."
+    "Stir in the Crystal hot sauce."
    ],
-   "notes": "Pre-mix the Cajun seasoning and cayenne in one container; keep the Crystal separate.",
+   "notes": "Made from the butter that pools after tossing a seafood boil in garlic Old Bay butter.",
    "rating": 0,
    "traits": [
     "quick"
@@ -808,71 +801,6 @@
    }
   },
   {
-   "id": "camp-breakfast-burritos-cheesy-sausage",
-   "title": "Camp Breakfast Burritos (Cheesy Sausage)",
-   "category": "Breakfast",
-   "cuisine": "Tex-Mex",
-   "tags": [
-    "camping",
-    "make-ahead",
-    "freezer"
-   ],
-   "yield": "10 burritos",
-   "developed": "2026-10-15",
-   "groups": [
-    {
-     "ingredients": [
-      "700 g eggs (about 14 large)",
-      "567 g refrigerated diced potatoes with peppers and onion (about one 20 oz package)",
-      "Salt",
-      "397 g breakfast sausage (about 14 oz)",
-      "113 g white American cheese, torn (about 4 oz)",
-      "227 g shredded cheddar (about one 8 oz bag)",
-      "700 g burrito-size flour tortillas, 10 inch (about 10)"
-     ],
-     "name": ""
-    }
-   ],
-   "steps": [
-    "Cook the potatoes in an uncrowded pan until genuinely browned, not just heated through.",
-    "Salt the potatoes and cool completely.",
-    "Scramble the eggs soft and slightly underdone; cool completely.",
-    "Brown the sausage and drain most of the fat.",
-    "Off the heat, tear in the American cheese and stir until it coats the sausage.",
-    "Cool the sausage completely.",
-    "Warm one tortilla in a dry skillet 15 to 20 seconds a side.",
-    "Fill with about 6 oz of potatoes, eggs, sausage and cheddar, and roll tight.",
-    "Repeat with each tortilla, warming one at a time.",
-    "Wrap each in foil and freeze flat.",
-    "At camp, set the frozen burritos at the edge of the coal bed, not buried, 15 to 20 minutes, turning twice."
-   ],
-   "notes": "Frozen burritos ride as cooler ballast. Hot sauce on the side.",
-   "rating": 0,
-   "traits": [
-    "camping",
-    "make-ahead",
-    "freezer",
-    "crowd"
-   ],
-   "diet": [],
-   "nutrition": {
-    "assumptions": "Salt on the potatoes estimated at 5 g; refrigerated potatoes use Simply Potatoes Southwest label values; 10-inch tortillas at 72 g each; about a fifth of the sausage fat drained off. Hot sauce on the side not included.",
-    "per_serving": {
-     "calories": 610,
-     "carbs_g": 49,
-     "cholesterol_mg": 325,
-     "fat_g": 33,
-     "fiber_g": 3.9,
-     "protein_g": 30,
-     "sat_fat_g": 13.5,
-     "sodium_mg": 1550,
-     "sugar_g": 3.2
-    },
-    "serving": "1 burrito, about 260 g (1 of 10)",
-    "servings": 10
-   }
-  },
-  {
    "id": "camp-cheesesteaks-chuck-eye",
    "title": "Camp Cheesesteaks (Shaved Chuck Eye with Queso)",
    "category": "Mains",
@@ -885,14 +813,14 @@
    "groups": [
     {
      "ingredients": [
-      "2040 g shaved chuck eye, portioned at home into 8 portions of 255 g",
+      "2040 g shaved chuck eye",
       "10 hoagie rolls, 8 inch (about 850 g)",
       "2 large yellow onions, sliced thin (about 400 g)",
       "2 green bell peppers, sliced (about 320 g)",
       "340 g cremini, sliced thick",
-      "Butter and salt (for the mushrooms)",
+      "2 Tbsp butter and 1 1/2 tsp kosher salt, for the mushrooms (about 28 g butter and 4.5 g Diamond Crystal)",
       "8 slices provolone (about 170 g)",
-      "Queso (American and sharp cheddar)",
+      "2 cups queso (American and sharp cheddar), about 1/4 cup per sandwich (about 480 g)",
       "Sandwich paper and tape"
      ],
      "name": ""
@@ -907,10 +835,9 @@
     "When just past pink, pile it, fold in the onions and peppers, and add provolone if using; let it slump 30 seconds.",
     "Toast the rolls face-down on the edge of the griddle.",
     "Scoop the meat into the rolls and spoon queso over the top.",
-    "Wrap in paper, tape, rest 2 minutes, and cut through the paper.",
-    "Keep a plain corner of meat with no onion or pepper for kids."
+    "Wrap in paper, tape, rest 2 minutes, and cut through the paper."
    ],
-   "notes": "Portion the meat at home with a scale so nothing is weighed at camp.",
+   "notes": "",
    "rating": 0,
    "traits": [
     "camping",
@@ -920,83 +847,20 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "8 of the 10 rolls (100 g each) used; about 60 g queso per sandwich and provolone on all 8. Meat weighed raw with no fat drained; mushroom butter and salt estimated at 15 g and 3 g.",
+    "assumptions": "8 of the 10 rolls (85 g each) used, with 60 g queso (about 55% American, 25% cheddar, 20% milk) and provolone on every sandwich. Meat weighed raw with no fat drained.",
     "per_serving": {
-     "calories": 1140,
-     "carbs_g": 62,
-     "cholesterol_mg": 245,
-     "fat_g": 64,
-     "fiber_g": 4.1,
-     "protein_g": 75,
-     "sat_fat_g": 29.5,
-     "sodium_mg": 1580,
-     "sugar_g": 12
+     "calories": 1120,
+     "carbs_g": 56,
+     "cholesterol_mg": 250,
+     "fat_g": 67,
+     "fiber_g": 3.7,
+     "protein_g": 73,
+     "sat_fat_g": 31.5,
+     "sodium_mg": 1660,
+     "sugar_g": 7
     },
     "serving": "1 sandwich (1 of 8)",
     "servings": 8
-   }
-  },
-  {
-   "id": "camp-hot-chocolate-swiss-miss",
-   "title": "Camp Hot Chocolate (Swiss Miss and Half-and-Half)",
-   "category": "Drinks",
-   "cuisine": "American",
-   "tags": [
-    "camping",
-    "hot-drink",
-    "kid-friendly"
-   ],
-   "yield": "9 cups, one airpot",
-   "developed": "2026-10-15",
-   "groups": [
-    {
-     "ingredients": [
-      "6 cups water (about 1420 g)",
-      "12 servings Swiss Miss, per the canister scoop (about 330 g)",
-      "3 cups half-and-half, cold (about 725 g)"
-     ],
-     "name": ""
-    },
-    {
-     "ingredients": [
-      "marshmallows",
-      "whipped cream",
-      "spiced rum or Baileys, for adults"
-     ],
-     "name": "At the mug"
-    }
-   ],
-   "steps": [
-    "Pre-warm the airpot: boiling water in, 5 minutes, dump.",
-    "Boil the water in the stainless pot.",
-    "Whisk in the Swiss Miss.",
-    "Stir in the cold half-and-half off the heat.",
-    "Fill the airpot."
-   ],
-   "notes": "Lands around 68°C, hot but drinkable. Nothing scorches since the water does the heating. Needs about a 3 qt pot.",
-   "rating": 0,
-   "traits": [
-    "camping",
-    "quick"
-   ],
-   "diet": [
-    "gluten-free"
-   ],
-   "nutrition": {
-    "assumptions": "Swiss Miss Milk Chocolate label values, 12 servings at 32 g each. Marshmallows, whipped cream and spirits at the mug are left out.",
-    "per_serving": {
-     "calories": 280,
-     "carbs_g": 39,
-     "cholesterol_mg": 30,
-     "fat_g": 12,
-     "fiber_g": 1.3,
-     "protein_g": 3.7,
-     "sat_fat_g": 8,
-     "sodium_mg": 220,
-     "sugar_g": 34
-    },
-    "serving": "8 oz mug, about 260 g (1 of 9)",
-    "servings": 9
    }
   },
   {
@@ -1012,10 +876,10 @@
    "groups": [
     {
      "ingredients": [
-      "964 g Jiffy corn muffin mix, combined in one bag (about 4 boxes)",
-      "600 g milk and 200 g eggs, whisked together in one container (about 4 large eggs)",
+      "964 g Jiffy corn muffin mix (about 4 boxes)",
+      "600 g milk and 200 g eggs, whisked together (about 4 large eggs)",
       "2 Tbsp lard (about 30 g)",
-      "Honey and butter for the table"
+      "1/2 cup honey and 1 stick salted butter, for the table (about 170 g honey and 113 g butter)"
      ],
      "name": ""
     }
@@ -1032,24 +896,24 @@
     "Home oven method: bake uncovered 30 to 40 minutes, checking at 30, until golden and a skewer comes out clean; tent with foil if the top browns early.",
     "Rest 10 minutes before cutting."
    ],
-   "notes": "Wet mix and dry mix are prepped and stored separately until baking.",
+   "notes": "",
    "rating": 0,
    "traits": [
     "camping"
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "Four 8.5 oz boxes of Jiffy at label values and all 30 g of the pan lard counted as absorbed. Table honey and butter have no quantity and are left out.",
+    "assumptions": "Four 8.5 oz boxes of Jiffy at label values and all 30 g of the pan lard counted as absorbed. Table honey and salted butter split evenly across 8.",
     "per_serving": {
-     "calories": 600,
-     "carbs_g": 88,
-     "cholesterol_mg": 120,
-     "fat_g": 22,
-     "fiber_g": 3,
+     "calories": 770,
+     "carbs_g": 106,
+     "cholesterol_mg": 150,
+     "fat_g": 33,
+     "fiber_g": 3.1,
      "protein_g": 12,
-     "sat_fat_g": 9.5,
-     "sodium_mg": 1100,
-     "sugar_g": 26
+     "sat_fat_g": 17,
+     "sodium_mg": 1190,
+     "sugar_g": 44
     },
     "serving": "1 wedge, about 225 g (1 of 8)",
     "servings": 8
@@ -1063,7 +927,7 @@
    "tags": [
     "camping"
    ],
-   "yield": "8 packets (kid packets smaller)",
+   "yield": "8 packets",
    "developed": "2026-10-15",
    "groups": [
     {
@@ -1077,8 +941,8 @@
      "ingredients": [
       "12 oz andouille, sliced (about 340 g)",
       "14 oz plain smoked ham, 15 mm dice (about 397 g)",
-      "350 g barbacoa (frozen half)",
-      "542 g carnitas (frozen half)",
+      "350 g barbacoa",
+      "542 g carnitas",
       "10 oz mushroom duxelles mix (about 283 g)",
       "12 oz red beans (about 340 g)"
      ],
@@ -1101,7 +965,7 @@
      "ingredients": [
       "8 pats butter, 15 g each (about 120 g)",
       "8 oz Velveeta, cut into 1.5 cm cubes (about 227 g)",
-      "Creole seasoning, chili flakes, hot sauce, salsa verde, salsa roja"
+      "To finish: 2 Tbsp Creole seasoning (about 15 g), 1 Tbsp chili flakes (about 5 g), 1/4 cup hot sauce (about 60 g), and 1 cup each salsa verde and salsa roja (about 240 g each, from their recipes)"
      ],
      "name": "Finish"
     }
@@ -1109,11 +973,11 @@
    "steps": [
     "Build the fire at least 90 minutes ahead so there is a bed of coals.",
     "Lay heavy-duty 18-inch foil double, and line each packet with cabbage.",
-    "Add tots straight from the cooler.",
+    "Add the tots.",
     "Add proteins, beans and vegetables to taste.",
     "Add a pat of butter to every packet.",
     "Lay cheese cubes on top of the fillings.",
-    "Seal and write names on the foil with a Sharpie.",
+    "Seal the packets tightly.",
     "Cook in the coals about 20 minutes, flipping once; never open packets on the fire.",
     "Grill backup: 200°C, lid down, 20 to 25 minutes, flipped once."
    ],
@@ -1126,17 +990,17 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Assumes every component gets used across 8 packets, with about 600 g of the cabbage head eaten (the rest is liner left in the foil); barbacoa, carnitas, duxelles and red beans computed from their own recipes. Creole seasoning, chili flakes, hot sauce and salsas have no quantity and are left out.",
+    "assumptions": "Assumes every component, including the full table spread of seasoning, hot sauce and salsas, gets used across 8 packets, with about 600 g of the cabbage head eaten (the rest is liner left in the foil). Barbacoa, carnitas, duxelles, red beans and salsas computed from their own recipes.",
     "per_serving": {
-     "calories": 1280,
-     "carbs_g": 74,
+     "calories": 1320,
+     "carbs_g": 79,
      "cholesterol_mg": 250,
-     "fat_g": 83,
-     "fiber_g": 14,
-     "protein_g": 61,
+     "fat_g": 85,
+     "fiber_g": 16,
+     "protein_g": 62,
      "sat_fat_g": 36,
-     "sodium_mg": 3750,
-     "sugar_g": 16
+     "sodium_mg": 4690,
+     "sugar_g": 19
     },
     "serving": "1 adult packet, about 680 g (1 of 8)",
     "servings": 8
@@ -1170,7 +1034,7 @@
     "Pull when the popping slows to a few seconds between pops.",
     "Salt immediately while steaming."
    ],
-   "notes": "Weights are for pre-measuring at home.",
+   "notes": "",
    "rating": 0,
    "traits": [
     "camping",
@@ -1223,7 +1087,7 @@
       "6 g dried Mexican oregano",
       "0.5 g bay leaves (about 2)",
       "16 g salt",
-      "Water to come halfway up"
+      "About 750 g water, to come halfway up the meat"
      ],
      "name": "Braise"
     },
@@ -1231,7 +1095,7 @@
      "ingredients": [
       "2 Tbsp lard (about 30 g)"
      ],
-     "name": "At camp"
+     "name": "To crisp"
     }
    ],
    "steps": [
@@ -1241,11 +1105,11 @@
     "Uncover, raise to 190°C, and cook about 30 minutes until the liquid renders down and the edges catch.",
     "Pull the bone.",
     "Shred coarsely, keeping some fat with the meat.",
-    "Cool on a sheet pan; skim and jar any fat that separates.",
-    "Split evenly: 542 g to the fridge, 542 g wrapped flat and frozen.",
-    "At camp, heat the griddle, add the lard, spread the meat in a thin layer, and leave it 2 to 3 minutes before turning."
+    "Skim and save any fat that separates.",
+    "Heat a griddle over medium-high and add the lard.",
+    "Spread the meat in a thin layer and leave it 2 to 3 minutes before turning."
    ],
-   "notes": "Frozen half rides as cooler ballast. The braise needs no added fat; the shoulder renders its own.",
+   "notes": "The braise needs no added fat; the shoulder renders its own. Freezes well for up to 3 months; thaw before crisping.",
    "rating": 0,
    "traits": [
     "camping",
@@ -1293,14 +1157,14 @@
       "1/2 lemon (about 50 g)",
       "3 g flaky salt",
       "2 g black pepper",
-      "Chili flakes, on the side"
+      "2 g chili flakes, on the side (about 1 tsp)"
      ],
      "name": ""
     }
    ],
    "steps": [
     "Cut florets about 4 cm, with a flat face cut on each; cut the cauliflower slightly smaller.",
-    "Heat a cast iron skillet on the fire until ripping hot and dry.",
+    "Heat a cast iron skillet over high heat or a hot fire until ripping hot and dry.",
     "Add the cauliflower flat side down for 4 minutes.",
     "Add the broccoli and leave everything undisturbed until blackened in spots, 4 to 5 minutes.",
     "Toss and cook a few minutes more.",
@@ -1321,15 +1185,15 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Juice of half a lemon taken as 24 g; all oil and flaky salt counted. Chili flakes on the side left out.",
+    "assumptions": "Juice of half a lemon taken as 24 g; all oil, flaky salt and chili flakes counted.",
     "per_serving": {
      "calories": 60,
      "carbs_g": 7,
      "cholesterol_mg": 0,
-     "fat_g": 2.9,
+     "fat_g": 3,
      "fiber_g": 2.7,
      "protein_g": 2.7,
-     "sat_fat_g": 0,
+     "sat_fat_g": 0.5,
      "sodium_mg": 180,
      "sugar_g": 2.1
     },
@@ -1374,14 +1238,14 @@
     "Combine everything but the egg.",
     "Taste cold and salt again.",
     "Fill one half of each round, egg the border, fold, rope crimp and cut a vent.",
-    "Freeze on a tray, then bag.",
+    "Freeze on a tray until solid.",
     "To bake, heat the oven to 400°F and line a sheet pan with parchment.",
     "Space the pasties out from frozen.",
     "Brush all over with egg wash, keeping it out of the vents.",
     "Bake 45 minutes, until deep golden and 165°F in the middle.",
     "Rest 10 minutes. Serve with piccalilli and English mustard."
    ],
-   "notes": "Bake straight from frozen.",
+   "notes": "Unbaked pasties keep frozen up to 3 months; bake straight from frozen.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -1409,6 +1273,68 @@
    }
   },
   {
+   "id": "camp-breakfast-burritos-cheesy-sausage",
+   "title": "Cheesy Sausage Breakfast Burritos",
+   "category": "Breakfast",
+   "cuisine": "Tex-Mex",
+   "tags": [
+    "camping",
+    "make-ahead",
+    "freezer"
+   ],
+   "yield": "10 burritos",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "700 g eggs (about 14 large)",
+      "567 g refrigerated diced potatoes with peppers and onion (about one 20 oz package)",
+      "10 g kosher salt, for the potatoes (about 1 Tbsp plus 1/4 tsp)",
+      "397 g breakfast sausage (about 14 oz)",
+      "113 g white American cheese, torn (about 4 oz)",
+      "227 g shredded cheddar (about one 8 oz bag)",
+      "700 g burrito-size flour tortillas, 10 inch (about 10)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Cook the potatoes in an uncrowded pan until genuinely browned, not just heated through.",
+    "Salt the potatoes.",
+    "Scramble the eggs soft and slightly underdone.",
+    "Brown the sausage and drain most of the fat.",
+    "Off the heat, tear in the American cheese and stir until it coats the sausage.",
+    "Warm one tortilla in a dry skillet 15 to 20 seconds a side.",
+    "Fill with about 6 oz of potatoes, eggs, sausage and cheddar, and roll tight.",
+    "Repeat with each tortilla, warming one at a time."
+   ],
+   "notes": "Serve with hot sauce on the side. Freezes well for up to 3 months if the fillings are cooled completely before rolling and each burrito is wrapped in foil; reheat in the foil at 350°F or at the edge of a campfire coal bed, turning twice, until hot through.",
+   "rating": 0,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "crowd"
+   ],
+   "diet": [],
+   "nutrition": {
+    "assumptions": "All 10 g salt on the potatoes counted; Simply Potatoes Southwest label values, 10-inch tortillas at 72 g each, and about a fifth of the sausage fat drained off. Hot sauce on the side not included.",
+    "per_serving": {
+     "calories": 610,
+     "carbs_g": 49,
+     "cholesterol_mg": 325,
+     "fat_g": 33,
+     "fiber_g": 3.9,
+     "protein_g": 30,
+     "sat_fat_g": 13.5,
+     "sodium_mg": 1740,
+     "sugar_g": 3.2
+    },
+    "serving": "1 burrito, about 260 g (1 of 10)",
+    "servings": 10
+   }
+  },
+  {
    "id": "chole",
    "title": "Chole (Punjabi Chickpea Curry)",
    "category": "Mains",
@@ -1419,29 +1345,29 @@
    "groups": [
     {
      "ingredients": [
-      "dried kabuli chana (chickpeas)",
+      "250 g dried kabuli chana (chickpeas), soaked overnight (about 1 1/4 cups)",
       "2 g black tea, or a couple dried amla (about 1 tea bag)"
      ],
      "name": "Chickpeas"
     },
     {
      "ingredients": [
-      "onions",
-      "tomatoes",
-      "black cardamom",
-      "anardana (dried pomegranate seed), toasted and ground",
-      "amchur (dried green mango powder)",
-      "chole masala (homemade blend or MDH)",
-      "kasuri methi",
-      "salt"
+      "300 g onions, finely chopped (about 2 medium)",
+      "300 g tomatoes, pureed (about 3 medium)",
+      "3 g black cardamom, lightly cracked (about 2 pods)",
+      "6 g anardana (dried pomegranate seed), toasted and ground (about 2 tsp)",
+      "3 g amchur (dried green mango powder) (about 1 tsp)",
+      "15 g chole masala, homemade blend or MDH (about 2 Tbsp)",
+      "2 g kasuri methi (about 1 Tbsp)",
+      "22 g kosher salt (about 2 1/2 Tbsp Diamond Crystal)"
      ],
      "name": "Masala"
     },
     {
      "ingredients": [
-      "ghee",
-      "ginger, julienned",
-      "green chili"
+      "40 g ghee, 25 g for the masala and 15 g for the tadka (about 3 Tbsp)",
+      "15 g ginger, julienned (about a 2 inch piece)",
+      "10 g green chili, slit lengthwise (about 2)"
      ],
      "name": "Tadka"
     }
@@ -1467,16 +1393,16 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "The recipe gives no quantities, so this assumes a typical batch: 250 g dry chickpeas, 300 g each onion and tomato, 40 g ghee in all, 15 g chole masala and 12 g kosher salt, yielding about 1.4 kg.",
+    "assumptions": "250 g dry chickpeas cook up with the masala and cooking liquid to about 1.45 kg; all 22 g salt and 40 g ghee are counted, and the chole masala is assumed to carry some salt of its own.",
     "per_serving": {
-     "calories": 390,
+     "calories": 400,
      "carbs_g": 55,
      "cholesterol_mg": 25,
-     "fat_g": 14,
+     "fat_g": 15,
      "fiber_g": 12,
      "protein_g": 15,
      "sat_fat_g": 6.5,
-     "sodium_mg": 1240,
+     "sodium_mg": 2310,
      "sugar_g": 13
     },
     "serving": "1.5 cups, about 360 g (1 of 4)",
@@ -1511,7 +1437,7 @@
     "Thin with more reduction until dippable.",
     "Refrigerate."
    ],
-   "notes": "Make a day ahead. Take out the morning of serving to soften. Serve in a bowl beside the focaccia for dipping, not spread on top.",
+   "notes": "Keeps refrigerated; let it soften at room temperature before serving. Serve as a dip beside apple cider doughnut focaccia, not spread on top.",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -1717,13 +1643,13 @@
    "groups": [
     {
      "ingredients": [
-      "leftover skillet cornbread",
-      "butter or lard, for griddling",
-      "eggs",
-      "pimento cheese",
-      "red pepper jelly (mild)",
-      "bacon or country ham, optional",
-      "hot pepper jelly, optional"
+      "460 g leftover skillet cornbread, split horizontally (about 4 wedges)",
+      "40 g butter or lard, for griddling (about 3 Tbsp)",
+      "200 g eggs (about 4 large)",
+      "120 g pimento cheese (about 1/2 cup)",
+      "80 g red pepper jelly (mild) (about 1/4 cup)",
+      "120 g bacon or country ham, optional (about 4 thick slices bacon)",
+      "40 g hot pepper jelly, optional (about 2 Tbsp)"
      ],
      "name": ""
     }
@@ -1739,19 +1665,19 @@
    "traits": [],
    "diet": [],
    "nutrition": {
-    "assumptions": "Recipe has no quantities: each sandwich is assumed to be 1/10 of the Skillet Cornbread (no honey butter), 10 g butter for griddling and the egg, 30 g pimento cheese and 20 g red pepper jelly. Optional bacon, country ham and hot pepper jelly left out.",
+    "assumptions": "Each wedge is 1/10 of the Skillet Cornbread with its flaky salt but no honey butter; optional bacon counted as 120 g raw cooking down to 45 g, and all the griddling butter counted as absorbed.",
     "per_serving": {
-     "calories": 630,
-     "carbs_g": 54,
-     "cholesterol_mg": 295,
-     "fat_g": 39,
-     "fiber_g": 2.8,
-     "protein_g": 18,
-     "sat_fat_g": 16.5,
-     "sodium_mg": 1000,
-     "sugar_g": 15
+     "calories": 690,
+     "carbs_g": 59,
+     "cholesterol_mg": 310,
+     "fat_g": 41,
+     "fiber_g": 2.7,
+     "protein_g": 22,
+     "sat_fat_g": 17,
+     "sodium_mg": 1440,
+     "sugar_g": 23
     },
-    "serving": "1 sandwich: 1 wedge skillet cornbread, 1 egg, 30 g pimento cheese, 20 g pepper jelly (1 of 4)",
+    "serving": "1 sandwich: 1 wedge skillet cornbread, 1 egg, 30 g pimento cheese, 20 g red pepper jelly, bacon, 10 g hot pepper jelly (1 of 4)",
     "servings": 4
    }
   },
@@ -1958,15 +1884,90 @@
    }
   },
   {
+   "id": "ldw-potato-salad",
+   "title": "Dill Pickle Potato Salad",
+   "category": "Sides & Breads",
+   "cuisine": "American",
+   "tags": [
+    "make-ahead",
+    "large-batch"
+   ],
+   "yield": "serves 13 (2.7 kg potatoes)",
+   "developed": "2026-09-26",
+   "groups": [
+    {
+     "ingredients": [
+      "640 g mayonnaise",
+      "115 g dill pickle brine",
+      "55 g apple cider vinegar",
+      "55 g yellow mustard",
+      "18 g garlic, grated (about 6 cloves)",
+      "18 g fine sea salt",
+      "10 g black pepper, freshly ground (about 4 tsp)"
+     ],
+     "name": "Dressing"
+    },
+    {
+     "ingredients": [
+      "60 g kosher salt, for the cooking water",
+      "2.7 kg Yukon Gold potatoes, skins on, cut in 1.5 cm pieces (about 13 medium)",
+      "340 g refrigerated dill pickles, diced at 6 mm, drained",
+      "90 g shallot, minced (about 3)",
+      "25 g fresh dill, chopped (about 1 bunch)",
+      "300 g hard-boiled eggs, chopped (about 6 large)"
+     ],
+     "name": "Salad"
+    }
+   ],
+   "steps": [
+    "Soak the minced shallot in pickle brine or cider vinegar 10 minutes.",
+    "Whisk the dressing ingredients together.",
+    "Boil the potatoes in water salted with the 60 g kosher salt until fork-tender, about 10 minutes.",
+    "Drain and let steam off 2 minutes.",
+    "Dress the potatoes while warm, mashing some as you stir.",
+    "Cool.",
+    "Fold in the pickles, shallot, dill and eggs.",
+    "Refrigerate."
+   ],
+   "notes": "Better made a day or two ahead. Taste before serving and loosen with mayo and pickle brine if it has tightened.",
+   "rating": 2,
+   "traits": [
+    "make-ahead",
+    "crowd"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "15% of the 60 g cooking-water salt counted as absorbed; pickle brine at about 1,200 mg sodium per 100 g.",
+    "per_serving": {
+     "calories": 550,
+     "carbs_g": 40,
+     "cholesterol_mg": 105,
+     "fat_g": 40,
+     "fiber_g": 5,
+     "protein_g": 8,
+     "sat_fat_g": 6.5,
+     "sodium_mg": 1540,
+     "sugar_g": 3.2
+    },
+    "serving": "about 330 g (1 of 13)",
+    "servings": 13
+   }
+  },
+  {
    "id": "ldw-dill-pickle-jar",
-   "title": "Dill Pickle Jar (Pickle Bowls)",
+   "title": "Dill Pickles",
    "category": "Sauces & Condiments",
    "cuisine": "American",
    "tags": [
     "make-ahead",
     "pickles"
    ],
-   "yield": "1 half-gallon jar",
+   "yield": "about 2 quarts (one half-gallon jar)",
    "developed": "2026-09-26",
    "groups": [
     {
@@ -1996,7 +1997,7 @@
       "25 g kosher salt",
       "32 g sugar"
      ],
-     "name": "Brine (half of the shared 2.4 L batch)"
+     "name": "Brine"
     }
    ],
    "steps": [
@@ -2008,7 +2009,7 @@
     "Run a chopstick down the sides to release air bubbles, then top up.",
     "Seal and refrigerate."
    ],
-   "notes": "Best 5 to 6 days out; made Mon 8/31 or Tue 9/1 for a 9/6 serve. A bay leaf or pinch of black tea per jar helps crunch. Does not need a cooler in transit. Combine with the escabeche jar into shared bowls at serving.",
+   "notes": "Best 5 to 6 days out. A bay leaf or pinch of black tea per jar helps crunch.",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -2038,81 +2039,6 @@
    }
   },
   {
-   "id": "ldw-potato-salad",
-   "title": "Dill Pickle Potato Salad",
-   "category": "Sides & Breads",
-   "cuisine": "American",
-   "tags": [
-    "make-ahead",
-    "large-batch"
-   ],
-   "yield": "serves 13 (2.7 kg potatoes)",
-   "developed": "2026-09-26",
-   "groups": [
-    {
-     "ingredients": [
-      "640 g mayonnaise",
-      "115 g dill pickle brine",
-      "55 g apple cider vinegar",
-      "55 g yellow mustard",
-      "18 g garlic, grated (about 6 cloves)",
-      "18 g fine sea salt",
-      "Black pepper"
-     ],
-     "name": "Dressing"
-    },
-    {
-     "ingredients": [
-      "60 g kosher salt, for the cooking water",
-      "2.7 kg Yukon Gold potatoes, skins on, cut in 1.5 cm pieces (about 13 medium)",
-      "340 g refrigerated dill pickles, diced at 6 mm, drained",
-      "90 g shallot, minced (about 3)",
-      "25 g fresh dill, chopped (about 1 bunch)",
-      "300 g hard-boiled eggs, chopped (about 6 large)"
-     ],
-     "name": "Salad"
-    }
-   ],
-   "steps": [
-    "Soak the minced shallot in pickle brine or cider vinegar 10 minutes.",
-    "Whisk the dressing ingredients together.",
-    "Boil the potatoes in water salted with the 60 g kosher salt until fork-tender, about 10 minutes.",
-    "Drain and let steam off 2 minutes.",
-    "Dress the potatoes while warm, mashing some as you stir.",
-    "Cool.",
-    "Fold in the pickles, shallot, dill and eggs.",
-    "Refrigerate."
-   ],
-   "notes": "Made 2 days ahead. Stir before storing and again the next morning. Taste the morning of serving and loosen with mayo and pickle brine if it has tightened.",
-   "rating": 0,
-   "traits": [
-    "make-ahead",
-    "crowd"
-   ],
-   "diet": [
-    "vegetarian",
-    "pescatarian",
-    "dairy-free",
-    "gluten-free"
-   ],
-   "nutrition": {
-    "assumptions": "15% of the 60 g cooking-water salt counted as absorbed; pickle brine at about 1,200 mg sodium per 100 g; black pepper about 2 g.",
-    "per_serving": {
-     "calories": 550,
-     "carbs_g": 40,
-     "cholesterol_mg": 105,
-     "fat_g": 40,
-     "fiber_g": 5,
-     "protein_g": 8,
-     "sat_fat_g": 6.5,
-     "sodium_mg": 1540,
-     "sugar_g": 3.2
-    },
-    "serving": "about 330 g (1 of 13)",
-    "servings": 13
-   }
-  },
-  {
    "id": "drawn-lemon-butter",
    "title": "Drawn Lemon Butter",
    "category": "Sauces & Condiments",
@@ -2137,7 +2063,7 @@
     "Stir in the lemon juice.",
     "Keep warm until serving."
    ],
-   "notes": "Made ahead and remelted day of, after the endive boats while the pot climbs.",
+   "notes": "Can be made ahead and gently remelted.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -2180,11 +2106,11 @@
     {
      "ingredients": [
       "2.2 kg yellow potatoes, peeled and quartered (about 11 medium)",
-      "salt, for heavily salted boiling water",
+      "120 g kosher salt, for 4 L heavily salted boiling water (about 3/4 cup plus 4 tsp Diamond Crystal)",
       "450 g duck fat",
       "25 g kosher salt",
-      "rosemary, stripped",
-      "kosher salt, to finish"
+      "4 g rosemary, stripped (about 2 Tbsp leaves, from 4 sprigs)",
+      "6 g kosher salt, to finish (about 2 tsp Diamond Crystal)"
      ],
      "name": ""
     }
@@ -2193,12 +2119,11 @@
     "Boil the potatoes in heavily salted water 8 minutes.",
     "Drain and shake hard in the pot to rough up the edges.",
     "Toss with the duck fat and 25 g kosher salt.",
-    "Cool and refrigerate in a covered pan.",
-    "Spread across two sheet pans and roast under the hens at 425°F.",
-    "When the hens come out, finish the potatoes alone at 450°F for 20 minutes, turning once.",
+    "Spread across two sheet pans and roast at 425°F until starting to color, 40 to 50 minutes.",
+    "Raise the oven to 450°F and roast 20 minutes more, turning once.",
     "Scatter with rosemary and more salt."
    ],
-   "notes": "Parboiled and fat-coated up to 3 days ahead.",
+   "notes": "The parboiled, fat-coated potatoes keep covered in the fridge up to 3 days before roasting.",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -2208,7 +2133,7 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "About 75% of the duck fat ends up on the potatoes and the rest stays in the pans; boiling water assumed salted with 60 g (15% counted) and about 3 g finishing salt. Rosemary is negligible.",
+    "assumptions": "About 75% of the duck fat ends up on the potatoes; 15% of the 120 g boiling-water salt is counted as absorbed, which drives the sodium.",
     "per_serving": {
      "calories": 670,
      "carbs_g": 55,
@@ -2217,8 +2142,8 @@
      "fiber_g": 7,
      "protein_g": 6,
      "sat_fat_g": 16,
-     "sodium_mg": 2070,
-     "sugar_g": 2.6
+     "sodium_mg": 2740,
+     "sugar_g": 2.5
     },
     "serving": "about 280 g roasted (1 of 7)",
     "servings": 7
@@ -2241,14 +2166,14 @@
       "1.1 kg russet potatoes, whole and unpeeled (about 4)",
       "125 g duck fat",
       "14 g kosher salt",
-      "black pepper"
+      "4 g black pepper, freshly ground (about 2 tsp)"
      ],
      "name": ""
     }
    ],
    "steps": [
     "Parboil the whole unpeeled russets 10 minutes, until tender at the edge and firm in the middle.",
-    "Cool, peel and grate coarsely. Bag and refrigerate.",
+    "Cool, peel and grate coarsely. Refrigerate until cold.",
     "Toss the grated potato with the salt and pepper.",
     "Heat the duck fat in a 12-inch cast iron skillet.",
     "Press the potato in flat, about 2 cm deep.",
@@ -2259,7 +2184,7 @@
     "Cook 10 minutes more.",
     "Cut in 8 wedges and salt again."
    ],
-   "notes": "Potato parboiled and grated up to 3 days ahead (Tuesday for Friday).",
+   "notes": "The potato can be parboiled and grated up to 3 days ahead.",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -2275,8 +2200,8 @@
      "carbs_g": 25,
      "cholesterol_mg": 10,
      "fat_g": 13,
-     "fiber_g": 1.8,
-     "protein_g": 2.9,
+     "fiber_g": 1.9,
+     "protein_g": 3,
      "sat_fat_g": 4,
      "sodium_mg": 690,
      "sugar_g": 0.8
@@ -2287,14 +2212,14 @@
   },
   {
    "id": "ldw-escabeche-pickle-jar",
-   "title": "Escabeche Pickle Jar (Pickle Bowls)",
+   "title": "Escabeche Pickles",
    "category": "Sauces & Condiments",
    "cuisine": "Mexican",
    "tags": [
     "make-ahead",
     "pickles"
    ],
-   "yield": "1 half-gallon jar",
+   "yield": "about 2 quarts",
    "developed": "2026-09-26",
    "groups": [
     {
@@ -2323,19 +2248,19 @@
       "25 g kosher salt",
       "32 g sugar"
      ],
-     "name": "Brine (half of the shared 2.4 L batch)"
+     "name": "Brine"
     }
    ],
    "steps": [
     "Cut everything thick.",
-    "Pack the vegetables and aromatics raw into the jar, with a dense layer of carrots across the top to hold the radish and jalapeño down.",
+    "Pack the vegetables and aromatics raw into a half-gallon jar, with a dense layer of carrots across the top to hold the radish and jalapeño down.",
     "Simmer the vinegar, water, salt and sugar until dissolved.",
     "Cool the brine to warm, not boiling.",
     "Pour over the vegetables.",
     "Run a chopstick down the sides to release air bubbles, then top up.",
     "Seal and refrigerate."
    ],
-   "notes": "Best 5 to 6 days out. The radish turns this jar pink. Does not need a cooler in transit.",
+   "notes": "Best after 5 to 6 days. The radish turns the brine pink.",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -2366,7 +2291,7 @@
   },
   {
    "id": "frozen-chocolate-milk-slushie",
-   "title": "Frozen Chocolate Milk Slushie (112 oz)",
+   "title": "Frozen Chocolate Milk Slushie",
    "category": "Drinks",
    "cuisine": "American",
    "tags": [
@@ -2392,11 +2317,11 @@
    ],
    "steps": [
     "Whisk everything together.",
-    "Refrigerate.",
-    "Pour in cold.",
+    "Refrigerate until cold.",
+    "Pour into the slushie machine cold.",
     "Run on the Milkshake preset."
    ],
-   "notes": "Made ahead at home and kept cold in the cooler.",
+   "notes": "",
    "rating": 0,
    "traits": [
     "camping",
@@ -2426,7 +2351,7 @@
   },
   {
    "id": "frozen-limeade-slushie",
-   "title": "Frozen Limeade Slushie (112 oz)",
+   "title": "Frozen Limeade Slushie",
    "category": "Drinks",
    "cuisine": "American",
    "tags": [
@@ -2493,7 +2418,7 @@
     "freezer",
     "large-batch"
    ],
-   "yield": "900 g butter (toss for the boil)",
+   "yield": "900 g butter, for tossing a seafood boil",
    "developed": "2026-09-26",
    "groups": [
     {
@@ -2513,11 +2438,10 @@
     "Add the garlic and cook 4 to 6 minutes until it smells sweet rather than sharp, without browning.",
     "Take off the heat.",
     "Stir in the Old Bay, paprika, lemon juice and pepper.",
-    "Cool, then bag it flat and freeze.",
-    "Day of: melt over low heat, stirring; do not let it boil.",
-    "At the pull, stir in ~500 ml boil liquor before tossing."
+    "Keep warm over low heat, stirring; do not let it boil.",
+    "When the boil comes out, stir in about 500 ml of the boil liquid and toss."
    ],
-   "notes": "Frozen flat in a half-inch slab it remelts in minutes. Milk solids separate on melting and reintegrate when stirred. Made the week of Aug 25 and frozen.",
+   "notes": "Freezes well for up to 3 months; frozen in a thin slab it remelts in minutes. Milk solids separate on melting and reintegrate when stirred.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -2554,7 +2478,7 @@
     "camping",
     "make-ahead"
    ],
-   "yield": "about 2 cups, enough for 16 wraps",
+   "yield": "about 2 cups",
    "developed": "2026-09-03",
    "groups": [
     {
@@ -2573,7 +2497,7 @@
     "Mix all ingredients.",
     "Refrigerate at least a few hours before serving."
    ],
-   "notes": "Better on day two. Raw garlic strengthens over two days. Holds Thursday to Saturday in a cooler.",
+   "notes": "Better on day two. Raw garlic strengthens over two days. Keeps 3 days refrigerated.",
    "rating": 0,
    "traits": [
     "camping",
@@ -2600,64 +2524,6 @@
     },
     "serving": "2 Tbsp, about 34 g (1 of 16)",
     "servings": 16
-   }
-  },
-  {
-   "id": "go-juice",
-   "title": "Go Juice (Liquid IV and Caffeine Stick Station)",
-   "category": "Drinks",
-   "cuisine": "",
-   "tags": [
-    "large-batch",
-    "electrolyte",
-    "caffeinated"
-   ],
-   "yield": "per serving, self-mixed",
-   "developed": "2026-07-30",
-   "groups": [
-    {
-     "ingredients": [
-      "Liquid IV packets, Firecracker Popsicle flavor",
-      "CELSIUS On-the-Go sticks (200 mg caffeine, Berry or Cranberry Lemon), one 14-pack",
-      "Pure Kick Blue Raspberry sticks (80 mg caffeine), one 72-pack",
-      "cold water",
-      "8 oz cups"
-     ],
-     "name": ""
-    }
-   ],
-   "steps": [
-    "Set the Liquid IV packets and caffeine sticks out next to the water.",
-    "Each person mixes one Liquid IV packet with water.",
-    "Add one caffeine stick to taste: a CELSIUS stick for about 200 mg, or Pure Kick sticks at 80 mg each."
-   ],
-   "notes": "Label the caffeine amounts per stick. Plain water and other electrolyte options alongside.",
-   "rating": 0,
-   "traits": [
-    "shelf-stable"
-   ],
-   "diet": [
-    "vegan",
-    "vegetarian",
-    "pescatarian",
-    "dairy-free",
-    "gluten-free"
-   ],
-   "nutrition": {
-    "assumptions": "Liquid IV Hydration Multiplier label values (45 kcal, 11 g sugar, 500 mg sodium per packet) plus about 5 kcal for a CELSIUS or Pure Kick stick; caffeine 80 to 200 mg depending on stick.",
-    "per_serving": {
-     "calories": 50,
-     "carbs_g": 12,
-     "cholesterol_mg": 0,
-     "fat_g": 0,
-     "fiber_g": 0,
-     "protein_g": 0,
-     "sat_fat_g": 0,
-     "sodium_mg": 500,
-     "sugar_g": 11
-    },
-    "serving": "1 cup, 8 oz, with 1 Liquid IV packet and 1 caffeine stick (1 of 1)",
-    "servings": 1
    }
   },
   {
@@ -2688,7 +2554,7 @@
    ],
    "steps": [
     "Dissolve the salt in the water.",
-    "Combine everything at room temperature in a 64 oz jar.",
+    "Combine everything at room temperature in a freezer-safe bottle or jar.",
     "Stir well.",
     "Freeze at least 6 hours.",
     "Pour 3 oz straight into a frozen glass, no ice, no stirring.",
@@ -2755,16 +2621,16 @@
      "ingredients": [
       "1/2 cup neutral oil, canola (about 110 g)",
       "1 Tbsp Aleppo pepper (about 6 g)",
-      "Kosher salt",
-      "Black pepper"
+      "5 Tbsp kosher salt, Diamond Crystal (about 45 g)",
+      "2 Tbsp black pepper, freshly ground (about 14 g)"
      ],
      "name": "Toss"
     },
     {
      "ingredients": [
       "3 lemons, halved crosswise (about 300 g)",
-      "Olive oil",
-      "Balsamic glaze (optional)"
+      "1/4 cup olive oil, for drizzling (about 55 g)",
+      "1/4 cup balsamic glaze (optional) (about 80 g)"
      ],
      "name": "Finish"
     },
@@ -2776,8 +2642,7 @@
     }
    ],
    "steps": [
-    "Up to 2 days ahead, cut all vegetables and store dry and unsalted in the fridge; keep mushrooms whole in paper.",
-    "At camp, stir the Aleppo into the oil and let it sit a few minutes.",
+    "Stir the Aleppo into the oil and let it sit a few minutes.",
     "Toss each vegetable in its own bowl with enough oil to look glossy, then salt and pepper.",
     "Thread onto bamboo skewers without crowding; skewer mushrooms through the side of the cap.",
     "Hang the handle ends past the edge of the grate, away from the heat.",
@@ -2786,7 +2651,7 @@
     "Off the heat, squeeze the warm charred lemon over the skewers.",
     "Drizzle with olive oil, and balsamic glaze if using."
    ],
-   "notes": "Cut vegetables keep 2 days refrigerated if stored dry and unsalted. Salt and oil go on only at the grill.",
+   "notes": "Cut vegetables keep 2 days refrigerated if stored dry and unsalted; keep mushrooms whole in paper. Salt and oil go on only at the grill.",
    "rating": 0,
    "traits": [
     "camping",
@@ -2801,93 +2666,20 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "About 80 g of the 1/2 cup oil ends up on the vegetables; unmeasured kosher salt estimated at 20 g for the batch. Finishing olive oil, black pepper and optional balsamic glaze have no quantity and are left out.",
+    "assumptions": "About 80 g of the 1/2 cup oil ends up on the vegetables, and all 45 g of salt, the finishing olive oil and the optional balsamic glaze are counted.",
     "per_serving": {
-     "calories": 150,
-     "carbs_g": 15,
+     "calories": 220,
+     "carbs_g": 19,
      "cholesterol_mg": 0,
-     "fat_g": 9,
-     "fiber_g": 4.2,
-     "protein_g": 4.3,
-     "sat_fat_g": 0.5,
-     "sodium_mg": 790,
-     "sugar_g": 9
+     "fat_g": 15,
+     "fiber_g": 4.6,
+     "protein_g": 4.5,
+     "sat_fat_g": 1.5,
+     "sodium_mg": 1760,
+     "sugar_g": 13
     },
     "serving": "2 skewers, about 300 g raw vegetables (1 of 10)",
     "servings": 10
-   }
-  },
-  {
-   "id": "growler-toasted-almond-revolver",
-   "title": "Growler Toasted Almond Revolver",
-   "category": "Drinks",
-   "cuisine": "",
-   "tags": [
-    "make-ahead",
-    "large-batch",
-    "cocktail"
-   ],
-   "yield": "about 59 oz in a 64 oz growler, about 16 pours at 3.7 oz, about 28% ABV",
-   "developed": "2026-07-30",
-   "groups": [
-    {
-     "ingredients": [
-      "26 oz bourbon (90 to 100 proof)",
-      "6.5 oz Disaronno amaretto",
-      "11 oz coffee liqueur",
-      "6 oz cold brew concentrate",
-      "9 oz cold filtered water",
-      "1/2 oz Fernet-Branca or another bitter amaro",
-      "2 tsp Angostura bitters",
-      "heaping 1/4 tsp fine salt, two big pinches (about 2 g)"
-     ],
-     "name": ""
-    },
-    {
-     "ingredients": [
-      "orange peel, per glass"
-     ],
-     "name": "To serve"
-    }
-   ],
-   "steps": [
-    "Empty the growler into a large pitcher or bowl.",
-    "Stir in the bourbon, cold brew, water and amaro.",
-    "Add the bitters and salt and stir until the salt dissolves.",
-    "Taste, and add more bitters or a pinch more salt if it reads cloying.",
-    "Funnel back into the growler, cap, and refrigerate at least 4 hours.",
-    "Pour about 3.7 oz over one large cube.",
-    "Express an orange peel over the top and drop it in."
-   ],
-   "notes": "No citrus or dairy, keeps 3 to 4 weeks refrigerated. Optional: small tinctures in 2 oz bourbon each (one cracked cinnamon stick for 2 days; 4 or 5 cloves for 24 hours; peel of one orange for 4 hours), strained, dosed by the drop per glass or into the batch a day before serving.",
-   "rating": 0,
-   "traits": [
-    "make-ahead",
-    "shelf-stable",
-    "crowd"
-   ],
-   "diet": [
-    "vegan",
-    "vegetarian",
-    "pescatarian",
-    "dairy-free",
-    "gluten-free"
-   ],
-   "nutrition": {
-    "assumptions": "Bourbon taken at 95 proof and coffee liqueur at Kahlua's 20% ABV; liqueur sugars about 25 g (amaretto) and 40 g (coffee liqueur) per 100 ml. Orange peel garnish not counted.",
-    "per_serving": {
-     "calories": 220,
-     "carbs_g": 11,
-     "cholesterol_mg": 0,
-     "fat_g": 0,
-     "fiber_g": 0,
-     "protein_g": 0,
-     "sat_fat_g": 0,
-     "sodium_mg": 40,
-     "sugar_g": 11
-    },
-    "serving": "one 3.7 oz pour (about 110 ml) (1 of 16)",
-    "servings": 16
    }
   },
   {
@@ -2915,7 +2707,7 @@
     "Build the sandwiches buttered sides out, with the cheese mounded to the edges.",
     "Cook over medium-low, covered, until deep golden and fully melted, 4 to 5 minutes per side."
    ],
-   "notes": "Served with the tomato soup.",
+   "notes": "Good with tomato soup.",
    "rating": 0,
    "traits": [
     "quick"
@@ -2942,8 +2734,70 @@
    }
   },
   {
+   "id": "camp-hot-chocolate-swiss-miss",
+   "title": "Hot Chocolate (Swiss Miss and Half-and-Half)",
+   "category": "Drinks",
+   "cuisine": "American",
+   "tags": [
+    "camping",
+    "hot-drink",
+    "kid-friendly"
+   ],
+   "yield": "about 9 cups",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "6 cups water (about 1420 g)",
+      "12 servings Swiss Miss, per the canister scoop (about 330 g)",
+      "3 cups half-and-half, cold (about 725 g)"
+     ],
+     "name": ""
+    },
+    {
+     "ingredients": [
+      "2 cups mini marshmallows (about 100 g)",
+      "2 1/4 cups canned whipped cream, about 1/4 cup per mug (about 90 g)",
+      "1 cup spiced rum or Baileys, for adults, about 2 Tbsp (1 oz) per mug (about 240 ml)"
+     ],
+     "name": "At the mug"
+    }
+   ],
+   "steps": [
+    "Boil the water in a pot.",
+    "Whisk in the Swiss Miss.",
+    "Off the heat, stir in the cold half-and-half.",
+    "Top each mug with marshmallows, whipped cream and, for adults, spiced rum or Baileys."
+   ],
+   "notes": "Lands around 68°C, hot but drinkable. Nothing scorches since the water does the heating. Needs about a 3 qt pot.",
+   "rating": 0,
+   "traits": [
+    "camping",
+    "quick"
+   ],
+   "diet": [
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "Swiss Miss Milk Chocolate label values, 12 servings at 32 g each; marshmallows, aerosol whipped cream and 1 oz of 35% ABV spiced rum are spread across all 9 mugs.",
+    "per_serving": {
+     "calories": 400,
+     "carbs_g": 50,
+     "cholesterol_mg": 35,
+     "fat_g": 14,
+     "fiber_g": 1.3,
+     "protein_g": 4.2,
+     "sat_fat_g": 9,
+     "sodium_mg": 230,
+     "sugar_g": 42
+    },
+    "serving": "8 oz mug, about 260 g (1 of 9)",
+    "servings": 9
+   }
+  },
+  {
    "id": "camp-hot-chocolate-ganache",
-   "title": "Hot Chocolate from Ganache Base (Camp Airpot)",
+   "title": "Hot Chocolate from Ganache Base",
    "category": "Drinks",
    "cuisine": "American",
    "tags": [
@@ -2952,7 +2806,7 @@
     "hot-drink",
     "kid-friendly"
    ],
-   "yield": "2.4 L, one airpot",
+   "yield": "about 2.4 L, 10 mugs",
    "developed": "2026-10-15",
    "groups": [
     {
@@ -2969,27 +2823,24 @@
     {
      "ingredients": [
       "7 3/4 cups whole milk (about 1900 g)",
-      "1 jar ganache, the whole jar (about 500 g)",
-      "mini marshmallows",
-      "full-size marshmallows on sticks",
-      "whipped cream"
+      "ganache, the whole batch (about 500 g)",
+      "2 cups mini marshmallows (about 100 g)",
+      "10 full-size marshmallows on sticks, one per mug (about 70 g)",
+      "1 can aerosol whipped cream, 6.5 oz (about 185 g)"
      ],
-     "name": "At camp"
+     "name": "To serve"
     }
    ],
    "steps": [
     "Heat the cream.",
     "Pour over the chopped chocolate.",
     "Rest 2 minutes, then whisk smooth.",
-    "Whisk in the cocoa, sugar, vanilla and salt.",
-    "Jar it. Yields about 500 g.",
-    "At camp, pre-warm the airpot: boiling water in, 5 minutes, dump.",
-    "Heat the milk to 70°C in the stainless pot at the edge of the coals, stirring, off direct flame.",
+    "Whisk in the cocoa, sugar, vanilla and salt. Yields about 500 g.",
+    "Heat the milk to 70°C over gentle heat, stirring constantly.",
     "Whisk in the ganache until smooth.",
-    "Fill the airpot.",
-    "Serve marshmallows and whipped cream at the mug, never in the airpot."
+    "Top each mug with marshmallows and whipped cream."
    ],
-   "notes": "Milk scorches: keep it moving and off direct flame.",
+   "notes": "Milk scorches: keep it moving and the heat gentle. The ganache can be made ahead and refrigerated.",
    "rating": 0,
    "traits": [
     "camping",
@@ -2999,17 +2850,17 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Whole 500 g ganache jar into 1900 g milk, about 2.4 L. Marshmallows and whipped cream at the mug have no quantity and are left out.",
+    "assumptions": "Whole 500 g ganache jar into 1900 g milk, about 2.4 L. Each mug also gets its share of the marshmallows (about 17 g) and whipped cream (about 18 g).",
     "per_serving": {
-     "calories": 340,
-     "carbs_g": 31,
-     "cholesterol_mg": 35,
-     "fat_g": 21,
+     "calories": 440,
+     "carbs_g": 47,
+     "cholesterol_mg": 50,
+     "fat_g": 25,
      "fiber_g": 3.6,
-     "protein_g": 9,
-     "sat_fat_g": 12.5,
-     "sodium_mg": 210,
-     "sugar_g": 26
+     "protein_g": 10,
+     "sat_fat_g": 15,
+     "sodium_mg": 250,
+     "sugar_g": 37
     },
     "serving": "1 cup, 8 oz (240 ml) (1 of 10)",
     "servings": 10
@@ -3050,10 +2901,10 @@
      "ingredients": [
       "440 g Guinness (about one 14.9 oz can)",
       "1000 g chicken stock, to thin (about 1 L)",
-      "parsley, chopped",
-      "sourdough and butter"
+      "20 g parsley, chopped (about 2/3 cup)",
+      "700 g sourdough and 100 g salted butter, for serving (about 1 large loaf, 14 slices, and 7 Tbsp)"
      ],
-     "name": "To reheat and serve"
+     "name": "To finish"
     }
    ],
    "steps": [
@@ -3066,14 +2917,12 @@
     "Add the red potatoes and carrot.",
     "Simmer uncovered 45 minutes, until the lamb is tender and the russets have collapsed into the broth.",
     "Remove the bay leaves, taste and salt again.",
-    "Cool completely and freeze flat in two bags.",
-    "To serve, put the stew in a pot with the Guinness at the start so the alcohol cooks off.",
+    "Add the Guinness, cover and simmer gently 40 minutes, stirring now and then, so the alcohol cooks off.",
     "Loosen with stock, a splash at a time, until spoonable.",
-    "Cover and heat on low 40 minutes, stirring now and then.",
     "Taste and salt.",
     "Top with parsley and serve with sourdough and butter."
    ],
-   "notes": "Made 4 days ahead and frozen. Sets very thick when cold; thin with stock on reheating.",
+   "notes": "Sets very thick when cold; thin with stock when reheating. Freezes well for up to 3 months.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -3081,17 +2930,17 @@
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "Includes the 1 L thinning stock and the Guinness with its alcohol cooked off, regular chicken stock throughout; about half the rendered lamb fat (40 g) is skimmed. Parsley, sourdough and butter are left out.",
+    "assumptions": "Includes the 1 L thinning stock and the Guinness with its alcohol cooked off, regular chicken stock throughout; about half the rendered lamb fat (40 g) is skimmed. Each serving includes 2 slices of sourdough (100 g) and 1 Tbsp salted butter.",
     "per_serving": {
-     "calories": 740,
-     "carbs_g": 54,
-     "cholesterol_mg": 150,
-     "fat_g": 39,
-     "fiber_g": 7,
-     "protein_g": 43,
-     "sat_fat_g": 16.5,
-     "sodium_mg": 2250,
-     "sugar_g": 9
+     "calories": 1120,
+     "carbs_g": 106,
+     "cholesterol_mg": 180,
+     "fat_g": 54,
+     "fiber_g": 9,
+     "protein_g": 54,
+     "sat_fat_g": 24.5,
+     "sodium_mg": 2950,
+     "sugar_g": 12
     },
     "serving": "1 bowl, about 900 g (1 of 7)",
     "servings": 7
@@ -3140,11 +2989,11 @@
     {
      "ingredients": [
       "16 pocketless Greek pita (about 1280 g)",
-      "Grilled vegetable skewers",
-      "Garlic-dill yogurt sauce",
-      "Pickled red onions",
-      "Charred lemon halves",
-      "Sumac and Aleppo pepper for the table"
+      "16 Grilled vegetable skewers, one per wrap (about 2500 g raw vegetables, from their recipe)",
+      "2 cups Garlic-dill yogurt sauce, 2 Tbsp per wrap (about 540 g, from its recipe)",
+      "1 1/3 cups Pickled red onions, drained, 20 g per wrap (about 320 g, from their recipe)",
+      "4 Charred lemon halves, from 2 lemons (about 200 g)",
+      "Sumac and Aleppo pepper for the table (about 1 Tbsp each, 7 g sumac and 6 g Aleppo)"
      ],
      "name": "To serve"
     }
@@ -3159,14 +3008,14 @@
     "Fry a teaspoon-sized test patty and adjust seasoning.",
     "Portion into 16 logs of 2 oz, about 1 inch thick and 4 to 5 inches long, with blunt ends.",
     "Smooth any surface cracks with wet hands.",
-    "Chill at least 1 hour, or wrap individually and freeze flat.",
+    "Chill at least 1 hour.",
     "Double-skewer each cold log on bamboo skewers.",
     "Grill over medium heat 8 to 10 minutes, turning 2 or 3 times, with one burner off as a cool zone for flare-ups.",
     "Pull at 160°F internal.",
     "Warm the pita on the grate 30 seconds a side.",
     "Build each wrap with one log, grilled vegetables, yogurt sauce, pickled onions and a squeeze of charred lemon."
    ],
-   "notes": "Logs can be mixed and frozen days ahead; frozen 2 oz logs thaw quickly in a cooler. Spice blend keeps for months in a jar. Cook all logs at camp rather than bringing raw meat home. To make 4 lb, double everything including salt and spice.",
+   "notes": "Raw logs freeze well for up to 3 months; thaw in the refrigerator before grilling. Spice blend keeps for months airtight. To make 4 lb, double everything including salt and spice.",
    "rating": 0,
    "traits": [
     "camping",
@@ -3176,17 +3025,17 @@
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "About a quarter of the meat fat renders off on the grill; pita at about 85 g each. Grilled vegetables, yogurt sauce, pickled onions, lemon and table spices have no quantity and are left out.",
+    "assumptions": "About a quarter of the meat fat renders off on the grill; pita at about 85 g each. Each wrap carries one vegetable skewer (half a skewer-recipe serving), 2 Tbsp yogurt sauce, 20 g pickled onion and the lemon juice, using those recipes' own nutrition.",
     "per_serving": {
-     "calories": 380,
-     "carbs_g": 49,
-     "cholesterol_mg": 40,
-     "fat_g": 12,
-     "fiber_g": 2.3,
-     "protein_g": 17,
-     "sat_fat_g": 4.5,
-     "sodium_mg": 880,
-     "sugar_g": 1.4
+     "calories": 520,
+     "carbs_g": 62,
+     "cholesterol_mg": 45,
+     "fat_g": 20,
+     "fiber_g": 5,
+     "protein_g": 22,
+     "sat_fat_g": 6,
+     "sodium_mg": 1470,
+     "sugar_g": 9
     },
     "serving": "1 wrap: one 2 oz log in one pocketless pita (1 of 16)",
     "servings": 16
@@ -3350,9 +3199,9 @@
     "Add the lemon juice slowly while whipping so it does not break.",
     "Roll into a log in parchment.",
     "Chill.",
-    "Slice coins at camp."
+    "Slice into coins to serve."
    ],
-   "notes": "Keeps chilled in the cooler through the weekend.",
+   "notes": "Keeps about a week refrigerated.",
    "rating": 0,
    "traits": [
     "camping",
@@ -3391,7 +3240,7 @@
     "freezer",
     "make-ahead"
    ],
-   "yield": "about 7.5 qt beans (8 qt stock pot)",
+   "yield": "about 7.5 qt beans",
    "developed": "2026-10-06",
    "groups": [
     {
@@ -3441,14 +3290,14 @@
    "steps": [
     "Dissolve the soaking salt in the soaking water, add the beans, and soak covered at room temperature 8 to 24 hours.",
     "Drain and rinse the beans.",
-    "Heat the lard in the stock pot over medium-high.",
+    "Heat the lard over medium-high in a stock pot that holds at least 8 quarts.",
     "Brown the andouille in batches and remove to a plate, leaving the fat.",
     "Add the onion, bell pepper, and celery; cook over medium, scraping up the fond, until soft, about 10 minutes.",
     "Add the garlic, Creole seasoning, thyme, cayenne, and black pepper; stir until fragrant, about 1 minute.",
     "Add the beans, ham hock, stock, water, and bay leaves.",
     "Bring to a full rolling boil and hold it there for at least 10 minutes.",
     "Drop to a low simmer, partially covered, stirring occasionally and scraping the bottom, about 90 minutes, until the beans are fully tender.",
-    "Top up with water as needed to keep the beans just covered, staying below the fill line.",
+    "Top up with water as needed to keep the beans just covered.",
     "Remove the hock and bay leaves; shred the meat, discard skin and bone, and return the meat to the pot with the andouille.",
     "Mash about a third of the beans against the side of the pot (or pulse briefly with an immersion blender).",
     "Simmer uncovered, stirring often, until thick and creamy, about 30 minutes.",
@@ -3457,7 +3306,7 @@
     "Cook the rice according to package directions.",
     "Serve the beans over rice topped with green onion and parsley."
    ],
-   "notes": "Freeze without rice, green onion, or parsley for up to 3 months; add them fresh when reheating. Thickens a lot when cold; thin with water when reheating and stir often to prevent scorching. Freeze flat in gallon bags filled about half (about 2 qt).",
+   "notes": "Freeze without rice, green onion, or parsley for up to 3 months; add them fresh when reheating. Thickens a lot when cold; thin with water when reheating and stir often to prevent scorching.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -3496,7 +3345,7 @@
     "outdoor",
     "party"
    ],
-   "yield": "serves 13 (80-qt pot, ~33 lb food)",
+   "yield": "serves 13 (about 33 lb food)",
    "developed": "2026-09-26",
    "groups": [
     {
@@ -3507,7 +3356,7 @@
       "1500 g sweet onions, quartered (about 6)",
       "600 g lemons, halved (about 6)",
       "200 g garlic, halved crosswise (about 4 heads)",
-      "Kosher salt, only if the water needs it after tasting"
+      "340 g kosher salt, only if the water needs it after tasting (about 2 1/2 cups Diamond Crystal)"
      ],
      "name": "Water"
     },
@@ -3532,9 +3381,9 @@
     }
    ],
    "steps": [
-    "Fill the 80-qt pot to the 10-gallon line.",
+    "Fill a pot of at least 80 quarts, fitted with a basket, with the 10 gallons of water.",
     "Add the Zatarain's, Old Bay, onions, lemons and garlic.",
-    "Light the burner at T-90; lid on only while bringing the water up from cold. Allow 45 to 60 minutes to a rolling boil.",
+    "Light the burner; lid on only while bringing the water up from cold. Allow 45 to 60 minutes to a rolling boil.",
     "Boil 5 to 10 minutes, then taste: it should taste like aggressively seasoned soup. Add kosher salt if it does not.",
     "Lid off for the entire cook. Burner on full the entire time.",
     "0:00: add the potatoes and andouille.",
@@ -3547,7 +3396,7 @@
     "Pour the butter and boil liquor over the top, sprinkle the 60 g Old Bay over in two or three passes, and toss with the paddle about 10 minutes.",
     "Pour off everything that pools at the bottom into bowls for the table as the dip."
    ],
-   "notes": "Melt the butter after any other prep, while the pot climbs. Keep warm until the toss. Hold tiny creamer potatoes until 0:05. Serve on a paper-covered table with Cajun butter, drawn lemon butter, cocktail sauce, remoulade, serrano ranch and the pickle bowls.",
+   "notes": "Melt the butter after any other prep, while the pot climbs. Keep warm until the toss. Hold tiny creamer potatoes until 0:05. Serve on a paper-covered table with dipping sauces.",
    "rating": 0,
    "traits": [
     "crowd"
@@ -3556,7 +3405,7 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Edible yield: crab meat about 25% of cluster weight, shrimp meat about 70% of frozen shell-on weight, about 100 g kernels per ear. Food absorbs about 3% of the boil Old Bay, and the full butter toss (900 g garlic Old Bay butter, 60 g Old Bay, 500 ml liquor) is counted; Zatarain bag spices, the aromatics and table dips are left out.",
+    "assumptions": "Edible yield: crab meat about 25% of cluster weight, shrimp meat about 70% of frozen shell-on weight, about 100 g kernels per ear. Food absorbs about 3% of the boil Old Bay and the full 340 g top-up salt, and the full butter toss (900 g garlic Old Bay butter, 60 g Old Bay, 500 ml liquor) is counted; Zatarain bag spices, the aromatics and table dips are left out.",
     "per_serving": {
      "calories": 1390,
      "carbs_g": 61,
@@ -3565,7 +3414,7 @@
      "fiber_g": 8,
      "protein_g": 89,
      "sat_fat_g": 45.5,
-     "sodium_mg": 4480,
+     "sodium_mg": 4780,
      "sugar_g": 10
     },
     "serving": "1 plate, about 830 g edible food with butter (1 of 13)",
@@ -3621,9 +3470,9 @@
      "ingredients": [
       "1500 g eggs (about 30 large)",
       "9 g salt (about 1 1/2 tsp)",
-      "Black pepper",
+      "6 g black pepper, freshly ground (about 2 1/2 tsp)",
       "227 g cream cheese, cut into small cubes (about one 8 oz block)",
-      "Roasted burrito vegetables (above)"
+      "800 g roasted burrito vegetables, all from above (about 4 cups)"
      ],
      "name": "Sheet pan eggs"
     },
@@ -3635,15 +3484,15 @@
       "20 g garlic (about 4 cloves)",
       "60 g poblano, diced (about 1/2)",
       "480 g black beans, drained (about two 15 oz cans)",
-      "Salt and pepper",
-      "Cayenne or Aleppo pepper"
+      "8 g salt and 2 g black pepper, to taste (about 1 1/4 tsp salt, 1 tsp pepper)",
+      "1 g cayenne or 2 g Aleppo pepper, to taste (about 1/2 tsp cayenne or 1 tsp Aleppo)"
      ],
      "name": "Black bean paste"
     },
     {
      "ingredients": [
       "2270 g frozen tater tots (about one 5 lb bag)",
-      "Salt"
+      "20 g salt, tossed with the hot tots (about 1 Tbsp plus 1/4 tsp)"
      ],
      "name": "Tots"
     },
@@ -3686,11 +3535,9 @@
     "Layer tots, rice, egg mixture and the meat or mushroom on the beans in a 6-inch line.",
     "Top with the cheese.",
     "Fold in the sides and roll tight.",
-    "Wrap in 12 by 10.75 inch foil sheets and label the foil with a Sharpie by filling and cheese.",
-    "Refrigerate 12 for the first morning and freeze 12 for the second.",
-    "At camp, reheat on a cool zone of the grill, turning every few minutes."
+    "Wrap each in a 12 by 10.75 inch foil sheet."
    ],
-   "notes": "Make extra filling; 24 burritos ran short on bacon and sausage. Frozen burritos hold 1 to 3 months; overwrap the foil with a freezer bag and reheat from frozen in foil at 350°F about 40 minutes.",
+   "notes": "The bacon and sausage run short at 8 burritos each; cook extra. Frozen burritos hold 1 to 3 months; overwrap the foil with a freezer bag and reheat from frozen in foil at 350°F about 40 minutes.",
    "rating": 0,
    "traits": [
     "camping",
@@ -3700,7 +3547,7 @@
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "Averaged across the bacon, sausage and mushroom fillings; 1 lb bacon cooks down to about 150 g. Only the tots actually used (about 8 per burrito, 1.6 kg of the 5 lb bag) are counted, with 6% fry oil; unmeasured salt on beans and tots estimated at 4 g and 3 g.",
+    "assumptions": "Averaged across the bacon, sausage and mushroom fillings; 1 lb bacon cooks down to about 150 g. Only the tots actually used (about 1.6 kg of the 5 lb bag, with their share of the 20 g salt) are counted, with 6% fry oil.",
     "per_serving": {
      "calories": 980,
      "carbs_g": 98,
@@ -3709,7 +3556,7 @@
      "fiber_g": 7,
      "protein_g": 34,
      "sat_fat_g": 19,
-     "sodium_mg": 2390,
+     "sodium_mg": 2630,
      "sugar_g": 5
     },
     "serving": "1 burrito, about 420 g (1 of 24)",
@@ -3756,14 +3603,14 @@
     {
      "ingredients": [
       "150 g sharp cheddar, grated",
-      "sour cream",
-      "scallions, sliced",
-      "yellow onion, diced",
-      "pickled jalapenos",
-      "cilantro",
-      "lime wedges",
-      "oyster crackers or Fritos",
-      "hot sauce"
+      "240 g sour cream, for serving (about 1 cup)",
+      "40 g scallions, sliced (about 4, 1/2 cup)",
+      "150 g yellow onion, diced (about 1 medium, 1 cup)",
+      "90 g pickled jalapenos, drained (about 3/4 cup)",
+      "15 g cilantro, chopped (about 1/2 cup)",
+      "130 g lime wedges (about 2 limes)",
+      "200 g oyster crackers or Fritos (about 25 g per bowl)",
+      "40 g hot sauce, for serving (about 2 1/2 Tbsp)"
      ],
      "name": "Toppings"
     }
@@ -3779,10 +3626,10 @@
     "Transfer to the slow cooker. Add the chile puree, both beans, tomatoes, poblano, jalapeno, salt, MSG, pepper and cracker crumbs. Stir.",
     "If it looks tight, stir in more stock until it is a thick stew that settles when stirred.",
     "Cook on low overnight, about 8 hours.",
-    "Portion half into flat freezer bags and freeze. Refrigerate the rest in shallow containers.",
+    "Cool in shallow containers and refrigerate, ideally overnight.",
     "Reheat gently, adjust salt and serve with the toppings."
    ],
-   "notes": "Make 2 to 3 days ahead. Cool in shallow containers, not in the slow cooker insert. Freeze half flat in bags before anyone eats from the pot.",
+   "notes": "Best made 1 to 2 days ahead; the flavor improves overnight. Cool in shallow containers, not in the slow cooker insert. Freezes well for up to 3 months.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -3792,25 +3639,25 @@
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "Beef fat not drained; regular beef stock and canned beans; the 150 g cheddar topping is included, while unquantified toppings (sour cream, Fritos, etc.) are left out.",
+    "assumptions": "Beef fat not drained; regular beef stock and canned beans; all toppings counted, with Fritos for the crackers and about 30 g of juice squeezed from the limes.",
     "per_serving": {
-     "calories": 600,
-     "carbs_g": 45,
-     "cholesterol_mg": 100,
-     "fat_g": 31,
-     "fiber_g": 12,
-     "protein_g": 37,
-     "sat_fat_g": 13,
-     "sodium_mg": 2110,
-     "sugar_g": 8
+     "calories": 810,
+     "carbs_g": 61,
+     "cholesterol_mg": 115,
+     "fat_g": 46,
+     "fiber_g": 15,
+     "protein_g": 39,
+     "sat_fat_g": 17.5,
+     "sodium_mg": 2530,
+     "sugar_g": 9
     },
-    "serving": "about 1.5 cups chili plus cheese (1 of 8)",
+    "serving": "about 1.5 cups chili plus toppings (1 of 8)",
     "servings": 8
    }
   },
   {
    "id": "mudslide-slushie-base",
-   "title": "Mudslide Slushie Base (Adults)",
+   "title": "Mudslide Slushie Base",
    "category": "Drinks",
    "cuisine": "American",
    "tags": [
@@ -3836,7 +3683,7 @@
     },
     {
      "ingredients": [
-      "Kahlua, Baileys or vodka"
+      "15 oz Kahlua, Baileys or vodka, 1 1/2 oz per glass (about 450 ml)"
      ],
      "name": "At the glass"
     }
@@ -3859,17 +3706,17 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Base only: Kahlua, Baileys or vodka added at the glass have no quantity and are left out.",
+    "assumptions": "Each 9 oz pour of base gets 1 1/2 oz of Kahlua (20% ABV, about 7 g ethanol); Baileys runs about the same calories, vodka about 35 fewer with no sugar.",
     "per_serving": {
-     "calories": 480,
-     "carbs_g": 48,
+     "calories": 610,
+     "carbs_g": 68,
      "cholesterol_mg": 90,
      "fat_g": 29,
      "fiber_g": 0.9,
      "protein_g": 8,
      "sat_fat_g": 18,
      "sodium_mg": 230,
-     "sugar_g": 40
+     "sugar_g": 60
     },
     "serving": "9 oz, about 280 g (1 of 10)",
     "servings": 10
@@ -3907,8 +3754,8 @@
     {
      "ingredients": [
       "1 gallon fresh apple cider (about 3900 g)",
-      "all the concentrate",
-      "Chairman's Reserve Spiced rum, at the mug"
+      "About 600 g concentrate, all of it (about 2 1/2 cups)",
+      "710 g Chairman's Reserve Spiced rum, at the mug (about one 750 ml bottle, 1 1/4 oz per mug)"
      ],
      "name": "To serve"
     }
@@ -3918,12 +3765,12 @@
     "Steep off the heat 20 minutes more.",
     "Strain.",
     "Stir in the orange juice.",
-    "Jar and refrigerate.",
+    "Refrigerate until needed.",
     "Heat the cider with the concentrate until steaming, about 75°C. Do not boil.",
-    "Hold on Keep Warm (Instant Pot or Dutch oven on low), or pour into a pre-warmed airpot: boiling water in, 5 minutes, dump.",
+    "Hold warm over low heat or on Keep Warm in a slow cooker or Instant Pot.",
     "Pour rum into the mug first, then ladle the cider over it."
    ],
-   "notes": "Concentrate keeps for weeks in the fridge. Do not increase the cloves. One 84.5 oz airpot: about 0.6×. Hobbit weekend: 2×, served as two 1-gallon nights, with two 750 ml bottles of Chairman's for six adults.",
+   "notes": "Concentrate keeps for weeks in the fridge. Do not increase the cloves.",
    "rating": 0,
    "traits": [
     "camping",
@@ -3939,9 +3786,9 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "One gallon of cider (3900 g) plus concentrate gives about 4.5 L; strained spices and peel contribute almost nothing. Rum at the mug has no set quantity and is left out.",
+    "assumptions": "One gallon of cider (3900 g) plus concentrate gives about 4.5 L; strained spices and peel contribute almost nothing. One 750 ml bottle of 35% ABV rum is spread across the 19 mugs.",
     "per_serving": {
-     "calories": 140,
+     "calories": 220,
      "carbs_g": 36,
      "cholesterol_mg": 0,
      "fat_g": 0.2,
@@ -3957,7 +3804,7 @@
   },
   {
    "id": "mushroom-duxelles-mix",
-   "title": "Mushroom Duxelles Mix (for Foil Packets)",
+   "title": "Mushroom Duxelles Mix",
    "category": "Sides & Breads",
    "cuisine": "French",
    "tags": [
@@ -3991,7 +3838,7 @@
     "Season with the salt and pepper.",
     "Cool and refrigerate."
    ],
-   "notes": "Holds refrigerated through the weekend.",
+   "notes": "Keeps 3 days refrigerated.",
    "rating": 0,
    "traits": [
     "camping",
@@ -4046,13 +3893,13 @@
       "45 g heavy cream (about 45 ml)",
       "12 g thyme leaves",
       "10 g kosher salt",
-      "black pepper"
+      "3 g black pepper, freshly ground (about 1 1/4 tsp)"
      ],
      "name": "Mushrooms"
     },
     {
      "ingredients": [
-      "sourdough, sliced and toasted",
+      "420 g sourdough, sliced and toasted (about 7 thick slices, 60 g each)",
       "18-year cheddar, a chunk for grating"
      ],
      "name": "To serve"
@@ -4062,8 +3909,6 @@
     "Soft eggs: lower the eggs into boiling water and cook 6 minutes.",
     "Move them straight into an ice bath for 5 minutes.",
     "Peel gently under cool running water.",
-    "Refrigerate in a covered container with a damp paper towel over them.",
-    "To serve, put the eggs in a bowl, cover with water just off the boil and leave 4 minutes to warm through.",
     "Mushrooms: get a wide pan properly hot with the lard.",
     "Add the mushrooms in one layer and leave them alone 4 minutes.",
     "Stir and keep cooking until browned and squeaky, 4 to 6 minutes more. Use two pans if crowded.",
@@ -4074,7 +3919,7 @@
     "Spoon over the toast and grate the cheddar over the top.",
     "Halve the eggs, salt them and put them on the toast."
    ],
-   "notes": "Eggs cooked and peeled up to 3 days ahead; mushrooms sliced the day before.",
+   "notes": "Peeled soft eggs keep up to 3 days refrigerated under a damp paper towel; rewarm 4 minutes in water just off the boil.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -4082,19 +3927,19 @@
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "Sourdough toast and grated cheddar have no quantities and are left out, so add a slice of toast and cheese on top of these numbers; salt on the eggs not counted.",
+    "assumptions": "The grated 18-year cheddar has no quantity and is left out, as is the salt on the eggs.",
     "per_serving": {
-     "calories": 240,
-     "carbs_g": 4.9,
+     "calories": 400,
+     "carbs_g": 36,
      "cholesterol_mg": 220,
-     "fat_g": 20,
-     "fiber_g": 1.3,
-     "protein_g": 10,
+     "fat_g": 22,
+     "fiber_g": 2.7,
+     "protein_g": 16,
      "sat_fat_g": 10.5,
-     "sodium_mg": 700,
-     "sugar_g": 2.3
+     "sodium_mg": 990,
+     "sugar_g": 3.7
     },
-    "serving": "1 egg plus about 110 g mushrooms (1 of 7)",
+    "serving": "1 slice sourdough toast, 1 egg and about 110 g mushrooms (1 of 7)",
     "servings": 7
    }
   },
@@ -4114,8 +3959,8 @@
      "ingredients": [
       "1.5 kg small waxy potatoes, scrubbed, unpeeled (about 25 small)",
       "180 g coarse sea salt",
-      "water, to barely cover",
-      "cilantro, chopped, to finish"
+      "about 1.5 kg water, to barely cover (about 1.5 L)",
+      "10 g cilantro, chopped, to finish (about 1/3 cup)"
      ],
      "name": "Papas arrugadas"
     },
@@ -4136,15 +3981,15 @@
     "Mojo: blend everything but the oil until smooth.",
     "With the blender running, pour in the oil.",
     "Taste and keep salting until it tastes sharp and loud.",
-    "Jar the mojo.",
+    "Set the mojo aside, or refrigerate if making ahead.",
     "Potatoes: put them in a wide pot in a single layer.",
     "Add the salt and just enough water to barely cover.",
     "Boil hard, uncovered, 20 to 25 minutes, until a knife slides in and the water has nearly gone.",
     "Pour off whatever water is left.",
     "Return the pot to low heat and shake it every 30 seconds, 3 to 5 minutes, until the potatoes are dry, the skins wrinkle and a white salt bloom forms.",
-    "Serve in the pot, scattered with chopped cilantro, with the mojo in ramekins alongside."
+    "Serve in the pot, scattered with chopped cilantro, with the mojo alongside."
    ],
-   "notes": "Mojo made Tuesday; keeps a week refrigerated. Take the mojo out of the fridge about an hour before serving so the oil loosens.",
+   "notes": "Mojo keeps a week refrigerated. Take it out about an hour before serving so the oil loosens.",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -4171,6 +4016,66 @@
     },
     "serving": "about 215 g potatoes plus 2 Tbsp mojo (1 of 7)",
     "servings": 7
+   }
+  },
+  {
+   "id": "pickled-red-onions",
+   "title": "Pickled Red Onions",
+   "category": "Sauces & Condiments",
+   "cuisine": "American",
+   "tags": [
+    "camping",
+    "make-ahead"
+   ],
+   "yield": "about 1 quart (2 onions)",
+   "developed": "2026-10-15",
+   "groups": [
+    {
+     "ingredients": [
+      "300 g red onions, sliced thin (about 2 medium)",
+      "240 g apple cider vinegar",
+      "240 g water",
+      "20 g sugar",
+      "12 g salt"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Pack the sliced onions into a jar.",
+    "Boil the vinegar, water, sugar and salt.",
+    "Pour the hot brine over the onions.",
+    "Cool, then refrigerate."
+   ],
+   "notes": "Ready in an hour, better after two days, better still at a week.",
+   "rating": 0,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "Two onions at 150 g; the drained onions hold the brine at equilibrium, so about 37% of the salt and sugar is counted.",
+    "per_serving": {
+     "calories": 30,
+     "carbs_g": 6,
+     "cholesterol_mg": 0,
+     "fat_g": 0,
+     "fiber_g": 0.8,
+     "protein_g": 0.5,
+     "sat_fat_g": 0,
+     "sodium_mg": 290,
+     "sugar_g": 3.4
+    },
+    "serving": "50 g drained (1 of 6)",
+    "servings": 6
    }
   },
   {
@@ -4340,10 +4245,9 @@
     "Add the American cheese in handfuls, stirring constantly, until smooth.",
     "Off the heat, stir in the cheddar a handful at a time until melted.",
     "Season with white pepper, adding salt only if needed.",
-    "Cool and refrigerate.",
-    "At camp, reheat in a dutch oven at the edge of the coals until molten, then hold in a crockpot on warm."
+    "Serve warm, or hold in a slow cooker on warm."
    ],
-   "notes": "Reheats without breaking. Use block cheddar, not bagged shredded.",
+   "notes": "Reheats without breaking; rewarm gently over low heat, stirring. Use block cheddar, not bagged shredded.",
    "rating": 0,
    "traits": [
     "camping",
@@ -4400,7 +4304,7 @@
     "Pour over the onions and press them under.",
     "Cool, lid and refrigerate."
    ],
-   "notes": "Ready in an hour, keeps two weeks refrigerated. For the ploughman's board.",
+   "notes": "Ready in an hour, keeps two weeks refrigerated.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -4431,66 +4335,6 @@
    }
   },
   {
-   "id": "pickled-red-onions",
-   "title": "Quick Pickled Red Onions (Camping Batch)",
-   "category": "Sauces & Condiments",
-   "cuisine": "American",
-   "tags": [
-    "camping",
-    "make-ahead"
-   ],
-   "yield": "1 jar (2 onions)",
-   "developed": "2026-10-15",
-   "groups": [
-    {
-     "ingredients": [
-      "300 g red onions, sliced thin (about 2 medium)",
-      "240 g apple cider vinegar",
-      "240 g water",
-      "20 g sugar",
-      "12 g salt"
-     ],
-     "name": ""
-    }
-   ],
-   "steps": [
-    "Pack the sliced onions into a jar.",
-    "Boil the vinegar, water, sugar and salt.",
-    "Pour the hot brine over the onions.",
-    "Cool, then refrigerate."
-   ],
-   "notes": "Ready in an hour, better after two days, better still at a week. Also made for the Aug 2026 kofta trip, where no quantities were recorded.",
-   "rating": 0,
-   "traits": [
-    "camping",
-    "make-ahead",
-    "quick"
-   ],
-   "diet": [
-    "vegan",
-    "vegetarian",
-    "pescatarian",
-    "dairy-free",
-    "gluten-free"
-   ],
-   "nutrition": {
-    "assumptions": "Two onions at 150 g; the drained onions hold the brine at equilibrium, so about 37% of the salt and sugar is counted.",
-    "per_serving": {
-     "calories": 30,
-     "carbs_g": 6,
-     "cholesterol_mg": 0,
-     "fat_g": 0,
-     "fiber_g": 0.8,
-     "protein_g": 0.5,
-     "sat_fat_g": 0,
-     "sodium_mg": 290,
-     "sugar_g": 3.4
-    },
-    "serving": "50 g drained (1 of 6)",
-    "servings": 6
-   }
-  },
-  {
    "id": "rajma",
    "title": "Rajma (Kidney Bean Curry)",
    "category": "Soups & Stews",
@@ -4501,7 +4345,7 @@
     "vegetarian",
     "make-ahead"
    ],
-   "yield": "about 7.5 qt (8 qt stock pot)",
+   "yield": "about 7.5 qt (needs an 8 qt or larger pot)",
    "developed": "2026-10-06",
    "groups": [
     {
@@ -4644,7 +4488,7 @@
     "Whisk all spices together until evenly combined.",
     "Transfer to an airtight jar."
    ],
-   "notes": "Keeps 3 to 6 months in an airtight jar; ginger and cinnamon fade fastest. Requested scaling to a 0.14 oz container was never completed.",
+   "notes": "Keeps 3 to 6 months in an airtight jar; ginger and cinnamon fade fastest.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -4771,7 +4615,7 @@
       "5 to 9 g neutral or coconut oil (about 1 to 2 tsp)",
       "6 g orange zest (about 1 orange)",
       "1 g orange extract, or 2 to 3 drops orange oil (about 1/4 tsp extract)",
-      "Flaky salt"
+      "3 g flaky salt (about 1 tsp)"
      ],
      "name": "Orange chocolate drizzle"
     }
@@ -4797,7 +4641,7 @@
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "Reese's Puffs from the label (1 cup, 41 g, 160 kcal); Rice Krispies at 27 g per cup; 1.5 tsp oil in the drizzle. Flaky salt on top has no quantity and is left out.",
+    "assumptions": "Reese's Puffs from the label (1 cup, 41 g, 160 kcal); Rice Krispies at 27 g per cup; 1.5 tsp oil in the drizzle; all 3 g flaky salt counted.",
     "per_serving": {
      "calories": 190,
      "carbs_g": 28,
@@ -4806,7 +4650,7 @@
      "fiber_g": 1.4,
      "protein_g": 2.8,
      "sat_fat_g": 4,
-     "sodium_mg": 150,
+     "sodium_mg": 220,
      "sugar_g": 15
     },
     "serving": "1 square (1 of 16)",
@@ -4950,7 +4794,7 @@
       "25 g garlic, grated (about 5 cloves)",
       "8 g thyme leaves",
       "4 g lemon zest (about 2 lemons)",
-      "black pepper"
+      "10 g black pepper, freshly ground (about 1 Tbsp plus 1 tsp)"
      ],
      "name": "Hen butter"
     },
@@ -4967,18 +4811,18 @@
    "steps": [
     "Hen butter: mash the butter, garlic, thyme, lemon zest and pepper together, roll in parchment and refrigerate.",
     "Take the hens out of their packaging over the sink and pat dry.",
-    "Salt with the 53 g salt between the seven, inside and out.",
+    "Divide the salt among the hens and salt inside and out.",
     "Set on sheet pans breast side up and refrigerate uncovered overnight.",
     "Take the hen butter out of the fridge an hour before so it softens.",
     "Preheat the oven to 425°F.",
     "Pat the hens dry.",
     "Rub the butter under and over the skin.",
     "Put a lemon quarter in each cavity and tie the legs.",
-    "Nestle 4 hens on one pan of parboiled roast potatoes and 3 on the other.",
+    "Divide the hens between two sheet pans, on parboiled roast potatoes if using.",
     "Roast at 425°F, swapping racks and rotating pans after 30 minutes, until the thighs read 165°F (about 55 minutes).",
     "Rest 15 minutes under foil."
    ],
-   "notes": "Hen butter keeps several days refrigerated. Roast on top of the duck fat roast potatoes. Strain the rendered hen fat and keep it for frying.",
+   "notes": "Hen butter keeps several days refrigerated. Good roasted on top of duck fat roast potatoes. Strain the rendered hen fat and keep it for frying.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -4991,13 +4835,13 @@
     "assumptions": "Hens about 1.25 lb each, 61% edible meat and skin; about 40% of the fat renders and half of that is drained; all 53 g of dry-brine salt counted; unsalted butter; cavity lemons not eaten.",
     "per_serving": {
      "calories": 730,
-     "carbs_g": 1.6,
-     "cholesterol_mg": 375,
+     "carbs_g": 2.5,
+     "cholesterol_mg": 400,
      "fat_g": 52,
-     "fiber_g": 0.3,
+     "fiber_g": 0.7,
      "protein_g": 60,
-     "sat_fat_g": 19,
-     "sodium_mg": 3160,
+     "sat_fat_g": 19.5,
+     "sodium_mg": 3140,
      "sugar_g": 0.1
     },
     "serving": "1 whole hen, meat and skin (1 of 7)",
@@ -5022,15 +4866,15 @@
       "30 g flour",
       "550 g chicken stock (about 550 ml)",
       "4 g kosher salt",
-      "black pepper"
+      "2 g black pepper, freshly ground (about 1 tsp)"
      ],
      "name": "Gravy base"
     },
     {
      "ingredients": [
-      "pan juices from the roast hens",
-      "salt",
-      "black pepper",
+      "150 g pan juices from the roast hens, defatted (about 2/3 cup)",
+      "3 g kosher salt (about 1 tsp Diamond Crystal)",
+      "1 g black pepper, freshly ground (about 1/2 tsp)",
       "0.3 g MSG (about a pinch)"
      ],
      "name": "To finish"
@@ -5040,31 +4884,29 @@
     "Cook the butter and flour together 2 minutes.",
     "Whisk in the stock and simmer 5 minutes until smooth.",
     "Season with the 4 g salt and black pepper, to just under where you'd want it.",
-    "Cool and jar.",
-    "Pour the hen pan juices into a jar and let the fat rise.",
-    "Warm the base in a saucepan and whisk in the defatted juices.",
+    "Pour the hen pan juices into a fat separator or measuring cup and let the fat rise; spoon it off.",
+    "Whisk the defatted juices into the warm base.",
     "Simmer 5 minutes.",
-    "Taste and finish the seasoning.",
-    "Strain the remaining hen fat into a jar for later frying."
+    "Taste and finish the seasoning."
    ],
-   "notes": "Base made 3 days ahead; seasoned light because the juices from the salted hens bring the rest.",
+   "notes": "The base is seasoned light because the juices from salted hens bring the rest. The base keeps 3 days refrigerated.",
    "rating": 0,
    "traits": [
     "make-ahead"
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "Unsalted butter and regular-sodium stock; about 150 g defatted pan juices from the dry-brined hens and 2 g finishing salt assumed.",
+    "assumptions": "Unsalted butter and regular-sodium stock; defatted pan juices from the dry-brined hens taken at about 800 mg sodium per 100 g.",
     "per_serving": {
-     "calories": 20,
-     "carbs_g": 1.5,
+     "calories": 25,
+     "carbs_g": 1.6,
      "cholesterol_mg": 5,
      "fat_g": 1.4,
-     "fiber_g": 0,
+     "fiber_g": 0.1,
      "protein_g": 0.9,
      "sat_fat_g": 1,
-     "sodium_mg": 280,
-     "sugar_g": 0.1
+     "sodium_mg": 300,
+     "sugar_g": 0.2
     },
     "serving": "2 Tbsp, about 30 g (1 of 20)",
     "servings": 20
@@ -5173,14 +5015,13 @@
     "Unfold each pastry sheet, press the seams flat and cut in half into 2 strips.",
     "Lay a log of filling down each strip, egg one edge, fold and seal with a fork.",
     "Cut each strip into 4.",
-    "Freeze on a tray, then bag.",
-    "To bake, heat the oven to 400°F and line two sheet pans with parchment.",
-    "Lay the rolls flat from frozen, crimped edge to the side, about 2 cm apart.",
+    "Heat the oven to 400°F and line two sheet pans with parchment.",
+    "Lay the rolls flat, crimped edge to the side, about 2 cm apart.",
     "Brush the tops with egg wash.",
     "Bake 22 to 25 minutes, until deep golden and the filling reads 160°F.",
     "Rest 5 minutes. Serve with HP and English mustard."
    ],
-   "notes": "Bake straight from frozen.",
+   "notes": "Freeze unbaked rolls on a tray, then bag, for up to 3 months; bake straight from frozen.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -5234,7 +5075,7 @@
     "Stir everything together, thinning with the buttermilk.",
     "Refrigerate."
    ],
-   "notes": "Make no more than 3 days ahead; buttermilk will not hold a week. Ride in the cooler.",
+   "notes": "Keeps about 3 days refrigerated; the buttermilk will not hold a week.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -5294,7 +5135,7 @@
       "21 g honey",
       "70 g lard, melted and cooled slightly",
       "45 g lard, for the skillet",
-      "flaky salt, to finish"
+      "4 g flaky salt, to finish (about 1 1/2 tsp)"
      ],
      "name": "Cornbread"
     }
@@ -5308,11 +5149,10 @@
     "Rest the batter 15 minutes.",
     "Swirl the hot lard up the sides of the skillet, pour in the batter and return to the oven.",
     "Bake 20 to 25 minutes, until golden with deep brown edges and a clean skewer.",
-    "Cool in the pan.",
-    "Before serving, rewarm in the skillet at 350F for 10 minutes.",
+    "Cool in the pan 10 minutes.",
     "Finish with flaky salt and serve with the honey butter."
    ],
-   "notes": "Honey butter can be made a day ahead; take it out 2 to 3 hours before serving to soften. Leftover wedges are split and griddled for breakfast sandwiches.",
+   "notes": "Honey butter can be made a day ahead; soften 2 to 3 hours at room temperature before serving. Rewarm in the skillet at 350F for 10 minutes. Leftover wedges are good split and griddled for breakfast sandwiches.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -5320,7 +5160,7 @@
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "All the skillet lard is counted as absorbed and the honey butter is split evenly across the 10 wedges. Finishing flaky salt has no quantity and is left out.",
+    "assumptions": "All the skillet lard is counted as absorbed and the honey butter is split evenly across the 10 wedges; all 4 g finishing salt counted.",
     "per_serving": {
      "calories": 410,
      "carbs_g": 43,
@@ -5328,8 +5168,8 @@
      "fat_g": 24,
      "fiber_g": 2.6,
      "protein_g": 8,
-     "sat_fat_g": 11.5,
-     "sodium_mg": 790,
+     "sat_fat_g": 11,
+     "sodium_mg": 940,
      "sugar_g": 8
     },
     "serving": "1 wedge with about 16 g honey butter (1 of 10)",
@@ -5507,10 +5347,9 @@
    "steps": [
     "Chill every ingredient before it goes in the vessel.",
     "Pour everything into the Ninja SlushiMax vessel.",
-    "Run on Spiked Slush Max.",
-    "Run the rinse cycle before switching to another batch."
+    "Run on Spiked Slush Max."
    ],
-   "notes": "No cilantro in this one. If it won't freeze, add 1/4 cup water or soda per serving and give it 30 more minutes.",
+   "notes": "If it won't freeze, add 1/4 cup water or soda per serving and give it 30 more minutes.",
    "rating": 0,
    "traits": [
     "crowd"
@@ -5559,7 +5398,7 @@
       "3 g baking soda",
       "4 g salt"
      ],
-     "name": "Sweet dry bag"
+     "name": "Sweet dry mix"
     },
     {
      "ingredients": [
@@ -5570,7 +5409,7 @@
       "4 g salt",
       "1.5 g black pepper"
      ],
-     "name": "Savory dry bag"
+     "name": "Savory dry mix"
     },
     {
      "ingredients": [
@@ -5578,7 +5417,7 @@
       "50 g egg (about 1 large)",
       "35 g melted butter, cooled (about 2 1/2 Tbsp)"
      ],
-     "name": "Wet mix (make 2 containers)"
+     "name": "Wet mix (make 2 batches)"
     },
     {
      "ingredients": [
@@ -5591,40 +5430,40 @@
     },
     {
      "ingredients": [
-      "740 g breakfast sausage, the rest of a 2.5 lb purchase after the burritos (about 1 lb 10 oz)",
-      "600 g eggs, blended 10 to 15 seconds, in 2 squeeze bottles (about 12 large)",
+      "740 g breakfast sausage (about 1 lb 10 oz)",
+      "600 g eggs, blended 10 to 15 seconds (about 12 large)",
       "1/2 stick butter, for the eggs (about 60 g)"
      ],
      "name": "Griddle"
     },
     {
      "ingredients": [
-      "Lemon herb compound butter",
-      "Sour cream",
-      "Pickled red onions",
-      "Hot sauce",
-      "Flaky salt",
-      "Maple syrup",
-      "Whipped cream"
+      "1/2 cup lemon herb compound butter, from its recipe (about 115 g)",
+      "1/2 cup sour cream (about 120 g)",
+      "1/2 cup pickled red onions, drained (about 80 g)",
+      "3 Tbsp hot sauce (about 45 g)",
+      "1 Tbsp flaky salt (about 6 g)",
+      "1 cup maple syrup (about 320 g)",
+      "2 cups whipped cream (about 120 g)"
      ],
-     "name": "Stations"
+     "name": "To serve"
     }
    ],
    "steps": [
-    "At home, whisk each dry blend and bag it in a labeled 2-gallon freezer bag.",
-    "At home, whisk the buttermilk, egg and cooled melted butter for each wet container.",
-    "At camp, cook the sausage on the griddle first.",
-    "Pour one wet mix into each dry bag and squeeze until just hydrated, leaving lumps.",
+    "Whisk each dry blend in its own bowl.",
+    "Whisk the buttermilk, egg and cooled melted butter for each wet batch.",
+    "Cook the sausage on the griddle first.",
+    "Pour one wet mix into each dry mix and stir until just hydrated, leaving lumps.",
     "Rest the batter 15 minutes.",
     "Add butter to the griddle if the sausage fat looks thin.",
     "For ham pancakes, crisp the ham dice on the griddle and nudge into loose rounds.",
-    "Cut a corner of the savory bag and pour batter over each ham round; scatter cheddar on the wet top.",
+    "Pour savory batter over each ham round; scatter cheddar on the wet top.",
     "For sweet pancakes, pour on the griddle and scatter chocolate chips or blueberries on the wet top.",
     "Flip once and cook through.",
     "After the pancakes are off, turn the griddle to low.",
     "Melt the 60 g butter, add the eggs, and push slowly with a spatula until just set and still glossy."
    ],
-   "notes": "Wet mixes keep a couple of days refrigerated; shake hard before pouring since the butter sets into flecks. Blended eggs hold in squeeze bottles in the cooler.",
+   "notes": "The wet mix keeps a couple of days refrigerated; whisk hard before using since the butter sets into flecks.",
    "rating": 0,
    "traits": [
     "camping",
@@ -5632,17 +5471,17 @@
    ],
    "diet": [],
    "nutrition": {
-    "assumptions": "Sausage counted raw with about 30% of its fat left on the griddle; blueberries 300 g per pint; unsalted butter. Station items (compound butter, sour cream, syrup, whipped cream, flaky salt, hot sauce) have no quantities and are left out.",
+    "assumptions": "Sausage counted raw with about 30% of its fat left on the griddle; unsalted butter in the batter and eggs; all station items counted at the amounts listed, split evenly across 8.",
     "per_serving": {
-     "calories": 810,
-     "carbs_g": 55,
-     "cholesterol_mg": 455,
-     "fat_g": 48,
-     "fiber_g": 2.8,
-     "protein_g": 41,
-     "sat_fat_g": 22,
-     "sodium_mg": 2070,
-     "sugar_g": 17
+     "calories": 1090,
+     "carbs_g": 85,
+     "cholesterol_mg": 510,
+     "fat_g": 64,
+     "fiber_g": 3,
+     "protein_g": 46,
+     "sat_fat_g": 32.5,
+     "sodium_mg": 2670,
+     "sugar_g": 44
     },
     "serving": "about 2 pancakes plus sausage and scrambled eggs (1 of 8)",
     "servings": 8
@@ -5657,7 +5496,7 @@
     "hobbit-weekend",
     "make-ahead"
    ],
-   "yield": "about 325 g, 7 ramekins",
+   "yield": "about 325 g",
    "developed": "2026-10-24",
    "groups": [
     {
@@ -5668,7 +5507,7 @@
       "10 g parsley, chopped",
       "15 g lemon juice (about 1/2 lemon)",
       "3 g kosher salt",
-      "black pepper"
+      "2 g black pepper, freshly ground (about 1 tsp)"
      ],
      "name": ""
     }
@@ -5676,7 +5515,7 @@
    "steps": [
     "Stir everything together.",
     "Taste and salt again. It should be sharp enough to cut fried batter.",
-    "Jar and refrigerate."
+    "Refrigerate."
    ],
    "notes": "Keeps a week refrigerated.",
    "rating": 0,
@@ -5691,10 +5530,10 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Regular full-fat mayonnaise; black pepper (no quantity) left out.",
+    "assumptions": "Regular full-fat mayonnaise.",
     "per_serving": {
      "calories": 140,
-     "carbs_g": 0.5,
+     "carbs_g": 0.6,
      "cholesterol_mg": 10,
      "fat_g": 15,
      "fiber_g": 0.1,
@@ -5772,7 +5611,7 @@
     "Launch from a semolina-dusted wood peel, dressing in under 60 seconds.",
     "Bake 5 to 7 minutes, rotating halfway."
    ],
-   "notes": "Label containers with date and time. Past 96 hours the dough goes slack. Refresh the mother (20 g mother, 40 g flour, 20 g water) in the same session as the levain build.",
+   "notes": "Past 96 hours the dough goes slack. Refresh the mother (20 g mother, 40 g flour, 20 g water) in the same session as the levain build.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -5822,16 +5661,16 @@
       "840 g tomatoes, halved (about 7 medium)",
       "450 g cremini mushrooms, halved",
       "350 g sourdough (about 7 slices)",
-      "120 g duck fat, plus strained hen fat",
+      "120 g duck fat",
       "40 g butter",
       "12 g kosher salt",
-      "black pepper"
+      "8 g black pepper, freshly ground (about 4 tsp)"
      ],
      "name": ""
     }
    ],
    "steps": [
-    "Par-cook the brats the day before: bare simmer in well-salted water 10 minutes until firm, then cool and refrigerate.",
+    "Par-cook the brats: bare simmer in well-salted water 10 minutes until firm.",
     "Lay the bacon on wire racks set in sheet pans and bake at 400°F.",
     "After 10 minutes, add the brats on a second pan. Bake both 15 minutes more, until the bacon is crisp and the brats browned.",
     "Fry the bread in duck fat until golden on both sides and salt it.",
@@ -5849,7 +5688,7 @@
    "traits": [],
    "diet": [],
    "nutrition": {
-    "assumptions": "Half the bacon fat renders off, with about 30 g of it reused on the mushrooms and tomatoes; brats lose about 15% of their fat. About 70 g of the duck fat is absorbed by the bread; unmeasured hen fat and black pepper left out.",
+    "assumptions": "Half the bacon fat renders off, with about 30 g of it reused on the mushrooms and tomatoes; brats lose about 15% of their fat. About 70 g of the duck fat is absorbed by the bread; unmeasured hen fat left out.",
     "per_serving": {
      "calories": 1130,
      "carbs_g": 54,
@@ -5863,6 +5702,79 @@
     },
     "serving": "1 plate: 2 eggs, 2 rashers worth of bacon, 1 brat, beans, tomato, mushrooms, fried bread (1 of 7)",
     "servings": 7
+   }
+  },
+  {
+   "id": "growler-toasted-almond-revolver",
+   "title": "Toasted Almond Revolver",
+   "category": "Drinks",
+   "cuisine": "",
+   "tags": [
+    "make-ahead",
+    "large-batch",
+    "cocktail"
+   ],
+   "yield": "about 59 oz, about 16 pours of 3.7 oz, about 28% ABV",
+   "developed": "2026-07-30",
+   "groups": [
+    {
+     "ingredients": [
+      "26 oz bourbon (90 to 100 proof)",
+      "6.5 oz Disaronno amaretto",
+      "11 oz coffee liqueur",
+      "6 oz cold brew concentrate",
+      "9 oz cold filtered water",
+      "1/2 oz Fernet-Branca or another bitter amaro",
+      "2 tsp Angostura bitters",
+      "heaping 1/4 tsp fine salt, two big pinches (about 2 g)"
+     ],
+     "name": ""
+    },
+    {
+     "ingredients": [
+      "60 g orange peel, one wide strip per glass (about 16 strips, from 2 oranges)"
+     ],
+     "name": "To serve"
+    }
+   ],
+   "steps": [
+    "Combine the amaretto and coffee liqueur in a large pitcher or bowl.",
+    "Stir in the bourbon, cold brew, water and amaro.",
+    "Add the bitters and salt and stir until the salt dissolves.",
+    "Taste, and add more bitters or a pinch more salt if it reads cloying.",
+    "Bottle, seal and refrigerate at least 4 hours.",
+    "Pour about 3.7 oz over one large cube.",
+    "Express an orange peel over the top and drop it in."
+   ],
+   "notes": "No citrus or dairy, keeps 3 to 4 weeks refrigerated. Optional: small tinctures in 2 oz bourbon each (one cracked cinnamon stick for 2 days; 4 or 5 cloves for 24 hours; peel of one orange for 4 hours), strained, dosed by the drop per glass or into the batch a day before serving.",
+   "rating": 0,
+   "traits": [
+    "make-ahead",
+    "shelf-stable",
+    "crowd"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "Bourbon taken at 95 proof and coffee liqueur at Kahlua's 20% ABV; liqueur sugars about 25 g (amaretto) and 40 g (coffee liqueur) per 100 ml.",
+    "per_serving": {
+     "calories": 220,
+     "carbs_g": 12,
+     "cholesterol_mg": 0,
+     "fat_g": 0,
+     "fiber_g": 0.4,
+     "protein_g": 0,
+     "sat_fat_g": 0,
+     "sodium_mg": 40,
+     "sugar_g": 11
+    },
+    "serving": "one 3.7 oz pour (about 110 ml) (1 of 16)",
+    "servings": 16
    }
   },
   {
@@ -5889,7 +5801,7 @@
       "3 g dried oregano",
       "2 g dried thyme",
       "0.5 g bay leaves (about 2)",
-      "Parmesan rind, optional",
+      "50 g Parmesan rind, optional (about a 2 by 3 inch piece)",
       "5 g sugar, if the tomatoes taste sharp"
      ],
      "name": "Soup"
@@ -5897,7 +5809,7 @@
     {
      "ingredients": [
       "120 g heavy cream (about 120 ml)",
-      "a few basil leaves, optional"
+      "6 g basil leaves, torn, optional (about 12)"
      ],
      "name": "To finish"
     }
@@ -5910,10 +5822,9 @@
     "Simmer uncovered 30 minutes.",
     "Remove the bay leaves, any thyme stems and the rind.",
     "Blend until smooth. Add the sugar only if needed.",
-    "Cool in shallow containers and refrigerate.",
-    "To serve, reheat gently, stir in the cream and tear in the basil."
+    "Return to low heat, stir in the cream and tear in the basil."
    ],
-   "notes": "Make up to 4 days ahead. Hold the cream and basil until reheating. Served with grilled cheese.",
+   "notes": "Keeps 4 days refrigerated; add the cream and basil when reheating. Good with grilled cheese.",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -5922,16 +5833,16 @@
     "gluten-free"
    ],
    "nutrition": {
-    "assumptions": "Canned tomatoes at about 115 mg sodium per 100 g and regular (not low-sodium) stock; the optional sugar is included, the optional Parmesan rind and basil are not.",
+    "assumptions": "Canned tomatoes at about 115 mg sodium per 100 g and regular (not low-sodium) stock; the optional sugar and basil are included, and about 20% of the optional Parmesan rind is assumed to melt into the soup before it is fished out.",
     "per_serving": {
-     "calories": 220,
+     "calories": 230,
      "carbs_g": 18,
      "cholesterol_mg": 35,
      "fat_g": 17,
      "fiber_g": 6,
-     "protein_g": 4,
-     "sat_fat_g": 8,
-     "sodium_mg": 1770,
+     "protein_g": 4.6,
+     "sat_fat_g": 8.5,
+     "sodium_mg": 1800,
      "sugar_g": 10
     },
     "serving": "about 410 g (1 of 6)",
@@ -5959,7 +5870,7 @@
       "30 g neutral oil",
       "8 g salt",
       "4 g celery seed",
-      "Black pepper"
+      "3 g black pepper, freshly ground (about 1 1/2 tsp)"
      ],
      "name": ""
     }
@@ -5969,7 +5880,7 @@
     "Pour over the cabbage and carrot and toss.",
     "Refrigerate."
    ],
-   "notes": "Make about 3 days ahead; it improves, but goes limp by 5 days.",
+   "notes": "Improves over a few days refrigerated; goes limp by 5 days.",
    "rating": 0,
    "traits": [
     "camping",
