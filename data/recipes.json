@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T18:07:44+00:00",
+ "generated": "2026-10-26T18:14:45+00:00",
  "recipes": [
   {
    "id": "brussels-sprouts-bacon",
@@ -81,7 +81,7 @@
     },
     {
      "ingredients": [
-      "120 g cider reduction, room temperature",
+      "120 g [cider reduction](cider-reduction), room temperature",
       "500 g bread flour",
       "200 g sourdough discard, 100% hydration, cold and unfed is fine",
       "260 g water, room temperature",
@@ -115,7 +115,7 @@
     "Bake 22 to 28 minutes, until deep golden and pulling from the sides.",
     "Turn out, brush all over with the melted butter and press the top and sides into the cinnamon sugar."
    ],
-   "notes": "Serve with the cider cream cheese glaze for dipping. For a 36 hour cold ferment, use 2 g yeast instead of 3 g.",
+   "notes": "Serve with the [cider cream cheese glaze](cider-cream-cheese-glaze) for dipping. For a 36 hour cold ferment, use 2 g yeast instead of 3 g.",
    "rating": 0,
    "traits": [
     "make-ahead",
@@ -329,7 +329,7 @@
     "Lower away from yourself into the 190°C oil.",
     "Fry 3 to 4 minutes, three or four pieces at a time, until the batter is hard and deep gold. Fry the thin tail pieces together.",
     "Drain on a rack and salt immediately.",
-    "Serve with malt vinegar and tartar sauce."
+    "Serve with malt vinegar and [tartar sauce](tartar-sauce)."
    ],
    "notes": "The dry mix keeps for days in an airtight container. Cool the oil fully before storing.",
    "rating": 0,
@@ -763,7 +763,7 @@
     {
      "ingredients": [
       "~240 g pooled butter runoff from the boil toss (about 250 ml)",
-      "10 g Cajun seasoning",
+      "10 g [Cajun seasoning](cajun-seasoning)",
       "2 g cayenne",
       "10 g Crystal hot sauce (15 g for genuinely hot)"
      ],
@@ -801,6 +801,68 @@
    }
   },
   {
+   "id": "cajun-seasoning",
+   "title": "Cajun Seasoning",
+   "category": "Spice Blends",
+   "cuisine": "Cajun",
+   "tags": [
+    "spice-blend"
+   ],
+   "yield": "about 90 g",
+   "developed": "2026-10-26",
+   "groups": [
+    {
+     "ingredients": [
+      "24 g fine salt (about 4 tsp)",
+      "25 g sweet paprika (about 3 1/2 Tbsp)",
+      "10 g garlic powder (about 1 Tbsp)",
+      "8 g onion powder (about 1 Tbsp)",
+      "8 g cayenne (about 1 Tbsp plus 1 tsp)",
+      "6 g black pepper, finely ground (about 2 tsp)",
+      "4 g white pepper (about 1 1/2 tsp)",
+      "4 g dried oregano (about 1 Tbsp plus 1 tsp)",
+      "4 g dried thyme (about 1 Tbsp plus 1 tsp)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Crush the oregano and thyme between your palms.",
+    "Stir everything together.",
+    "Store airtight."
+   ],
+   "notes": "Keeps 6 months airtight.",
+   "rating": 0,
+   "traits": [
+    "make-ahead",
+    "shelf-stable",
+    "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "Fine salt at 388 mg sodium per gram.",
+    "per_serving": {
+     "calories": 5,
+     "carbs_g": 1.2,
+     "cholesterol_mg": 0,
+     "fat_g": 0.2,
+     "fiber_g": 0.5,
+     "protein_g": 0.3,
+     "sat_fat_g": 0,
+     "sodium_mg": 310,
+     "sugar_g": 0.2
+    },
+    "serving": "1 tsp, about 3 g (1 of 30)",
+    "servings": 30
+   }
+  },
+  {
    "id": "camp-cheesesteaks-chuck-eye",
    "title": "Camp Cheesesteaks (Shaved Chuck Eye with Queso)",
    "category": "Mains",
@@ -820,7 +882,7 @@
       "340 g cremini, sliced thick",
       "2 Tbsp butter and 1 1/2 tsp kosher salt, for the mushrooms (about 28 g butter and 4.5 g Diamond Crystal)",
       "8 slices provolone (about 170 g)",
-      "2 cups queso (American and sharp cheddar), about 1/4 cup per sandwich (about 480 g)",
+      "2 cups [queso](queso-american-cheddar), about 1/4 cup per sandwich (about 480 g)",
       "Sandwich paper and tape"
      ],
      "name": ""
@@ -941,10 +1003,10 @@
      "ingredients": [
       "12 oz andouille, sliced (about 340 g)",
       "14 oz plain smoked ham, 15 mm dice (about 397 g)",
-      "350 g barbacoa",
-      "542 g carnitas",
-      "10 oz mushroom duxelles mix (about 283 g)",
-      "12 oz red beans (about 340 g)"
+      "350 g [barbacoa](barbacoa-crockpot)",
+      "542 g [carnitas](carnitas-oven)",
+      "10 oz [mushroom duxelles mix](mushroom-duxelles-mix) (about 283 g)",
+      "12 oz [red beans](red-beans-camp) (about 340 g)"
      ],
      "name": "Proteins"
     },
@@ -965,7 +1027,7 @@
      "ingredients": [
       "8 pats butter, 15 g each (about 120 g)",
       "8 oz Velveeta, cut into 1.5 cm cubes (about 227 g)",
-      "To finish: 2 Tbsp Creole seasoning (about 15 g), 1 Tbsp chili flakes (about 5 g), 1/4 cup hot sauce (about 60 g), and 1 cup each salsa verde and salsa roja (about 240 g each, from their recipes)"
+      "To finish: 2 Tbsp [Creole seasoning](creole-seasoning) (about 15 g), 1 Tbsp chili flakes (about 5 g), 1/4 cup hot sauce (about 60 g) and 1 cup each [salsa verde](salsa-verde-broiled) and [salsa roja](salsa-roja-de-arbol) (about 240 g each)"
      ],
      "name": "Finish"
     }
@@ -1243,7 +1305,7 @@
     "Space the pasties out from frozen.",
     "Brush all over with egg wash, keeping it out of the vents.",
     "Bake 45 minutes, until deep golden and 165°F in the middle.",
-    "Rest 10 minutes. Serve with piccalilli and English mustard."
+    "Rest 10 minutes. Serve with [piccalilli](piccalilli) and English mustard."
    ],
    "notes": "Unbaked pasties keep frozen up to 3 months; bake straight from frozen.",
    "rating": 0,
@@ -1357,7 +1419,7 @@
       "3 g black cardamom, lightly cracked (about 2 pods)",
       "6 g anardana (dried pomegranate seed), toasted and ground (about 2 tsp)",
       "3 g amchur (dried green mango powder) (about 1 tsp)",
-      "15 g chole masala, homemade blend or MDH (about 2 Tbsp)",
+      "15 g [chole masala](chole-masala), homemade or MDH (about 2 Tbsp)",
       "2 g kasuri methi (about 1 Tbsp)",
       "22 g kosher salt (about 2 1/2 Tbsp Diamond Crystal)"
      ],
@@ -1410,6 +1472,74 @@
    }
   },
   {
+   "id": "chole-masala",
+   "title": "Chole Masala",
+   "category": "Spice Blends",
+   "cuisine": "Punjabi",
+   "tags": [
+    "spice-blend"
+   ],
+   "yield": "about 60 g",
+   "developed": "2026-10-26",
+   "groups": [
+    {
+     "ingredients": [
+      "12 g coriander seeds (about 2 Tbsp)",
+      "8 g cumin seeds (about 1 Tbsp)",
+      "6 g black peppercorns (about 2 tsp)",
+      "8 g black cardamom (about 4 pods)",
+      "3 g cinnamon stick (about 1 small stick)",
+      "2 g whole cloves (about 20)",
+      "1 g bay leaves (about 2)",
+      "10 g anardana, dried pomegranate seed (about 1 Tbsp)",
+      "6 g Kashmiri chili powder (about 2 tsp)",
+      "6 g amchur, dried mango powder (about 2 tsp)",
+      "4 g ground ginger (about 2 tsp)",
+      "3 g kasuri methi (about 1 Tbsp)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Toast the coriander, cumin, peppercorns, black cardamom, cinnamon, cloves and bay leaves in a dry skillet over medium heat until fragrant, 2 to 3 minutes.",
+    "Add the anardana for the last 30 seconds.",
+    "Cool completely.",
+    "Crush the kasuri methi between your palms.",
+    "Grind everything to a fine powder in a spice grinder.",
+    "Store airtight."
+   ],
+   "notes": "Keeps 3 months airtight, away from light.",
+   "rating": 0,
+   "traits": [
+    "make-ahead",
+    "shelf-stable",
+    "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "Whole spices at USDA values.",
+    "per_serving": {
+     "calories": 10,
+     "carbs_g": 1.4,
+     "cholesterol_mg": 0,
+     "fat_g": 0.3,
+     "fiber_g": 0.7,
+     "protein_g": 0.3,
+     "sat_fat_g": 0,
+     "sodium_mg": 2,
+     "sugar_g": 0.1
+    },
+    "serving": "1 tsp, about 2.5 g (1 of 24)",
+    "servings": 24
+   }
+  },
+  {
    "id": "cider-cream-cheese-glaze",
    "title": "Cider Cream Cheese Glaze",
    "category": "Desserts",
@@ -1425,7 +1555,7 @@
       "115 g cream cheese, softened (about 1/2 of an 8 oz block)",
       "55 g unsalted butter, softened (about 1/2 stick)",
       "180 g powdered sugar",
-      "30 g cider reduction, plus more to thin",
+      "30 g [cider reduction](cider-reduction), plus more to thin",
       "1 g fine salt"
      ],
      "name": ""
@@ -1437,7 +1567,7 @@
     "Thin with more reduction until dippable.",
     "Refrigerate."
    ],
-   "notes": "Keeps refrigerated; let it soften at room temperature before serving. Serve as a dip beside apple cider doughnut focaccia, not spread on top.",
+   "notes": "Keeps refrigerated; let it soften at room temperature before serving. Serve as a dip beside [apple cider doughnut focaccia](apple-cider-doughnut-focaccia), not spread on top.",
    "rating": 0,
    "traits": [
     "make-ahead"
@@ -1643,10 +1773,10 @@
    "groups": [
     {
      "ingredients": [
-      "460 g leftover skillet cornbread, split horizontally (about 4 wedges)",
+      "460 g leftover [skillet cornbread](skillet-cornbread-honey-butter), split horizontally (about 4 wedges)",
       "40 g butter or lard, for griddling (about 3 Tbsp)",
       "200 g eggs (about 4 large)",
-      "120 g pimento cheese (about 1/2 cup)",
+      "120 g [pimento cheese](pimento-cheese) (about 1/2 cup)",
       "80 g red pepper jelly (mild) (about 1/4 cup)",
       "120 g bacon or country ham, optional (about 4 thick slices bacon)",
       "40 g hot pepper jelly, optional (about 2 Tbsp)"
@@ -1756,7 +1886,7 @@
      "ingredients": [
       "500 g green cabbage, finely shredded (about 1/2 medium head)",
       "80 g mayonnaise",
-      "25 g Creole mustard",
+      "25 g [Creole mustard](creole-mustard)",
       "15 g cider vinegar",
       "3 g kosher salt"
      ],
@@ -1766,7 +1896,7 @@
    "steps": [
     "Toss the cabbage with the mayonnaise, Creole mustard, vinegar and salt.",
     "Refrigerate about 30 minutes.",
-    "Serve on warmed, crisped French bread loaves piled with pulled cochon de lait."
+    "Serve on warmed, crisped French bread loaves piled with pulled [cochon de lait](poor-mans-cochon-de-lait)."
    ],
    "notes": "",
    "rating": 0,
@@ -1792,6 +1922,68 @@
     },
     "serving": "about 150 g (1 of 4)",
     "servings": 4
+   }
+  },
+  {
+   "id": "creole-seasoning",
+   "title": "Creole Seasoning (No Salt)",
+   "category": "Spice Blends",
+   "cuisine": "Creole",
+   "tags": [
+    "spice-blend"
+   ],
+   "yield": "about 80 g",
+   "developed": "2026-10-26",
+   "groups": [
+    {
+     "ingredients": [
+      "25 g sweet paprika (about 3 1/2 Tbsp)",
+      "10 g garlic powder (about 1 Tbsp)",
+      "10 g onion powder (about 1 Tbsp plus 1 tsp)",
+      "8 g black pepper, finely ground (about 1 Tbsp)",
+      "5 g white pepper (about 2 tsp)",
+      "6 g cayenne (about 1 Tbsp)",
+      "6 g dried oregano (about 2 Tbsp)",
+      "6 g dried thyme (about 2 Tbsp)",
+      "3 g dried basil (about 1 Tbsp)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Crush the oregano, thyme and basil between your palms.",
+    "Stir everything together.",
+    "Store airtight."
+   ],
+   "notes": "Salt-free on purpose, so you season the dish separately. For a salted all-purpose blend, add 35 g fine salt.",
+   "rating": 0,
+   "traits": [
+    "make-ahead",
+    "shelf-stable",
+    "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "No salt added.",
+    "per_serving": {
+     "calories": 10,
+     "carbs_g": 1.6,
+     "cholesterol_mg": 0,
+     "fat_g": 0.3,
+     "fiber_g": 0.7,
+     "protein_g": 0.4,
+     "sat_fat_g": 0,
+     "sodium_mg": 2,
+     "sugar_g": 0.3
+    },
+    "serving": "1 tsp, about 2.5 g (1 of 32)",
+    "servings": 32
    }
   },
   {
@@ -2423,6 +2615,71 @@
    }
   },
   {
+   "id": "garam-masala",
+   "title": "Garam Masala",
+   "category": "Spice Blends",
+   "cuisine": "North Indian",
+   "tags": [
+    "spice-blend"
+   ],
+   "yield": "about 45 g",
+   "developed": "2026-10-26",
+   "groups": [
+    {
+     "ingredients": [
+      "15 g coriander seeds (about 2 1/2 Tbsp)",
+      "10 g cumin seeds (about 1 Tbsp plus 1 tsp)",
+      "6 g black peppercorns (about 2 tsp)",
+      "6 g green cardamom pods (about 30)",
+      "4 g black cardamom (about 2 pods)",
+      "4 g cinnamon stick (about 1 stick)",
+      "2 g whole cloves (about 20)",
+      "0.5 g bay leaves (about 2)",
+      "1 g mace (about 1 blade)",
+      "1 g nutmeg, freshly grated (about 1/2 tsp)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Toast everything except the nutmeg in a dry skillet over medium heat until fragrant, 2 to 3 minutes.",
+    "Cool completely.",
+    "Grind to a fine powder with the nutmeg.",
+    "Sift out any woody bits.",
+    "Store airtight."
+   ],
+   "notes": "Keeps 3 months airtight, away from light.",
+   "rating": 0,
+   "traits": [
+    "make-ahead",
+    "shelf-stable",
+    "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "Whole spices at USDA values.",
+    "per_serving": {
+     "calories": 5,
+     "carbs_g": 1.1,
+     "cholesterol_mg": 0,
+     "fat_g": 0.3,
+     "fiber_g": 0.6,
+     "protein_g": 0.3,
+     "sat_fat_g": 0,
+     "sodium_mg": 2,
+     "sugar_g": 0
+    },
+    "serving": "1 tsp, about 2 g (1 of 22)",
+    "servings": 22
+   }
+  },
+  {
    "id": "garlic-old-bay-butter",
    "title": "Garlic Old Bay Butter",
    "category": "Sauces & Condiments",
@@ -2721,7 +2978,7 @@
     "Build the sandwiches buttered sides out, with the cheese mounded to the edges.",
     "Cook over medium-low, covered, until deep golden and fully melted, 4 to 5 minutes per side."
    ],
-   "notes": "Good with tomato soup.",
+   "notes": "Good with [tomato soup](san-marzano-tomato-soup).",
    "rating": 0,
    "traits": [
     "quick"
@@ -3005,9 +3262,9 @@
     {
      "ingredients": [
       "16 pocketless Greek pita (about 1280 g)",
-      "16 Grilled vegetable skewers, one per wrap (about 2500 g raw vegetables, from their recipe)",
-      "2 cups Garlic-dill yogurt sauce, 2 Tbsp per wrap (about 540 g, from its recipe)",
-      "1 1/3 cups Pickled red onions, drained, 20 g per wrap (about 320 g, from their recipe)",
+      "16 [grilled vegetable skewers](grilled-vegetable-skewers), one per wrap (about 2500 g raw vegetables)",
+      "2 cups [garlic-dill yogurt sauce](garlic-dill-yogurt-sauce), 2 Tbsp per wrap (about 540 g)",
+      "1 1/3 cups [pickled red onions](pickled-red-onions), drained, 20 g per wrap (about 320 g)",
       "4 Charred lemon halves, from 2 lemons (about 200 g)",
       "Sumac and Aleppo pepper for the table (about 1 Tbsp each, 7 g sumac and 6 g Aleppo)"
      ],
@@ -3275,7 +3532,7 @@
       "250 g green bell pepper, diced (about 1 1/2)",
       "200 g celery, diced (about 4 ribs)",
       "60 g garlic, minced (about 12 cloves)",
-      "20 g no-salt Creole seasoning (Tony Chachere's no-salt)",
+      "20 g [no-salt Creole seasoning](creole-seasoning), homemade or Tony Chachere's no-salt",
       "4 g dried thyme",
       "5 g cayenne",
       "6 g black pepper",
@@ -3389,7 +3646,7 @@
     },
     {
      "ingredients": [
-      "900 g Garlic Old Bay Butter, melted",
+      "900 g [Garlic Old Bay Butter](garlic-old-bay-butter), melted",
       "~500 g boil liquor, from the pot (about 500 ml)",
       "60 g Old Bay"
      ],
@@ -3412,7 +3669,7 @@
     "Pour the butter and boil liquor over the top, sprinkle the 60 g Old Bay over in two or three passes and toss with the paddle about 10 minutes.",
     "Pour off everything that pools at the bottom into bowls for the table as the dip."
    ],
-   "notes": "Melt the butter after any other prep, while the pot climbs. Keep warm until the toss. Hold tiny creamer potatoes until 0:05. Serve on a paper-covered table with dipping sauces.",
+   "notes": "Melt the butter after any other prep, while the pot climbs. Keep warm until the toss. Hold tiny creamer potatoes until 0:05. Serve on a paper-covered table with [cocktail sauce](ldw-cocktail-sauce), [remoulade](ldw-remoulade), [serrano ranch](serrano-ranch), [Cajun runoff butter](cajun-runoff-butter) and [drawn lemon butter](drawn-lemon-butter) for dipping.",
    "rating": 0,
    "traits": [
     "crowd"
@@ -3478,7 +3735,7 @@
       "120 g poblano, diced (about 1)",
       "300 g yellow onions, diced; just under 2 lb vegetables total (about 2 medium)",
       "42 g oil (about 3 Tbsp)",
-      "25 g salted taco seasoning (about 3 Tbsp)"
+      "25 g [taco seasoning](taco-seasoning) (about 3 Tbsp)"
      ],
      "name": "Burrito vegetables"
     },
@@ -4035,6 +4292,84 @@
    }
   },
   {
+   "id": "piccalilli",
+   "title": "Piccalilli",
+   "category": "Sauces & Condiments",
+   "cuisine": "British",
+   "tags": [
+    "pickles",
+    "relish"
+   ],
+   "yield": "about 1 L",
+   "developed": "2026-10-26",
+   "groups": [
+    {
+     "ingredients": [
+      "500 g cauliflower, in small florets (about 1/2 medium head)",
+      "150 g green beans, cut in 1 cm pieces",
+      "150 g yellow onion, finely diced (about 1 medium)",
+      "150 g cucumber, seeded and diced (about 1 small)",
+      "30 g fine salt, for salting (about 5 tsp)"
+     ],
+     "name": "Vegetables"
+    },
+    {
+     "ingredients": [
+      "400 g apple cider vinegar (about 1 2/3 cups)",
+      "150 g granulated sugar (about 3/4 cup)",
+      "5 g yellow mustard seeds (about 1 1/2 tsp)",
+      "20 g English mustard powder (about 3 Tbsp)",
+      "10 g ground turmeric (about 1 Tbsp plus 1 tsp)",
+      "5 g ground ginger (about 2 1/2 tsp)",
+      "2 g chili flakes (about 1 tsp)",
+      "25 g cornstarch (about 3 Tbsp)",
+      "50 g cold water (about 3 1/2 Tbsp)"
+     ],
+     "name": "Sauce"
+    }
+   ],
+   "steps": [
+    "Toss the vegetables with the salt in a bowl.",
+    "Cover and refrigerate 4 hours or overnight.",
+    "Rinse well and drain thoroughly.",
+    "Bring the vinegar, sugar and mustard seeds to a simmer, stirring to dissolve the sugar.",
+    "Whisk the mustard powder, turmeric, ginger, chili flakes, cornstarch and cold water to a smooth paste.",
+    "Whisk the paste into the simmering vinegar.",
+    "Simmer, whisking, until thick and glossy, about 3 minutes.",
+    "Add the vegetables and simmer 2 minutes, so they stay crisp.",
+    "Spoon into clean jars and cool.",
+    "Refrigerate at least 2 days before eating."
+   ],
+   "notes": "Keeps 1 month refrigerated. The flavor mellows and improves over the first week.",
+   "rating": 0,
+   "traits": [
+    "make-ahead"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "15% of the salting salt counted as retained after rinsing.",
+    "per_serving": {
+     "calories": 30,
+     "carbs_g": 7,
+     "cholesterol_mg": 0,
+     "fat_g": 0.3,
+     "fiber_g": 0.5,
+     "protein_g": 0.5,
+     "sat_fat_g": 0,
+     "sodium_mg": 60,
+     "sugar_g": 5
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 32)",
+    "servings": 32
+   }
+  },
+  {
    "id": "pickled-red-onions",
    "title": "Pickled Red Onions",
    "category": "Sauces & Condiments",
@@ -4151,6 +4486,67 @@
    }
   },
   {
+   "id": "pimento-cheese",
+   "title": "Pimento Cheese",
+   "category": "Sauces & Condiments",
+   "cuisine": "Southern",
+   "tags": [
+    "spread"
+   ],
+   "yield": "about 720 g (about 3 cups)",
+   "developed": "2026-10-26",
+   "groups": [
+    {
+     "ingredients": [
+      "340 g sharp cheddar, freshly grated (about 12 oz block)",
+      "115 g cream cheese, softened (about half an 8 oz block)",
+      "120 g mayonnaise (about 1/2 cup)",
+      "113 g diced pimentos, drained (about one 4 oz jar)",
+      "5 g hot sauce (about 1 tsp)",
+      "3 g smoked paprika (about 1 tsp)",
+      "2 g garlic powder (about 1/2 tsp)",
+      "1 g cayenne (about 1/2 tsp)",
+      "3 g black pepper, freshly ground (about 1 tsp)",
+      "3 g fine salt (about 1/2 tsp)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Beat the cream cheese, mayonnaise, hot sauce, paprika, garlic powder, cayenne, pepper and salt until smooth.",
+    "Fold in the cheddar and pimentos.",
+    "Taste for salt and heat.",
+    "Chill at least 1 hour."
+   ],
+   "notes": "Keeps 5 days refrigerated. Grate the cheese yourself; pre-shredded makes it grainy.",
+   "rating": 0,
+   "traits": [
+    "make-ahead",
+    "quick"
+   ],
+   "diet": [
+    "vegetarian",
+    "pescatarian",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "Sharp cheddar, full-fat cream cheese and mayonnaise at USDA values.",
+    "per_serving": {
+     "calories": 110,
+     "carbs_g": 0.8,
+     "cholesterol_mg": 20,
+     "fat_g": 10,
+     "fiber_g": 0.1,
+     "protein_g": 4,
+     "sat_fat_g": 4,
+     "sodium_mg": 190,
+     "sugar_g": 0.3
+    },
+    "serving": "2 Tbsp, about 30 g (1 of 24)",
+    "servings": 24
+   }
+  },
+  {
    "id": "poor-mans-cochon-de-lait",
    "title": "Poor Man's Cochon de Lait",
    "category": "Mains",
@@ -4177,7 +4573,7 @@
     {
      "ingredients": [
       "4300 g bone-in pork shoulder (Boston butt)",
-      "35 g no-salt Creole seasoning",
+      "35 g [no-salt Creole seasoning](creole-seasoning)",
       "45 g kosher salt",
       "30 g brown sugar",
       "6 g black pepper"
@@ -4401,7 +4797,7 @@
     },
     {
      "ingredients": [
-      "12 g garam masala",
+      "12 g [garam masala](garam-masala)",
       "5 g kasuri methi (dried fenugreek leaves)",
       "113 g butter (about 1 stick)",
       "45 g kosher salt",
@@ -5454,9 +5850,9 @@
     },
     {
      "ingredients": [
-      "1/2 cup lemon herb compound butter, from its recipe (about 115 g)",
+      "1/2 cup [lemon herb compound butter](lemon-herb-compound-butter) (about 115 g)",
       "1/2 cup sour cream (about 120 g)",
-      "1/2 cup pickled red onions, drained (about 80 g)",
+      "1/2 cup [pickled red onions](pickled-red-onions), drained (about 80 g)",
       "3 Tbsp hot sauce (about 45 g)",
       "1 Tbsp flaky salt (about 6 g)",
       "1 cup maple syrup (about 320 g)",
@@ -5501,6 +5897,69 @@
     },
     "serving": "about 2 pancakes plus sausage and scrambled eggs (1 of 8)",
     "servings": 8
+   }
+  },
+  {
+   "id": "taco-seasoning",
+   "title": "Taco Seasoning",
+   "category": "Spice Blends",
+   "cuisine": "Tex-Mex",
+   "tags": [
+    "spice-blend"
+   ],
+   "yield": "about 75 g",
+   "developed": "2026-10-26",
+   "groups": [
+    {
+     "ingredients": [
+      "20 g ancho chile powder (about 3 Tbsp)",
+      "10 g ground cumin (about 1 Tbsp plus 2 tsp)",
+      "6 g smoked paprika (about 2 tsp)",
+      "5 g garlic powder (about 1 1/2 tsp)",
+      "5 g onion powder (about 2 tsp)",
+      "3 g dried Mexican oregano (about 1 Tbsp)",
+      "2 g cayenne (about 1 tsp)",
+      "3 g black pepper, finely ground (about 1 tsp)",
+      "20 g fine salt (about 3 1/2 tsp)"
+     ],
+     "name": ""
+    }
+   ],
+   "steps": [
+    "Crush the oregano between your palms.",
+    "Stir everything together.",
+    "Store airtight.",
+    "Use about 25 g per 450 g (1 lb) meat."
+   ],
+   "notes": "Keeps 6 months airtight.",
+   "rating": 0,
+   "traits": [
+    "make-ahead",
+    "shelf-stable",
+    "quick"
+   ],
+   "diet": [
+    "vegan",
+    "vegetarian",
+    "pescatarian",
+    "dairy-free",
+    "gluten-free"
+   ],
+   "nutrition": {
+    "assumptions": "Fine salt at 388 mg sodium per gram.",
+    "per_serving": {
+     "calories": 10,
+     "carbs_g": 1.4,
+     "cholesterol_mg": 0,
+     "fat_g": 0.3,
+     "fiber_g": 0.7,
+     "protein_g": 0.4,
+     "sat_fat_g": 0,
+     "sodium_mg": 310,
+     "sugar_g": 0.2
+    },
+    "serving": "1 tsp, about 3 g (1 of 25)",
+    "servings": 25
    }
   },
   {
@@ -5840,7 +6299,7 @@
     "Blend until smooth. Add the sugar only if needed.",
     "Return to low heat, stir in the cream and tear in the basil."
    ],
-   "notes": "Keeps 4 days refrigerated; add the cream and basil when reheating. Good with grilled cheese.",
+   "notes": "Keeps 4 days refrigerated; add the cream and basil when reheating. Good with [grilled cheese](gruyere-gouda-grilled-cheese).",
    "rating": 0,
    "traits": [
     "make-ahead"

@@ -126,7 +126,10 @@ function renderFilters(){
 }
 function applyFilters(){saveView();renderFilters();renderList()}
 
-function haystack(r){return [r.title,r.cuisine,r.category,(r.tags||[]).join(" "),...(r.groups||[]).flatMap(g=>g.ingredients||[])].join(" ").toLowerCase()}
+const LINK_RE=/\[([^\]]+)\]\(([a-z0-9-]+)\)/g;
+function linkify(escaped){return escaped.replace(LINK_RE,(m,l,id)=>state.recipes.has(id)?`<a class="rlink" href="#${id}">${l}</a>`:l)}
+function unlink(t){return String(t??"").replace(LINK_RE,"$1")}
+function haystack(r){return unlink([r.title,r.cuisine,r.category,(r.tags||[]).join(" "),...(r.groups||[]).flatMap(g=>g.ingredients||[])].join(" ")).toLowerCase()}
 function score(r){const f=friendAvg(r.id);return r.rating||(f?f.avg:0)}
 function filtered(){
   const q=state.q.trim().toLowerCase();
@@ -249,14 +252,14 @@ function renderCard(){
         ${presets.map(p=>`<button type="button" class="sc" data-scale="${p}" aria-pressed="${k===p}">${p===1?"1×":frac(p)+"×"}</button>`).join("")}
         <input id="scaleIn" type="number" min="0.1" step="0.05" inputmode="decimal" aria-label="Custom multiplier" value="${presets.includes(k)?"":k}" placeholder="×">
       </div>
-      ${(r.groups||[]).map((g,gi)=>`<div class="ing-group">${g.name?`<h4>${esc(g.name)}</h4>`:""}<ul class="ing">${(g.ingredients||[]).map((ing,ii)=>{const [q,rest]=splitQty(scaleLine(ing,k));const key=`i${gi}-${ii}`;return `<li data-k="${key}" class="${chk[key]?"done":""}"><span class="q">${esc(q)}</span><span>${esc(rest)}</span></li>`}).join("")}</ul></div>`).join("")}
+      ${(r.groups||[]).map((g,gi)=>`<div class="ing-group">${g.name?`<h4>${esc(g.name)}</h4>`:""}<ul class="ing">${(g.ingredients||[]).map((ing,ii)=>{const [q,rest]=splitQty(scaleLine(ing,k));const key=`i${gi}-${ii}`;return `<li data-k="${key}" class="${chk[key]?"done":""}"><span class="q">${esc(q)}</span><span>${linkify(esc(rest))}</span></li>`}).join("")}</ul></div>`).join("")}
     </section>
     <section>
       <h3 class="sec-h">Method</h3>
-      <ol class="steps">${(r.steps||[]).map((s,i)=>`<li data-k="s${i}" class="${chk["s"+i]?"done":""}"><span>${esc(s)}</span></li>`).join("")}</ol>
+      <ol class="steps">${(r.steps||[]).map((s,i)=>`<li data-k="s${i}" class="${chk["s"+i]?"done":""}"><span>${linkify(esc(s))}</span></li>`).join("")}</ol>
     </section>
   </div>
-  ${r.notes?`<section><h3 class="sec-h">Notes</h3><div class="notes">${esc(r.notes)}</div></section>`:""}
+  ${r.notes?`<section><h3 class="sec-h">Notes</h3><div class="notes">${linkify(esc(r.notes))}</div></section>`:""}
   ${nutritionBlock(r)}
   ${SB?`<section class="friends-sec">
     <h3 class="sec-h">Made it? <small>leave a rating or a note for Adam and everyone else</small></h3>
@@ -276,6 +279,7 @@ function renderCard(){
   </div>`;
   $("#backBtn").onclick=()=>openRecipe(null);
   el.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{state.photoSel[r.id]=+b.dataset.ph;renderCard()});
+  el.querySelectorAll(".rlink").forEach(a=>a.onclick=e=>e.stopPropagation());
   el.querySelectorAll(".ing li,.steps li").forEach(li=>li.onclick=()=>{const c=state.checked[r.id]=state.checked[r.id]||{};c[li.dataset.k]=!c[li.dataset.k];li.classList.toggle("done",c[li.dataset.k]);store("rb.checked",state.checked)});
   el.querySelectorAll("[data-scale]").forEach(b=>b.onclick=()=>setScale(r.id,+b.dataset.scale));
   $("#scaleIn").onchange=e=>{const v=parseFloat(e.target.value);if(v>0&&v<=50)setScale(r.id,Math.round(v*100)/100)};
@@ -323,7 +327,7 @@ function nutritionBlock(r){
     </div></details></section>`;
 }
 function recipeText(r,k=1){
-  return [r.title+(k!==1?` (× ${frac(k)})`:""),r.yield?`Yield: ${r.yield}${k!==1?` × ${frac(k)}`:""}`:"","",...(r.groups||[]).flatMap(g=>[g.name?`${g.name}:`:"Ingredients:",...(g.ingredients||[]).map(i=>"- "+scaleLine(i,k)),""]),"Method:",...(r.steps||[]).map(s=>"- "+s),r.notes?`\nNotes: ${r.notes}`:""].filter((l,i,a)=>!(l===""&&a[i-1]==="")).join("\n").trim();
+  return [r.title+(k!==1?` (× ${frac(k)})`:""),r.yield?`Yield: ${r.yield}${k!==1?` × ${frac(k)}`:""}`:"","",...(r.groups||[]).flatMap(g=>[g.name?`${g.name}:`:"Ingredients:",...(g.ingredients||[]).map(i=>"- "+unlink(scaleLine(i,k))),""]),"Method:",...(r.steps||[]).map(s=>"- "+unlink(s)),r.notes?`\nNotes: ${unlink(r.notes)}`:""].filter((l,i,a)=>!(l===""&&a[i-1]==="")).join("\n").trim();
 }
 async function copyText(t,msg){try{await navigator.clipboard.writeText(t);toast(msg)}catch(e){const ta=document.createElement("textarea");ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");toast(msg)}catch(_){toast("Select and copy")}setTimeout(()=>ta.remove(),3000)}}
 

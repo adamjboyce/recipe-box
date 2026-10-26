@@ -264,3 +264,4 @@ html{height:100%}
 
 .changed{margin-top:8px;font-size:13px;color:var(--fg);background:var(--mustard-soft);border-left:3px solid var(--mustard);padding:4px 10px;border-radius:0 6px 6px 0;max-width:62ch}
 .before{font-size:12px;color:var(--muted);font-style:italic}
+.rlink{color:var(--accent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
