@@ -125,6 +125,10 @@ function renderEditor(){
       <textarea id="eIng" rows="14">${esc(groupsToText(r.groups))}</textarea></label>
     <label>Steps <small>one per line</small><textarea id="eSteps" rows="12">${esc(stepsToText(r.steps))}</textarea></label>
     <label>Notes<textarea id="eNotes" rows="3">${esc(r.notes||"")}</textarea></label>
+    <details class="eblock"${(r.alt_methods||[]).length?" open":""}><summary>Cooking methods <small>shown as tabs on the card</small></summary>
+      <label>Main method <small>what the ingredients and steps above are, e.g. Dutch oven. Leave blank if there's only one way.</small><input id="eMethod" value="${esc(r.method||"")}"></label>
+      <div id="eAlts" class="ealts">${(r.alt_methods||[]).map(altBlock).join("")}</div>
+      <div class="row"><button class="btn" type="button" id="eAddAlt">+ Add another method</button></div></details>
     <details class="eblock"${r.nutrition?"":""}><summary>Nutrition</summary>
       <div class="two"><label>Serving<input id="nServing" value="${esc(n.serving||"")}"></label><label>Servings per batch<input id="nServings" type="number" min="0" step="1" value="${esc(n.servings??"")}"></label></div>
       <div class="ngrid">${NUT.map(([k,l,u])=>`<label>${l}${u?` <small>${u}</small>`:""}<input type="number" step="any" data-nut="${k}" value="${esc(ps[k]??"")}"></label>`).join("")}</div>
@@ -157,6 +161,16 @@ function logBlock(r){
     ${entries.length?`<ul class="loglist">${entries.map(e=>`<li class="${e.kind}"><div class="h"><b>${esc(fmtDate(e.date))}</b> ${e.kind==="change"?`<span class="flag">Change</span>`:""}${e.rating?`<span class="mini-stars">${stars(e.rating)}</span>`:""}<span class="spacer"></span><button class="btn" type="button" data-ldel="${esc(e.id)}">Delete</button></div>
       <div>${esc(e.note)}</div>${e.before?`<details><summary>The recipe before this change</summary><pre>${esc(snapText(e.before))}</pre></details>`:""}</li>`).join("")}</ul>`:`<p class="muted">Nothing logged yet.</p>`}</section>`;
 }
+function altBlock(a,i){const same=!a.groups||!a.groups.length;
+  return `<fieldset class="ameth" data-alt="${i}"><div class="row"><label style="flex:1">Method name<input data-af="name" value="${esc(a.name||"")}" placeholder="e.g. Slow cooker"></label>
+    <button class="btn" type="button" data-amain="${i}">Make main</button><button class="btn danger" type="button" data-adel="${i}">Remove</button></div>
+    <label class="chk"><input type="checkbox" data-af="same"${same?" checked":""}> Same ingredients as the main method</label>
+    <label data-ingwrap${same?" hidden":""}>Ingredients<textarea data-af="groups" rows="8">${esc(same?"":groupsToText(a.groups))}</textarea></label>
+    <label>Steps <small>one per line</small><textarea data-af="steps" rows="8">${esc(stepsToText(a.steps))}</textarea></label>
+    <div class="two"><label>Makes <small>if different</small><input data-af="yield" value="${esc(a.yield||"")}"></label><label>Notes <small>if different</small><input data-af="notes" value="${esc(a.notes||"")}"></label></div></fieldset>`}
+function collectAlts(){const old=A.editing.alt_methods||[];
+  return [...document.querySelectorAll("[data-alt]")].map(f=>{const g=k=>f.querySelector(`[data-af="${k}"]`);const same=g("same").checked;
+    return {name:g("name").value.trim(),groups:same?null:toGroups(g("groups").value),steps:toSteps(g("steps").value),yield:g("yield").value.trim()||null,notes:g("notes").value.trim()||null,nutrition:(old[+f.dataset.alt]||{}).nutrition||null}})}
 const snapText=b=>[b.title,b.yield?"Makes "+b.yield:"","",groupsToText(b.groups),"",(b.steps||[]).map((s,i)=>`${i+1}. ${s}`).join("\n"),b.notes?"\nNotes: "+b.notes:""].join("\n").trim();
 function collect(){
   const r=A.editing,v=id=>document.getElementById(id).value.trim();
@@ -168,7 +182,7 @@ function collect(){
     traits:[...document.querySelectorAll("[data-trait]:checked")].map(i=>i.dataset.trait),diet:[...document.querySelectorAll("[data-diet]:checked")].map(i=>i.dataset.diet),
     tags:v("eTags").split(",").map(t=>t.trim().toLowerCase()).filter(Boolean),
     groups:toGroups(document.getElementById("eIng").value),steps:toSteps(document.getElementById("eSteps").value),notes:v("eNotes"),
-    nutrition:nut,developed:v("eDev")||null,credit:v("eCredit")||null,photos:r.photos||[],
+    nutrition:nut,method:v("eMethod"),alt_methods:collectAlts().filter(a=>a.name),developed:v("eDev")||null,credit:v("eCredit")||null,photos:r.photos||[],
     private:{occasion:v("pOcc")||null,source_title:v("pSrcT")||null,source_url:v("pSrcU")||null,private_notes:v("pNotes")||null,
       flags:v("pFlags")?v("pFlags").split(",").map(t=>t.trim()).filter(Boolean):null}
   };
@@ -194,6 +208,15 @@ function wireEditor(){
   if(ren)ren.onclick=async()=>{const nv=prompt("New web name (lowercase letters, numbers and dashes). The old link will keep working.",r.id);
     if(!nv||nv===r.id)return;if(!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(nv)){toast("Lowercase letters, numbers and dashes only");return}
     try{await call("rb_rename",{p_old:r.id,p_new:nv});toast("Renamed");refreshSite();location.hash="#admin/r/"+encodeURIComponent(nv)}catch(x){toast(x.message)}};
+  // cooking methods
+  const keep=()=>{const c=collect();c.alt_methods=collectAlts();Object.assign(A.editing,c);return A.editing};
+  document.getElementById("eAddAlt").onclick=()=>{const e=keep();if(!e.method)e.method="Main";e.alt_methods=[...e.alt_methods,{name:"",groups:null,steps:[]}];renderEditor()};
+  document.querySelectorAll("[data-adel]").forEach(b=>b.onclick=()=>{const e=keep();e.alt_methods=e.alt_methods.filter((_,k)=>k!==+b.dataset.adel);renderEditor()});
+  document.querySelectorAll('[data-af="same"]').forEach(c=>c.onchange=()=>{c.closest("[data-alt]").querySelector("[data-ingwrap]").hidden=c.checked});
+  document.querySelectorAll("[data-amain]").forEach(b=>b.onclick=()=>{const e=keep(),i=+b.dataset.amain,a=e.alt_methods[i];
+    const old={name:e.method||"Original",groups:a.groups?e.groups:null,steps:e.steps,yield:a.yield?e.yield:null,notes:a.notes?e.notes:null,nutrition:a.nutrition?e.nutrition:null};
+    Object.assign(e,{method:a.name,groups:a.groups||e.groups,steps:a.steps,yield:a.yield||e.yield,notes:a.notes||e.notes,nutrition:a.nutrition||e.nutrition});
+    e.alt_methods[i]=old;renderEditor();toast("Swapped. Save to keep it.")});
   // photos
   const savePhotos=async()=>{await call("rb_save",{p_recipe:{id:r.id,photos:r.photos}});refreshSite();renderEditor()};
   document.querySelectorAll("[data-phdel]").forEach(b=>b.onclick=async()=>{const i=+b.dataset.phdel,ph=r.photos[i];if(!confirm("Remove this photo?"))return;

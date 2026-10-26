@@ -13,6 +13,7 @@ expires or is revoked. The key itself never leaves this machine.
   rb log ID TEXT [--rating N] [--date YYYY-MM-DD] [--change]
   rb draft ID on|off
   rb rename OLD NEW                old id keeps working as an alias; links and friend notes follow
+  rb merge FROM INTO               fold FROM into INTO (log, notes, aliases, links move; FROM's id becomes an alias)
   rb delete ID
   rb queue                         pending friend recipes and notes
   rb export DIR                    one JSON file per recipe (full, with logs)
@@ -98,6 +99,11 @@ def cmd_rename(a):
     print(f"renamed {a.old} -> {a.new}")
 
 
+def cmd_merge(a):
+    rpc("rb_merge", p_from=a.src, p_into=a.into)
+    print(f"merged {a.src} into {a.into}")
+
+
 def cmd_delete(a):
     rpc("rb_delete", p_id=a.id)
     print(f"deleted {a.id}")
@@ -143,6 +149,7 @@ def main():
     p.add_argument("--date"); p.add_argument("--change", action="store_true"); p.set_defaults(f=cmd_log)
     p = sp.add_parser("draft"); p.add_argument("id"); p.add_argument("state", choices=["on", "off"]); p.set_defaults(f=cmd_draft)
     p = sp.add_parser("rename"); p.add_argument("old"); p.add_argument("new"); p.set_defaults(f=cmd_rename)
+    p = sp.add_parser("merge"); p.add_argument("src"); p.add_argument("into"); p.set_defaults(f=cmd_merge)
     p = sp.add_parser("delete"); p.add_argument("id"); p.set_defaults(f=cmd_delete)
     sp.add_parser("queue").set_defaults(f=cmd_queue)
     p = sp.add_parser("export"); p.add_argument("dir"); p.set_defaults(f=cmd_export)

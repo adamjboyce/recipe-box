@@ -71,7 +71,8 @@ const DIET_LABEL=Object.fromEntries(DIETS);
 ["diets"].forEach(k=>{if(!Array.isArray(state[k]))state[k]=[]});
 state.ingr=[];state.panel=false;
 const stem=w=>w.toLowerCase().trim().replace(/(es|s)$/,"");
-function ingText(r){return (r.groups||[]).flatMap(g=>g.ingredients||[]).join(" | ").toLowerCase()}
+function allGroups(r){return [...(r.groups||[]),...(r.alt_methods||[]).flatMap(a=>a.groups||[])]}
+function ingText(r){return allGroups(r).flatMap(g=>g.ingredients||[]).join(" | ").toLowerCase()}
 function hasIngr(r,term){const t=ingText(r),w=term.toLowerCase().trim();return t.includes(w)||t.includes(stem(w))}
 function parseQ(q){
   const exc=[];
@@ -134,7 +135,7 @@ function applyFilters(){saveView();renderFilters();renderList()}
 const LINK_RE=/\[([^\]]+)\]\(([a-z0-9-]+)\)/g;
 function linkify(escaped){return escaped.replace(LINK_RE,(m,l,id)=>state.recipes.has(id)?`<a class="rlink" href="#${id}">${l}</a>`:l)}
 function unlink(t){return String(t??"").replace(LINK_RE,"$1")}
-function haystack(r){return unlink([r.title,r.cuisine,r.category,(r.tags||[]).join(" "),...(r.groups||[]).flatMap(g=>g.ingredients||[])].join(" ")).toLowerCase()}
+function haystack(r){return unlink([r.title,r.cuisine,r.category,(r.tags||[]).join(" "),...allGroups(r).flatMap(g=>g.ingredients||[]),(r.alt_methods||[]).map(a=>a.name).join(" ")].join(" ")).toLowerCase()}
 function score(r){const f=friendAvg(r.id);return r.rating||(f?f.avg:0)}
 function filtered(){
   const q=state.q.trim().toLowerCase();
@@ -250,10 +251,22 @@ function photoBlock(r){
   return `<div class="photos"><img class="hero" src="${esc(ps[sel].src)}" alt="${esc(r.title)}"><div class="photo-by">Photo by ${esc(ps[sel].by)}</div>
     ${ps.length>1?`<div class="strip">${ps.map((p,i)=>`<button type="button" data-ph="${i}" aria-current="${i===sel}" aria-label="Photo ${i+1} by ${esc(p.by)}"><img src="${esc(p.src)}" alt="" loading="lazy"></button>`).join("")}</div>`:""}</div>`;
 }
+/* cooking methods: the main method lives on the recipe, alternates in alt_methods; tabs pick one */
+state.methodSel=load("rb.method",{});
+function methodView(r){
+  const alts=(r.alt_methods||[]).filter(a=>a&&a.name);
+  const base={name:r.method||"Main",groups:r.groups,steps:r.steps,yield:r.yield,notes:r.notes,nutrition:r.nutrition};
+  if(!alts.length)return {i:0,list:[],...base};
+  const list=[base,...alts.map(a=>({name:a.name,groups:a.groups&&a.groups.length?a.groups:r.groups,steps:a.steps||[],
+    yield:a.yield||r.yield,notes:a.notes?a.notes:r.notes,nutrition:a.nutrition||r.nutrition}))];
+  let i=+state.methodSel[r.id]||0;if(i>=list.length)i=0;
+  return {i,list,...list[i]};
+}
 function renderCard(){
   const el=$("#card");const r=getR(state.openId);
   if(!r){el.innerHTML=`<div class="empty">${!state.loaded||(state.src==="friends"&&!state.frLoaded)?"Opening the box…":state.src==="friends"?"Pick one of your friends' recipes.":"Pick a recipe from the box."}</div>`;return}
-  const chk=state.checked[r.id]||{};const anyChk=Object.values(chk).some(Boolean);const k=getScale(r.id);const presets=[.5,1,1.5,2,3];
+  const M=methodView(r),R={...r,groups:M.groups,steps:M.steps,yield:M.yield,notes:M.notes,nutrition:M.nutrition},ck=r.id+(M.i?"@"+M.i:"");
+  const chk=state.checked[ck]||{};const anyChk=Object.values(chk).some(Boolean);const k=getScale(r.id);const presets=[.5,1,1.5,2,3];
   const fa=friendAvg(r.id);const notes=state.friends.get(r.id)||[];
   const me=load("rb.name","");
   el.innerHTML=`
@@ -262,7 +275,7 @@ function renderCard(){
     <div class="eyebrow"><span>${esc(r.category)}</span>${r.cuisine?`<span>${esc(r.cuisine)}</span>`:""}</div>
     <h2>${esc(r.title)}</h2>${r.credit?`<div class="credit">From ${esc(r.credit)}</div>`:""}
     ${(r.changes||[]).length?`<div class="changed">Updated ${esc(fmtDate(r.changes.at(-1).date))}: ${esc(r.changes.at(-1).note)}</div>`:""}
-    <div class="meta">${r.yield?`<span>Yield <b>${esc(r.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
+    <div class="meta">${R.yield?`<span>Yield <b>${esc(R.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
     <div class="tags">${(r.traits||[]).filter(t=>TRAIT_LABEL[t]).map(t=>`<span class="trait">${esc(TRAIT_LABEL[t])}</span>`).join("")}${(r.diet||[]).filter(d=>DIET_LABEL[d]).map(d=>`<span class="diet">${esc(DIET_LABEL[d])}</span>`).join("")}${(r.tags||[]).filter(t=>!TRAIT_LABEL[t]&&t!=="large-batch"&&t!=="freezer"&&t!=="camping").map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
   </div>
   ${photoBlock(r)}
@@ -270,6 +283,7 @@ function renderCard(){
     ${r.friend?`<div class="pair"><span class="who">Shared by</span><span class="big by">${esc(r.by)}</span><span class="sub">${esc(fmtDate(r.developed))}</span></div>`:`<div class="pair"><span class="who">Adam</span><span class="big">${r.rating?stars(r.rating):"<span class='sub'>Not rated yet</span>"}</span></div>`}
     ${SB?`<div class="pair"><span class="who">Friends</span><span class="big friends">${fa?stars(fa.avg):"<span class='sub'>No ratings yet</span>"}</span>${fa?`<span class="sub">${fa.avg.toFixed(1)} from ${fa.n}</span>`:""}</div>`:""}
   </div>
+  ${M.list.length>1?`<div class="method-tabs" role="tablist" aria-label="Cooking method">${M.list.map((x,mi)=>`<button type="button" role="tab" data-meth="${mi}" aria-selected="${mi===M.i}">${esc(x.name)}</button>`).join("")}</div>`:""}
   <div class="body">
     <section>
       <h3 class="sec-h"><span class="sec-t">Ingredients <button type="button" class="mode-btn" data-mode="mise" aria-pressed="${state.mode==="mise"}" title="Keeps the screen on while you prep">${state.mode==="mise"?"● Mise en place":"Mise en place"}</button></span><span class="chk-ctl"><small id="chkHint"${anyChk?" hidden":""}>tap to check off</small><button type="button" class="reset-chk" id="resetBtn"${anyChk?"":" hidden"}>↺ Uncheck all</button></span></h3>
@@ -278,15 +292,15 @@ function renderCard(){
         ${presets.map(p=>`<button type="button" class="sc" data-scale="${p}" aria-pressed="${k===p}">${p===1?"1×":frac(p)+"×"}</button>`).join("")}
         <input id="scaleIn" type="number" min="0.1" step="0.05" inputmode="decimal" aria-label="Custom multiplier" value="${presets.includes(k)?"":k}" placeholder="×">
       </div>
-      <div class="ing-cols">${(r.groups||[]).map((g,gi)=>`<div class="ing-group">${g.name?`<h4>${esc(g.name)}</h4>`:""}<ul class="ing">${(g.ingredients||[]).map((ing,ii)=>{const [q,rest]=splitQty(scaleLine(ing,k));const key=`i${gi}-${ii}`;return `<li data-k="${key}" class="${chk[key]?"done":""}"><span class="q">${esc(q)}</span><span>${linkify(esc(rest))}</span></li>`}).join("")}</ul></div>`).join("")}</div>
+      <div class="ing-cols">${(R.groups||[]).map((g,gi)=>`<div class="ing-group">${g.name?`<h4>${esc(g.name)}</h4>`:""}<ul class="ing">${(g.ingredients||[]).map((ing,ii)=>{const [q,rest]=splitQty(scaleLine(ing,k));const key=`i${gi}-${ii}`;return `<li data-k="${key}" class="${chk[key]?"done":""}"><span class="q">${esc(q)}</span><span>${linkify(esc(rest))}</span></li>`}).join("")}</ul></div>`).join("")}</div>
     </section>
     <section>
       <h3 class="sec-h" id="methodH"><span class="sec-t">Method <button type="button" class="mode-btn" data-mode="cook" aria-pressed="${state.mode==="cook"}" title="Keeps the screen on while you cook">${state.mode==="cook"?"● Cook":"Cook"}</button></span></h3>
-      <ol class="steps">${(r.steps||[]).map((s,i)=>`<li data-k="s${i}" class="${chk["s"+i]?"done":""}"><span>${linkify(esc(s))}</span></li>`).join("")}</ol>
+      <ol class="steps">${(R.steps||[]).map((s,i)=>`<li data-k="s${i}" class="${chk["s"+i]?"done":""}"><span>${linkify(esc(s))}</span></li>`).join("")}</ol>
     </section>
   </div>
-  ${r.notes?`<section><h3 class="sec-h">Notes</h3><div class="notes">${linkify(esc(r.notes))}</div></section>`:""}
-  ${nutritionBlock(r)}
+  ${R.notes?`<section><h3 class="sec-h">Notes</h3><div class="notes">${linkify(esc(R.notes))}</div></section>`:""}
+  ${nutritionBlock(R)}
   ${SB?`<section class="friends-sec">
     <h3 class="sec-h">Made it? <small>leave a rating or a note for ${esc(r.friend?r.by:"Adam")} and everyone else</small></h3>
     <form class="friend-form" id="ff">
@@ -303,16 +317,17 @@ function renderCard(){
     <button class="btn" type="button" id="copyBtn">Copy recipe</button>
     <button class="btn" type="button" id="linkBtn">Copy link</button>
   </div>`;
+  el.querySelectorAll("[data-meth]").forEach(b=>b.onclick=()=>{state.methodSel[r.id]=+b.dataset.meth;store("rb.method",state.methodSel);renderCard()});
   $("#backBtn").onclick=()=>openRecipe(null);
   el.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{state.photoSel[r.id]=+b.dataset.ph;renderCard()});
   el.querySelectorAll(".rlink").forEach(a=>a.onclick=e=>e.stopPropagation());
-  el.querySelectorAll(".ing li,.steps li").forEach(li=>li.onclick=()=>{const c=state.checked[r.id]=state.checked[r.id]||{};c[li.dataset.k]=!c[li.dataset.k];li.classList.toggle("done",c[li.dataset.k]);store("rb.checked",state.checked);const on=Object.values(c).some(Boolean);$("#resetBtn").hidden=!on;$("#chkHint").hidden=on;markNext()});
+  el.querySelectorAll(".ing li,.steps li").forEach(li=>li.onclick=()=>{const c=state.checked[ck]=state.checked[ck]||{};c[li.dataset.k]=!c[li.dataset.k];li.classList.toggle("done",c[li.dataset.k]);store("rb.checked",state.checked);const on=Object.values(c).some(Boolean);$("#resetBtn").hidden=!on;$("#chkHint").hidden=on;markNext()});
   el.querySelectorAll("[data-mode]").forEach(b=>b.onclick=()=>setMode(state.mode===b.dataset.mode?null:b.dataset.mode));markNext();
   el.querySelectorAll("[data-scale]").forEach(b=>b.onclick=()=>setScale(r.id,+b.dataset.scale));
   $("#scaleIn").onchange=e=>{const v=parseFloat(e.target.value);if(v>0&&v<=50)setScale(r.id,Math.round(v*100)/100)};
-  $("#resetBtn").onclick=()=>{delete state.checked[r.id];store("rb.checked",state.checked);renderCard()};
+  $("#resetBtn").onclick=()=>{delete state.checked[ck];store("rb.checked",state.checked);renderCard()};
   {const d=el.querySelector(".nutri");if(d)d.ontoggle=()=>{state.nutriOpen=d.open}}
-  $("#copyBtn").onclick=()=>copyText(recipeText(r,k),"Recipe copied");
+  $("#copyBtn").onclick=()=>copyText(recipeText(R,k),"Recipe copied");
   $("#linkBtn").onclick=()=>copyText(location.origin+location.pathname+"#"+r.id,"Link copied");
   if(SB)wireFriendForm(r);
 }
