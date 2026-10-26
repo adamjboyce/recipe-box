@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T21:16:03+00:00",
+ "generated": "2026-10-26T21:19:04+00:00",
  "recipes": [
   {
    "id": "72-hour-pizza-dough",
@@ -749,7 +749,7 @@
   },
   {
    "id": "breakfast-burritos",
-   "title": "Breakfast Burritos (Bacon, Sausage, Mushroom)",
+   "title": "Breakfast Burritos",
    "category": "Breakfast",
    "cuisine": "Tex-Mex",
    "yield": "24 burritos (8 bacon, 8 sausage, 8 mushroom)",
@@ -872,7 +872,7 @@
    "photos": [],
    "credit": null,
    "developed": "2026-09-03",
-   "updated_at": "2026-10-26T20:36:59.036697+00:00",
+   "updated_at": "2026-10-26T21:19:03.093695+00:00",
    "changes": [
     {
      "date": "2026-10-26",
@@ -885,11 +885,67 @@
     {
      "date": "2026-10-26",
      "note": "MSG added at about 0.3% of the dish."
+    },
+    {
+     "date": "2026-10-26",
+     "note": "Merged the cheesy sausage burritos in as the easy version, with cream cheese in the eggs and any breakfast meat."
     }
    ],
    "method": "",
    "alt_methods": [],
-   "extras": {}
+   "extras": {
+    "easy": {
+     "label": "One filling, quicker",
+     "notes": "Serve with hot sauce on the side. Freezes well for up to 3 months if the fillings are cooled completely before rolling and each burrito is wrapped in foil; reheat in the foil at 350°F or at the edge of a campfire coal bed, turning twice, until hot through.",
+     "steps": [
+      "Cook the potatoes in an uncrowded pan until genuinely browned, not just heated through.",
+      "Salt the potatoes.",
+      "Blend the eggs, cream cheese, salt and MSG until completely smooth.",
+      "Scramble the egg mixture soft and slightly underdone.",
+      "Cook the meat until browned and drain most of the fat.",
+      "Off the heat, tear in the American cheese and stir until it coats the meat.",
+      "Warm one tortilla in a dry skillet 15 to 20 seconds a side.",
+      "Fill with about 6 oz of potatoes, eggs, meat and cheddar and roll tight.",
+      "Repeat with each tortilla, warming one at a time."
+     ],
+     "yield": "10 burritos",
+     "groups": [
+      {
+       "name": "",
+       "ingredients": [
+        "700 g eggs (about 14 large)",
+        "227 g cream cheese, softened and cubed (about one 8 oz block)",
+        "8 g kosher salt, for the eggs (about 1 Tbsp Diamond Crystal)",
+        "2.5 g MSG (about 1/2 tsp)",
+        "567 g refrigerated diced potatoes with peppers and onion (about one 20 oz package)",
+        "10 g kosher salt, for the potatoes (about 1 Tbsp plus 1/4 tsp)",
+        "400 g breakfast meat: sausage, bacon, chorizo or diced ham (about 14 oz)",
+        "113 g white American cheese, torn (about 4 oz)",
+        "227 g shredded cheddar (about one 8 oz bag)",
+        "700 g burrito-size flour tortillas, 10 inch (about 10)"
+       ]
+      }
+     ],
+     "method": "",
+     "nutrition": {
+      "serving": "1 burrito, about 260 g (1 of 10)",
+      "servings": 10,
+      "assumptions": "All 10 g salt on the potatoes counted; Simply Potatoes Southwest label values, 10-inch tortillas at 72 g each and about a fifth of the sausage fat drained off. Breakfast sausage as the meat; 8 g salt, 2.5 g MSG and the cream cheese in the eggs counted. Hot sauce on the side not included.",
+      "per_serving": {
+       "fat_g": 40.7,
+       "carbs_g": 50,
+       "fiber_g": 3.9,
+       "sugar_g": 3.2,
+       "calories": 688,
+       "protein_g": 31.4,
+       "sat_fat_g": 17.9,
+       "sodium_mg": 2160,
+       "cholesterol_mg": 350
+      }
+     },
+     "alt_methods": []
+    }
+   }
   },
   {
    "id": "salsa-verde-broiled",
@@ -1759,71 +1815,6 @@
      "nutrition": null
     }
    ],
-   "extras": {}
-  },
-  {
-   "id": "cheesy-sausage-breakfast-burritos",
-   "title": "Cheesy Sausage Breakfast Burritos",
-   "category": "Breakfast",
-   "cuisine": "Tex-Mex",
-   "yield": "10 burritos",
-   "tags": [],
-   "traits": [
-    "camping",
-    "make-ahead",
-    "freezer",
-    "crowd"
-   ],
-   "diet": [],
-   "groups": [
-    {
-     "name": "",
-     "ingredients": [
-      "700 g eggs (about 14 large)",
-      "567 g refrigerated diced potatoes with peppers and onion (about one 20 oz package)",
-      "10 g kosher salt, for the potatoes (about 1 Tbsp plus 1/4 tsp)",
-      "397 g breakfast sausage (about 14 oz)",
-      "113 g white American cheese, torn (about 4 oz)",
-      "227 g shredded cheddar (about one 8 oz bag)",
-      "700 g burrito-size flour tortillas, 10 inch (about 10)"
-     ]
-    }
-   ],
-   "steps": [
-    "Cook the potatoes in an uncrowded pan until genuinely browned, not just heated through.",
-    "Salt the potatoes.",
-    "Scramble the eggs soft and slightly underdone.",
-    "Brown the sausage and drain most of the fat.",
-    "Off the heat, tear in the American cheese and stir until it coats the sausage.",
-    "Warm one tortilla in a dry skillet 15 to 20 seconds a side.",
-    "Fill with about 6 oz of potatoes, eggs, sausage and cheddar and roll tight.",
-    "Repeat with each tortilla, warming one at a time."
-   ],
-   "notes": "Serve with hot sauce on the side. Freezes well for up to 3 months if the fillings are cooled completely before rolling and each burrito is wrapped in foil; reheat in the foil at 350°F or at the edge of a campfire coal bed, turning twice, until hot through.",
-   "nutrition": {
-    "serving": "1 burrito, about 260 g (1 of 10)",
-    "servings": 10,
-    "assumptions": "All 10 g salt on the potatoes counted; Simply Potatoes Southwest label values, 10-inch tortillas at 72 g each and about a fifth of the sausage fat drained off. Hot sauce on the side not included.",
-    "per_serving": {
-     "fat_g": 33,
-     "carbs_g": 49,
-     "fiber_g": 3.9,
-     "sugar_g": 3.2,
-     "calories": 610,
-     "protein_g": 30,
-     "sat_fat_g": 13.5,
-     "sodium_mg": 1740,
-     "cholesterol_mg": 325
-    }
-   },
-   "rating": 0,
-   "photos": [],
-   "credit": null,
-   "developed": "2026-10-15",
-   "updated_at": "2026-10-26T20:37:03.330902+00:00",
-   "changes": [],
-   "method": "",
-   "alt_methods": [],
    "extras": {}
   },
   {
@@ -7776,9 +7767,10 @@
  ],
  "aliases": {
   "make-ahead-breakfast-burritos-bacon-sausage-mushroom": "breakfast-burritos",
+  "cheesy-sausage-breakfast-burritos": "breakfast-burritos",
+  "camp-breakfast-burritos-cheesy-sausage": "breakfast-burritos",
   "red-beans-camp": "thick-red-beans",
   "ldw-dill-pickle-jar": "dill-pickles",
-  "camp-breakfast-burritos-cheesy-sausage": "cheesy-sausage-breakfast-burritos",
   "ldw-cocktail-sauce": "cocktail-sauce",
   "carnitas-oven": "carnitas",
   "slow-cooker-carnitas": "carnitas",
