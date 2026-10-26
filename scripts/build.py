@@ -13,7 +13,7 @@ parent folder, and lists any photo ids it could not find.
 import argparse, json, os, shutil, sys, datetime, pathlib
 
 PUBLIC = ["id", "title", "category", "cuisine", "tags", "yield", "developed",
-          "groups", "steps", "notes", "rating", "keeper"]
+          "groups", "steps", "notes", "rating", "keeper", "traits"]
 IMG_EXT = {".jpg", ".jpeg", ".png", ".webp", ".gif"}
 
 def main():

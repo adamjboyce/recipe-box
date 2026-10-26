@@ -1,4 +1,6 @@
 "use strict";
+const TRAITS=[["camping","Camping-friendly"],["make-ahead","Make-ahead"],["freezer","Freezer-friendly"],["shelf-stable","Shelf stable"],["slow-cooker","Slow cooker"],["long-cook","Long cook"],["crowd","Feeds a crowd"],["quick","Quick"]];
+const TRAIT_LABEL=Object.fromEntries(TRAITS);
 const CATS=["Mains","Soups & Stews","Sides & Breads","Baking & Dough","Breakfast","Sauces & Condiments","Spice Blends","Desserts","Drinks"];
 const CFG=window.RB_CONFIG||{};
 const SB=CFG.supabaseUrl&&CFG.supabaseKey?{url:CFG.supabaseUrl.replace(/\/$/,""),key:CFG.supabaseKey}:null;
@@ -9,8 +11,15 @@ function toast(msg){const t=$("#toast");t.textContent=msg;t.hidden=false;clearTi
 function store(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
 function load(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}}
 Object.assign(state,load("rb.view",{}));
+if(!Array.isArray(state.traits))state.traits=[];
 state.checked=load("rb.checked",{});state.scale=load("rb.scale",{});
-function saveView(){store("rb.view",{q:state.q,cat:state.cat,show:state.show,sort:state.sort})}
+function saveView(){store("rb.view",{q:state.q,cat:state.cat,show:state.show,sort:state.sort,traits:state.traits})}
+function renderTraits(){
+  const el=$("#traits");
+  const present=new Set([...state.recipes.values()].flatMap(r=>r.traits||[]));
+  el.innerHTML='<span class="lbl">Good for</span>'+TRAITS.filter(([k])=>present.has(k)).map(([k,l])=>`<button type="button" class="chip t" data-trait="${k}" aria-pressed="${state.traits.includes(k)}">${esc(l)}</button>`).join("");
+  el.querySelectorAll("[data-trait]").forEach(b=>b.onclick=()=>{const k=b.dataset.trait;state.traits=state.traits.includes(k)?state.traits.filter(x=>x!==k):[...state.traits,k];saveView();renderTraits();renderList()});
+}
 
 /* ---------- friends (Supabase REST) ---------- */
 async function sb(path,opts={}){
@@ -46,6 +55,7 @@ function filtered(){
     if(state.show==="keepers"&&!r.keeper)return false;
     if(state.show==="rated"&&!(score(r)>=4))return false;
     if(state.show==="photos"&&!(r.photos||[]).length)return false;
+    if(state.traits.length&&!state.traits.every(t=>(r.traits||[]).includes(t)))return false;
     if(q&&!q.split(/\s+/).every(w=>haystack(r).includes(w)))return false;
     return true});
   const by={
@@ -134,7 +144,7 @@ function renderCard(){
     <div class="eyebrow"><span>${esc(r.category)}</span>${r.cuisine?`<span>${esc(r.cuisine)}</span>`:""}</div>
     <h2>${esc(r.title)}</h2>
     <div class="meta">${r.yield?`<span>Yield <b>${esc(r.yield)}</b>${k!==1?` <span class="scaled">× ${esc(frac(k))}</span>`:""}</span>`:""}</div>
-    <div class="tags">${(r.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
+    <div class="tags">${(r.traits||[]).filter(t=>TRAIT_LABEL[t]).map(t=>`<span class="trait">${esc(TRAIT_LABEL[t])}</span>`).join("")}${(r.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
   </div>
   ${photoBlock(r)}
   <div class="verdict">
@@ -218,6 +228,6 @@ fetch("data/recipes.json",{cache:"no-cache"}).then(r=>r.json()).then(d=>{
   state.recipes=new Map(d.recipes.map(r=>[r.id,{...r,category:CATS.includes(r.category)?r.category:"Mains"}]));
   state.loaded=true;
   const h=location.hash.slice(1);if(h&&state.recipes.has(h)){state.openId=h;$("#app").classList.add("show-card")}
-  renderCats();renderList();renderCard();
+  state.traits=state.traits.filter(t=>TRAIT_LABEL[t]);renderCats();renderTraits();renderList();renderCard();
 }).catch(()=>{$("#list").innerHTML=`<div class="empty">Couldn't load the recipes. Reload the page.</div>`});
 loadFriends();

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T14:49:42+00:00",
+ "generated": "2026-10-26T15:27:45+00:00",
  "recipes": [
   {
    "id": "brussels-sprouts-bacon",
@@ -33,7 +33,11 @@
    ],
    "notes": "Sprouts halved and bacon crisped the day before.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "quick"
+   ]
   },
   {
    "id": "apple-cider-doughnut-focaccia",
@@ -94,7 +98,11 @@
    ],
    "notes": "Serve with the cider cream cheese glaze for dipping. For a 36 hour cold ferment, use 2 g yeast instead of 3 g.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "long-cook"
+   ]
   },
   {
    "id": "banana-boats",
@@ -126,7 +134,11 @@
    ],
    "notes": "",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "quick"
+   ]
   },
   {
    "id": "barbacoa-crockpot",
@@ -184,7 +196,14 @@
    ],
    "notes": "Frozen half rides as cooler ballast and is used two days later. Excess liquid boils foil-packet fillings, so reduce before splitting.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "slow-cooker",
+    "long-cook"
+   ]
   },
   {
    "id": "beer-battered-walleye-and-chips",
@@ -242,7 +261,10 @@
    ],
    "notes": "Dry mix made days ahead. Fried outdoors on an induction burner. Cool the oil fully before storing.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead"
+   ]
   },
   {
    "id": "dill-escabeche-pickle-soup",
@@ -336,7 +358,12 @@
    ],
    "notes": "Freeze portions without the sour cream for up to 3 months. To serve frozen portions, thaw, reheat, then temper in about 40 g sour cream, 2.5 g flour and 6 g horseradish per serving, and finish with fresh dill. For one quart served fresh: 65 g sour cream, 4 g flour, 10 g horseradish, 8 g dill fronds. Serve with buttered, toasted rye.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "freezer",
+    "crowd"
+   ]
   },
   {
    "id": "braised-red-cabbage",
@@ -379,7 +406,10 @@
    ],
    "notes": "Made 3 days ahead; reheated on low about 4 hours before dinner.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead"
+   ]
   },
   {
    "id": "salsa-verde-broiled",
@@ -416,7 +446,11 @@
    ],
    "notes": "Better after a day. Came out hotter than intended with 2 jalapeños; sour cream at the table mutes it.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead"
+   ]
   },
   {
    "id": "buffalo-chicken-hand-pies",
@@ -476,7 +510,13 @@
    ],
    "notes": "Raw assembled pies freeze until baking. After baking, refrigerate in a rigid container; do not refreeze. Eat early on day of travel and keep cold in a dry bag with a frozen bottle.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "crowd"
+   ]
   },
   {
    "id": "cabbage-carrot-slaw-sumac-dressing",
@@ -519,7 +559,12 @@
    ],
    "notes": "Store vegetables and dressing separately until serving. Dressing keeps in a sealed jar.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "quick"
+   ]
   },
   {
    "id": "cajun-runoff-butter",
@@ -549,7 +594,10 @@
    ],
    "notes": "Pre-mix the Cajun seasoning and cayenne in one container; keep the Crystal separate.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "quick"
+   ]
   },
   {
    "id": "camp-breakfast-burritos-cheesy-sausage",
@@ -592,7 +640,13 @@
    ],
    "notes": "Frozen burritos ride as cooler ballast. Hot sauce on the side.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "crowd"
+   ]
   },
   {
    "id": "camp-cheesesteaks-chuck-eye",
@@ -634,7 +688,11 @@
    ],
    "notes": "Portion the meat at home with a scale so nothing is weighed at camp.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "quick"
+   ]
   },
   {
    "id": "camp-hot-chocolate-swiss-miss",
@@ -675,7 +733,11 @@
    ],
    "notes": "Lands around 68°C, hot but drinkable. Nothing scorches since the water does the heating. Needs about a 3 qt pot.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "quick"
+   ]
   },
   {
    "id": "campfire-dutch-oven-cornbread",
@@ -712,7 +774,10 @@
    ],
    "notes": "Wet mix and dry mix are prepped and stored separately until baking.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping"
+   ]
   },
   {
    "id": "campfire-foil-packet-bar",
@@ -778,7 +843,10 @@
    ],
    "notes": "",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping"
+   ]
   },
   {
    "id": "campfire-stovetop-popcorn",
@@ -810,7 +878,11 @@
    ],
    "notes": "Weights are for pre-measuring at home.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "quick"
+   ]
   },
   {
    "id": "carnitas-oven",
@@ -859,7 +931,13 @@
    ],
    "notes": "Frozen half rides as cooler ballast. The braise needs no added fat; the shoulder renders its own.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "long-cook"
+   ]
   },
   {
    "id": "charred-broccoli-cauliflower",
@@ -896,7 +974,11 @@
    ],
    "notes": "",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "quick"
+   ]
   },
   {
    "id": "cheese-onion-potato-pasties",
@@ -944,7 +1026,11 @@
    ],
    "notes": "Bake straight from frozen.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "freezer"
+   ]
   },
   {
    "id": "chole",
@@ -996,7 +1082,10 @@
    ],
    "notes": "",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "long-cook"
+   ]
   },
   {
    "id": "cider-cream-cheese-glaze",
@@ -1028,7 +1117,10 @@
    ],
    "notes": "Make a day ahead. Take out the morning of serving to soften. Serve in a bowl beside the focaccia for dipping, not spread on top.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead"
+   ]
   },
   {
    "id": "cider-reduction",
@@ -1055,7 +1147,10 @@
    ],
    "notes": "120 g goes in the apple cider doughnut focaccia and 30 g in the cider cream cheese glaze. Warm slightly to loosen if it sets firm in the fridge.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead"
+   ]
   },
   {
    "id": "classic-homemade-steak-sauce",
@@ -1091,7 +1186,10 @@
    ],
    "notes": "Keeps 2 to 3 weeks refrigerated in a sealed jar; better after a day or two.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "quick"
+   ]
   },
   {
    "id": "ldw-cocktail-sauce",
@@ -1123,7 +1221,11 @@
    ],
    "notes": "Holds two weeks refrigerated and improves sitting. Let it sit an hour before judging the heat.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "quick"
+   ]
   },
   {
    "id": "cornbread-breakfast-sandwiches",
@@ -1157,7 +1259,8 @@
    ],
    "notes": "",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": []
   },
   {
    "id": "creole-mustard",
@@ -1193,7 +1296,11 @@
    ],
    "notes": "Keeps 3 months refrigerated.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "long-cook"
+   ]
   },
   {
    "id": "creole-mustard-slaw",
@@ -1222,7 +1329,8 @@
    ],
    "notes": "",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": []
   },
   {
    "id": "cubano-tater-tot-casserole",
@@ -1294,7 +1402,8 @@
    ],
    "notes": "Serve with extra pickle spears and yellow mustard.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": []
   },
   {
    "id": "ldw-dill-pickle-jar",
@@ -1349,7 +1458,10 @@
    ],
    "notes": "Best 5 to 6 days out; made Mon 8/31 or Tue 9/1 for a 9/6 serve. A bay leaf or pinch of black tea per jar helps crunch. Does not need a cooler in transit. Combine with the escabeche jar into shared bowls at serving.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead"
+   ]
   },
   {
    "id": "ldw-potato-salad",
@@ -1399,7 +1511,11 @@
    ],
    "notes": "Made 2 days ahead. Stir before storing and again the next morning. Taste the morning of serving and loosen with mayo and pickle brine if it has tightened.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "crowd"
+   ]
   },
   {
    "id": "drawn-lemon-butter",
@@ -1428,7 +1544,11 @@
    ],
    "notes": "Made ahead and remelted day of, after the endive boats while the pot climbs.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "quick"
+   ]
   },
   {
    "id": "duck-fat-roast-potatoes",
@@ -1465,7 +1585,10 @@
    ],
    "notes": "Parboiled and fat-coated up to 3 days ahead.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead"
+   ]
   },
   {
    "id": "duck-fat-rosti",
@@ -1504,7 +1627,10 @@
    ],
    "notes": "Potato parboiled and grated up to 3 days ahead (Tuesday for Friday).",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead"
+   ]
   },
   {
    "id": "ldw-escabeche-pickle-jar",
@@ -1558,7 +1684,10 @@
    ],
    "notes": "Best 5 to 6 days out. The radish turns this jar pink. Does not need a cooler in transit.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead"
+   ]
   },
   {
    "id": "frozen-chocolate-milk-slushie",
@@ -1594,7 +1723,11 @@
    ],
    "notes": "Made ahead at home and kept cold in the cooler.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead"
+   ]
   },
   {
    "id": "frozen-limeade-slushie",
@@ -1627,7 +1760,11 @@
    ],
    "notes": "Three parts water to one part concentrate (not label strength), which puts sugar near 14 percent. If using bottled limeade instead, add simple syrup to get it near 14 percent sugar.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead"
+   ]
   },
   {
    "id": "garlic-old-bay-butter",
@@ -1665,7 +1802,11 @@
    ],
    "notes": "Frozen flat in a half-inch slab it remelts in minutes. Milk solids separate on melting and reintegrate when stirred. Made the week of Aug 25 and frozen.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "freezer"
+   ]
   },
   {
    "id": "garlic-dill-yogurt-sauce",
@@ -1697,7 +1838,12 @@
    ],
    "notes": "Better on day two. Raw garlic strengthens over two days. Holds Thursday to Saturday in a cooler.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "quick"
+   ]
   },
   {
    "id": "go-juice",
@@ -1730,7 +1876,10 @@
    ],
    "notes": "Label the caffeine amounts per stick. Plain water and other electrolyte options alongside.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "shelf-stable"
+   ]
   },
   {
    "id": "green-room-freezer-martini",
@@ -1768,7 +1917,13 @@
    ],
    "notes": "Citrus-free, so it keeps indefinitely in the freezer. It goes cloudy in the cold. Taste a pour before adding any more Fernet (3 oz is the ceiling).",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "freezer",
+    "shelf-stable",
+    "crowd"
+   ]
   },
   {
    "id": "grilled-vegetable-skewers",
@@ -1832,7 +1987,12 @@
    ],
    "notes": "Cut vegetables keep 2 days refrigerated if stored dry and unsalted. Salt and oil go on only at the grill.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "crowd"
+   ]
   },
   {
    "id": "growler-toasted-almond-revolver",
@@ -1878,7 +2038,12 @@
    ],
    "notes": "No citrus or dairy, keeps 3 to 4 weeks refrigerated. Optional: small tinctures in 2 oz bourbon each (one cracked cinnamon stick for 2 days; 4 or 5 cloves for 24 hours; peel of one orange for 4 hours), strained, dosed by the drop per glass or into the batch a day before serving.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "shelf-stable",
+    "crowd"
+   ]
   },
   {
    "id": "gruyere-gouda-grilled-cheese",
@@ -1907,7 +2072,10 @@
    ],
    "notes": "Served with the tomato soup.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "quick"
+   ]
   },
   {
    "id": "camp-hot-chocolate-ganache",
@@ -1959,7 +2127,11 @@
    ],
    "notes": "Milk scorches: keep it moving and off direct flame.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead"
+   ]
   },
   {
    "id": "irish-lamb-stew",
@@ -2021,7 +2193,11 @@
    ],
    "notes": "Made 4 days ahead and frozen. Sets very thick when cold; thin with stock on reheating.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "freezer"
+   ]
   },
   {
    "id": "kofta-beef-lamb-logs",
@@ -2094,7 +2270,13 @@
    ],
    "notes": "Logs can be mixed and frozen days ahead; frozen 2 oz logs thaw quickly in a cooler. Spice blend keeps for months in a jar. Cook all logs at camp rather than bringing raw meat home. To make 4 lb, double everything including salt and spice.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "crowd"
+   ]
   },
   {
    "id": "kofta-spice-blend-weighed",
@@ -2133,7 +2315,13 @@
    ],
    "notes": "Keeps for months in a jar. Salt (15 g kosher) and MSG (2 to 3 g) go into the meat separately, not into the jar. Double for 4 lb of meat.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "shelf-stable",
+    "quick"
+   ]
   },
   {
    "id": "kofta-spice-blend-volume",
@@ -2167,7 +2355,12 @@
    ],
    "notes": "",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "shelf-stable",
+    "quick"
+   ]
   },
   {
    "id": "lemon-herb-compound-butter",
@@ -2203,7 +2396,12 @@
    ],
    "notes": "Keeps chilled in the cooler through the weekend.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "quick"
+   ]
   },
   {
    "id": "louisiana-red-beans-and-rice",
@@ -2283,7 +2481,13 @@
    ],
    "notes": "Freeze without rice, green onion, or parsley for up to 3 months; add them fresh when reheating. Thickens a lot when cold; thin with water when reheating and stir often to prevent scorching. Freeze flat in gallon bags filled about half (about 2 qt).",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "freezer",
+    "long-cook",
+    "crowd"
+   ]
   },
   {
    "id": "low-country-seafood-boil",
@@ -2348,7 +2552,10 @@
    ],
    "notes": "Melt the butter after any other prep, while the pot climbs. Keep warm until the toss. Hold tiny creamer potatoes until 0:05. Serve on a paper-covered table with Cajun butter, drawn lemon butter, cocktail sauce, remoulade, serrano ranch and the pickle bowls.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "crowd"
+   ]
   },
   {
    "id": "make-ahead-breakfast-burritos-bacon-sausage-mushroom",
@@ -2470,7 +2677,13 @@
    ],
    "notes": "Make extra filling; 24 burritos ran short on bacon and sausage. Frozen burritos hold 1 to 3 months; overwrap the foil with a freezer bag and reheat from frozen in foil at 350°F about 40 minutes.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "freezer",
+    "crowd"
+   ]
   },
   {
    "id": "mild-chili-toasted-dried-chiles",
@@ -2540,7 +2753,13 @@
    ],
    "notes": "Make 2 to 3 days ahead. Cool in shallow containers, not in the slow cooker insert. Freeze half flat in bags before anyone eats from the pot.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "freezer",
+    "slow-cooker",
+    "long-cook"
+   ]
   },
   {
    "id": "mudslide-slushie-base",
@@ -2584,7 +2803,10 @@
    ],
    "notes": "",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead"
+   ]
   },
   {
    "id": "mulled-cider",
@@ -2636,7 +2858,13 @@
    ],
    "notes": "Concentrate keeps for weeks in the fridge. Do not increase the cloves. One 84.5 oz airpot: about 0.6×. Hobbit weekend: 2×, served as two 1-gallon nights, with two 750 ml bottles of Chairman's for six adults.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "slow-cooker",
+    "crowd"
+   ]
   },
   {
    "id": "mushroom-duxelles-mix",
@@ -2676,7 +2904,11 @@
    ],
    "notes": "Holds refrigerated through the weekend.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead"
+   ]
   },
   {
    "id": "mushrooms-on-toast-soft-eggs",
@@ -2735,7 +2967,11 @@
    ],
    "notes": "Eggs cooked and peeled up to 3 days ahead; mushrooms sliced the day before.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "quick"
+   ]
   },
   {
    "id": "papas-arrugadas-mojo-verde",
@@ -2785,7 +3021,10 @@
    ],
    "notes": "Mojo made Tuesday; keeps a week refrigerated. Take the mojo out of the fridge about an hour before serving so the oil loosens.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead"
+   ]
   },
   {
    "id": "pico-de-gallo",
@@ -2815,7 +3054,11 @@
    ],
    "notes": "Make the day it is served or the day before; it declines by the next day.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "quick"
+   ]
   },
   {
    "id": "poor-mans-cochon-de-lait",
@@ -2873,7 +3116,13 @@
    ],
    "notes": "Needs a meat injector and a roasting pan with rack. Cool in shallow containers or flat bags and refrigerate within 2 hours. Freeze pulled pork with its drippings for up to 3 months; reheat with a splash of drippings or water.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "freezer",
+    "long-cook",
+    "crowd"
+   ]
   },
   {
    "id": "queso-american-cheddar",
@@ -2909,7 +3158,11 @@
    ],
    "notes": "Reheats without breaking. Use block cheddar, not bagged shredded.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead"
+   ]
   },
   {
    "id": "quick-pickled-red-onions",
@@ -2942,7 +3195,11 @@
    ],
    "notes": "Ready in an hour, keeps two weeks refrigerated. For the ploughman's board.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "quick"
+   ]
   },
   {
    "id": "pickled-red-onions",
@@ -2975,7 +3232,12 @@
    ],
    "notes": "Ready in an hour, better after two days, better still at a week. Also made for the Aug 2026 kofta trip, where no quantities were recorded.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "quick"
+   ]
   },
   {
    "id": "rajma",
@@ -3070,7 +3332,13 @@
    ],
    "notes": "Freeze without rice or cilantro for up to 3 months; the garam masala, methi, butter, and salt can go in before freezing. Add a fresh squeeze of lemon when reheating. Keeps 3 to 4 days in the fridge.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "freezer",
+    "long-cook",
+    "crowd"
+   ]
   },
   {
    "id": "ras-el-hanout-caraway",
@@ -3107,7 +3375,12 @@
    ],
    "notes": "Keeps 3 to 6 months in an airtight jar; ginger and cinnamon fade fastest. Requested scaling to a 0.14 oz container was never completed.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "shelf-stable",
+    "quick"
+   ]
   },
   {
    "id": "red-beans-camp",
@@ -3153,7 +3426,11 @@
    ],
    "notes": "Must be thick and scoopable so it does not pool in a sealed foil packet.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead"
+   ]
   },
   {
    "id": "reeses-puffs-krispie-treats",
@@ -3204,7 +3481,10 @@
    ],
    "notes": "",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "quick"
+   ]
   },
   {
    "id": "reeses-puffs-no-bake-clusters",
@@ -3241,7 +3521,10 @@
    ],
    "notes": "Press a few dry Puffs onto the tops right after scooping for crunch.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "quick"
+   ]
   },
   {
    "id": "ldw-remoulade",
@@ -3276,7 +3559,11 @@
    ],
    "notes": "Holds two weeks refrigerated and improves sitting.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "quick"
+   ]
   },
   {
    "id": "roast-game-hens",
@@ -3327,7 +3614,11 @@
    ],
    "notes": "Hen butter keeps several days refrigerated. Roast on top of the duck fat roast potatoes. Strain the rendered hen fat and keep it for frying.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "long-cook"
+   ]
   },
   {
    "id": "hen-gravy",
@@ -3374,7 +3665,10 @@
    ],
    "notes": "Base made 3 days ahead; seasoned light because the juices from the salted hens bring the rest.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead"
+   ]
   },
   {
    "id": "salsa-roja-de-arbol",
@@ -3416,7 +3710,11 @@
    ],
    "notes": "Improves over a few days; frying helps it keep longer.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead"
+   ]
   },
   {
    "id": "sausage-rolls",
@@ -3462,7 +3760,12 @@
    ],
    "notes": "Bake straight from frozen.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "freezer",
+    "crowd"
+   ]
   },
   {
    "id": "serrano-ranch",
@@ -3493,7 +3796,11 @@
    ],
    "notes": "Make no more than 3 days ahead; buttermilk will not hold a week. Ride in the cooler.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "quick"
+   ]
   },
   {
    "id": "skillet-cornbread-honey-butter",
@@ -3547,7 +3854,11 @@
    ],
    "notes": "Honey butter can be made a day ahead; take it out 2 to 3 hours before serving to soften. Leftover wedges are split and griddled for breakfast sandwiches.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "crowd"
+   ]
   },
   {
    "id": "slow-cooker-carnitas",
@@ -3601,7 +3912,14 @@
    ],
    "notes": "Needs a 7 qt or larger slow cooker. Freeze shredded, uncrisped pork with some of its fat and juices for up to 3 months; crisp after thawing. Freeze the bone for stock.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "freezer",
+    "slow-cooker",
+    "long-cook",
+    "crowd"
+   ]
   },
   {
    "id": "slushi-margarita",
@@ -3638,7 +3956,10 @@
    ],
    "notes": "If the first taste reads too sweet, lime is the lever. If it won't freeze, add 1/4 cup water or soda per serving and give it 30 more minutes.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "crowd"
+   ]
   },
   {
    "id": "slushi-strawberry-daiquiri",
@@ -3674,7 +3995,10 @@
    ],
    "notes": "No cilantro in this one. If it won't freeze, add 1/4 cup water or soda per serving and give it 30 more minutes.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "crowd"
+   ]
   },
   {
    "id": "split-buttermilk-pancakes-ham-cheddar",
@@ -3763,7 +4087,11 @@
    ],
    "notes": "Wet mixes keep a couple of days refrigerated; shake hard before pouring since the butter sets into flecks. Blended eggs hold in squeeze bottles in the cooler.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead"
+   ]
   },
   {
    "id": "tartar-sauce",
@@ -3797,7 +4125,11 @@
    ],
    "notes": "Keeps a week refrigerated.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "quick"
+   ]
   },
   {
    "id": "teds-72-hour-pizza-dough",
@@ -3866,7 +4198,11 @@
    ],
    "notes": "Label containers with date and time. Past 96 hours the dough goes slack. Refresh the mother (20 g mother, 40 g flour, 20 g water) in the same session as the levain build.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead",
+    "long-cook"
+   ]
   },
   {
    "id": "full-english-breakfast",
@@ -3913,7 +4249,8 @@
    ],
    "notes": "",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": []
   },
   {
    "id": "san-marzano-tomato-soup",
@@ -3965,7 +4302,10 @@
    ],
    "notes": "Make up to 4 days ahead. Hold the cream and basil until reheating. Served with grilled cheese.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "make-ahead"
+   ]
   },
   {
    "id": "vinegar-slaw",
@@ -4000,7 +4340,12 @@
    ],
    "notes": "Make about 3 days ahead; it improves, but goes limp by 5 days.",
    "rating": 0,
-   "keeper": false
+   "keeper": false,
+   "traits": [
+    "camping",
+    "make-ahead",
+    "quick"
+   ]
   }
  ]
 }

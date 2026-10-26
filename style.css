@@ -78,6 +78,11 @@ button{cursor:pointer}
 .meta b{color:var(--fg);font-weight:600}
 .tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
 .tag{font-size:12px;background:var(--sunk);border-radius:4px;padding:1px 7px;color:var(--muted)}
+.trait{font-size:12px;font-weight:600;background:var(--surface);border:1px solid var(--accent);color:var(--accent);border-radius:999px;padding:0 9px}
+.traits-row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.traits-row .lbl{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+.chip.t{border-style:dashed}
+.chip.t[aria-pressed="true"]{border-style:solid}
 .flag{font-size:12px;background:var(--warn-soft);color:var(--warn);border-radius:4px;padding:1px 7px;font-weight:500}
 
 .verdict{display:flex;gap:14px 24px;flex-wrap:wrap;align-items:center;padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
